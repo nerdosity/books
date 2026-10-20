@@ -17,6 +17,8 @@ pronto/
 
 ## Compilare una nuova copia (solo per chi la prepara)
 
+L’interfaccia si ispira a NotebookLM: pannelli neutri, accenti blu, Google Sans incorporato e caratteri più grandi (lezioni 20 px, ingrandibili a 23 px). Il menu **Aspetto** permette di scegliere **Dispositivo**, **Chiaro** o **Scuro · OLED**. Il tema scuro usa uno sfondo nero e pannelli scuri; tavole e disegni scientifici conservano i colori originali. La scelta viene salvata con i progressi e inclusa nel backup. La stampa mantiene lo sfondo bianco. Google Sans è distribuito con [licenza SIL OFL](assets/fonts/OFL.txt); font e licenza sono incorporati anche nella copia autonoma.
+
 Dalla cartella `studio`:
 
 ```text

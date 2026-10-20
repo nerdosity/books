@@ -59,11 +59,21 @@ export async function renderBuild() {
     if (!valid) throw new Error(`Immagine ${png?'PNG':'JPEG'} non valida: ${figure.id}`);
     figure.dataUrl=`data:image/${png?'png':'jpeg'};base64,${bytes.toString('base64')}`;
   }
-  const [template, css, script] = await Promise.all([
+  const [template, baseCss, script] = await Promise.all([
     readFile(path.join(root, 'index.template.html'), 'utf8'),
     readFile(path.join(root, 'styles.css'), 'utf8'),
     bundleScript()
   ]);
+  const fontManifest = JSON.parse(await readFile(path.join(root,'assets','fonts','manifest.json'),'utf8'));
+  const fonts = await Promise.all(fontManifest.map(async font => {
+    if (!/^google-sans-[a-z-]+\.woff2$/.test(font.file) || !['normal','italic'].includes(font.style)
+      || font.weight !== '400 700' || !/^[U+0-9A-F?, -]+$/.test(font.unicodeRange)) throw new Error('Manifest font non valido.');
+    const bytes = await readFile(path.join(root,'assets','fonts',font.file));
+    if (bytes.subarray(0,4).toString() !== 'wOF2') throw new Error('Font WOFF2 non valido.');
+    return `@font-face{font-family:"Google Sans";font-style:${font.style};font-weight:${font.weight};font-display:swap;src:url(data:font/woff2;base64,${bytes.toString('base64')}) format("woff2");unicode-range:${font.unicodeRange}}`;
+  }));
+  const fontLicense = await readFile(path.join(root,'assets','fonts','OFL.txt'),'utf8');
+  const css = `/* Google Sans — SIL Open Font License 1.1\n${fontLicense.replace(/\*\//g,'* /')}\n*/\n${fonts.join('\n')}\n${baseCss}`;
   if (/<\/style/i.test(css) || /<\/script/i.test(script))
     throw new Error('Sequenza HTML di chiusura non consentita nel codice incorporato.');
   let html = template;

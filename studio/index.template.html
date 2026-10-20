@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#174b42">
+  <meta name="theme-color" content="#f0f2f6">
   <title>Studio — Scienze motorie</title>
   <link rel="stylesheet" href="./styles.css">
+  <script data-appearance-init>
+    // Apply the saved appearance before painting, including on file://.
+    (() => {
+      let theme = 'system';
+      try { theme = JSON.parse(localStorage.getItem('studio-motorie-v1'))?.settings?.theme || 'system'; } catch {}
+      const dark = theme === 'dark' || (theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      document.querySelector('meta[name="theme-color"]').content = dark ? '#000000' : '#f0f2f6';
+    })();
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Vai al contenuto</a>
@@ -27,7 +37,7 @@
       </div>
     </aside>
     <div class="workspace">
-      <header class="topbar"><span>Un concetto alla volta.</span><span class="badge">BARI · PRIMO ANNO</span></header>
+      <header class="topbar"><span class="badge">BARI · PRIMO ANNO</span><label class="theme-control" for="appearance">Aspetto <select id="appearance"><option value="system">Dispositivo</option><option value="light">Chiaro</option><option value="dark">Scuro · OLED</option></select></label></header>
       <div id="notice" role="status" aria-live="polite"></div>
       <main id="main" tabindex="-1"><p class="loading">Preparazione della scrivania…</p></main>
       <footer>Studio personale · UniBa 2026/27 · Lezioni originali e tavole attribuite · Copertura dei programmi in costruzione.</footer>

@@ -14,6 +14,19 @@ test('backup round-trip preserves attempts, notes and preferences',()=>{
   const state=sample();state.notes.cellula='È una prova <script>test</script>';state.settings.name='Giulia';
   assert.deepEqual(validateState(JSON.parse(JSON.stringify(state))),state);
 });
+
+test('appearance is optional in old backups and does not replace study history',()=>{
+  const old=sample();delete old.settings.theme;old.notes.cellula='Appunti precedenti';
+  assert.deepEqual(validateState(old),old);
+  const incoming=sample();incoming.settings.theme='dark';
+  assert.equal(validateState(incoming).settings.theme,'dark');
+  const local=validateState(old);local.settings.theme='light';
+  const merged=mergeState(local,incoming);
+  assert.equal(merged.settings.theme,'light');
+  assert.equal(merged.notes.cellula,'Appunti precedenti');
+  assert.equal(merged.attempts.length,1);
+  incoming.settings.theme='invalid';assert.throws(()=>validateState(incoming),/Aspetto/);
+});
 test('import rejects incompatible, malformed or contradictory records',()=>{
   for(const bad of [null,{}, {...freshState(),version:2},{...freshState(),attempts:'oops'}]) assert.throws(()=>validateState(bad));
   const bad=sample();bad.sessions[0].attemptIds=['missing'];assert.throws(()=>validateState(bad));

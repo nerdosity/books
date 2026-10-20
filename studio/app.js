@@ -17,6 +17,15 @@ const now = () => new Date().toISOString();
 const displayDate = iso => new Date(iso).toLocaleString('it-IT', { dateStyle: 'short', timeStyle: 'short' });
 let course, exercises, library, definitions, state = freshState(), storageBlocked = false, corruptRaw = null;
 const main = $('#main');
+const systemAppearance = window.matchMedia('(prefers-color-scheme: dark)');
+function applyTheme() {
+  const preference = state.settings.theme || 'system';
+  const dark = preference === 'dark' || (preference === 'system' && systemAppearance.matches);
+  document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+  $('#appearance').value = preference;
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#000000' : '#f0f2f6';
+}
+systemAppearance.addEventListener('change', applyTheme);
 function notice(message) {
   $('#notice').className = message ? 'status-message' : '';
   $('#notice').textContent = message;
@@ -304,6 +313,7 @@ function books() {
 function settings() {
   return `${head('COME TI TROVI MEGLIO', 'Preferenze e backup.', 'Studio e progressi locali. L’audio ElevenLabs è facoltativo e richiede un tuo account.')}
     <div class="settings"><div class="card"><form id="settings-form"><label>Come ti chiami?<input name="name" maxlength="80" value="${esc(state.settings.name)}" placeholder="Il tuo nome"></label>
+    <p>Il menu “Aspetto” in cima alla pagina sceglie il tema chiaro, scuro OLED o quello del dispositivo. La scelta si salva subito ed è inclusa nel backup.</p>
     <label class="row"><input type="checkbox" name="largeText" ${state.settings.largeText ? 'checked' : ''}> Testo delle lezioni più grande</label>
     <label class="section-heading">Durata abituale delle sessioni<select name="sessionSize">${[5,8,12].map(n => `<option value="${n}" ${n === state.settings.sessionSize ? 'selected' : ''}>${n} esercizi</option>`).join('')}</select></label><button class="primary">Salva preferenze</button></form></div>
     <div class="card"><h2>Porta con te i progressi</h2><p>Il backup contiene preferenze, appunti, lezioni lette, esercizi, voti, sessione in corso e laboratori: formule, report e verifiche. Copiare soltanto la cartella del sito non trasferisce i dati del browser.</p>
@@ -327,6 +337,7 @@ function printBook(id) {
     ${units.filter(u => u.oral).map(u => `<article class="lesson"><h2>${esc(u.title)}</h2>${oralHTML(u,true)}</article>`).join('')}</div>`;
 }
 function render() {
+  applyTheme();
   disposeAudioPlayers();
   const [requestedRoute, arg, section] = location.hash.slice(1).split('/');
   const route = requestedRoute || 'home';
@@ -387,7 +398,7 @@ document.addEventListener('submit', event => {
   if (form.id === 'audio-settings-form') { void handleAudioSubmit(form); return; }
   if (form.id === 'practice-form') startSession({exam:data.get('exam'),unit:data.get('unit'),level:data.get('level'),size:Number(data.get('size'))});
   if (form.id === 'settings-form') {
-    state.settings = {name:data.get('name').trim(),largeText:data.has('largeText'),sessionSize:Number(data.get('sessionSize'))};
+    state.settings = {...state.settings,name:data.get('name').trim(),largeText:data.has('largeText'),sessionSize:Number(data.get('sessionSize'))};
     save(); document.body.classList.toggle('large',state.settings.largeText); if (!storageBlocked) notice('Preferenze salvate.');
   }
   if (form.id === 'answer-form' && state.active) {
@@ -431,6 +442,11 @@ document.addEventListener('input', event => {
   }
 });
 document.addEventListener('change', async event => {
+  if (event.target.id === 'appearance') {
+    state.settings.theme = event.target.value;
+    applyTheme(); save();
+    return;
+  }
   if(event.target.dataset.sheetCell){const sheet=currentSheet();if(sheet)refreshSheet(sheet.lab,sheet.record);}
   if (event.target.id === 'learn-filter') location.hash = `#learn/${event.target.value}`;
   if (event.target.id === 'practice-exam') {
@@ -444,6 +460,7 @@ document.addEventListener('change', async event => {
       const incoming = validateState(JSON.parse(await file.text()));
       const emptyLocal = !state.attempts.length && !state.sessions.length && !Object.keys(state.read).length && !Object.keys(state.notes).length
         && !state.settings.name && !state.settings.largeText && state.settings.sessionSize === 8 && !state.active && !state.lastUnit
+        && (!state.settings.theme || state.settings.theme === 'system')
         && !Object.keys(state.labs||{}).length;
       const merged = emptyLocal ? incoming : mergeState(state,incoming);
       // Persist before replacing the live state: a failed import never silently destroys local progress.

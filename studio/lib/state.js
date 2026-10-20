@@ -1,6 +1,6 @@
 export const STORAGE_KEY = 'studio-motorie-v1';
 export function freshState() {
-  return { version: 1, settings: { name: '', largeText: false, sessionSize: 8 },
+  return { version: 1, settings: { name: '', largeText: false, sessionSize: 8, theme: 'system' },
     read: {}, notes: {}, lastUnit: null, attempts: [], sessions: [], active: null, labs: {} };
 }
 const string = (v, max = 50000) => typeof v === 'string' && v.length <= max;
@@ -12,6 +12,7 @@ export function validateState(s) {
   assert(record(s) && s.version === 1, 'Formato di backup non supportato.');
   assert(record(s.settings) && string(s.settings.name, 80) && typeof s.settings.largeText === 'boolean'
     && [5,8,12].includes(s.settings.sessionSize), 'Preferenze non valide.');
+  assert(s.settings.theme === undefined || ['system','light','dark'].includes(s.settings.theme), 'Aspetto non valido.');
   assert(record(s.read) && Object.entries(s.read).every(([k,v]) => id(k) && date(v)), 'Registro letture non valido.');
   assert(record(s.notes) && Object.entries(s.notes).every(([k,v]) => id(k) && string(v)), 'Appunti non validi.');
   assert(s.lastUnit === null || id(s.lastUnit), 'Ultima lezione non valida.');

@@ -1,6 +1,8 @@
 SEGNALIBRO DI LAVORO — 20 ottobre 2026
 STATO: IN PAUSA SU RICHIESTA DELL’UTENTE
 
+Intervento grafico successivo autorizzato: stile ispirato a NotebookLM, Google Sans offline, testi più grandi e tema chiaro/scuro OLED/dispositivo salvato. Questo aggiornamento non riprende né completa lo sviluppo didattico elencato sotto.
+
 Ultimo blocco chiuso e verificato: Anatomia, collo/dorso, torace/addome, pelvi/perineo e sei rotatori profondi dell’anca. Tre lezioni, 12 sezioni, 10 tabelle, 36 quiz, tre prove aperte e tavola OpenStax attribuita.
 Consegna: pronto/index.html. Apribile direttamente; progressi e impostazioni restano nel browser.
 Totali: 149 lezioni, 580 sezioni, 998 quiz, 27 famiglie numeriche, 129 prove aperte, 12 tavole anatomiche.

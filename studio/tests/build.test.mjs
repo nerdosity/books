@@ -19,6 +19,9 @@ test('delivery is one deterministic HTML with content, CSS and classic JavaScrip
   assert.doesNotMatch(code,/^\s*(?:import|export)\s/m);
   assert.doesNotThrow(()=>new Script(code));
   assert.match(html,/<style>[\s\S]+<\/style>/);
+  assert.match(html,/font-family:"Google Sans";font-style:normal;font-weight:400 700/);
+  assert.match(html,/data:font\/woff2;base64,/);
+  assert.match(html,/SIL OPEN FONT LICENSE Version 1.1/);
 });
 test('embedded JSON cannot end the script element through lesson or quiz text', () => {
   const text='</script><script>alert(1)</script><b>&\u2028\u2029';
