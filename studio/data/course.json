@@ -12796,6 +12796,1089 @@
         "bc-full-voltage",
         "bc-full-endplate"
       ]
+    },
+    {
+      "id": "anatomia-avambraccio",
+      "subject": "anatomia",
+      "title": "Avambraccio: rotazioni, tendini e nervi",
+      "description": "Ricostruire la funzione dal percorso: radio e ulna, strati muscolari, passaggi al polso e rami nervosi.",
+      "minutes": 60,
+      "bookIds": [],
+      "objectives": [
+        "Due ossa che permettono di orientare la mano",
+        "Flessori superficiali e strato intermedio",
+        "Lo strato profondo e il nervo interosseo anteriore",
+        "Il gruppo posteriore e laterale non è tutto uguale",
+        "Supinatore, estensori profondi e tabacchiera anatomica",
+        "Seguire nervi e vasi dal gomito al polso"
+      ],
+      "sections": [
+        {
+          "id": "ossa",
+          "title": "Due ossa che permettono di orientare la mano",
+          "text": [
+            "In posizione anatomica il radio è laterale, dal lato del pollice, e l’ulna è mediale, dal lato del mignolo. Queste parole non cambiano quando giri la mano: sono riferite alla posizione anatomica. Prossimalmente l’ulna presenta olecrano e processo coronoideo, che delimitano l’incisura trocleare per la troclea omerale. La testa del radio incontra il capitello dell’omero e, con la sua circonferenza, l’incisura radiale dell’ulna. Il legamento anulare trattiene la testa radiale consentendone la rotazione.",
+            "La flessione del gomito avvicina avambraccio e braccio; la pronazione orienta diversamente il palmo senza richiedere questo avvicinamento. Nella radio-ulnare prossimale ruota la testa radiale; nella radio-ulnare distale l’incisura ulnare del radio si muove attorno alla testa dell’ulna. Le due articolazioni lavorano insieme. In supinazione radio e ulna sono approssimativamente paralleli; in pronazione il radio passa obliquamente davanti all’ulna, portando con sé la mano. Il movimento reale può comprendere piccoli adattamenti dell’ulna: non immaginarla sempre rigidamente immobile.",
+            "Distalmente il radio è più largo e partecipa direttamente all’articolazione radiocarpica. Un disco articolare separa la testa ulnare dal carpo; non esiste un contatto osseo diretto ulna–ossa carpali analogo a quello del radio. La membrana interossea collega i margini delle diafisi: offre attacchi muscolari e contribuisce alla trasmissione dei carichi fra le ossa. Non è il legamento anulare e non è un’articolazione del polso.",
+            "Per descrivere un gesto procedi in ordine: identifica il segmento che resta fermo, indica l’articolazione, poi il movimento. Girare il palmo mediante rotazione della spalla può imitare visivamente parte del gesto: per ragionare sulla pronosupinazione tieni il braccio vicino al tronco e il gomito flesso."
+          ],
+          "example": "Con gomito flesso e braccio fermo, passi dal palmo verso l’alto al palmo verso il basso: stai pronando l’avambraccio. Il polso non deve flettersi; il radio modifica il proprio rapporto con l’ulna in entrambe le articolazioni radio-ulnari.",
+          "takeaway": "Pronosupinazione e flessoestensione del gomito sono movimenti distinti; la mano segue il radio."
+        },
+        {
+          "id": "anteriori",
+          "title": "Flessori superficiali e strato intermedio",
+          "text": [
+            "La fascia antebrachiale avvolge l’avambraccio; ossa, membrana interossea e setti contribuiscono a separarne i gruppi muscolari. Nel compartimento anteriore si trovano flessori e pronatori. Quattro muscoli appartengono allo strato superficiale: pronatore rotondo, flessore radiale del carpo, palmare lungo e flessore ulnare del carpo. Il flessore superficiale delle dita forma uno strato intermedio. Molti condividono parte dell’origine sull’epicondilo mediale dell’omero, ma non hanno la stessa inserzione né lo stesso nervo.",
+            "Le parole radiale e ulnare indicano il lato del polso verso cui un muscolo può contribuire a deviare la mano. Il flessore radiale flette e abduce il polso verso il pollice; il flessore ulnare flette e adduce verso il mignolo. Se agiscono insieme, le componenti laterali possono bilanciarsi mentre si sommano quelle di flessione. Il pronatore rotondo termina invece sul radio, prima del polso: la sua linea di trazione contribuisce a pronare l’avambraccio e può assistere la flessione del gomito.",
+            "Il palmare lungo tende soprattutto l’aponeurosi palmare, una lamina connettivale del palmo, e assiste la flessione del polso. Può essere assente come variante anatomica: non attribuirgli una funzione indispensabile che nessun altro muscolo possa svolgere. Il flessore superficiale invia quattro tendini alle dita II–V. Ciascuno si divide lasciando passare il tendine del flessore profondo e termina sulla falange media: può flettere l’interfalangea prossimale, ma non tira direttamente sulla falange distale.",
+            "Nella tabella la freccia collega attacco prossimale e distale. Sono riportati gli attacchi principali per ricostruire il percorso, non ogni espansione o variante. Il mediano innerva questi muscoli con l’eccezione del flessore ulnare del carpo, affidato all’ulnare."
+          ],
+          "example": "Vuoi flettere il polso senza deviarlo nettamente verso un lato. La collaborazione fra flessore radiale e ulnare è coerente: entrambi passano anteriormente al polso, ma tirano su lati diversi. Non servirebbe il pronatore rotondo come flessore diretto del polso, perché termina sul radio.",
+          "takeaway": "Compartimento anteriore non significa innervazione esclusivamente mediana; l’inserzione distingue polso e dita.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Pronatore rotondo",
+                "Epicondilo mediale e processo coronoideo → faccia laterale della parte media del radio",
+                "Pronazione, aiuto alla flessione del gomito; mediano"
+              ],
+              [
+                "Flessore radiale del carpo",
+                "Epicondilo mediale → base del II metacarpo, con espansione al III",
+                "Flessione e deviazione radiale del polso; mediano"
+              ],
+              [
+                "Palmare lungo",
+                "Epicondilo mediale → aponeurosi palmare e retinacolo dei flessori",
+                "Tensione dell’aponeurosi, aiuto alla flessione del polso; mediano"
+              ],
+              [
+                "Flessore ulnare del carpo",
+                "Epicondilo mediale, olecrano e margine posteriore ulnare → pisiforme; continuazioni legamentose verso uncino dell’uncinato e base V metacarpo",
+                "Flessione e deviazione ulnare del polso; ulnare"
+              ],
+              [
+                "Flessore superficiale delle dita",
+                "Capo omero-ulnare da epicondilo mediale/coronoide e capo radiale → falangi medie II–V",
+                "Flessione delle interfalangee prossimali; contribuisce a flessione metacarpofalangea e del polso; mediano"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "profondi",
+          "title": "Lo strato profondo e il nervo interosseo anteriore",
+          "text": [
+            "Sotto il flessore superficiale si trovano flessore profondo delle dita e flessore lungo del pollice. Il pronatore quadrato occupa la parte distale, profondamente ai tendini: collega ulna e radio e non raggiunge le dita. Lo strato profondo riunisce quindi funzioni diverse; la profondità non basta a predire il movimento.",
+            "Il flessore profondo delle dita arriva alle falangi distali II–V, attraversando le divisioni dei tendini superficiali. È perciò il flessore diretto delle interfalangee distali e può contribuire alla flessione delle articolazioni più prossimali attraversate. La sua innervazione è divisa: la porzione per indice e medio dipende normalmente dall’interosseo anteriore, ramo del mediano; quella per anulare e mignolo dall’ulnare. Sono possibili varianti e sovrapposizioni, soprattutto nel confine fra porzioni: la tabella presenta il modello didattico usuale.",
+            "L’interosseo anteriore percorre la faccia anteriore della membrana interossea e innerva anche flessore lungo del pollice e pronatore quadrato. Non fornisce un territorio cutaneo. Un suo coinvolgimento isolato può quindi alterare questi movimenti senza obbligare a prevedere perdita di sensibilità della pelle. Il mediano principale fornisce altri rami ai muscoli superficiali prima di raggiungere la mano: una lesione di un ramo non equivale a una lesione di tutto il nervo.",
+            "Per il pollice distingui interfalangea, metacarpofalangea e carpometacarpica. Il flessore lungo termina sulla falange distale e flette l’interfalangea; il flessore breve, intrinseco della mano, termina sulla falange prossimale. L’opposizione è un movimento composito del primo metacarpo, non il semplice piegamento dell’ultima falange."
+          ],
+          "example": "In un caso anatomico ipotetico sono deboli la flessione dell’ultima falange del pollice e quella dell’indice, mentre il mignolo conserva la flessione distale. Il modello si accorda con i territori dell’interosseo anteriore e dell’ulnare; non basta da solo a fare una diagnosi clinica. Il pronatore quadrato è un terzo muscolo da collegare allo stesso ramo.",
+          "takeaway": "Interosseo anteriore: flessore lungo del pollice, porzione radiale del profondo e pronatore quadrato, senza territorio cutaneo.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Flessore profondo delle dita",
+                "Ulna prossimale anteriore/mediale e membrana interossea → falangi distali II–V",
+                "Flessione distale delle dita; II–III interosseo anteriore, IV–V ulnare nel modello usuale"
+              ],
+              [
+                "Flessore lungo del pollice",
+                "Radio anteriore e membrana interossea → falange distale del pollice",
+                "Flessione dell’interfalangea del pollice; interosseo anteriore"
+              ],
+              [
+                "Pronatore quadrato",
+                "Ulna distale anteriore → radio distale anteriore",
+                "Pronazione e stabilizzazione radio-ulnare distale; interosseo anteriore"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "posteriori",
+          "title": "Il gruppo posteriore e laterale non è tutto uguale",
+          "text": [
+            "Il gruppo posteriore dell’avambraccio comprende molti estensori, ma la regola non descrive ogni muscolo della regione. Il brachioradiale, sul lato laterale, origina dall’omero e termina sul radio distale: flette il gomito, soprattutto con avambraccio in posizione intermedia, e non attraversa il polso. L’anconeo collega epicondilo laterale e ulna prossimale, assistendo estensione e stabilità del gomito. Entrambi ricevono rami del radiale.",
+            "Gli estensori radiali lungo e breve del carpo terminano rispettivamente alla base del II e del III metacarpo; estendono e deviano radialmente il polso. L’estensore ulnare termina alla base del V e aggiunge una componente di deviazione ulnare. Per ottenere estensione senza forte deviazione laterale possono collaborare estensori radiali e ulnare. Durante una presa, gli estensori stabilizzano il polso rispetto alla trazione dei flessori lunghi delle dita: un muscolo può essere attivo per mantenere una posizione, non solo per produrre uno spostamento visibile.",
+            "L’estensore delle dita raggiunge le espansioni dorsali II–V; l’estensore del mignolo si aggiunge al sistema del quinto dito. Le espansioni distribuiscono le trazioni sulle falangi e ricevono anche muscoli intrinseci. L’estensione interfalangea dipende quindi dall’apparato estensore nel suo insieme: non immaginare un unico tendine isolato per ogni articolazione.",
+            "Il radiale si divide in ramo superficiale, prevalentemente sensitivo cutaneo, e ramo profondo. Quest’ultimo attraversa il supinatore e prosegue come interosseo posteriore. Non chiamare ogni ramo muscolare radiale “interosseo posteriore”: brachioradiale ed estensore radiale lungo ricevono rami più prossimali; il breve riceve tipicamente il ramo profondo, con varianti."
+          ],
+          "example": "Nel mantenere una bottiglia, i flessori digitali tirano anche in flessione sul polso. L’attività degli estensori del carpo può contrastare questa componente: vedere il polso fermo non significa che gli estensori siano spenti. Il brachioradiale può flettere il gomito, ma la sua inserzione sul radio non gli consente di estendere direttamente il polso.",
+          "takeaway": "Nervo radiale e azione estensoria non sono sinonimi: controlla attacco distale e ramo nervoso.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Brachioradiale",
+                "Cresta sopracondiloidea laterale omerale → radio distale presso la stiloide",
+                "Flessione del gomito; radiale"
+              ],
+              [
+                "Estensore radiale lungo del carpo",
+                "Cresta sopracondiloidea laterale → base dorsale II metacarpo",
+                "Estensione e deviazione radiale del polso; radiale"
+              ],
+              [
+                "Estensore radiale breve del carpo",
+                "Epicondilo laterale → base dorsale III metacarpo",
+                "Estensione e deviazione radiale; ramo profondo radiale, con varianti"
+              ],
+              [
+                "Estensore delle dita",
+                "Epicondilo laterale → espansioni dorsali II–V",
+                "Estensione digitale e aiuto all’estensione del polso; interosseo posteriore"
+              ],
+              [
+                "Estensore del mignolo",
+                "Epicondilo laterale → espansione dorsale V dito",
+                "Estensione del mignolo; interosseo posteriore"
+              ],
+              [
+                "Estensore ulnare del carpo",
+                "Epicondilo laterale e ulna posteriore → base V metacarpo",
+                "Estensione e deviazione ulnare del polso; interosseo posteriore"
+              ],
+              [
+                "Anconeo",
+                "Epicondilo laterale → olecrano laterale e ulna posteriore prossimale",
+                "Aiuto all’estensione e stabilità del gomito; radiale"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "pollice",
+          "title": "Supinatore, estensori profondi e tabacchiera anatomica",
+          "text": [
+            "Il supinatore avvolge la parte prossimale del radio. I suoi attacchi su epicondilo laterale, legamenti e ulna consentono di tirare il radio verso la supinazione. Collabora con il bicipite brachiale, già studiato nel braccio: la supinazione non è quindi una funzione esclusiva di un solo compartimento. Il ramo profondo radiale passa nel supinatore; il rapporto spaziale aiuta a ricordare il percorso verso il dorso dell’avambraccio.",
+            "Gli altri muscoli profondi posteriori sono abduttore lungo del pollice, estensori breve e lungo del pollice ed estensore dell’indice. Il loro nome non basta: l’abduttore lungo termina sul primo metacarpo e agisce sulla carpometacarpica; il breve estensore raggiunge la falange prossimale; il lungo estensore raggiunge quella distale e può estendere direttamente l’interfalangea. Il tendine del lungo estensore cambia direzione attorno al tubercolo dorsale del radio, detto di Lister. L’estensore dell’indice si unisce all’espansione dorsale del secondo dito e permette un contributo specifico alla sua estensione.",
+            "Sul dorso del polso il retinacolo degli estensori mantiene i tendini vicini allo scheletro. Dal lato radiale a quello ulnare si descrivono sei canali: 1 abduttore lungo ed estensore breve del pollice; 2 estensori radiali lungo e breve del carpo; 3 estensore lungo del pollice; 4 estensore delle dita e dell’indice; 5 estensore del mignolo; 6 estensore ulnare del carpo. Canale significa passaggio osteofibroso per tendini, non ramo del nervo.",
+            "Quando estendi il pollice compare una depressione dorsolaterale, la tabacchiera anatomica. Il bordo laterale è dato dai tendini dell’abduttore lungo e dell’estensore breve, quello mediale dall’estensore lungo. Sul fondo sono riconoscibili scafoide e trapezio; l’arteria radiale attraversa la regione. Non confondere la tabacchiera con il tunnel carpale, che è palmare e contiene il mediano e nove tendini flessori."
+          ],
+          "example": "Immagina un tendine che arriva alla falange distale del pollice sul lato dorsale: è coerente con l’estensore lungo. Se arrivasse alla base del primo metacarpo, non potrebbe tirare direttamente sull’interfalangea; questo è il caso dell’abduttore lungo, che condivide invece il primo canale dorsale con l’estensore breve.",
+          "takeaway": "Nel pollice distingui metacarpo, falange prossimale e distale: sono tre destinazioni con effetti diversi.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Supinatore",
+                "Epicondilo laterale, legamenti anulare/collaterale radiale e cresta supinatoria ulnare → radio prossimale",
+                "Supinazione; ramo profondo radiale"
+              ],
+              [
+                "Abduttore lungo del pollice",
+                "Radio, ulna posteriori e membrana interossea → base I metacarpo",
+                "Abduzione del primo metacarpo; interosseo posteriore"
+              ],
+              [
+                "Estensore breve del pollice",
+                "Radio posteriore e membrana interossea → falange prossimale del pollice",
+                "Estensione metacarpofalangea; interosseo posteriore"
+              ],
+              [
+                "Estensore lungo del pollice",
+                "Ulna posteriore e membrana interossea → falange distale del pollice",
+                "Estensione interfalangea; interosseo posteriore"
+              ],
+              [
+                "Estensore dell’indice",
+                "Ulna posteriore distale e membrana interossea → espansione dorsale indice",
+                "Estensione dell’indice; interosseo posteriore"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "passaggi",
+          "title": "Seguire nervi e vasi dal gomito al polso",
+          "text": [
+            "La fossa cubitale è la regione anteriore del gomito: il brachioradiale ne delimita il lato laterale e il pronatore rotondo quello mediale; una linea fra gli epicondili rappresenta il limite superiore. Il pavimento comprende brachiale e supinatore. Fra i contenuti profondi, procedendo da laterale a mediale, trovi tendine del bicipite, arteria brachiale e nervo mediano. Il radiale è ancora più laterale, presso il brachioradiale. La vena mediana cubitale appartiene al piano superficiale del tetto: non metterla fra arteria e nervo come se tutto fosse sullo stesso piano.",
+            "Il mediano passa tipicamente fra i capi del pronatore rotondo e prosegue profondamente al flessore superficiale, fra questo e il profondo. Il suo interosseo anteriore segue invece la membrana interossea. L’ulnare passa dietro l’epicondilo mediale, poi fra i capi del flessore ulnare del carpo: non attraversa il centro della fossa cubitale. Al polso raggiunge la mano attraverso il canale di Guyon, distinto dal tunnel carpale del mediano.",
+            "L’arteria brachiale si divide normalmente nella fossa cubitale in radiale e ulnare. La radiale percorre il lato del pollice e distalmente è superficiale accanto al tendine del flessore radiale del carpo; l’ulnare decorre più medialmente e dà, tramite l’interossea comune, rami interossei anteriore e posteriore. Le arterie accompagnano territori muscolari, ma il nome di un’arteria non stabilisce quale nervo innervi ogni muscolo vicino.",
+            "Nel ragionamento su un ramo nervoso chiedi: il punto ipotizzato è prima o dopo l’uscita dei rami muscolari? Un coinvolgimento del mediano nel tunnel carpale non interrompe per retroazione i rami già diretti al pronatore rotondo o al flessore lungo del pollice. Analogamente il ramo superficiale radiale ha un territorio cutaneo distinto dal percorso motorio degli estensori. I casi della lezione servono a ricostruire l’anatomia, non a diagnosticare una lesione da un singolo segno."
+          ],
+          "example": "Una domanda propone “mediano compresso nel tunnel carpale, quindi pronatore rotondo paralizzato”. Il collegamento è scorretto: il ramo per il pronatore si è staccato molto prima. Per includere quel muscolo nel territorio interessato occorrerebbe considerare un livello più prossimale e altre informazioni.",
+          "takeaway": "Il livello del ramo conta quanto il nome del nervo: segui il percorso in ordine prossimodistale."
+        }
+      ],
+      "oral": {
+        "prompt": "Ricostruisci una presa con gomito flesso: distingue pronazione, flessione delle dita e stabilizzazione del polso. Confronta poi il territorio dell’interosseo anteriore con quello del mediano al tunnel carpale.",
+        "answer": "La pronazione coinvolge le due radio-ulnari, pronatore rotondo e quadrato. I flessori superficiale e profondo raggiungono falangi diverse; il lungo del pollice raggiunge la distale. Gli estensori del carpo possono equilibrare la componente di flessione al polso durante la presa. Il brachioradiale agisce sul gomito e non sul polso. L’interosseo anteriore, ramo mediano senza territorio cutaneo, innerva lungo del pollice, porzione radiale del profondo e quadrato. Il mediano nel tunnel è già a valle dei rami per l’avambraccio: un problema locale non implica deficit di tutti i muscoli mediani.",
+        "criteria": [
+          "Distinguere gomito, radio-ulnari, polso e articolazioni digitali",
+          "Collegare almeno quattro muscoli ad attacchi, azioni e nervi",
+          "Spiegare la stabilizzazione senza movimento visibile",
+          "Distinguere ramo interosseo anteriore e livello del tunnel carpale"
+        ]
+      },
+      "prerequisites": [
+        "anatomia-spalla-braccio",
+        "anatomia-mano"
+      ],
+      "sources": [
+        "syllabus-anatomy",
+        "an-forearm-muscles",
+        "an-forearm-nerves",
+        "an-forearm-spaces",
+        "an-wrist-passages",
+        "an-uw-ecrb"
+      ]
+    },
+    {
+      "id": "anatomia-gamba",
+      "subject": "anatomia",
+      "title": "Gamba: compartimenti, appoggio e passaggi alla caviglia",
+      "description": "Dalla tibia alle dita: ricostruire dorsiflessione, spinta, inversione ed eversione attraverso muscoli e nervi.",
+      "minutes": 60,
+      "bookIds": [],
+      "objectives": [
+        "Tibia, fibula e quattro compartimenti",
+        "Sollevare l’avampiede e distendere le dita",
+        "Fibulari lungo e breve: stesso nervo, destinazioni diverse",
+        "Tricipite surale e rapporto con il ginocchio",
+        "Popliteo, tibiale posteriore e flessori lunghi",
+        "Dal cavo popliteo ai due malleoli"
+      ],
+      "sections": [
+        {
+          "id": "compartimenti",
+          "title": "Tibia, fibula e quattro compartimenti",
+          "text": [
+            "In anatomia la gamba è il segmento fra ginocchio e caviglia, non tutto l’arto inferiore. La tibia è mediale e riceve la parte principale del carico dal femore; la fibula, o perone, è laterale e offre attacchi muscolari e stabilità distale. Non è priva di funzione meccanica, ma non possiede una superficie articolare con il femore paragonabile al piatto tibiale. La testa della fibula è prossimale; il malleolo laterale è la sua estremità distale. Il malleolo mediale appartiene alla tibia.",
+            "L’articolazione tibiofibulare prossimale è sinoviale; quella distale è una sindesmosi, cioè un’unione fibrosa. La membrana interossea unisce le diafisi. Insieme ai legamenti distali, questi rapporti mantengono la pinza tibiofibulare attorno al talo. La caviglia talocrurale permette soprattutto dorsiflessione e flessione plantare. Inversione ed eversione richiedono invece soprattutto articolazioni del retropiede e mediotarsiche: non attribuirle interamente alla talocrurale.",
+            "La fascia crurale è il rivestimento connettivale profondo della gamba. Setti, ossa e membrana interossea separano compartimenti anteriore, laterale e posteriore; un setto trasversale divide quest’ultimo in superficiale e profondo. Si parla quindi comunemente di quattro compartimenti. Un compartimento è uno spazio delimitato da fasce, non un singolo muscolo.",
+            "La mappa nervosa iniziale è semplice: anteriore → fibulare profondo; laterale → fibulare superficiale; posteriori → tibiale. “Fibulare” e “peroneale” sono denominazioni alternative. Le eccezioni apparenti si risolvono seguendo il percorso: il fibulare terzo è anteriore e riceve il profondo, malgrado il nome simile a lungo e breve del compartimento laterale."
+          ],
+          "example": "Devi collocare un tendine che passa davanti alla caviglia e solleva l’avampiede. Parti dal compartimento anteriore e dal fibulare profondo. Per distinguere il muscolo devi poi cercarne l’inserzione: il solo gesto di dorsiflessione non identifica un nome unico.",
+          "takeaway": "Compartimento, passaggio davanti/dietro la caviglia e inserzione vanno usati insieme."
+        },
+        {
+          "id": "anteriore",
+          "title": "Sollevare l’avampiede e distendere le dita",
+          "text": [
+            "Nel compartimento anteriore trovi tibiale anteriore, estensore lungo dell’alluce, estensore lungo delle dita e fibulare terzo. I loro tendini passano davanti alla caviglia, trattenuti dai retinacoli degli estensori. Questo percorso è coerente con la dorsiflessione, che avvicina il dorso del piede alla gamba. Il nome “estensore” si riferisce qui soprattutto alle dita: un estensore digitale può essere contemporaneamente dorsiflessore della caviglia.",
+            "Il tibiale anteriore arriva medialmente al cuneiforme mediale e alla base del primo metatarso; associa dorsiflessione e inversione. Gli estensori lunghi raggiungono invece le dita: quello dell’alluce la falange distale del primo dito, quello delle dita le espansioni dorsali II–V. Il fibulare terzo, quando presente, termina sul lato dorsolaterale del quinto metatarso e contribuisce a dorsiflessione ed eversione. Non è il fibulare breve, che passa dietro il malleolo laterale.",
+            "Tutti ricevono il fibulare profondo. L’arteria tibiale anteriore raggiunge il compartimento attraversando prossimalmente la membrana interossea e continua distalmente come arteria dorsale del piede. Questa continuità vascolare non cambia l’identità del nervo. Il fibulare profondo raggiunge anche piccoli muscoli dorsali del piede e un territorio cutaneo tipico nel primo spazio interdigitale; i muscoli intrinseci sono trattati nella lezione sul piede.",
+            "Durante la fase di avanzamento nel cammino, la dorsiflessione aiuta a mantenere le dita sollevate dal suolo. Dopo il contatto iniziale, i dorsiflessori possono controllare la discesa dell’avampiede mentre si allungano: l’attività muscolare non coincide necessariamente con il movimento nel verso della sua azione concentrica."
+          ],
+          "example": "Un caso chiede di spiegare dorsiflessione debole e difficoltà a estendere l’alluce, con flessione plantare conservata. I primi due movimenti condividono il compartimento anteriore e il fibulare profondo; la spinta plantare coinvolge soprattutto muscoli posteriori con nervo tibiale. È un confronto di territori anatomici, non una diagnosi sufficiente.",
+          "takeaway": "Il fibulare terzo è anteriore: il nome dell’osso non determina il compartimento.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Tibiale anteriore",
+                "Condilo laterale e faccia laterale prossimale tibiale, membrana interossea → cuneiforme mediale e base I metatarso",
+                "Dorsiflessione e inversione; fibulare profondo"
+              ],
+              [
+                "Estensore lungo dell’alluce",
+                "Fibula anteriore e membrana interossea → falange distale dell’alluce",
+                "Estensione dell’alluce e dorsiflessione; fibulare profondo"
+              ],
+              [
+                "Estensore lungo delle dita",
+                "Condilo laterale tibiale, fibula anteriore e membrana interossea → espansioni dorsali II–V",
+                "Estensione delle dita e dorsiflessione; fibulare profondo"
+              ],
+              [
+                "Fibulare terzo",
+                "Fibula anteriore distale e membrana interossea → superficie dorsale della base/parte prossimale V metatarso",
+                "Dorsiflessione ed eversione; fibulare profondo; può essere assente"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "laterale",
+          "title": "Fibulari lungo e breve: stesso nervo, destinazioni diverse",
+          "text": [
+            "Il compartimento laterale contiene fibulare lungo e fibulare breve. Entrambi ricevono il fibulare superficiale e hanno tendini che passano dietro il malleolo laterale, trattenuti dai retinacoli fibulari. In quella regione il tendine del breve è anteriore a quello del lungo. La posizione posteriore rispetto alla caviglia contribuisce alla componente di flessione plantare; il percorso laterale contribuisce all’eversione del piede.",
+            "Il breve termina sulla tuberosità della base del quinto metatarso. Il lungo continua invece sotto il piede: utilizza il solco del cuboide come parte del suo percorso e raggiunge plantarmente il cuneiforme mediale e la base del primo metatarso. È quindi possibile avere un ventre laterale e un’inserzione mediale. Per predire l’azione bisogna seguire il tendine intero, comprese le deviazioni imposte dallo scheletro, non tracciare una retta immaginaria fra ventre e inserzione.",
+            "Il tendine del lungo contribuisce al sostegno degli archi del piede e al controllo del primo raggio, l’insieme funzionale del primo metatarso e delle sue articolazioni prossimali. L’inserzione vicina a quella del tibiale anteriore non rende le azioni uguali: il tibiale anteriore arriva da davanti e medialmente, mentre il fibulare lungo giunge dalla pianta dopo il giro laterale.",
+            "Dopo i rami motori per questi muscoli, il fibulare superficiale diventa cutaneo e raggiunge gran parte del dorso del piede. Il suo nome non indica un muscolo “meno profondo” rispetto a ogni altro nervo: distingue un ramo dal fibulare profondo. Un interessamento limitato al ramo profondo può lasciare funzionanti lungo e breve."
+          ],
+          "example": "Confronta tibiale anteriore e fibulare lungo, entrambi diretti verso il primo raggio. Il primo passa davanti alla caviglia e contribuisce alla dorsiflessione; il secondo passa dietro il malleolo laterale e sotto il cuboide, contribuendo alla flessione plantare. La destinazione comune non cancella la differenza di percorso.",
+          "takeaway": "Il breve termina sul V metatarso; il lungo attraversa la pianta verso il I.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Fibulare lungo",
+                "Testa e porzione prossimale laterale della fibula → faccia plantare di cuneiforme mediale e base I metatarso",
+                "Eversione, aiuto alla flessione plantare e sostegno degli archi; fibulare superficiale"
+              ],
+              [
+                "Fibulare breve",
+                "Porzione distale della faccia laterale fibulare → tuberosità della base V metatarso",
+                "Eversione e aiuto alla flessione plantare; fibulare superficiale"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "superficiale",
+          "title": "Tricipite surale e rapporto con il ginocchio",
+          "text": [
+            "Il compartimento posteriore superficiale comprende gastrocnemio, soleo e plantare. Il gastrocnemio ha due capi femorali e attraversa ginocchio e caviglia. Il soleo origina dalla gamba, profondamente al gastrocnemio, e attraversa la caviglia senza attraversare il ginocchio. I due capi del gastrocnemio e il soleo formano il tricipite surale; i loro tendini convergono nel tendine calcaneale, o di Achille, che si inserisce posteriormente sul calcagno.",
+            "La trazione sul calcagno produce un momento di flessione plantare alla caviglia. Se l’avampiede appoggia al suolo, può contribuire a sollevare il tallone; se il piede è libero, porta la punta verso il basso. Il nome del movimento va riferito all’articolazione, anche quando cambia il segmento più mobile. Il gastrocnemio può anche flettere il ginocchio; il soleo non può farlo direttamente perché entrambi i suoi attacchi stanno distalmente a quell’articolazione.",
+            "Flettere il ginocchio accorcia il gastrocnemio dalla sua estremità prossimale e ne modifica la relazione lunghezza–tensione. Per questo una flessione plantare a ginocchio flesso può aumentare il contributo relativo del soleo. Non significa che il gastrocnemio venga elettricamente spento o che ogni prova isoli perfettamente un muscolo. Il contributo dipende anche da angolo della caviglia, carico e controllo motorio.",
+            "Il plantare ha un piccolo ventre vicino al ginocchio e un tendine lungo e sottile diretto al calcagno, con inserzioni variabili. Assiste debolmente flessione del ginocchio e flessione plantare; può mancare. Non va confuso con il soleo né contato come uno dei tre capi del tricipite surale. Tutti e tre i muscoli del compartimento ricevono il nervo tibiale."
+          ],
+          "example": "Confronta due sollevamenti del tallone, uno con ginocchio esteso e uno flesso. In entrambi il tendine calcaneale trasmette trazione al calcagno. La flessione del ginocchio modifica la lunghezza del gastrocnemio ma non quella del soleo per effetto diretto sul ginocchio: questo spiega una differenza di contributi, non un isolamento assoluto.",
+          "takeaway": "Gastrocnemio biarticolare, soleo monoarticolare rispetto a ginocchio e caviglia; entrambi raggiungono il calcagno.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Gastrocnemio",
+                "Regioni femorali presso i condili mediale e laterale → calcagno tramite tendine calcaneale",
+                "Flessione plantare e flessione del ginocchio; tibiale"
+              ],
+              [
+                "Soleo",
+                "Testa/faccia posteriore prossimale fibulare, linea del soleo tibiale e arco tendineo → calcagno tramite tendine calcaneale",
+                "Flessione plantare e controllo posturale; tibiale"
+              ],
+              [
+                "Plantare",
+                "Regione sopracondiloidea laterale femorale → calcagno, con tendine sottile e varianti",
+                "Debole aiuto a flessione del ginocchio e flessione plantare; tibiale"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "profondo",
+          "title": "Popliteo, tibiale posteriore e flessori lunghi",
+          "text": [
+            "Il compartimento posteriore profondo contiene popliteo, tibiale posteriore, flessore lungo delle dita e flessore lungo dell’alluce. Ricevono il tibiale, ma non attraversano tutti la caviglia: il popliteo collega regione del condilo femorale laterale e tibia prossimale posteriore. Partecipa all’avvio della flessione del ginocchio, invertendo parte della rotazione associata alla sua estensione terminale.",
+            "L’azione rotatoria del popliteo dipende da quale osso è vincolato. Con femore fermo e gamba libera ruota medialmente la tibia; con tibia vincolata dall’appoggio ruota lateralmente il femore. Sono due descrizioni della stessa relazione fra segmenti. Dire soltanto “ruota internamente il ginocchio” senza nominare l’osso mobile è ambiguo.",
+            "Il tibiale posteriore parte da tibia, fibula e membrana interossea e passa dietro il malleolo mediale. La sua inserzione principale comprende la tuberosità del navicolare, con espansioni plantari a ossa tarsali e metatarsali. Contribuisce a inversione, flessione plantare e sostegno dell’arco mediale. Con il tibiale anteriore condivide la componente di inversione, ma ha una componente opposta alla caviglia: uno è posteriore e plantarflette, l’altro è anteriore e dorsiflette.",
+            "Il flessore lungo delle dita origina dalla tibia e raggiunge le falangi distali II–V; quello dell’alluce origina soprattutto dalla fibula e raggiunge la falange distale dell’alluce. I loro tendini entrano nella pianta passando medialmente e si incrociano nel loro decorso plantare. Non dedurre il dito di destinazione dal lato del ventre nella gamba: il flessore dell’alluce nasce lateralmente ma il tendine raggiunge il primo dito. I flessori brevi del piede hanno inserzioni differenti e non sostituiscono automaticamente la flessione diretta delle falangi distali."
+          ],
+          "example": "Nel descrivere il popliteo, uno studente dice “ruota lateralmente” e un altro “medialmente”. Entrambi possono avere ragione se il primo parla del femore su tibia fissa e il secondo della tibia su femore fisso. La risposta d’esame deve esplicitare il segmento vincolato.",
+          "takeaway": "Nel profondo posteriore il popliteo agisce al ginocchio; gli altri tre raggiungono il piede.",
+          "table": {
+            "headers": [
+              "Muscolo",
+              "Attacchi essenziali",
+              "Azione e innervazione"
+            ],
+            "rows": [
+              [
+                "Popliteo",
+                "Condilo laterale femorale, con rapporti con il menisco laterale → tibia posteriore sopra la linea del soleo",
+                "Avvio della flessione e rotazione dipendente dal segmento fisso; tibiale"
+              ],
+              [
+                "Tibiale posteriore",
+                "Tibia/fibula posteriori e membrana interossea → navicolare ed espansioni plantari tarsali/metatarsali",
+                "Inversione, flessione plantare e sostegno dell’arco; tibiale"
+              ],
+              [
+                "Flessore lungo delle dita",
+                "Tibia posteriore → falangi distali II–V",
+                "Flessione distale delle dita e aiuto alla flessione plantare; tibiale"
+              ],
+              [
+                "Flessore lungo dell’alluce",
+                "Fibula posteriore e membrana interossea → falange distale dell’alluce",
+                "Flessione dell’alluce e aiuto alla flessione plantare; tibiale"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "passaggi",
+          "title": "Dal cavo popliteo ai due malleoli",
+          "text": [
+            "Il cavo popliteo è posteriore al ginocchio. I suoi margini superiori sono formati medialmente da semimembranoso e semitendinoso, lateralmente dal bicipite femorale; inferiormente dai capi del gastrocnemio. Nella regione centrale il nervo tibiale è più superficiale, poi trovi vena poplitea e arteria poplitea più profonda. Il fibulare comune segue il margine laterale e gira attorno al collo della fibula, dove si divide nei rami superficiale e profondo.",
+            "Il tibiale entra nel compartimento posteriore e prosegue verso il malleolo mediale. Sotto il retinacolo dei flessori, da anteriore a posteriore, si incontrano tendine del tibiale posteriore, tendine del flessore lungo delle dita, vasi tibiali posteriori, nervo tibiale e tendine del flessore lungo dell’alluce. Questa sequenza descrive un rapporto spaziale: non è l’ordine con cui un impulso nervoso visita i muscoli. Il tibiale si divide nei nervi plantari che innervano gran parte della muscolatura intrinseca del piede.",
+            "Dietro il malleolo laterale passano invece i tendini fibulari breve e lungo. L’arteria poplitea dà origine al sistema tibiale anteriore e a quello posteriore; la fibulare nasce normalmente dal sistema tibiale posteriore e irrora la regione posterolaterale, con varianti del livello di divisione. Le vene profonde accompagnano le arterie; le safene sono superficiali e non sostituiscono i vasi nel tunnel tarsale.",
+            "Per distinguere livelli nervosi usa più funzioni. Un coinvolgimento isolato del fibulare profondo interessa i muscoli anteriori ma può conservare gli eversori lungo e breve. Un livello sul fibulare comune prima della biforcazione può coinvolgere entrambi i compartimenti. L’inversione non dipende solo dal tibiale anteriore: il tibiale posteriore, innervato dal tibiale, può conservarne una componente. Anche una funzione conservata fornisce quindi informazioni; nessuna singola prova basta a stabilire una diagnosi."
+          ],
+          "example": "In un esercizio sono deboli dorsiflessione ed eversione, ma resta una componente di inversione e la flessione plantare è conservata. Il modello è compatibile con il territorio del fibulare comune e con muscoli tibiali ancora attivi. Un interessamento del solo profondo spiegherebbe meno bene la debolezza di lungo e breve fibulare.",
+          "takeaway": "Distingui fibulare comune, suoi due rami e tibiale; collega ogni funzione a più di un possibile muscolo."
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta il sollevamento dell’avampiede con il sollevamento del tallone. Ricostruisci compartimenti, tendini e nervi; spiega poi come distinguere, sul piano anatomico, il territorio del fibulare profondo da quello del comune.",
+        "answer": "La dorsiflessione coinvolge il compartimento anteriore, con tendini davanti alla caviglia e nervo fibulare profondo. Il tricipite surale, nel posteriore superficiale, tira sul calcagno tramite il tendine calcaneale ed è innervato dal tibiale; il gastrocnemio attraversa anche il ginocchio, il soleo no. Fibulari lungo e breve passano dietro il malleolo laterale e ricevono il superficiale: l’eversione può conservarsi con interessamento del solo profondo. Il comune a monte della biforcazione comprende entrambi i territori. Il tibiale posteriore può conservare inversione poiché riceve il tibiale. La distinzione anatomica non equivale a diagnosi da un singolo movimento.",
+        "criteria": [
+          "Nominare muscoli rappresentativi di tutti e quattro i compartimenti",
+          "Collegare i passaggi alla caviglia alle componenti di movimento",
+          "Distinguere soleo e gastrocnemio in base agli attacchi",
+          "Distinguere fibulare profondo, superficiale, comune e tibiale"
+        ]
+      },
+      "prerequisites": [
+        "anatomia-anca-coscia",
+        "anatomia-piede"
+      ],
+      "sources": [
+        "syllabus-anatomy",
+        "an-leg-muscles",
+        "an-leg-spaces",
+        "an-popliteal-order",
+        "an-tarsal-topography",
+        "an-uw-tibialis-posterior"
+      ]
+    },
+    {
+      "id": "anatomia-collo-dorso",
+      "subject": "anatomia",
+      "title": "Collo e dorso: strati, attacchi e controllo",
+      "description": "Distingui il movimento della testa, il sostegno della colonna e i muscoli che collegano collo e torace.",
+      "minutes": 50,
+      "bookIds": [],
+      "objectives": [
+        "Sternocleidomastoideo, scaleni e muscoli prevertebrali",
+        "Sopraioidei, sottoioidei e fasce cervicali",
+        "Erettori e trasversospinali: distinguere gruppi e direzioni",
+        "Spleni, suboccipitali e fascia toracolombare"
+      ],
+      "sections": [
+        {
+          "id": "collo",
+          "title": "Sternocleidomastoideo, scaleni e muscoli prevertebrali",
+          "text": [
+            "Lo sternocleidomastoideo è un riferimento superficiale del collo: collega manubrio sternale e clavicola al processo mastoideo e alla linea nucale superiore. Se il torace è fermo, la contrazione da un lato inclina il capo dallo stesso lato e ruota il volto verso il lato opposto. I due muscoli insieme possono flettere il tratto cervicale e contribuire all’estensione della testa sulle articolazioni superiori, secondo posizione e vincoli. Dire soltanto “flette la testa” trascura la differenza fra testa e colonna cervicale. Il suo nervo motorio è l’accessorio XI; fibre cervicali partecipano alla sensibilità propriocettiva.",
+            "Gli scaleni anteriore e medio raggiungono la prima costa, il posteriore la seconda. Con coste fissate possono contribuire al controllo e all’inclinazione cervicale; con collo stabilizzato possono elevare le coste e aiutare l’inspirazione. Fra scaleno anteriore e medio passano arteria succlavia e componenti del plesso brachiale. La vena succlavia passa davanti all’anteriore; il frenico discende sulla sua superficie anteriore. Muscoli vicini possono quindi delimitare passaggi distinti per vasi e nervi.",
+            "I prevertebrali stanno davanti alla colonna cervicale, profondamente ai visceri del collo. Lungo del collo e lungo della testa contribuiscono alla flessione e alla stabilizzazione; i retti anteriore e laterale della testa collegano atlante e occipite. Ricevono rami anteriori cervicali. Il platisma è invece una sottile lamina nel sottocute: tende la pelle del collo e contribuisce ai movimenti della regione mandibolare, ricevendo il faciale VII. Non è un flessore profondo della colonna.",
+            "Lo sternocleidomastoideo separa due grandi triangoli topografici. Quello anteriore è fra muscolo, linea mediana e mandibola; quello posteriore fra muscolo, trapezio e clavicola. Un triangolo è una regione di orientamento: non implica che tutte le strutture siano sullo stesso piano."
+          ],
+          "example": "Per ruotare il volto a sinistra con torace fermo, lo sternocleidomastoideo destro può contribuire insieme ad altri muscoli. Lo splenio sinistro, studiato più avanti, produce una rotazione omolaterale: muscoli di lati opposti possono concorrere allo stesso gesto.",
+          "takeaway": "Per descrivere un muscolo cervicale precisa lato, segmento mobile e punto fisso.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Sternocleidomastoideo",
+                "Manubrio e terzo mediale clavicola → mastoide e linea nucale superiore",
+                "Inclinazione omolaterale, rotazione controlaterale; accessorio XI motorio, afferenze cervicali"
+              ],
+              [
+                "Scaleno anteriore",
+                "Processi trasversi C3–C6 → prima costa, tubercolo scaleno",
+                "Controllo cervicale ed elevazione della prima costa; rami anteriori cervicali"
+              ],
+              [
+                "Scaleno medio",
+                "Processi trasversi cervicali → prima costa, posteriormente al solco succlavio",
+                "Inclinazione cervicale/elevazione costale secondo il vincolo; rami anteriori cervicali"
+              ],
+              [
+                "Scaleno posteriore",
+                "Processi trasversi cervicali inferiori → seconda costa",
+                "Inclinazione cervicale/elevazione della seconda costa; rami anteriori cervicali"
+              ],
+              [
+                "Lungo del collo / lungo della testa",
+                "Collo: corpi e processi trasversi cervicali e toracici superiori, fino all’atlante; testa: C3–C6 → parte basilare occipitale",
+                "Flessione e controllo profondo; rami anteriori cervicali"
+              ],
+              [
+                "Retti anteriore e laterale della testa",
+                "Atlante → base occipitale, rispettivamente anteriormente e lateralmente",
+                "Controllo atlanto-occipitale; rami anteriori cervicali superiori"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ioide",
+          "title": "Sopraioidei, sottoioidei e fasce cervicali",
+          "text": [
+            "L’ioide è un osso sospeso da muscoli e legamenti; non si articola direttamente con un altro osso. I sopraioidei collegano mandibola o cranio all’ioide, i sottoioidei lo collegano a laringe, sterno e scapola. Se la mandibola è ferma, diversi sopraioidei elevano l’ioide durante la deglutizione; se l’ioide è stabilizzato, alcuni possono contribuire ad abbassare la mandibola. La funzione cambia con il vincolo, senza cambiare gli attacchi.",
+            "Il digastrico ha due ventri uniti da un tendine intermedio mantenuto presso l’ioide da una fionda fibrosa. I due ventri hanno innervazione diversa: quello anteriore riceve il nervo miloioideo, derivato da V3; quello posteriore il faciale VII. Il miloioideo forma gran parte del pavimento muscolare della bocca e riceve anch’esso il nervo miloioideo. Il genioioideo riceve fibre C1 che viaggiano per un tratto con l’ipoglosso XII: il nervo che accompagna una fibra non ne cambia l’origine spinale.",
+            "Sternoioideo, sternotiroideo e omoioideo ricevono l’ansa cervicale. Il tiroioideo riceve invece soprattutto C1 tramite l’ipoglosso: può abbassare l’ioide o, con questo fermo, elevare la laringe. Lo sternotiroideo termina sulla cartilagine tiroidea e non direttamente sull’ioide. Nomi simili non significano uguale inserzione.",
+            "La fascia cervicale profonda organizza piani attorno a sternocleidomastoideo e trapezio, visceri anteriori e muscoli prevertebrali. La guaina carotidea contiene arteria carotide comune/interna, vena giugulare interna e vago. È distinta dal piano prevertebrale: non include tutti i nervi e tutti i vasi del collo. Fasce e muscoli costituiscono rapporti tridimensionali, non semplicemente strati piatti sovrapposti."
+          ],
+          "example": "Se una domanda afferma “i due ventri del digastrico ricevono entrambi il faciale”, controlla separatamente i ventri: il posteriore sì, l’anteriore riceve il miloioideo da V3. L’unione tramite tendine non implica identità di innervazione.",
+          "takeaway": "Ioide, mandibola e laringe sono destinazioni diverse; digastrico e tiroioideo richiedono attenzione ai nervi.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Digastrico",
+                "Fossa digastrica mandibolare e incisura mastoidea → tendine intermedio presso ioide",
+                "Eleva ioide/abbassa mandibola secondo vincolo; V3 anteriormente, VII posteriormente"
+              ],
+              [
+                "Miloioideo",
+                "Linea miloioidea mandibolare → rafe mediano e ioide",
+                "Solleva pavimento orale e ioide; nervo miloioideo da V3"
+              ],
+              [
+                "Genioioideo",
+                "Spina mentale inferiore mandibolare → corpo ioide",
+                "Trae ioide avanti/in alto; C1 tramite XII"
+              ],
+              [
+                "Stiloioideo",
+                "Processo stiloideo → ioide presso il tendine digastrico",
+                "Eleva e retrae ioide; VII"
+              ],
+              [
+                "Sternoioideo",
+                "Manubrio e regione sternoclavicolare → ioide",
+                "Abbassa/stabilizza ioide; ansa cervicale"
+              ],
+              [
+                "Omoioideo",
+                "Margine superiore scapolare → tendine intermedio → ioide",
+                "Abbassa/stabilizza ioide; ansa cervicale"
+              ],
+              [
+                "Sternotiroideo",
+                "Manubrio → linea obliqua della cartilagine tiroidea",
+                "Abbassa/stabilizza laringe; ansa cervicale"
+              ],
+              [
+                "Tiroioideo",
+                "Cartilagine tiroidea → ioide",
+                "Avvicina laringe e ioide; soprattutto C1 tramite XII"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "dorso",
+          "title": "Erettori e trasversospinali: distinguere gruppi e direzioni",
+          "text": [
+            "I muscoli intrinseci del dorso agiscono soprattutto sulla colonna e ricevono prevalentemente rami posteriori dei nervi spinali. Non confondere ramo posteriore con radice posteriore: il ramo deriva da un nervo spinale già misto e contiene anche fibre motorie; la radice posteriore convoglia afferenze sensitive. Trapezio, gran dorsale e romboidi sono muscoli della regione dorsale ma collegano soprattutto scheletro assile e cingolo/arto e hanno innervazioni differenti.",
+            "L’erettore della colonna comprende tre colonne, da laterale a mediale: ileocostale, lunghissimo e spinale. Gli attacchi inferiori includono un’origine comune nella regione sacrale, cresta iliaca e strutture lombari; superiormente i fasci raggiungono coste, vertebre e, per alcune parti, cranio. La contrazione bilaterale contribuisce all’estensione; unilateralmente contribuisce all’inclinazione omolaterale. La suddivisione in parti lombare, toracica, cervicale o della testa dipende dalla colonna considerata.",
+            "Più profondamente, semispinali, multifidi e rotatori formano il sistema trasversospinale: i fasci risalgono in genere da processi trasversi o equivalenti verso processi spinosi superiori. Semispinali scavalcano più livelli, multifidi circa due–quattro e rotatori uno–due. La contrazione unilaterale può produrre rotazione controlaterale, quella bilaterale estensione e controllo. Le distanze sono schemi orientativi, non misure identiche in ogni fascio.",
+            "Interspinali collegano processi spinosi contigui; intertrasversari collegano processi trasversi e partecipano al controllo locale. Questi ultimi comprendono porzioni con rami anteriori e posteriori: la regola dell’innervazione dorsale non è assoluta per ogni piccolo muscolo. Nel piegamento in avanti gli estensori possono sviluppare forza mentre si allungano, frenando il movimento: il gesto osservato non identifica da solo il tipo di contrazione."
+          ],
+          "example": "Un carico tende a flettere il tronco. Per mantenere il busto fermo gli estensori possono produrre un momento opposto senza estenderlo visibilmente. Se la flessione procede lentamente, una loro azione eccentrica può controllarla: “il tronco si flette” non prova che lavorino soltanto i flessori.",
+          "takeaway": "Erettore: tre colonne longitudinali; trasversospinali: fasci obliqui verso livelli superiori.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Ileocostale",
+                "Regione iliaca/sacrale e coste inferiori → angoli costali e tratti cervicali",
+                "Estensione e inclinazione; rami posteriori spinali"
+              ],
+              [
+                "Lunghissimo",
+                "Attacchi sacrolombari e processi trasversi inferiori → coste, processi trasversi superiori e mastoide per la parte della testa",
+                "Estensione/inclinazione, rotazione omolaterale della testa per la parte cranica; rami posteriori"
+              ],
+              [
+                "Spinale",
+                "Processi spinosi inferiori → processi spinosi superiori",
+                "Estensione; rami posteriori"
+              ],
+              [
+                "Semispinali",
+                "Processi trasversi → processi spinosi superiori o occipite per la parte della testa",
+                "Estensione e rotazione controlaterale; rami posteriori"
+              ],
+              [
+                "Multifidi",
+                "Sacro, processi mammillari lombari, trasversi toracici e articolari cervicali → processi spinosi superiori",
+                "Controllo segmentario, estensione e rotazione controlaterale; rami posteriori"
+              ],
+              [
+                "Rotatori",
+                "Processi trasversi → lamina/base del processo spinoso uno–due livelli sopra",
+                "Controllo segmentario e rotazione; rami posteriori"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nuca-fascia",
+          "title": "Spleni, suboccipitali e fascia toracolombare",
+          "text": [
+            "Gli spleni si trovano sotto trapezio e sternocleidomastoideo nella regione posteriore del collo. Lo splenio della testa raggiunge mastoide e linea nucale; quello del collo raggiunge processi trasversi cervicali superiori. A differenza della rotazione controlaterale dello sternocleidomastoideo, contribuiscono alla rotazione omolaterale; insieme estendono testa e collo. Ricevono rami posteriori cervicali.",
+            "I quattro muscoli suboccipitali collegano atlante, epistrofeo e occipite. Il retto posteriore maggiore della testa parte dal processo spinoso di C2; il minore dal tubercolo posteriore di C1. L’obliquo superiore unisce processo trasverso di C1 e occipite; l’inferiore collega C2 e C1 senza raggiungere il cranio. Quest’ultimo può comunque contribuire a ruotare la testa muovendo l’atlante, sul quale il cranio appoggia. Il nervo suboccipitale è il ramo posteriore di C1.",
+            "Il triangolo suboccipitale è delimitato da retto posteriore maggiore, obliquo superiore e obliquo inferiore. Contiene il tratto dell’arteria vertebrale presso l’atlante e il nervo suboccipitale. Il retto minore è vicino ma non costituisce uno dei tre lati. Questa distinzione verifica rapporti, non soltanto un elenco di nomi.",
+            "La fascia toracolombare organizza i muscoli posteriori del tronco e offre attacco a muscoli addominali e dorsali. Nel modello a tre lamine, posteriore e media delimitano la massa degli erettori; il quadrato dei lombi è fra media e anteriore. Le lamine si collegano lateralmente e partecipano alla trasmissione di forze. Non sono tre muscoli e non dimostrano che un solo esercizio “attivi tutta la fascia”: descrivono continuità connettivali."
+          ],
+          "example": "Per un triangolo suboccipitale disegna prima C1, C2 e occipite, poi unisci gli attacchi: maggiore da C2 al cranio, obliquo inferiore da C2 a C1, superiore da C1 al cranio. Il minore va da C1 al cranio più medialmente e non chiude uno dei tre lati richiesti.",
+          "takeaway": "Un muscolo può muovere indirettamente la testa senza inserirsi sul cranio: conta la catena articolare.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Splenio della testa / del collo",
+                "Legamento nucale e processi spinosi cervicotoracici → mastoide/linea nucale oppure trasversi cervicali superiori",
+                "Estensione, inclinazione e rotazione omolaterale; rami posteriori cervicali"
+              ],
+              [
+                "Retto posteriore maggiore",
+                "Spinoso C2 → linea nucale inferiore",
+                "Estensione e rotazione omolaterale; suboccipitale C1"
+              ],
+              [
+                "Retto posteriore minore",
+                "Tubercolo posteriore C1 → occipite medialmente",
+                "Estensione/controllo cranio-cervicale; suboccipitale C1"
+              ],
+              [
+                "Obliquo superiore",
+                "Trasverso C1 → occipite",
+                "Estensione e inclinazione omolaterale; suboccipitale C1"
+              ],
+              [
+                "Obliquo inferiore",
+                "Spinoso C2 → trasverso C1",
+                "Rotazione omolaterale dell’atlante e della testa; suboccipitale C1"
+              ]
+            ]
+          }
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta sternocleidomastoideo destro, splenio sinistro e multifidi: attacchi, direzione della rotazione e innervazione. Spiega perché un estensore può essere attivo durante una flessione.",
+        "answer": "Lo sternocleidomastoideo destro collega torace e mastoide e può ruotare il volto a sinistra; lo splenio sinistro dalla regione cervicotoracica raggiunge il cranio e contribuisce alla rotazione omolaterale, ancora a sinistra. Il primo riceve XI motorio, lo splenio rami posteriori cervicali. I multifidi collegano livelli vertebrali diversi, ricevono rami posteriori e contribuiscono a controllo segmentario e rotazione controlaterale. Un estensore attivo può stabilizzare isometricamente o frenare eccentricamente la flessione: movimento e accorciamento non sono equivalenti.",
+        "criteria": [
+          "Precisare lato e segmento mobile",
+          "Distinguere XI e rami posteriori",
+          "Distinguere erettori e trasversospinali",
+          "Spiegare controllo eccentrico e punto fisso"
+        ]
+      },
+      "prerequisites": [
+        "anatomia-tronco"
+      ],
+      "sources": [
+        "syllabus-anatomy",
+        "an-neck-hyoid",
+        "an-back-muscles",
+        "an-axial-openstax",
+        "an-scalene-utah",
+        "an-wrist-passages",
+        "an-thoracolumbar-model"
+      ]
+    },
+    {
+      "id": "anatomia-pareti-tronco",
+      "subject": "anatomia",
+      "title": "Torace e addome: muscoli, aponevrosi e passaggi",
+      "description": "Collegare respirazione e movimento alle pareti del tronco, distinguendo muscolo, fascia e peritoneo.",
+      "minutes": 50,
+      "bookIds": [],
+      "objectives": [
+        "Diaframma e parete intercostale",
+        "La parete anterolaterale: fibre, rotazioni e pressione",
+        "Guaina del retto, linea arcuata e canale inguinale",
+        "Parete posteriore e rapporti con i nervi lombari"
+      ],
+      "sections": [
+        {
+          "id": "respiratori",
+          "title": "Diaframma e parete intercostale",
+          "text": [
+            "Il diaframma separa torace e addome e presenta due cupole, in genere più alta a destra per il rapporto con il fegato. Le fibre muscolari periferiche convergono nel centro tendineo. Gli attacchi comprendono xifoide, margine costale e regione lombare tramite pilastri e legamenti arcuati. Il pilastro destro arriva in genere ai corpi L1–L3, il sinistro L1–L2. Contraendosi, il diaframma abbassa il centro tendineo e amplia il volume toracico; l’ingresso dell’aria dipende dalla variazione pressoria e dalla comunicazione delle vie aeree, non da una trazione diretta sull’aria.",
+            "Il nervo frenico, soprattutto C3–C5, fornisce l’innervazione motoria. I passaggi principali si ricordano con livelli orientativi: vena cava inferiore T8 nel centro tendineo; esofago T10 nella parte muscolare, con tronchi vagali; aorta T12 posteriormente, sotto il legamento arcuato mediano, insieme al dotto toracico. Il livello vertebrale è uno schema: respirazione e variabilità anatomica modificano i rapporti. L’aorta non perfora il centro tendineo nello stesso modo della cava.",
+            "Gli intercostali esterni, interni e intimi occupano gli spazi fra coste. Esterni: fibre prevalentemente oblique in basso e avanti, con membrana anteriore; interni: direzione diversa, con membrana posteriore. Fra interno e intimo decorre il fascio neurovascolare intercostale. I nervi intercostali derivano dai rami anteriori toracici. Gli esterni contribuiscono all’inspirazione; negli interni la parte interossea può favorire espirazione forzata, mentre quella intercondrale può elevare le coste. Non attribuire a tutto lo strato interno un’unica azione indipendente dalla porzione.",
+            "Trasverso del torace e sottocostali appartengono al piano profondo; gli elevatori delle coste collegano vertebre e coste. Nell’inspirazione più impegnativa possono partecipare scaleni e sternocleidomastoidei con punti fissi adeguati. L’espirazione tranquilla dipende soprattutto dal ritorno elastico; quella forzata coinvolge anche la parete addominale."
+          ],
+          "example": "Una domanda associa l’aorta al foro nel centro tendineo a T8: ha scambiato due passaggi. T8 corrisponde alla cava inferiore; l’aorta attraversa posteriormente a livello orientativo T12. Il rapporto con la parte muscolare o tendinea conta quanto il numero.",
+          "takeaway": "Diaframma: centro tendineo e frenico; intercostali: strati e rami anteriori toracici.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Diaframma",
+                "Xifoide, coste inferiori e pilastri lombari → centro tendineo",
+                "Principale muscolo inspiratorio; frenico C3–C5"
+              ],
+              [
+                "Intercostali esterni",
+                "Coste adiacenti, strato esterno; membrane anteriormente",
+                "Sostegno degli spazi e contributo inspiratorio; intercostali"
+              ],
+              [
+                "Intercostali interni / intimi",
+                "Coste adiacenti; fascio vascolonervoso fra interno e intimo",
+                "Controllo degli spazi; effetto respiratorio dipendente dalla porzione; intercostali"
+              ],
+              [
+                "Trasverso del torace / sottocostali",
+                "Sterno posteriore → cartilagini costali / facce interne di coste non sempre contigue",
+                "Contributo al controllo costale e all’espirazione; intercostali"
+              ],
+              [
+                "Elevatori delle coste",
+                "Trasversi C7–T11 → coste sottostanti",
+                "Elevazione costale e controllo; rami posteriori spinali"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "addominali",
+          "title": "La parete anterolaterale: fibre, rotazioni e pressione",
+          "text": [
+            "Retto dell’addome e piramidale sono anteriori; obliquo esterno, obliquo interno e trasverso formano tre strati laterali. L’esterno è superficiale e ha molte fibre dirette inferomedialmente; l’interno è intermedio, con fibre prevalentemente superomediali ma orientamento variabile per regione; il trasverso è profondo e ha andamento soprattutto trasversale. Le loro aponevrosi partecipano alla guaina del retto e alla linea alba. Un’aponeurosi è una lamina tendinea: trasmette tensione, non si contrae come un ventre muscolare.",
+            "Il retto collega pube e torace anteriore e contribuisce alla flessione del tronco; a torace fissato può agire sul bacino. Le iscrizioni tendinee ne interrompono il ventre: i rilievi superficiali non corrispondono a sei muscoli indipendenti. Il piccolo piramidale, non sempre presente, tende la linea alba.",
+            "Nella rotazione del torace su bacino fermo, l’obliquo esterno ruota prevalentemente verso il lato opposto e l’interno verso il proprio lato. Per girare il torace a sinistra possono collaborare esterno destro e interno sinistro. Bilateralmente gli obliqui contribuiscono anche alla flessione e alla compressione addominale. Il trasverso comprime e sostiene i contenuti e partecipa al controllo pressorio: non è un “retto più profondo” con identica azione di flessione.",
+            "L’innervazione arriva dai rami anteriori toracoaddominali inferiori e dal sottocostale; obliquo interno e trasverso ricevono anche rami L1 tramite ileoipogastrico e ileoinguinale. Questi nervi decorrono per buona parte fra interno e trasverso. La pressione intra-addominale nasce dall’interazione delle pareti, dei visceri e del contenuto respiratorio: non è un valore determinabile osservando un singolo muscolo."
+          ],
+          "example": "Con bacino fermo, ruoti il torace a sinistra. La coppia esterno destro–interno sinistro ha componenti rotatorie concordi. Dire “si contraggono gli obliqui sinistri” non è abbastanza preciso, perché esterno e interno dello stesso lato hanno componenti rotatorie differenti.",
+          "takeaway": "Rotazione del torace: obliquo esterno controlaterale e interno omolaterale rispetto al verso del gesto.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Retto dell’addome",
+                "Pube/sinfisi → xifoide e cartilagini costali V–VII",
+                "Flessione del tronco e controllo del bacino; nervi toracoaddominali inferiori"
+              ],
+              [
+                "Obliquo esterno",
+                "Coste V–XII → linea alba, cresta iliaca e regione pubica tramite aponeurosi",
+                "Flessione, compressione, rotazione controlaterale; nervi toracoaddominali e sottocostale"
+              ],
+              [
+                "Obliquo interno",
+                "Fascia toracolombare, cresta iliaca, parte laterale legamento inguinale → coste inferiori, linea alba e pube",
+                "Flessione, compressione, rotazione omolaterale; toracoaddominali inferiori e L1"
+              ],
+              [
+                "Trasverso dell’addome",
+                "Cartilagini costali inferiori, fascia toracolombare, cresta iliaca e legamento inguinale → linea alba e pube",
+                "Compressione e controllo pressorio; toracoaddominali inferiori e L1"
+              ],
+              [
+                "Piramidale",
+                "Pube → tratto inferiore della linea alba",
+                "Tensione della linea alba; sottocostale, con varianti"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "guaine",
+          "title": "Guaina del retto, linea arcuata e canale inguinale",
+          "text": [
+            "La guaina del retto deriva dalle aponevrosi dei muscoli laterali. Nel tratto fra margine costale e linea arcuata, la lamina dell’obliquo interno si divide: anteriormente al retto si unisce all’esterno, posteriormente al trasverso. Sotto la linea arcuata le tre aponevrosi passano davanti al retto; dietro rimane la fascia trasversalis, seguita da tessuto extraperitoneale e peritoneo parietale. Dire “sotto la linea arcuata non c’è più nulla dietro il retto” è quindi sbagliato. La posizione della linea è variabile; non usarla come quota identica in ogni individuo.",
+            "La linea alba è l’intreccio mediano delle aponevrosi, dalla regione xifoidea al pube. La linea semilunare segna invece il margine laterale della guaina del retto. La fascia trasversalis riveste internamente la parete; il peritoneo è una sierosa, non una quarta aponeurosi muscolare.",
+            "Il canale inguinale decorre obliquamente nella parete inferiore dell’addome, sopra il legamento inguinale. L’anello profondo è un’apertura nella fascia trasversalis, lateralmente ai vasi epigastrici inferiori; quello superficiale è nell’aponeurosi dell’obliquo esterno. La parete anteriore è principalmente l’aponeurosi esterna, quella posteriore la fascia trasversalis con rinforzi mediali; il tetto comprende fibre arcuate di interno e trasverso, il pavimento il legamento inguinale.",
+            "Nel canale passa il funicolo spermatico nel maschio e il legamento rotondo dell’utero nella femmina. Il nervo ileoinguinale percorre parte del canale ma non entra dall’anello profondo insieme al funicolo. Come confronto topografico, un’ernia inguinale indiretta entra attraverso l’anello profondo lateralmente agli epigastrici inferiori; una diretta attraversa la parete posteriore medialmente a questi vasi. Questa distinzione descrive percorsi anatomici, non insegna a diagnosticare una tumefazione."
+          ],
+          "example": "In una sezione sotto la linea arcuata trovi il retto e subito dietro fascia trasversalis: non manca tutta la parete posteriore, manca la lamina aponeurotica posteriore della guaina. Più in profondità persistono tessuti extraperitoneali e peritoneo.",
+          "takeaway": "Guaina aponeurotica, fascia trasversalis e peritoneo sono strutture diverse."
+        },
+        {
+          "id": "posteriore",
+          "title": "Parete posteriore e rapporti con i nervi lombari",
+          "text": [
+            "La parete addominale posteriore comprende colonna lombare, quadrato dei lombi, psoas e iliaco con le rispettive fasce. Il quadrato dei lombi unisce cresta iliaca e legamento ileolombare a dodicesima costa e processi trasversi lombari: unilateralmente inclina il tronco e contribuisce al controllo del bacino, mentre può fissare la dodicesima costa durante la respirazione. Non attraversa l’anca e non si inserisce sul piccolo trocantere.",
+            "Il grande psoas parte da corpi, dischi e processi trasversi nella regione T12–L5 e scende verso il piccolo trocantere insieme all’iliaco. Quest’ultimo origina principalmente dalla fossa iliaca. Entrambi contribuiscono alla flessione dell’anca, ma hanno origine e innervazione differenti: psoas da rami anteriori lombari, iliaco dal femorale. Con femore fissato possono agire sui segmenti prossimali; non attribuire a ogni posizione la stessa azione sul rachide.",
+            "Il piccolo psoas, quando presente, collega regione T12–L1 e fascia/eminenza ileopubica: non raggiunge il femore ed è un debole flessore del tronco. Il nome “psoas” non garantisce quindi che tutti i muscoli così chiamati attraversino l’anca. I legamenti arcuati del diaframma si rapportano medialmente al grande psoas e lateralmente al quadrato dei lombi.",
+            "Il plesso lombare si organizza nello spessore della parte posteriore del grande psoas. Il femorale emerge lateralmente e passa fra psoas e iliaco verso il legamento inguinale; l’otturatorio emerge medialmente e raggiunge il canale otturatorio. Il genitofemorale emerge sulla faccia anteriore del psoas. Questi rapporti spiegano perché “nervo vicino allo psoas” sia una descrizione insufficiente: occorre dire da quale lato e verso quale destinazione."
+          ],
+          "example": "Devi distinguere due strutture: una arriva alla dodicesima costa, l’altra al piccolo trocantere. La prima è coerente con il quadrato dei lombi; la seconda con grande psoas/iliaco. Solo il secondo percorso attraversa direttamente l’anca e permette di spiegarne la flessione.",
+          "takeaway": "Quadrato dei lombi e piccolo psoas non raggiungono il femore; grande psoas e iliaco sì.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Quadrato dei lombi",
+                "Cresta iliaca/legamento ileolombare → XII costa e trasversi L1–L4",
+                "Inclinazione, controllo e fissazione costale; sottocostale e rami anteriori lombari"
+              ],
+              [
+                "Grande psoas",
+                "Regione T12–L5, corpi/dischi e trasversi lombari → piccolo trocantere",
+                "Flessione anca e controllo prossimale dipendente dal vincolo; rami anteriori lombari"
+              ],
+              [
+                "Iliaco",
+                "Fossa iliaca e strutture vicine → piccolo trocantere con psoas",
+                "Flessione anca; femorale"
+              ],
+              [
+                "Piccolo psoas",
+                "Corpi T12–L1 e disco → fascia iliaca/eminenza ileopubica",
+                "Debole flessione del tronco; ramo anteriore lombare; può mancare"
+              ]
+            ]
+          }
+        }
+      ],
+      "oral": {
+        "prompt": "Spiega uno sforzo che richiede controllo del tronco: collega diaframma, parete addominale e dorsali. Distingui poi guaina del retto, fascia trasversalis e peritoneo sotto la linea arcuata.",
+        "answer": "Il diaframma modifica il volume toracico e interagisce con le pareti addominali; retto e obliqui generano momenti e compressione, il trasverso contribuisce al controllo pressorio, i dorsali possono stabilizzare o frenare. L’attivazione non si deduce dalla sola direzione del movimento. Sotto la linea arcuata le aponevrosi dei tre muscoli laterali sono anteriori al retto; posteriormente restano fascia trasversalis, tessuti extraperitoneali e peritoneo. Queste strutture non sono intercambiabili e non formano una cavità vuota subito dietro il muscolo.",
+        "criteria": [
+          "Collegare nervo frenico e attacchi del diaframma",
+          "Descrivere una coppia rotatoria degli obliqui",
+          "Distinguere contrazione, aponeurosi e fascia",
+          "Ricostruire gli strati sotto la linea arcuata"
+        ]
+      },
+      "prerequisites": [
+        "anatomia-tronco",
+        "anatomia-collo-dorso"
+      ],
+      "sources": [
+        "syllabus-anatomy",
+        "an-thorax-muscles",
+        "an-abdomen-muscles",
+        "an-abdomen-spaces",
+        "an-inguinal-spaces",
+        "an-trunk-openstax"
+      ]
+    },
+    {
+      "id": "anatomia-pelvi-perineo",
+      "subject": "anatomia",
+      "title": "Pelvi e perineo: sostegno, passaggi e rotatori profondi",
+      "description": "Orientarsi nella vista superiore della pelvi e distinguere parete, pavimento e muscoli diretti al femore.",
+      "minutes": 50,
+      "bookIds": [],
+      "objectives": [
+        "Il diaframma pelvico visto dall’alto",
+        "Triangoli perineali, membrane e sfinteri",
+        "I sei rotatori profondi dell’anca",
+        "Ricostruire la pelvi senza confondere parete e pavimento"
+      ],
+      "sections": [
+        {
+          "id": "pavimento",
+          "title": "Il diaframma pelvico visto dall’alto",
+          "text": [
+            "Il diaframma pelvico comprende elevatore dell’ano e coccigeo. Forma gran parte del sostegno muscolare inferiore dei visceri pelvici, ma possiede passaggi: non è una parete chiusa. L’elevatore si descrive in puborettale, pubococcigeo e ileococcigeo, con ulteriori denominazioni dei fasci in rapporto ai visceri. L’arco tendineo dell’elevatore è un ispessimento della fascia dell’otturatore interno, sulla parete laterale: una fascia può quindi offrire origine a un altro muscolo.",
+            "Il puborettale nasce dalla regione pubica e forma una fionda dietro la giunzione anorettale, contribuendo al mantenimento dell’angolo anorettale. Il pubococcigeo si estende dal pube verso strutture mediane, corpo perineale e regione coccigea, con fasci viscerali; l’ileococcigeo si attacca all’arco tendineo e alla spina ischiatica e converge posteriormente. Il coccigeo va dalla spina ischiatica alla parte inferiore del sacro e al coccige, in rapporto con il legamento sacrospinoso.",
+            "L’innervazione dell’elevatore comprende rami sacrali diretti, soprattutto S3–S4, con contributi pudendi descritti per alcune porzioni; non ridurla sempre all’intero nervo pudendo. Il coccigeo riceve rami sacrali inferiori. Fasce pelviche, corpo perineale e membrana perineale collaborano al sostegno ma non sono tutti sinonimi di “elevatore”.",
+            "Nella tavola OpenStax osservi dall’alto una pelvi rappresentata con passaggio vaginale: il pube è anteriormente, in alto nell’immagine, il sacro posteriormente, in basso. In ordine anteroposteriore vedi uretra, vagina e canale rettale. La parentesi Levator ani riunisce pubococcigeo e ileococcigeo illustrati; il puborettale non è etichettato separatamente e il coccigeo non è isolato. La tavola è semplificata e non prova che esistano soltanto i muscoli nominati."
+          ],
+          "example": "Sulla vista superiore parti dal pube e procedi verso il sacro: il passaggio uretrale precede quello vaginale, che precede il rettale. “In alto sul foglio” qui significa anteriore, non superiore nel corpo: il punto di vista va dichiarato prima di interpretare i rapporti.",
+          "takeaway": "Vista superiore: pube davanti, sacro dietro; elevatore e coccigeo formano il diaframma pelvico.",
+          "figureIds": [
+            "pelvic-floor"
+          ],
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Puborettale",
+                "Pube → fionda posteriore alla giunzione anorettale",
+                "Contribuisce all’angolo anorettale e alla continenza; rami sacrali con contributi variabili"
+              ],
+              [
+                "Pubococcigeo",
+                "Pube e arco tendineo anteriore → strutture mediane/perineali e regione coccigea",
+                "Sostegno e rapporti viscerali; soprattutto rami sacrali diretti"
+              ],
+              [
+                "Ileococcigeo",
+                "Arco tendineo e spina ischiatica → rafe anococcigeo/coccige",
+                "Sostegno pelvico; soprattutto rami sacrali diretti"
+              ],
+              [
+                "Coccigeo",
+                "Spina ischiatica → sacro inferiore e coccige",
+                "Sostegno posteriore; rami sacrali inferiori"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "perineo",
+          "title": "Triangoli perineali, membrane e sfinteri",
+          "text": [
+            "Il perineo è la regione inferiore al diaframma pelvico, delimitata anteriormente dalla sinfisi pubica, posteriormente dal coccige e lateralmente dalle tuberosità ischiatiche e dai rami/legamenti corrispondenti. Una linea fra le tuberosità separa il triangolo urogenitale anteriore dal triangolo anale posteriore. Il perineo non coincide con il solo muscolo elevatore dell’ano.",
+            "Nel triangolo urogenitale la membrana perineale si ancora ai rami ischiopubici e partecipa all’organizzazione degli spazi. Superficialmente si trovano muscoli ischiocavernosi, bulbospongiosi e trasversi superficiali; profondamente si organizza il complesso sfinteriale uretrale, con differenze fra anatomia maschile e femminile. Il termine storico “diaframma urogenitale” può suggerire erroneamente una lamina muscolare continua uguale in tutti: è più utile distinguere membrana, spazi e singole strutture. Il trasverso profondo è descritto soprattutto nel maschio e varia nell’organizzazione; nella femmina il complesso comprende anche compressore dell’uretra e sfintere uretrovaginale.",
+            "Il corpo perineale è una convergenza fibromuscolare fra regione urogenitale e canale anale: riceve inserzioni da più muscoli e contribuisce al sostegno. Il bulbospongioso si rapporta al bulbo del pene nel maschio e ai bulbi vestibolari nella femmina; l’ischiocavernoso copre le radici dei corpi cavernosi. Il pudendo, da S2–S4, fornisce rami motori e sensitivi al perineo e passa nel canale pudendo della fascia otturatoria. Non è un nervo esclusivamente autonomico.",
+            "Nel triangolo anale lo sfintere esterno è striato e riceve soprattutto rami rettali inferiori del pudendo; quello interno è muscolatura liscia continua con la parete intestinale. Il puborettale contribuisce al controllo dell’angolo, ma non è identico a uno dei due anelli sfinteriali. Le fosse ischioanali sono spazi adiposi laterali al canale anale, utili all’adattamento dei rapporti durante le variazioni di volume."
+          ],
+          "example": "Se un esercizio propone “sfintere anale interno: muscolo scheletrico controllato dal pudendo”, ha scambiato interno ed esterno. Quello interno è liscio; quello esterno è striato. Aggiungi il puborettale come fionda che modifica l’angolo, senza chiamarlo un terzo anello identico.",
+          "takeaway": "Perineo, diaframma pelvico e membrana perineale descrivono livelli e strutture differenti.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Trasverso superficiale del perineo",
+                "Regione ischiatica → corpo perineale",
+                "Stabilizza il corpo perineale; rami perineali del pudendo"
+              ],
+              [
+                "Bulbospongioso",
+                "Corpo perineale e strutture del bulbo → tessuti del pene o regione vestibolare/clitoridea secondo anatomia",
+                "Compressione delle strutture bulbari; rami perineali del pudendo"
+              ],
+              [
+                "Ischiocavernoso",
+                "Ramo ischiopubico/tuberosità → radici dei corpi cavernosi",
+                "Compressione delle radici erettili; rami perineali del pudendo"
+              ],
+              [
+                "Complesso sfinteriale uretrale striato",
+                "Attorno all’uretra; componenti e rapporti differenti nei due sessi",
+                "Controllo della continenza; innervazione somatica sacrale tramite pudendo"
+              ],
+              [
+                "Sfintere anale esterno",
+                "Attorno al canale anale, rapporti con corpo perineale e regione anococcigea",
+                "Controllo striato; soprattutto rettali inferiori del pudendo"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rotatori",
+          "title": "I sei rotatori profondi dell’anca",
+          "text": [
+            "Profondamente al grande gluteo si trovano piriforme, otturatore interno, gemelli superiore e inferiore e quadrato del femore. L’otturatore esterno si rapporta invece alla faccia esterna della membrana otturatoria e raggiunge il femore passando inferiormente al collo. Sono spesso studiati insieme come rotatori laterali brevi, pur con origini, nervi e rapporti diversi. Contribuiscono al controllo della testa femorale; le componenti di movimento cambiano con la flessione dell’anca, quindi “ruotano sempre nello stesso modo a ogni angolo” è troppo assoluto.",
+            "Il piriforme origina dal sacro anteriore ed esce dal grande forame ischiatico verso il grande trocantere. Divide topograficamente il passaggio in regione sopra- e sottopiriforme: i vasi e il nervo gluteo superiore passano sopra, lo sciatico normalmente sotto, con varianti. L’otturatore interno parte dalla faccia interna della membrana otturatoria e dalle ossa circostanti; il tendine cambia direzione presso la piccola incisura ischiatica ed esce dal piccolo forame ischiatico. I gemelli si uniscono al suo tendine: superiore dalla spina ischiatica, inferiore dalla tuberosità.",
+            "Il quadrato del femore collega tuberosità ischiatica e regione della cresta intertrocanterica, contribuendo a rotazione laterale e adduzione. Il gemello superiore condivide il nervo per l’otturatore interno; l’inferiore quello per il quadrato del femore. L’otturatore esterno riceve invece il nervo otturatorio: “otturatore” nel nome del muscolo non comporta identico nervo per interno ed esterno.",
+            "Questi muscoli appartengono alla parete pelvica o glutea e raggiungono il femore. L’elevatore dell’ano e il coccigeo formano il pavimento e non terminano sul grande trocantere. La destinazione distale distingue la funzione primaria anche quando due muscoli appaiono vicini in una vista del bacino."
+          ],
+          "example": "Segui due percorsi: un tendine dalla superficie interna della membrana otturatoria passa nel piccolo forame ischiatico; un altro nasce esternamente e gira sotto il collo femorale. Sono rispettivamente otturatore interno ed esterno; il primo non attraversa il canale otturatorio soltanto perché si chiama “otturatore”.",
+          "takeaway": "Piriforme: grande forame ischiatico; otturatore interno: piccolo forame; gemelli con nervi differenti.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Attacchi o rapporti essenziali",
+              "Funzione e innervazione"
+            ],
+            "rows": [
+              [
+                "Piriforme",
+                "Sacro anteriore → bordo superiore grande trocantere",
+                "Rotazione laterale in estensione, contributo all’abduzione in flessione; nervo del piriforme, rami sacrali"
+              ],
+              [
+                "Otturatore interno",
+                "Membrana otturatoria interna e margini ossei → faccia mediale grande trocantere",
+                "Rotazione laterale/controllo, contributo all’abduzione ad anca flessa; nervo dell’otturatore interno"
+              ],
+              [
+                "Gemello superiore",
+                "Spina ischiatica → tendine otturatore interno",
+                "Collabora col tendine comune; nervo dell’otturatore interno"
+              ],
+              [
+                "Gemello inferiore",
+                "Tuberosità ischiatica → tendine otturatore interno",
+                "Collabora col tendine comune; nervo del quadrato del femore"
+              ],
+              [
+                "Quadrato del femore",
+                "Margine laterale tuberosità ischiatica → tubercolo quadrato e regione intertrocanterica",
+                "Rotazione laterale e adduzione; nervo del quadrato del femore"
+              ],
+              [
+                "Otturatore esterno",
+                "Membrana otturatoria esterna e margini ossei → fossa trocanterica",
+                "Rotazione laterale e stabilizzazione; nervo otturatorio"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "integrazione",
+          "title": "Ricostruire la pelvi senza confondere parete e pavimento",
+          "text": [
+            "Per leggere una regione in tre dimensioni usa quattro domande: da dove sto guardando, quali sono i riferimenti ossei, quale struttura costituisce la parete o il pavimento, dove termina il muscolo? Nella vista superiore della tavola il sacro è posteriore e le creste iliache laterali; l’iliaco occupa la fossa iliaca e prosegue verso il femore. La parte centrale dell’elevatore si dispone attorno ai passaggi viscerali. Le etichette danno nomi, ma devi ricostruire i rapporti anziché limitarti a tradurle.",
+            "Il puborettale contribuisce al controllo dell’angolo anorettale, gli sfinteri controllano il canale e i tessuti connettivi distribuiscono il sostegno. Per lasciare passare contenuti durante l’evacuazione è necessaria una coordinazione che comprende rilasciamento di componenti del pavimento, non soltanto una loro contrazione sempre più intensa. La continenza non dipende da un unico muscolo “che chiude tutto”.",
+            "Respirazione e pressione addominale mettono in relazione diaframma toracico, parete addominale e pavimento pelvico. Durante l’inspirazione tranquilla la discesa diaframmatica si accompagna normalmente ad adattamenti della parete e del pavimento; durante sforzi differenti la strategia varia. Non si può dedurre la funzione individuale da una tavola statica, né ricavare una prescrizione di esercizio universale dall’anatomia. Per l’esame descrivi i collegamenti meccanici e distingui dato anatomico e risposta funzionale.",
+            "La figura non include tutto il perineo, tutti i nervi e tutti i rotatori. L’assenza grafica di un elemento non ne prova l’assenza anatomica. Per completare una risposta orale, aggiungi dal testo coccigeo, puborettale, membrana e corpo perineale; per i rotatori ricostruisci separatamente grande e piccolo forame ischiatico. Questo è un esercizio di lettura critica di una rappresentazione semplificata."
+          ],
+          "example": "Un compagno osserva l’iliaco vicino all’elevatore e li considera entrambi muscoli di continenza. Correggi seguendo gli attacchi: l’iliaco arriva al piccolo trocantere e flette l’anca; l’elevatore resta nel sistema pelvico e perineale. Vicinanza nell’immagine non significa identica funzione.",
+          "takeaway": "Una tavola aiuta a orientarsi; attacchi, passaggi e limiti della rappresentazione completano il ragionamento.",
+          "figureIds": [
+            "pelvic-floor"
+          ]
+        }
+      ],
+      "oral": {
+        "prompt": "Usa la tavola per orientare pube, sacro e passaggi viscerali; aggiungi le componenti non etichettate. Distingui diaframma pelvico, perineo e rotatori dell’anca, citando il percorso dell’otturatore interno.",
+        "answer": "La vista è superiore, con pube anteriore e sacro posteriore; procedendo da davanti a dietro compaiono uretra, vagina e canale rettale. L’elevatore comprende anche il puborettale non separatamente etichettato; il coccigeo completa il diaframma pelvico. Il perineo è inferiore e comprende triangoli, membrana, muscoli e sfinteri. L’iliaco e i rotatori raggiungono il femore, mentre il pavimento ha rapporti pelvici e viscerali. L’otturatore interno nasce sulla parete interna e il tendine passa nel piccolo forame ischiatico; il piriforme usa il grande. La figura è una semplificazione e non dimostra la coordinazione muscolare individuale.",
+        "criteria": [
+          "Dichiarare vista e orientamento",
+          "Ordinare i tre passaggi",
+          "Aggiungere puborettale e coccigeo senza inventare etichette",
+          "Distinguere pavimento, perineo e destinazioni femorali"
+        ]
+      },
+      "prerequisites": [
+        "anatomia-tronco",
+        "anatomia-anca-coscia"
+      ],
+      "sources": [
+        "syllabus-anatomy",
+        "an-pelvic-muscles",
+        "an-trunk-openstax",
+        "an-lower-regional"
+      ]
     }
   ],
   "sources": [
@@ -14896,6 +15979,153 @@
       "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
       "scope": "Riferimento per organizzazione della membrana ed effetto del colesterolo dipendente dalle condizioni.",
       "checked": "2026-10-20"
+    },
+    {
+      "id": "an-forearm-muscles",
+      "title": "Texas Tech University · Muscoli dell’arto superiore",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_upperlimb.html",
+      "scope": "Consultate le voci dei muscoli dell’avambraccio per verificare attacchi, innervazione e azioni. Tabelle didattiche originali organizzate per strati; nessuna immagine riprodotta.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-leg-muscles",
+      "title": "Texas Tech University · Muscoli dell’arto inferiore",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_lowerlimb.html",
+      "scope": "Consultate le voci dei muscoli della gamba; verificati attacchi, azioni e innervazione. Esplicitati i segmenti fissi per l’azione del popliteo.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-forearm-nerves",
+      "title": "Texas Tech University · Nervi dell’arto superiore",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/nerves_upperlimb.html",
+      "scope": "Verificati territorio motorio dell’interosseo anteriore, assenza di territorio cutaneo e distinzione dei rami radiali.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-forearm-spaces",
+      "title": "Texas Tech University · Topografia dell’arto superiore",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/topogr_upperlimb.html",
+      "scope": "Consultati compartimenti e rapporti regionali dell’avambraccio.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-leg-spaces",
+      "title": "Texas Tech University · Topografia dell’arto inferiore",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/topogr_lowerlimb.html",
+      "scope": "Consultati fascia crurale, compartimenti della gamba e limiti del cavo popliteo.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-popliteal-order",
+      "title": "Texas Tech University · Rapporti nel cavo popliteo",
+      "url": "https://anatomy.ttuhscep.edu/musculoskeletal_system/gluteal_questions/gluteal_9_feedback.html",
+      "scope": "Verificato il rapporto superficiale-profondo fra nervo tibiale, vena e arteria poplitea.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-wrist-passages",
+      "title": "Semmelweis University · Dorsal regions of the hand",
+      "url": "https://semmelweis.hu/anatomia/files/2016/08/hj-dorsreg-eng.pdf",
+      "scope": "Consultati i sei canali osteofibrosi dorsali e i limiti della tabacchiera; nessuna tavola riprodotta.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-tarsal-topography",
+      "title": "Studio anatomico · The bifurcation and topography of the posterior tibial artery within the tarsal tunnel",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10130123/",
+      "scope": "Consultato l’estratto indicizzato della descrizione anatomica e della figura con tendini, vasi e nervo del tunnel tarsale. L’apertura del testo integrale ha restituito una verifica del browser: non dichiarato letto l’articolo completo.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-uw-ecrb",
+      "title": "University of Washington · Extensor carpi radialis brevis",
+      "url": "https://rad.uw.edu/muscle-atlas/extensor-carpi-radialis-brevis",
+      "scope": "Verificati attacco sul III metacarpo e ramo profondo del radiale; immagini non riprodotte.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-uw-tibialis-posterior",
+      "title": "University of Washington · Tibialis posterior",
+      "url": "https://rad.uw.edu/muscle-atlas/tibialis-posterior",
+      "scope": "Verificati espansioni plantari, innervazione tibiale e azione di inversione; immagini non riprodotte.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-neck-hyoid",
+      "title": "Texas Tech University · Larynx and Neck",
+      "url": "https://anatomy.ttuhscep.edu/schemes/larynx_tables.html",
+      "scope": "Consultati attacchi e innervazione dei muscoli ioidei, triangoli e fasce cervicali. Sintesi originale; le fibre cervicali che accompagnano XII sono distinte dal nervo di origine.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-back-muscles",
+      "title": "Texas Tech University · Muscles of the Back",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_back.html",
+      "scope": "Consultati erettori, trasversospinali, spleni e suboccipitali. Non adottate le generalizzazioni di irrilevanza dei piccoli muscoli o di innervazione identica per ogni intertrasversario.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-thorax-muscles",
+      "title": "Texas Tech University · Muscles of the Thorax",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_thorax.html",
+      "scope": "Consultati attacchi, innervazione e strati respiratori; distinte porzioni interossee e intercondrali nel testo originale.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-abdomen-muscles",
+      "title": "Texas Tech University · Muscles of the Abdomen",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_abdomen.html",
+      "scope": "Verificati attacchi addominali, quadrato dei lombi, psoas e iliaco; distinta compressione del trasverso dalla flessione del retto.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-abdomen-spaces",
+      "title": "Texas Tech University · Topographical Anatomy of the Abdomen",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/topogr_abdomen.html",
+      "scope": "Consultate linea alba, semilunare e arcuata. Esplicitata la variabilità di posizione della linea arcuata.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-inguinal-spaces",
+      "title": "Texas Tech University · Inguinal Region",
+      "url": "https://anatomy.ttuhscep.edu/schemes/inguinal_tables.html",
+      "scope": "Consultati anelli, contenuti e rivestimenti del canale inguinale. Il confronto fra percorsi erniari è didattico, non diagnostico.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-pelvic-muscles",
+      "title": "Texas Tech University · Muscles of the Pelvis and Perineum",
+      "url": "https://anatomy.ttuhscep.edu/anatomytables/muscles_pelvis_perineum.html",
+      "scope": "Consultati elevatore, puborettale, coccigeo, otturatore interno, piriforme e muscoli perineali. Distinti diaframma pelvico, membrane e sfinteri; innervazione presentata con i limiti delle varianti.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-axial-openstax",
+      "title": "OpenStax · Axial Muscles of the Head, Neck, and Back",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+      "scope": "Consultata l’organizzazione regionale e gli attacchi dei principali gruppi. Testi ed esempi originali verificati con le tabelle universitarie; non riprodotte le tabelle o adottata la rotazione omolaterale attribuita al semispinale nella tabella web.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-trunk-openstax",
+      "title": "OpenStax · Abdominal Wall, Thorax and Pelvic Floor",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+      "scope": "Consultata l’organizzazione delle pareti e dei triangoli perineali. La tavola incorporata è la versione 2016 da Commons con licenza individuale CC BY 4.0, non un nuovo prelievo dal libro corrente. Puborettale e coccigeo sono spiegati oltre la semplificazione della figura.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-scalene-utah",
+      "title": "University of Utah · Gross Anatomy teaching syllabus 2014",
+      "url": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/PT_syllabus_2014_sm.pdf",
+      "scope": "Consultato soltanto l’estratto indicizzato sullo scaleno anteriore (C3–C6, prima costa). Il PDF integrale supera il limite di apertura dello strumento e non è dichiarato letto.",
+      "checked": "2026-10-20"
+    },
+    {
+      "id": "an-thoracolumbar-model",
+      "title": "Willard et al. · Thoracolumbar fascia (Journal of Anatomy, 2012)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3512278/",
+      "checked": "2026-10-20",
+      "scope": "Consultato l’estratto indicizzato sui modelli a due e tre lamine. Nella lezione è dichiarato il modello a tre lamine; non è presentato come unica nomenclatura possibile né come prova di uguale capacità di trasmissione della tensione in ogni lamina."
     }
   ],
   "curriculum": {
@@ -15763,7 +16993,12 @@
             "anatomia-cuore",
             "anatomia-ciclo-vasi",
             "anatomia-spalla-braccio",
-            "anatomia-anca-coscia"
+            "anatomia-anca-coscia",
+            "anatomia-avambraccio",
+            "anatomia-gamba",
+            "anatomia-collo-dorso",
+            "anatomia-pareti-tronco",
+            "anatomia-pelvi-perineo"
           ],
           "coverage": "Lezioni, casi svolti, domande con correzione e attività aperte disponibili. Il confronto con il programma è descritto nella mappa qui sotto."
         }
@@ -15894,16 +17129,60 @@
               "anatomia-tronco/testa-collo",
               "anatomia-tronco/dorso",
               "anatomia-tronco/addome",
-              "anatomia-tronco/pelvi"
+              "anatomia-tronco/pelvi",
+              "anatomia-collo-dorso/collo",
+              "anatomia-collo-dorso/ioide",
+              "anatomia-collo-dorso/dorso",
+              "anatomia-collo-dorso/nuca-fascia",
+              "anatomia-pareti-tronco/respiratori",
+              "anatomia-pareti-tronco/addominali",
+              "anatomia-pareti-tronco/guaine",
+              "anatomia-pareti-tronco/posteriore",
+              "anatomia-pelvi-perineo/pavimento",
+              "anatomia-pelvi-perineo/perineo",
+              "anatomia-pelvi-perineo/integrazione"
             ],
-            "status": "partial",
-            "note": "Mappa regionale introduttiva; attacchi, innervazione e rapporti di tutti i muscoli non sono ancora sviluppati singolarmente.",
+            "status": "introduced",
+            "note": "Trattati collo e ioidei, muscoli dorsali, suboccipitali, respiratori, pareti addominali anteriori/posteriori, fasce, guaina del retto e perineo: attacchi principali, innervazione, rapporti e casi. Introdotto non certifica ogni variante o il livello del programma corrente.",
             "id": "anatomia-umana-7",
             "questionIds": [
               "y1-anatomia-tronco-testa-collo",
               "y1-anatomia-tronco-dorso",
               "y1-anatomia-tronco-addome",
-              "y1-anatomia-tronco-pelvi"
+              "y1-anatomia-tronco-pelvi",
+              "trunk-anatomia-collo-dorso-collo-0",
+              "trunk-anatomia-collo-dorso-collo-1",
+              "trunk-anatomia-collo-dorso-collo-2",
+              "trunk-anatomia-collo-dorso-ioide-0",
+              "trunk-anatomia-collo-dorso-ioide-1",
+              "trunk-anatomia-collo-dorso-ioide-2",
+              "trunk-anatomia-collo-dorso-dorso-0",
+              "trunk-anatomia-collo-dorso-dorso-1",
+              "trunk-anatomia-collo-dorso-dorso-2",
+              "trunk-anatomia-collo-dorso-nuca-fascia-0",
+              "trunk-anatomia-collo-dorso-nuca-fascia-1",
+              "trunk-anatomia-collo-dorso-nuca-fascia-2",
+              "trunk-anatomia-pareti-tronco-respiratori-0",
+              "trunk-anatomia-pareti-tronco-respiratori-1",
+              "trunk-anatomia-pareti-tronco-respiratori-2",
+              "trunk-anatomia-pareti-tronco-addominali-0",
+              "trunk-anatomia-pareti-tronco-addominali-1",
+              "trunk-anatomia-pareti-tronco-addominali-2",
+              "trunk-anatomia-pareti-tronco-guaine-0",
+              "trunk-anatomia-pareti-tronco-guaine-1",
+              "trunk-anatomia-pareti-tronco-guaine-2",
+              "trunk-anatomia-pareti-tronco-posteriore-0",
+              "trunk-anatomia-pareti-tronco-posteriore-1",
+              "trunk-anatomia-pareti-tronco-posteriore-2",
+              "trunk-anatomia-pelvi-perineo-pavimento-0",
+              "trunk-anatomia-pelvi-perineo-pavimento-1",
+              "trunk-anatomia-pelvi-perineo-pavimento-2",
+              "trunk-anatomia-pelvi-perineo-perineo-0",
+              "trunk-anatomia-pelvi-perineo-perineo-1",
+              "trunk-anatomia-pelvi-perineo-perineo-2",
+              "trunk-anatomia-pelvi-perineo-integrazione-0",
+              "trunk-anatomia-pelvi-perineo-integrazione-1",
+              "trunk-anatomia-pelvi-perineo-integrazione-2"
             ]
           },
           {
@@ -15930,10 +17209,23 @@
               "anatomia-anca-coscia/articolazioni",
               "anatomia-anca-coscia/glutei",
               "anatomia-anca-coscia/anteromediale",
-              "anatomia-anca-coscia/posteriore"
+              "anatomia-anca-coscia/posteriore",
+              "anatomia-avambraccio/ossa",
+              "anatomia-avambraccio/anteriori",
+              "anatomia-avambraccio/profondi",
+              "anatomia-avambraccio/posteriori",
+              "anatomia-avambraccio/pollice",
+              "anatomia-avambraccio/passaggi",
+              "anatomia-gamba/compartimenti",
+              "anatomia-gamba/anteriore",
+              "anatomia-gamba/laterale",
+              "anatomia-gamba/superficiale",
+              "anatomia-gamba/profondo",
+              "anatomia-gamba/passaggi",
+              "anatomia-pelvi-perineo/rotatori"
             ],
-            "status": "partial",
-            "note": "Mano, piede, spalla/braccio e anca/coscia hanno capitoli regionali con articolazioni, attacchi essenziali, innervazione e casi. Restano approfondimenti di avambraccio e gamba, rotatori profondi e riconoscimento su più viste; le tabelle non elencano ogni fascio o variante.",
+            "status": "introduced",
+            "note": "Capitoli regionali per spalla/braccio, avambraccio/mano, anca/coscia e gamba/piede, con i sei rotatori profondi dell’anca: attacchi, nervi, passaggi e casi. Il riconoscimento su ulteriori viste resta parziale nella voce dedicata alle immagini; non sono elencati ogni fascio e variante.",
             "id": "anatomia-umana-8",
             "questionIds": [
               "arto-superiore-spalla-verifica",
@@ -15993,7 +17285,46 @@
               "proximal-anatomia-anca-coscia-anteromediale-2",
               "proximal-anatomia-anca-coscia-posteriore-0",
               "proximal-anatomia-anca-coscia-posteriore-1",
-              "proximal-anatomia-anca-coscia-posteriore-2"
+              "proximal-anatomia-anca-coscia-posteriore-2",
+              "regional-anatomia-avambraccio-ossa-0",
+              "regional-anatomia-avambraccio-ossa-1",
+              "regional-anatomia-avambraccio-ossa-2",
+              "regional-anatomia-avambraccio-anteriori-0",
+              "regional-anatomia-avambraccio-anteriori-1",
+              "regional-anatomia-avambraccio-anteriori-2",
+              "regional-anatomia-avambraccio-profondi-0",
+              "regional-anatomia-avambraccio-profondi-1",
+              "regional-anatomia-avambraccio-profondi-2",
+              "regional-anatomia-avambraccio-posteriori-0",
+              "regional-anatomia-avambraccio-posteriori-1",
+              "regional-anatomia-avambraccio-posteriori-2",
+              "regional-anatomia-avambraccio-pollice-0",
+              "regional-anatomia-avambraccio-pollice-1",
+              "regional-anatomia-avambraccio-pollice-2",
+              "regional-anatomia-avambraccio-passaggi-0",
+              "regional-anatomia-avambraccio-passaggi-1",
+              "regional-anatomia-avambraccio-passaggi-2",
+              "regional-anatomia-gamba-compartimenti-0",
+              "regional-anatomia-gamba-compartimenti-1",
+              "regional-anatomia-gamba-compartimenti-2",
+              "regional-anatomia-gamba-anteriore-0",
+              "regional-anatomia-gamba-anteriore-1",
+              "regional-anatomia-gamba-anteriore-2",
+              "regional-anatomia-gamba-laterale-0",
+              "regional-anatomia-gamba-laterale-1",
+              "regional-anatomia-gamba-laterale-2",
+              "regional-anatomia-gamba-superficiale-0",
+              "regional-anatomia-gamba-superficiale-1",
+              "regional-anatomia-gamba-superficiale-2",
+              "regional-anatomia-gamba-profondo-0",
+              "regional-anatomia-gamba-profondo-1",
+              "regional-anatomia-gamba-profondo-2",
+              "regional-anatomia-gamba-passaggi-0",
+              "regional-anatomia-gamba-passaggi-1",
+              "regional-anatomia-gamba-passaggi-2",
+              "trunk-anatomia-pelvi-perineo-rotatori-0",
+              "trunk-anatomia-pelvi-perineo-rotatori-1",
+              "trunk-anatomia-pelvi-perineo-rotatori-2"
             ]
           },
           {
@@ -16193,10 +17524,12 @@
               "anatomia-scheletro-visivo/sinoviale",
               "anatomia-cuore/cavita",
               "anatomia-cuore/valvole",
-              "anatomia-cuore/parete"
+              "anatomia-cuore/parete",
+              "anatomia-pelvi-perineo/pavimento",
+              "anatomia-pelvi-perineo/integrazione"
             ],
             "status": "partial",
-            "note": "Tavole etichettate, micrografia, scheletro senza nomi con dieci punti di riconoscimento e sezione sinoviale. Da estendere a visceri, viste regionali e ricostruzione tridimensionale: la prova su una tavola anteriore non dimostra riconoscimento da ogni vista. Aggiunta una tavola del cuore aperto con guida italiana e cinque quiz interpretativi; etichette originali visibili.",
+            "note": "Scheletro senza nomi con dieci punti, tavole etichettate e micrografia. Aggiunte viste del cuore aperto e del pavimento pelvico con guide e quiz interpretativi: etichette originali visibili. Restano ulteriori visceri, viste regionali senza etichette, ossa isolate e ricostruzione tridimensionale.",
             "id": "anatomia-umana-16",
             "questionIds": [
               "depth-anatomia-atlante-muscoli",
@@ -16231,7 +17564,13 @@
               "heart-anatomia-cuore-valvole-2",
               "heart-anatomia-cuore-parete-0",
               "heart-anatomia-cuore-parete-1",
-              "heart-anatomia-cuore-parete-2"
+              "heart-anatomia-cuore-parete-2",
+              "trunk-anatomia-pelvi-perineo-pavimento-0",
+              "trunk-anatomia-pelvi-perineo-pavimento-1",
+              "trunk-anatomia-pelvi-perineo-pavimento-2",
+              "trunk-anatomia-pelvi-perineo-integrazione-0",
+              "trunk-anatomia-pelvi-perineo-integrazione-1",
+              "trunk-anatomia-pelvi-perineo-integrazione-2"
             ]
           }
         ]
@@ -18420,6 +19759,19 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
       "changes": "Immagine originale non modificata; guida italiana e spiegazioni aggiunte separatamente.",
       "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/2008_Internal_Anatomy_of_the_HeartN.jpg"
+    },
+    {
+      "id": "pelvic-floor",
+      "file": "assets/anatomy/pelvic-floor.jpg",
+      "title": "Pavimento pelvico · vista superiore schematica",
+      "alt": "Disegno della pelvi vista dall’alto, con muscoli, riferimenti ossei e passaggi viscerali; etichette originali in inglese.",
+      "guide": "Vista superiore: pube anteriore in alto, sacro posteriore in basso. Pubic crest = cresta pubica; sacrum = sacro; iliac crests = creste iliache. Urethral, vaginal e rectal canal indicano i passaggi uretrale, vaginale e rettale nell’ordine anteroposteriore. La presenza del passaggio vaginale identifica la configurazione illustrata. Pubococcygeus e iliococcygeus = pubococcigeo e ileococcigeo; Levator ani = elevatore dell’ano. Iliacus = iliaco, laterale nella fossa iliaca e diretto al femore: non appartiene all’elevatore. Il puborettale non è etichettato separatamente e il coccigeo non è isolato; questa figura non esaurisce le componenti del pavimento e non mostra tutti i muscoli perineali. Le etichette restano visibili nei quiz: si valuta l’interpretazione dei rapporti, non il riconoscimento senza nomi.",
+      "author": "OpenStax",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Immagine originale 2016 riprodotta senza modifiche; guida italiana e spiegazioni aggiunte separatamente.",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/1115_Muscles_of_the_Pelvic_Floor.jpg"
     }
   ],
   "workbooks": [
@@ -18738,5 +20090,63 @@
         ]
       }
     }
-  ]
+  ],
+  "checkpoint": {
+    "status": "paused",
+    "updated": "2026-10-20",
+    "summary": "Preparazione del materiale in pausa. Ultimo aggiornamento verificato: Anatomia, capitoli su collo/dorso, torace/addome, pelvi/perineo e rotatori profondi, con tavola pelvica e 36 nuovi quiz. Il materiale disponibile resta utilizzabile.",
+    "next": "Riprendere da Anatomia: confronto analitico dei visceri e dello scheletro craniale/assile, poi ulteriori esercizi di riconoscimento su immagini. Proseguire con le lacune degli altri esami elencate sotto.",
+    "examNotes": [
+      {
+        "id": "scienze-biologiche",
+        "label": "Verifica finale da terminare",
+        "remaining": "Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione."
+      },
+      {
+        "id": "anatomia-umana",
+        "label": "Da ampliare e verificare",
+        "remaining": "Capitoli muscolari regionali ampliati. Restano confronto completo di visceri e scheletro craniale/assile, ulteriori tavole e riconoscimento senza etichette, verifica del programma attuale."
+      },
+      {
+        "id": "scienze-base",
+        "label": "Verifica finale da terminare",
+        "remaining": "Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso."
+      },
+      {
+        "id": "scienze-psicopedagogiche",
+        "label": "Da ampliare e verificare",
+        "remaining": "Approfondire autori e confronti di psicologia e pedagogia generale, letture monografiche, casi e confronto del modulo attuale di didattica speciale."
+      },
+      {
+        "id": "scienze-giuridiche",
+        "label": "Da ampliare e verificare",
+        "remaining": "Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi."
+      },
+      {
+        "id": "allenamento",
+        "label": "Confronto completo da terminare",
+        "remaining": "Lezioni e quiz presenti; resta il confronto voce per voce del programma, con verifica della profondità di casi, progettazione e prove aperte."
+      },
+      {
+        "id": "attivita-motorie",
+        "label": "Confronto completo da terminare",
+        "remaining": "Lezioni e quiz presenti; resta il confronto analitico dell’intero programma e della sufficienza di applicazioni pratiche e prove aperte."
+      },
+      {
+        "id": "gestione-sport",
+        "label": "Confronto completo da terminare",
+        "remaining": "Verificare sistematicamente diritto delle società sportive, organizzazione e marketing; integrare i casi e le verifiche che il confronto segnalerà come mancanti."
+      },
+      {
+        "id": "informatica",
+        "label": "Da ampliare e verificare",
+        "remaining": "Laboratorio su formule e report presente. Mancano esercitazioni operative su ordinamento, filtri e grafici e il confronto completo con il programma."
+      },
+      {
+        "id": "inglese",
+        "label": "Da ampliare e verificare",
+        "remaining": "Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio."
+      }
+    ]
+  }
 }

@@ -70,9 +70,9 @@ test('visual markers reject invalid coordinates, duplicate letters and missing l
 });
 test('new chapters provide internal teaching, worked examples and self-assessed oral answers',()=>{
   const expanded=course.units.filter(u=>u.oral);
-  assert.equal(expanded.length,124);
+  assert.equal(expanded.length,129);
   for(const u of expanded) {
-    assert.equal(u.sections.length,4);
+    assert.ok(u.sections.length>=4);
     assert.ok(u.sections.every(s=>s.text.length>=2&&s.example&&s.takeaway));
     assert.ok(exercises.questions.filter(q=>q.unit===u.id).length>=4);
     for(const section of u.sections) assert.ok(exercises.questions.some(q=>q.help===`${u.id}/${section.id}`));

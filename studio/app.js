@@ -77,6 +77,15 @@ function sourceHTML(unit) {
   const sources = (unit.sources || []).map(id => course.sources.find(s => s.id === id));
   return sources.length ? `<details class="lesson-sources"><summary>Fonti aperte e approfondimenti facoltativi</summary><p class="reading-note">Il testo da studiare è tutto in questa pagina. I collegamenti richiedono Internet e servono per consultazione e confronto; non sono una lista di acquisti.</p><ul>${sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>` : '';
 }
+function examPendingHTML(exam) {
+  const note=course.checkpoint?.examNotes?.find(n=>n.id===exam.id);
+  return note ? `<div class="exam-pending"><span class="tag orange">${esc(note.label)}</span><p class="reading-note">${esc(note.remaining)}</p></div>` : '';
+}
+function checkpointHTML() {
+  const cp=course.checkpoint;
+  if(!cp) return '';
+  return `<section class="card work-checkpoint"><h2>Segnalibro · materiale ancora da completare</h2><p>${esc(cp.summary)}</p><p><strong>Punto di ripresa:</strong> ${esc(cp.next)}</p><p class="reading-note">Stato del materiale, distinto dai tuoi progressi: nessun esame è ancora verificato come integralmente completato. Puoi continuare a usare tutte le lezioni presenti.</p><details><summary>Che cosa manca nei ${cp.examNotes.length} esami</summary><ul>${cp.examNotes.map(n=>`<li><a href="#exam/${esc(n.id)}">${esc(course.exams.find(e=>e.id===n.id)?.title || n.id)}</a> · <strong>${esc(n.label)}</strong><p>${esc(n.remaining)}</p></li>`).join('')}</ul></details></section>`;
+}
 function examCard(exam) {
   const units = unitsForExam(course,exam.id), read = units.filter(u => state.read[u.id]).length;
   const attempts = state.attempts.filter(a => units.some(u => u.id === a.unit));
@@ -84,6 +93,7 @@ function examCard(exam) {
   return `<article class="card exam-card"><div class="row between"><span class="tag">${exam.cfu} CFU · ${exam.semester}° semestre</span><span class="reading-note">${esc(exam.code)}</span></div>
     <h3><a href="#exam/${exam.id}">${esc(exam.title)}</a></h3><p>${exam.modules.map(m => esc(m.title)).join(' · ')}</p>
     <span class="tag ${units.length ? '' : 'orange'}">${units.length ? 'Lezioni e test disponibili' : 'Materiale da sviluppare'}</span>
+    ${examPendingHTML(exam)}
     ${units.length ? `<label class="sr-only" for="p-${exam.id}">Lezioni disponibili lette di ${esc(exam.title)}</label><progress id="p-${exam.id}" max="${units.length}" value="${read}"></progress><p class="reading-note">${read}/${units.length} lezioni disponibili lette · ${questions} esercizi e modelli · ${attempts.length} risposte registrate</p>` : '<p class="reading-note">Esame presente nel piano. Lezioni ed esercizi non ancora disponibili.</p>'}
     <div class="card-footer"><a href="#exam/${exam.id}">${units.length ? 'Prepara questo esame' : 'Vedi moduli e programma'} →</a></div></article>`;
 }
@@ -111,6 +121,7 @@ function examPage(id) {
   return `<a href="#learn">← Esami del primo anno</a>${head(`${exam.code} · ${exam.cfu} CFU · ${exam.semester}° SEMESTRE`,exam.title,'Università di Bari · Primo anno · 2026/27')}
     <div class="callout">${units.length ? `${read} di ${units.length} lezioni disponibili segnate come lette. Il materiale è parziale: questa misura non è una percentuale del programma ufficiale né attesta il superamento dell’esame.` : 'Il piano e i moduli sono verificati. Il materiale di studio per questo esame deve ancora essere sviluppato.'}</div>
     <p class="reading-note section-heading">${esc(exam.syllabusStatus)}. <a href="${esc(exam.sourceUrl)}" target="_blank" rel="noopener noreferrer">Scheda ufficiale UniBa ↗</a></p>
+    ${examPendingHTML(exam)}
     ${units.length ? `<div class="row">${action('start-exam','Esercitati su questo esame',`data-exam="${exam.id}"`,'primary')}${action('start-programme',`Test guidato · ${programmeQuestions(course,definitions,exam.id,()=>0).length} domande`,`data-exam="${exam.id}"`)}<a class="button" href="#print/${exam.id}">Quaderno di questo esame</a></div>` : ''}
     ${programmeHTML(exam)}
     ${units.length ? '<label class="search-label">Cerca tra le lezioni di questo esame<input id="lesson-search" type="search" placeholder="Es. metabolismo, contratti, apprendimento"></label>' : ''}
@@ -144,6 +155,7 @@ function home() {
   const next = unitById(state.lastUnit) || course.units.find(u => !state.read[u.id]) || course.units[0];
   const correct = state.attempts.filter(a => a.correct).length;
   return `${head('LA TUA SCRIVANIA', state.settings.name ? `Bentornata, ${state.settings.name}.` : 'Un piccolo passo, ogni giorno.', 'Leggi, prova, capisci gli errori. Il tuo posto per studiare Scienze motorie, anche quando il tempo è poco.')}
+    ${checkpointHTML()}
     <div class="stats">${stat(`${read}/${course.units.length}`, 'lezioni segnate come lette')}${stat(state.attempts.length, 'esercizi verificati')}${stat(state.attempts.length ? `${Math.round(correct / state.attempts.length * 100)}%` : '—', 'risposte corrette al primo invio')}${stat(queue.length, 'tipi di esercizio da ripassare')}</div>
     <section class="hero"><div><span class="eyebrow">${state.active ? 'LA TUA SESSIONE TI ASPETTA' : state.lastUnit ? 'RIPRENDI DA QUI' : 'COMINCIAMO DALLE BASI'}</span><h2>${esc(state.active ? state.active.title : next.title)}</h2><p>${state.active ? 'Le risposte già verificate sono salvate. Puoi riprendere senza ricominciare.' : esc(next.description) + ' Trovi tutto qui: spiegazione, esempio e verifica.'}</p><a class="button primary" href="${state.active ? '#session' : `#lesson/${next.id}`}">${state.active ? 'Riprendi gli esercizi' : 'Apri la lezione'} <span aria-hidden="true">→</span></a></div>
     <div class="orbit" aria-hidden="true"><div class="orbit-ring"><span class="orbit-center">s.</span></div><span class="orbit-note">capire · provare · ricordare</span></div></section>
@@ -155,6 +167,7 @@ function home() {
 }
 function learn(subjectId = '') {
   if (!subjectId) return `${head('IL TUO PRIMO ANNO','Gli esami da preparare.','Ogni esame raccoglie i suoi moduli, le lezioni e le verifiche. Si studia qui, senza dover acquistare i manuali.')}
+    ${checkpointHTML()}
     <div class="callout">${esc(course.curriculum.note)}</div>
     ${[1,2].map(semester => `<div class="section-heading"><h2>${semester}° semestre</h2></div><div class="grid exams">${course.exams.filter(e => e.semester === semester).map(examCard).join('')}</div>`).join('')}`;
   const units = course.units.filter(u => !subjectId || u.subject === subjectId);

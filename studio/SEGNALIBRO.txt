@@ -1,0 +1,46 @@
+SEGNALIBRO DI LAVORO — 20 ottobre 2026
+STATO: IN PAUSA SU RICHIESTA DELL’UTENTE
+
+Ultimo blocco chiuso e verificato: Anatomia, collo/dorso, torace/addome, pelvi/perineo e sei rotatori profondi dell’anca. Tre lezioni, 12 sezioni, 10 tabelle, 36 quiz, tre prove aperte e tavola OpenStax attribuita.
+Consegna: pronto/index.html. Apribile direttamente; progressi e impostazioni restano nel browser.
+Totali: 149 lezioni, 580 sezioni, 998 quiz, 27 famiglie numeriche, 129 prove aperte, 12 tavole anatomiche.
+Copertura: 125 gruppi; 119 introdotti, 5 parziali, 1 mancante. Introdotto non significa programma esaurito. Nessuno dei dieci esami è certificato integralmente completato.
+
+PUNTO DI RIPRESA
+Riprendere da Anatomia: confronto analitico dei visceri e dello scheletro craniale/assile, poi ulteriori esercizi di riconoscimento su immagini. Proseguire con le lacune degli altri esami elencate sotto.
+
+ESAMI ANCORA DA TERMINARE
+Scienze biologiche — Verifica finale da terminare
+Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione.
+
+Anatomia umana e applicata — Da ampliare e verificare
+Capitoli muscolari regionali ampliati. Restano confronto completo di visceri e scheletro craniale/assile, ulteriori tavole e riconoscimento senza etichette, verifica del programma attuale.
+
+Scienze di base — Verifica finale da terminare
+Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso.
+
+Scienze psicologiche e pedagogiche — Da ampliare e verificare
+Approfondire autori e confronti di psicologia e pedagogia generale, letture monografiche, casi e confronto del modulo attuale di didattica speciale.
+
+Scienze giuridiche — Da ampliare e verificare
+Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi.
+
+Teoria e metodologia dell’allenamento — Confronto completo da terminare
+Lezioni e quiz presenti; resta il confronto voce per voce del programma, con verifica della profondità di casi, progettazione e prove aperte.
+
+Teoria e metodologia delle attività motorie — Confronto completo da terminare
+Lezioni e quiz presenti; resta il confronto analitico dell’intero programma e della sufficienza di applicazioni pratiche e prove aperte.
+
+Gestione delle società sportive — Confronto completo da terminare
+Verificare sistematicamente diritto delle società sportive, organizzazione e marketing; integrare i casi e le verifiche che il confronto segnalerà come mancanti.
+
+Informatica — Da ampliare e verificare
+Laboratorio su formule e report presente. Mancano esercitazioni operative su ordinamento, filtri e grafici e il confronto completo con il programma.
+
+Inglese scientifico — Da ampliare e verificare
+Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio.
+
+VERIFICHE E FONTI
+Il piano 2026/27 è verificato; i programmi analitici disponibili sono precedenti. La corrispondenza al programma corrente non è confermata.
+npm run check, npm test; test browser specifico tests/trunk-browser.mjs e generale tests/browser.mjs. Non pubblicato questo aggiornamento.
+Per riprendere leggere questo file, data/development-audit.json, README.md e MANUTENZIONE.md. Conservare gli ID delle lezioni e i progressi. Rimuovere lo stato di pausa solo quando l’utente chiede di riprendere.

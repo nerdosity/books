@@ -28036,6 +28036,2172 @@
       "hint": "Identifica il passaggio, il compartimento e ciò che cambia nel caso descritto.",
       "explanation": "Un’anidride carbossilica. La sezione collegata ricostruisce il procedimento e il caso.",
       "help": "chimica-organica/gruppi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-ossa-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "ossa",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Durante la pronazione con braccio fermo, quale rapporto cambia?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il radio si porta obliquamente davanti all’ulna"
+        },
+        {
+          "id": "a",
+          "text": "L’ulna attraversa le ossa carpali",
+          "feedback": "La testa ulnare resta separata dal carpo dal disco articolare.",
+          "help": "anatomia-avambraccio/ossa"
+        },
+        {
+          "id": "b",
+          "text": "La troclea omerale ruota dentro il polso",
+          "feedback": "La troclea appartiene al gomito, non al polso.",
+          "help": "anatomia-avambraccio/ossa"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Il radio si porta obliquamente davanti all’ulna. Pronosupinazione e flessoestensione del gomito sono movimenti distinti; la mano segue il radio.",
+      "help": "anatomia-avambraccio/ossa"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-ossa-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "ossa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quali articolazioni collaborano alla pronosupinazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Radio-ulnare prossimale e distale"
+        },
+        {
+          "id": "a",
+          "text": "Solo radiocarpica",
+          "feedback": "La radiocarpica muove la mano rispetto all’avambraccio; non sostituisce le due radio-ulnari.",
+          "help": "anatomia-avambraccio/ossa"
+        },
+        {
+          "id": "b",
+          "text": "Solo omero-ulnare",
+          "feedback": "Questa descrive soprattutto flessione ed estensione del gomito.",
+          "help": "anatomia-avambraccio/ossa"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Radio-ulnare prossimale e distale. Pronosupinazione e flessoestensione del gomito sono movimenti distinti; la mano segue il radio.",
+      "help": "anatomia-avambraccio/ossa"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-ossa-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "ossa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale struttura trattiene la testa radiale durante la rotazione prossimale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Legamento anulare"
+        },
+        {
+          "id": "a",
+          "text": "Membrana interossea distale",
+          "feedback": "La membrana collega le diafisi; non circonda la testa del radio.",
+          "help": "anatomia-avambraccio/ossa"
+        },
+        {
+          "id": "b",
+          "text": "Retinacolo dei flessori",
+          "feedback": "È un passaggio del polso, distante dalla testa radiale.",
+          "help": "anatomia-avambraccio/ossa"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Legamento anulare. Pronosupinazione e flessoestensione del gomito sono movimenti distinti; la mano segue il radio.",
+      "help": "anatomia-avambraccio/ossa"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-anteriori-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "anteriori",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale muscolo superficiale anteriore riceve innervazione ulnare?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Flessore ulnare del carpo"
+        },
+        {
+          "id": "a",
+          "text": "Flessore radiale del carpo",
+          "feedback": "Riceve il mediano; il nome radiale descrive il lato, non il nervo.",
+          "help": "anatomia-avambraccio/anteriori"
+        },
+        {
+          "id": "b",
+          "text": "Pronatore rotondo",
+          "feedback": "Riceve il mediano, che passa fra i suoi due capi.",
+          "help": "anatomia-avambraccio/anteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Flessore ulnare del carpo. Compartimento anteriore non significa innervazione esclusivamente mediana; l’inserzione distingue polso e dita.",
+      "help": "anatomia-avambraccio/anteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-anteriori-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "anteriori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché il flessore superficiale non è il flessore diretto dell’interfalangea distale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Termina sulla falange media, prima di quell’articolazione"
+        },
+        {
+          "id": "a",
+          "text": "Non attraversa nessuna articolazione digitale",
+          "feedback": "Attraversa metacarpofalangee e interfalangee prossimali.",
+          "help": "anatomia-avambraccio/anteriori"
+        },
+        {
+          "id": "b",
+          "text": "È un estensore innervato dal radiale",
+          "feedback": "È un flessore del compartimento anteriore, innervato dal mediano.",
+          "help": "anatomia-avambraccio/anteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Termina sulla falange media, prima di quell’articolazione. Compartimento anteriore non significa innervazione esclusivamente mediana; l’inserzione distingue polso e dita.",
+      "help": "anatomia-avambraccio/anteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-anteriori-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "anteriori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Flessore radiale e flessore ulnare attivi insieme possono produrre quale effetto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Flessione del polso con compensazione delle deviazioni laterali"
+        },
+        {
+          "id": "a",
+          "text": "Estensione pura delle dita",
+          "feedback": "I due tendini terminano prima delle falangi e passano anteriormente al polso.",
+          "help": "anatomia-avambraccio/anteriori"
+        },
+        {
+          "id": "b",
+          "text": "Pronazione senza azione sul polso",
+          "feedback": "Attraversano il polso; non sono la coppia dei pronatori.",
+          "help": "anatomia-avambraccio/anteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Flessione del polso con compensazione delle deviazioni laterali. Compartimento anteriore non significa innervazione esclusivamente mediana; l’inserzione distingue polso e dita.",
+      "help": "anatomia-avambraccio/anteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-profondi-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "profondi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale gruppo appartiene al territorio motorio dell’interosseo anteriore?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Flessore lungo del pollice, profondo per II–III e pronatore quadrato"
+        },
+        {
+          "id": "a",
+          "text": "Tutti i muscoli anteriori senza eccezioni",
+          "feedback": "Flessore ulnare e porzione ulnare del profondo dipendono dall’ulnare; altri flessori hanno rami mediani distinti.",
+          "help": "anatomia-avambraccio/profondi"
+        },
+        {
+          "id": "b",
+          "text": "Estensori delle dita e supinatore",
+          "feedback": "Appartengono alla famiglia del nervo radiale.",
+          "help": "anatomia-avambraccio/profondi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Flessore lungo del pollice, profondo per II–III e pronatore quadrato. Interosseo anteriore: flessore lungo del pollice, porzione radiale del profondo e pronatore quadrato, senza territorio cutaneo.",
+      "help": "anatomia-avambraccio/profondi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-profondi-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "profondi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché un problema isolato dell’interosseo anteriore non implica necessariamente perdita di sensibilità cutanea?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il ramo non distribuisce un territorio sensitivo della pelle"
+        },
+        {
+          "id": "a",
+          "text": "Ogni ramo del mediano è esclusivamente sensitivo",
+          "feedback": "Il ramo descritto innerva muscoli; il mediano principale contiene anche fibre sensitive.",
+          "help": "anatomia-avambraccio/profondi"
+        },
+        {
+          "id": "b",
+          "text": "La pelle della mano non contiene recettori",
+          "feedback": "La sensibilità cutanea esiste, ma segue altri rami.",
+          "help": "anatomia-avambraccio/profondi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Il ramo non distribuisce un territorio sensitivo della pelle. Interosseo anteriore: flessore lungo del pollice, porzione radiale del profondo e pronatore quadrato, senza territorio cutaneo.",
+      "help": "anatomia-avambraccio/profondi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-profondi-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "profondi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale differenza distingue flessore lungo e flessore breve del pollice?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il lungo arriva alla falange distale, il breve alla prossimale"
+        },
+        {
+          "id": "a",
+          "text": "Entrambi terminano sul radio",
+          "feedback": "Il radio dà origine al lungo; non è l’inserzione distale dei due muscoli.",
+          "help": "anatomia-avambraccio/profondi"
+        },
+        {
+          "id": "b",
+          "text": "Solo il breve può flettere direttamente l’interfalangea",
+          "feedback": "Il breve termina prima dell’interfalangea, mentre il lungo la attraversa.",
+          "help": "anatomia-avambraccio/profondi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Il lungo arriva alla falange distale, il breve alla prossimale. Interosseo anteriore: flessore lungo del pollice, porzione radiale del profondo e pronatore quadrato, senza territorio cutaneo.",
+      "help": "anatomia-avambraccio/profondi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-posteriori-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "posteriori",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale muscolo innervato dal radiale flette il gomito senza attraversare il polso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Brachioradiale"
+        },
+        {
+          "id": "a",
+          "text": "Estensore radiale breve del carpo",
+          "feedback": "Raggiunge il III metacarpo e attraversa il polso.",
+          "help": "anatomia-avambraccio/posteriori"
+        },
+        {
+          "id": "b",
+          "text": "Estensore delle dita",
+          "feedback": "Raggiunge le espansioni digitali, oltre il polso.",
+          "help": "anatomia-avambraccio/posteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Brachioradiale. Nervo radiale e azione estensoria non sono sinonimi: controlla attacco distale e ramo nervoso.",
+      "help": "anatomia-avambraccio/posteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-posteriori-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "posteriori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale coppia può estendere il polso compensando le deviazioni laterali?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Estensore radiale del carpo ed estensore ulnare del carpo"
+        },
+        {
+          "id": "a",
+          "text": "Flessore radiale e flessore ulnare",
+          "feedback": "Compensano le deviazioni ma producono flessione, non estensione.",
+          "help": "anatomia-avambraccio/posteriori"
+        },
+        {
+          "id": "b",
+          "text": "Brachioradiale e pronatore quadrato",
+          "feedback": "Non attraversano il polso e non sono estensori diretti del carpo.",
+          "help": "anatomia-avambraccio/posteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Estensore radiale del carpo ed estensore ulnare del carpo. Nervo radiale e azione estensoria non sono sinonimi: controlla attacco distale e ramo nervoso.",
+      "help": "anatomia-avambraccio/posteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-posteriori-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "posteriori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il ramo superficiale del radiale è la via motoria principale degli estensori delle dita?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: gli estensori digitali dipendono dal ramo profondo e dalla sua continuazione interossea posteriore"
+        },
+        {
+          "id": "a",
+          "text": "Sì: superficiale significa che raggiunge tutti i tendini superficiali",
+          "feedback": "Il nome del ramo non indica lo strato dei muscoli da innervare.",
+          "help": "anatomia-avambraccio/posteriori"
+        },
+        {
+          "id": "b",
+          "text": "No: gli estensori digitali ricevono l’interosseo anteriore",
+          "feedback": "L’interosseo anteriore deriva dal mediano e innerva muscoli anteriori profondi.",
+          "help": "anatomia-avambraccio/posteriori"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "No: gli estensori digitali dipendono dal ramo profondo e dalla sua continuazione interossea posteriore. Nervo radiale e azione estensoria non sono sinonimi: controlla attacco distale e ramo nervoso.",
+      "help": "anatomia-avambraccio/posteriori"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-pollice-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "pollice",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale tendine può estendere direttamente l’interfalangea del pollice?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Estensore lungo del pollice"
+        },
+        {
+          "id": "a",
+          "text": "Abduttore lungo del pollice",
+          "feedback": "Termina sul primo metacarpo, prima delle articolazioni falangee.",
+          "help": "anatomia-avambraccio/pollice"
+        },
+        {
+          "id": "b",
+          "text": "Estensore breve del pollice",
+          "feedback": "Termina sulla falange prossimale e non attraversa l’interfalangea.",
+          "help": "anatomia-avambraccio/pollice"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Estensore lungo del pollice. Nel pollice distingui metacarpo, falange prossimale e distale: sono tre destinazioni con effetti diversi.",
+      "help": "anatomia-avambraccio/pollice"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-pollice-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "pollice",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale struttura attraversa la tabacchiera anatomica?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Arteria radiale"
+        },
+        {
+          "id": "a",
+          "text": "Nervo mediano con nove tendini flessori",
+          "feedback": "Questo è il contenuto del tunnel carpale palmare.",
+          "help": "anatomia-avambraccio/pollice"
+        },
+        {
+          "id": "b",
+          "text": "Tendine del tricipite",
+          "feedback": "Termina sull’olecrano al gomito e non raggiunge questa regione.",
+          "help": "anatomia-avambraccio/pollice"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Arteria radiale. Nel pollice distingui metacarpo, falange prossimale e distale: sono tre destinazioni con effetti diversi.",
+      "help": "anatomia-avambraccio/pollice"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-pollice-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "pollice",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quali tendini condividono il primo canale dorsale del polso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Abduttore lungo ed estensore breve del pollice"
+        },
+        {
+          "id": "a",
+          "text": "Estensore lungo del pollice ed estensore dell’indice",
+          "feedback": "Il lungo estensore è nel terzo; l’estensore dell’indice nel quarto.",
+          "help": "anatomia-avambraccio/pollice"
+        },
+        {
+          "id": "b",
+          "text": "Flessore lungo del pollice e flessore superficiale",
+          "feedback": "Sono tendini palmari del tunnel carpale, non del retinacolo dorsale.",
+          "help": "anatomia-avambraccio/pollice"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Abduttore lungo ed estensore breve del pollice. Nel pollice distingui metacarpo, falange prossimale e distale: sono tre destinazioni con effetti diversi.",
+      "help": "anatomia-avambraccio/pollice"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-passaggi-0",
+      "unit": "anatomia-avambraccio",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è l’ordine lateromediale dei tre contenuti profondi centrali della fossa cubitale descritti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tendine bicipitale, arteria brachiale, nervo mediano"
+        },
+        {
+          "id": "a",
+          "text": "Nervo ulnare, tendine bicipitale, arteria radiale",
+          "feedback": "L’ulnare passa posteriormente all’epicondilo mediale; l’ordine proposto mescola regioni diverse.",
+          "help": "anatomia-avambraccio/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "Vena mediana cubitale, nervo ulnare, tendine tricipitale",
+          "feedback": "La vena è superficiale; ulnare e tendine tricipitale appartengono a rapporti posteriori.",
+          "help": "anatomia-avambraccio/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Tendine bicipitale, arteria brachiale, nervo mediano. Il livello del ramo conta quanto il nome del nervo: segui il percorso in ordine prossimodistale.",
+      "help": "anatomia-avambraccio/passaggi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-passaggi-1",
+      "unit": "anatomia-avambraccio",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un interessamento isolato del mediano nel tunnel carpale deve interrompere il ramo per il pronatore rotondo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: quel ramo lascia il nervo più prossimalmente"
+        },
+        {
+          "id": "a",
+          "text": "Sì: tutti i rami del mediano attraversano prima il tunnel",
+          "feedback": "I rami per l’avambraccio si separano prima del polso.",
+          "help": "anatomia-avambraccio/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "No, perché il pronatore rotondo riceve il radiale",
+          "feedback": "Riceve il mediano: la spiegazione corretta riguarda il livello, non un altro nervo.",
+          "help": "anatomia-avambraccio/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "No: quel ramo lascia il nervo più prossimalmente. Il livello del ramo conta quanto il nome del nervo: segui il percorso in ordine prossimodistale.",
+      "help": "anatomia-avambraccio/passaggi"
+    },
+    {
+      "id": "regional-anatomia-avambraccio-passaggi-2",
+      "unit": "anatomia-avambraccio",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale percorso descrive l’ulnare presso il gomito?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Dietro l’epicondilo mediale, poi fra i capi del flessore ulnare del carpo"
+        },
+        {
+          "id": "a",
+          "text": "Dentro il supinatore insieme al ramo profondo radiale",
+          "feedback": "Questo è il rapporto del ramo profondo del radiale, non dell’ulnare.",
+          "help": "anatomia-avambraccio/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "Fra radio e ulna per entrare nel tunnel carpale",
+          "feedback": "Al polso l’ulnare passa nel canale di Guyon, distinto dal tunnel carpale.",
+          "help": "anatomia-avambraccio/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Dietro l’epicondilo mediale, poi fra i capi del flessore ulnare del carpo. Il livello del ramo conta quanto il nome del nervo: segui il percorso in ordine prossimodistale.",
+      "help": "anatomia-avambraccio/passaggi"
+    },
+    {
+      "id": "regional-anatomia-gamba-compartimenti-0",
+      "unit": "anatomia-gamba",
+      "concept": "compartimenti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Compartimento anteriore: nervo fibulare profondo"
+        },
+        {
+          "id": "a",
+          "text": "Compartimento laterale: nervo tibiale",
+          "feedback": "Lungo e breve fibulare ricevono il fibulare superficiale.",
+          "help": "anatomia-gamba/compartimenti"
+        },
+        {
+          "id": "b",
+          "text": "Compartimenti posteriori: nervo femorale",
+          "feedback": "Il femorale riguarda soprattutto la coscia anteriore; i posteriori della gamba ricevono il tibiale.",
+          "help": "anatomia-gamba/compartimenti"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Compartimento anteriore: nervo fibulare profondo. Compartimento, passaggio davanti/dietro la caviglia e inserzione vanno usati insieme.",
+      "help": "anatomia-gamba/compartimenti"
+    },
+    {
+      "id": "regional-anatomia-gamba-compartimenti-1",
+      "unit": "anatomia-gamba",
+      "concept": "compartimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "A quale osso appartiene il malleolo laterale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Fibula"
+        },
+        {
+          "id": "a",
+          "text": "Tibia",
+          "feedback": "La tibia forma il malleolo mediale.",
+          "help": "anatomia-gamba/compartimenti"
+        },
+        {
+          "id": "b",
+          "text": "Talo",
+          "feedback": "Il talo si articola nella pinza malleolare ma non forma il malleolo laterale.",
+          "help": "anatomia-gamba/compartimenti"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Fibula. Compartimento, passaggio davanti/dietro la caviglia e inserzione vanno usati insieme.",
+      "help": "anatomia-gamba/compartimenti"
+    },
+    {
+      "id": "regional-anatomia-gamba-compartimenti-2",
+      "unit": "anatomia-gamba",
+      "concept": "compartimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale unione è una sindesmosi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tibiofibulare distale"
+        },
+        {
+          "id": "a",
+          "text": "Tibiofibulare prossimale",
+          "feedback": "Quella prossimale è sinoviale.",
+          "help": "anatomia-gamba/compartimenti"
+        },
+        {
+          "id": "b",
+          "text": "Articolazione talocrurale",
+          "feedback": "La talocrurale è sinoviale; la sindesmosi unisce tibia e fibula distalmente.",
+          "help": "anatomia-gamba/compartimenti"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Tibiofibulare distale. Compartimento, passaggio davanti/dietro la caviglia e inserzione vanno usati insieme.",
+      "help": "anatomia-gamba/compartimenti"
+    },
+    {
+      "id": "regional-anatomia-gamba-anteriore-0",
+      "unit": "anatomia-gamba",
+      "concept": "anteriore",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale muscolo associa dorsiflessione e inversione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tibiale anteriore"
+        },
+        {
+          "id": "a",
+          "text": "Fibulare lungo",
+          "feedback": "Passa dietro il malleolo laterale e contribuisce a flessione plantare ed eversione.",
+          "help": "anatomia-gamba/anteriore"
+        },
+        {
+          "id": "b",
+          "text": "Gastrocnemio",
+          "feedback": "È un flessore plantare posteriore e attraversa anche il ginocchio.",
+          "help": "anatomia-gamba/anteriore"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Tibiale anteriore. Il fibulare terzo è anteriore: il nome dell’osso non determina il compartimento.",
+      "help": "anatomia-gamba/anteriore"
+    },
+    {
+      "id": "regional-anatomia-gamba-anteriore-1",
+      "unit": "anatomia-gamba",
+      "concept": "anteriore",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché il fibulare terzo non va assegnato al compartimento laterale insieme a lungo e breve?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "È anteriore, passa davanti alla caviglia e riceve il fibulare profondo"
+        },
+        {
+          "id": "a",
+          "text": "Non prende alcun attacco sulla fibula",
+          "feedback": "Il nome riflette proprio un attacco fibulare.",
+          "help": "anatomia-gamba/anteriore"
+        },
+        {
+          "id": "b",
+          "text": "È un muscolo intrinseco della pianta",
+          "feedback": "Il ventre è nella gamba e il tendine raggiunge il piede.",
+          "help": "anatomia-gamba/anteriore"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "È anteriore, passa davanti alla caviglia e riceve il fibulare profondo. Il fibulare terzo è anteriore: il nome dell’osso non determina il compartimento.",
+      "help": "anatomia-gamba/anteriore"
+    },
+    {
+      "id": "regional-anatomia-gamba-anteriore-2",
+      "unit": "anatomia-gamba",
+      "concept": "anteriore",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La tibiale anteriore continua oltre la caviglia con quale nome?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Arteria dorsale del piede"
+        },
+        {
+          "id": "a",
+          "text": "Vena grande safena",
+          "feedback": "Un’arteria non diventa una vena attraversando la caviglia.",
+          "help": "anatomia-gamba/anteriore"
+        },
+        {
+          "id": "b",
+          "text": "Nervo fibulare superficiale",
+          "feedback": "Il vaso continua come arteria; non cambia natura in un nervo.",
+          "help": "anatomia-gamba/anteriore"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Arteria dorsale del piede. Il fibulare terzo è anteriore: il nome dell’osso non determina il compartimento.",
+      "help": "anatomia-gamba/anteriore"
+    },
+    {
+      "id": "regional-anatomia-gamba-laterale-0",
+      "unit": "anatomia-gamba",
+      "concept": "laterale",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dove termina principalmente il fibulare breve?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tuberosità della base del V metatarso"
+        },
+        {
+          "id": "a",
+          "text": "Falange distale dell’alluce",
+          "feedback": "Questa è la destinazione del flessore lungo dell’alluce sul lato plantare.",
+          "help": "anatomia-gamba/laterale"
+        },
+        {
+          "id": "b",
+          "text": "Cuneiforme mediale e base del I dopo aver attraversato la pianta",
+          "feedback": "Questo descrive il percorso del fibulare lungo.",
+          "help": "anatomia-gamba/laterale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Tuberosità della base del V metatarso. Il breve termina sul V metatarso; il lungo attraversa la pianta verso il I.",
+      "help": "anatomia-gamba/laterale"
+    },
+    {
+      "id": "regional-anatomia-gamba-laterale-1",
+      "unit": "anatomia-gamba",
+      "concept": "laterale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due muscoli arrivano presso il primo metatarso: perché non puoi dedurre che producano lo stesso movimento?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il percorso rispetto agli assi articolari può essere diverso"
+        },
+        {
+          "id": "a",
+          "text": "L’inserzione non ha mai alcun ruolo",
+          "feedback": "Ha un ruolo fondamentale, ma va letta insieme al percorso e alle articolazioni attraversate.",
+          "help": "anatomia-gamba/laterale"
+        },
+        {
+          "id": "b",
+          "text": "Tutti i muscoli del primo metatarso sono innervati dal tibiale",
+          "feedback": "Tibiale anteriore e fibulare lungo appartengono a rami fibulari differenti.",
+          "help": "anatomia-gamba/laterale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Il percorso rispetto agli assi articolari può essere diverso. Il breve termina sul V metatarso; il lungo attraversa la pianta verso il I.",
+      "help": "anatomia-gamba/laterale"
+    },
+    {
+      "id": "regional-anatomia-gamba-laterale-2",
+      "unit": "anatomia-gamba",
+      "concept": "laterale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un interessamento isolato del fibulare profondo implica necessariamente paralisi di lungo e breve fibulare?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: ricevono il fibulare superficiale"
+        },
+        {
+          "id": "a",
+          "text": "Sì: il nome fibulare indica un unico ramo indivisibile",
+          "feedback": "Il fibulare comune si divide in superficiale e profondo.",
+          "help": "anatomia-gamba/laterale"
+        },
+        {
+          "id": "b",
+          "text": "No: ricevono il femorale",
+          "feedback": "La conclusione è corretta ma la motivazione sbagliata: il nervo è il fibulare superficiale.",
+          "help": "anatomia-gamba/laterale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "No: ricevono il fibulare superficiale. Il breve termina sul V metatarso; il lungo attraversa la pianta verso il I.",
+      "help": "anatomia-gamba/laterale"
+    },
+    {
+      "id": "regional-anatomia-gamba-superficiale-0",
+      "unit": "anatomia-gamba",
+      "concept": "superficiale",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Perché il soleo non flette direttamente il ginocchio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non attraversa l’articolazione del ginocchio"
+        },
+        {
+          "id": "a",
+          "text": "Non possiede un tendine",
+          "feedback": "Partecipa al tendine calcaneale.",
+          "help": "anatomia-gamba/superficiale"
+        },
+        {
+          "id": "b",
+          "text": "È innervato dal fibulare profondo",
+          "feedback": "Riceve il tibiale; la spiegazione riguarda soprattutto gli attacchi.",
+          "help": "anatomia-gamba/superficiale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Non attraversa l’articolazione del ginocchio. Gastrocnemio biarticolare, soleo monoarticolare rispetto a ginocchio e caviglia; entrambi raggiungono il calcagno.",
+      "help": "anatomia-gamba/superficiale"
+    },
+    {
+      "id": "regional-anatomia-gamba-superficiale-1",
+      "unit": "anatomia-gamba",
+      "concept": "superficiale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quali componenti formano il tricipite surale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Due capi del gastrocnemio e soleo"
+        },
+        {
+          "id": "a",
+          "text": "Gastrocnemio, soleo e tibiale anteriore",
+          "feedback": "Il tibiale anteriore appartiene al compartimento anteriore e non converge nel tendine calcaneale.",
+          "help": "anatomia-gamba/superficiale"
+        },
+        {
+          "id": "b",
+          "text": "Soleo, plantare e popliteo",
+          "feedback": "Il popliteo è profondo; il nome tricipite surale comprende i due capi del gastrocnemio.",
+          "help": "anatomia-gamba/superficiale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Due capi del gastrocnemio e soleo. Gastrocnemio biarticolare, soleo monoarticolare rispetto a ginocchio e caviglia; entrambi raggiungono il calcagno.",
+      "help": "anatomia-gamba/superficiale"
+    },
+    {
+      "id": "regional-anatomia-gamba-superficiale-2",
+      "unit": "anatomia-gamba",
+      "concept": "superficiale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Flettere il ginocchio durante una flessione plantare significa isolare perfettamente il soleo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: cambia il contributo relativo del gastrocnemio senza spegnerlo necessariamente"
+        },
+        {
+          "id": "a",
+          "text": "Sì: il nervo tibiale smette di raggiungere il gastrocnemio",
+          "feedback": "L’angolo articolare non interrompe selettivamente il nervo.",
+          "help": "anatomia-gamba/superficiale"
+        },
+        {
+          "id": "b",
+          "text": "No: il soleo attraversa il ginocchio tanto quanto il gastrocnemio",
+          "feedback": "Il soleo non attraversa il ginocchio; la prima conclusione è corretta ma questa ragione è falsa.",
+          "help": "anatomia-gamba/superficiale"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "No: cambia il contributo relativo del gastrocnemio senza spegnerlo necessariamente. Gastrocnemio biarticolare, soleo monoarticolare rispetto a ginocchio e caviglia; entrambi raggiungono il calcagno.",
+      "help": "anatomia-gamba/superficiale"
+    },
+    {
+      "id": "regional-anatomia-gamba-profondo-0",
+      "unit": "anatomia-gamba",
+      "concept": "profondo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Con femore fermo e tibia libera, quale azione rotatoria compie il popliteo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Rotazione mediale della tibia"
+        },
+        {
+          "id": "a",
+          "text": "Rotazione laterale della tibia",
+          "feedback": "La rotazione laterale descritta riguarda il femore quando la tibia è vincolata.",
+          "help": "anatomia-gamba/profondo"
+        },
+        {
+          "id": "b",
+          "text": "Eversione del piede tramite il V metatarso",
+          "feedback": "Il popliteo termina sulla tibia e non raggiunge il piede.",
+          "help": "anatomia-gamba/profondo"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Rotazione mediale della tibia. Nel profondo posteriore il popliteo agisce al ginocchio; gli altri tre raggiungono il piede.",
+      "help": "anatomia-gamba/profondo"
+    },
+    {
+      "id": "regional-anatomia-gamba-profondo-1",
+      "unit": "anatomia-gamba",
+      "concept": "profondo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Tibiale anteriore e posteriore condividono quale componente di azione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Inversione"
+        },
+        {
+          "id": "a",
+          "text": "Dorsiflessione",
+          "feedback": "Il posteriore contribuisce alla flessione plantare, non alla dorsiflessione.",
+          "help": "anatomia-gamba/profondo"
+        },
+        {
+          "id": "b",
+          "text": "Estensione diretta delle dita",
+          "feedback": "Terminano sul tarso/metatarso e non sulle falangi.",
+          "help": "anatomia-gamba/profondo"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Inversione. Nel profondo posteriore il popliteo agisce al ginocchio; gli altri tre raggiungono il piede.",
+      "help": "anatomia-gamba/profondo"
+    },
+    {
+      "id": "regional-anatomia-gamba-profondo-2",
+      "unit": "anatomia-gamba",
+      "concept": "profondo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale associazione di origine e destinazione è coerente con il flessore lungo dell’alluce?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Fibula posteriore verso falange distale dell’alluce"
+        },
+        {
+          "id": "a",
+          "text": "Tibia posteriore verso falangi distali II–V",
+          "feedback": "Questa descrive il flessore lungo delle dita.",
+          "help": "anatomia-gamba/profondo"
+        },
+        {
+          "id": "b",
+          "text": "Femore laterale verso tibia prossimale",
+          "feedback": "Questo percorso corrisponde al popliteo.",
+          "help": "anatomia-gamba/profondo"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Fibula posteriore verso falange distale dell’alluce. Nel profondo posteriore il popliteo agisce al ginocchio; gli altri tre raggiungono il piede.",
+      "help": "anatomia-gamba/profondo"
+    },
+    {
+      "id": "regional-anatomia-gamba-passaggi-0",
+      "unit": "anatomia-gamba",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale struttura passa dietro il malleolo mediale sotto il retinacolo dei flessori?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nervo tibiale"
+        },
+        {
+          "id": "a",
+          "text": "Nervo fibulare comune attorno al collo della fibula",
+          "feedback": "Il collo della fibula è prossimale e laterale, lontano dal tunnel mediale della caviglia.",
+          "help": "anatomia-gamba/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "Tendine del fibulare breve",
+          "feedback": "Il breve passa dietro il malleolo laterale.",
+          "help": "anatomia-gamba/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Nervo tibiale. Distingui fibulare comune, suoi due rami e tibiale; collega ogni funzione a più di un possibile muscolo.",
+      "help": "anatomia-gamba/passaggi"
+    },
+    {
+      "id": "regional-anatomia-gamba-passaggi-1",
+      "unit": "anatomia-gamba",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché l’inversione può essere in parte conservata se il fibulare comune è interessato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il tibiale posteriore riceve il tibiale e contribuisce all’inversione"
+        },
+        {
+          "id": "a",
+          "text": "Tutti gli invertori ricevono il fibulare superficiale",
+          "feedback": "Il tibiale posteriore dipende dal tibiale, l’anteriore dal fibulare profondo.",
+          "help": "anatomia-gamba/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "L’inversione è un movimento esclusivamente passivo",
+          "feedback": "Muscoli come tibiali anteriore e posteriore possono produrla attivamente.",
+          "help": "anatomia-gamba/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Il tibiale posteriore riceve il tibiale e contribuisce all’inversione. Distingui fibulare comune, suoi due rami e tibiale; collega ogni funzione a più di un possibile muscolo.",
+      "help": "anatomia-gamba/passaggi"
+    },
+    {
+      "id": "regional-anatomia-gamba-passaggi-2",
+      "unit": "anatomia-gamba",
+      "concept": "passaggi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Qual è l’ordine superficiale-profondo dei tre elementi centrali del cavo popliteo descritti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nervo tibiale, vena poplitea, arteria poplitea"
+        },
+        {
+          "id": "a",
+          "text": "Arteria poplitea, nervo tibiale, vena poplitea",
+          "feedback": "L’arteria è l’elemento più profondo dei tre, vicino al piano articolare.",
+          "help": "anatomia-gamba/passaggi"
+        },
+        {
+          "id": "b",
+          "text": "Grande safena, tendine fibulare lungo, nervo femorale",
+          "feedback": "Queste strutture non costituiscono il fascio centrale descritto nel cavo popliteo.",
+          "help": "anatomia-gamba/passaggi"
+        }
+      ],
+      "hint": "Segui il tendine fino all’inserzione e individua le articolazioni attraversate. Per i nervi distingui il ramo e il livello del percorso.",
+      "explanation": "Nervo tibiale, vena poplitea, arteria poplitea. Distingui fibulare comune, suoi due rami e tibiale; collega ogni funzione a più di un possibile muscolo.",
+      "help": "anatomia-gamba/passaggi"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-collo-0",
+      "unit": "anatomia-collo-dorso",
+      "concept": "collo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Lo sternocleidomastoideo destro, con torace fermo, contribuisce a quale movimento?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Rotazione del volto a sinistra e inclinazione a destra"
+        },
+        {
+          "id": "a",
+          "text": "Rotazione e inclinazione entrambe a destra",
+          "feedback": "L’inclinazione è omolaterale, ma la rotazione del volto è controlaterale.",
+          "help": "anatomia-collo-dorso/collo"
+        },
+        {
+          "id": "b",
+          "text": "Solo elevazione della mandibola",
+          "feedback": "La sua inserzione cranica è mastoidea; non è un elevatore diretto della mandibola.",
+          "help": "anatomia-collo-dorso/collo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Rotazione del volto a sinistra e inclinazione a destra. Per descrivere un muscolo cervicale precisa lato, segmento mobile e punto fisso.",
+      "help": "anatomia-collo-dorso/collo"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-collo-1",
+      "unit": "anatomia-collo-dorso",
+      "concept": "collo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale rapporto distingue vena e arteria succlavia presso gli scaleni?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La vena passa davanti allo scaleno anteriore; l’arteria fra anteriore e medio"
+        },
+        {
+          "id": "a",
+          "text": "Entrambe passano fra anteriore e medio",
+          "feedback": "La vena ha un rapporto anteriore allo scaleno anteriore.",
+          "help": "anatomia-collo-dorso/collo"
+        },
+        {
+          "id": "b",
+          "text": "L’arteria passa nel tendine dello sternocleidomastoideo",
+          "feedback": "Il passaggio descritto è interscalenico, non nel tendine dello sternocleidomastoideo.",
+          "help": "anatomia-collo-dorso/collo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "La vena passa davanti allo scaleno anteriore; l’arteria fra anteriore e medio. Per descrivere un muscolo cervicale precisa lato, segmento mobile e punto fisso.",
+      "help": "anatomia-collo-dorso/collo"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-collo-2",
+      "unit": "anatomia-collo-dorso",
+      "concept": "collo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché gli scaleni possono aiutare l’inspirazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Con il collo stabilizzato possono elevare le prime coste"
+        },
+        {
+          "id": "a",
+          "text": "Ricevono direttamente il nervo frenico e formano il diaframma",
+          "feedback": "Sono muscoli cervicali con rami cervicali; il frenico passa sulla regione e innerva il diaframma.",
+          "help": "anatomia-collo-dorso/collo"
+        },
+        {
+          "id": "b",
+          "text": "Si inseriscono tutti sullo sterno",
+          "feedback": "Anteriore e medio raggiungono la prima costa, posteriore la seconda.",
+          "help": "anatomia-collo-dorso/collo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Con il collo stabilizzato possono elevare le prime coste. Per descrivere un muscolo cervicale precisa lato, segmento mobile e punto fisso.",
+      "help": "anatomia-collo-dorso/collo"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-ioide-0",
+      "unit": "anatomia-collo-dorso",
+      "concept": "ioide",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione del digastrico è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ventre anteriore: nervo miloioideo da V3; posteriore: faciale VII"
+        },
+        {
+          "id": "a",
+          "text": "Entrambi i ventri: ansa cervicale",
+          "feedback": "L’ansa innerva principalmente altri muscoli sottoioidei.",
+          "help": "anatomia-collo-dorso/ioide"
+        },
+        {
+          "id": "b",
+          "text": "Anteriore: accessorio XI; posteriore: frenico",
+          "feedback": "XI e frenico hanno territori motori differenti da questi ventri.",
+          "help": "anatomia-collo-dorso/ioide"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Ventre anteriore: nervo miloioideo da V3; posteriore: faciale VII. Ioide, mandibola e laringe sono destinazioni diverse; digastrico e tiroioideo richiedono attenzione ai nervi.",
+      "help": "anatomia-collo-dorso/ioide"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-ioide-1",
+      "unit": "anatomia-collo-dorso",
+      "concept": "ioide",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il tiroioideo può elevare la laringe in quale condizione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Quando l’ioide è stabilizzato"
+        },
+        {
+          "id": "a",
+          "text": "Soltanto quando si stacca dalla cartilagine tiroidea",
+          "feedback": "Gli attacchi rimangono: cambia il segmento vincolato.",
+          "help": "anatomia-collo-dorso/ioide"
+        },
+        {
+          "id": "b",
+          "text": "Mai, perché tutti i sottoioidei possono solo abbassare la laringe",
+          "feedback": "Il tiroioideo avvicina ioide e laringe; il movimento dipende dal punto fisso.",
+          "help": "anatomia-collo-dorso/ioide"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Quando l’ioide è stabilizzato. Ioide, mandibola e laringe sono destinazioni diverse; digastrico e tiroioideo richiedono attenzione ai nervi.",
+      "help": "anatomia-collo-dorso/ioide"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-ioide-2",
+      "unit": "anatomia-collo-dorso",
+      "concept": "ioide",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale insieme appartiene alla guaina carotidea?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Carotide comune/interna, giugulare interna e vago"
+        },
+        {
+          "id": "a",
+          "text": "Frenico, vena succlavia e lungo del collo",
+          "feedback": "Questi elementi hanno rapporti con altri piani cervicali.",
+          "help": "anatomia-collo-dorso/ioide"
+        },
+        {
+          "id": "b",
+          "text": "Ioide, tiroioideo e tendine digastrico",
+          "feedback": "Sono strutture muscolo-scheletriche esterne alla guaina neurovascolare.",
+          "help": "anatomia-collo-dorso/ioide"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Carotide comune/interna, giugulare interna e vago. Ioide, mandibola e laringe sono destinazioni diverse; digastrico e tiroioideo richiedono attenzione ai nervi.",
+      "help": "anatomia-collo-dorso/ioide"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-dorso-0",
+      "unit": "anatomia-collo-dorso",
+      "concept": "dorso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è l’ordine lateromediale dell’erettore spinale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ileocostale, lunghissimo, spinale"
+        },
+        {
+          "id": "a",
+          "text": "Spinale, ileocostale, lunghissimo",
+          "feedback": "Lo spinale è il più mediale, vicino ai processi spinosi.",
+          "help": "anatomia-collo-dorso/dorso"
+        },
+        {
+          "id": "b",
+          "text": "Semispinale, multifido, rotatori",
+          "feedback": "Questi costituiscono il gruppo trasversospinale, non le tre colonne dell’erettore.",
+          "help": "anatomia-collo-dorso/dorso"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Ileocostale, lunghissimo, spinale. Erettore: tre colonne longitudinali; trasversospinali: fasci obliqui verso livelli superiori.",
+      "help": "anatomia-collo-dorso/dorso"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-dorso-1",
+      "unit": "anatomia-collo-dorso",
+      "concept": "dorso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché un ramo posteriore spinale può innervare un muscolo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "È un ramo misto del nervo spinale e contiene fibre motorie"
+        },
+        {
+          "id": "a",
+          "text": "È sinonimo di radice posteriore motoria",
+          "feedback": "La radice posteriore è sensitiva; ramo e radice non sono sinonimi.",
+          "help": "anatomia-collo-dorso/dorso"
+        },
+        {
+          "id": "b",
+          "text": "I muscoli profondi non richiedono fibre motorie",
+          "feedback": "La contrazione scheletrica richiede innervazione motoria.",
+          "help": "anatomia-collo-dorso/dorso"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "È un ramo misto del nervo spinale e contiene fibre motorie. Erettore: tre colonne longitudinali; trasversospinali: fasci obliqui verso livelli superiori.",
+      "help": "anatomia-collo-dorso/dorso"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-dorso-2",
+      "unit": "anatomia-collo-dorso",
+      "concept": "dorso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Durante una flessione controllata del tronco, gli estensori possono essere attivi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sì, possono frenare il movimento mentre si allungano"
+        },
+        {
+          "id": "a",
+          "text": "No: ogni muscolo attivo deve accorciarsi",
+          "feedback": "La contrazione eccentrica sviluppa forza durante l’allungamento.",
+          "help": "anatomia-collo-dorso/dorso"
+        },
+        {
+          "id": "b",
+          "text": "Solo se diventano anatomicamente flessori",
+          "feedback": "L’azione meccanica resta estensoria anche quando frena una flessione.",
+          "help": "anatomia-collo-dorso/dorso"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Sì, possono frenare il movimento mentre si allungano. Erettore: tre colonne longitudinali; trasversospinali: fasci obliqui verso livelli superiori.",
+      "help": "anatomia-collo-dorso/dorso"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-nuca-fascia-0",
+      "unit": "anatomia-collo-dorso",
+      "concept": "nuca-fascia",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale suboccipitale non si inserisce sul cranio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Obliquo inferiore della testa"
+        },
+        {
+          "id": "a",
+          "text": "Retto posteriore maggiore",
+          "feedback": "Raggiunge l’occipite a partire da C2.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        },
+        {
+          "id": "b",
+          "text": "Obliquo superiore della testa",
+          "feedback": "Raggiunge l’occipite a partire da C1.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Obliquo inferiore della testa. Un muscolo può muovere indirettamente la testa senza inserirsi sul cranio: conta la catena articolare.",
+      "help": "anatomia-collo-dorso/nuca-fascia"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-nuca-fascia-1",
+      "unit": "anatomia-collo-dorso",
+      "concept": "nuca-fascia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale muscolo vicino non forma un lato del triangolo suboccipitale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Retto posteriore minore"
+        },
+        {
+          "id": "a",
+          "text": "Obliquo inferiore",
+          "feedback": "L’obliquo inferiore collega C2 e C1 e forma un lato.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        },
+        {
+          "id": "b",
+          "text": "Retto posteriore maggiore",
+          "feedback": "Il maggiore collega C2 e occipite e forma un lato.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Retto posteriore minore. Un muscolo può muovere indirettamente la testa senza inserirsi sul cranio: conta la catena articolare.",
+      "help": "anatomia-collo-dorso/nuca-fascia"
+    },
+    {
+      "id": "trunk-anatomia-collo-dorso-nuca-fascia-2",
+      "unit": "anatomia-collo-dorso",
+      "concept": "nuca-fascia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel modello a tre lamine toracolombari, dove si trova il quadrato dei lombi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Fra lamina media e anteriore"
+        },
+        {
+          "id": "a",
+          "text": "Fra cute e lamina posteriore",
+          "feedback": "È profondo, non sottocutaneo.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        },
+        {
+          "id": "b",
+          "text": "Nel lume del canale vertebrale",
+          "feedback": "È esterno alla colonna e forma parte della parete addominale posteriore.",
+          "help": "anatomia-collo-dorso/nuca-fascia"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Fra lamina media e anteriore. Un muscolo può muovere indirettamente la testa senza inserirsi sul cranio: conta la catena articolare.",
+      "help": "anatomia-collo-dorso/nuca-fascia"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-respiratori-0",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "respiratori",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione di passaggio diaframmatico è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Cava inferiore: centro tendineo, circa T8"
+        },
+        {
+          "id": "a",
+          "text": "Aorta: centro tendineo, circa T8",
+          "feedback": "L’aorta passa posteriormente sotto l’arcuato mediano, circa T12.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        },
+        {
+          "id": "b",
+          "text": "Esofago: fra scaleni anteriore e medio",
+          "feedback": "L’esofago attraversa il diaframma, circa T10; lo spazio interscalenico è cervicale.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Cava inferiore: centro tendineo, circa T8. Diaframma: centro tendineo e frenico; intercostali: strati e rami anteriori toracici.",
+      "help": "anatomia-pareti-tronco/respiratori"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-respiratori-1",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "respiratori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Qual è il principale nervo motorio del diaframma?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Frenico"
+        },
+        {
+          "id": "a",
+          "text": "Vago",
+          "feedback": "Il vago attraversa il diaframma con l’esofago ma non è la sua innervazione motoria somatica.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        },
+        {
+          "id": "b",
+          "text": "Intercostale T8 soltanto",
+          "feedback": "T8 è un riferimento topografico del foro cavale, non la radice motoria del diaframma.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Frenico. Diaframma: centro tendineo e frenico; intercostali: strati e rami anteriori toracici.",
+      "help": "anatomia-pareti-tronco/respiratori"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-respiratori-2",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "respiratori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "È corretto assegnare a tutti gli intercostali interni una funzione esclusivamente espiratoria?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: bisogna distinguere parte interossea e intercondrale"
+        },
+        {
+          "id": "a",
+          "text": "Sì: la direzione delle fibre annulla ogni differenza regionale",
+          "feedback": "Porzioni e vincoli differenti producono contributi diversi.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        },
+        {
+          "id": "b",
+          "text": "No: nessun intercostale partecipa alla respirazione",
+          "feedback": "I muscoli contribuiscono sia al controllo degli spazi sia ai movimenti costali.",
+          "help": "anatomia-pareti-tronco/respiratori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "No: bisogna distinguere parte interossea e intercondrale. Diaframma: centro tendineo e frenico; intercostali: strati e rami anteriori toracici.",
+      "help": "anatomia-pareti-tronco/respiratori"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-addominali-0",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "addominali",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale coppia contribuisce alla rotazione del torace a sinistra su bacino fermo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Obliquo esterno destro e interno sinistro"
+        },
+        {
+          "id": "a",
+          "text": "Obliquo esterno sinistro e interno destro",
+          "feedback": "Questa coppia favorisce il verso opposto.",
+          "help": "anatomia-pareti-tronco/addominali"
+        },
+        {
+          "id": "b",
+          "text": "Solo retto destro, perché tutti gli addominali ruotano omolateralmente",
+          "feedback": "Il retto contribuisce soprattutto alla flessione; i gruppi hanno direzioni differenti.",
+          "help": "anatomia-pareti-tronco/addominali"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Obliquo esterno destro e interno sinistro. Rotazione del torace: obliquo esterno controlaterale e interno omolaterale rispetto al verso del gesto.",
+      "help": "anatomia-pareti-tronco/addominali"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-addominali-1",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "addominali",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Fra quali strati passa buona parte dei nervi della parete laterale addominale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Fra obliquo interno e trasverso"
+        },
+        {
+          "id": "a",
+          "text": "Fra cute e obliquo esterno soltanto",
+          "feedback": "I principali rami muscolari descritti decorrono in un piano più profondo.",
+          "help": "anatomia-pareti-tronco/addominali"
+        },
+        {
+          "id": "b",
+          "text": "Dentro il peritoneo libero",
+          "feedback": "Il piano nervoso è nella parete, non libero nella cavità peritoneale.",
+          "help": "anatomia-pareti-tronco/addominali"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Fra obliquo interno e trasverso. Rotazione del torace: obliquo esterno controlaterale e interno omolaterale rispetto al verso del gesto.",
+      "help": "anatomia-pareti-tronco/addominali"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-addominali-2",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "addominali",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Le iscrizioni tendinee del retto indicano sei muscoli separati e indipendenti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: sono interruzioni tendinee del ventre del retto"
+        },
+        {
+          "id": "a",
+          "text": "Sì: ogni rilievo ha un’origine diversa su una costa",
+          "feedback": "Il retto collega pube e torace; i rilievi non definiscono sei muscoli distinti.",
+          "help": "anatomia-pareti-tronco/addominali"
+        },
+        {
+          "id": "b",
+          "text": "No: sono fasci del trasverso che attraversano il retto",
+          "feedback": "Le iscrizioni appartengono all’organizzazione tendinea del retto.",
+          "help": "anatomia-pareti-tronco/addominali"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "No: sono interruzioni tendinee del ventre del retto. Rotazione del torace: obliquo esterno controlaterale e interno omolaterale rispetto al verso del gesto.",
+      "help": "anatomia-pareti-tronco/addominali"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-guaine-0",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "guaine",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa cambia sotto la linea arcuata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Le tre aponevrosi passano davanti al retto; dietro rimane la fascia trasversalis"
+        },
+        {
+          "id": "a",
+          "text": "Il retto entra direttamente nella cavità peritoneale",
+          "feedback": "Persistono fascia, tessuti extraperitoneali e peritoneo parietale.",
+          "help": "anatomia-pareti-tronco/guaine"
+        },
+        {
+          "id": "b",
+          "text": "L’obliquo esterno diventa l’unica lamina posteriore",
+          "feedback": "Le aponevrosi sono anteriori, non una lamina posteriore isolata dell’esterno.",
+          "help": "anatomia-pareti-tronco/guaine"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Le tre aponevrosi passano davanti al retto; dietro rimane la fascia trasversalis. Guaina aponeurotica, fascia trasversalis e peritoneo sono strutture diverse.",
+      "help": "anatomia-pareti-tronco/guaine"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-guaine-1",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "guaine",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Dove si trova l’anello inguinale profondo rispetto ai vasi epigastrici inferiori?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Lateralmente"
+        },
+        {
+          "id": "a",
+          "text": "Medialmente",
+          "feedback": "Il percorso mediale è quello tipico dell’ernia diretta, non dell’anello profondo.",
+          "help": "anatomia-pareti-tronco/guaine"
+        },
+        {
+          "id": "b",
+          "text": "Dentro il lume dei vasi",
+          "feedback": "È un’apertura fasciale con un rapporto di vicinanza, non vascolare.",
+          "help": "anatomia-pareti-tronco/guaine"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Lateralmente. Guaina aponeurotica, fascia trasversalis e peritoneo sono strutture diverse.",
+      "help": "anatomia-pareti-tronco/guaine"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-guaine-2",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "guaine",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale associazione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Anello superficiale nell’aponeurosi dell’obliquo esterno"
+        },
+        {
+          "id": "a",
+          "text": "Anello profondo nell’aponeurosi dell’obliquo esterno",
+          "feedback": "Il profondo appartiene alla fascia trasversalis.",
+          "help": "anatomia-pareti-tronco/guaine"
+        },
+        {
+          "id": "b",
+          "text": "Ileoinguinale sempre dentro l’anello profondo insieme al funicolo",
+          "feedback": "L’ileoinguinale entra nel canale attraverso la parete e non tramite l’anello profondo.",
+          "help": "anatomia-pareti-tronco/guaine"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Anello superficiale nell’aponeurosi dell’obliquo esterno. Guaina aponeurotica, fascia trasversalis e peritoneo sono strutture diverse.",
+      "help": "anatomia-pareti-tronco/guaine"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-posteriore-0",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "posteriore",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale struttura non attraversa direttamente l’anca?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Quadrato dei lombi"
+        },
+        {
+          "id": "a",
+          "text": "Grande psoas",
+          "feedback": "Raggiunge il piccolo trocantere e attraversa l’anca.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        },
+        {
+          "id": "b",
+          "text": "Iliaco",
+          "feedback": "Raggiunge il femore insieme al grande psoas.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Quadrato dei lombi. Quadrato dei lombi e piccolo psoas non raggiungono il femore; grande psoas e iliaco sì.",
+      "help": "anatomia-pareti-tronco/posteriore"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-posteriore-1",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "posteriore",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale nervo emerge normalmente lateralmente al grande psoas?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Femorale"
+        },
+        {
+          "id": "a",
+          "text": "Otturatorio",
+          "feedback": "L’otturatorio emerge medialmente.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        },
+        {
+          "id": "b",
+          "text": "Genitofemorale sulla faccia mediale",
+          "feedback": "Il genitofemorale emerge anteriormente, non dal margine laterale.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Femorale. Quadrato dei lombi e piccolo psoas non raggiungono il femore; grande psoas e iliaco sì.",
+      "help": "anatomia-pareti-tronco/posteriore"
+    },
+    {
+      "id": "trunk-anatomia-pareti-tronco-posteriore-2",
+      "unit": "anatomia-pareti-tronco",
+      "concept": "posteriore",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché grande psoas e iliaco non vanno descritti come un unico muscolo con uguale origine e nervo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Convergono distalmente ma hanno origini e innervazioni differenti"
+        },
+        {
+          "id": "a",
+          "text": "Non condividono alcuna azione",
+          "feedback": "Entrambi contribuiscono alla flessione dell’anca.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        },
+        {
+          "id": "b",
+          "text": "L’iliaco è innervato dall’otturatorio",
+          "feedback": "L’iliaco riceve il femorale, il psoas rami anteriori lombari.",
+          "help": "anatomia-pareti-tronco/posteriore"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Convergono distalmente ma hanno origini e innervazioni differenti. Quadrato dei lombi e piccolo psoas non raggiungono il femore; grande psoas e iliaco sì.",
+      "help": "anatomia-pareti-tronco/posteriore"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-pavimento-0",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "pavimento",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella tavola, procedendo dal pube verso il sacro, quale ordine trovi?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Uretra, vagina, canale rettale"
+        },
+        {
+          "id": "a",
+          "text": "Canale rettale, uretra, vagina",
+          "feedback": "Hai invertito o mescolato la direzione anteroposteriore della vista superiore.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        },
+        {
+          "id": "b",
+          "text": "Vagina, canale rettale, uretra",
+          "feedback": "Il passaggio uretrale è il più anteriore dei tre indicati.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "Uretra, vagina, canale rettale. Vista superiore: pube davanti, sacro dietro; elevatore e coccigeo formano il diaframma pelvico.",
+      "help": "anatomia-pelvi-perineo/pavimento"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-pavimento-1",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "pavimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La parentesi Levator ani della tavola include l’iliaco indicato lateralmente?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: l’iliaco appartiene alla parete ed è diretto al femore"
+        },
+        {
+          "id": "a",
+          "text": "Sì: ogni muscolo visibile dentro il bacino è elevatore dell’ano",
+          "feedback": "Parete, pavimento e muscoli dell’anca hanno attacchi differenti.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        },
+        {
+          "id": "b",
+          "text": "No: perché l’iliaco è un muscolo del collo",
+          "feedback": "L’iliaco occupa la fossa iliaca e raggiunge il femore.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "No: l’iliaco appartiene alla parete ed è diretto al femore. Vista superiore: pube davanti, sacro dietro; elevatore e coccigeo formano il diaframma pelvico.",
+      "help": "anatomia-pelvi-perineo/pavimento"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-pavimento-2",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "pavimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il puborettale non è etichettato separatamente: puoi concludere che non esiste?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: una tavola semplificata non mostra ogni fascio o componente"
+        },
+        {
+          "id": "a",
+          "text": "Sì: le etichette sono un elenco completo obbligatorio",
+          "feedback": "La guida esplicita che non sono illustrati tutti i componenti.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        },
+        {
+          "id": "b",
+          "text": "No: è necessariamente il muscolo etichettato Iliacus",
+          "feedback": "Iliacus significa iliaco, non puborettale.",
+          "help": "anatomia-pelvi-perineo/pavimento"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "No: una tavola semplificata non mostra ogni fascio o componente. Vista superiore: pube davanti, sacro dietro; elevatore e coccigeo formano il diaframma pelvico.",
+      "help": "anatomia-pelvi-perineo/pavimento"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-perineo-0",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "perineo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale distinzione fra sfinteri anali è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Esterno striato, interno liscio"
+        },
+        {
+          "id": "a",
+          "text": "Esterno liscio, interno striato",
+          "feedback": "Hai invertito i tipi di muscolatura.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        },
+        {
+          "id": "b",
+          "text": "Entrambi sono parti tendinee dell’iliaco",
+          "feedback": "Gli sfinteri circondano il canale anale; l’iliaco è un muscolo diretto al femore.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Esterno striato, interno liscio. Perineo, diaframma pelvico e membrana perineale descrivono livelli e strutture differenti.",
+      "help": "anatomia-pelvi-perineo/perineo"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-perineo-1",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "perineo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La membrana perineale coincide con l’intero elevatore dell’ano?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è una struttura connettivale distinta nel triangolo urogenitale"
+        },
+        {
+          "id": "a",
+          "text": "Sì: sono due nomi dello stesso ventre muscolare",
+          "feedback": "Elevatore e membrana hanno natura e posizione differenti.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        },
+        {
+          "id": "b",
+          "text": "No: è la sierosa che riveste il fegato",
+          "feedback": "È una struttura perineale, non peritoneo viscerale.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "No: è una struttura connettivale distinta nel triangolo urogenitale. Perineo, diaframma pelvico e membrana perineale descrivono livelli e strutture differenti.",
+      "help": "anatomia-pelvi-perineo/perineo"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-perineo-2",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "perineo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale affermazione sul pudendo è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ha componenti somatiche motorie e sensitive per il perineo"
+        },
+        {
+          "id": "a",
+          "text": "È esclusivamente parasimpatico per i visceri pelvici",
+          "feedback": "Non va confuso con i nervi splancnici pelvici parasimpatici.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        },
+        {
+          "id": "b",
+          "text": "Innerva da solo tutti i muscoli dell’elevatore senza varianti",
+          "feedback": "L’elevatore riceve importanti rami sacrali diretti e contributi variabili.",
+          "help": "anatomia-pelvi-perineo/perineo"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Ha componenti somatiche motorie e sensitive per il perineo. Perineo, diaframma pelvico e membrana perineale descrivono livelli e strutture differenti.",
+      "help": "anatomia-pelvi-perineo/perineo"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-rotatori-0",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "rotatori",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale muscolo passa attraverso il piccolo forame ischiatico con il proprio tendine?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Otturatore interno"
+        },
+        {
+          "id": "a",
+          "text": "Piriforme",
+          "feedback": "Il piriforme passa nel grande forame ischiatico.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        },
+        {
+          "id": "b",
+          "text": "Otturatore esterno",
+          "feedback": "Il suo tendine raggiunge il femore inferiormente al collo, senza quel passaggio.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "Otturatore interno. Piriforme: grande forame ischiatico; otturatore interno: piccolo forame; gemelli con nervi differenti.",
+      "help": "anatomia-pelvi-perineo/rotatori"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-rotatori-1",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "rotatori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "I gemelli superiore e inferiore hanno necessariamente lo stesso nervo perché raggiungono lo stesso tendine?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: superiore con otturatore interno, inferiore con quadrato del femore"
+        },
+        {
+          "id": "a",
+          "text": "Sì: entrambi ricevono il nervo otturatorio",
+          "feedback": "Il nervo otturatorio innerva l’otturatore esterno, non entrambi i gemelli.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        },
+        {
+          "id": "b",
+          "text": "No: superiore frenico e inferiore femorale",
+          "feedback": "Questi nervi non sono quelli dei due rotatori profondi.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "No: superiore con otturatore interno, inferiore con quadrato del femore. Piriforme: grande forame ischiatico; otturatore interno: piccolo forame; gemelli con nervi differenti.",
+      "help": "anatomia-pelvi-perineo/rotatori"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-rotatori-2",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "rotatori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale distinzione separa i rotatori profondi dal diaframma pelvico?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "I rotatori raggiungono il femore; elevatore e coccigeo sostengono il pavimento senza inserirsi sul femore"
+        },
+        {
+          "id": "a",
+          "text": "Tutti si inseriscono sul grande trocantere",
+          "feedback": "Elevatore e coccigeo hanno attacchi pelvici e mediani, non trocanterici.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        },
+        {
+          "id": "b",
+          "text": "Il diaframma pelvico è composto esclusivamente da ossa",
+          "feedback": "È un complesso muscolare con fasce e rapporti viscerali.",
+          "help": "anatomia-pelvi-perineo/rotatori"
+        }
+      ],
+      "hint": "Individua gli attacchi e il punto fisso; per fasce e nervi ricostruisci il piano o il ramo senza confonderli con strutture vicine.",
+      "explanation": "I rotatori raggiungono il femore; elevatore e coccigeo sostengono il pavimento senza inserirsi sul femore. Piriforme: grande forame ischiatico; otturatore interno: piccolo forame; gemelli con nervi differenti.",
+      "help": "anatomia-pelvi-perineo/rotatori"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-integrazione-0",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "integrazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella vista superiore, perché l’iliaco laterale non va confuso con il pavimento pelvico centrale?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Occupa la fossa iliaca e raggiunge il femore, con funzione sull’anca"
+        },
+        {
+          "id": "a",
+          "text": "Perché ogni struttura laterale è un osso",
+          "feedback": "L’iliaco è un muscolo; la distinzione riguarda attacchi e rapporti.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        },
+        {
+          "id": "b",
+          "text": "Perché la tavola mostra un torace visto dal basso",
+          "feedback": "La tavola rappresenta la pelvi dall’alto.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "Occupa la fossa iliaca e raggiunge il femore, con funzione sull’anca. Una tavola aiuta a orientarsi; attacchi, passaggi e limiti della rappresentazione completano il ragionamento.",
+      "help": "anatomia-pelvi-perineo/integrazione"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-integrazione-1",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "integrazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché la sola tavola non basta a descrivere tutte le componenti dell’elevatore?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non etichetta separatamente ogni porzione, per esempio il puborettale"
+        },
+        {
+          "id": "a",
+          "text": "Perché le strutture non etichettate non esistono",
+          "feedback": "Le immagini selezionano dettagli e livelli di rappresentazione.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        },
+        {
+          "id": "b",
+          "text": "Perché l’elevatore è una struttura esclusivamente microscopica",
+          "feedback": "È un complesso muscolare macroscopico, rappresentato in modo semplificato.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "Non etichetta separatamente ogni porzione, per esempio il puborettale. Una tavola aiuta a orientarsi; attacchi, passaggi e limiti della rappresentazione completano il ragionamento.",
+      "help": "anatomia-pelvi-perineo/integrazione"
+    },
+    {
+      "id": "trunk-anatomia-pelvi-perineo-integrazione-2",
+      "unit": "anatomia-pelvi-perineo",
+      "concept": "integrazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase distingue correttamente dato anatomico e funzione?",
+      "answer": "corretta",
+      "figureId": "pelvic-floor",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La tavola mostra rapporti; la coordinazione durante uno sforzo richiede informazioni ulteriori"
+        },
+        {
+          "id": "a",
+          "text": "La tavola dimostra che tutti devono contrarre sempre al massimo il pavimento",
+          "feedback": "Una vista statica non dimostra una strategia individuale di attivazione.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        },
+        {
+          "id": "b",
+          "text": "L’anatomia non ha alcun rapporto con respirazione e sostegno",
+          "feedback": "I rapporti strutturali sono rilevanti, ma non specificano da soli la risposta funzionale individuale.",
+          "help": "anatomia-pelvi-perineo/integrazione"
+        }
+      ],
+      "hint": "Dichiara il punto di vista e cerca pube e sacro. Distingui nomi visibili, rapporti e strutture non illustrate.",
+      "explanation": "La tavola mostra rapporti; la coordinazione durante uno sforzo richiede informazioni ulteriori. Una tavola aiuta a orientarsi; attacchi, passaggi e limiti della rappresentazione completano il ragionamento.",
+      "help": "anatomia-pelvi-perineo/integrazione"
     }
   ],
   "templates": [

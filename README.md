@@ -2,6 +2,8 @@
 
 App di studio con lezioni, esercizi e tavole attribuite.
 
+**Sviluppo in pausa su richiesta dell’utente.** [Segnalibro e parti mancanti per esame](studio/SEGNALIBRO.txt). L’ultimo aggiornamento locale riguarda Anatomia; la copertura integrale del primo anno non è ancora conclusa.
+
 **Apri il sito: https://nerdosity.github.io/books/**
 
 ## Sviluppo e pubblicazione

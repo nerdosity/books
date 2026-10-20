@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-20",
   "objective": "Materiale interno sufficiente a preparare gli esami del primo anno UniBa, con spiegazioni, pratica, correzioni e recupero degli errori; consegna locale index.html.",
-  "status": "active",
+  "status": "paused",
   "completionProven": false,
   "scope": {
     "exams": 10,
@@ -34,7 +34,9 @@
     "Scienze biologiche: 3 lezioni, 12 sezioni, 36 quiz e 3 prove aperte su composizione corporea/nutrienti, strutture cellulari/cloroplasti e genetica microbica. Tre nuovi nuclei della mappa, incluso materiale preesistente di popolazioni, e 11 voci storiche collegate. Audit integrale ancora aperto.",
     "Biologia applicata: confronto delle 44 voci del blocco storico 2016/17; 1 lezione con pedigree originale, 36 quiz e 1 prova aperta. Ampliati meccanismi di replicazione/trascrizione/traduzione, apoptosi e genetica di popolazione; verifiche specifiche su cromatina, citoscheletro, lipidi e proteasoma. Audit di Biochimica e corrispondenza corrente ancora aperti.",
     "Biochimica centrale: 2 lezioni, 8 sezioni con 6 tabelle, 32 quiz e 2 prove aperte; passaggi della glicolisi, aggiramenti gluconeogenetici, PDH/Krebs e regolazione, esperimenti su accoppiamento. Ampliati proteine fibrose/globulari, inibizione incompetitiva e creatina chinasi. Confronto mirato di 20 voci storiche, senza certificare il programma corrente.",
-    "Biochimica: completato il confronto editoriale del blocco storico 2016/17, 69 voci. Aggiunta la lezione sul segnale neuromuscolare con 4 sezioni, 2 tabelle e 2 sequenze; 36 quiz e 1 prova aperta. Integrati lipolisi/TAG, controllo dell’urea, beta-ossidazione, isomeria/anidridi, scheletro del DNA e colesterolo di membrana. Corrispondenza corrente non certificata."
+    "Biochimica: completato il confronto editoriale del blocco storico 2016/17, 69 voci. Aggiunta la lezione sul segnale neuromuscolare con 4 sezioni, 2 tabelle e 2 sequenze; 36 quiz e 1 prova aperta. Integrati lipolisi/TAG, controllo dell’urea, beta-ossidazione, isomeria/anidridi, scheletro del DNA e colesterolo di membrana. Corrispondenza corrente non certificata.",
+    "Avambraccio e gamba: due capitoli di sei sezioni, otto tabelle muscolari, 36 quiz con 72 feedback specifici e due prove aperte; compartimenti, attacchi, rami nervosi, passaggi e analisi dei movimenti.",
+    "Tronco e pelvi: tre lezioni, 12 sezioni, 36 quiz e tre prove aperte su collo, dorso, respiratori, pareti addominali, fasce, perineo e rotatori profondi dell’anca. Tavola OpenStax CC BY 4.0 del pavimento pelvico con guida italiana e sei quiz interpretativi."
   ],
   "remainingWork": [
     {
@@ -46,8 +48,8 @@
     {
       "area": "Anatomia",
       "tasks": [
-        "Completare muscoli e fasce del tronco, dettagli di avambraccio/gamba e singoli rotatori profondi; spalla/braccio, anca/coscia, mano/piede hanno capitoli regionali con attacchi, nervi e casi",
-        "Ampliare tavole a ulteriori visceri e dettagli regionali: presenti scheletro intero, sezione sinoviale generale e cuore aperto",
+        "Completare il confronto analitico di tutte le voci del syllabus storico di Anatomia, soprattutto dettagli di visceri e scheletro craniale/assile; i gruppi muscolari regionali hanno ora capitoli dedicati con attacchi principali, nervi e casi",
+        "Ampliare tavole a ulteriori visceri e dettagli regionali: presenti scheletro intero, sezione sinoviale generale, cuore aperto e pavimento pelvico visto dall’alto",
         "Estendere riconoscimento senza etichette ad altre viste, ossa isolate e ricostruzione spaziale; ora presente una tavola anteriore con dieci punti"
       ]
     },
@@ -4349,6 +4351,225 @@
           ]
         }
       ]
+    },
+    {
+      "id": "anatomia-avambraccio-gamba-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto con le voci scheletro dell’avambraccio/gamba, articolazioni e muscoli degli arti a pagina 4 del PDF storico. Il programma non elenca tutti i muscoli singolarmente: le suddivisioni seguenti sono editoriali. Il nucleo generale resta parziale per rotatori profondi e riconoscimento regionale.",
+      "requirements": [
+        {
+          "topic": "Scheletro e articolazioni dell’avambraccio",
+          "refs": [
+            "anatomia-avambraccio/ossa"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz; radio-ulnari, pronosupinazione, disco e legamento anulare"
+        },
+        {
+          "topic": "Muscoli anteriori dell’avambraccio: attacchi e innervazione",
+          "refs": [
+            "anatomia-avambraccio/anteriori",
+            "anatomia-avambraccio/profondi"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz e due tabelle: mediano/ulnare, falangi raggiunte, interosseo anteriore"
+        },
+        {
+          "topic": "Muscoli posteriori/laterali, supinatore ed estensori profondi",
+          "refs": [
+            "anatomia-avambraccio/posteriori",
+            "anatomia-avambraccio/pollice"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz e due tabelle: brachioradiale, stabilizzazione, rami radiali, pollice e canali dorsali"
+        },
+        {
+          "topic": "Rapporti topografici dell’avambraccio",
+          "refs": [
+            "anatomia-avambraccio/passaggi"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz e prova aperta integrata: fossa cubitale, livelli nervosi e passaggi"
+        },
+        {
+          "topic": "Scheletro, articolazioni e compartimenti della gamba",
+          "refs": [
+            "anatomia-gamba/compartimenti"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz: tibia/fibula, sindesmosi e quattro compartimenti"
+        },
+        {
+          "topic": "Muscoli anteriori e laterali della gamba",
+          "refs": [
+            "anatomia-gamba/anteriore",
+            "anatomia-gamba/laterale"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz e due tabelle: dorsiflessione, eversione, inserti e rami fibulari"
+        },
+        {
+          "topic": "Muscoli posteriori superficiali e profondi della gamba",
+          "refs": [
+            "anatomia-gamba/superficiale",
+            "anatomia-gamba/profondo"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz e due tabelle: tricipite surale, popliteo, tibiale posteriore e flessori lunghi"
+        },
+        {
+          "topic": "Rapporti topografici della gamba",
+          "refs": [
+            "anatomia-gamba/passaggi"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz e prova aperta integrata: cavo popliteo, tunnel tarsale, livelli nervosi e funzioni conservate"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-tronco-pelvi-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto con i gruppi muscolari richiesti a pagina 4 del PDF 2024/25. Suddivisioni regionali editoriali: attacchi e rami principali, non ogni variante o fascio. La tavola pelvica è etichettata e semplificata; non certifica riconoscimento da ogni vista.",
+      "requirements": [
+        {
+          "topic": "Muscoli anterolaterali del collo",
+          "refs": [
+            "anatomia-collo-dorso/collo",
+            "anatomia-collo-dorso/ioide"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz, attacchi, vincoli, scaleni, ioidei e fasce"
+        },
+        {
+          "topic": "Muscoli della regione dorsale",
+          "refs": [
+            "anatomia-collo-dorso/dorso",
+            "anatomia-collo-dorso/nuca-fascia"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz, erettori/trasversospinali, suboccipitali, rami nervosi e controllo eccentrico"
+        },
+        {
+          "topic": "Muscoli respiratori",
+          "refs": [
+            "anatomia-pareti-tronco/respiratori"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz, diaframma, passaggi, strati intercostali e innervazione"
+        },
+        {
+          "topic": "Muscoli, aponevrosi e fasce della parete anterolaterale addominale",
+          "refs": [
+            "anatomia-pareti-tronco/addominali",
+            "anatomia-pareti-tronco/guaine"
+          ],
+          "status": "introduced",
+          "assessment": "Sei quiz: rotazioni, guaina, linea arcuata e canale inguinale"
+        },
+        {
+          "topic": "Muscoli della parete addominale posteriore",
+          "refs": [
+            "anatomia-pareti-tronco/posteriore"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz: quadrato, psoas/iliaco e rapporti nervosi"
+        },
+        {
+          "topic": "Muscoli e fasce della piccola pelvi e perineo",
+          "refs": [
+            "anatomia-pelvi-perineo/pavimento",
+            "anatomia-pelvi-perineo/perineo",
+            "anatomia-pelvi-perineo/integrazione"
+          ],
+          "status": "introduced",
+          "assessment": "Nove quiz, sei dei quali con tavola etichettata; membrana, elevatore, sfinteri e lettura dei rapporti"
+        },
+        {
+          "topic": "Rotatori profondi dell’arto inferiore",
+          "refs": [
+            "anatomia-pelvi-perineo/rotatori"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz e tabella: sei muscoli, grandi/piccoli forami e innervazione dei gemelli"
+        }
+      ]
     }
-  ]
+  ],
+  "checkpoint": {
+    "status": "paused",
+    "updated": "2026-10-20",
+    "summary": "Preparazione del materiale in pausa. Ultimo aggiornamento verificato: Anatomia, capitoli su collo/dorso, torace/addome, pelvi/perineo e rotatori profondi, con tavola pelvica e 36 nuovi quiz. Il materiale disponibile resta utilizzabile.",
+    "next": "Riprendere da Anatomia: confronto analitico dei visceri e dello scheletro craniale/assile, poi ulteriori esercizi di riconoscimento su immagini. Proseguire con le lacune degli altri esami elencate sotto.",
+    "examNotes": [
+      {
+        "id": "scienze-biologiche",
+        "label": "Verifica finale da terminare",
+        "remaining": "Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione."
+      },
+      {
+        "id": "anatomia-umana",
+        "label": "Da ampliare e verificare",
+        "remaining": "Capitoli muscolari regionali ampliati. Restano confronto completo di visceri e scheletro craniale/assile, ulteriori tavole e riconoscimento senza etichette, verifica del programma attuale."
+      },
+      {
+        "id": "scienze-base",
+        "label": "Verifica finale da terminare",
+        "remaining": "Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso."
+      },
+      {
+        "id": "scienze-psicopedagogiche",
+        "label": "Da ampliare e verificare",
+        "remaining": "Approfondire autori e confronti di psicologia e pedagogia generale, letture monografiche, casi e confronto del modulo attuale di didattica speciale."
+      },
+      {
+        "id": "scienze-giuridiche",
+        "label": "Da ampliare e verificare",
+        "remaining": "Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi."
+      },
+      {
+        "id": "allenamento",
+        "label": "Confronto completo da terminare",
+        "remaining": "Lezioni e quiz presenti; resta il confronto voce per voce del programma, con verifica della profondità di casi, progettazione e prove aperte."
+      },
+      {
+        "id": "attivita-motorie",
+        "label": "Confronto completo da terminare",
+        "remaining": "Lezioni e quiz presenti; resta il confronto analitico dell’intero programma e della sufficienza di applicazioni pratiche e prove aperte."
+      },
+      {
+        "id": "gestione-sport",
+        "label": "Confronto completo da terminare",
+        "remaining": "Verificare sistematicamente diritto delle società sportive, organizzazione e marketing; integrare i casi e le verifiche che il confronto segnalerà come mancanti."
+      },
+      {
+        "id": "informatica",
+        "label": "Da ampliare e verificare",
+        "remaining": "Laboratorio su formule e report presente. Mancano esercitazioni operative su ordinamento, filtri e grafici e il confronto completo con il programma."
+      },
+      {
+        "id": "inglese",
+        "label": "Da ampliare e verificare",
+        "remaining": "Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio."
+      }
+    ],
+    "closedUnits": [
+      "anatomia-collo-dorso",
+      "anatomia-pareti-tronco",
+      "anatomia-pelvi-perineo"
+    ],
+    "validation": "npm run check e 32 test superati; trunk-browser: 72 feedback, tavola, aiuti, progressi, mobile e stampa; browser generale: file offline, riapertura, aggiornamento, backup e zero richieste di rete; controllo segnalibro: pausa, punto di ripresa e lacune dei dieci esami visibili.",
+    "resumeFiles": [
+      "data/course.json",
+      "data/development-audit.json",
+      "SEGNALIBRO.txt"
+    ],
+    "instruction": "Pausa richiesta dall’utente: non proseguire automaticamente. Riprendere soltanto su sua richiesta. Nessun esame viene marcato integralmente completato."
+  }
 }
