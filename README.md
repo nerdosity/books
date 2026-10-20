@@ -15,8 +15,7 @@ npm --prefix studio run build
 ```
 
 Il file `studio/pronto/index.html` funziona anche offline con un doppio clic.
-Ogni push su `main` esegue controlli, test e compilazione, poi pubblica su GitHub Pages.
-Le pull request eseguono i controlli senza pubblicare.
+Ogni push su `main` compila e pubblica su GitHub Pages. I test si eseguono soltanto in locale.
 Pages deve usare **GitHub Actions** come sorgente in Settings → Pages.
 
 ## Dati personali

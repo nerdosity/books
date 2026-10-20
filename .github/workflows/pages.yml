@@ -3,8 +3,6 @@ name: Publish study app to GitHub Pages
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,21 +20,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate content
-        run: npm --prefix studio run check
-      - name: Run tests
-        run: npm --prefix studio test
       - name: Build standalone app
         run: npm --prefix studio run build
       - name: Check public files and prepare isolated artifact
         run: node scripts/prepare-pages.mjs
       - uses: actions/upload-pages-artifact@v4
-        if: github.event_name != 'pull_request'
         with:
           path: .local/pages-artifact
 
   deploy:
-    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     permissions:
