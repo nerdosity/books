@@ -1,0 +1,4354 @@
+{
+  "updated": "2026-10-20",
+  "objective": "Materiale interno sufficiente a preparare gli esami del primo anno UniBa, con spiegazioni, pratica, correzioni e recupero degli errori; consegna locale index.html.",
+  "status": "active",
+  "completionProven": false,
+  "scope": {
+    "exams": 10,
+    "cfu": 61,
+    "academicYear": "2026/2027",
+    "currentAnalyticSyllabiConfirmed": false,
+    "listening": "Incluso come laboratorio facoltativo ElevenLabs su richiesta successiva: token personale e cache locale."
+  },
+  "deliveredThisStage": [
+    "8 brani inglesi, traduzioni, 8 domande con aiuto e dettato per autoconfronto",
+    "Frontend ElevenLabs: scelta voci account, token separato, richieste esplicite, IndexedDB, download e cancellazione audio",
+    "8 tavole anatomiche attribuite e incorporate, con guide italiane e ingrandimento",
+    "4 nuove lezioni anatomiche: microstruttura muscolare e glia, neuroanatomia, vie respiratorie, laboratorio visuale",
+    "24 nuove domande anatomiche e 4 prove aperte",
+    "7 lezioni di chimica e metabolismo con 28 sezioni, esempi, tabelle e 7 prove aperte",
+    "56 quiz aggiuntivi collegati agli errori e 2 generatori: pH dei tamponi e resa degli acidi grassi saturi pari",
+    "Laboratorio Informatica: 3 fogli, 21 celle con verifica delle formule, copia relativa/assoluta, 3 report, salvataggio e backup; 1 lezione e 8 quiz",
+    "Fisica: 3 lezioni, 12 sezioni, 24 quiz, 6 generatori e 3 schemi interattivi su idrostatica, campi e immagini",
+    "Psicopedagogia: 4 lezioni, 16 sezioni, 32 quiz e 4 prove aperte su fondamenti speciali, accessibilità, comunicazione e progetto educativo con rubrica",
+    "Biochimica: 5 lezioni, 20 sezioni, 40 quiz e 5 prove aperte su digestione/turnover, vitamine, derivati amminoacidici/eme, nucleotidi e difese redox",
+    "Chimica e mitocondri: 4 lezioni, 16 sezioni, 32 quiz, 4 prove aperte e 2 schemi originali; concentrazioni/Henry, aromaticità/Schiff/saponificazione, navette e anaplerosi",
+    "Biologia molecolare: 2 lezioni, 8 sezioni, 24 quiz e 2 prove aperte su destino delle proteine, proteoma, PCR/gel, clonaggio, librerie e sequenziamento; gel schematico originale negli aiuti e nella stampa",
+    "Anatomia: laboratorio scheletrico con 4 sezioni, 12 quiz e prova orale; scheletro senza nomi con 10 riferimenti e legenda esclusa dai test, più sezione sinoviale con guida italiana; 10 tavole totali.",
+    "Anatomia distale: 2 lezioni, 8 sezioni, 24 quiz e 2 prove orali su mano/polso e piede/caviglia; tabelle di attacchi, azioni e nervi e casi sui rami distali.",
+    "Vascolarizzazione: 2 lezioni, 8 sezioni, 24 quiz e 2 prove aperte; percorsi sistemici, circolo portale e schema originale dei tre shunt fetali.",
+    "Cuore e microcircolo: 2 lezioni, 8 sezioni, 24 quiz (5 su tavola), 2 prove aperte e una tavola OpenStax CC BY 3.0; pericardio, camere, valvole, miocardio, conduzione, ciclo e pareti dei vasi.",
+    "Anatomia prossimale: 2 lezioni, 8 sezioni, 7 tabelle con 37 righe, 24 quiz e 2 prove aperte; spalla/braccio e anca/coscia, attacchi, nervi, articolazioni e controllo del gesto.",
+    "Fisica: audit di 79 voci della scheda 2024/25; 4 nuove lezioni, 16 sezioni, entropia riscritta, 62 quiz aggiuntivi e 4 prove aperte. Coperti termometri, scambi termici, proprietà/regimi dei fluidi, pressione sanguigna, campi naturali e problemi di bilancio.",
+    "Scienze biologiche: 2 lezioni, 8 sezioni, 24 quiz, 2 prove aperte e generatore della carica energetica; isoenzimi, fermentazione alcolica, ciclo TAG, forme A/B/Z, genoma, piccoli RNA e cAMP. Sette voci storiche collegate alle verifiche; audit biologico integrale ancora aperto.",
+    "Scienze biologiche: 3 lezioni, 12 sezioni, 36 quiz e 3 prove aperte su composizione corporea/nutrienti, strutture cellulari/cloroplasti e genetica microbica. Tre nuovi nuclei della mappa, incluso materiale preesistente di popolazioni, e 11 voci storiche collegate. Audit integrale ancora aperto.",
+    "Biologia applicata: confronto delle 44 voci del blocco storico 2016/17; 1 lezione con pedigree originale, 36 quiz e 1 prova aperta. Ampliati meccanismi di replicazione/trascrizione/traduzione, apoptosi e genetica di popolazione; verifiche specifiche su cromatina, citoscheletro, lipidi e proteasoma. Audit di Biochimica e corrispondenza corrente ancora aperti.",
+    "Biochimica centrale: 2 lezioni, 8 sezioni con 6 tabelle, 32 quiz e 2 prove aperte; passaggi della glicolisi, aggiramenti gluconeogenetici, PDH/Krebs e regolazione, esperimenti su accoppiamento. Ampliati proteine fibrose/globulari, inibizione incompetitiva e creatina chinasi. Confronto mirato di 20 voci storiche, senza certificare il programma corrente.",
+    "Biochimica: completato il confronto editoriale del blocco storico 2016/17, 69 voci. Aggiunta la lezione sul segnale neuromuscolare con 4 sezioni, 2 tabelle e 2 sequenze; 36 quiz e 1 prova aperta. Integrati lipolisi/TAG, controllo dell’urea, beta-ossidazione, isomeria/anidridi, scheletro del DNA e colesterolo di membrana. Corrispondenza corrente non certificata."
+  ],
+  "remainingWork": [
+    {
+      "area": "Biochimica",
+      "tasks": [
+        "Confrontare programma analitico, dispense e modalità di verifica del docente attuale quando disponibili. Il confronto storico 2016/17 è completato in 69 voci; le vie amminoacidiche restano rappresentative, come esplicitato nelle lezioni."
+      ]
+    },
+    {
+      "area": "Anatomia",
+      "tasks": [
+        "Completare muscoli e fasce del tronco, dettagli di avambraccio/gamba e singoli rotatori profondi; spalla/braccio, anca/coscia, mano/piede hanno capitoli regionali con attacchi, nervi e casi",
+        "Ampliare tavole a ulteriori visceri e dettagli regionali: presenti scheletro intero, sezione sinoviale generale e cuore aperto",
+        "Estendere riconoscimento senza etichette ad altre viste, ossa isolate e ricostruzione spaziale; ora presente una tavola anteriore con dieci punti"
+      ]
+    },
+    {
+      "area": "Fisica",
+      "tasks": [
+        "Confronto con materiali del docente attuale; i modelli di TC e campi coprono applicazioni elementari dichiarate"
+      ]
+    },
+    {
+      "area": "Psicopedagogia",
+      "tasks": [
+        "Approfondire autori e confronti della pedagogia generale e della psicologia; verificare le letture monografiche effettivamente richieste",
+        "Confrontare il modulo corrente di didattica speciale con la scheda SAMS 2021/22 reperita: cambiano anno di corso e docente",
+        "Ampliare oltre i casi rappresentativi di adattamento e verificare il livello richiesto dalle dispense; progetto esteso e rubrica ora presenti"
+      ]
+    },
+    {
+      "area": "Diritto",
+      "tasks": [
+        "Rintracciare gli articoli e le dispense effettivamente indicati dal docente",
+        "Ampliare casi risolti delle tre componenti del corso",
+        "Distinguere copertura dei principi da verifica dei materiali specifici del docente"
+      ]
+    },
+    {
+      "area": "Informatica",
+      "tasks": [
+        "Audit di tutti i contenuti informatici rispetto alle competenze del programma d’archivio e alle eventuali nuove dispense",
+        "Esercitazioni operative aggiuntive su ordinamento, filtri e grafici; l’attuale laboratorio verifica formule e report"
+      ]
+    },
+    {
+      "area": "Inglese",
+      "tasks": [
+        "Ampliare grammatica A2/B1, esercizi e testi oltre il ripasso iniziale",
+        "La generazione reale ElevenLabs richiede un account: preflight reale verificato, flusso testato con risposte simulate"
+      ]
+    },
+    {
+      "area": "Tutti i dieci esami",
+      "tasks": [
+        "Audit editoriale per ogni voce effettiva dei syllabus reperiti, oltre ai 125 gruppi sintetici",
+        "Aumentare varietà e profondità delle verifiche quando una singola domanda non prova la competenza",
+        "Casi e prove aperte sufficienti alla preparazione orale, senza promettere voto o superamento garantito",
+        "Verifica finale del file offline, progressi preesistenti, mobile, stampa, aiuti e media"
+      ]
+    },
+    {
+      "area": "Biologia applicata e genetica",
+      "tasks": [
+        "Verificare il programma analitico, le dispense e la modalità di verifica correnti quando disponibili. Confrontati il blocco storico 2016/17 e i 12 nuclei/obiettivi biologici della scheda 2025/26; quest’ultima presenta indicazioni discordanti fra campo Orale e descrizione dello scritto."
+      ]
+    }
+  ],
+  "syllabusAudits": [
+    {
+      "id": "speciale-2021",
+      "exam": "scienze-psicopedagogiche",
+      "sourceId": "syllabus-speciale-2021",
+      "year": "2021/22",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto editoriale delle cinque voci della pagina 2; presenza di contenuto e verifiche non equivale a esaustività.",
+      "requirements": [
+        {
+          "topic": "Basi epistemologiche della didattica e pedagogia speciale",
+          "refs": [
+            "speciale-fondamenti/epistemologia",
+            "speciale-fondamenti/osservare"
+          ],
+          "assessment": "Definizioni, distinzione fra dato e interpretazione, caso e prova orale",
+          "status": "introduced"
+        },
+        {
+          "topic": "Principali disabilità e strategie metodologiche e didattiche",
+          "refs": [
+            "speciale-accesso/vista",
+            "speciale-accesso/udito",
+            "speciale-accesso/movimento",
+            "speciale-accesso/comprensione",
+            "speciale-comunicazione/autismo",
+            "speciale-comunicazione/attenzione",
+            "speciale-comunicazione/dsa"
+          ],
+          "assessment": "Casi sensoriali, motori, cognitivi e comunicativi con domande e adattamenti motivati",
+          "status": "partial",
+          "gap": "Casi rappresentativi; non una trattazione clinica o un elenco completo di quadri e protocolli. Da confrontare con dispense e approfondimenti assegnati."
+        },
+        {
+          "topic": "ICD-10 e ICF",
+          "refs": [
+            "speciale-fondamenti/classificazioni",
+            "didattica-inclusiva/icf"
+          ],
+          "assessment": "Confronto fra oggetti, capacità/performance e barriere, con casi",
+          "status": "introduced"
+        },
+        {
+          "topic": "Profilo di funzionamento e Piano educativo individualizzato",
+          "refs": [
+            "speciale-fondamenti/pei",
+            "speciale-fondamenti/osservare",
+            "pedagogia-caso-esteso/rubrica"
+          ],
+          "assessment": "Ruoli e collegamento osservazione-obiettivi-interventi-verifica; casi e orale",
+          "status": "introduced"
+        },
+        {
+          "topic": "Legislazione relativa all’inclusione scolastica",
+          "refs": [
+            "speciale-fondamenti/pei",
+            "speciale-comunicazione/dsa"
+          ],
+          "assessment": "Riferimenti essenziali e distinzione PEI/PDP",
+          "status": "partial",
+          "gap": "Sintesi dei principi e degli strumenti; non analisi articolo per articolo o verifica dei materiali del docente attuale."
+        }
+      ]
+    },
+    {
+      "id": "biochimica-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Primo confronto del dettaglio storico: le voci qui elencate sono quelle sviluppate o riconosciute carenti in questa fase. Non è ancora l’audit completo di ogni riga delle tre pagine.",
+      "requirements": [
+        {
+          "topic": "Digestione e degradazione proteica, zimogeni, vie lisosomiale e non lisosomiale",
+          "refs": [
+            "digestione-turnover/glucidi",
+            "digestione-turnover/proteolisi",
+            "digestione-turnover/lipidi",
+            "digestione-turnover/turnover"
+          ],
+          "status": "introduced",
+          "assessment": "Distinzione enzima, trasporto e compartimento; saldi di turnover, quiz e prova aperta"
+        },
+        {
+          "topic": "Vitamine e coenzimi",
+          "refs": [
+            "vitamine-coenzimi/energia",
+            "vitamine-coenzimi/azoto-carbonio",
+            "vitamine-coenzimi/un-carbonio",
+            "vitamine-coenzimi/altre"
+          ],
+          "status": "introduced",
+          "assessment": "Associazioni e riconoscimento del tipo di reazione, PDH, PLP, biotina, folati e B12"
+        },
+        {
+          "topic": "Amminoacidi, ammine biogene e catabolismo dell’eme",
+          "refs": [
+            "amminoacidi-urea/azoto",
+            "amminoacidi-urea/trasporto",
+            "amminoacidi-urea/urea",
+            "amminoacidi-urea/carbonio",
+            "amminoacidi-derivati/famiglie",
+            "amminoacidi-derivati/ramificati",
+            "amminoacidi-derivati/ammine",
+            "amminoacidi-derivati/eme"
+          ],
+          "status": "introduced",
+          "assessment": "Azoto e carbonio, vie rappresentative, confronto ramificati e sequenza bilirubina; non tutte le sequenze enzimatiche individuali"
+        },
+        {
+          "topic": "Metabolismo nucleotidico e ciclo dei nucleotidi purinici",
+          "refs": [
+            "nucleotidi-metabolismo/purine",
+            "nucleotidi-metabolismo/pirimidine",
+            "nucleotidi-metabolismo/dna",
+            "nucleotidi-metabolismo/recupero"
+          ],
+          "status": "introduced",
+          "assessment": "Costruzione, recupero e degradazione; compartimenti CPS I/II; bilancio di un giro AMP/IMP"
+        },
+        {
+          "topic": "ROS, danni a lipidi/DNA/proteine e difese enzimatiche/non enzimatiche",
+          "refs": [
+            "redox-integrazione/specie",
+            "redox-integrazione/difese",
+            "redox-integrazione/pentosi",
+            "redox-integrazione/prove"
+          ],
+          "status": "introduced",
+          "assessment": "Specie e bersagli, rete antiossidante, bilanci NADPH, interpretazione di dati inventati"
+        },
+        {
+          "topic": "Concentrazioni, Henry e dettagli di chimica organica",
+          "refs": [
+            "soluzioni-quantitative/concentrazioni",
+            "soluzioni-quantitative/equivalenti",
+            "soluzioni-quantitative/henry",
+            "soluzioni-quantitative/osmosi",
+            "organica-anelli-reazioni/aromatici",
+            "organica-anelli-reazioni/conformazioni",
+            "organica-anelli-reazioni/schiff",
+            "organica-anelli-reazioni/esteri"
+          ],
+          "status": "introduced",
+          "assessment": "Calcoli di concentrazione e neutralizzazione, Henry e osmosi; coppie elettroniche aromatiche, inversione della sedia, immine e conteggio dei legami esterei; quiz e prove aperte"
+        },
+        {
+          "topic": "Navette, trasportatori mitocondriali e anaplerosi",
+          "refs": [
+            "mitocondri-navette/trasportatori",
+            "mitocondri-navette/malato",
+            "mitocondri-navette/glicerofosfato",
+            "mitocondri-navette/anaplerosi"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruzione dei percorsi con compartimenti e trasporti, blocco del circuito, resa dei soli NADH citosolici e bilancio anaplerotico; quiz, schema e prova aperta"
+        },
+        {
+          "topic": "Strutture elettroniche, legami, equilibrio, termodinamica e cinetica",
+          "refs": [
+            "chimica-struttura-equilibrio/elettroni",
+            "chimica-struttura-equilibrio/interazioni",
+            "chimica-struttura-equilibrio/equilibrio",
+            "chimica-struttura-equilibrio/termodinamica"
+          ],
+          "status": "introduced",
+          "assessment": "Conteggio degli elettroni, carica formale/ossidazione, Lewis acido-base, Q/K, bilancio ΔG e distinzione fra equilibrio e velocità"
+        }
+      ]
+    },
+    {
+      "id": "biologia-molecolare-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato delle voci su proteine e tecniche del DNA nella pagina 3; non è ancora l’audit completo di Biologia applicata.",
+      "requirements": [
+        {
+          "topic": "Ripiegamento e smistamento proteico",
+          "refs": [
+            "proteine-destino/ripiegamento",
+            "proteine-destino/indirizzi",
+            "proteine-destino/golgi"
+          ],
+          "status": "introduced",
+          "assessment": "Chaperoni e qualità, segnali, topologia e smistamento; tre quiz per sezione e caso aperto"
+        },
+        {
+          "topic": "Proteoma e livelli di misura",
+          "refs": [
+            "proteine-destino/proteoma"
+          ],
+          "status": "introduced",
+          "assessment": "Scelta del metodo e confronto RNA/proteina totale/modificazioni con dati inventati"
+        },
+        {
+          "topic": "Clonaggio e librerie",
+          "refs": [
+            "dna-tecnologie/clonaggio",
+            "dna-tecnologie/librerie"
+          ],
+          "status": "introduced",
+          "assessment": "Selezione contro conferma, bilanci delle lunghezze e scelta genomica/cDNA"
+        },
+        {
+          "topic": "Tecnologie del DNA e analisi genomica",
+          "refs": [
+            "dna-tecnologie/pcr-gel",
+            "dna-tecnologie/sequenziamento"
+          ],
+          "status": "introduced",
+          "assessment": "Controlli PCR, limiti del gel, filamenti antiparalleli, copertura e significato di una variante"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-distale-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato con apparato locomotore, pagina 4 del syllabus: scheletro e principali articolazioni degli arti, muscoli con attacchi e funzione. Non equivale all’audit completo di Anatomia.",
+      "requirements": [
+        {
+          "topic": "Scheletro di mano e piede e principali articolazioni",
+          "refs": [
+            "anatomia-mano/scheletro",
+            "anatomia-piede/scheletro"
+          ],
+          "status": "introduced",
+          "assessment": "Localizzazione delle articolazioni e confronto dei nomi, con tre quiz per regione"
+        },
+        {
+          "topic": "Muscoli degli arti: regioni distali, attacchi e azioni",
+          "refs": [
+            "anatomia-mano/estrinseci",
+            "anatomia-mano/intrinseci",
+            "anatomia-piede/estrinseci",
+            "anatomia-piede/intrinseci"
+          ],
+          "status": "introduced",
+          "assessment": "Tabelle, casi sui tendini e sull’apparato estensore, strati plantari e confronti orali"
+        },
+        {
+          "topic": "Rapporti regionali e innervazione",
+          "refs": [
+            "anatomia-mano/passaggi",
+            "anatomia-piede/integrare"
+          ],
+          "status": "introduced",
+          "assessment": "Passaggi al polso, rami prossimali/distali e limiti delle inferenze da un gesto globale"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-vasi-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato con pagina 4 del PDF, apparato cardiovascolare: aorta e principali rami, vene, portale e cenni di circolazione fetale. Non certifica il resto della voce cardiaca né la corrispondenza al programma 2026/27.",
+      "requirements": [
+        {
+          "topic": "Aorta: origine, decorso, principali rami collaterali e terminali",
+          "refs": [
+            "anatomia-arterie/aorta",
+            "anatomia-arterie/superiore",
+            "anatomia-arterie/viscerali",
+            "anatomia-arterie/inferiore"
+          ],
+          "status": "introduced",
+          "assessment": "Percorsi regionali, rami contro continuazioni, 12 quiz e confronto scritto guidato"
+        },
+        {
+          "topic": "Principali rami venosi",
+          "refs": [
+            "anatomia-vene-circoli/superiori",
+            "anatomia-vene-circoli/inferiori"
+          ],
+          "status": "introduced",
+          "assessment": "Ritorno sistemico, asimmetrie e safene; sei quiz con aiuto puntuale"
+        },
+        {
+          "topic": "Circolo portale",
+          "refs": [
+            "anatomia-vene-circoli/portale"
+          ],
+          "status": "introduced",
+          "assessment": "Due letti in serie, doppio apporto al fegato e distinzione ingresso/uscita; tre quiz e confronto aperto"
+        },
+        {
+          "topic": "Feto a termine e modificazioni alla nascita",
+          "refs": [
+            "anatomia-vene-circoli/fetale"
+          ],
+          "status": "introduced",
+          "assessment": "Schema delle tre connessioni, direzione ombelicale e gradiente atriale; tre quiz e prova aperta"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-cuore-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto delle voci cardiovascolari a pagina 4 del PDF. Le nuove unità completano le voci rimaste soltanto nominate; i percorsi vascolari sono registrati nell’audit anatomia-vasi-2024. Introduced significa contenuti e verifica presenti, non attestazione di padronanza.",
+      "requirements": [
+        {
+          "topic": "Cuore macroscopico e pericardio",
+          "refs": [
+            "anatomia-cuore/topografia",
+            "anatomia-cuore/cavita"
+          ],
+          "status": "introduced",
+          "assessment": "Sede, superfici, camere, setti e riflessioni; sei quiz, inclusa lettura della tavola"
+        },
+        {
+          "topic": "Valvole e scheletro fibroso",
+          "refs": [
+            "anatomia-cuore/valvole"
+          ],
+          "status": "introduced",
+          "assessment": "Apparati AV/semilunare e sostegno/isolamento; tre quiz e prova aperta"
+        },
+        {
+          "topic": "Cuore microscopico e cenni sulla conduzione",
+          "refs": [
+            "anatomia-cuore/parete",
+            "anatomia-ciclo-vasi/conduzione"
+          ],
+          "status": "introduced",
+          "assessment": "Strati, giunzioni, Purkinje e sequenza elettrica; sei quiz e distinzione delle scale"
+        },
+        {
+          "topic": "Ciclo cardiaco",
+          "refs": [
+            "anatomia-ciclo-vasi/ciclo",
+            "circolazione/portata"
+          ],
+          "status": "introduced",
+          "assessment": "Quattro fasi, tabella valvole-volume, esempio di pressioni e calcolo di gittata/portata, tre quiz e prova aperta"
+        },
+        {
+          "topic": "Struttura di arterie, vene, capillari e sinusoidi",
+          "refs": [
+            "anatomia-ciclo-vasi/pareti-vascolari",
+            "anatomia-ciclo-vasi/microcircolo"
+          ],
+          "status": "introduced",
+          "assessment": "Tonache, varianti funzionali, limiti del riconoscimento e selettività; sei quiz e confronto scritto"
+        }
+      ]
+    },
+    {
+      "id": "anatomia-prossimale-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto con apparato locomotore e arti del programma storico. Le nuove lezioni insegnano i principali gruppi prossimali; la voce generale degli arti rimane partial per i dettagli regionali e visivi ancora mancanti.",
+      "requirements": [
+        {
+          "topic": "Cingolo scapolare e muscoli della spalla",
+          "refs": [
+            "anatomia-spalla-braccio/scapola",
+            "anatomia-spalla-braccio/cuffia",
+            "anatomia-spalla-braccio/rapporti"
+          ],
+          "status": "introduced",
+          "assessment": "Nove quiz, tre tabelle e prova aperta: attacchi, nervi, rotazioni, stabilizzazione e vincoli"
+        },
+        {
+          "topic": "Braccio e gomito",
+          "refs": [
+            "anatomia-spalla-braccio/gomito"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz e tabella; brachiale/bicipite, capi del tricipite, brachioradiale e articolazioni attraversate"
+        },
+        {
+          "topic": "Anca e ginocchio",
+          "refs": [
+            "anatomia-anca-coscia/articolazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz: apparato estensore, crociati, capsula e riferimento dello spostamento"
+        },
+        {
+          "topic": "Glutei, ileopsoas e compartimenti della coscia",
+          "refs": [
+            "anatomia-anca-coscia/glutei",
+            "anatomia-anca-coscia/anteromediale",
+            "anatomia-anca-coscia/posteriore"
+          ],
+          "status": "introduced",
+          "assessment": "Nove quiz, tre tabelle e prova aperta: appoggio monopodalico, muscoli biarticolari, inserzioni e divisioni nervose"
+        }
+      ]
+    },
+    {
+      "id": "fisica-analitico-2024",
+      "exam": "scienze-base",
+      "sourceId": "syllabus-physics",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Letta la pagina 4 completa e confrontate le voci con testi, esempi, quiz e generatori effettivi delle lezioni. La pagina 5 richiede esposizione orale e semplici problemi: presenti prove aperte con criteri e casi numerici. Introdotto significa contenuto e verifica pertinenti, non certificazione di padronanza o identità delle dispense. Le leggi d’onda sono trattate nel significato e nelle applicazioni elementari, non come corso completo di equazioni differenziali.",
+      "requirements": [
+        {
+          "topic": "Unità SI",
+          "refs": [
+            "cinematica/unita",
+            "fisica-ragionamento/prodotti"
+          ],
+          "status": "introduced",
+          "assessment": "Conversioni e controllo dimensionale",
+          "questionIds": [
+            "fi-cin-1",
+            "physics-audit-fisica-ragionamento-prodotti-0",
+            "physics-audit-fisica-ragionamento-prodotti-1",
+            "physics-audit-fisica-ragionamento-prodotti-2",
+            "num-conversione"
+          ]
+        },
+        {
+          "topic": "Scalari e vettori",
+          "refs": [
+            "vettori/componenti"
+          ],
+          "status": "introduced",
+          "assessment": "Componenti, somma e modulo",
+          "questionIds": [
+            "vettori-componenti-verifica",
+            "num-vettore"
+          ]
+        },
+        {
+          "topic": "Prodotti vettoriali",
+          "refs": [
+            "fisica-ragionamento/prodotti"
+          ],
+          "status": "introduced",
+          "assessment": "Prodotto scalare/vettoriale e segno del momento",
+          "questionIds": [
+            "physics-audit-fisica-ragionamento-prodotti-0",
+            "physics-audit-fisica-ragionamento-prodotti-1",
+            "physics-audit-fisica-ragionamento-prodotti-2"
+          ]
+        },
+        {
+          "topic": "MRU",
+          "refs": [
+            "cinematica/velocita",
+            "vettori/grafici"
+          ],
+          "status": "introduced",
+          "assessment": "Spostamento, tempo e grafico",
+          "questionIds": [
+            "fi-cin-2",
+            "vettori-grafici-verifica",
+            "num-velocita"
+          ]
+        },
+        {
+          "topic": "MRUA",
+          "refs": [
+            "cinematica/accelerazione"
+          ],
+          "status": "introduced",
+          "assessment": "Formula generale con velocità iniziale non nulla e generatore",
+          "questionIds": [
+            "fi-cin-3",
+            "physics-audit-cinematica-accelerazione-extra-0",
+            "num-accelerazione"
+          ]
+        },
+        {
+          "topic": "Oscillazioni",
+          "refs": [
+            "fisica-modelli/armonico"
+          ],
+          "status": "introduced",
+          "assessment": "Periodo, energia e velocità all’equilibrio",
+          "questionIds": [
+            "y1-fisica-modelli-armonico",
+            "physics-audit-fisica-modelli-armonico-extra-1"
+          ]
+        },
+        {
+          "topic": "Circolare uniforme",
+          "refs": [
+            "fisica-modelli/circolare",
+            "rotazione/angoli"
+          ],
+          "status": "introduced",
+          "assessment": "Accelerazione radiale",
+          "questionIds": [
+            "rotazione-angoli-verifica",
+            "y1-fisica-modelli-circolare",
+            "physics-audit-fisica-modelli-circolare-extra-2",
+            "physics-audit-fisica-modelli-circolare-extra-3"
+          ]
+        },
+        {
+          "topic": "Circolare accelerato",
+          "refs": [
+            "fisica-modelli/circolare"
+          ],
+          "status": "introduced",
+          "assessment": "Velocità angolare, angolo e risultante delle accelerazioni",
+          "questionIds": [
+            "y1-fisica-modelli-circolare",
+            "physics-audit-fisica-modelli-circolare-extra-2",
+            "physics-audit-fisica-modelli-circolare-extra-3"
+          ]
+        },
+        {
+          "topic": "Inerzia",
+          "refs": [
+            "forze/newton",
+            "fisica-ragionamento/newton"
+          ],
+          "status": "introduced",
+          "assessment": "Risultante nulla e riferimento inerziale",
+          "questionIds": [
+            "fi-for-1",
+            "physics-audit-fisica-ragionamento-newton-0",
+            "physics-audit-fisica-ragionamento-newton-1",
+            "physics-audit-fisica-ragionamento-newton-2",
+            "num-forza"
+          ]
+        },
+        {
+          "topic": "Dinamica",
+          "refs": [
+            "forze/newton",
+            "fisica-ragionamento/newton"
+          ],
+          "status": "introduced",
+          "assessment": "Forze concorrenti e risultante",
+          "questionIds": [
+            "fi-for-1",
+            "physics-audit-fisica-ragionamento-newton-0",
+            "physics-audit-fisica-ragionamento-newton-1",
+            "physics-audit-fisica-ragionamento-newton-2",
+            "num-forza"
+          ]
+        },
+        {
+          "topic": "Azione–reazione",
+          "refs": [
+            "fisica-ragionamento/newton"
+          ],
+          "status": "introduced",
+          "assessment": "Coppie su corpi diversi",
+          "questionIds": [
+            "physics-audit-fisica-ragionamento-newton-0",
+            "physics-audit-fisica-ragionamento-newton-1",
+            "physics-audit-fisica-ragionamento-newton-2"
+          ]
+        },
+        {
+          "topic": "Quantità di moto",
+          "refs": [
+            "impulso/quantita",
+            "impulso/impulso",
+            "impulso/urti"
+          ],
+          "status": "introduced",
+          "assessment": "Bilancio, impulso e conservazione negli urti",
+          "questionIds": [
+            "impulso-quantita-verifica",
+            "impulso-impulso-verifica",
+            "impulso-urti-verifica",
+            "num-impulso"
+          ]
+        },
+        {
+          "topic": "Momento angolare",
+          "refs": [
+            "fisica-ragionamento/prodotti",
+            "rotazione/momento-angolare"
+          ],
+          "status": "introduced",
+          "assessment": "r×p, polo e conservazione",
+          "questionIds": [
+            "rotazione-momento-angolare-verifica",
+            "physics-audit-fisica-ragionamento-prodotti-0",
+            "physics-audit-fisica-ragionamento-prodotti-1",
+            "physics-audit-fisica-ragionamento-prodotti-2"
+          ]
+        },
+        {
+          "topic": "Peso",
+          "refs": [
+            "forze/peso",
+            "fisica-ragionamento/newton"
+          ],
+          "status": "introduced",
+          "assessment": "Massa, gravità e lettura della bilancia",
+          "questionIds": [
+            "fi-for-2",
+            "physics-audit-fisica-ragionamento-newton-0",
+            "physics-audit-fisica-ragionamento-newton-1",
+            "physics-audit-fisica-ragionamento-newton-2",
+            "physics-audit-forze-peso-extra-4"
+          ]
+        },
+        {
+          "topic": "Elasticità",
+          "refs": [
+            "rotazione/elasticita",
+            "fisica-modelli/armonico"
+          ],
+          "status": "introduced",
+          "assessment": "Hooke, energia e limiti lineari",
+          "questionIds": [
+            "rotazione-elasticita-verifica",
+            "y1-fisica-modelli-armonico",
+            "physics-audit-fisica-modelli-armonico-extra-1"
+          ]
+        },
+        {
+          "topic": "Vincoli",
+          "refs": [
+            "vettori/piano",
+            "fisica-ragionamento/leve-complete"
+          ],
+          "status": "introduced",
+          "assessment": "Normale e reazione del perno",
+          "questionIds": [
+            "vettori-piano-verifica",
+            "physics-audit-fisica-ragionamento-leve-complete-0",
+            "physics-audit-fisica-ragionamento-leve-complete-1",
+            "physics-audit-fisica-ragionamento-leve-complete-2"
+          ]
+        },
+        {
+          "topic": "Resistenze passive",
+          "refs": [
+            "vettori/piano",
+            "forze/peso"
+          ],
+          "status": "introduced",
+          "assessment": "Attrito statico/dinamico e resistenza del mezzo",
+          "questionIds": [
+            "fi-for-2",
+            "vettori-piano-verifica",
+            "physics-audit-forze-peso-extra-4"
+          ]
+        },
+        {
+          "topic": "Centripeta",
+          "refs": [
+            "fisica-modelli/circolare",
+            "fisica-elettrica-applicata/lorentz"
+          ],
+          "status": "introduced",
+          "assessment": "Ruolo della risultante radiale",
+          "questionIds": [
+            "y1-fisica-modelli-circolare",
+            "physics-audit-fisica-elettrica-applicata-lorentz-0",
+            "physics-audit-fisica-elettrica-applicata-lorentz-1",
+            "physics-audit-fisica-elettrica-applicata-lorentz-2",
+            "physics-audit-fisica-modelli-circolare-extra-2",
+            "physics-audit-fisica-modelli-circolare-extra-3"
+          ]
+        },
+        {
+          "topic": "Piano inclinato",
+          "refs": [
+            "vettori/piano"
+          ],
+          "status": "introduced",
+          "assessment": "Componenti del peso e condizioni d’attrito",
+          "questionIds": [
+            "vettori-piano-verifica"
+          ]
+        },
+        {
+          "topic": "Lavoro uniforme",
+          "refs": [
+            "lavoro/lavoro",
+            "fisica-ragionamento/prodotti"
+          ],
+          "status": "introduced",
+          "assessment": "Forza costante e prodotto scalare",
+          "questionIds": [
+            "base-lavoro-lavoro",
+            "physics-audit-fisica-ragionamento-prodotti-0",
+            "physics-audit-fisica-ragionamento-prodotti-1",
+            "physics-audit-fisica-ragionamento-prodotti-2"
+          ]
+        },
+        {
+          "topic": "Lavoro centrale",
+          "refs": [
+            "fisica-modelli/gravita",
+            "fisica-ragionamento/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Differenza del potenziale gravitazionale",
+          "questionIds": [
+            "y1-fisica-modelli-gravita",
+            "physics-audit-fisica-ragionamento-energia-0",
+            "physics-audit-fisica-ragionamento-energia-1",
+            "physics-audit-fisica-ragionamento-energia-2"
+          ]
+        },
+        {
+          "topic": "Energia cinetica",
+          "refs": [
+            "forze/cinetica",
+            "rotazione/inerzia"
+          ],
+          "status": "introduced",
+          "assessment": "Traslazione e rotazione",
+          "questionIds": [
+            "fi-for-3",
+            "rotazione-inerzia-verifica",
+            "num-cinetica"
+          ]
+        },
+        {
+          "topic": "Energia potenziale",
+          "refs": [
+            "lavoro/potenziale",
+            "rotazione/elasticita",
+            "fisica-ragionamento/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Peso locale, molla e campo centrale",
+          "questionIds": [
+            "base-lavoro-potenziale",
+            "rotazione-elasticita-verifica",
+            "physics-audit-fisica-ragionamento-energia-0",
+            "physics-audit-fisica-ragionamento-energia-1",
+            "physics-audit-fisica-ragionamento-energia-2"
+          ]
+        },
+        {
+          "topic": "Bilancio meccanico",
+          "refs": [
+            "fisica-ragionamento/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Conservazione e lavoro dissipativo",
+          "questionIds": [
+            "physics-audit-fisica-ragionamento-energia-0",
+            "physics-audit-fisica-ragionamento-energia-1",
+            "physics-audit-fisica-ragionamento-energia-2"
+          ]
+        },
+        {
+          "topic": "Energia totale",
+          "refs": [
+            "impulso/urti",
+            "fisica-ragionamento/energia",
+            "calore/bilancio"
+          ],
+          "status": "introduced",
+          "assessment": "Conversione in energia interna",
+          "questionIds": [
+            "base-calore-bilancio",
+            "impulso-urti-verifica",
+            "physics-audit-fisica-ragionamento-energia-0",
+            "physics-audit-fisica-ragionamento-energia-1",
+            "physics-audit-fisica-ragionamento-energia-2"
+          ]
+        },
+        {
+          "topic": "Sistemi di punti",
+          "refs": [
+            "fisica-modelli/sistemi",
+            "impulso/centro"
+          ],
+          "status": "introduced",
+          "assessment": "Equazioni cardinali e centro di massa",
+          "questionIds": [
+            "impulso-centro-verifica",
+            "y1-fisica-modelli-sistemi"
+          ]
+        },
+        {
+          "topic": "Corpo rigido",
+          "refs": [
+            "fisica-modelli/sistemi",
+            "rotazione/inerzia"
+          ],
+          "status": "introduced",
+          "assessment": "Momento esterno e accelerazione angolare",
+          "questionIds": [
+            "rotazione-inerzia-verifica",
+            "y1-fisica-modelli-sistemi"
+          ]
+        },
+        {
+          "topic": "Statica",
+          "refs": [
+            "fisica-ragionamento/leve-complete"
+          ],
+          "status": "introduced",
+          "assessment": "Equilibrio di forze e momenti",
+          "questionIds": [
+            "physics-audit-fisica-ragionamento-leve-complete-0",
+            "physics-audit-fisica-ragionamento-leve-complete-1",
+            "physics-audit-fisica-ragionamento-leve-complete-2"
+          ]
+        },
+        {
+          "topic": "Leve",
+          "refs": [
+            "leve/modello",
+            "fisica-ragionamento/leve-complete"
+          ],
+          "status": "introduced",
+          "assessment": "Tre generi, bracci e vantaggio",
+          "questionIds": [
+            "fi-lev-3",
+            "physics-audit-fisica-ragionamento-leve-complete-0",
+            "physics-audit-fisica-ragionamento-leve-complete-1",
+            "physics-audit-fisica-ragionamento-leve-complete-2"
+          ]
+        },
+        {
+          "topic": "Liquidi e aeriformi",
+          "refs": [
+            "fisica-fluidi-applicati/proprieta"
+          ],
+          "status": "introduced",
+          "assessment": "Densità, comprimibilità e viscosità distinte",
+          "questionIds": [
+            "physics-audit-fisica-fluidi-applicati-proprieta-0",
+            "physics-audit-fisica-fluidi-applicati-proprieta-1",
+            "physics-audit-fisica-fluidi-applicati-proprieta-2"
+          ]
+        },
+        {
+          "topic": "Pascal",
+          "refs": [
+            "fisica-idrostatica/pressioni"
+          ],
+          "status": "introduced",
+          "assessment": "Pressa e conservazione del volume",
+          "questionIds": [
+            "physics-depth-fisica-idrostatica-pressioni-0",
+            "physics-depth-fisica-idrostatica-pressioni-1"
+          ]
+        },
+        {
+          "topic": "Stevino",
+          "refs": [
+            "fluidi/idrostatica",
+            "fisica-idrostatica/pressioni"
+          ],
+          "status": "introduced",
+          "assessment": "Incremento con la profondità",
+          "questionIds": [
+            "base-fluidi-idrostatica",
+            "physics-depth-fisica-idrostatica-pressioni-0",
+            "physics-depth-fisica-idrostatica-pressioni-1"
+          ]
+        },
+        {
+          "topic": "Atmosfera",
+          "refs": [
+            "fisica-idrostatica/pressioni"
+          ],
+          "status": "introduced",
+          "assessment": "Pressione assoluta e relativa",
+          "questionIds": [
+            "physics-depth-fisica-idrostatica-pressioni-0",
+            "physics-depth-fisica-idrostatica-pressioni-1"
+          ]
+        },
+        {
+          "topic": "Manometri aperti",
+          "refs": [
+            "fisica-idrostatica/manometro"
+          ],
+          "status": "introduced",
+          "assessment": "Segno del dislivello, schema e generatore",
+          "questionIds": [
+            "physics-depth-fisica-idrostatica-manometro-0",
+            "physics-depth-fisica-idrostatica-manometro-1",
+            "num-manometro-v1"
+          ]
+        },
+        {
+          "topic": "Manometri chiusi",
+          "refs": [
+            "fisica-idrostatica/manometro"
+          ],
+          "status": "introduced",
+          "assessment": "Vuoto e pressione residua",
+          "questionIds": [
+            "physics-depth-fisica-idrostatica-manometro-0",
+            "physics-depth-fisica-idrostatica-manometro-1",
+            "num-manometro-v1"
+          ]
+        },
+        {
+          "topic": "Pressione sanguigna",
+          "refs": [
+            "fisica-fluidi-applicati/sangue"
+          ],
+          "status": "introduced",
+          "assessment": "Estremi, media, quota e principio di misura",
+          "questionIds": [
+            "physics-audit-fisica-fluidi-applicati-sangue-0",
+            "physics-audit-fisica-fluidi-applicati-sangue-1",
+            "physics-audit-fisica-fluidi-applicati-sangue-2"
+          ]
+        },
+        {
+          "topic": "Archimede",
+          "refs": [
+            "fisica-idrostatica/galleggia",
+            "fisica-idrostatica/apparente"
+          ],
+          "status": "introduced",
+          "assessment": "Galleggiamento, peso apparente e limiti del vincolo",
+          "questionIds": [
+            "physics-depth-fisica-idrostatica-galleggia-0",
+            "physics-depth-fisica-idrostatica-galleggia-1",
+            "physics-depth-fisica-idrostatica-apparente-0",
+            "physics-depth-fisica-idrostatica-apparente-1",
+            "num-galleggiamento-v1",
+            "num-peso-apparente-v1"
+          ]
+        },
+        {
+          "topic": "Regimi di flusso",
+          "refs": [
+            "fisica-fluidi-applicati/regimi"
+          ],
+          "status": "introduced",
+          "assessment": "Stazionarietà, laminare/turbolento e Reynolds",
+          "questionIds": [
+            "physics-audit-fisica-fluidi-applicati-regimi-0",
+            "physics-audit-fisica-fluidi-applicati-regimi-1",
+            "physics-audit-fisica-fluidi-applicati-regimi-2"
+          ]
+        },
+        {
+          "topic": "Portata e continuità",
+          "refs": [
+            "fluidodinamica/continuita",
+            "fisica-fluidi-applicati/proprieta"
+          ],
+          "status": "introduced",
+          "assessment": "Portata volumetrica e massica",
+          "questionIds": [
+            "fluidodinamica-continuita-verifica",
+            "physics-audit-fisica-fluidi-applicati-proprieta-0",
+            "physics-audit-fisica-fluidi-applicati-proprieta-1",
+            "physics-audit-fisica-fluidi-applicati-proprieta-2",
+            "num-portata"
+          ]
+        },
+        {
+          "topic": "Bernoulli",
+          "refs": [
+            "fluidodinamica/bernoulli",
+            "fisica-fluidi-applicati/resistenze"
+          ],
+          "status": "introduced",
+          "assessment": "Energia per volume e limite dissipativo",
+          "questionIds": [
+            "fluidodinamica-bernoulli-verifica",
+            "physics-audit-fisica-fluidi-applicati-resistenze-0",
+            "physics-audit-fisica-fluidi-applicati-resistenze-1",
+            "physics-audit-fisica-fluidi-applicati-resistenze-2",
+            "physics-audit-fluidodinamica-bernoulli-extra-9"
+          ]
+        },
+        {
+          "topic": "Viscosità",
+          "refs": [
+            "fisica-fluidi-applicati/proprieta",
+            "fisica-fluidi-applicati/regimi"
+          ],
+          "status": "introduced",
+          "assessment": "Sforzo tangenziale e gradiente",
+          "questionIds": [
+            "physics-audit-fisica-fluidi-applicati-proprieta-0",
+            "physics-audit-fisica-fluidi-applicati-proprieta-1",
+            "physics-audit-fisica-fluidi-applicati-proprieta-2",
+            "physics-audit-fisica-fluidi-applicati-regimi-0",
+            "physics-audit-fisica-fluidi-applicati-regimi-1",
+            "physics-audit-fisica-fluidi-applicati-regimi-2"
+          ]
+        },
+        {
+          "topic": "Poiseuille",
+          "refs": [
+            "fluidodinamica/poiseuille",
+            "fisica-fluidi-applicati/resistenze"
+          ],
+          "status": "introduced",
+          "assessment": "Resistenza, variabile fissata, serie e parallelo",
+          "questionIds": [
+            "fluidodinamica-poiseuille-verifica",
+            "physics-audit-fisica-fluidi-applicati-resistenze-0",
+            "physics-audit-fisica-fluidi-applicati-resistenze-1",
+            "physics-audit-fisica-fluidi-applicati-resistenze-2"
+          ]
+        },
+        {
+          "topic": "Circolazione",
+          "refs": [
+            "fisica-fluidi-applicati/sangue"
+          ],
+          "status": "introduced",
+          "assessment": "Pulsazioni e compliance come limiti dei tubi ideali",
+          "questionIds": [
+            "physics-audit-fisica-fluidi-applicati-sangue-0",
+            "physics-audit-fisica-fluidi-applicati-sangue-1",
+            "physics-audit-fisica-fluidi-applicati-sangue-2"
+          ]
+        },
+        {
+          "topic": "Scale termiche",
+          "refs": [
+            "calore/temperatura",
+            "fisica-termologia/termometri"
+          ],
+          "status": "introduced",
+          "assessment": "Valori assoluti e intervalli",
+          "questionIds": [
+            "base-calore-temperatura",
+            "physics-audit-fisica-termologia-termometri-0",
+            "physics-audit-fisica-termologia-termometri-1",
+            "physics-audit-fisica-termologia-termometri-2"
+          ]
+        },
+        {
+          "topic": "Termometri",
+          "refs": [
+            "fisica-termologia/termometri"
+          ],
+          "status": "introduced",
+          "assessment": "Sensori, equilibrio, calibrazione e risoluzione",
+          "questionIds": [
+            "physics-audit-fisica-termologia-termometri-0",
+            "physics-audit-fisica-termologia-termometri-1",
+            "physics-audit-fisica-termologia-termometri-2"
+          ]
+        },
+        {
+          "topic": "Sistemi ed equilibrio",
+          "refs": [
+            "fisica-termologia/processi"
+          ],
+          "status": "introduced",
+          "assessment": "Aperto/chiuso/isolato e stazionario/equilibrio",
+          "questionIds": [
+            "physics-audit-fisica-termologia-processi-0",
+            "physics-audit-fisica-termologia-processi-1",
+            "physics-audit-fisica-termologia-processi-2"
+          ]
+        },
+        {
+          "topic": "Stato e percorso",
+          "refs": [
+            "fisica-gas/stato",
+            "fisica-termologia/processi"
+          ],
+          "status": "introduced",
+          "assessment": "Variabili di stato, calore e lavoro",
+          "questionIds": [
+            "y1-fisica-gas-stato",
+            "physics-audit-fisica-termologia-processi-0",
+            "physics-audit-fisica-termologia-processi-1",
+            "physics-audit-fisica-termologia-processi-2"
+          ]
+        },
+        {
+          "topic": "Trasformazioni",
+          "refs": [
+            "fisica-gas/trasformazioni",
+            "fisica-termologia/processi"
+          ],
+          "status": "introduced",
+          "assessment": "Isobara, isocora, isoterma e adiabatica",
+          "questionIds": [
+            "y1-fisica-gas-trasformazioni",
+            "physics-audit-fisica-termologia-processi-0",
+            "physics-audit-fisica-termologia-processi-1",
+            "physics-audit-fisica-termologia-processi-2"
+          ]
+        },
+        {
+          "topic": "Lavoro termodinamico",
+          "refs": [
+            "fisica-termologia/processi"
+          ],
+          "status": "introduced",
+          "assessment": "Area nel piano p-V e convenzione",
+          "questionIds": [
+            "physics-audit-fisica-termologia-processi-0",
+            "physics-audit-fisica-termologia-processi-1",
+            "physics-audit-fisica-termologia-processi-2"
+          ]
+        },
+        {
+          "topic": "Calore",
+          "refs": [
+            "calore/calorimetria",
+            "fisica-termologia/scambi"
+          ],
+          "status": "introduced",
+          "assessment": "mcΔT, latente e bilanci",
+          "questionIds": [
+            "base-calore-calorimetria",
+            "physics-audit-fisica-termologia-scambi-0",
+            "physics-audit-fisica-termologia-scambi-1",
+            "physics-audit-fisica-termologia-scambi-2"
+          ]
+        },
+        {
+          "topic": "Trasmissione termica",
+          "refs": [
+            "fisica-termologia/scambi"
+          ],
+          "status": "introduced",
+          "assessment": "Conduzione, convezione e radiazione",
+          "questionIds": [
+            "physics-audit-fisica-termologia-scambi-0",
+            "physics-audit-fisica-termologia-scambi-1",
+            "physics-audit-fisica-termologia-scambi-2"
+          ]
+        },
+        {
+          "topic": "Primo principio",
+          "refs": [
+            "calore/bilancio",
+            "fisica-termologia/processi"
+          ],
+          "status": "introduced",
+          "assessment": "ΔU=Q−W",
+          "questionIds": [
+            "base-calore-bilancio",
+            "physics-audit-fisica-termologia-processi-0",
+            "physics-audit-fisica-termologia-processi-1",
+            "physics-audit-fisica-termologia-processi-2"
+          ]
+        },
+        {
+          "topic": "Gas ideali",
+          "refs": [
+            "fisica-gas/stato",
+            "fisica-termologia/molecole"
+          ],
+          "status": "introduced",
+          "assessment": "Ipotesi e pV=nRT",
+          "questionIds": [
+            "y1-fisica-gas-stato",
+            "physics-audit-fisica-termologia-molecole-0",
+            "physics-audit-fisica-termologia-molecole-1",
+            "physics-audit-fisica-termologia-molecole-2"
+          ]
+        },
+        {
+          "topic": "Teoria cinetica",
+          "refs": [
+            "fisica-termologia/molecole"
+          ],
+          "status": "introduced",
+          "assessment": "Pressione, energia traslazionale e velocità quadratica media",
+          "questionIds": [
+            "physics-audit-fisica-termologia-molecole-0",
+            "physics-audit-fisica-termologia-molecole-1",
+            "physics-audit-fisica-termologia-molecole-2"
+          ]
+        },
+        {
+          "topic": "Gas reali",
+          "refs": [
+            "fisica-gas/reali",
+            "fisica-termologia/molecole"
+          ],
+          "status": "introduced",
+          "assessment": "Equazione di van der Waals, esempio e limiti",
+          "questionIds": [
+            "y1-fisica-gas-reali",
+            "physics-audit-fisica-termologia-molecole-0",
+            "physics-audit-fisica-termologia-molecole-1",
+            "physics-audit-fisica-termologia-molecole-2"
+          ]
+        },
+        {
+          "topic": "Entropia",
+          "refs": [
+            "fisica-gas/entropia"
+          ],
+          "status": "introduced",
+          "assessment": "Variazioni locale/totale e percorso reversibile ausiliario",
+          "questionIds": [
+            "y1-fisica-gas-entropia",
+            "physics-audit-fisica-gas-entropia-0",
+            "physics-audit-fisica-gas-entropia-1",
+            "physics-audit-fisica-gas-entropia-2"
+          ]
+        },
+        {
+          "topic": "Secondo principio",
+          "refs": [
+            "fisica-gas/entropia"
+          ],
+          "status": "introduced",
+          "assessment": "Irreversibilità, ciclo e limite di Carnot",
+          "questionIds": [
+            "y1-fisica-gas-entropia",
+            "physics-audit-fisica-gas-entropia-0",
+            "physics-audit-fisica-gas-entropia-1",
+            "physics-audit-fisica-gas-entropia-2"
+          ]
+        },
+        {
+          "topic": "Carica",
+          "refs": [
+            "fisica-elettrica-applicata/cariche"
+          ],
+          "status": "introduced",
+          "assessment": "Conservazione, quantizzazione e neutralità",
+          "questionIds": [
+            "physics-audit-fisica-elettrica-applicata-cariche-0",
+            "physics-audit-fisica-elettrica-applicata-cariche-1",
+            "physics-audit-fisica-elettrica-applicata-cariche-2"
+          ]
+        },
+        {
+          "topic": "Coulomb",
+          "refs": [
+            "fisica-elettromagnetismo/campo",
+            "fisica-elettrica-applicata/cariche"
+          ],
+          "status": "introduced",
+          "assessment": "Segno, distanza e sovrapposizione",
+          "questionIds": [
+            "y1-fisica-elettromagnetismo-campo",
+            "physics-audit-fisica-elettrica-applicata-cariche-0",
+            "physics-audit-fisica-elettrica-applicata-cariche-1",
+            "physics-audit-fisica-elettrica-applicata-cariche-2"
+          ]
+        },
+        {
+          "topic": "Campo elettrico",
+          "refs": [
+            "elettricita/carica",
+            "fisica-elettrica-applicata/cariche"
+          ],
+          "status": "introduced",
+          "assessment": "Campo/forza e carica di prova",
+          "questionIds": [
+            "elettricita-carica-verifica",
+            "physics-audit-fisica-elettrica-applicata-cariche-0",
+            "physics-audit-fisica-elettrica-applicata-cariche-1",
+            "physics-audit-fisica-elettrica-applicata-cariche-2"
+          ]
+        },
+        {
+          "topic": "Potenziale elettrico",
+          "refs": [
+            "fisica-elettrica-applicata/cariche"
+          ],
+          "status": "introduced",
+          "assessment": "V, U e lavoro con segni",
+          "questionIds": [
+            "physics-audit-fisica-elettrica-applicata-cariche-0",
+            "physics-audit-fisica-elettrica-applicata-cariche-1",
+            "physics-audit-fisica-elettrica-applicata-cariche-2"
+          ]
+        },
+        {
+          "topic": "Corrente e Ohm",
+          "refs": [
+            "elettricita/ohm"
+          ],
+          "status": "introduced",
+          "assessment": "Carica per tempo, V=RI e resistività",
+          "questionIds": [
+            "elettricita-ohm-verifica",
+            "physics-audit-elettricita-ohm-extra-8",
+            "num-ohm"
+          ]
+        },
+        {
+          "topic": "Reti resistive",
+          "refs": [
+            "elettricita/circuiti"
+          ],
+          "status": "introduced",
+          "assessment": "Serie, parallelo e correnti",
+          "questionIds": [
+            "elettricita-circuiti-verifica"
+          ]
+        },
+        {
+          "topic": "Potenza elettrica",
+          "refs": [
+            "elettricita/circuiti",
+            "fisica-elettrica-applicata/alternata"
+          ],
+          "status": "introduced",
+          "assessment": "VI e trasformazione energetica",
+          "questionIds": [
+            "elettricita-circuiti-verifica",
+            "physics-audit-fisica-elettrica-applicata-alternata-0",
+            "physics-audit-fisica-elettrica-applicata-alternata-1",
+            "physics-audit-fisica-elettrica-applicata-alternata-2",
+            "physics-audit-fisica-elettrica-applicata-alternata-extra-7"
+          ]
+        },
+        {
+          "topic": "Alternata",
+          "refs": [
+            "fisica-elettrica-applicata/alternata"
+          ],
+          "status": "introduced",
+          "assessment": "Picco, media, efficace e sfasamento",
+          "questionIds": [
+            "physics-audit-fisica-elettrica-applicata-alternata-0",
+            "physics-audit-fisica-elettrica-applicata-alternata-1",
+            "physics-audit-fisica-elettrica-applicata-alternata-2",
+            "physics-audit-fisica-elettrica-applicata-alternata-extra-7"
+          ]
+        },
+        {
+          "topic": "Effetti corporei",
+          "refs": [
+            "fisica-elettrica-applicata/alternata",
+            "fisica-campi/onde"
+          ],
+          "status": "introduced",
+          "assessment": "Stimolazione e riscaldamento; dipendenze, senza soglie cliniche",
+          "questionIds": [
+            "physics-depth-fisica-campi-onde-0",
+            "physics-depth-fisica-campi-onde-1",
+            "physics-audit-fisica-elettrica-applicata-alternata-0",
+            "physics-audit-fisica-elettrica-applicata-alternata-1",
+            "physics-audit-fisica-elettrica-applicata-alternata-2",
+            "physics-audit-fisica-campi-onde-extra-6",
+            "physics-audit-fisica-elettrica-applicata-alternata-extra-7"
+          ]
+        },
+        {
+          "topic": "Campi naturali",
+          "refs": [
+            "fisica-elettrica-applicata/terrestre"
+          ],
+          "status": "introduced",
+          "assessment": "Geodinamo, bussola e componenti",
+          "questionIds": [
+            "physics-audit-fisica-elettrica-applicata-terrestre-0",
+            "physics-audit-fisica-elettrica-applicata-terrestre-1",
+            "physics-audit-fisica-elettrica-applicata-terrestre-2"
+          ]
+        },
+        {
+          "topic": "Lorentz",
+          "refs": [
+            "fisica-campi/magnetico",
+            "fisica-elettrica-applicata/lorentz"
+          ],
+          "status": "introduced",
+          "assessment": "Verso, lavoro e moto circolare",
+          "questionIds": [
+            "physics-depth-fisica-campi-magnetico-0",
+            "physics-depth-fisica-campi-magnetico-1",
+            "physics-audit-fisica-elettrica-applicata-lorentz-0",
+            "physics-audit-fisica-elettrica-applicata-lorentz-1",
+            "physics-audit-fisica-elettrica-applicata-lorentz-2",
+            "physics-audit-fisica-campi-magnetico-extra-5"
+          ]
+        },
+        {
+          "topic": "Gauss elettrica",
+          "refs": [
+            "fisica-campi/gauss"
+          ],
+          "status": "introduced",
+          "assessment": "Flusso e carica interna",
+          "questionIds": [
+            "physics-depth-fisica-campi-gauss-0",
+            "physics-depth-fisica-campi-gauss-1",
+            "num-gauss-v1"
+          ]
+        },
+        {
+          "topic": "Gauss magnetica",
+          "refs": [
+            "fisica-campi/magnetico"
+          ],
+          "status": "introduced",
+          "assessment": "Flusso chiuso nullo",
+          "questionIds": [
+            "physics-depth-fisica-campi-magnetico-0",
+            "physics-depth-fisica-campi-magnetico-1",
+            "physics-audit-fisica-campi-magnetico-extra-5"
+          ]
+        },
+        {
+          "topic": "Ampère–Laplace",
+          "refs": [
+            "fisica-campi/magnetico",
+            "fisica-elettrica-applicata/lorentz"
+          ],
+          "status": "introduced",
+          "assessment": "Circuitazione, campo del filo e forza sul conduttore distinti",
+          "questionIds": [
+            "physics-depth-fisica-campi-magnetico-0",
+            "physics-depth-fisica-campi-magnetico-1",
+            "physics-audit-fisica-elettrica-applicata-lorentz-0",
+            "physics-audit-fisica-elettrica-applicata-lorentz-1",
+            "physics-audit-fisica-elettrica-applicata-lorentz-2",
+            "physics-audit-fisica-campi-magnetico-extra-5"
+          ]
+        },
+        {
+          "topic": "Faraday–Henry",
+          "refs": [
+            "fisica-campi/induzione"
+          ],
+          "status": "introduced",
+          "assessment": "Fem, flusso variabile, Lenz e generatore",
+          "questionIds": [
+            "physics-depth-fisica-campi-induzione-0",
+            "physics-depth-fisica-campi-induzione-1",
+            "num-faraday-v1"
+          ]
+        },
+        {
+          "topic": "Equazione d’onda",
+          "refs": [
+            "fisica-campi/onde"
+          ],
+          "status": "introduced",
+          "assessment": "Forma dell’equazione e soluzione sinusoidale",
+          "questionIds": [
+            "physics-depth-fisica-campi-onde-0",
+            "physics-depth-fisica-campi-onde-1",
+            "physics-audit-fisica-campi-onde-extra-6"
+          ]
+        },
+        {
+          "topic": "Propagazione",
+          "refs": [
+            "fisica-campi/onde",
+            "onde/rifrazione"
+          ],
+          "status": "introduced",
+          "assessment": "Vuoto, materia, frequenza e lunghezza d’onda",
+          "questionIds": [
+            "onde-rifrazione-verifica",
+            "physics-depth-fisica-campi-onde-0",
+            "physics-depth-fisica-campi-onde-1",
+            "physics-audit-fisica-campi-onde-extra-6"
+          ]
+        },
+        {
+          "topic": "Energia elettromagnetica",
+          "refs": [
+            "fisica-campi/onde"
+          ],
+          "status": "introduced",
+          "assessment": "Poynting, intensità e fotoni",
+          "questionIds": [
+            "physics-depth-fisica-campi-onde-0",
+            "physics-depth-fisica-campi-onde-1",
+            "physics-audit-fisica-campi-onde-extra-6"
+          ]
+        },
+        {
+          "topic": "Spettro",
+          "refs": [
+            "fisica-elettromagnetismo/radiazioni",
+            "fisica-campi/onde"
+          ],
+          "status": "introduced",
+          "assessment": "Radio, microonde, infrarosso, visibile, UV e X",
+          "questionIds": [
+            "y1-fisica-elettromagnetismo-radiazioni",
+            "physics-depth-fisica-campi-onde-0",
+            "physics-depth-fisica-campi-onde-1",
+            "physics-audit-fisica-campi-onde-extra-6"
+          ]
+        },
+        {
+          "topic": "TC",
+          "refs": [
+            "fisica-immagini/attenuazione",
+            "fisica-immagini/tomografia"
+          ],
+          "status": "introduced",
+          "assessment": "Trasmissioni, logaritmi e ricostruzione",
+          "questionIds": [
+            "physics-depth-fisica-immagini-attenuazione-0",
+            "physics-depth-fisica-immagini-attenuazione-1",
+            "physics-depth-fisica-immagini-tomografia-0",
+            "physics-depth-fisica-immagini-tomografia-1",
+            "num-attenuazione-v1"
+          ]
+        },
+        {
+          "topic": "TC spettrale",
+          "refs": [
+            "fisica-immagini/spettrale"
+          ],
+          "status": "introduced",
+          "assessment": "Misure energetiche indipendenti",
+          "questionIds": [
+            "physics-depth-fisica-immagini-spettrale-0",
+            "physics-depth-fisica-immagini-spettrale-1"
+          ]
+        },
+        {
+          "topic": "Microdiffrazione",
+          "refs": [
+            "fisica-immagini/diffrazione"
+          ],
+          "status": "introduced",
+          "assessment": "Bragg, angoli e localizzazione del fascio",
+          "questionIds": [
+            "physics-depth-fisica-immagini-diffrazione-0",
+            "physics-depth-fisica-immagini-diffrazione-1",
+            "physics-audit-fisica-immagini-diffrazione-extra-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio-energy-genome-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato delle voci su isoenzimi, carica, fermentazione alcolica, ciclo TAG, forme del DNA, piccoli RNA e cAMP con le sezioni nuove, esempi e risposte. Non è l’audit integrale delle tre pagine. Contenuti originali verificati con fonti strutturali, didattiche e lavori indicati; gli accessi limitati sono espliciti nelle fonti.",
+      "requirements": [
+        {
+          "topic": "Isoenzimi",
+          "refs": [
+            "metabolismo-controllo/isoenzimi"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-isoenzimi-0",
+            "bio-integration-metabolismo-controllo-isoenzimi-1",
+            "bio-integration-metabolismo-controllo-isoenzimi-2"
+          ]
+        },
+        {
+          "topic": "Carica energetica: definizione, calcolo e limiti",
+          "refs": [
+            "metabolismo-controllo/carica"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-carica-0",
+            "bio-integration-metabolismo-controllo-carica-1",
+            "bio-integration-metabolismo-controllo-carica-2",
+            "num-energy-charge-v1"
+          ]
+        },
+        {
+          "topic": "Fermentazione lattica e alcolica",
+          "refs": [
+            "metabolismo-controllo/fermentazione"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-fermentazione-0",
+            "bio-integration-metabolismo-controllo-fermentazione-1",
+            "bio-integration-metabolismo-controllo-fermentazione-2"
+          ]
+        },
+        {
+          "topic": "Ciclo dei triacilgliceroli",
+          "refs": [
+            "metabolismo-controllo/ciclo-tag"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-ciclo-tag-0",
+            "bio-integration-metabolismo-controllo-ciclo-tag-1",
+            "bio-integration-metabolismo-controllo-ciclo-tag-2"
+          ]
+        },
+        {
+          "topic": "Forme alternative del DNA",
+          "refs": [
+            "genoma-rna-segnali/forme"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2"
+          ]
+        },
+        {
+          "topic": "Organizzazione del genoma e RNA non codificanti",
+          "refs": [
+            "genoma-rna-segnali/organizzazione",
+            "genoma-rna-segnali/piccoli-rna"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2"
+          ]
+        },
+        {
+          "topic": "Struttura di ATP e cAMP",
+          "refs": [
+            "genoma-rna-segnali/camp"
+          ],
+          "status": "introduced",
+          "assessment": "Tre quiz per sezione, feedback e prova aperta integrata; la carica ha anche un generatore numerico con passaggi.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-camp-0",
+            "bio-integration-genoma-rna-segnali-camp-1",
+            "bio-integration-genoma-rna-segnali-camp-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bio-body-microbes-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confrontate le voci pertinenti delle pagine 1–3 con testi, esempi e quiz. Sviluppati tre capitoli e collegato il materiale esistente di genetica di popolazione. Rimane da fare l’audit integrale delle altre voci: questa mappa non dichiara completamento del modulo né equivalenza al programma 2026/27.",
+      "requirements": [
+        {
+          "topic": "Composizione corporea, peso, altezza, massa lipidica e alipidica",
+          "refs": [
+            "composizione-corporea/compartimenti",
+            "composizione-corporea/metodi"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-composizione-corporea-compartimenti-0",
+            "bio-body-microbes-composizione-corporea-compartimenti-1",
+            "bio-body-microbes-composizione-corporea-compartimenti-2",
+            "bio-body-microbes-composizione-corporea-metodi-0",
+            "bio-body-microbes-composizione-corporea-metodi-1",
+            "bio-body-microbes-composizione-corporea-metodi-2"
+          ]
+        },
+        {
+          "topic": "Persona di riferimento e atleti",
+          "refs": [
+            "composizione-corporea/confronti"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-composizione-corporea-confronti-0",
+            "bio-body-microbes-composizione-corporea-confronti-1",
+            "bio-body-microbes-composizione-corporea-confronti-2"
+          ]
+        },
+        {
+          "topic": "Alimenti, nutrienti e integratori",
+          "refs": [
+            "composizione-corporea/nutrienti",
+            "lipidi-azoto/nutrienti"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "lipidi-azoto-nutrienti-verifica",
+            "bio-body-microbes-composizione-corporea-nutrienti-0",
+            "bio-body-microbes-composizione-corporea-nutrienti-1",
+            "bio-body-microbes-composizione-corporea-nutrienti-2"
+          ]
+        },
+        {
+          "topic": "Nucleo, nucleolo e ribosomi",
+          "refs": [
+            "cellula-strutture/nucleolo"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2"
+          ]
+        },
+        {
+          "topic": "Reticolo endoplasmatico liscio e sistema endomembranoso",
+          "refs": [
+            "cellula-strutture/reticolo"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-reticolo-0",
+            "bio-body-microbes-cellula-strutture-reticolo-1",
+            "bio-body-microbes-cellula-strutture-reticolo-2"
+          ]
+        },
+        {
+          "topic": "Citoscheletro: microfilamenti, filamenti intermedi e microtubuli",
+          "refs": [
+            "cellula-strutture/citoscheletro"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-citoscheletro-0",
+            "bio-body-microbes-cellula-strutture-citoscheletro-1",
+            "bio-body-microbes-cellula-strutture-citoscheletro-2"
+          ]
+        },
+        {
+          "topic": "Cloroplasti e confronto dei compartimenti",
+          "refs": [
+            "cellula-strutture/cloroplasti"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-cloroplasti-0",
+            "bio-body-microbes-cellula-strutture-cloroplasti-1",
+            "bio-body-microbes-cellula-strutture-cloroplasti-2"
+          ]
+        },
+        {
+          "topic": "Genetica batterica e cromosoma procariotico",
+          "refs": [
+            "genetica-microbica/trasferimento"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-genetica-microbica-trasferimento-0",
+            "bio-body-microbes-genetica-microbica-trasferimento-1",
+            "bio-body-microbes-genetica-microbica-trasferimento-2"
+          ]
+        },
+        {
+          "topic": "Regolazione dell’espressione genica nei procarioti",
+          "refs": [
+            "genetica-microbica/operoni"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2"
+          ]
+        },
+        {
+          "topic": "Genetica dei virus",
+          "refs": [
+            "genetica-microbica/fagi",
+            "genetica-microbica/rna-virali"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "bio-body-microbes-genetica-microbica-fagi-0",
+            "bio-body-microbes-genetica-microbica-fagi-1",
+            "bio-body-microbes-genetica-microbica-fagi-2",
+            "bio-body-microbes-genetica-microbica-rna-virali-0",
+            "bio-body-microbes-genetica-microbica-rna-virali-1",
+            "bio-body-microbes-genetica-microbica-rna-virali-2"
+          ]
+        },
+        {
+          "topic": "Genetica di popolazione: materiale esistente ora mappato",
+          "refs": [
+            "evoluzione/variabilita",
+            "evoluzione/selezione",
+            "evoluzione/deriva",
+            "evoluzione/esperimenti"
+          ],
+          "status": "introduced",
+          "assessment": "Casi guidati, domande con feedback e prove aperte; per popolazioni, controllati contenuti e verifiche già presenti.",
+          "questionIds": [
+            "evoluzione-variabilita-verifica",
+            "evoluzione-selezione-verifica",
+            "evoluzione-deriva-verifica",
+            "evoluzione-esperimenti-verifica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biologia-applicata-analitico-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confrontato l’intero blocco Biologia applicata, pagine 2–3 del PDF, con testi, casi e domande: 44 voci editoriali, con materiali di chimica/biochimica condivisi nello stesso esame per le basi molecolari. Rafforzati divisioni, pedigree, classificazione, meccanismi dell’espressione, apoptosi e conteggi di popolazione. Introdotto indica spiegazione e verifica pertinenti, non certificazione universitaria; non sono acquisite dispense del docente. La scheda 2025/26 è più ampia e il suo confronto complessivo, incluso Biochimica, rimane separato.",
+      "requirements": [
+        {
+          "topic": "Materia: atomi, elementi, molecole e legami",
+          "refs": [
+            "chimica/atomi",
+            "chimica/legami",
+            "chimica-struttura-equilibrio/interazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere elemento/ione e legami intramolecolari/interazioni; interpretare polarità.",
+          "questionIds": [
+            "chimica-atomi-verifica",
+            "chimica-legami-verifica",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-0",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-1"
+          ]
+        },
+        {
+          "topic": "Organizzazione procariotica/eucariotica e batteri",
+          "refs": [
+            "cellula/organizzazione",
+            "genetica-microbica/trasferimento"
+          ],
+          "status": "introduced",
+          "assessment": "Riconoscere nucleo, ribosomi e DNA batterico; distinguere cromosoma e plasmide.",
+          "questionIds": [
+            "bio-cell-2",
+            "bio-body-microbes-genetica-microbica-trasferimento-0",
+            "bio-body-microbes-genetica-microbica-trasferimento-1",
+            "bio-body-microbes-genetica-microbica-trasferimento-2"
+          ]
+        },
+        {
+          "topic": "Macromolecole: carboidrati",
+          "refs": [
+            "stereochimica-glucidi/anomeria",
+            "stereochimica-glucidi/polimeri"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare carbonio anomerico, legami e differenze fra polisaccaridi.",
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-anomeria",
+            "bc-depth-stereochimica-glucidi-anomeria-case",
+            "bc-depth-stereochimica-glucidi-polimeri",
+            "bc-depth-stereochimica-glucidi-polimeri-case"
+          ]
+        },
+        {
+          "topic": "Macromolecole: lipidi",
+          "refs": [
+            "riserve/lipidi",
+            "lipidi-sintesi/classi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere deposito e componenti anfipatiche, glicerofosfolipidi e sfingolipidi.",
+          "questionIds": [
+            "bc-ris-2",
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bio-applied-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Macromolecole: proteine",
+          "refs": [
+            "proteine/amminoacidi",
+            "proteine/livelli"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere residui, struttura, denaturazione e degradazione.",
+          "questionIds": [
+            "proteine-amminoacidi-verifica",
+            "proteine-livelli-verifica"
+          ]
+        },
+        {
+          "topic": "Macromolecole: acidi nucleici",
+          "refs": [
+            "genoma-rna-segnali/forme",
+            "genoma-rna-segnali/piccoli-rna",
+            "genoma-rna-segnali/camp"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere sequenza/conformazione, nucleoside/nucleotide e funzioni degli RNA.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+            "bio-integration-genoma-rna-segnali-camp-0",
+            "bio-integration-genoma-rna-segnali-camp-1",
+            "bio-integration-genoma-rna-segnali-camp-2"
+          ]
+        },
+        {
+          "topic": "Membrana: struttura e funzione",
+          "refs": [
+            "cellula/trasporti",
+            "chimica/legami",
+            "segnali/gradienti",
+            "segnali/osmosi",
+            "lipidi-sintesi/classi"
+          ],
+          "status": "introduced",
+          "assessment": "Applicare anfipatia, trasporti, gradiente elettrochimico e tonicità.",
+          "questionIds": [
+            "bio-cell-3",
+            "segnali-gradienti-verifica",
+            "segnali-osmosi-verifica",
+            "chimica-legami-verifica",
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bio-applied-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Nucleo",
+          "refs": [
+            "cellula-strutture/nucleolo",
+            "genoma-rna-segnali/organizzazione"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere compartimento nucleare, organizzazione del DNA e nucleolo.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2",
+            "bio-applied-genoma-rna-segnali-organizzazione-extra-19"
+          ]
+        },
+        {
+          "topic": "Nucleolo",
+          "refs": [
+            "cellula-strutture/nucleolo"
+          ],
+          "status": "introduced",
+          "assessment": "Riconoscere produzione/maturazione rRNA e assemblaggio delle subunità, senza membrana propria.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2"
+          ]
+        },
+        {
+          "topic": "Ribosomi",
+          "refs": [
+            "cellula-strutture/nucleolo",
+            "espressione/traduzione"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare subunità/rRNA, tRNA e sintesi proteica.",
+          "questionIds": [
+            "espressione-traduzione-verifica",
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2",
+            "bio-applied-espressione-traduzione-extra-6",
+            "bio-applied-espressione-traduzione-extra-7",
+            "bio-applied-espressione-traduzione-extra-8",
+            "bio-applied-espressione-traduzione-extra-14",
+            "bio-applied-espressione-traduzione-extra-15"
+          ]
+        },
+        {
+          "topic": "Reticolo endoplasmatico liscio",
+          "refs": [
+            "cellula-strutture/reticolo"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare deposito del calcio, pompe e reticolo sarcoplasmatico.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-reticolo-0",
+            "bio-body-microbes-cellula-strutture-reticolo-1",
+            "bio-body-microbes-cellula-strutture-reticolo-2"
+          ]
+        },
+        {
+          "topic": "Reticolo endoplasmatico rugoso",
+          "refs": [
+            "proteine-destino/indirizzi",
+            "cellula-strutture/reticolo"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire il segnale della catena nascente e la via secretoria.",
+          "questionIds": [
+            "bio-molecular-proteine-destino-indirizzi-0",
+            "bio-molecular-proteine-destino-indirizzi-1",
+            "bio-molecular-proteine-destino-indirizzi-2",
+            "bio-body-microbes-cellula-strutture-reticolo-0",
+            "bio-body-microbes-cellula-strutture-reticolo-1",
+            "bio-body-microbes-cellula-strutture-reticolo-2"
+          ]
+        },
+        {
+          "topic": "Apparato di Golgi",
+          "refs": [
+            "proteine-destino/golgi"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare smistamento, recupero e orientamento del dominio luminale.",
+          "questionIds": [
+            "bio-molecular-proteine-destino-golgi-0",
+            "bio-molecular-proteine-destino-golgi-1",
+            "bio-molecular-proteine-destino-golgi-2"
+          ]
+        },
+        {
+          "topic": "Lisosomi",
+          "refs": [
+            "digestione-turnover/turnover",
+            "proteine-destino/golgi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere degradazione lisosomiale e proteasomiale e localizzazione delle idrolasi.",
+          "questionIds": [
+            "bc-network-digestione-turnover-turnover-0",
+            "bc-network-digestione-turnover-turnover-1",
+            "bio-molecular-proteine-destino-golgi-0",
+            "bio-molecular-proteine-destino-golgi-1",
+            "bio-molecular-proteine-destino-golgi-2",
+            "bio-applied-digestione-turnover-turnover-extra-23"
+          ]
+        },
+        {
+          "topic": "Mitocondri",
+          "refs": [
+            "mitocondri/catena",
+            "mitocondri-navette/trasportatori"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare compartimenti, trasporto, gradiente e ATP sintasi.",
+          "questionIds": [
+            "mitocondri-catena-verifica",
+            "bc-detail2-mitocondri-navette-trasportatori-0",
+            "bc-detail2-mitocondri-navette-trasportatori-1"
+          ]
+        },
+        {
+          "topic": "Cloroplasti",
+          "refs": [
+            "cellula-strutture/cloroplasti"
+          ],
+          "status": "introduced",
+          "assessment": "Individuare stroma/tilacoidi e distinguere origine di O₂ e fissazione del carbonio.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-cloroplasti-0",
+            "bio-body-microbes-cellula-strutture-cloroplasti-1",
+            "bio-body-microbes-cellula-strutture-cloroplasti-2"
+          ]
+        },
+        {
+          "topic": "Citoscheletro: microfilamenti, filamenti intermedi, microtubuli",
+          "refs": [
+            "cellula-strutture/citoscheletro",
+            "divisioni-ereditarieta/mitosi"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare componenti e funzioni e distinguere fuso da anello contrattile.",
+          "questionIds": [
+            "bio-body-microbes-cellula-strutture-citoscheletro-0",
+            "bio-body-microbes-cellula-strutture-citoscheletro-1",
+            "bio-body-microbes-cellula-strutture-citoscheletro-2",
+            "bio-applied-divisioni-ereditarieta-mitosi-0",
+            "bio-applied-divisioni-ereditarieta-mitosi-1",
+            "bio-applied-divisioni-ereditarieta-mitosi-2",
+            "bio-applied-cellula-strutture-citoscheletro-extra-20"
+          ]
+        },
+        {
+          "topic": "Eredità, geni e struttura del DNA",
+          "refs": [
+            "mendel/alleli",
+            "dna/flusso",
+            "espressione/replicazione",
+            "genoma-rna-segnali/forme"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare alleli e genotipo; copiare un filamento orientato; distinguere sequenza e forma.",
+          "questionIds": [
+            "bio-dna-1",
+            "bio-gen-1",
+            "espressione-replicazione-verifica",
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2",
+            "bio-applied-espressione-replicazione-extra-0",
+            "bio-applied-espressione-replicazione-extra-1",
+            "bio-applied-espressione-replicazione-extra-2",
+            "bio-applied-espressione-replicazione-extra-3"
+          ]
+        },
+        {
+          "topic": "Espressione dell’informazione, mRNA e codice genetico",
+          "refs": [
+            "espressione/maturazione",
+            "espressione/traduzione",
+            "mutazioni/codice"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere messaggio e prodotto, cornice, stop e degenerazione del codice.",
+          "questionIds": [
+            "base-mutazioni-codice",
+            "espressione-maturazione-verifica",
+            "espressione-traduzione-verifica",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-espressione-traduzione-extra-6",
+            "bio-applied-espressione-traduzione-extra-7",
+            "bio-applied-espressione-traduzione-extra-8",
+            "bio-applied-espressione-traduzione-extra-14",
+            "bio-applied-espressione-traduzione-extra-15",
+            "bio-applied-espressione-maturazione-extra-21"
+          ]
+        },
+        {
+          "topic": "Organizzazione dei geni procariotici ed eucariotici",
+          "refs": [
+            "genetica-microbica/operoni",
+            "genoma-rna-segnali/organizzazione",
+            "espressione/maturazione"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare operone, sequenze regolatrici, introni/esoni e UTR.",
+          "questionIds": [
+            "espressione-maturazione-verifica",
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-genoma-rna-segnali-organizzazione-extra-19",
+            "bio-applied-espressione-maturazione-extra-21"
+          ]
+        },
+        {
+          "topic": "Mitosi",
+          "refs": [
+            "ciclo/fasi",
+            "ciclo/controlli",
+            "divisioni-ereditarieta/mitosi"
+          ],
+          "status": "introduced",
+          "assessment": "Sequenziare fasi e calcolare cromosomi nella cellula intera e per polo.",
+          "questionIds": [
+            "ciclo-fasi-verifica",
+            "ciclo-controlli-verifica",
+            "bio-applied-divisioni-ereditarieta-mitosi-0",
+            "bio-applied-divisioni-ereditarieta-mitosi-1",
+            "bio-applied-divisioni-ereditarieta-mitosi-2"
+          ]
+        },
+        {
+          "topic": "Meiosi",
+          "refs": [
+            "divisioni-ereditarieta/meiosi",
+            "sviluppo/gameti"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere omologhi/fratelli, n/C, crossing-over, non-disgiunzione e arresti dell’oocita.",
+          "questionIds": [
+            "sviluppo-gameti-verifica",
+            "bio-applied-divisioni-ereditarieta-meiosi-0",
+            "bio-applied-divisioni-ereditarieta-meiosi-1",
+            "bio-applied-divisioni-ereditarieta-meiosi-2",
+            "bio-applied-divisioni-ereditarieta-meiosi-extra-18"
+          ]
+        },
+        {
+          "topic": "Apoptosi e necrosi",
+          "refs": [
+            "ciclo/destini"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere caratteristiche morfologiche e spiegare un percorso caspasico; riconoscere i limiti della dicotomia.",
+          "questionIds": [
+            "ciclo-destini-verifica",
+            "bio-applied-ciclo-destini-extra-10",
+            "bio-applied-ciclo-destini-extra-11"
+          ]
+        },
+        {
+          "topic": "Cromosomi procariotici ed eucariotici",
+          "refs": [
+            "genetica-microbica/trasferimento",
+            "genoma-rna-segnali/organizzazione",
+            "divisioni-ereditarieta/mitosi",
+            "genetica-umana/cariotipo"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere cromosoma/plasmide, cromatina/cromatidio e limiti del cariotipo.",
+          "questionIds": [
+            "genetica-umana-cariotipo-verifica",
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-body-microbes-genetica-microbica-trasferimento-0",
+            "bio-body-microbes-genetica-microbica-trasferimento-1",
+            "bio-body-microbes-genetica-microbica-trasferimento-2",
+            "bio-applied-divisioni-ereditarieta-mitosi-0",
+            "bio-applied-divisioni-ereditarieta-mitosi-1",
+            "bio-applied-divisioni-ereditarieta-mitosi-2",
+            "bio-applied-genoma-rna-segnali-organizzazione-extra-19"
+          ]
+        },
+        {
+          "topic": "Organizzazione degli mRNA e inizio della traduzione",
+          "refs": [
+            "espressione/maturazione",
+            "espressione/traduzione"
+          ],
+          "status": "introduced",
+          "assessment": "Separare UTR/CDS; collocare tRNA iniziatore e distinguere cap/scansione dal modello batterico.",
+          "questionIds": [
+            "espressione-maturazione-verifica",
+            "espressione-traduzione-verifica",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-espressione-traduzione-extra-6",
+            "bio-applied-espressione-traduzione-extra-7",
+            "bio-applied-espressione-traduzione-extra-8",
+            "bio-applied-espressione-traduzione-extra-14",
+            "bio-applied-espressione-traduzione-extra-15",
+            "bio-applied-espressione-maturazione-extra-21"
+          ]
+        },
+        {
+          "topic": "Sintesi proteica: tRNA, ribosoma, allungamento e terminazione",
+          "refs": [
+            "espressione/traduzione"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire il trasferimento P→A e la traslocazione, interpretare lo stop senza un amminoacido aggiunto.",
+          "questionIds": [
+            "espressione-traduzione-verifica",
+            "bio-applied-espressione-traduzione-extra-6",
+            "bio-applied-espressione-traduzione-extra-7",
+            "bio-applied-espressione-traduzione-extra-8",
+            "bio-applied-espressione-traduzione-extra-14",
+            "bio-applied-espressione-traduzione-extra-15"
+          ]
+        },
+        {
+          "topic": "Processazione delle proteine",
+          "refs": [
+            "proteine-destino/ripiegamento",
+            "proteine-destino/indirizzi",
+            "espressione/regolazione"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere ripiegamento, modifiche e smistamento dalla sequenza del DNA.",
+          "questionIds": [
+            "espressione-regolazione-verifica",
+            "bio-molecular-proteine-destino-ripiegamento-0",
+            "bio-molecular-proteine-destino-ripiegamento-1",
+            "bio-molecular-proteine-destino-ripiegamento-2",
+            "bio-molecular-proteine-destino-indirizzi-0",
+            "bio-molecular-proteine-destino-indirizzi-1",
+            "bio-molecular-proteine-destino-indirizzi-2",
+            "bio-applied-espressione-regolazione-extra-9",
+            "bio-applied-espressione-regolazione-extra-16"
+          ]
+        },
+        {
+          "topic": "Regolazione dell’espressione nei procarioti",
+          "refs": [
+            "genetica-microbica/operoni"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare lac/trp e separare difetto del repressore e del sito sul DNA; livello qualitativo, non tutti i circuiti.",
+          "questionIds": [
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2"
+          ]
+        },
+        {
+          "topic": "Regolazione della trascrizione eucariotica",
+          "refs": [
+            "espressione/replicazione",
+            "espressione/regolazione",
+            "genoma-rna-segnali/organizzazione"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare promotore, fattori, cromatina e scelta dei geni attivi.",
+          "questionIds": [
+            "espressione-replicazione-verifica",
+            "espressione-regolazione-verifica",
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-applied-espressione-replicazione-extra-0",
+            "bio-applied-espressione-replicazione-extra-1",
+            "bio-applied-espressione-replicazione-extra-2",
+            "bio-applied-espressione-replicazione-extra-3",
+            "bio-applied-espressione-regolazione-extra-9",
+            "bio-applied-espressione-regolazione-extra-16",
+            "bio-applied-genoma-rna-segnali-organizzazione-extra-19"
+          ]
+        },
+        {
+          "topic": "Regolazione post-trascrizionale",
+          "refs": [
+            "espressione/maturazione",
+            "genoma-rna-segnali/piccoli-rna"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare splicing, RNA funzionali e silenziamento senza inferire cancellazione del gene.",
+          "questionIds": [
+            "espressione-maturazione-verifica",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-espressione-maturazione-extra-21"
+          ]
+        },
+        {
+          "topic": "Regolazione traduzionale",
+          "refs": [
+            "espressione/regolazione",
+            "genoma-rna-segnali/piccoli-rna",
+            "proteine-destino/proteoma"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere quantità di mRNA, sintesi proteica e turnover nei dati.",
+          "questionIds": [
+            "espressione-regolazione-verifica",
+            "bio-molecular-proteine-destino-proteoma-0",
+            "bio-molecular-proteine-destino-proteoma-1",
+            "bio-molecular-proteine-destino-proteoma-2",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+            "bio-applied-espressione-regolazione-extra-9",
+            "bio-applied-espressione-regolazione-extra-16"
+          ]
+        },
+        {
+          "topic": "Regolazione post-traduzionale",
+          "refs": [
+            "espressione/regolazione",
+            "proteine-destino/proteoma",
+            "segnali/spegnimento"
+          ],
+          "status": "introduced",
+          "assessment": "Separare quantità, fosforilazione e attività: la modifica non implica sempre attivazione.",
+          "questionIds": [
+            "segnali-spegnimento-verifica",
+            "espressione-regolazione-verifica",
+            "bio-molecular-proteine-destino-proteoma-0",
+            "bio-molecular-proteine-destino-proteoma-1",
+            "bio-molecular-proteine-destino-proteoma-2",
+            "bio-applied-espressione-regolazione-extra-9",
+            "bio-applied-espressione-regolazione-extra-16"
+          ]
+        },
+        {
+          "topic": "Chaperoni e ripiegamento",
+          "refs": [
+            "proteine-destino/ripiegamento"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegare assistenza al folding, aggregazione e possibile esito ERAD.",
+          "questionIds": [
+            "bio-molecular-proteine-destino-ripiegamento-0",
+            "bio-molecular-proteine-destino-ripiegamento-1",
+            "bio-molecular-proteine-destino-ripiegamento-2"
+          ]
+        },
+        {
+          "topic": "Smistamento, trasporto e indirizzamento a reticolo/Golgi",
+          "refs": [
+            "proteine-destino/indirizzi",
+            "proteine-destino/golgi"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire indirizzo, destinazione e recupero; distinguere vie nucleare, mitocondriale e secretoria.",
+          "questionIds": [
+            "bio-molecular-proteine-destino-indirizzi-0",
+            "bio-molecular-proteine-destino-indirizzi-1",
+            "bio-molecular-proteine-destino-indirizzi-2",
+            "bio-molecular-proteine-destino-golgi-0",
+            "bio-molecular-proteine-destino-golgi-1",
+            "bio-molecular-proteine-destino-golgi-2"
+          ]
+        },
+        {
+          "topic": "Proteasoma",
+          "refs": [
+            "digestione-turnover/turnover",
+            "proteine-destino/ripiegamento"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare ubiquitina, riconoscimento e degradazione, distinguendoli da lisosomi e denaturazione.",
+          "questionIds": [
+            "bc-network-digestione-turnover-turnover-0",
+            "bc-network-digestione-turnover-turnover-1",
+            "bio-molecular-proteine-destino-ripiegamento-0",
+            "bio-molecular-proteine-destino-ripiegamento-1",
+            "bio-molecular-proteine-destino-ripiegamento-2",
+            "bio-applied-digestione-turnover-turnover-extra-23"
+          ]
+        },
+        {
+          "topic": "Proteoma",
+          "refs": [
+            "proteine-destino/proteoma"
+          ],
+          "status": "introduced",
+          "assessment": "Scegliere misure di RNA/proteine e interpretare quantità e forme modificate senza equivalerle al genoma.",
+          "questionIds": [
+            "bio-molecular-proteine-destino-proteoma-0",
+            "bio-molecular-proteine-destino-proteoma-1",
+            "bio-molecular-proteine-destino-proteoma-2"
+          ]
+        },
+        {
+          "topic": "Genetica batterica",
+          "refs": [
+            "genetica-microbica/trasferimento",
+            "genetica-microbica/operoni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere trasformazione, coniugazione, trasduzione e selezione di varianti.",
+          "questionIds": [
+            "bio-body-microbes-genetica-microbica-trasferimento-0",
+            "bio-body-microbes-genetica-microbica-trasferimento-1",
+            "bio-body-microbes-genetica-microbica-trasferimento-2",
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2"
+          ]
+        },
+        {
+          "topic": "Genetica virale",
+          "refs": [
+            "virus/struttura",
+            "virus/replica",
+            "genetica-microbica/fagi",
+            "genetica-microbica/rna-virali"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare lisogenia/ciclo litico, DNA/RNA, retrotrascrizione e riassortimento.",
+          "questionIds": [
+            "virus-struttura-verifica",
+            "virus-replica-verifica",
+            "bio-body-microbes-genetica-microbica-fagi-0",
+            "bio-body-microbes-genetica-microbica-fagi-1",
+            "bio-body-microbes-genetica-microbica-fagi-2",
+            "bio-body-microbes-genetica-microbica-rna-virali-0",
+            "bio-body-microbes-genetica-microbica-rna-virali-1",
+            "bio-body-microbes-genetica-microbica-rna-virali-2"
+          ]
+        },
+        {
+          "topic": "Tecnologie del DNA e clonaggio",
+          "refs": [
+            "dna-tecnologie/pcr-gel",
+            "dna-tecnologie/clonaggio"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare controlli PCR/gel e separare selezione del marcatore da conferma dell’inserto.",
+          "questionIds": [
+            "bio-molecular-dna-tecnologie-pcr-gel-0",
+            "bio-molecular-dna-tecnologie-pcr-gel-1",
+            "bio-molecular-dna-tecnologie-pcr-gel-2",
+            "bio-molecular-dna-tecnologie-clonaggio-0",
+            "bio-molecular-dna-tecnologie-clonaggio-1",
+            "bio-molecular-dna-tecnologie-clonaggio-2"
+          ]
+        },
+        {
+          "topic": "Librerie geniche",
+          "refs": [
+            "dna-tecnologie/librerie"
+          ],
+          "status": "introduced",
+          "assessment": "Scegliere genomica/cDNA e calcolare il tratto maturato; distinguere assenza di trascritto e assenza del gene.",
+          "questionIds": [
+            "bio-molecular-dna-tecnologie-librerie-0",
+            "bio-molecular-dna-tecnologie-librerie-1",
+            "bio-molecular-dna-tecnologie-librerie-2"
+          ]
+        },
+        {
+          "topic": "Applicazioni e analisi del genoma",
+          "refs": [
+            "dna-tecnologie/sequenziamento"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare terminazione Sanger, orientamento della sequenza e limiti dell’esoma.",
+          "questionIds": [
+            "bio-molecular-dna-tecnologie-sequenziamento-0",
+            "bio-molecular-dna-tecnologie-sequenziamento-1",
+            "bio-molecular-dna-tecnologie-sequenziamento-2"
+          ]
+        },
+        {
+          "topic": "Genetica di popolazione",
+          "refs": [
+            "evoluzione/deriva",
+            "evoluzione/variabilita",
+            "evoluzione/selezione"
+          ],
+          "status": "introduced",
+          "assessment": "Contare alleli dai genotipi e calcolare portatori sotto Hardy-Weinberg, senza assumere equilibrio dai soli dati.",
+          "questionIds": [
+            "evoluzione-variabilita-verifica",
+            "evoluzione-selezione-verifica",
+            "evoluzione-deriva-verifica",
+            "bio-applied-evoluzione-deriva-extra-12",
+            "bio-applied-evoluzione-deriva-extra-13"
+          ]
+        },
+        {
+          "topic": "Classificazione delle malattie ereditarie",
+          "refs": [
+            "divisioni-ereditarieta/modelli",
+            "genetica-umana/cariotipo",
+            "genetica-umana/x",
+            "genetica-umana/complessi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere genetico/ereditato/congenito, monogenico/cromosomico/mitocondriale/multifattoriale e regole autosomiche/X.",
+          "questionIds": [
+            "genetica-umana-cariotipo-verifica",
+            "genetica-umana-x-verifica",
+            "genetica-umana-complessi-verifica",
+            "bio-applied-divisioni-ereditarieta-modelli-0",
+            "bio-applied-divisioni-ereditarieta-modelli-1",
+            "bio-applied-divisioni-ereditarieta-modelli-2",
+            "bio-applied-divisioni-ereditarieta-modelli-extra-17"
+          ]
+        },
+        {
+          "topic": "Alberi genealogici",
+          "refs": [
+            "divisioni-ereditarieta/pedigree",
+            "genetica-umana/pedigree"
+          ],
+          "status": "introduced",
+          "assessment": "Leggere simboli e rapporti, dedurre genotipi nel modello dichiarato e distinguere rischio alla nascita e probabilità condizionata.",
+          "questionIds": [
+            "genetica-umana-pedigree-verifica",
+            "bio-applied-divisioni-ereditarieta-pedigree-0",
+            "bio-applied-divisioni-ereditarieta-pedigree-1",
+            "bio-applied-divisioni-ereditarieta-pedigree-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biologia-nuclei-2025",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio",
+      "year": "2025/26",
+      "currentEquivalentConfirmed": false,
+      "method": "Riletta la scheda renderizzata ufficiale, conservata nella cache locale consultata il 20 ottobre 2026. Confrontati 12 nuclei biologici/obiettivi con contenuti e verifiche, mantenendo separato il dettaglio biochimico. La scheda indica Orale nel campo generale ma scritto con quesiti multipli e/o aperti nella verifica dell’apprendimento: la modalità corrente non viene dedotta da uno solo dei due campi. Le prove aperte presenti servono all’autoconfronto e non attribuiscono voti automatici.",
+      "requirements": [
+        {
+          "topic": "Struttura e funzione della cellula",
+          "refs": [
+            "cellula/organizzazione",
+            "cellula-strutture/nucleolo",
+            "cellula-strutture/citoscheletro"
+          ],
+          "status": "introduced",
+          "assessment": "Confronto procarioti/eucarioti, compartimenti e funzioni del citoscheletro.",
+          "questionIds": [
+            "bio-cell-2",
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2",
+            "bio-body-microbes-cellula-strutture-citoscheletro-0",
+            "bio-body-microbes-cellula-strutture-citoscheletro-1",
+            "bio-body-microbes-cellula-strutture-citoscheletro-2",
+            "bio-applied-cellula-strutture-citoscheletro-extra-20"
+          ]
+        },
+        {
+          "topic": "Principali biomolecole",
+          "refs": [
+            "proteine/livelli",
+            "stereochimica-glucidi/polimeri",
+            "lipidi-sintesi/classi",
+            "genoma-rna-segnali/forme"
+          ],
+          "status": "introduced",
+          "assessment": "Relazione fra struttura molecolare e funzione; specificità dei legami, non sola nomenclatura.",
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bc-depth-stereochimica-glucidi-polimeri",
+            "bc-depth-stereochimica-glucidi-polimeri-case",
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2",
+            "bio-applied-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Organizzazione di membrane e organelli",
+          "refs": [
+            "cellula/trasporti",
+            "cellula-strutture/reticolo",
+            "cellula-strutture/cloroplasti",
+            "proteine-destino/golgi"
+          ],
+          "status": "introduced",
+          "assessment": "Applicare compartimentazione, trasporto e destinazioni delle proteine.",
+          "questionIds": [
+            "bio-cell-3",
+            "bio-molecular-proteine-destino-golgi-0",
+            "bio-molecular-proteine-destino-golgi-1",
+            "bio-molecular-proteine-destino-golgi-2",
+            "bio-body-microbes-cellula-strutture-reticolo-0",
+            "bio-body-microbes-cellula-strutture-reticolo-1",
+            "bio-body-microbes-cellula-strutture-reticolo-2",
+            "bio-body-microbes-cellula-strutture-cloroplasti-0",
+            "bio-body-microbes-cellula-strutture-cloroplasti-1",
+            "bio-body-microbes-cellula-strutture-cloroplasti-2"
+          ]
+        },
+        {
+          "topic": "Metabolismo energetico cellulare: collegamento alle basi di Biologia",
+          "refs": [
+            "mitocondri/catena",
+            "cellula-strutture/cloroplasti",
+            "metabolismo-controllo/carica"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere gradiente, sintesi di ATP e carica energetica; le singole vie metaboliche restano nell’audit separato di Biochimica.",
+          "questionIds": [
+            "mitocondri-catena-verifica",
+            "bio-integration-metabolismo-controllo-carica-0",
+            "bio-integration-metabolismo-controllo-carica-1",
+            "bio-integration-metabolismo-controllo-carica-2",
+            "bio-body-microbes-cellula-strutture-cloroplasti-0",
+            "bio-body-microbes-cellula-strutture-cloroplasti-1",
+            "bio-body-microbes-cellula-strutture-cloroplasti-2",
+            "num-energy-charge-v1"
+          ]
+        },
+        {
+          "topic": "Comunicazione cellulare",
+          "refs": [
+            "segnali/recettori",
+            "segnali/spegnimento",
+            "genoma-rna-segnali/camp"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere ligando, recettore, secondo messaggero e spegnimento, con risposte dipendenti dalla cellula.",
+          "questionIds": [
+            "segnali-recettori-verifica",
+            "segnali-spegnimento-verifica",
+            "bio-integration-genoma-rna-segnali-camp-0",
+            "bio-integration-genoma-rna-segnali-camp-1",
+            "bio-integration-genoma-rna-segnali-camp-2"
+          ]
+        },
+        {
+          "topic": "Controllo dell’espressione genica",
+          "refs": [
+            "espressione/regolazione",
+            "genetica-microbica/operoni",
+            "genoma-rna-segnali/piccoli-rna",
+            "proteine-destino/proteoma"
+          ],
+          "status": "introduced",
+          "assessment": "Individuare il livello del controllo da misure di DNA, RNA, sintesi, degradazione e attività.",
+          "questionIds": [
+            "espressione-regolazione-verifica",
+            "bio-molecular-proteine-destino-proteoma-0",
+            "bio-molecular-proteine-destino-proteoma-1",
+            "bio-molecular-proteine-destino-proteoma-2",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2",
+            "bio-applied-espressione-regolazione-extra-9",
+            "bio-applied-espressione-regolazione-extra-16"
+          ]
+        },
+        {
+          "topic": "Ciclo cellulare",
+          "refs": [
+            "ciclo/fasi",
+            "ciclo/controlli",
+            "ciclo/destini",
+            "divisioni-ereditarieta/mitosi"
+          ],
+          "status": "introduced",
+          "assessment": "Sequenziare eventi, interpretare controlli e distinguere divisione, arresto e morte.",
+          "questionIds": [
+            "ciclo-fasi-verifica",
+            "ciclo-controlli-verifica",
+            "ciclo-destini-verifica",
+            "bio-applied-divisioni-ereditarieta-mitosi-0",
+            "bio-applied-divisioni-ereditarieta-mitosi-1",
+            "bio-applied-divisioni-ereditarieta-mitosi-2",
+            "bio-applied-ciclo-destini-extra-10",
+            "bio-applied-ciclo-destini-extra-11"
+          ]
+        },
+        {
+          "topic": "Differenziamento",
+          "refs": [
+            "sviluppo/differenziamento",
+            "sviluppo/foglietti",
+            "ciclo/muscolo"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare segnali e programmi di espressione alla specializzazione, distinguendo fibra matura e precursori.",
+          "questionIds": [
+            "ciclo-muscolo-verifica",
+            "sviluppo-foglietti-verifica",
+            "sviluppo-differenziamento-verifica"
+          ]
+        },
+        {
+          "topic": "Trasmissione dei caratteri ereditari",
+          "refs": [
+            "mendel/incrocio",
+            "mendel/probabilita",
+            "genetica-umana/x",
+            "divisioni-ereditarieta/pedigree",
+            "divisioni-ereditarieta/meiosi"
+          ],
+          "status": "introduced",
+          "assessment": "Risolvere incroci e probabilità condizionate, collegandoli alla segregazione e al modello di trasmissione.",
+          "questionIds": [
+            "bio-gen-2",
+            "bio-gen-3",
+            "genetica-umana-x-verifica",
+            "bio-applied-divisioni-ereditarieta-meiosi-0",
+            "bio-applied-divisioni-ereditarieta-meiosi-1",
+            "bio-applied-divisioni-ereditarieta-meiosi-2",
+            "bio-applied-divisioni-ereditarieta-pedigree-0",
+            "bio-applied-divisioni-ereditarieta-pedigree-1",
+            "bio-applied-divisioni-ereditarieta-pedigree-2",
+            "bio-applied-divisioni-ereditarieta-meiosi-extra-18",
+            "num-genetica"
+          ]
+        },
+        {
+          "topic": "Mutazioni geniche",
+          "refs": [
+            "mutazioni/sequenza",
+            "mutazioni/codice",
+            "mutazioni/ereditarieta",
+            "espressione/maturazione"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere effetto sulla sequenza, cornice e splicing da regolazione; separare linea somatica e germinale.",
+          "questionIds": [
+            "base-mutazioni-sequenza",
+            "base-mutazioni-codice",
+            "base-mutazioni-ereditarieta",
+            "espressione-maturazione-verifica",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-espressione-maturazione-extra-21"
+          ]
+        },
+        {
+          "topic": "Diversificazione biologica e interazioni con l’ambiente",
+          "refs": [
+            "evoluzione/variabilita",
+            "evoluzione/selezione",
+            "evoluzione/deriva",
+            "evoluzione/esperimenti"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere evoluzione di popolazione, adattamento individuale, deriva, selezione e interpretazione causale dei dati.",
+          "questionIds": [
+            "evoluzione-variabilita-verifica",
+            "evoluzione-selezione-verifica",
+            "evoluzione-deriva-verifica",
+            "evoluzione-esperimenti-verifica",
+            "bio-applied-evoluzione-deriva-extra-12",
+            "bio-applied-evoluzione-deriva-extra-13"
+          ]
+        },
+        {
+          "topic": "Applicazione alle scienze motorie, giudizio ed esposizione",
+          "refs": [
+            "ciclo/muscolo",
+            "genetica-umana/complessi",
+            "mutazioni/ereditarieta",
+            "evoluzione/esperimenti"
+          ],
+          "status": "introduced",
+          "assessment": "Interpretare ipertrofia, ereditabilità e associazioni senza dedurre una prestazione individuale dai soli geni; casi e prove aperte con criteri, senza voto automatico al testo.",
+          "questionIds": [
+            "base-mutazioni-ereditarieta",
+            "ciclo-muscolo-verifica",
+            "genetica-umana-complessi-verifica",
+            "evoluzione-esperimenti-verifica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochimica-centrale-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato di 20 voci del programma storico: proteine fibrose/globulari, catalisi, coenzimi e metabolismo energetico centrale. Riletti i materiali interni collegati e le verifiche; ampliati i passaggi delle vie con due lezioni e le lacune su inibizione e fosfocreatina. Non è ancora l’audit integrale di Biochimica né una conferma delle richieste del docente corrente. Introdotto indica insegnamento e verifica presenti, non superamento garantito.",
+      "requirements": [
+        {
+          "topic": "Proteine fibrose e globulari; organizzazione e denaturazione",
+          "refs": [
+            "proteine/livelli"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere tripla elica, subunità globulari e perdita della struttura nativa senza dedurre proteolisi.",
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2"
+          ]
+        },
+        {
+          "topic": "Cinetica e inibizione enzimatica",
+          "refs": [
+            "cinetica-enzimi/michaelis",
+            "cinetica-enzimi/quantita",
+            "cinetica-enzimi/inibizione",
+            "cinetica-enzimi/allosteria"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare velocità e confrontare Vmax/Km; distinguere modelli ideali e limiti dell’inferenza da un singolo parametro.",
+          "questionIds": [
+            "cinetica-enzimi-michaelis-verifica",
+            "cinetica-enzimi-quantita-verifica",
+            "cinetica-enzimi-inibizione-verifica",
+            "cinetica-enzimi-allosteria-verifica",
+            "bc-central-cinetica-enzimi-inibizione-extra-3",
+            "bc-central-cinetica-enzimi-inibizione-extra-4",
+            "bc-central-cinetica-enzimi-inibizione-extra-5",
+            "num-michaelis"
+          ]
+        },
+        {
+          "topic": "Isoenzimi",
+          "refs": [
+            "metabolismo-controllo/isoenzimi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere stessa reazione, diversa struttura/regolazione e quantità di enzima presente.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-isoenzimi-0",
+            "bio-integration-metabolismo-controllo-isoenzimi-1",
+            "bio-integration-metabolismo-controllo-isoenzimi-2"
+          ]
+        },
+        {
+          "topic": "Vitamine e coenzimi",
+          "refs": [
+            "vitamine-coenzimi/energia",
+            "vitamine-coenzimi/azoto-carbonio",
+            "vitamine-coenzimi/un-carbonio",
+            "vitamine-coenzimi/altre"
+          ],
+          "status": "introduced",
+          "assessment": "Associare cofattori a funzioni rappresentative, distinguendo intermedi catalitici e prodotti netti.",
+          "questionIds": [
+            "bc-network-vitamine-coenzimi-energia-0",
+            "bc-network-vitamine-coenzimi-energia-1",
+            "bc-network-vitamine-coenzimi-azoto-carbonio-0",
+            "bc-network-vitamine-coenzimi-azoto-carbonio-1",
+            "bc-network-vitamine-coenzimi-un-carbonio-0",
+            "bc-network-vitamine-coenzimi-un-carbonio-1",
+            "bc-network-vitamine-coenzimi-altre-0",
+            "bc-network-vitamine-coenzimi-altre-1"
+          ]
+        },
+        {
+          "topic": "ATP e fosfocreatina",
+          "refs": [
+            "biochimica-muscolo/substrati",
+            "chimica-equilibri/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare trasferimenti uno a uno e distinguere concentrazione costante da flusso nullo.",
+          "questionIds": [
+            "y1-biochimica-muscolo-substrati",
+            "bc-depth-chimica-equilibri-energia",
+            "bc-depth-chimica-equilibri-energia-case",
+            "bc-central-biochimica-muscolo-substrati-extra-6",
+            "bc-central-biochimica-muscolo-substrati-extra-7"
+          ]
+        },
+        {
+          "topic": "Carica energetica",
+          "refs": [
+            "metabolismo-controllo/carica"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare e confrontare la carica adenilica con il modello numerico parametrico.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-carica-0",
+            "bio-integration-metabolismo-controllo-carica-1",
+            "bio-integration-metabolismo-controllo-carica-2",
+            "num-energy-charge-v1"
+          ]
+        },
+        {
+          "topic": "Glicolisi: reazioni e bilanci",
+          "refs": [
+            "glucosio-percorsi/investimento",
+            "glucosio-percorsi/rendimento"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire le due metà, distinguere Pi da ATP e contare due triosi per glucosio.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-investimento-0",
+            "bc-central-glucosio-percorsi-investimento-1",
+            "bc-central-glucosio-percorsi-investimento-2",
+            "bc-central-glucosio-percorsi-rendimento-0",
+            "bc-central-glucosio-percorsi-rendimento-1",
+            "bc-central-glucosio-percorsi-rendimento-2"
+          ]
+        },
+        {
+          "topic": "Regolazione della glicolisi",
+          "refs": [
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere F1,6BP/F2,6BP, PFK-1/PFK-2, tessuto e isoforma.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Fermentazioni lattica e alcolica",
+          "refs": [
+            "glicolisi/lattato",
+            "metabolismo-controllo/fermentazione"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire carbonio e riciclo di NAD+, senza usare il lattato come prova univoca di assenza di O2.",
+          "questionIds": [
+            "glicolisi-lattato-verifica",
+            "bio-integration-metabolismo-controllo-fermentazione-0",
+            "bio-integration-metabolismo-controllo-fermentazione-1",
+            "bio-integration-metabolismo-controllo-fermentazione-2"
+          ]
+        },
+        {
+          "topic": "Ciclo di Cori",
+          "refs": [
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare guadagno periferico e spesa epatica e calcolare il saldo del circuito.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Gluconeogenesi e regolazione",
+          "refs": [
+            "glucosio-percorsi/bypass",
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare quattro attività per tre aggiramenti, compartimenti e costi ATP/GTP/NADH.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-bypass-0",
+            "bc-central-glucosio-percorsi-bypass-1",
+            "bc-central-glucosio-percorsi-bypass-2",
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Glicogenosintesi",
+          "refs": [
+            "glicogeno-pentosi/sintesi"
+          ],
+          "status": "introduced",
+          "assessment": "Riconoscere donatore attivato e attività ramificante.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-sintesi",
+            "bc-depth-glicogeno-pentosi-sintesi-case"
+          ]
+        },
+        {
+          "topic": "Glicogenolisi e regolazione",
+          "refs": [
+            "glicogeno-pentosi/demolizione",
+            "glicogeno-pentosi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere prodotti, resa da residuo interno e controllo della fosforilazione.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-demolizione",
+            "bc-depth-glicogeno-pentosi-demolizione-case",
+            "bc-depth-glicogeno-pentosi-controllo",
+            "bc-depth-glicogeno-pentosi-controllo-case"
+          ]
+        },
+        {
+          "topic": "Via dei pentosi fosfato",
+          "refs": [
+            "glicogeno-pentosi/pentosi"
+          ],
+          "status": "introduced",
+          "assessment": "Contare NADPH/CO2 e conservare carbonio nelle conversioni non ossidative.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-pentosi",
+            "bc-depth-glicogeno-pentosi-pentosi-case"
+          ]
+        },
+        {
+          "topic": "Decarbossilazione ossidativa del piruvato",
+          "refs": [
+            "ossidazione-controllo/pdh"
+          ],
+          "status": "introduced",
+          "assessment": "Separare E1/E2/E3, cinque cofattori e prodotto ridotto netto.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-pdh-0",
+            "bc-central-ossidazione-controllo-pdh-1",
+            "bc-central-ossidazione-controllo-pdh-2"
+          ]
+        },
+        {
+          "topic": "Ciclo di Krebs: reazioni e bilanci",
+          "refs": [
+            "ossidazione-controllo/krebs"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire intermedi e rese senza contare PDH due volte o generare ossalacetato netto dall’acetile.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-krebs-0",
+            "bc-central-ossidazione-controllo-krebs-1",
+            "bc-central-ossidazione-controllo-krebs-2"
+          ]
+        },
+        {
+          "topic": "Regolazione di PDH e ciclo",
+          "refs": [
+            "ossidazione-controllo/regolazione"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire chinasi/fosfatasi, stato redox, domanda energetica e limiti del flusso.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-regolazione-0",
+            "bc-central-ossidazione-controllo-regolazione-1",
+            "bc-central-ossidazione-controllo-regolazione-2"
+          ]
+        },
+        {
+          "topic": "Anaplerosi e trasportatori mitocondriali",
+          "refs": [
+            "mitocondri-navette/anaplerosi",
+            "mitocondri-navette/trasportatori"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere rifornimento del pool, trasporto ADP/ATP e disponibilità dei substrati.",
+          "questionIds": [
+            "bc-detail2-mitocondri-navette-trasportatori-0",
+            "bc-detail2-mitocondri-navette-trasportatori-1",
+            "bc-detail2-mitocondri-navette-anaplerosi-0",
+            "bc-detail2-mitocondri-navette-anaplerosi-1"
+          ]
+        },
+        {
+          "topic": "Catena respiratoria e fosforilazione ossidativa",
+          "refs": [
+            "ossidazione-controllo/accoppiamento"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare consumo O2, gradiente e ATP; distinguere blocco della catena, ATP sintasi e disaccoppiamento.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-accoppiamento-0",
+            "bc-central-ossidazione-controllo-accoppiamento-1",
+            "bc-central-ossidazione-controllo-accoppiamento-2"
+          ]
+        },
+        {
+          "topic": "Navette e bilancio energetico",
+          "refs": [
+            "mitocondri-navette/malato",
+            "mitocondri-navette/glicerofosfato",
+            "mitocondri/bilancio"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire il riciclo del NAD+ citosolico, confrontare ingresso al complesso I o a Q e rese convenzionali.",
+          "questionIds": [
+            "mitocondri-bilancio-verifica",
+            "bc-detail2-mitocondri-navette-malato-0",
+            "bc-detail2-mitocondri-navette-malato-1",
+            "bc-detail2-mitocondri-navette-glicerofosfato-0",
+            "bc-detail2-mitocondri-navette-glicerofosfato-1",
+            "num-krebs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochimica-analitico-2016",
+      "exam": "scienze-biologiche",
+      "sourceId": "syllabus-bio-2016",
+      "year": "2016/17",
+      "currentEquivalentConfirmed": false,
+      "method": "Confrontato l’intero blocco Biochimica del PDF 2016/17 (pagine 1–2, fino ad alimenti/integratori), articolato in 69 righe editoriali. Riutilizzate le 20 voci centrali già verificate e riesaminate le altre aree con testi, casi e domande. Rafforzati isomeria, anidridi, struttura del DNA, colesterolo di membrana, lipolisi/sintesi TAG, regolazione ureagenetica e segnale neuromuscolare. Le domande verificano competenze rappresentative, non ogni formulazione possibile dell’esame. Il controllo è storico: docente, programma analitico e materiali 2026/27 non sono confermati; le vie amminoacidiche sono rappresentative e non un catalogo di tutti gli enzimi.",
+      "requirements": [
+        {
+          "topic": "Materia, fasi, mole e massa molare",
+          "refs": [
+            "chimica/atomi",
+            "chimica/moli",
+            "chimica-struttura-equilibrio/interazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere elemento, sostanza, fase e quantità di entità; passare da massa a moli.",
+          "questionIds": [
+            "chimica-atomi-verifica",
+            "chimica-moli-verifica",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-0",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-1",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-13",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-14",
+            "num-molarita"
+          ]
+        },
+        {
+          "topic": "Struttura atomica, tavola periodica, elettronegatività, Lewis e numero di ossidazione",
+          "refs": [
+            "chimica/atomi",
+            "chimica-struttura-equilibrio/elettroni"
+          ],
+          "status": "introduced",
+          "assessment": "Contare valenza e cariche, distinguere carica formale e numero di ossidazione; leggere le tendenze periodiche.",
+          "questionIds": [
+            "chimica-atomi-verifica",
+            "bc-detail2-chimica-struttura-equilibrio-elettroni-0",
+            "bc-detail2-chimica-struttura-equilibrio-elettroni-1"
+          ]
+        },
+        {
+          "topic": "Legami covalente, ionico e metallico; interazioni intermolecolari e polarità",
+          "refs": [
+            "chimica/legami",
+            "chimica-struttura-equilibrio/interazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere legami interni e interazioni, sommare dipoli e riconoscere delocalizzazione metallica.",
+          "questionIds": [
+            "chimica-legami-verifica",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-0",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-1",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-13",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-14"
+          ]
+        },
+        {
+          "topic": "Solubilità e concentrazioni: molarità, molalità, frazione molare e percentuali",
+          "refs": [
+            "chimica/moli",
+            "soluzioni-quantitative/concentrazioni",
+            "soluzioni-quantitative/henry"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare denominatore e condizioni, calcolare moli e frazioni senza confondere solvente e soluzione.",
+          "questionIds": [
+            "chimica-moli-verifica",
+            "bc-detail2-soluzioni-quantitative-concentrazioni-0",
+            "bc-detail2-soluzioni-quantitative-concentrazioni-1",
+            "bc-detail2-soluzioni-quantitative-henry-0",
+            "bc-detail2-soluzioni-quantitative-henry-1",
+            "bc-full-soluzioni-quantitative-concentrazioni-extra-17",
+            "num-molarita"
+          ]
+        },
+        {
+          "topic": "Concentrazione equivalente e costanza delle moli nella diluizione",
+          "refs": [
+            "soluzioni-quantitative/equivalenti",
+            "chimica/diluizioni"
+          ],
+          "status": "introduced",
+          "assessment": "Dichiarare reazione per la normalità e distinguere diluizione da neutralizzazione stechiometrica.",
+          "questionIds": [
+            "chimica-diluizioni-verifica",
+            "bc-detail2-soluzioni-quantitative-equivalenti-0",
+            "bc-detail2-soluzioni-quantitative-equivalenti-1",
+            "num-diluizione"
+          ]
+        },
+        {
+          "topic": "Legge di Henry",
+          "refs": [
+            "soluzioni-quantitative/henry"
+          ],
+          "status": "introduced",
+          "assessment": "Usare pressione parziale e costante con unità definite; distinguere quota disciolta e legata.",
+          "questionIds": [
+            "bc-detail2-soluzioni-quantitative-henry-0",
+            "bc-detail2-soluzioni-quantitative-henry-1"
+          ]
+        },
+        {
+          "topic": "Osmolarità e pressione osmotica",
+          "refs": [
+            "soluzioni-quantitative/osmosi"
+          ],
+          "status": "introduced",
+          "assessment": "Contare particelle, usare unità coerenti e distinguere osmolarità da tonicità con membrana selettiva.",
+          "questionIds": [
+            "bc-detail2-soluzioni-quantitative-osmosi-0",
+            "bc-detail2-soluzioni-quantitative-osmosi-1"
+          ]
+        },
+        {
+          "topic": "Acidi e basi di Arrhenius, Brønsted-Lowry e Lewis; salificazione",
+          "refs": [
+            "chimica-struttura-equilibrio/interazioni",
+            "soluzioni-quantitative/equivalenti",
+            "chimica-equilibri/acidi"
+          ],
+          "status": "introduced",
+          "assessment": "Classificare il trasferimento e calcolare neutralizzazioni, senza equivalere sempre equivalenza e pH 7.",
+          "questionIds": [
+            "bc-depth-chimica-equilibri-acidi",
+            "bc-depth-chimica-equilibri-acidi-case",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-0",
+            "bc-detail2-chimica-struttura-equilibrio-interazioni-1",
+            "bc-detail2-soluzioni-quantitative-equivalenti-0",
+            "bc-detail2-soluzioni-quantitative-equivalenti-1",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-13",
+            "bc-full-chimica-struttura-equilibrio-interazioni-extra-14",
+            "bc-full-chimica-equilibri-acidi-extra-18"
+          ]
+        },
+        {
+          "topic": "Reazioni di ossidoriduzione",
+          "refs": [
+            "chimica-organica/redox",
+            "chimica-struttura-equilibrio/elettroni"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire elettroni e coenzimi; non richiedere O2 a ogni reazione redox.",
+          "questionIds": [
+            "bc-depth-chimica-organica-redox",
+            "bc-depth-chimica-organica-redox-case",
+            "bc-detail2-chimica-struttura-equilibrio-elettroni-0",
+            "bc-detail2-chimica-struttura-equilibrio-elettroni-1"
+          ]
+        },
+        {
+          "topic": "Equilibrio chimico, azione di massa e principio dell’equilibrio mobile",
+          "refs": [
+            "chimica-struttura-equilibrio/equilibrio"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare Q/K, velocità e concentrazioni; separare variazioni di composizione e di costante.",
+          "questionIds": [
+            "bc-detail2-chimica-struttura-equilibrio-equilibrio-0",
+            "bc-detail2-chimica-struttura-equilibrio-equilibrio-1",
+            "bc-full-chimica-struttura-equilibrio-equilibrio-extra-15"
+          ]
+        },
+        {
+          "topic": "Funzioni di stato, entalpia, entropia, secondo principio e Gibbs",
+          "refs": [
+            "chimica-struttura-equilibrio/termodinamica",
+            "chimica-equilibri/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare ΔG con unità coerenti e distinguere sistema/ambiente, spontaneità e velocità.",
+          "questionIds": [
+            "bc-depth-chimica-equilibri-energia",
+            "bc-depth-chimica-equilibri-energia-case",
+            "bc-detail2-chimica-struttura-equilibrio-termodinamica-0",
+            "bc-detail2-chimica-struttura-equilibrio-termodinamica-1",
+            "bc-full-chimica-struttura-equilibrio-termodinamica-extra-16"
+          ]
+        },
+        {
+          "topic": "Cinetica chimica, collisioni e catalizzatori",
+          "refs": [
+            "chimica-struttura-equilibrio/termodinamica",
+            "enzimi/catalisi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere collisioni efficaci, barriera cinetica e posizione di equilibrio.",
+          "questionIds": [
+            "bc-enz-1",
+            "bc-detail2-chimica-struttura-equilibrio-termodinamica-0",
+            "bc-detail2-chimica-struttura-equilibrio-termodinamica-1",
+            "bc-full-chimica-struttura-equilibrio-termodinamica-extra-16"
+          ]
+        },
+        {
+          "topic": "Acqua, autoionizzazione, Kw, pH e pOH",
+          "refs": [
+            "ph/acqua",
+            "ph/scala",
+            "chimica-equilibri/acidi"
+          ],
+          "status": "introduced",
+          "assessment": "Usare scala logaritmica e relazione pH/pOH con temperatura e approssimazioni dichiarate.",
+          "questionIds": [
+            "base-ph-acqua",
+            "base-ph-scala",
+            "bc-depth-chimica-equilibri-acidi",
+            "bc-depth-chimica-equilibri-acidi-case",
+            "bc-full-chimica-equilibri-acidi-extra-18"
+          ]
+        },
+        {
+          "topic": "Tamponi, Henderson-Hasselbalch e tamponi del sangue",
+          "refs": [
+            "chimica-equilibri/henderson",
+            "chimica-equilibri/capacita"
+          ],
+          "status": "introduced",
+          "assessment": "Aggiornare la stechiometria prima del rapporto e distinguere capacità, pH e sistema bicarbonato aperto.",
+          "questionIds": [
+            "bc-depth-chimica-equilibri-henderson",
+            "bc-depth-chimica-equilibri-henderson-case",
+            "bc-depth-chimica-equilibri-capacita",
+            "bc-depth-chimica-equilibri-capacita-case",
+            "num-buffer-ph"
+          ]
+        },
+        {
+          "topic": "Alcani, alcheni e isomeria di catena, posizione e geometrica",
+          "refs": [
+            "chimica-organica/strutture"
+          ],
+          "status": "introduced",
+          "assessment": "Riconoscere connettività e condizione cis/trans, senza identificare la struttura dalla sola formula.",
+          "questionIds": [
+            "bc-depth-chimica-organica-strutture",
+            "bc-depth-chimica-organica-strutture-case",
+            "bc-full-chimica-organica-strutture-extra-0",
+            "bc-full-chimica-organica-strutture-extra-1",
+            "bc-full-chimica-organica-strutture-extra-2",
+            "bc-full-chimica-organica-strutture-extra-3"
+          ]
+        },
+        {
+          "topic": "Isomeria ottica",
+          "refs": [
+            "stereochimica-glucidi/chirale",
+            "stereochimica-glucidi/fischer"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere enantiomeri, epimeri e sigle configurazionali dal segno della rotazione.",
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-chirale",
+            "bc-depth-stereochimica-glucidi-chirale-case",
+            "bc-depth-stereochimica-glucidi-fischer",
+            "bc-depth-stereochimica-glucidi-fischer-case"
+          ]
+        },
+        {
+          "topic": "Alcoli, aldeidi, chetoni, ammine, acidi, esteri, tioesteri, ammidi e anidridi",
+          "refs": [
+            "chimica-organica/gruppi",
+            "chimica-organica/reazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Leggere gruppi funzionali e trasformazioni; distinguere ammide/ammina e legami estere/tioestere/fosfoanidride.",
+          "questionIds": [
+            "bc-depth-chimica-organica-gruppi",
+            "bc-depth-chimica-organica-gruppi-case",
+            "bc-depth-chimica-organica-reazioni",
+            "bc-depth-chimica-organica-reazioni-case",
+            "bc-full-chimica-organica-gruppi-extra-23"
+          ]
+        },
+        {
+          "topic": "Sintesi delle basi di Schiff",
+          "refs": [
+            "organica-anelli-reazioni/schiff"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire addizione, intermedio e perdita di acqua; riconoscere C=N e rapporto con PLP.",
+          "questionIds": [
+            "bc-detail2-organica-anelli-reazioni-schiff-0",
+            "bc-detail2-organica-anelli-reazioni-schiff-1"
+          ]
+        },
+        {
+          "topic": "Benzene, Hückel, aromatici policiclici, fenoli ed eterocicli a cinque/sei membri",
+          "refs": [
+            "organica-anelli-reazioni/aromatici"
+          ],
+          "status": "introduced",
+          "assessment": "Contare elettroni e verificare coniugazione/planarità; distinguere coppie dell’azoto e gruppo fenolico.",
+          "questionIds": [
+            "bc-detail2-organica-anelli-reazioni-aromatici-0",
+            "bc-detail2-organica-anelli-reazioni-aromatici-1",
+            "bc-full-organica-anelli-reazioni-aromatici-extra-19"
+          ]
+        },
+        {
+          "topic": "Ciclizzazione dei monosaccaridi, sedia/barca, mutarotazione ed epimeri",
+          "refs": [
+            "stereochimica-glucidi/anomeria",
+            "stereochimica-glucidi/fischer",
+            "organica-anelli-reazioni/conformazioni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere conformazione e configurazione e ricostruire apertura/richiusura dell’anello.",
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-fischer",
+            "bc-depth-stereochimica-glucidi-fischer-case",
+            "bc-depth-stereochimica-glucidi-anomeria",
+            "bc-depth-stereochimica-glucidi-anomeria-case",
+            "bc-detail2-organica-anelli-reazioni-conformazioni-0",
+            "bc-detail2-organica-anelli-reazioni-conformazioni-1"
+          ]
+        },
+        {
+          "topic": "Disaccaridi e polisaccaridi",
+          "refs": [
+            "stereochimica-glucidi/polimeri"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare legami, estremità riducenti e ramificazioni e collegarli alla specificità enzimatica.",
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-polimeri",
+            "bc-depth-stereochimica-glucidi-polimeri-case"
+          ]
+        },
+        {
+          "topic": "Classi lipidiche, saponificazione, cere e steroidi",
+          "refs": [
+            "lipidi-sintesi/classi",
+            "lipidi-sintesi/colesterolo",
+            "organica-anelli-reazioni/esteri"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere scheletri e legami e calcolare il consumo stechiometrico nella saponificazione dichiarata.",
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bc-depth-lipidi-sintesi-colesterolo",
+            "bc-depth-lipidi-sintesi-colesterolo-case",
+            "bc-detail2-organica-anelli-reazioni-esteri-0",
+            "bc-detail2-organica-anelli-reazioni-esteri-1",
+            "bio-applied-lipidi-sintesi-classi-extra-22",
+            "bc-full-lipidi-sintesi-classi-extra-7",
+            "bc-full-lipidi-sintesi-classi-extra-8",
+            "bc-full-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Membrane biologiche e ruolo del colesterolo",
+          "refs": [
+            "cellula/organizzazione",
+            "lipidi-sintesi/classi"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare anfipatia, code e colesterolo all’organizzazione e fluidità senza una regola di rigidità assoluta.",
+          "questionIds": [
+            "bio-cell-2",
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bio-applied-lipidi-sintesi-classi-extra-22",
+            "bc-full-lipidi-sintesi-classi-extra-7",
+            "bc-full-lipidi-sintesi-classi-extra-8",
+            "bc-full-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Amminoacidi, legame peptidico e livelli della struttura proteica",
+          "refs": [
+            "proteine/amminoacidi",
+            "proteine/livelli",
+            "chimica-equilibri/acidi"
+          ],
+          "status": "introduced",
+          "assessment": "Leggere direzione della catena, cariche e livelli strutturali; distinguere denaturazione da idrolisi.",
+          "questionIds": [
+            "proteine-amminoacidi-verifica",
+            "proteine-livelli-verifica",
+            "bc-depth-chimica-equilibri-acidi",
+            "bc-depth-chimica-equilibri-acidi-case",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2",
+            "bc-full-chimica-equilibri-acidi-extra-18"
+          ]
+        },
+        {
+          "topic": "Emoglobina, mioglobina e curve di ossigenazione/deossigenazione",
+          "refs": [
+            "proteine/eme",
+            "proteine/bohr",
+            "biochimica-muscolo/ossigeno"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere cooperatività, affinità, saturazione e contenuto totale e interpretare spostamenti della curva.",
+          "questionIds": [
+            "proteine-eme-verifica",
+            "proteine-bohr-verifica",
+            "y1-biochimica-muscolo-ossigeno"
+          ]
+        },
+        {
+          "topic": "Nucleosidi/nucleotidi, DNA e sue forme alternative",
+          "refs": [
+            "nucleotidi-metabolismo/purine",
+            "espressione/replicazione",
+            "genoma-rna-segnali/forme"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere struttura del monomero, sequenza e conformazione delle eliche.",
+          "questionIds": [
+            "espressione-replicazione-verifica",
+            "bc-network-nucleotidi-metabolismo-purine-0",
+            "bc-network-nucleotidi-metabolismo-purine-1",
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2",
+            "bio-applied-espressione-replicazione-extra-0",
+            "bio-applied-espressione-replicazione-extra-1",
+            "bio-applied-espressione-replicazione-extra-2",
+            "bio-applied-espressione-replicazione-extra-3",
+            "bc-full-genoma-rna-segnali-forme-extra-20",
+            "bc-full-genoma-rna-segnali-forme-extra-21"
+          ]
+        },
+        {
+          "topic": "RNA messaggero, ribosomiale, transfer e piccoli RNA",
+          "refs": [
+            "genoma-rna-segnali/piccoli-rna",
+            "espressione/traduzione"
+          ],
+          "status": "introduced",
+          "assessment": "Associare i diversi RNA a funzioni e leggere perturbazioni dell’espressione.",
+          "questionIds": [
+            "espressione-traduzione-verifica",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+            "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+            "bio-applied-espressione-traduzione-extra-6",
+            "bio-applied-espressione-traduzione-extra-7",
+            "bio-applied-espressione-traduzione-extra-8",
+            "bio-applied-espressione-traduzione-extra-14",
+            "bio-applied-espressione-traduzione-extra-15"
+          ]
+        },
+        {
+          "topic": "Struttura e funzione di ATP e cAMP",
+          "refs": [
+            "genoma-rna-segnali/camp",
+            "energia/atp"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere fosfati in catena/ciclico e ruoli di nucleotide energetico e secondo messaggero.",
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-camp-0",
+            "bio-integration-genoma-rna-segnali-camp-1",
+            "bio-integration-genoma-rna-segnali-camp-2"
+          ]
+        },
+        {
+          "topic": "Composizione corporea, peso/statura, massa lipidica/alipidica e riferimenti negli atleti",
+          "refs": [
+            "composizione-corporea/compartimenti",
+            "composizione-corporea/metodi",
+            "composizione-corporea/confronti"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare compartimenti e indicatori e riconoscere assunzioni e limiti dei confronti.",
+          "questionIds": [
+            "bio-body-microbes-composizione-corporea-compartimenti-0",
+            "bio-body-microbes-composizione-corporea-compartimenti-1",
+            "bio-body-microbes-composizione-corporea-compartimenti-2",
+            "bio-body-microbes-composizione-corporea-metodi-0",
+            "bio-body-microbes-composizione-corporea-metodi-1",
+            "bio-body-microbes-composizione-corporea-metodi-2",
+            "bio-body-microbes-composizione-corporea-confronti-0",
+            "bio-body-microbes-composizione-corporea-confronti-1",
+            "bio-body-microbes-composizione-corporea-confronti-2"
+          ]
+        },
+        {
+          "topic": "Catabolismo/anabolismo, bioenergetica e nicotinammide in catabolismo/biosintesi",
+          "refs": [
+            "energia/atp",
+            "chimica-organica/redox",
+            "lipidi-sintesi/citrato",
+            "redox-integrazione/pentosi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere NADH/NADPH, compartimenti e necessità dell’accoppiamento.",
+          "questionIds": [
+            "bc-depth-chimica-organica-redox",
+            "bc-depth-chimica-organica-redox-case",
+            "bc-depth-lipidi-sintesi-citrato",
+            "bc-depth-lipidi-sintesi-citrato-case",
+            "bc-network-redox-integrazione-pentosi-0",
+            "bc-network-redox-integrazione-pentosi-1"
+          ]
+        },
+        {
+          "topic": "Riserve di nucleotidi fosfato e ciclo purinico",
+          "refs": [
+            "metabolismo-controllo/carica",
+            "nucleotidi-metabolismo/recupero"
+          ],
+          "status": "introduced",
+          "assessment": "Separare adenilato chinasi, rigenerazione di AMP e consumo netto di GTP, senza energia gratuita.",
+          "questionIds": [
+            "bc-network-nucleotidi-metabolismo-recupero-0",
+            "bc-network-nucleotidi-metabolismo-recupero-1",
+            "bio-integration-metabolismo-controllo-carica-0",
+            "bio-integration-metabolismo-controllo-carica-1",
+            "bio-integration-metabolismo-controllo-carica-2",
+            "num-energy-charge-v1"
+          ]
+        },
+        {
+          "topic": "Digestione di amido e glicogeno",
+          "refs": [
+            "digestione-turnover/glucidi"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire specificità delle amilasi, completamento all’orletto e trasporto dei prodotti.",
+          "questionIds": [
+            "bc-network-digestione-turnover-glucidi-0",
+            "bc-network-digestione-turnover-glucidi-1"
+          ]
+        },
+        {
+          "topic": "Triacilgliceroli: sintesi, degradazione, controllo e ciclo",
+          "refs": [
+            "lipidi-sintesi/classi",
+            "lipidi-ossidazione/ingresso",
+            "metabolismo-controllo/ciclo-tag"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire lipasi/aciltransferasi, regolazione della goccia, riesterificazione e flussi lordi/netti.",
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bc-depth-lipidi-ossidazione-ingresso",
+            "bc-depth-lipidi-ossidazione-ingresso-case",
+            "bio-integration-metabolismo-controllo-ciclo-tag-0",
+            "bio-integration-metabolismo-controllo-ciclo-tag-1",
+            "bio-integration-metabolismo-controllo-ciclo-tag-2",
+            "bio-applied-lipidi-sintesi-classi-extra-22",
+            "bc-full-lipidi-ossidazione-ingresso-extra-4",
+            "bc-full-lipidi-ossidazione-ingresso-extra-5",
+            "bc-full-lipidi-ossidazione-ingresso-extra-6",
+            "bc-full-lipidi-sintesi-classi-extra-7",
+            "bc-full-lipidi-sintesi-classi-extra-8",
+            "bc-full-lipidi-sintesi-classi-extra-22"
+          ]
+        },
+        {
+          "topic": "Beta-ossidazione pari/dispari, resa e controllo",
+          "refs": [
+            "lipidi-ossidazione/ingresso",
+            "lipidi-ossidazione/cicli",
+            "lipidi-ossidazione/varianti"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire spirale e cofattori, calcolare rese convenzionali e distinguere ingresso/ossidazione e costo di attivazione.",
+          "questionIds": [
+            "bc-depth-lipidi-ossidazione-ingresso",
+            "bc-depth-lipidi-ossidazione-ingresso-case",
+            "bc-depth-lipidi-ossidazione-cicli",
+            "bc-depth-lipidi-ossidazione-cicli-case",
+            "bc-depth-lipidi-ossidazione-varianti",
+            "bc-depth-lipidi-ossidazione-varianti-case",
+            "bc-full-lipidi-ossidazione-ingresso-extra-4",
+            "bc-full-lipidi-ossidazione-ingresso-extra-5",
+            "bc-full-lipidi-ossidazione-ingresso-extra-6",
+            "bc-full-lipidi-ossidazione-cicli-extra-11",
+            "bc-full-lipidi-ossidazione-varianti-extra-12",
+            "num-beta-yield-v1"
+          ]
+        },
+        {
+          "topic": "Sintesi degli acidi grassi saturi pari e controllo",
+          "refs": [
+            "lipidi-sintesi/citrato",
+            "lipidi-sintesi/palmitato"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire acetile/malonile/NADPH, ACP e cicli, distinguendo il costo della sintasi dai trasporti.",
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-citrato",
+            "bc-depth-lipidi-sintesi-citrato-case",
+            "bc-depth-lipidi-sintesi-palmitato",
+            "bc-depth-lipidi-sintesi-palmitato-case"
+          ]
+        },
+        {
+          "topic": "Chetogenesi",
+          "refs": [
+            "lipidi-ossidazione/chetoni"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere compartimento, produttore e utilizzatori e confrontare SCOT e assenza di mitocondri.",
+          "questionIds": [
+            "bc-depth-lipidi-ossidazione-chetoni",
+            "bc-depth-lipidi-ossidazione-chetoni-case"
+          ]
+        },
+        {
+          "topic": "Tappe principali della sintesi del colesterolo",
+          "refs": [
+            "lipidi-sintesi/colesterolo"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire intermedi principali e ruolo della HMG-CoA reduttasi, distinguendo la chetogenesi.",
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-colesterolo",
+            "bc-depth-lipidi-sintesi-colesterolo-case"
+          ]
+        },
+        {
+          "topic": "Zimogeni e degradazione proteica lisosomiale/non lisosomiale",
+          "refs": [
+            "digestione-turnover/proteolisi",
+            "digestione-turnover/turnover"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere attivazione proteolitica, digestione, proteasoma/autofagia e saldo di sintesi/degradazione.",
+          "questionIds": [
+            "bc-network-digestione-turnover-proteolisi-0",
+            "bc-network-digestione-turnover-proteolisi-1",
+            "bc-network-digestione-turnover-turnover-0",
+            "bc-network-digestione-turnover-turnover-1",
+            "bio-applied-digestione-turnover-turnover-extra-23"
+          ]
+        },
+        {
+          "topic": "Trasporto dell’azoto, glutammina e ciclo glucosio-alanina",
+          "refs": [
+            "amminoacidi-urea/trasporto"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire separatamente carbonio e azoto e confrontare alanina e lattato.",
+          "questionIds": [
+            "bc-depth-amminoacidi-urea-trasporto",
+            "bc-depth-amminoacidi-urea-trasporto-case"
+          ]
+        },
+        {
+          "topic": "Transaminazione e deamminazione ossidativa",
+          "refs": [
+            "amminoacidi-urea/azoto",
+            "amminoacidi-derivati/famiglie"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare accettore, PLP e ammonio, distinguendo trasferimento e liberazione dell’azoto.",
+          "questionIds": [
+            "bc-depth-amminoacidi-urea-azoto",
+            "bc-depth-amminoacidi-urea-azoto-case",
+            "bc-network-amminoacidi-derivati-famiglie-0",
+            "bc-network-amminoacidi-derivati-famiglie-1"
+          ]
+        },
+        {
+          "topic": "Ciclo dell’urea e sua regolazione",
+          "refs": [
+            "amminoacidi-urea/urea"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire cinque attività, compartimenti, origine dei due azoti, costo energetico e asse arginina/NAGS/NAG/CPS I.",
+          "questionIds": [
+            "bc-depth-amminoacidi-urea-urea",
+            "bc-depth-amminoacidi-urea-urea-case",
+            "bc-full-amminoacidi-urea-urea-extra-9",
+            "bc-full-amminoacidi-urea-urea-extra-10"
+          ]
+        },
+        {
+          "topic": "Ammine biogene",
+          "refs": [
+            "amminoacidi-derivati/ammine"
+          ],
+          "status": "introduced",
+          "assessment": "Associare precursori, decarbossilazioni e passaggi delle catecolamine senza dedurre effetti nutrizionali automatici.",
+          "questionIds": [
+            "bc-network-amminoacidi-derivati-ammine-0",
+            "bc-network-amminoacidi-derivati-ammine-1"
+          ]
+        },
+        {
+          "topic": "Catabolismo dell’eme",
+          "refs": [
+            "amminoacidi-derivati/eme"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire biliverdina/bilirubina, trasporto, coniugazione e intestino, distinguendo albumina e UGT1A1.",
+          "questionIds": [
+            "bc-network-amminoacidi-derivati-eme-0",
+            "bc-network-amminoacidi-derivati-eme-1"
+          ]
+        },
+        {
+          "topic": "Sintesi/degradazione degli acidi nucleici e delle basi puriniche/pirimidiniche",
+          "refs": [
+            "nucleotidi-metabolismo/purine",
+            "nucleotidi-metabolismo/pirimidine",
+            "nucleotidi-metabolismo/dna",
+            "nucleotidi-metabolismo/recupero",
+            "espressione/replicazione"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere de novo/recupero, ribo/deossiribo, folati, polimerizzazione e prodotti catabolici.",
+          "questionIds": [
+            "espressione-replicazione-verifica",
+            "bc-network-nucleotidi-metabolismo-purine-0",
+            "bc-network-nucleotidi-metabolismo-purine-1",
+            "bc-network-nucleotidi-metabolismo-pirimidine-0",
+            "bc-network-nucleotidi-metabolismo-pirimidine-1",
+            "bc-network-nucleotidi-metabolismo-dna-0",
+            "bc-network-nucleotidi-metabolismo-dna-1",
+            "bc-network-nucleotidi-metabolismo-recupero-0",
+            "bc-network-nucleotidi-metabolismo-recupero-1",
+            "bio-applied-espressione-replicazione-extra-0",
+            "bio-applied-espressione-replicazione-extra-1",
+            "bio-applied-espressione-replicazione-extra-2",
+            "bio-applied-espressione-replicazione-extra-3"
+          ]
+        },
+        {
+          "topic": "Fibre I/II, giunzione neuromuscolare e propagazione del potenziale",
+          "refs": [
+            "segnale-muscolare/placca",
+            "segnale-muscolare/fibre"
+          ],
+          "status": "introduced",
+          "assessment": "Separare segnali pre/postsinaptici e proprietà elettriche/contrattili/metaboliche.",
+          "questionIds": [
+            "bc-full-segnale-muscolare-placca-0",
+            "bc-full-segnale-muscolare-placca-1",
+            "bc-full-segnale-muscolare-placca-2",
+            "bc-full-segnale-muscolare-fibre-0",
+            "bc-full-segnale-muscolare-fibre-1",
+            "bc-full-segnale-muscolare-fibre-2"
+          ]
+        },
+        {
+          "topic": "Meccanismo molecolare della contrazione e fonti energetiche",
+          "refs": [
+            "segnale-muscolare/calcio",
+            "segnale-muscolare/ponti",
+            "biochimica-muscolo/substrati"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire il percorso fino a forza e recupero e distinguere calcio e ATP.",
+          "questionIds": [
+            "y1-biochimica-muscolo-substrati",
+            "bc-central-biochimica-muscolo-substrati-extra-6",
+            "bc-central-biochimica-muscolo-substrati-extra-7",
+            "bc-full-segnale-muscolare-calcio-0",
+            "bc-full-segnale-muscolare-calcio-1",
+            "bc-full-segnale-muscolare-calcio-2",
+            "bc-full-segnale-muscolare-ponti-0",
+            "bc-full-segnale-muscolare-ponti-1",
+            "bc-full-segnale-muscolare-ponti-2"
+          ]
+        },
+        {
+          "topic": "ROS, cause dello stress, perossidazione e danni a DNA/proteine",
+          "refs": [
+            "redox-integrazione/specie"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere radicale e ROS, fonti e bersagli; leggere il modello di Fenton e propagazione lipidica.",
+          "questionIds": [
+            "bc-network-redox-integrazione-specie-0",
+            "bc-network-redox-integrazione-specie-1"
+          ]
+        },
+        {
+          "topic": "Difese antiossidanti enzimatiche/non enzimatiche",
+          "refs": [
+            "redox-integrazione/difese",
+            "redox-integrazione/pentosi"
+          ],
+          "status": "introduced",
+          "assessment": "Collegare SOD, catalasi, glutatione, NADPH e difese non enzimatiche con sedi e rigenerazione.",
+          "questionIds": [
+            "bc-network-redox-integrazione-difese-0",
+            "bc-network-redox-integrazione-difese-1",
+            "bc-network-redox-integrazione-pentosi-0",
+            "bc-network-redox-integrazione-pentosi-1"
+          ]
+        },
+        {
+          "topic": "Alimenti, nutrienti, benessere e integratori",
+          "refs": [
+            "composizione-corporea/nutrienti",
+            "lipidi-azoto/nutrienti",
+            "redox-integrazione/prove"
+          ],
+          "status": "introduced",
+          "assessment": "Classificare contributi e calcolare energia convenzionale; distinguere plausibilità biochimica ed evidenza di beneficio.",
+          "questionIds": [
+            "lipidi-azoto-nutrienti-verifica",
+            "bc-network-redox-integrazione-prove-0",
+            "bc-network-redox-integrazione-prove-1",
+            "bio-body-microbes-composizione-corporea-nutrienti-0",
+            "bio-body-microbes-composizione-corporea-nutrienti-1",
+            "bio-body-microbes-composizione-corporea-nutrienti-2"
+          ]
+        },
+        {
+          "topic": "Proteine fibrose e globulari; organizzazione e denaturazione",
+          "refs": [
+            "proteine/livelli"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere tripla elica, subunità globulari e perdita della struttura nativa senza dedurre proteolisi.",
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2"
+          ]
+        },
+        {
+          "topic": "Cinetica e inibizione enzimatica",
+          "refs": [
+            "cinetica-enzimi/michaelis",
+            "cinetica-enzimi/quantita",
+            "cinetica-enzimi/inibizione",
+            "cinetica-enzimi/allosteria"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare velocità e confrontare Vmax/Km; distinguere modelli ideali e limiti dell’inferenza da un singolo parametro.",
+          "questionIds": [
+            "cinetica-enzimi-michaelis-verifica",
+            "cinetica-enzimi-quantita-verifica",
+            "cinetica-enzimi-inibizione-verifica",
+            "cinetica-enzimi-allosteria-verifica",
+            "bc-central-cinetica-enzimi-inibizione-extra-3",
+            "bc-central-cinetica-enzimi-inibizione-extra-4",
+            "bc-central-cinetica-enzimi-inibizione-extra-5",
+            "num-michaelis"
+          ]
+        },
+        {
+          "topic": "Isoenzimi",
+          "refs": [
+            "metabolismo-controllo/isoenzimi"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere stessa reazione, diversa struttura/regolazione e quantità di enzima presente.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-isoenzimi-0",
+            "bio-integration-metabolismo-controllo-isoenzimi-1",
+            "bio-integration-metabolismo-controllo-isoenzimi-2"
+          ]
+        },
+        {
+          "topic": "Vitamine e coenzimi",
+          "refs": [
+            "vitamine-coenzimi/energia",
+            "vitamine-coenzimi/azoto-carbonio",
+            "vitamine-coenzimi/un-carbonio",
+            "vitamine-coenzimi/altre"
+          ],
+          "status": "introduced",
+          "assessment": "Associare cofattori a funzioni rappresentative, distinguendo intermedi catalitici e prodotti netti.",
+          "questionIds": [
+            "bc-network-vitamine-coenzimi-energia-0",
+            "bc-network-vitamine-coenzimi-energia-1",
+            "bc-network-vitamine-coenzimi-azoto-carbonio-0",
+            "bc-network-vitamine-coenzimi-azoto-carbonio-1",
+            "bc-network-vitamine-coenzimi-un-carbonio-0",
+            "bc-network-vitamine-coenzimi-un-carbonio-1",
+            "bc-network-vitamine-coenzimi-altre-0",
+            "bc-network-vitamine-coenzimi-altre-1"
+          ]
+        },
+        {
+          "topic": "ATP e fosfocreatina",
+          "refs": [
+            "biochimica-muscolo/substrati",
+            "chimica-equilibri/energia"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare trasferimenti uno a uno e distinguere concentrazione costante da flusso nullo.",
+          "questionIds": [
+            "y1-biochimica-muscolo-substrati",
+            "bc-depth-chimica-equilibri-energia",
+            "bc-depth-chimica-equilibri-energia-case",
+            "bc-central-biochimica-muscolo-substrati-extra-6",
+            "bc-central-biochimica-muscolo-substrati-extra-7"
+          ]
+        },
+        {
+          "topic": "Carica energetica",
+          "refs": [
+            "metabolismo-controllo/carica"
+          ],
+          "status": "introduced",
+          "assessment": "Calcolare e confrontare la carica adenilica con il modello numerico parametrico.",
+          "questionIds": [
+            "bio-integration-metabolismo-controllo-carica-0",
+            "bio-integration-metabolismo-controllo-carica-1",
+            "bio-integration-metabolismo-controllo-carica-2",
+            "num-energy-charge-v1"
+          ]
+        },
+        {
+          "topic": "Glicolisi: reazioni e bilanci",
+          "refs": [
+            "glucosio-percorsi/investimento",
+            "glucosio-percorsi/rendimento"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire le due metà, distinguere Pi da ATP e contare due triosi per glucosio.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-investimento-0",
+            "bc-central-glucosio-percorsi-investimento-1",
+            "bc-central-glucosio-percorsi-investimento-2",
+            "bc-central-glucosio-percorsi-rendimento-0",
+            "bc-central-glucosio-percorsi-rendimento-1",
+            "bc-central-glucosio-percorsi-rendimento-2"
+          ]
+        },
+        {
+          "topic": "Regolazione della glicolisi",
+          "refs": [
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere F1,6BP/F2,6BP, PFK-1/PFK-2, tessuto e isoforma.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Fermentazioni lattica e alcolica",
+          "refs": [
+            "glicolisi/lattato",
+            "metabolismo-controllo/fermentazione"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire carbonio e riciclo di NAD+, senza usare il lattato come prova univoca di assenza di O2.",
+          "questionIds": [
+            "glicolisi-lattato-verifica",
+            "bio-integration-metabolismo-controllo-fermentazione-0",
+            "bio-integration-metabolismo-controllo-fermentazione-1",
+            "bio-integration-metabolismo-controllo-fermentazione-2"
+          ]
+        },
+        {
+          "topic": "Ciclo di Cori",
+          "refs": [
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare guadagno periferico e spesa epatica e calcolare il saldo del circuito.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Gluconeogenesi e regolazione",
+          "refs": [
+            "glucosio-percorsi/bypass",
+            "glucosio-percorsi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Identificare quattro attività per tre aggiramenti, compartimenti e costi ATP/GTP/NADH.",
+          "questionIds": [
+            "bc-central-glucosio-percorsi-bypass-0",
+            "bc-central-glucosio-percorsi-bypass-1",
+            "bc-central-glucosio-percorsi-bypass-2",
+            "bc-central-glucosio-percorsi-controllo-0",
+            "bc-central-glucosio-percorsi-controllo-1",
+            "bc-central-glucosio-percorsi-controllo-2"
+          ]
+        },
+        {
+          "topic": "Glicogenosintesi",
+          "refs": [
+            "glicogeno-pentosi/sintesi"
+          ],
+          "status": "introduced",
+          "assessment": "Riconoscere donatore attivato e attività ramificante.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-sintesi",
+            "bc-depth-glicogeno-pentosi-sintesi-case"
+          ]
+        },
+        {
+          "topic": "Glicogenolisi e regolazione",
+          "refs": [
+            "glicogeno-pentosi/demolizione",
+            "glicogeno-pentosi/controllo"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere prodotti, resa da residuo interno e controllo della fosforilazione.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-demolizione",
+            "bc-depth-glicogeno-pentosi-demolizione-case",
+            "bc-depth-glicogeno-pentosi-controllo",
+            "bc-depth-glicogeno-pentosi-controllo-case"
+          ]
+        },
+        {
+          "topic": "Via dei pentosi fosfato",
+          "refs": [
+            "glicogeno-pentosi/pentosi"
+          ],
+          "status": "introduced",
+          "assessment": "Contare NADPH/CO2 e conservare carbonio nelle conversioni non ossidative.",
+          "questionIds": [
+            "bc-depth-glicogeno-pentosi-pentosi",
+            "bc-depth-glicogeno-pentosi-pentosi-case"
+          ]
+        },
+        {
+          "topic": "Decarbossilazione ossidativa del piruvato",
+          "refs": [
+            "ossidazione-controllo/pdh"
+          ],
+          "status": "introduced",
+          "assessment": "Separare E1/E2/E3, cinque cofattori e prodotto ridotto netto.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-pdh-0",
+            "bc-central-ossidazione-controllo-pdh-1",
+            "bc-central-ossidazione-controllo-pdh-2"
+          ]
+        },
+        {
+          "topic": "Ciclo di Krebs: reazioni e bilanci",
+          "refs": [
+            "ossidazione-controllo/krebs"
+          ],
+          "status": "introduced",
+          "assessment": "Ricostruire intermedi e rese senza contare PDH due volte o generare ossalacetato netto dall’acetile.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-krebs-0",
+            "bc-central-ossidazione-controllo-krebs-1",
+            "bc-central-ossidazione-controllo-krebs-2"
+          ]
+        },
+        {
+          "topic": "Regolazione di PDH e ciclo",
+          "refs": [
+            "ossidazione-controllo/regolazione"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire chinasi/fosfatasi, stato redox, domanda energetica e limiti del flusso.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-regolazione-0",
+            "bc-central-ossidazione-controllo-regolazione-1",
+            "bc-central-ossidazione-controllo-regolazione-2"
+          ]
+        },
+        {
+          "topic": "Anaplerosi e trasportatori mitocondriali",
+          "refs": [
+            "mitocondri-navette/anaplerosi",
+            "mitocondri-navette/trasportatori"
+          ],
+          "status": "introduced",
+          "assessment": "Distinguere rifornimento del pool, trasporto ADP/ATP e disponibilità dei substrati.",
+          "questionIds": [
+            "bc-detail2-mitocondri-navette-trasportatori-0",
+            "bc-detail2-mitocondri-navette-trasportatori-1",
+            "bc-detail2-mitocondri-navette-anaplerosi-0",
+            "bc-detail2-mitocondri-navette-anaplerosi-1"
+          ]
+        },
+        {
+          "topic": "Catena respiratoria e fosforilazione ossidativa",
+          "refs": [
+            "ossidazione-controllo/accoppiamento"
+          ],
+          "status": "introduced",
+          "assessment": "Confrontare consumo O2, gradiente e ATP; distinguere blocco della catena, ATP sintasi e disaccoppiamento.",
+          "questionIds": [
+            "bc-central-ossidazione-controllo-accoppiamento-0",
+            "bc-central-ossidazione-controllo-accoppiamento-1",
+            "bc-central-ossidazione-controllo-accoppiamento-2"
+          ]
+        },
+        {
+          "topic": "Navette e bilancio energetico",
+          "refs": [
+            "mitocondri-navette/malato",
+            "mitocondri-navette/glicerofosfato",
+            "mitocondri/bilancio"
+          ],
+          "status": "introduced",
+          "assessment": "Seguire il riciclo del NAD+ citosolico, confrontare ingresso al complesso I o a Q e rese convenzionali.",
+          "questionIds": [
+            "mitocondri-bilancio-verifica",
+            "bc-detail2-mitocondri-navette-malato-0",
+            "bc-detail2-mitocondri-navette-malato-1",
+            "bc-detail2-mitocondri-navette-glicerofosfato-0",
+            "bc-detail2-mitocondri-navette-glicerofosfato-1",
+            "num-krebs"
+          ]
+        }
+      ]
+    }
+  ]
+}

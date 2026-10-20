@@ -1,0 +1,52 @@
+import {createRequire} from 'node:module';
+import {readFile,mkdir} from 'node:fs/promises';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+import {build,outputFile} from '../scripts/build.mjs';
+import {STORAGE_KEY} from '../lib/state.js';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+await build();
+const course=JSON.parse(await readFile(new URL('../data/course.json',import.meta.url),'utf8'));
+const exercises=JSON.parse(await readFile(new URL('../data/exercises.json',import.meta.url),'utf8'));
+const url=pathToFileURL(outputFile).href;
+const artifacts=fileURLToPath(new URL('../.local/',import.meta.url));await mkdir(artifacts,{recursive:true});
+const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_EXECUTABLE?{executablePath:process.env.CHROMIUM_EXECUTABLE}:{})});
+try {
+ const context=await browser.newContext({offline:true,viewport:{width:1280,height:900}}),page=await context.newPage();
+ const network=[],errors=[];
+ context.on('request',r=>{if(/^https?:/.test(r.url()))network.push(r.url());});
+ page.on('pageerror',e=>errors.push(e.message));
+ for(const figure of course.figures){
+  await page.goto(`${url}#figure/${figure.id}`);
+  await page.locator('.anatomy-figure img').waitFor();
+  await page.waitForFunction(()=>{const img=document.querySelector('.anatomy-figure img');return img?.complete && img.naturalWidth>0;});
+  assert.ok((await page.locator('.anatomy-figure img').getAttribute('src')).startsWith(`data:image/${figure.file.endsWith('.png')?'png':'jpeg'};base64,`));
+  assert.ok((await page.locator('.figure-credit').textContent()).includes(figure.license));
+  assert.ok((await page.locator('figcaption').textContent()).includes(figure.guide));
+ }
+ await page.goto(`${url}#lesson/anatomia-atlante`);
+ await page.getByRole('button',{name:'Metti in pratica questa lezione'}).click();
+ await page.locator('#answer-form').waitFor();
+ const state=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)),STORAGE_KEY);
+ const q=exercises.questions.find(q=>q.id===state.active.items[0].qid);
+ assert.ok(q.figureId);
+ await page.locator('a[href$="/test"]').click();
+ assert.ok(!(await page.locator('figcaption').textContent()).includes(course.figures.find(f=>f.id===q.figureId).guide));
+ await page.getByRole('link',{name:'Torna all’esercizio'}).click();
+ await page.locator(`input[name=answer][value="${q.options.find(o=>o.id!==q.answer).id}"]`).check();
+ await page.getByRole('button',{name:'Verifica la risposta'}).click();
+ await page.locator('.inline-lesson .anatomy-figure').waitFor();
+ assert.ok((await page.locator('.inline-lesson').textContent()).includes(course.figures.find(f=>f.id===q.figureId).guide));
+ await page.screenshot({path:`${artifacts}/atlante-correzione.png`,fullPage:true});
+ await page.goto(`${url}#print/anatomia-atlante`);
+ assert.equal(await page.locator('.question .anatomy-figure').count(),12);
+ await page.setViewportSize({width:390,height:844});
+ await page.goto(`${url}#lesson/anatomia-neuro-dettagli`);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.goto(`${url}#figure/willis`);
+ await page.waitForFunction(()=>{const img=document.querySelector('.anatomy-figure img');return img?.complete && img.naturalWidth>0;});
+ await page.screenshot({path:`${artifacts}/atlante-mobile.png`,fullPage:true});
+ assert.deepEqual(network,[]);assert.deepEqual(errors,[]);
+ console.log('Atlas browser OK: all images embedded/offline, attribution, enlargement, visual questions and internal remediation, print and mobile.');
+} finally {await browser.close();}

@@ -1,0 +1,12 @@
+/studio/AGENTS.md
+/studio/MANUTENZIONE.md
+.local/
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+*.log
+*backup*.json
+progressi*.json
+/studio/pronto/

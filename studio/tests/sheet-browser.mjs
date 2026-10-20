@@ -1,0 +1,74 @@
+import {createRequire} from 'node:module';
+import {readFile,mkdir} from 'node:fs/promises';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+import {build,outputFile} from '../scripts/build.mjs';
+import {STORAGE_KEY} from '../lib/state.js';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+await build();
+const course=JSON.parse(await readFile(new URL('../data/course.json',import.meta.url),'utf8'));
+const url=pathToFileURL(outputFile).href,artifacts=fileURLToPath(new URL('../.local/',import.meta.url));
+await mkdir(artifacts,{recursive:true});
+const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_EXECUTABLE?{executablePath:process.env.CHROMIUM_EXECUTABLE}:{})});
+try{
+ const context=await browser.newContext({offline:true,viewport:{width:1200,height:900}});
+ const page=await context.newPage(),errors=[],network=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ context.on('request',r=>{if(/^https?:/.test(r.url()))network.push(r.url());});
+ const state=()=>page.evaluate(key=>JSON.parse(localStorage.getItem(key)),STORAGE_KEY);
+ await page.goto(`${url}#lesson/informatica-laboratorio`);
+ assert.equal(await page.locator('a[href^="#lab/"]').count(),3);
+ for(const lab of course.workbooks){
+  await page.goto(`${url}#lab/${lab.id}`);await page.locator('#sheet-lab').waitFor();
+  for(const task of lab.tasks)await page.locator(`[data-sheet-cell="${task.cell}"]`).fill(task.formula);
+  if(lab.copy.from!==lab.copy.to){
+    await page.locator(`[data-sheet-cell="${lab.copy.to}"]`).fill('');
+    await page.getByRole('button',{name:'Copia verso il basso',exact:true}).click();
+    assert.equal(await page.locator(`[data-sheet-cell="${lab.copy.to}"]`).inputValue(),lab.tasks.find(t=>t.cell===lab.copy.to).formula);
+  }
+  await page.getByRole('button',{name:'Verifica il foglio',exact:true}).click();
+  await page.locator('#sheet-feedback h2').waitFor();
+  assert.match(await page.locator('#sheet-feedback h2').textContent(),new RegExp(`${lab.tasks.length}/${lab.tasks.length}`));
+  assert.equal((await state()).labs[lab.id].checks.at(-1).correct,lab.tasks.length);
+ }
+ await page.goto(`${url}#lab/foglio-sedute`);
+ await page.locator('[data-sheet-cell="D6"]').fill('=380');
+ await page.getByRole('button',{name:'Verifica il foglio',exact:true}).click();
+ assert.match(await page.locator('#sheet-feedback').textContent(),/cambiano gli ingressi/);
+ await page.getByRole('button',{name:'Aiuto per D6',exact:true}).click();
+ assert.ok(await page.locator('#sheet-help .inline-lesson .example').isVisible());
+ assert.equal((await state()).labs['foglio-sedute'].assisted,true);
+ await page.locator('#sheet-report').fill('Tre sedute, 90 minuti. Distinguo media semplice e ponderata.');
+ await page.locator('[data-sheet-cell="D6"]').fill('=SOMMA(D2:D4)');
+ await page.getByRole('button',{name:'Verifica il foglio',exact:true}).click();
+ assert.equal((await state()).labs['foglio-sedute'].checks.at(-1).assisted,true);
+ await page.reload();
+ assert.equal(await page.locator('[data-sheet-cell="D6"]').inputValue(),'=SOMMA(D2:D4)');
+ assert.match(await page.locator('#sheet-report').inputValue(),/90 minuti/);
+ await page.setViewportSize({width:390,height:844});
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ assert.ok(await page.locator('.sheet-scroll').evaluate(e=>e.scrollWidth>e.clientWidth));
+ await page.screenshot({path:`${artifacts}/foglio-mobile.png`});
+ await page.goto(`${url}#results`);assert.ok(await page.getByRole('heading',{name:'Laboratori di Informatica'}).isVisible());
+ await page.goto(`${url}#settings`);
+ const pending=page.waitForEvent('download');await page.getByRole('button',{name:'Esporta backup JSON'}).click();
+ const download=await pending;const stream=await download.createReadStream(),chunks=[];
+ for await(const chunk of stream)chunks.push(chunk);
+ const backup=Buffer.concat(chunks);
+ const fresh=await browser.newContext({offline:true}),restored=await fresh.newPage();
+ await restored.goto(`${url}#settings`);
+ await restored.locator('#import').setInputFiles({name:'laboratorio-test.json',mimeType:'application/json',buffer:backup});
+ await restored.getByText('Backup importato.',{exact:false}).waitFor();
+ await restored.goto(`${url}#lab/foglio-sedute`);
+ assert.equal(await restored.locator('[data-sheet-cell="D6"]').inputValue(),'=SOMMA(D2:D4)');
+ assert.match(await restored.locator('#sheet-report').inputValue(),/90 minuti/);
+ await restored.getByRole('button',{name:'Verifica il foglio',exact:true}).click();
+ assert.match(await restored.locator('#sheet-feedback h2').textContent(),/7\/7/);
+ await fresh.close();
+ await page.goto(`${url}#print/informatica`);
+ assert.equal(await page.locator('.sheet-print').count(),6);
+ assert.equal(await page.locator('.print-solutions .sheet-print').count(),3);
+ assert.deepEqual(errors,[]);assert.deepEqual(network,[]);
+ console.log('Laboratorio browser OK: 21 formule, copia relativa/assoluta, correzioni su variazioni, aiuto, backup ripristinato, mobile, stampa e zero rete.');
+}finally{await browser.close();}

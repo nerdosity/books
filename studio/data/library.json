@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "checkedOn": "2026-10-20",
+  "scope": "Mappa ricavata da indici e schede pubbliche degli editori. Non equivale al syllabus di uno specifico ateneo. Le lezioni dell'app sono originali e introduttive; non sono trascrizioni o riassunti integrali dei manuali.",
+  "books": [
+    {
+      "id": "pierantoni",
+      "title": "Fondamenti di Biologia e Genetica",
+      "authors": "Pierantoni, Cobellis, Meccariello, Chianese",
+      "edition": "EdiSES, I edizione, 2019",
+      "url": "https://www.edises.it/default/ebook-pierantoni-fondamenti-di-biologia.html",
+      "evidence": "Indice pubblico dell'editore.",
+      "topics": ["Composizione chimica e organizzazione della cellula", "Segnali cellulari e informazione genetica", "Ciclo cellulare, riproduzione e virus", "Ereditarietà, cromosomi e mutazioni", "Biologia del muscolo scheletrico ed evoluzione"],
+      "note": "Nella foto questo è il titolo scritto, ma la copertina mostra Biologia e Genetica: sono due libri distinti. Questo volume include esplicitamente il muscolo scheletrico.",
+      "subject": "biologia"
+    },
+    {
+      "id": "deleo",
+      "title": "Biologia e Genetica",
+      "authors": "De Leo, Fasano, Ginelli",
+      "edition": "EdiSES, IV edizione, 2020; nella foto compare una copertina di un'altra edizione",
+      "url": "https://www.edises.it/default/ebook-fasano-biologia-e-genetica-iv-ed.html",
+      "evidence": "Indice pubblico dell'editore della IV edizione.",
+      "topics": ["Basi molecolari e organizzazione biologica", "Mitocondri, flusso dell'informazione e genomica", "Traffico intracellulare, ciclo e riproduzione", "Mutazioni, genetica generale e umana"],
+      "note": "Corrisponde al titolo visibile sulla copertina della foto, non al titolo della didascalia. L'indice consultato non va attribuito automaticamente all'edizione fotografata.",
+      "subject": "biologia"
+    },
+    {
+      "id": "abali",
+      "title": "Le basi della biochimica",
+      "authors": "Abali, Cline, Franklin, Viselli",
+      "edition": "Zanichelli, III edizione italiana, 2023",
+      "url": "https://www.zanichelli.it/ricerca/prodotti/le-basi-della-biochimica-abali-cline-franklin-viselli",
+      "evidence": "Titolo, autori ed edizione confermati nel portale di biochimica dell'editore; l'indice dettagliato non è stato acquisito.",
+      "topics": ["Biochimica generale e umana", "Proteine e metabolismo: aree da dettagliare sull'indice dell'edizione posseduta"],
+      "note": "La mappa operativa di biochimica nell'app è una proposta didattica: non viene presentata come trascrizione dell'indice di questo libro.",
+      "subject": "biochimica"
+    },
+    {
+      "id": "lehninger",
+      "title": "Introduzione alla biochimica di Lehninger",
+      "authors": "Nelson, Cox",
+      "edition": "Zanichelli, VII edizione, 2023",
+      "url": "https://www.zanichelli.it/ricerca/prodotti/introduzione-alla-biochimica-di-lehninger-nelson-cox-002?hl=biochimica",
+      "evidence": "Scheda e prefazione ufficiali consultate; indice dettagliato da acquisire.",
+      "topics": ["Fondamenti molecolari del funzionamento cellulare", "Principi della biochimica e collegamenti fra processi"],
+      "note": "È Introduzione alla biochimica, distinto da I principi di biochimica. La settima edizione dell'Introduzione non è la settima edizione dei Principi.",
+      "subject": "biochimica"
+    },
+    {
+      "id": "martini",
+      "title": "Anatomia umana",
+      "authors": "Martini, Timmons, Tallitsch nella foto; Martini, Tallitsch, Nath nella scheda più recente",
+      "edition": "Indice consultato: EdiSES VII/2019; anteprima Martini–Timmons–Tallitsch: V/2012",
+      "url": "https://www.edises.it/default/martini-anatomia-umana-7ed.html",
+      "evidence": "Indice pubblico della VII edizione e anteprima ufficiale della V.",
+      "topics": ["Cellule, tessuti, tegumento", "Scheletro, articolazioni, muscoli e anatomia di superficie", "Tessuto nervoso, midollo, encefalo, vie e sensi", "Sistemi endocrino, cardiovascolare e linfatico", "Apparati respiratorio, digerente, urinario, genitale e sviluppo"],
+      "note": "La diversa terna di autori dipende dall'edizione. Evitiamo numeri di pagina finché non conosciamo quella usata nel corso.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "saladin",
+      "title": "Anatomia umana",
+      "authors": "Kenneth S. Saladin",
+      "edition": "Piccin; consultata scheda II edizione italiana 2017, reperita anche scheda III",
+      "url": "https://piccin.it/it/anatomia-umana/2287-anatomia-umana-9788829928323.html",
+      "evidence": "Presentazione dell'editore, non indice completo della copertina fotografata.",
+      "topics": ["Anatomia dei sistemi e apparati", "Rapporti fra struttura, funzione, biomeccanica e applicazioni cliniche"],
+      "note": "Alternativa generale a Martini; la foto mostra la III edizione. Non confondere con Anatomia & Fisiologia dello stesso autore.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "netter",
+      "title": "Atlante di neuroscienze di Netter",
+      "authors": "Felten, Shetty (II); Felten, O'Banion, Maida (IV)",
+      "edition": "Indice: Elsevier II/2011; copertina e scheda Edra: IV/2022",
+      "url": "https://shop.elsevier.com/books/atlante-di-neuroscienze-di-netter/felten/978-88-214-3177-7",
+      "evidence": "Indice pubblico II edizione; scheda Edra IV verificata separatamente.",
+      "topics": ["Organizzazione nervosa, neuroni, meningi e vascolarizzazione", "Neuroanatomia delle regioni del sistema nervoso", "Sistemi sensitivi, motori, autonomi e limbici"],
+      "note": "Foto e didascalia mescolano edizioni diverse. Il volume è un supporto visivo: questa app non riproduce le tavole Netter.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "palastanga",
+      "title": "Anatomia del movimento umano. Struttura e funzione",
+      "authors": "Palastanga, Field, Soames",
+      "edition": "Foto: V italiana; fonte primaria accessibile: Anatomy and Human Movement, II inglese",
+      "url": "https://shop.elsevier.com/books/anatomy-and-human-movement/palastanga/978-0-7506-0970-8",
+      "evidence": "Indice pubblico dell'edizione inglese precedente; indice italiano esatto non verificato presso l'editore.",
+      "topics": ["Ossa, muscoli e articolazioni degli arti", "Innervazione e vascolarizzazione regionali", "Testa, collo e tronco", "Sistema nervoso e rapporti con il movimento"],
+      "note": "Usato per individuare l'orientamento funzionale, non per sostenere la corrispondenza dei capitoli italiani.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "bandiera",
+      "title": "Anatomia umana con approfondimenti di Anatomia Funzionale",
+      "authors": "Bandiera e altri, a cura di Elena Bianca Donetti",
+      "edition": "Piccin, 2025",
+      "url": "https://www.piccin.it/en/anatomia-umana/3074-anatomia-umana-con-approfondimenti-di-anatomia-funzionale.html",
+      "evidence": "Scheda e prefazione dell'editore, indice completo non acquisito.",
+      "topics": ["Anatomia umana con approfondimenti funzionali"],
+      "note": "La presentazione è rivolta anche alle difficoltà dello studio individuale. Per una mappa capitolo per capitolo serve l'indice.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "triennali",
+      "title": "Anatomia per le lauree triennali e magistrali",
+      "authors": "AA.VV.",
+      "edition": "Idelson Gnocchi, 2023",
+      "url": "https://www.idelsongnocchi.com/shop/prodotto/anatomia-per-le-lauree-triennali-e-magistrali/",
+      "evidence": "Indice pubblico dell'editore.",
+      "topics": ["Istologia, cellula, tessuti e cute", "Apparato locomotore", "Circolazione sanguigna e linfatica", "Apparati viscerali, sistema endocrino, nervoso e organi di senso"],
+      "note": "Il testo della foto indica questo titolo, ma la copertina mostra Seeley–Stephens–Tate: non sono lo stesso libro.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "seeley",
+      "title": "Seeley Anatomia umana",
+      "authors": "Seeley, VanPutte, Regan, Russo nell'edizione consultata",
+      "edition": "Idelson Gnocchi, V italiana; copertina fotografata più vecchia",
+      "url": "https://www.idelsongnocchi.com/shop/prodotto/anatomia-umana-cenni-istologia-fisiologia-clinica/",
+      "evidence": "Indice pubblico dell'editore dell'edizione reperita.",
+      "topics": ["Tessuti, scheletro, articolazioni e muscoli", "Sistema nervoso e integrazione delle funzioni", "Sistema endocrino e apparati viscerali", "Sviluppo, accrescimento e invecchiamento"],
+      "note": "Registrato separatamente per risolvere la discrepanza fra copertina e titolo nelle foto.",
+      "subject": "anatomia"
+    },
+    {
+      "id": "halliday",
+      "title": "Fondamenti di fisica",
+      "authors": "Halliday, Resnick, Walker",
+      "edition": "Indice: VII/2015; esistenza VIII italiana 2023 verificata",
+      "url": "https://www.zanichelli.it/ricerca/prodotti/fondamenti-di-fisica-volume-unico?hl=e-book",
+      "evidence": "Indice pubblico dell'editore; la foto non indica l'edizione.",
+      "topics": ["Misure, vettori, cinematica e dinamica", "Energia, quantità di moto, rotazione ed equilibrio", "Fluidi, oscillazioni, onde e termodinamica", "Elettricità, magnetismo e ottica"],
+      "note": "Il libro copre molto più del solo movimento umano: la selezione per Scienze motorie dipende dal syllabus.",
+      "subject": "fisica"
+    },
+    {
+      "id": "giancoli",
+      "title": "Fisica: principi e applicazioni",
+      "authors": "Douglas C. Giancoli",
+      "edition": "CEA / Zanichelli; titolo preciso dell'adozione da confermare",
+      "url": "https://www.zanichelli.it/ricerca/prodotti/fisica-principi-e-applicazioni",
+      "evidence": "Indice pubblico dell'editore di un possibile volume corrispondente alla citazione generica «Fisica».",
+      "topics": ["Meccanica, energia, equilibrio e fluidi", "Onde, suono e termodinamica", "Elettricità, circuiti, magnetismo e ottica"],
+      "note": "Giancoli ha più manuali: Fisica 1, Fisica 2 e altri. Senza ISBN non è possibile scegliere con certezza quello della foto.",
+      "subject": "fisica"
+    }
+  ],
+  "additionalSources": [
+    {"title": "Netter IV edizione — scheda Edra", "url": "https://shop.edraspa.it/universita-medicina/books/atlante-di-neuroscienze-di-netter"},
+    {"title": "Martini–Timmons–Tallitsch V — anteprima EdiSES", "url": "https://www.edises.it/demo/1000000625/files/assets/common/downloads/publication.pdf"},
+    {"title": "Biochimica — portale ufficiale Zanichelli", "url": "https://online.universita.zanichelli.it/biochimica/biochimica-generale/"},
+    {"title": "Lehninger VII — prefazione ufficiale", "url": "https://staticmy.zanichelli.it/catalogo/assets/a01.9788808899736.pdf"}
+  ]
+}
