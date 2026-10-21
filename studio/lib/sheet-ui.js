@@ -1,13 +1,15 @@
 import {evaluateCell,gradeSheet,copyFormula,sheetRange} from './sheet.js';
+import {dataLabPage,dataLabAction,dataLabPrint} from './data-lab-ui.js';
 const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const format=result=>result.error || (result.value===null?'vuota':typeof result.value==='number'
   ?new Intl.NumberFormat('it-IT',{maximumFractionDigits:4}).format(result.value):String(result.value));
 export function newSheetRecord() {return {cells:{},report:'',assisted:false,checks:[]};}
 export function sheetLinks(labs) {
-  return labs.length?`<section class="callout no-print"><h2>Laboratori pratici</h2><p>Scrivi formule nelle celle, copia i riferimenti e verifica i risultati. Il lavoro entra nel backup dei progressi.</p><ul>${labs.map(l=>`<li><a href="#lab/${l.id}">${escape(l.title)}</a></li>`).join('')}</ul></section>`:'';
+  return labs.length?`<section class="callout no-print"><h2>Laboratori pratici</h2><p>Applica i passaggi studiati e verifica i risultati nella pagina. Il lavoro entra nel backup dei progressi.</p><ul>${labs.map(l=>`<li><a href="#lab/${l.id}">${escape(l.title)}</a></li>`).join('')}</ul></section>`:'';
 }
 export function sheetPage(lab,record,helpHTML) {
   if(!lab)return '<h1>Laboratorio non trovato</h1><a href="#exam/informatica">Torna a Informatica</a>';
+  if(lab.kind==='data')return dataLabPage(lab,record||newSheetRecord());
   const r=record||newSheetRecord(),grid={...lab.cells,...Object.fromEntries(lab.tasks.map(t=>[t.cell,r.cells[t.cell]||'']))},last=r.checks.at(-1);
   return `<div id="sheet-lab" data-lab="${lab.id}"><a href="#lesson/${lab.unit}">← Lezione e spiegazioni</a>
     <header class="page-heading"><span class="eyebrow">INFORMATICA · LABORATORIO LOCALE</span><h1>${escape(lab.title)}</h1><p>${escape(lab.description)}</p></header>
@@ -39,7 +41,7 @@ export function refreshSheet(lab,record) {
   }
 }
 export function sheetPrint(labs,solutions=false) {
-  return labs.map(l=>`<article class="lesson sheet-print"><h2>Laboratorio: ${escape(l.title)}</h2>${solutions?
+  return labs.map(l=>l.kind==='data'?dataLabPrint(l,solutions):`<article class="lesson sheet-print"><h2>Laboratorio: ${escape(l.title)}</h2>${solutions?
     `<ol>${l.tasks.map(t=>`<li>${t.cell}: <code>${escape(t.formula)}</code> — ${escape(t.explanation)}</li>`).join('')}</ol><h3>Report: esempio ragionato</h3><p>${escape(l.report.model)}</p>`:
     `<p>${escape(l.description)}</p><div class="table-wrap"><table><thead><tr><th>Riga</th>${Array.from({length:l.columns},(_,c)=>`<th>${String.fromCharCode(65+c)}</th>`).join('')}</tr></thead><tbody>${Array.from({length:l.rows},(_,i)=>`<tr><th>${i+1}</th>${Array.from({length:l.columns},(_,c)=>`<td>${escape(l.cells[String.fromCharCode(65+c)+(i+1)]||'________')}</td>`).join('')}</tr>`).join('')}</tbody></table></div><ol>${l.tasks.map(t=>`<li>${t.cell}: ${escape(t.prompt)}</li>`).join('')}</ol><p>${escape(l.report.prompt)}</p><p>Il tuo report: __________________________________________________</p>`}</article>`).join('');
 }
@@ -47,7 +49,7 @@ export function sheetProgress(labs,records={}) {
   const started=labs.filter(l=>records[l.id]);
   return started.length?`<section><h2>Laboratori di Informatica</h2><ul>${started.map(l=>{
     const r=records[l.id],last=r.checks.at(-1);
-    return `<li><a href="#lab/${l.id}">${escape(l.title)}</a>: ${last?`${last.correct}/${last.total} celle nell’ultima verifica · ${last.assisted?'assistita':'senza aiuto'}`:'lavoro iniziato, ancora da verificare'}</li>`;
+    return `<li><a href="#lab/${l.id}">${escape(l.title)}</a>: ${last?`${last.correct}/${last.total} ${l.kind==='data'?'operazioni':'celle'} nell’ultima verifica · ${last.assisted?'assistita':'senza aiuto'}`:'lavoro iniziato, ancora da verificare'}</li>`;
   }).join('')}</ul></section>`:'';
 }
 export function fillSheetDown(lab,record,from,to) {
@@ -63,6 +65,7 @@ export function fillSheetDown(lab,record,from,to) {
   refreshSheet(lab,record);
 }
 export function sheetAction(action,lab,record,helpHTML,ref) {
+  if(lab.kind==='data'&&['sheet-check','sheet-solution'].includes(action)){dataLabAction(action,lab,record);return;}
   if(action==='sheet-help'){
     if(!lab.tasks.some(t=>t.help===ref))return;
     record.assisted=true;document.getElementById('sheet-help').innerHTML=helpHTML(ref);

@@ -1,5 +1,6 @@
 import { generators, makeQuestion, checkAnswer } from './engine.js';
 import { gradeSheet } from './sheet.js';
+import { validateDataLab } from './data-lab.js';
 import { PHYSICS_DEMOS } from './physics-demos.js';
 import { CHEMISTRY_DIAGRAMS } from './chemistry-diagrams.js';
 import { BIOLOGY_DIAGRAMS } from './biology-diagrams.js';
@@ -39,6 +40,10 @@ export function validateContent(course, exercises, library) {
   const references = new Set(course.units.flatMap(u => u.sections.map(s => `${u.id}/${s.id}`)));
   const workbooks=unique(course.workbooks||[],'laboratori');
   for(const lab of course.workbooks||[]){
+    if(lab.kind==='data'){
+      check(units.has(lab.unit),`${lab.id}: lezione del laboratorio assente`);
+      errors.push(...validateDataLab(lab,references));continue;
+    }
     check(units.has(lab.unit)&&lab.title&&lab.description&&Number.isInteger(lab.rows)&&lab.rows>0&&lab.rows<=99
       &&Number.isInteger(lab.columns)&&lab.columns>0&&lab.columns<=26,`${lab.id}: struttura laboratorio non valida`);
     const inGrid=address=>/^[A-Z][1-9][0-9]?$/.test(address)&&address.charCodeAt(0)-65<lab.columns&&Number(address.slice(1))<=lab.rows;
@@ -96,6 +101,16 @@ export function validateContent(course, exercises, library) {
     }
   }
   for (const u of course.units) check(assigned.has(u.id), `${u.id}: lezione non associata a un esame`);
+  unique(course.writtenPapers||[],'prove scritte');
+  for(const p of course.writtenPapers||[]){
+    const exam=course.exams.find(e=>e.id===p.exam),examUnits=new Set(exam?.modules.flatMap(m=>m.unitIds)||[]);
+    check(exam&&sources.has(p.sourceId)&&p.title&&p.instructions&&p.referenceYear&&Number.isInteger(p.minutes)&&p.minutes>0,`${p.id}: prova scritta incompleta`);
+    check(Array.isArray(p.questions)&&p.questions.length>0&&p.questions.length<=100,`${p.id}: domande scritte assenti`);
+    unique(p.questions||[],`${p.id}: domande scritte`);
+    for(const q of p.questions||[])check(q.prompt&&q.answer&&['istologia','locomotore','organi'].includes(q.part)
+      &&Array.isArray(q.criteria)&&q.criteria.length>=2&&q.criteria.every(x=>typeof x==='string'&&x.trim())
+      &&Array.isArray(q.refs)&&q.refs.length>0&&q.refs.every(ref=>references.has(ref)&&examUnits.has(ref.split('/')[0])),`${p.id}/${q.id}: risposta scritta o aiuto incompleto`);
+  }
   const all = [...exercises.questions, ...exercises.templates];
   unique(all, 'esercizi');
   for (const e of course.exams || []) {

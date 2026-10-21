@@ -4,10 +4,13 @@ import { validateContent } from './lib/validate.js';
 import { unitsForExam, examsForUnit, selectDefinitions, programmeQuestions } from './lib/curriculum.js';
 import { audioSettingsHTML, audioPanelHTML, handleAudioClick, handleAudioSubmit, disposeAudioPlayers, bindAudioSettingsForm } from './lib/audio-ui.js';
 import { newSheetRecord, sheetLinks, sheetPage, sheetAction, refreshSheet, fillSheetDown, sheetPrint, sheetProgress } from './lib/sheet-ui.js';
+import { updateDataLab } from './lib/data-lab-ui.js';
 import { physicsDemoHTML, updatePhysicsDemo } from './lib/physics-demos.js';
 import { chemistryDiagramHTML } from './lib/chemistry-diagrams.js';
 import { biologyDiagramHTML } from './lib/biology-diagrams.js';
 import { vascularDiagramHTML } from './lib/vascular-diagrams.js';
+import { newWrittenRecord, writeDraft, revealWritten, rateWritten } from './lib/written.js';
+import { writtenLinks, writtenPage, writtenSummaryHTML, writtenPrintSolutions } from './lib/written-ui.js';
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -36,6 +39,12 @@ function save() {
   catch { storageBlocked = true; notice('Il browser non riesce a salvare. Puoi continuare in questa scheda: esporta un backup prima di chiuderla.'); }
 }
 function unitById(id) { return course.units.find(u => u.id === id); }
+function currentWritten(){
+  const id=$('#written-paper')?.dataset.paper,paper=course.writtenPapers?.find(p=>p.id===id);
+  if(!paper)return null;
+  state.written??={};state.written[id]??=newWrittenRecord();
+  return {paper,record:state.written[id]};
+}
 function subjectById(id) { return course.subjects.find(s => s.id === id); }
 function currentSheet(){
   const lab=course.workbooks?.find(l=>l.id===document.getElementById('sheet-lab')?.dataset.lab);
@@ -84,16 +93,16 @@ function oralHTML(unit, solution = false) {
 }
 function sourceHTML(unit) {
   const sources = (unit.sources || []).map(id => course.sources.find(s => s.id === id));
-  return sources.length ? `<details class="lesson-sources"><summary>Fonti aperte e approfondimenti facoltativi</summary><p class="reading-note">Il testo da studiare è tutto in questa pagina. I collegamenti richiedono Internet e servono per consultazione e confronto; non sono una lista di acquisti.</p><ul>${sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>` : '';
+  return sources.length ? `<details class="lesson-sources editorial"><summary>Fonti e approfondimenti</summary><p class="reading-note">Riferimenti facoltativi; le spiegazioni da studiare sono in questa pagina.</p><ul>${sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>` : '';
 }
 function examPendingHTML(exam) {
   const note=course.checkpoint?.examNotes?.find(n=>n.id===exam.id);
-  return note ? `<div class="exam-pending"><span class="tag orange">${esc(note.label)}</span><p class="reading-note">${esc(note.remaining)}</p></div>` : '';
+  return note ? `<details class="exam-pending editorial"><summary>Materiale da completare</summary><p><strong>${esc(note.label)}</strong></p><p>${esc(note.remaining)}</p></details>` : '';
 }
 function checkpointHTML() {
   const cp=course.checkpoint;
   if(!cp) return '';
-  return `<section class="card work-checkpoint"><h2>Segnalibro · materiale ancora da completare</h2><p>${esc(cp.summary)}</p><p><strong>Punto di ripresa:</strong> ${esc(cp.next)}</p><p class="reading-note">Stato del materiale, distinto dai tuoi progressi: nessun esame è ancora verificato come integralmente completato. Puoi continuare a usare tutte le lezioni presenti.</p><details><summary>Che cosa manca nei ${cp.examNotes.length} esami</summary><ul>${cp.examNotes.map(n=>`<li><a href="#exam/${esc(n.id)}">${esc(course.exams.find(e=>e.id===n.id)?.title || n.id)}</a> · <strong>${esc(n.label)}</strong><p>${esc(n.remaining)}</p></li>`).join('')}</ul></details></section>`;
+  return `<details class="work-checkpoint editorial"><summary>Segnalibro di sviluppo · materiale ancora da completare</summary><p>${esc(cp.summary)}</p><p><strong>Punto di ripresa:</strong> ${esc(cp.next)}</p><p>Lo sviluppo è in pausa. Puoi studiare con tutte le lezioni presenti; la copertura integrale degli esami resta da verificare.</p><details><summary>Che cosa manca nei ${cp.examNotes.length} esami</summary><ul>${cp.examNotes.map(n=>`<li><a href="#exam/${esc(n.id)}">${esc(course.exams.find(e=>e.id===n.id)?.title || n.id)}</a> · <strong>${esc(n.label)}</strong><p>${esc(n.remaining)}</p></li>`).join('')}</ul></details></details>`;
 }
 function examCard(exam) {
   const units = unitsForExam(course,exam.id), read = units.filter(u => state.read[u.id]).length;
@@ -111,7 +120,8 @@ function programmeHTML(exam) {
   if (!p) return '';
   const available=p.topics.filter(t=>t.status!=='missing').length;
   const partial=p.topics.filter(t=>t.status==='partial').length;
-  return `<details class="programme-map section-heading"><summary>Mappa del programma e verifiche · ${available}/${p.topics.length} nuclei con lezioni e quiz</summary>
+  return `<details class="programme-map section-heading editorial"><summary>Programma e fonti · ${available}/${p.topics.length} nuclei con lezioni e quiz</summary>
+    <p>${esc(exam.syllabusStatus)}. <a href="${esc(exam.sourceUrl)}" target="_blank" rel="noopener noreferrer">Scheda ufficiale UniBa ↗</a></p>
     <p><strong>Fonte analitica: ${esc(p.referenceYear)}.</strong> Piano attuale verificato, programma analitico 2026/27 non confermato. ${partial} nuclei hanno approfondimenti esplicitamente da completare.</p>
     <p class="reading-note">La mappa raggruppa gli argomenti delle schede consultate. “Lezione + quiz” significa che esiste una trattazione introduttiva verificabile, non che siano esauriti tutti i dettagli o dimostrata la preparazione d’esame.</p>
     <ul>${p.sourceIds.map(id=>{const s=course.sources.find(s=>s.id===id);return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`;}).join('')}</ul>
@@ -128,15 +138,14 @@ function examPage(id) {
   if (!exam) return empty('Esame non trovato', 'Scegli un esame del primo anno.', '#learn', 'I miei esami');
   const units = unitsForExam(course,id), read = units.filter(u => state.read[u.id]).length;
   return `<a href="#learn">← Esami del primo anno</a>${head(`${exam.code} · ${exam.cfu} CFU · ${exam.semester}° SEMESTRE`,exam.title,'Università di Bari · Primo anno · 2026/27')}
-    <div class="callout">${units.length ? `${read} di ${units.length} lezioni disponibili segnate come lette. Il materiale è parziale: questa misura non è una percentuale del programma ufficiale né attesta il superamento dell’esame.` : 'Il piano e i moduli sono verificati. Il materiale di studio per questo esame deve ancora essere sviluppato.'}</div>
-    <p class="reading-note section-heading">${esc(exam.syllabusStatus)}. <a href="${esc(exam.sourceUrl)}" target="_blank" rel="noopener noreferrer">Scheda ufficiale UniBa ↗</a></p>
+    <p class="reading-note">${units.length ? `${read} di ${units.length} lezioni segnate come lette · materiale in ampliamento.` : 'Materiale di studio da sviluppare.'}</p>
     ${examPendingHTML(exam)}
     ${units.length ? `<div class="row">${action('start-exam','Esercitati su questo esame',`data-exam="${exam.id}"`,'primary')}${action('start-programme',`Test guidato · ${programmeQuestions(course,definitions,exam.id,()=>0).length} domande`,`data-exam="${exam.id}"`)}<a class="button" href="#print/${exam.id}">Quaderno di questo esame</a></div>` : ''}
-    ${programmeHTML(exam)}
+    ${writtenLinks(course,exam.id)}
     ${units.length ? '<label class="search-label">Cerca tra le lezioni di questo esame<input id="lesson-search" type="search" placeholder="Es. metabolismo, contratti, apprendimento"></label>' : ''}
-    ${exam.modules.map(m => `<section class="exam-module"><div class="section-heading"><h2>${esc(m.title)}</h2><p class="reading-note">${esc(m.coverage)}</p></div>
+    ${exam.modules.map(m => `<section class="exam-module"><div class="section-heading"><h2>${esc(m.title)}</h2><details class="editorial"><summary>Note sul modulo</summary><p>${esc(m.coverage)}</p></details></div>
       ${m.unitIds.length ? `<div class="grid">${m.unitIds.map(uid => unitCard(unitById(uid),course.units.findIndex(u => u.id === uid))).join('')}</div>` : '<div class="callout">Qui compariranno spiegazioni, esempi svolti e verifiche collegate. Il modulo non viene conteggiato fra quelli studiabili.</div>'}</section>`).join('')}
-    <p id="search-empty" class="reading-note" hidden>Nessuna lezione corrisponde alla ricerca.</p>`;
+    <p id="search-empty" class="reading-note" hidden>Nessuna lezione corrisponde alla ricerca.</p>${programmeHTML(exam)}`;
 }
 function inlineHelp(ref) {
   const [uid, sid] = ref.split('/');
@@ -177,7 +186,7 @@ function home() {
 function learn(subjectId = '') {
   if (!subjectId) return `${head('IL TUO PRIMO ANNO','Gli esami da preparare.','Ogni esame raccoglie i suoi moduli, le lezioni e le verifiche. Si studia qui, senza dover acquistare i manuali.')}
     ${checkpointHTML()}
-    <div class="callout">${esc(course.curriculum.note)}</div>
+    <details class="editorial"><summary>Note sul piano di studi</summary><p>${esc(course.curriculum.note)}</p></details>
     ${[1,2].map(semester => `<div class="section-heading"><h2>${semester}° semestre</h2></div><div class="grid exams">${course.exams.filter(e => e.semester === semester).map(examCard).join('')}</div>`).join('')}`;
   const units = course.units.filter(u => !subjectId || u.subject === subjectId);
   return `${head('LEGGI E CAPISCI', subjectById(subjectId)?.title || 'Il tuo percorso di studio', 'Ogni lezione contiene spiegazioni, esempi svolti e un collegamento diretto agli esercizi. Non occorre aprire i libri per svolgere questi moduli.')}
@@ -198,14 +207,14 @@ function lesson(id, sectionId) {
     ${unit.prerequisites?.length ? `<p class="reading-note">Prima di iniziare: ${unit.prerequisites.map(id => `<a href="#lesson/${id}">${esc(unitById(id).title)}</a>`).join(' · ')}</p>` : ''}
     ${unit.sections.map(s => `<section id="section-${s.id}" class="${sectionId === s.id ? 'highlight' : ''}">${sectionHTML(s)}</section>`).join('')}
     ${sheetLinks((course.workbooks||[]).filter(l=>l.unit===unit.id))}
-    ${oralHTML(unit)}${sourceHTML(unit)}
+    ${oralHTML(unit)}
     <section class="no-print"><h2>Ora prova a spiegarlo tu</h2><p>Chiudi per un momento la spiegazione. Ripeti i punti “Da ricordare” con parole tue e usa l’esempio per controllare il ragionamento.</p>
     <div class="row">${action('start-unit', 'Metti in pratica questa lezione →', `data-unit="${id}"`, 'primary')}${action('read', state.read[id] ? 'Letta ✓' : 'Segna come letta', `data-unit="${id}"`)}</div>
     <p class="reading-note">Segnare una lezione come letta serve a ritrovarla. Non equivale a dimostrarne la padronanza.</p></section>
     <section class="no-print"><label for="note">Il tuo appunto</label><p class="reading-note">Una formula da ricordare, un dubbio o una spiegazione con parole tue. Salvataggio automatico mentre scrivi.</p><textarea id="note" maxlength="50000" data-unit="${id}" placeholder="Scrivi qui…">${esc(state.notes[id] || '')}</textarea></section>
     <div class="row between no-print">${previous ? `<a href="#lesson/${previous.id}">← Lezione precedente</a>` : '<span></span>'}${next ? `<a href="#lesson/${next.id}">Lezione successiva →</a>` : '<a href="#practice">Vai agli esercizi →</a>'}</div>
-    </article><aside class="lesson-aside"><div class="card"><h3>In questa lezione</h3>${unit.sections.map(s => `<a href="#lesson/${id}/${s.id}">${esc(s.title)}</a>`).join('')}
-    ${action('start-unit', 'Prova gli esercizi', `data-unit="${id}"`, 'primary')}<a href="#print/${id}">Stampa lezione e esercizi</a><p class="reading-note">Testo originale introduttivo. I riferimenti bibliografici descrivono gli argomenti, non sono letture obbligatorie per questa pagina.</p></div></aside></div>`;
+    ${sourceHTML(unit)}</article><aside class="lesson-aside"><div class="card"><h3>In questa lezione</h3>${unit.sections.map(s => `<a href="#lesson/${id}/${s.id}">${esc(s.title)}</a>`).join('')}
+    ${action('start-unit', 'Prova gli esercizi', `data-unit="${id}"`, 'primary')}<a href="#print/${id}">Stampa lezione e esercizi</a></div></aside></div>`;
 }
 function practice(examId = '') {
   if (state.active) return `${head('ESERCITATI', 'Hai una sessione in corso.', 'Puoi riprenderla oppure concluderla: le domande rimaste senza risposta conteranno zero nel voto orientativo.')}
@@ -343,12 +352,13 @@ function render() {
   const route = requestedRoute || 'home';
   const views = { home, learn:() => learn(arg), exam:() => examPage(arg), lesson:() => lesson(arg,section), practice:() => practice(arg), session, review, results,
     result:() => result(arg), library:books, settings, print:() => printBook(arg), figure:()=>figurePage(arg,section==='test'),
-    lab:()=>sheetPage(course.workbooks?.find(l=>l.id===arg),state.labs?.[arg],inlineHelp) };
+    lab:()=>sheetPage(course.workbooks?.find(l=>l.id===arg),state.labs?.[arg],inlineHelp),
+    written:()=>writtenPage(course,course.writtenPapers?.find(p=>p.id===arg),state.written?.[arg],inlineHelp) };
   document.body.classList.toggle('large', state.settings.largeText);
   main.innerHTML = (views[route] || home)();
   bindAudioSettingsForm();
   document.querySelectorAll('[data-nav]').forEach(a => {
-    const current = a.dataset.nav === ({exam:'learn',lesson:'learn',lab:'learn',session:'practice',result:'results',print:'learn'}[route] || route);
+    const current = a.dataset.nav === ({exam:'learn',lesson:'learn',lab:'learn',written:'learn',session:'practice',result:'results',print:'learn'}[route] || route);
     a.classList.toggle('active',current);
     if(current) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
   });
@@ -364,6 +374,19 @@ document.addEventListener('click', event => {
   const button = event.target.closest('[data-action]');
   if (!button || !course) return;
   const name = button.dataset.action;
+  if(name.startsWith('written-')){
+    const w=currentWritten();if(!w)return;
+    if(name==='written-reveal'&&w.paper.questions.some(q=>q.id===button.dataset.question)){
+      revealWritten(w.record,button.dataset.question);save();render();
+      document.getElementById(`written-${button.dataset.question}`)?.scrollIntoView({block:'start'});
+    }
+    if(name==='written-print-solutions'){
+      w.paper.questions.forEach(q=>revealWritten(w.record,q.id));save();render();
+      main.insertAdjacentHTML('beforeend',writtenPrintSolutions(w.paper));window.print();
+      main.querySelector('.written-print-solutions')?.remove();
+    }
+    return;
+  }
   if(name.startsWith('sheet-')){
     const sheet=currentSheet();
     if(sheet){sheetAction(name,sheet.lab,sheet.record,inlineHelp,button.dataset.ref);save();}
@@ -415,7 +438,23 @@ document.addEventListener('submit', event => {
   }
 });
 document.addEventListener('input', event => {
+  if(event.target.dataset.writtenAnswer){
+    const w=currentWritten(),id=event.target.dataset.writtenAnswer;
+    if(w&&w.paper.questions.some(q=>q.id===id)){
+      writeDraft(w.record,id,event.target.value);save();
+      const article=event.target.closest('.written-question'),select=article.querySelector('[data-written-rating]');
+      if(select)select.value='';
+      article.querySelector('.written-print-answer').textContent=event.target.value||'Risposta: ______________________________________________________________';
+      $('#written-summary').innerHTML=writtenSummaryHTML(w.paper,w.record);
+    }
+    return;
+  }
   if(event.target.hasAttribute('data-demo-control')){updatePhysicsDemo(event.target);return;}
+  if(event.target.dataset.tableControl){
+    const sheet=currentSheet();
+    if(sheet?.lab.kind==='data'){updateDataLab(sheet.lab,sheet.record,event.target);save();}
+    return;
+  }
   if(event.target.dataset.sheetCell||event.target.id==='sheet-report'){
     const sheet=currentSheet();
     if(sheet){
@@ -442,6 +481,16 @@ document.addEventListener('input', event => {
   }
 });
 document.addEventListener('change', async event => {
+  if(event.target.dataset.writtenRating){
+    const w=currentWritten(),id=event.target.dataset.writtenRating;
+    if(w&&w.paper.questions.some(q=>q.id===id)){
+      const accepted=rateWritten(w.record,id,event.target.value);
+      if(!accepted)event.target.value='';
+      event.target.closest('.written-question').querySelector('[data-written-status]').textContent=accepted?'Autovalutazione registrata.':'Scrivi prima una risposta da confrontare.';
+      save();$('#written-summary').innerHTML=writtenSummaryHTML(w.paper,w.record);
+    }
+    return;
+  }
   if (event.target.id === 'appearance') {
     state.settings.theme = event.target.value;
     applyTheme(); save();
@@ -461,7 +510,7 @@ document.addEventListener('change', async event => {
       const emptyLocal = !state.attempts.length && !state.sessions.length && !Object.keys(state.read).length && !Object.keys(state.notes).length
         && !state.settings.name && !state.settings.largeText && state.settings.sessionSize === 8 && !state.active && !state.lastUnit
         && (!state.settings.theme || state.settings.theme === 'system')
-        && !Object.keys(state.labs||{}).length;
+        && !Object.keys(state.labs||{}).length && !Object.keys(state.written||{}).length;
       const merged = emptyLocal ? incoming : mergeState(state,incoming);
       // Persist before replacing the live state: a failed import never silently destroys local progress.
       localStorage.setItem(STORAGE_KEY,JSON.stringify(merged));

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "objective": "Materiale interno sufficiente a preparare gli esami del primo anno UniBa, con spiegazioni, pratica, correzioni e recupero degli errori; consegna locale index.html.",
-  "status": "paused",
+  "status": "in-progress",
   "completionProven": false,
   "scope": {
     "exams": 10,
@@ -36,7 +36,20 @@
     "Biochimica centrale: 2 lezioni, 8 sezioni con 6 tabelle, 32 quiz e 2 prove aperte; passaggi della glicolisi, aggiramenti gluconeogenetici, PDH/Krebs e regolazione, esperimenti su accoppiamento. Ampliati proteine fibrose/globulari, inibizione incompetitiva e creatina chinasi. Confronto mirato di 20 voci storiche, senza certificare il programma corrente.",
     "Biochimica: completato il confronto editoriale del blocco storico 2016/17, 69 voci. Aggiunta la lezione sul segnale neuromuscolare con 4 sezioni, 2 tabelle e 2 sequenze; 36 quiz e 1 prova aperta. Integrati lipolisi/TAG, controllo dell’urea, beta-ossidazione, isomeria/anidridi, scheletro del DNA e colesterolo di membrana. Corrispondenza corrente non certificata.",
     "Avambraccio e gamba: due capitoli di sei sezioni, otto tabelle muscolari, 36 quiz con 72 feedback specifici e due prove aperte; compartimenti, attacchi, rami nervosi, passaggi e analisi dei movimenti.",
-    "Tronco e pelvi: tre lezioni, 12 sezioni, 36 quiz e tre prove aperte su collo, dorso, respiratori, pareti addominali, fasce, perineo e rotatori profondi dell’anca. Tavola OpenStax CC BY 4.0 del pavimento pelvico con guida italiana e sei quiz interpretativi."
+    "Tronco e pelvi: tre lezioni, 12 sezioni, 36 quiz e tre prove aperte su collo, dorso, respiratori, pareti addominali, fasce, perineo e rotatori profondi dell’anca. Tavola OpenStax CC BY 4.0 del pavimento pelvico con guida italiana e sei quiz interpretativi.",
+    "Anatomia: sette capitoli su cranio, colonna/torace, tubo digerente, fegato-pancreas-peritoneo, rene/vie urinarie, genitali ed endocrino; 28 sezioni, 61 quiz, 7 risposte scritte guidate e 3 tavole OpenStax CC BY 3.0. Confronto mirato di 28 nuclei del syllabus storico; programma corrente non certificato.",
+    "Istologia e linfa: quattro capitoli, 16 sezioni, 32 quiz e quattro prove scritte di autoconfronto, comprese risposte brevi. Epiteli/ghiandole, connettivi/cartilagine/osso, sangue/difese ed emopoiesi, linfonodi/timo/milza. Confronto mirato di 19 voci storiche; micrografie ancora da ampliare; il successivo blocco neuroanatomico è documentato separatamente.",
+    "Neuroanatomia: tre capitoli, 12 sezioni, 28 quiz (due sulla sezione del midollo e quattro aggiuntivi su tronco/cervelletto) e tre prove aperte. Audit storico di 26 voci; fonti universitarie e riscontri puntuali, con limiti documentati.",
+    "Simulazioni scritte: tre tracce con 10 risposte brevissime di istologia e due elaborati ciascuna, su formato UniBa 2024/25 (90 minuti). Trenta domande brevi originali e sei consegne integrate dalle prove già nelle lezioni, con ampliamenti dei modelli. Risposte, consultazione aiuti e autovalutazioni conservate nei backup; niente voto automatico al testo libero.",
+    "Laboratorio microscopico: un capitolo con quattro sezioni, quattro micrografie reali, sette riferimenti a lettere, 16 quiz visuali e prova aperta. Licenze e contenuto controllati; una candidata incongruente esclusa. Nessuna immagine generata o ricolorata.",
+    "Allenamento: confronto delle 42 righe del syllabus 2024/25; quattro lezioni, 16 sezioni, 64 quiz e quattro prove aperte. Casi di carico e microciclo, metodi e misure, sviluppo e stili, guida alla tesina. Fonti scientifiche distinte dal programma storico.",
+    "Attività motorie: tre capitoli, 12 sezioni, 48 quiz e tre prove aperte; aggiunte al percorso tre lezioni condivise con Allenamento. Confrontate sette voci di contenuto e ulteriori richieste formative in 19 righe di audit. Progetto originale di quattro incontri con tempi, adattamenti, rubrica e difesa orale.",
+    "Gestione: quattro capitoli, 16 sezioni, 64 quiz e quattro prove aperte; audit di dieci nuclei del syllabus 2024/25 e quattro richieste applicative/orali. Casi su forma, responsabilità, lavoro, contratti, antidoping, ricerca, qualità, margine, capienza e cassa.",
+    "Psicologia: quattro capitoli, 16 sezioni, 64 quiz e quattro prove aperte su percezione, memoria, apprendimento e psicobiologia. Confronto mirato in 12 righe; rilette le schede integrate e modulari 2025/26–2026/27. Restano altri blocchi del corso integrato.",
+    "Motivazione, emozioni e sviluppo: quattro capitoli, 16 sezioni, 64 quiz e quattro prove aperte, con 14 fonti e audit mirato in 16 righe redazionali. Il corso integrato comprende 21 lezioni; pedagogia e materiali correnti restano in lavorazione.",
+    "Pedagogia: tre capitoli, 12 sezioni, 48 quiz e tre prove aperte su fini/persona, prospettive e contesti educativi. PDF originale 2017/18 letto; audit di 16 righe con tre nuclei monografici parziali. Nove fonti documentano l’ambito della consultazione.",
+    "Informatica: una lezione, quattro sezioni, 16 quiz, una prova aperta e tre laboratori operativi con 12 criteri verificati. Ordinamento a due chiavi, AND/OR, soglie inclusive, grafici a colonne e XY, ambito visibile/originale, tre report. Backup compatibile e copia offline.",
+    "Informatica: quattro approfondimenti, 16 sezioni, 64 quiz e quattro prove aperte su calcolo, sistemi/dati, reti e documenti. Confronto completo della scheda d’archivio in 28 righe editoriali, con limiti espliciti su dispense, collaborazione e prova corrente."
   ],
   "remainingWork": [
     {
@@ -48,9 +61,7 @@
     {
       "area": "Anatomia",
       "tasks": [
-        "Completare il confronto analitico di tutte le voci del syllabus storico di Anatomia, soprattutto dettagli di visceri e scheletro craniale/assile; i gruppi muscolari regionali hanno ora capitoli dedicati con attacchi principali, nervi e casi",
-        "Ampliare tavole a ulteriori visceri e dettagli regionali: presenti scheletro intero, sezione sinoviale generale, cuore aperto e pavimento pelvico visto dall’alto",
-        "Estendere riconoscimento senza etichette ad altre viste, ossa isolate e ricostruzione spaziale; ora presente una tavola anteriore con dieci punti"
+        "Disponibili tre simulazioni scritte e quattro micrografie guidate. Restano altri tessuti/visceri e viste regionali, ricostruzione spaziale e verifica del programma attuale. Un campione di immagini non dimostra riconoscimento su qualsiasi preparato."
       ]
     },
     {
@@ -62,9 +73,8 @@
     {
       "area": "Psicopedagogia",
       "tasks": [
-        "Approfondire autori e confronti della pedagogia generale e della psicologia; verificare le letture monografiche effettivamente richieste",
-        "Confrontare il modulo corrente di didattica speciale con la scheda SAMS 2021/22 reperita: cambiano anno di corso e docente",
-        "Ampliare oltre i casi rappresentativi di adattamento e verificare il livello richiesto dalle dispense; progetto esteso e rubrica ora presenti"
+        "Ventiquattro lezioni: processi psicologici, motivazione, sviluppo e sei lezioni di Pedagogia. Confrontati nuclei del PDF pedagogico 2017/18, con casi e 48 nuovi quiz. Restano contenuti specifici della monografia di Persano, ulteriori richieste dei docenti e dettaglio/dispense correnti dei quattro moduli, inclusa didattica speciale. Nessuna certificazione della preparazione orale.",
+        "Cercare altre fonti primarie pubbliche sulla parte monografica senza attribuire tesi al libro dal solo titolo; verificare sul programma corrente gli autori e i materiali effettivamente richiesti."
       ]
     },
     {
@@ -78,8 +88,7 @@
     {
       "area": "Informatica",
       "tasks": [
-        "Audit di tutti i contenuti informatici rispetto alle competenze del programma d’archivio e alle eventuali nuove dispense",
-        "Esercitazioni operative aggiuntive su ordinamento, filtri e grafici; l’attuale laboratorio verifica formule e report"
+        "Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati attesi della scheda d’archivio in 28 righe. Restano dispense/appunti effettivamente assegnati, dettaglio e modalità correnti, pratica delle interfacce da ufficio e verifica della collaborazione richiesta in laboratorio. Il materiale non certifica il superamento della prova."
       ]
     },
     {
@@ -102,6 +111,24 @@
       "area": "Biologia applicata e genetica",
       "tasks": [
         "Verificare il programma analitico, le dispense e la modalità di verifica correnti quando disponibili. Confrontati il blocco storico 2016/17 e i 12 nuclei/obiettivi biologici della scheda 2025/26; quest’ultima presenta indicazioni discordanti fra campo Orale e descrizione dello scritto."
+      ]
+    },
+    {
+      "area": "Allenamento",
+      "tasks": [
+        "Confrontate le 42 voci del syllabus 2024/25, con nove lezioni, casi, quiz, prove aperte e guida alla tesina. Restano dispense e richieste del docente corrente, modalità effettive di esame e verifica della preparazione."
+      ]
+    },
+    {
+      "area": "Attività motorie",
+      "tasks": [
+        "Confrontata la scheda 2025/26: sette nuclei di contenuto e richieste applicative in 19 righe. Dieci lezioni incluse tre condivise, casi e progetto di quattro incontri. Restano dettaglio 2026/27, materiali del docente, accordi sull’eventuale project work e verifica dell’esposizione/pratica."
+      ]
+    },
+    {
+      "area": "Gestione delle società sportive",
+      "tasks": [
+        "Otto lezioni, casi risolti, 80 quiz complessivi e prove aperte. Confrontati dieci nuclei del programma 2024/25 e richieste di ragionamento orale in 14 righe. Restano dettaglio corrente, materiali Teams, approfondimenti specifici del docente e verifica dell’esposizione. Non è una guida operativa a fiscalità o gestione legale."
       ]
     }
   ],
@@ -4500,13 +4527,3658 @@
           "assessment": "Tre quiz e tabella: sei muscoli, grandi/piccoli forami e innervazione dei gemelli"
         }
       ]
+    },
+    {
+      "id": "anatomia-assile-visceri-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Riletto syllabus 2024/25 pp. 3–5. Confronto mirato delle voci craniche/assili e viscerali con capitoli interni. Non è un audit conclusivo dell’intero esame; schema corrente Cineca non riaperto per errore di accesso. Quiz originali e sette prove scritte di autoconfronto, non voti automatici sui testi.",
+      "requirements": [
+        {
+          "topic": "Distinguere neurocranio e scheletro della faccia",
+          "refs": [
+            "anatomia-cranio/ossa"
+          ],
+          "status": "introduced",
+          "assessment": "3 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-cranio-ossa-0",
+            "av-anatomia-cranio-ossa-1",
+            "av-anatomia-cranio-ossa-2"
+          ]
+        },
+        {
+          "topic": "Suture, base cranica e sviluppo",
+          "refs": [
+            "anatomia-cranio/suture"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-cranio-suture-0",
+            "av-anatomia-cranio-suture-1"
+          ]
+        },
+        {
+          "topic": "Ricostruire orbita, naso e palato",
+          "refs": [
+            "anatomia-cranio/cavita"
+          ],
+          "status": "introduced",
+          "assessment": "3 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-cranio-cavita-0",
+            "av-anatomia-cranio-cavita-1",
+            "av-anatomia-cranio-cavita-2"
+          ]
+        },
+        {
+          "topic": "Collegare fori, nervi e articolazione mandibolare",
+          "refs": [
+            "anatomia-cranio/passaggi"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-cranio-passaggi-0",
+            "av-anatomia-cranio-passaggi-1"
+          ]
+        },
+        {
+          "topic": "Orientare una vertebra e distinguere i forami",
+          "refs": [
+            "anatomia-colonna-torace/vertebra"
+          ],
+          "status": "introduced",
+          "assessment": "3 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-colonna-torace-vertebra-0",
+            "av-anatomia-colonna-torace-vertebra-1",
+            "av-anatomia-colonna-torace-vertebra-2"
+          ]
+        },
+        {
+          "topic": "Confrontare cervicali, toraciche e lombari",
+          "refs": [
+            "anatomia-colonna-torace/regioni"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-colonna-torace-regioni-0",
+            "av-anatomia-colonna-torace-regioni-1"
+          ]
+        },
+        {
+          "topic": "Dischi, legamenti e curvature",
+          "refs": [
+            "anatomia-colonna-torace/dischi"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-colonna-torace-dischi-0",
+            "av-anatomia-colonna-torace-dischi-1"
+          ]
+        },
+        {
+          "topic": "Coste, sterno e movimento respiratorio",
+          "refs": [
+            "anatomia-colonna-torace/coste"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-colonna-torace-coste-0",
+            "av-anatomia-colonna-torace-coste-1"
+          ]
+        },
+        {
+          "topic": "Cavità orale, lingua, denti e saliva",
+          "refs": [
+            "anatomia-tubo-digerente/bocca"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-tubo-digerente-bocca-0",
+            "av-anatomia-tubo-digerente-bocca-1"
+          ]
+        },
+        {
+          "topic": "Faringe, deglutizione e parete esofagea",
+          "refs": [
+            "anatomia-tubo-digerente/esofago"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-tubo-digerente-esofago-0",
+            "av-anatomia-tubo-digerente-esofago-1"
+          ]
+        },
+        {
+          "topic": "Stomaco: regioni e ghiandole",
+          "refs": [
+            "anatomia-tubo-digerente/stomaco"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-tubo-digerente-stomaco-0",
+            "av-anatomia-tubo-digerente-stomaco-1"
+          ]
+        },
+        {
+          "topic": "Tenue, crasso e riconoscimento della parete",
+          "refs": [
+            "anatomia-tubo-digerente/intestino"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-tubo-digerente-intestino-0",
+            "av-anatomia-tubo-digerente-intestino-1"
+          ]
+        },
+        {
+          "topic": "Foglietti, mesenteri e rapporti retroperitoneali",
+          "refs": [
+            "anatomia-annessi-peritoneo/peritoneo"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-annessi-peritoneo-peritoneo-0",
+            "av-anatomia-annessi-peritoneo-peritoneo-1"
+          ]
+        },
+        {
+          "topic": "Sede, porta epatica e doppio apporto ematico",
+          "refs": [
+            "anatomia-annessi-peritoneo/fegato"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-annessi-peritoneo-fegato-0",
+            "av-anatomia-annessi-peritoneo-fegato-1"
+          ]
+        },
+        {
+          "topic": "Lobulo epatico e vie biliari",
+          "refs": [
+            "anatomia-annessi-peritoneo/lobulo"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-annessi-peritoneo-lobulo-0",
+            "av-anatomia-annessi-peritoneo-lobulo-1"
+          ]
+        },
+        {
+          "topic": "Pancreas esocrino ed endocrino",
+          "refs": [
+            "anatomia-annessi-peritoneo/pancreas"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-annessi-peritoneo-pancreas-0",
+            "av-anatomia-annessi-peritoneo-pancreas-1"
+          ]
+        },
+        {
+          "topic": "Rivestimenti, ilo, corticale e midollare",
+          "refs": [
+            "anatomia-rene-vie/rene"
+          ],
+          "status": "introduced",
+          "assessment": "3 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-rene-vie-rene-0",
+            "av-anatomia-rene-vie-rene-1",
+            "av-anatomia-rene-vie-rene-2"
+          ]
+        },
+        {
+          "topic": "Dall’arteria renale a due reti capillari",
+          "refs": [
+            "anatomia-rene-vie/circolo"
+          ],
+          "status": "introduced",
+          "assessment": "3 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-rene-vie-circolo-0",
+            "av-anatomia-rene-vie-circolo-1",
+            "av-anatomia-rene-vie-circolo-2"
+          ]
+        },
+        {
+          "topic": "Corpuscolo, tubulo e apparato iuxtaglomerulare",
+          "refs": [
+            "anatomia-rene-vie/nefrone"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-rene-vie-nefrone-0",
+            "av-anatomia-rene-vie-nefrone-1"
+          ]
+        },
+        {
+          "topic": "Ureteri, vescica e uretra",
+          "refs": [
+            "anatomia-rene-vie/vie"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-rene-vie-vie-0",
+            "av-anatomia-rene-vie-vie-1"
+          ]
+        },
+        {
+          "topic": "Testicolo, tubuli e cellule di sostegno",
+          "refs": [
+            "anatomia-genitale/testicolo"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-genitale-testicolo-0",
+            "av-anatomia-genitale-testicolo-1"
+          ]
+        },
+        {
+          "topic": "Vie spermatiche, ghiandole e genitali esterni",
+          "refs": [
+            "anatomia-genitale/vie-maschili"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-genitale-vie-maschili-0",
+            "av-anatomia-genitale-vie-maschili-1"
+          ]
+        },
+        {
+          "topic": "Ovaio, follicoli e tuba uterina",
+          "refs": [
+            "anatomia-genitale/ovaio-tuba"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-genitale-ovaio-tuba-0",
+            "av-anatomia-genitale-ovaio-tuba-1"
+          ]
+        },
+        {
+          "topic": "Utero, vagina, vulva e rapporti pelvici",
+          "refs": [
+            "anatomia-genitale/utero-esterni"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-genitale-utero-esterni-0",
+            "av-anatomia-genitale-utero-esterni-1"
+          ]
+        },
+        {
+          "topic": "Adenoipofisi, neuroipofisi e ipotalamo",
+          "refs": [
+            "anatomia-endocrino/ipofisi"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-endocrino-ipofisi-0",
+            "av-anatomia-endocrino-ipofisi-1"
+          ]
+        },
+        {
+          "topic": "Follicoli tiroidei e paratiroidi",
+          "refs": [
+            "anatomia-endocrino/tiroide"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-endocrino-tiroide-0",
+            "av-anatomia-endocrino-tiroide-1"
+          ]
+        },
+        {
+          "topic": "Corticale e midollare surrenalica",
+          "refs": [
+            "anatomia-endocrino/surrene"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-endocrino-surrene-0",
+            "av-anatomia-endocrino-surrene-1"
+          ]
+        },
+        {
+          "topic": "Isole pancreatiche e lettura di un circuito di feedback",
+          "refs": [
+            "anatomia-endocrino/isole-feedback"
+          ],
+          "status": "introduced",
+          "assessment": "2 quiz con due feedback specifici ciascuno; esempio svolto e prova scritta di capitolo.",
+          "questionIds": [
+            "av-anatomia-endocrino-isole-feedback-0",
+            "av-anatomia-endocrino-isole-feedback-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anatomia-istologia-linfa-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato delle voci tissutali e linfatiche del syllabus 2024/25, pp. 3–4. Diciannove righe di riscontro per sedici sezioni: le classificazioni sono spiegate, i quiz ne verificano un campione. Muscolo e glia restano nei capitoli già presenti; il riscontro neuroanatomico successivo è in anatomia-neuro-2024, mentre le micrografie restano da ampliare. Le risposte brevi e aperte sono autoconfronti, non voti automatici.",
+      "requirements": [
+        {
+          "topic": "Classi epiteliali, sedi e criteri citologici",
+          "refs": [
+            "anatomia-epiteli-ghiandole/rivestimento"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-rivestimento-0",
+            "hi-anatomia-epiteli-ghiandole-rivestimento-1"
+          ]
+        },
+        {
+          "topic": "Specializzazioni apicali e giunzioni cellulari",
+          "refs": [
+            "anatomia-epiteli-ghiandole/giunzioni"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-giunzioni-0",
+            "hi-anatomia-epiteli-ghiandole-giunzioni-1"
+          ]
+        },
+        {
+          "topic": "Ghiandole: complessità cellulare, sede, adenomero, dotto e tipo di secreto",
+          "refs": [
+            "anatomia-epiteli-ghiandole/classificare"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-classificare-0",
+            "hi-anatomia-epiteli-ghiandole-classificare-1"
+          ]
+        },
+        {
+          "topic": "Gastriche, intestinali e pancreas esocrino: esempi di organizzazione",
+          "refs": [
+            "anatomia-epiteli-ghiandole/classificare"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-classificare-0",
+            "hi-anatomia-epiteli-ghiandole-classificare-1"
+          ]
+        },
+        {
+          "topic": "Modalità secretorie, sudoripare, sebacee e mammaria",
+          "refs": [
+            "anatomia-epiteli-ghiandole/secrezione"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-secrezione-0",
+            "hi-anatomia-epiteli-ghiandole-secrezione-1"
+          ]
+        },
+        {
+          "topic": "Matrice e cellule del connettivo: fibroblasti/fibrociti, macrofagi, mastociti, adipociti e plasmacellule",
+          "refs": [
+            "anatomia-connettivi-osso/matrice"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-matrice-0",
+            "hi-anatomia-connettivi-osso-matrice-1"
+          ]
+        },
+        {
+          "topic": "Lasso, denso, reticolare, elastico, mucoso e adiposo",
+          "refs": [
+            "anatomia-connettivi-osso/tipi"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-tipi-0",
+            "hi-anatomia-connettivi-osso-tipi-1"
+          ]
+        },
+        {
+          "topic": "Istogenesi, crescita e tre tipi di cartilagine",
+          "refs": [
+            "anatomia-connettivi-osso/cartilagine"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-cartilagine-0",
+            "hi-anatomia-connettivi-osso-cartilagine-1"
+          ]
+        },
+        {
+          "topic": "Cellule ossee, matrice, lamellare/non lamellare, compatto/spugnoso",
+          "refs": [
+            "anatomia-connettivi-osso/osso"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-osso-0",
+            "hi-anatomia-connettivi-osso-osso-1"
+          ]
+        },
+        {
+          "topic": "Ossificazione intramembranosa ed endocondrale",
+          "refs": [
+            "anatomia-connettivi-osso/osso"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-osso-0",
+            "hi-anatomia-connettivi-osso-osso-1"
+          ]
+        },
+        {
+          "topic": "Sangue, plasma e proteine plasmatiche, eritrociti e piastrine",
+          "refs": [
+            "anatomia-sangue-difese/plasma"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-sangue-difese-plasma-0",
+            "hi-anatomia-sangue-difese-plasma-1"
+          ]
+        },
+        {
+          "topic": "Granulociti, monociti e linfociti: caratteri e ruoli",
+          "refs": [
+            "anatomia-sangue-difese/leucociti"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-sangue-difese-leucociti-0",
+            "hi-anatomia-sangue-difese-leucociti-1"
+          ]
+        },
+        {
+          "topic": "Cenni di emopoiesi e struttura del midollo rosso",
+          "refs": [
+            "anatomia-sangue-difese/emopoiesi"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-sangue-difese-emopoiesi-0",
+            "hi-anatomia-sangue-difese-emopoiesi-1"
+          ]
+        },
+        {
+          "topic": "Immunoglobuline: struttura e funzioni",
+          "refs": [
+            "anatomia-sangue-difese/immunita"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-sangue-difese-immunita-0",
+            "hi-anatomia-sangue-difese-immunita-1"
+          ]
+        },
+        {
+          "topic": "Complemento e confronto innata/adattativa",
+          "refs": [
+            "anatomia-sangue-difese/immunita"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-sangue-difese-immunita-0",
+            "hi-anatomia-sangue-difese-immunita-1"
+          ]
+        },
+        {
+          "topic": "Linfa, struttura dei vasi e organizzazione del drenaggio",
+          "refs": [
+            "anatomia-organi-linfoidi/drenaggio"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-organi-linfoidi-drenaggio-0",
+            "hi-anatomia-organi-linfoidi-drenaggio-1"
+          ]
+        },
+        {
+          "topic": "Struttura e funzione dei linfonodi",
+          "refs": [
+            "anatomia-organi-linfoidi/linfonodo"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-organi-linfoidi-linfonodo-0",
+            "hi-anatomia-organi-linfoidi-linfonodo-1"
+          ]
+        },
+        {
+          "topic": "Timo, maturazione e organi linfoidi primari",
+          "refs": [
+            "anatomia-organi-linfoidi/primari"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-organi-linfoidi-primari-0",
+            "hi-anatomia-organi-linfoidi-primari-1"
+          ]
+        },
+        {
+          "topic": "Struttura e funzione della milza",
+          "refs": [
+            "anatomia-organi-linfoidi/milza"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, due quiz e prova scritta di capitolo. La coppia di quiz campiona il nucleo e non verifica separatamente ogni voce della classificazione.",
+          "questionIds": [
+            "hi-anatomia-organi-linfoidi-milza-0",
+            "hi-anatomia-organi-linfoidi-milza-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anatomia-neuro-2024",
+      "exam": "anatomia-umana",
+      "sourceId": "syllabus-anatomy",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "method": "Riscontro del blocco nervoso del programma UniBa 2024/25: 26 righe, includendo i capitoli già presenti su glia, tronco, cervelletto e nervi cranici. Nuovi capitoli colmano percorsi sensitivi, riflessi, meningi/liquor e autonomo. Livello storico introduttivo; niente attestazione di equivalenza 2026/27, di preparazione individuale o di riconoscimento su preparati.",
+      "requirements": [
+        {
+          "topic": "Organizzazione generale centrale/periferica e direzione dei segnali",
+          "refs": [
+            "nervoso/organizzazione",
+            "nervoso/direzioni"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "an-neuro-1",
+            "an-neuro-2"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Neurone, glia e mielina",
+          "refs": [
+            "anatomia-micro-muscolo/glia"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-micro-muscolo-glia"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Sensibilità generale e speciale, trasduzione",
+          "refs": [
+            "anatomia-sensibilita-midollo/recettori"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-recettori-0",
+            "ns-anatomia-sensibilita-midollo-recettori-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Recettori cutanei e proprietà delle risposte",
+          "refs": [
+            "anatomia-sensibilita-midollo/recettori"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-recettori-0",
+            "ns-anatomia-sensibilita-midollo-recettori-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Fuso neuromuscolare e organo muscolotendineo: struttura e funzione",
+          "refs": [
+            "anatomia-sensibilita-midollo/riflessi",
+            "anatomia-atlante/midollo"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-atlante-midollo",
+            "atlas-cordoni",
+            "atlas-fuso",
+            "ns-anatomia-sensibilita-midollo-riflessi-0",
+            "ns-anatomia-sensibilita-midollo-riflessi-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Generalità e organizzazione del SNC",
+          "refs": [
+            "neuroanatomia/centrale"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "neuroanatomia-centrale-verifica"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Midollo: configurazione esterna, segmenti e radici",
+          "refs": [
+            "anatomia-sensibilita-midollo/midollo",
+            "neuroanatomia/radici"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "neuroanatomia-radici-verifica",
+            "ns-anatomia-sensibilita-midollo-midollo-0",
+            "ns-anatomia-sensibilita-midollo-midollo-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Midollo: sostanza grigia, bianca e funzione",
+          "refs": [
+            "anatomia-sensibilita-midollo/midollo",
+            "anatomia-atlante/midollo"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-atlante-midollo",
+            "atlas-cordoni",
+            "atlas-fuso",
+            "ns-anatomia-sensibilita-midollo-midollo-0",
+            "ns-anatomia-sensibilita-midollo-midollo-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Principali vie ascendenti e discendenti",
+          "refs": [
+            "anatomia-sensibilita-midollo/vie"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-vie-0",
+            "ns-anatomia-sensibilita-midollo-vie-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Arco riflesso e circuiti spinali",
+          "refs": [
+            "anatomia-sensibilita-midollo/riflessi"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-riflessi-0",
+            "ns-anatomia-sensibilita-midollo-riflessi-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Tronco encefalico: bulbo, ponte e mesencefalo",
+          "refs": [
+            "anatomia-neuro-dettagli/tronco"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-tronco",
+            "ns-anatomia-neuro-dettagli-tronco-0",
+            "ns-anatomia-neuro-dettagli-tronco-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Cervelletto: configurazione esterna, nuclei e connessioni",
+          "refs": [
+            "anatomia-neuro-dettagli/cervelletto"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-cervelletto",
+            "ns-anatomia-neuro-dettagli-cervelletto-0",
+            "ns-anatomia-neuro-dettagli-cervelletto-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Corteccia cerebellare e contributi funzionali",
+          "refs": [
+            "anatomia-neuro-dettagli/cervelletto"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-cervelletto",
+            "ns-anatomia-neuro-dettagli-cervelletto-0",
+            "ns-anatomia-neuro-dettagli-cervelletto-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Diencefalo: cenni",
+          "refs": [
+            "anatomia-encefalo-protezioni/diencefalo"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-diencefalo-0",
+            "ns-anatomia-encefalo-protezioni-diencefalo-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Telencefalo: morfologia esterna e lobi",
+          "refs": [
+            "anatomia-encefalo-protezioni/corteccia"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-corteccia-0",
+            "ns-anatomia-encefalo-protezioni-corteccia-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Commessure interemisferiche e fibre associative",
+          "refs": [
+            "anatomia-encefalo-protezioni/corteccia",
+            "anatomia-neuro-dettagli/nuclei"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-nuclei",
+            "ns-anatomia-encefalo-protezioni-corteccia-0",
+            "ns-anatomia-encefalo-protezioni-corteccia-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Capsule e nuclei della base",
+          "refs": [
+            "anatomia-neuro-dettagli/nuclei",
+            "anatomia-neuro-dettagli/tronco"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-nuclei",
+            "depth-anatomia-neuro-dettagli-tronco",
+            "ns-anatomia-neuro-dettagli-tronco-0",
+            "ns-anatomia-neuro-dettagli-tronco-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Corteccia: aree motorie e sensitive",
+          "refs": [
+            "anatomia-encefalo-protezioni/corteccia"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-corteccia-0",
+            "ns-anatomia-encefalo-protezioni-corteccia-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Ventricoli laterali, terzo, quarto e canale centrale",
+          "refs": [
+            "anatomia-encefalo-protezioni/liquor"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-liquor-0",
+            "ns-anatomia-encefalo-protezioni-liquor-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Liquor: produzione, collegamenti e drenaggio",
+          "refs": [
+            "anatomia-encefalo-protezioni/liquor"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-liquor-0",
+            "ns-anatomia-encefalo-protezioni-liquor-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Meningi craniche e spinali",
+          "refs": [
+            "anatomia-encefalo-protezioni/meningi"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-encefalo-protezioni-meningi-0",
+            "ns-anatomia-encefalo-protezioni-meningi-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Barriera ematoencefalica",
+          "refs": [
+            "anatomia-encefalo-protezioni/liquor",
+            "anatomia-micro-muscolo/glia"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-micro-muscolo-glia",
+            "ns-anatomia-encefalo-protezioni-liquor-0",
+            "ns-anatomia-encefalo-protezioni-liquor-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Periferico: nervi spinali e gangli",
+          "refs": [
+            "anatomia-nervi-autonomo/nervo"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-nervi-autonomo-nervo-0",
+            "ns-anatomia-nervi-autonomo-nervo-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Plessi spinali: generalità",
+          "refs": [
+            "anatomia-nervi-autonomo/plessi"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-nervi-autonomo-plessi-0",
+            "ns-anatomia-nervi-autonomo-plessi-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Nervi cranici: generalità",
+          "refs": [
+            "anatomia-neuro-dettagli/cranici"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-cranici"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        },
+        {
+          "topic": "Sistema autonomo: ortosimpatico e parasimpatico",
+          "refs": [
+            "anatomia-nervi-autonomo/simpatico",
+            "anatomia-nervi-autonomo/parasimpatico"
+          ],
+          "status": "introduced",
+          "questionIds": [
+            "ns-anatomia-nervi-autonomo-simpatico-0",
+            "ns-anatomia-nervi-autonomo-simpatico-1",
+            "ns-anatomia-nervi-autonomo-parasimpatico-0",
+            "ns-anatomia-nervi-autonomo-parasimpatico-1"
+          ],
+          "assessment": "Testo, esempio e quiz interni; le domande campionano il nucleo concettuale. Non ogni dettaglio anatomico ha una domanda separata."
+        }
+      ]
+    },
+    {
+      "id": "allenamento-analitico-2024",
+      "exam": "allenamento",
+      "sourceId": "syllabus-training",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "checked": "2026-10-21",
+      "method": "Confronto editoriale di tutte le 42 righe del programma alle pagine 4–5 del PDF. Le denominazioni sono parafrasate; i rinvii indicano il paragrafo principale, non tutta la trattazione disponibile. Il syllabus è fonte di ambito, non fonte scientifica delle spiegazioni.",
+      "requirements": [
+        {
+          "topic": "Attivazione neuromuscolare",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/risposte"
+          ],
+          "questionIds": [
+            "train-sviluppo-risposte-0",
+            "train-sviluppo-risposte-1",
+            "train-sviluppo-risposte-2",
+            "train-sviluppo-risposte-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Contrazione muscolare",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/risposte"
+          ],
+          "questionIds": [
+            "train-sviluppo-risposte-0",
+            "train-sviluppo-risposte-1",
+            "train-sviluppo-risposte-2",
+            "train-sviluppo-risposte-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Unità motoria",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-forza/unita"
+          ],
+          "questionIds": [
+            "y1-allenamento-forza-unita"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Caratteristiche delle fibre",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/risposte"
+          ],
+          "questionIds": [
+            "train-sviluppo-risposte-0",
+            "train-sviluppo-risposte-1",
+            "train-sviluppo-risposte-2",
+            "train-sviluppo-risposte-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Ruolo dell’allenatore",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-progettare/caso"
+          ],
+          "questionIds": [
+            "train-progettare-caso-0",
+            "train-progettare-caso-1",
+            "train-progettare-caso-2",
+            "train-progettare-caso-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Capacità e abilità motorie",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/mobilita"
+          ],
+          "questionIds": [
+            "train-sviluppo-mobilita-0",
+            "train-sviluppo-mobilita-1",
+            "train-sviluppo-mobilita-2",
+            "train-sviluppo-mobilita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Quadro teorico dell’allenamento",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-adattamento/principi"
+          ],
+          "questionIds": [
+            "y1-allenamento-adattamento-principi"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Adattamenti neurali, muscolari ed endocrini",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/risposte"
+          ],
+          "questionIds": [
+            "train-sviluppo-risposte-0",
+            "train-sviluppo-risposte-1",
+            "train-sviluppo-risposte-2",
+            "train-sviluppo-risposte-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Stimolo e adattamento",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-adattamento/adattamento"
+          ],
+          "questionIds": [
+            "y1-allenamento-adattamento-adattamento"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Carico fisico",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-progettare/parametri"
+          ],
+          "questionIds": [
+            "train-progettare-parametri-0",
+            "train-progettare-parametri-1",
+            "train-progettare-parametri-2",
+            "train-progettare-parametri-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Modello della supercompensazione",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/fatica"
+          ],
+          "questionIds": [
+            "train-sviluppo-fatica-0",
+            "train-sviluppo-fatica-1",
+            "train-sviluppo-fatica-2",
+            "train-sviluppo-fatica-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Sovrallenamento e limiti diagnostici",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/fatica"
+          ],
+          "questionIds": [
+            "train-sviluppo-fatica-0",
+            "train-sviluppo-fatica-1",
+            "train-sviluppo-fatica-2",
+            "train-sviluppo-fatica-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Fasi sensibili",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-sviluppo/eta"
+          ],
+          "questionIds": [
+            "train-sviluppo-eta-0",
+            "train-sviluppo-eta-1",
+            "train-sviluppo-eta-2",
+            "train-sviluppo-eta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Metodi per la forza",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-metodi/forza"
+          ],
+          "questionIds": [
+            "train-metodi-forza-0",
+            "train-metodi-forza-1",
+            "train-metodi-forza-2",
+            "train-metodi-forza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Velocità e sue componenti",
+          "sourcePage": 4,
+          "refs": [
+            "allenamento-metodi/velocita"
+          ],
+          "questionIds": [
+            "train-metodi-velocita-0",
+            "train-metodi-velocita-1",
+            "train-metodi-velocita-2",
+            "train-metodi-velocita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Metodi per la resistenza",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-metodi/resistenza"
+          ],
+          "questionIds": [
+            "train-metodi-resistenza-0",
+            "train-metodi-resistenza-1",
+            "train-metodi-resistenza-2",
+            "train-metodi-resistenza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Mobilità e metodi di sviluppo",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-sviluppo/mobilita"
+          ],
+          "questionIds": [
+            "train-sviluppo-mobilita-0",
+            "train-sviluppo-mobilita-1",
+            "train-sviluppo-mobilita-2",
+            "train-sviluppo-mobilita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Capacità coordinative",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-sviluppo/mobilita"
+          ],
+          "questionIds": [
+            "train-sviluppo-mobilita-0",
+            "train-sviluppo-mobilita-1",
+            "train-sviluppo-mobilita-2",
+            "train-sviluppo-mobilita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Principi metodologici",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-adattamento/principi"
+          ],
+          "questionIds": [
+            "y1-allenamento-adattamento-principi"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Parametri del lavoro",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-progettare/parametri"
+          ],
+          "questionIds": [
+            "train-progettare-parametri-0",
+            "train-progettare-parametri-1",
+            "train-progettare-parametri-2",
+            "train-progettare-parametri-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Periodizzazione",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-progettare/cicli"
+          ],
+          "questionIds": [
+            "train-progettare-cicli-0",
+            "train-progettare-cicli-1",
+            "train-progettare-cicli-2",
+            "train-progettare-cicli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Macro-, meso- e microcicli",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-progettare/cicli"
+          ],
+          "questionIds": [
+            "train-progettare-cicli-0",
+            "train-progettare-cicli-1",
+            "train-progettare-cicli-2",
+            "train-progettare-cicli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Organizzazione della seduta",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Lavoro continuo",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-metodi/resistenza"
+          ],
+          "questionIds": [
+            "train-metodi-resistenza-0",
+            "train-metodi-resistenza-1",
+            "train-metodi-resistenza-2",
+            "train-metodi-resistenza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Lavoro intervallato",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-metodi/resistenza"
+          ],
+          "questionIds": [
+            "train-metodi-resistenza-0",
+            "train-metodi-resistenza-1",
+            "train-metodi-resistenza-2",
+            "train-metodi-resistenza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Età evolutiva",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-sviluppo/eta"
+          ],
+          "questionIds": [
+            "train-sviluppo-eta-0",
+            "train-sviluppo-eta-1",
+            "train-sviluppo-eta-2",
+            "train-sviluppo-eta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Scelta della pratica motoria",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Pratica globale",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Pratica analitica",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Stile di insegnamento",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/stili"
+          ],
+          "questionIds": [
+            "train-insegnare-stili-0",
+            "train-insegnare-stili-1",
+            "train-insegnare-stili-2",
+            "train-insegnare-stili-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Strategie didattiche",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Conduzione a comando",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/stili"
+          ],
+          "questionIds": [
+            "train-insegnare-stili-0",
+            "train-insegnare-stili-1",
+            "train-insegnare-stili-2",
+            "train-insegnare-stili-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Assegnazione di compiti",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/stili"
+          ],
+          "questionIds": [
+            "train-insegnare-stili-0",
+            "train-insegnare-stili-1",
+            "train-insegnare-stili-2",
+            "train-insegnare-stili-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Costruzione collaborativa",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/cooperazione"
+          ],
+          "questionIds": [
+            "train-insegnare-cooperazione-0",
+            "train-insegnare-cooperazione-1",
+            "train-insegnare-cooperazione-2",
+            "train-insegnare-cooperazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Cooperazione strutturata",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/cooperazione"
+          ],
+          "questionIds": [
+            "train-insegnare-cooperazione-0",
+            "train-insegnare-cooperazione-1",
+            "train-insegnare-cooperazione-2",
+            "train-insegnare-cooperazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Problem solving",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/scoperta"
+          ],
+          "questionIds": [
+            "train-insegnare-scoperta-0",
+            "train-insegnare-scoperta-1",
+            "train-insegnare-scoperta-2",
+            "train-insegnare-scoperta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Esplorazione libera",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/scoperta"
+          ],
+          "questionIds": [
+            "train-insegnare-scoperta-0",
+            "train-insegnare-scoperta-1",
+            "train-insegnare-scoperta-2",
+            "train-insegnare-scoperta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Scoperta guidata",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/scoperta"
+          ],
+          "questionIds": [
+            "train-insegnare-scoperta-0",
+            "train-insegnare-scoperta-1",
+            "train-insegnare-scoperta-2",
+            "train-insegnare-scoperta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Produzione divergente",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/scoperta"
+          ],
+          "questionIds": [
+            "train-insegnare-scoperta-0",
+            "train-insegnare-scoperta-1",
+            "train-insegnare-scoperta-2",
+            "train-insegnare-scoperta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Classificazione degli stili",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/stili"
+          ],
+          "questionIds": [
+            "train-insegnare-stili-0",
+            "train-insegnare-stili-1",
+            "train-insegnare-stili-2",
+            "train-insegnare-stili-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Metodo di insegnamento",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        },
+        {
+          "topic": "Apprendere a gestire il proprio apprendimento",
+          "sourcePage": 5,
+          "refs": [
+            "allenamento-insegnare/cooperazione"
+          ],
+          "questionIds": [
+            "train-insegnare-cooperazione-0",
+            "train-insegnare-cooperazione-1",
+            "train-insegnare-cooperazione-2",
+            "train-insegnare-cooperazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, caso e quesiti; prove aperte nelle lezioni. La verifica copre concetti rappresentativi, non ogni dettaglio possibile."
+        }
+      ],
+      "assessmentFormat": {
+        "sourcePage": 6,
+        "description": "Il riferimento storico indica orale finale, test chiusi/aperti e produzione/esposizione di tesina. Non sono dichiarati lunghezza della tesina o pesi delle prove.",
+        "practice": "Quattro nuove prove aperte e guida con caso, calcoli e rubrica alla tesina; 64 nuovi quiz. Non una traccia ufficiale o una valutazione automatica dell’esposizione."
+      },
+      "limits": [
+        "Dispense Teams e richieste del docente corrente non disponibili in questo confronto.",
+        "Casi con dati inventati per ragionare: non programmi personali né protocolli clinici.",
+        "Presenza di testo e quiz non certifica padronanza, voto o esaustività dei manuali."
+      ]
+    },
+    {
+      "id": "motorie-analitico-2025",
+      "exam": "attivita-motorie",
+      "sourceId": "syllabus-motor",
+      "year": "2025/26",
+      "checked": "2026-10-21",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto delle sette voci dei contenuti e delle richieste di obiettivi, giudizio, comunicazione, autonomia e verifica: 19 righe di audit redazionale, non 19 titoli dichiarati dal syllabus. Schede 2025/26 e 2026/27 lette nel browser; testo dinamico archiviato localmente.",
+      "requirements": [
+        {
+          "category": "contenuti",
+          "topic": "Apprendimento del movimento",
+          "refs": [
+            "motricita-pratica/modelli",
+            "motricita-pratica/feedback",
+            "motricita-pratica/organizzazione",
+            "motricita-pratica/dati"
+          ],
+          "questionIds": [
+            "motor-pratica-modelli-0",
+            "motor-pratica-modelli-1",
+            "motor-pratica-modelli-2",
+            "motor-pratica-modelli-3",
+            "motor-pratica-feedback-0",
+            "motor-pratica-feedback-1",
+            "motor-pratica-feedback-2",
+            "motor-pratica-feedback-3",
+            "motor-pratica-organizzazione-0",
+            "motor-pratica-organizzazione-1",
+            "motor-pratica-organizzazione-2",
+            "motor-pratica-organizzazione-3",
+            "motor-pratica-dati-0",
+            "motor-pratica-dati-1",
+            "motor-pratica-dati-2",
+            "motor-pratica-dati-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Corpo in azione",
+          "refs": [
+            "motricita-controllo/percezione",
+            "motricita-controllo/classificare"
+          ],
+          "questionIds": [
+            "motor-controllo-percezione-0",
+            "motor-controllo-percezione-1",
+            "motor-controllo-percezione-2",
+            "motor-controllo-percezione-3",
+            "motor-controllo-classificare-0",
+            "motor-controllo-classificare-1",
+            "motor-controllo-classificare-2",
+            "motor-controllo-classificare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Rappresentazione corporea e movimento",
+          "refs": [
+            "motricita-corpo/schema",
+            "motricita-controllo/percezione"
+          ],
+          "questionIds": [
+            "y1-motricita-corpo-schema",
+            "motor-controllo-percezione-0",
+            "motor-controllo-percezione-1",
+            "motor-controllo-percezione-2",
+            "motor-controllo-percezione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Traiettorie evolutive",
+          "refs": [
+            "motricita-controllo/sviluppo",
+            "allenamento-sviluppo/eta"
+          ],
+          "questionIds": [
+            "train-sviluppo-eta-0",
+            "train-sviluppo-eta-1",
+            "train-sviluppo-eta-2",
+            "train-sviluppo-eta-3",
+            "motor-controllo-sviluppo-0",
+            "motor-controllo-sviluppo-1",
+            "motor-controllo-sviluppo-2",
+            "motor-controllo-sviluppo-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Capacità nell’età evolutiva",
+          "refs": [
+            "motricita-corpo/capacita",
+            "allenamento-sviluppo/mobilita"
+          ],
+          "questionIds": [
+            "y1-motricita-corpo-capacita",
+            "train-sviluppo-mobilita-0",
+            "train-sviluppo-mobilita-1",
+            "train-sviluppo-mobilita-2",
+            "train-sviluppo-mobilita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Teorie, metodi e didattica",
+          "refs": [
+            "motricita-pratica/modelli",
+            "allenamento-insegnare/stili",
+            "allenamento-insegnare/lezione"
+          ],
+          "questionIds": [
+            "train-insegnare-stili-0",
+            "train-insegnare-stili-1",
+            "train-insegnare-stili-2",
+            "train-insegnare-stili-3",
+            "train-insegnare-lezione-0",
+            "train-insegnare-lezione-1",
+            "train-insegnare-lezione-2",
+            "train-insegnare-lezione-3",
+            "motor-pratica-modelli-0",
+            "motor-pratica-modelli-1",
+            "motor-pratica-modelli-2",
+            "motor-pratica-modelli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Partecipazione di tutti",
+          "refs": [
+            "motricita-progetto/incontri",
+            "motricita-progetto/rubrica"
+          ],
+          "questionIds": [
+            "motor-progetto-incontri-0",
+            "motor-progetto-incontri-1",
+            "motor-progetto-incontri-2",
+            "motor-progetto-incontri-3",
+            "motor-progetto-rubrica-0",
+            "motor-progetto-rubrica-1",
+            "motor-progetto-rubrica-2",
+            "motor-progetto-rubrica-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "obiettivi",
+          "topic": "Attività sportiva giovanile",
+          "refs": [
+            "allenamento-sviluppo/eta",
+            "motricita-progetto/bisogni"
+          ],
+          "questionIds": [
+            "train-sviluppo-eta-0",
+            "train-sviluppo-eta-1",
+            "train-sviluppo-eta-2",
+            "train-sviluppo-eta-3",
+            "motor-progetto-bisogni-0",
+            "motor-progetto-bisogni-1",
+            "motor-progetto-bisogni-2",
+            "motor-progetto-bisogni-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "obiettivi",
+          "topic": "Valutazione dell’efficienza e delle prestazioni",
+          "refs": [
+            "allenamento-sviluppo/fatica",
+            "motricita-pratica/dati"
+          ],
+          "questionIds": [
+            "train-sviluppo-fatica-0",
+            "train-sviluppo-fatica-1",
+            "train-sviluppo-fatica-2",
+            "train-sviluppo-fatica-3",
+            "motor-pratica-dati-0",
+            "motor-pratica-dati-1",
+            "motor-pratica-dati-2",
+            "motor-pratica-dati-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "obiettivi",
+          "topic": "Strategie educative",
+          "refs": [
+            "allenamento-insegnare/cooperazione",
+            "allenamento-insegnare/scoperta"
+          ],
+          "questionIds": [
+            "train-insegnare-scoperta-0",
+            "train-insegnare-scoperta-1",
+            "train-insegnare-scoperta-2",
+            "train-insegnare-scoperta-3",
+            "train-insegnare-cooperazione-0",
+            "train-insegnare-cooperazione-1",
+            "train-insegnare-cooperazione-2",
+            "train-insegnare-cooperazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "obiettivi",
+          "topic": "Metodi e differenziazione del carico per persona e sport",
+          "refs": [
+            "allenamento-metodi/forza",
+            "allenamento-metodi/potenza",
+            "allenamento-metodi/velocita",
+            "allenamento-metodi/resistenza"
+          ],
+          "questionIds": [
+            "train-metodi-forza-0",
+            "train-metodi-forza-1",
+            "train-metodi-forza-2",
+            "train-metodi-forza-3",
+            "train-metodi-potenza-0",
+            "train-metodi-potenza-1",
+            "train-metodi-potenza-2",
+            "train-metodi-potenza-3",
+            "train-metodi-velocita-0",
+            "train-metodi-velocita-1",
+            "train-metodi-velocita-2",
+            "train-metodi-velocita-3",
+            "train-metodi-resistenza-0",
+            "train-metodi-resistenza-1",
+            "train-metodi-resistenza-2",
+            "train-metodi-resistenza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "giudizio",
+          "topic": "Analizzare criticamente principi e metodi",
+          "refs": [
+            "motricita-pratica/modelli",
+            "motricita-pratica/organizzazione"
+          ],
+          "questionIds": [
+            "motor-pratica-modelli-0",
+            "motor-pratica-modelli-1",
+            "motor-pratica-modelli-2",
+            "motor-pratica-modelli-3",
+            "motor-pratica-organizzazione-0",
+            "motor-pratica-organizzazione-1",
+            "motor-pratica-organizzazione-2",
+            "motor-pratica-organizzazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "giudizio",
+          "topic": "Leggere bisogni motori ed educativi",
+          "refs": [
+            "motricita-progetto/bisogni"
+          ],
+          "questionIds": [
+            "motor-progetto-bisogni-0",
+            "motor-progetto-bisogni-1",
+            "motor-progetto-bisogni-2",
+            "motor-progetto-bisogni-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "giudizio",
+          "topic": "Progettare interventi inclusivi coerenti",
+          "refs": [
+            "motricita-progetto/incontri",
+            "motricita-progetto/rubrica"
+          ],
+          "questionIds": [
+            "motor-progetto-incontri-0",
+            "motor-progetto-incontri-1",
+            "motor-progetto-incontri-2",
+            "motor-progetto-incontri-3",
+            "motor-progetto-rubrica-0",
+            "motor-progetto-rubrica-1",
+            "motor-progetto-rubrica-2",
+            "motor-progetto-rubrica-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "giudizio",
+          "topic": "Valutare qualità ed efficacia delle scelte",
+          "refs": [
+            "motricita-pratica/dati",
+            "motricita-progetto/rubrica"
+          ],
+          "questionIds": [
+            "motor-pratica-dati-0",
+            "motor-pratica-dati-1",
+            "motor-pratica-dati-2",
+            "motor-pratica-dati-3",
+            "motor-progetto-rubrica-0",
+            "motor-progetto-rubrica-1",
+            "motor-progetto-rubrica-2",
+            "motor-progetto-rubrica-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "comunicazione",
+          "topic": "Esporre con terminologia precisa",
+          "refs": [
+            "motricita-controllo/classificare",
+            "motricita-progetto/discutere"
+          ],
+          "questionIds": [
+            "motor-controllo-classificare-0",
+            "motor-controllo-classificare-1",
+            "motor-controllo-classificare-2",
+            "motor-controllo-classificare-3",
+            "motor-progetto-discutere-0",
+            "motor-progetto-discutere-1",
+            "motor-progetto-discutere-2",
+            "motor-progetto-discutere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "comunicazione",
+          "topic": "Adattare la spiegazione agli interlocutori",
+          "refs": [
+            "motricita-progetto/discutere"
+          ],
+          "questionIds": [
+            "motor-progetto-discutere-0",
+            "motor-progetto-discutere-1",
+            "motor-progetto-discutere-2",
+            "motor-progetto-discutere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "apprendimento autonomo",
+          "topic": "Selezionare fonti e trasferire conoscenze",
+          "refs": [
+            "motricita-progetto/discutere",
+            "motricita-controllo/vincoli"
+          ],
+          "questionIds": [
+            "motor-controllo-vincoli-0",
+            "motor-controllo-vincoli-1",
+            "motor-controllo-vincoli-2",
+            "motor-controllo-vincoli-3",
+            "motor-progetto-discutere-0",
+            "motor-progetto-discutere-1",
+            "motor-progetto-discutere-2",
+            "motor-progetto-discutere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        },
+        {
+          "category": "verifica",
+          "topic": "Colloquio argomentativo ed eventuale progetto concordato",
+          "refs": [
+            "motricita-progetto/discutere"
+          ],
+          "questionIds": [
+            "motor-progetto-discutere-0",
+            "motor-progetto-discutere-1",
+            "motor-progetto-discutere-2",
+            "motor-progetto-discutere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi, quiz e prove aperte; criteri osservabili nelle lezioni. Non certificazione dell’esposizione o dell’esecuzione pratica."
+        }
+      ],
+      "assessmentFormat": "Nel riferimento 2025/26: colloquio orale argomentativo; eventuale project work da concordare. Nessuna traccia dell’app è presentata come approvata dal docente.",
+      "limits": [
+        "La scheda attuale non espone il dettaglio analitico: corrispondenza non certificata.",
+        "Non acquisiti materiali Teams né testi integrali dei quattro manuali indicati.",
+        "App e rubrica non osservano l’esecuzione fisica né correggono automaticamente l’orale.",
+        "Casi, tabelle numeriche e progetto originali, con dati inventati dichiarati."
+      ],
+      "localSourceSnapshot": ".local/motor-sources-20261021.json"
+    },
+    {
+      "id": "gestione-analitico-2024",
+      "exam": "gestione-sport",
+      "sourceId": "syllabus-management",
+      "year": "2024/25",
+      "checked": "2026-10-21",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto dei dieci nuclei di contenuto e quattro raggruppamenti redazionali delle richieste applicative e di verifica: 14 righe, non 14 capitoli ufficiali. Scheda corrente generale verificata; dettaglio non confermato.",
+      "localSourceSnapshot": ".local/management-sources-20261021.json",
+      "requirements": [
+        {
+          "category": "contenuti",
+          "topic": "Riforma sportiva",
+          "refs": [
+            "societa-forme/riforma",
+            "societa-decisioni/qualificare"
+          ],
+          "questionIds": [
+            "y1-societa-forme-riforma",
+            "manage-societa-decisioni-qualificare-0",
+            "manage-societa-decisioni-qualificare-1",
+            "manage-societa-decisioni-qualificare-2",
+            "manage-societa-decisioni-qualificare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Qualifica professionistica o dilettantistica",
+          "refs": [
+            "societa-forme/lavoro",
+            "societa-decisioni/rapporti"
+          ],
+          "questionIds": [
+            "y1-societa-forme-lavoro",
+            "manage-societa-decisioni-rapporti-0",
+            "manage-societa-decisioni-rapporti-1",
+            "manage-societa-decisioni-rapporti-2",
+            "manage-societa-decisioni-rapporti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Associazioni e riconoscimento",
+          "refs": [
+            "societa-forme/forme",
+            "societa-decisioni/patrimonio"
+          ],
+          "questionIds": [
+            "y1-societa-forme-forme",
+            "manage-societa-decisioni-patrimonio-0",
+            "manage-societa-decisioni-patrimonio-1",
+            "manage-societa-decisioni-patrimonio-2",
+            "manage-societa-decisioni-patrimonio-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Strutture societarie sportive",
+          "refs": [
+            "societa-decisioni/governo"
+          ],
+          "questionIds": [
+            "manage-societa-decisioni-governo-0",
+            "manage-societa-decisioni-governo-1",
+            "manage-societa-decisioni-governo-2",
+            "manage-societa-decisioni-governo-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Sistema antidoping",
+          "refs": [
+            "societa-contratti/violazioni",
+            "societa-contratti/procedure",
+            "societa-casi/antidoping"
+          ],
+          "questionIds": [
+            "y1-societa-contratti-violazioni",
+            "y1-societa-contratti-procedure",
+            "manage-societa-casi-antidoping-0",
+            "manage-societa-casi-antidoping-1",
+            "manage-societa-casi-antidoping-2",
+            "manage-societa-casi-antidoping-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Affiliazione e accordi con sponsor",
+          "refs": [
+            "societa-casi/affiliare",
+            "societa-casi/sponsor"
+          ],
+          "questionIds": [
+            "manage-societa-casi-affiliare-0",
+            "manage-societa-casi-affiliare-1",
+            "manage-societa-casi-affiliare-2",
+            "manage-societa-casi-affiliare-3",
+            "manage-societa-casi-sponsor-0",
+            "manage-societa-casi-sponsor-1",
+            "manage-societa-casi-sponsor-2",
+            "manage-societa-casi-sponsor-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Marketing e gestione sportiva",
+          "refs": [
+            "marketing-domanda/servizio",
+            "marketing-gestione/organizzazione",
+            "marketing-budget/piano"
+          ],
+          "questionIds": [
+            "y1-marketing-domanda-servizio",
+            "y1-marketing-gestione-organizzazione",
+            "manage-marketing-budget-piano-0",
+            "manage-marketing-budget-piano-1",
+            "manage-marketing-budget-piano-2",
+            "manage-marketing-budget-piano-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Domanda e offerta per la persona",
+          "refs": [
+            "marketing-percorso/pubblico",
+            "marketing-percorso/ricerca"
+          ],
+          "questionIds": [
+            "manage-marketing-percorso-pubblico-0",
+            "manage-marketing-percorso-pubblico-1",
+            "manage-marketing-percorso-pubblico-2",
+            "manage-marketing-percorso-pubblico-3",
+            "manage-marketing-percorso-ricerca-0",
+            "manage-marketing-percorso-ricerca-1",
+            "manage-marketing-percorso-ricerca-2",
+            "manage-marketing-percorso-ricerca-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Leve della proposta sportiva",
+          "refs": [
+            "marketing-domanda/mix",
+            "marketing-percorso/offerta"
+          ],
+          "questionIds": [
+            "y1-marketing-domanda-mix",
+            "manage-marketing-percorso-offerta-0",
+            "manage-marketing-percorso-offerta-1",
+            "manage-marketing-percorso-offerta-2",
+            "manage-marketing-percorso-offerta-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "contenuti",
+          "topic": "Decisioni gestionali di marketing",
+          "refs": [
+            "marketing-budget/margine",
+            "marketing-budget/capacita",
+            "marketing-budget/cassa",
+            "marketing-percorso/qualita"
+          ],
+          "questionIds": [
+            "manage-marketing-percorso-qualita-0",
+            "manage-marketing-percorso-qualita-1",
+            "manage-marketing-percorso-qualita-2",
+            "manage-marketing-percorso-qualita-3",
+            "manage-marketing-budget-margine-0",
+            "manage-marketing-budget-margine-1",
+            "manage-marketing-budget-margine-2",
+            "manage-marketing-budget-margine-3",
+            "manage-marketing-budget-capacita-0",
+            "manage-marketing-budget-capacita-1",
+            "manage-marketing-budget-capacita-2",
+            "manage-marketing-budget-capacita-3",
+            "manage-marketing-budget-cassa-0",
+            "manage-marketing-budget-cassa-1",
+            "manage-marketing-budget-cassa-2",
+            "manage-marketing-budget-cassa-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "applicazione",
+          "topic": "Interpretare e applicare regole",
+          "refs": [
+            "societa-casi/discutere"
+          ],
+          "questionIds": [
+            "manage-societa-casi-discutere-0",
+            "manage-societa-casi-discutere-1",
+            "manage-societa-casi-discutere-2",
+            "manage-societa-casi-discutere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "giudizio",
+          "topic": "Confrontare soluzioni organizzative e di mercato",
+          "refs": [
+            "societa-decisioni/governo",
+            "marketing-budget/piano"
+          ],
+          "questionIds": [
+            "manage-societa-decisioni-governo-0",
+            "manage-societa-decisioni-governo-1",
+            "manage-societa-decisioni-governo-2",
+            "manage-societa-decisioni-governo-3",
+            "manage-marketing-budget-piano-0",
+            "manage-marketing-budget-piano-1",
+            "manage-marketing-budget-piano-2",
+            "manage-marketing-budget-piano-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "comunicazione",
+          "topic": "Esposizione giuridica ed economica precisa",
+          "refs": [
+            "societa-decisioni/qualificare",
+            "marketing-percorso/ricerca"
+          ],
+          "questionIds": [
+            "manage-societa-decisioni-qualificare-0",
+            "manage-societa-decisioni-qualificare-1",
+            "manage-societa-decisioni-qualificare-2",
+            "manage-societa-decisioni-qualificare-3",
+            "manage-marketing-percorso-ricerca-0",
+            "manage-marketing-percorso-ricerca-1",
+            "manage-marketing-percorso-ricerca-2",
+            "manage-marketing-percorso-ricerca-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        },
+        {
+          "category": "verifica",
+          "topic": "Colloquio con argomentazione autonoma",
+          "refs": [
+            "societa-casi/discutere",
+            "marketing-budget/piano"
+          ],
+          "questionIds": [
+            "manage-societa-casi-discutere-0",
+            "manage-societa-casi-discutere-1",
+            "manage-societa-casi-discutere-2",
+            "manage-societa-casi-discutere-3",
+            "manage-marketing-budget-piano-0",
+            "manage-marketing-budget-piano-1",
+            "manage-marketing-budget-piano-2",
+            "manage-marketing-budget-piano-3"
+          ],
+          "status": "introduced",
+          "assessment": "Concetti e casi svolti con quiz e aiuto interno; prove aperte con criteri di autoconfronto. La presenza non certifica padronanza né profondità sufficiente per ogni domanda del docente."
+        }
+      ],
+      "assessmentFormat": "Colloquio orale nel syllabus 2024/25; esame orale confermato nei dati generali 2026/27. Risposte autonome con linguaggio appropriato, ragionamento e applicazione ai casi. Nessun voto automatico alle risposte libere.",
+      "limits": [
+        "Dispense Teams e capitoli dei manuali non acquisiti integralmente.",
+        "Le regole di diritto sono spiegate per principi: non sostituiscono verifiche specifiche su fisco, rapporti di lavoro e regolamenti federali.",
+        "CNDCEC/FNC consultato per i profili civilistici del marzo 2025; non attestato aggiornamento dell’intera disciplina tributaria.",
+        "I dati economici sono inventati; i budget non sono piani professionali completi.",
+        "Orale da esercitare a voce: le risposte modello non misurano automaticamente la preparazione."
+      ]
+    },
+    {
+      "id": "psicologia-processi-2024",
+      "exam": "scienze-psicopedagogiche",
+      "sourceId": "syllabus-psico",
+      "year": "2024/25",
+      "checked": "2026-10-21",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato dei processi percettivi, cognitivi e psicobiologici menzionati nella scheda storica, articolato in 12 righe redazionali; non presentato come elenco completo di tutti i contenuti del corso integrato.",
+      "localSourceSnapshot": ".local/psychology-sources-20261021.json",
+      "moduleSourceSnapshot": ".local/psychology-modules-20261021.json",
+      "requirements": [
+        {
+          "category": "metodi",
+          "topic": "Misure e confronto sperimentale",
+          "refs": [
+            "psico-metodo/esperimento",
+            "psico-psicobiologia/metodi"
+          ],
+          "questionIds": [
+            "y1-psico-metodo-esperimento",
+            "psych-psico-psicobiologia-metodi-0",
+            "psych-psico-psicobiologia-metodi-1",
+            "psych-psico-psicobiologia-metodi-2",
+            "psych-psico-psicobiologia-metodi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Basi neurali e plasticità",
+          "refs": [
+            "psico-metodo/psicobiologia",
+            "psico-psicobiologia/reti"
+          ],
+          "questionIds": [
+            "y1-psico-metodo-psicobiologia",
+            "psych-psico-psicobiologia-reti-0",
+            "psych-psico-psicobiologia-reti-1",
+            "psych-psico-psicobiologia-reti-2",
+            "psych-psico-psicobiologia-reti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Sensazione e soglie",
+          "refs": [
+            "psico-percepire/soglie"
+          ],
+          "questionIds": [
+            "psych-psico-percepire-soglie-0",
+            "psych-psico-percepire-soglie-1",
+            "psych-psico-percepire-soglie-2",
+            "psych-psico-percepire-soglie-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Percezione e decisione",
+          "refs": [
+            "psico-percepire/segnale",
+            "psico-percepire/organizzare"
+          ],
+          "questionIds": [
+            "psych-psico-percepire-segnale-0",
+            "psych-psico-percepire-segnale-1",
+            "psych-psico-percepire-segnale-2",
+            "psych-psico-percepire-segnale-3",
+            "psych-psico-percepire-organizzare-0",
+            "psych-psico-percepire-organizzare-1",
+            "psych-psico-percepire-organizzare-2",
+            "psych-psico-percepire-organizzare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Coscienza e stati",
+          "refs": [
+            "psico-psicobiologia/sonno"
+          ],
+          "questionIds": [
+            "psych-psico-psicobiologia-sonno-0",
+            "psych-psico-psicobiologia-sonno-1",
+            "psych-psico-psicobiologia-sonno-2",
+            "psych-psico-psicobiologia-sonno-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Attenzione e interferenza",
+          "refs": [
+            "psico-percepire/attenzione"
+          ],
+          "questionIds": [
+            "psych-psico-percepire-attenzione-0",
+            "psych-psico-percepire-attenzione-1",
+            "psych-psico-percepire-attenzione-2",
+            "psych-psico-percepire-attenzione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Apprendimento associativo",
+          "refs": [
+            "psico-apprendere/classico",
+            "psico-apprendere/conseguenze",
+            "psico-apprendere/programmi"
+          ],
+          "questionIds": [
+            "psych-psico-apprendere-classico-0",
+            "psych-psico-apprendere-classico-1",
+            "psych-psico-apprendere-classico-2",
+            "psych-psico-apprendere-classico-3",
+            "psych-psico-apprendere-conseguenze-0",
+            "psych-psico-apprendere-conseguenze-1",
+            "psych-psico-apprendere-conseguenze-2",
+            "psych-psico-apprendere-conseguenze-3",
+            "psych-psico-apprendere-programmi-0",
+            "psych-psico-apprendere-programmi-1",
+            "psych-psico-apprendere-programmi-2",
+            "psych-psico-apprendere-programmi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Apprendimento attraverso modelli",
+          "refs": [
+            "psico-apprendere/osservare"
+          ],
+          "questionIds": [
+            "psych-psico-apprendere-osservare-0",
+            "psych-psico-apprendere-osservare-1",
+            "psych-psico-apprendere-osservare-2",
+            "psych-psico-apprendere-osservare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Memoria e ricostruzione",
+          "refs": [
+            "psico-memoria/sistemi",
+            "psico-memoria/codifica",
+            "psico-memoria/recupero"
+          ],
+          "questionIds": [
+            "psych-psico-memoria-sistemi-0",
+            "psych-psico-memoria-sistemi-1",
+            "psych-psico-memoria-sistemi-2",
+            "psych-psico-memoria-sistemi-3",
+            "psych-psico-memoria-codifica-0",
+            "psych-psico-memoria-codifica-1",
+            "psych-psico-memoria-codifica-2",
+            "psych-psico-memoria-codifica-3",
+            "psych-psico-memoria-recupero-0",
+            "psych-psico-memoria-recupero-1",
+            "psych-psico-memoria-recupero-2",
+            "psych-psico-memoria-recupero-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "processi",
+          "topic": "Immaginazione e movimento",
+          "refs": [
+            "psico-memoria/immaginare"
+          ],
+          "questionIds": [
+            "psych-psico-memoria-immaginare-0",
+            "psych-psico-memoria-immaginare-1",
+            "psych-psico-memoria-immaginare-2",
+            "psych-psico-memoria-immaginare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "applicazione",
+          "topic": "Organizzare e verificare lo studio",
+          "refs": [
+            "psico-psicobiologia/studiare"
+          ],
+          "questionIds": [
+            "psych-psico-psicobiologia-studiare-0",
+            "psych-psico-psicobiologia-studiare-1",
+            "psych-psico-psicobiologia-studiare-2",
+            "psych-psico-psicobiologia-studiare-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        },
+        {
+          "category": "verifica",
+          "topic": "Discutere dati e interpretazioni",
+          "refs": [
+            "psico-psicobiologia/metodi",
+            "psico-percepire/segnale",
+            "psico-memoria/immaginare"
+          ],
+          "questionIds": [
+            "psych-psico-percepire-segnale-0",
+            "psych-psico-percepire-segnale-1",
+            "psych-psico-percepire-segnale-2",
+            "psych-psico-percepire-segnale-3",
+            "psych-psico-memoria-immaginare-0",
+            "psych-psico-memoria-immaginare-1",
+            "psych-psico-memoria-immaginare-2",
+            "psych-psico-memoria-immaginare-3",
+            "psych-psico-psicobiologia-metodi-0",
+            "psych-psico-psicobiologia-metodi-1",
+            "psych-psico-psicobiologia-metodi-2",
+            "psych-psico-psicobiologia-metodi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, casi originali, quiz e prove aperte con criteri. L’esposizione autonoma va esercitata: i controlli non assegnano automaticamente un voto orale."
+        }
+      ],
+      "limits": [
+        "Questo audit non tratta motivazione/emozioni e sviluppo, approfonditi successivamente nell’audit psicologia-sviluppo-2024. Restano pedagogia, monografie e confronto del modulo speciale corrente.",
+        "Le schede correnti non espongono il dettaglio analitico; i docenti e la struttura differiscono dal riferimento storico.",
+        "Tabelle con soglie, segnali, tempi e percentuali sono inventate e dichiarate, non risultati sperimentali pubblicati.",
+        "Per Roediger/Karpicke letto l’abstract, non articolo integrale; per imagery letti abstract, introduzione e disegno.",
+        "Nessuna prova dell’app diagnostica un disturbo o garantisce un voto universitario."
+      ]
+    },
+    {
+      "id": "psicologia-sviluppo-2024",
+      "exam": "scienze-psicopedagogiche",
+      "sourceId": "syllabus-psico",
+      "year": "2024/25",
+      "checked": "2026-10-21",
+      "currentEquivalentConfirmed": false,
+      "method": "Confronto mirato dei nuclei motivazione/emozioni e sviluppo già mappati dalla scheda storica. Sedici righe articolano editorialmente i nuovi capitoli: non sono sedici voci testuali del syllabus né attestano la copertura integrale dell’insegnamento corrente.",
+      "requirements": [
+        {
+          "category": "approfondimento",
+          "topic": "Perché cominciamo, quanto insistiamo, verso che cosa",
+          "refs": [
+            "psico-motivare/modelli"
+          ],
+          "questionIds": [
+            "dev-psico-motivare-modelli-0",
+            "dev-psico-motivare-modelli-1",
+            "dev-psico-motivare-modelli-2",
+            "dev-psico-motivare-modelli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Deci e Ryan: non tutta la motivazione estrinseca è controllata",
+          "refs": [
+            "psico-motivare/autonomia"
+          ],
+          "questionIds": [
+            "dev-psico-motivare-autonomia-0",
+            "dev-psico-motivare-autonomia-1",
+            "dev-psico-motivare-autonomia-2",
+            "dev-psico-motivare-autonomia-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Capacità percepita, risultato atteso e spiegazioni del fallimento",
+          "refs": [
+            "psico-motivare/efficacia"
+          ],
+          "questionIds": [
+            "dev-psico-motivare-efficacia-0",
+            "dev-psico-motivare-efficacia-1",
+            "dev-psico-motivare-efficacia-2",
+            "dev-psico-motivare-efficacia-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Dall’intenzione a un obiettivo verificabile",
+          "refs": [
+            "psico-motivare/piano"
+          ],
+          "questionIds": [
+            "dev-psico-motivare-piano-0",
+            "dev-psico-motivare-piano-1",
+            "dev-psico-motivare-piano-2",
+            "dev-psico-motivare-piano-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Un’emozione non coincide con un solo segnale",
+          "refs": [
+            "psico-regolare/componenti"
+          ],
+          "questionIds": [
+            "dev-psico-regolare-componenti-0",
+            "dev-psico-regolare-componenti-1",
+            "dev-psico-regolare-componenti-2",
+            "dev-psico-regolare-componenti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "James-Lange, Cannon-Bard, Schachter-Singer e appraisal",
+          "refs": [
+            "psico-regolare/teorie"
+          ],
+          "questionIds": [
+            "dev-psico-regolare-teorie-0",
+            "dev-psico-regolare-teorie-1",
+            "dev-psico-regolare-teorie-2",
+            "dev-psico-regolare-teorie-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Rivalutare il significato e contenere l’espressione",
+          "refs": [
+            "psico-regolare/strategie"
+          ],
+          "questionIds": [
+            "dev-psico-regolare-strategie-0",
+            "dev-psico-regolare-strategie-1",
+            "dev-psico-regolare-strategie-2",
+            "dev-psico-regolare-strategie-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Leggere un confronto senza inventare un’emozione",
+          "refs": [
+            "psico-regolare/dati"
+          ],
+          "questionIds": [
+            "dev-psico-regolare-dati-0",
+            "dev-psico-regolare-dati-1",
+            "dev-psico-regolare-dati-2",
+            "dev-psico-regolare-dati-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Cambiamento individuale e differenze fra età",
+          "refs": [
+            "sviluppo-pensare/ricerca"
+          ],
+          "questionIds": [
+            "dev-sviluppo-pensare-ricerca-0",
+            "dev-sviluppo-pensare-ricerca-1",
+            "dev-sviluppo-pensare-ricerca-2",
+            "dev-sviluppo-pensare-ricerca-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Schemi, conservazione e ragionamento ipotetico",
+          "refs": [
+            "sviluppo-pensare/piaget"
+          ],
+          "questionIds": [
+            "dev-sviluppo-pensare-piaget-0",
+            "dev-sviluppo-pensare-piaget-1",
+            "dev-sviluppo-pensare-piaget-2",
+            "dev-sviluppo-pensare-piaget-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Vygotskij: strumenti culturali e aiuto che cambia",
+          "refs": [
+            "sviluppo-pensare/mediazione"
+          ],
+          "questionIds": [
+            "dev-sviluppo-pensare-mediazione-0",
+            "dev-sviluppo-pensare-mediazione-1",
+            "dev-sviluppo-pensare-mediazione-2",
+            "dev-sviluppo-pensare-mediazione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Comprendere una consegna: forma, significato e uso",
+          "refs": [
+            "sviluppo-pensare/linguaggio"
+          ],
+          "questionIds": [
+            "dev-sviluppo-pensare-linguaggio-0",
+            "dev-sviluppo-pensare-linguaggio-1",
+            "dev-sviluppo-pensare-linguaggio-2",
+            "dev-sviluppo-pensare-linguaggio-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Attaccamento: base sicura e limiti dell’osservazione",
+          "refs": [
+            "sviluppo-sociale/legami"
+          ],
+          "questionIds": [
+            "dev-sviluppo-sociale-legami-0",
+            "dev-sviluppo-sociale-legami-1",
+            "dev-sviluppo-sociale-legami-2",
+            "dev-sviluppo-sociale-legami-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Erikson: compiti psicosociali lungo la vita",
+          "refs": [
+            "sviluppo-sociale/identita"
+          ],
+          "questionIds": [
+            "dev-sviluppo-sociale-identita-0",
+            "dev-sviluppo-sociale-identita-1",
+            "dev-sviluppo-sociale-identita-2",
+            "dev-sviluppo-sociale-identita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Kohlberg: la ragione della scelta conta più del solo sì o no",
+          "refs": [
+            "sviluppo-sociale/morale"
+          ],
+          "questionIds": [
+            "dev-sviluppo-sociale-morale-0",
+            "dev-sviluppo-sociale-morale-1",
+            "dev-sviluppo-sociale-morale-2",
+            "dev-sviluppo-sociale-morale-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        },
+        {
+          "category": "approfondimento",
+          "topic": "Bronfenbrenner: persone e contesti che si influenzano",
+          "refs": [
+            "sviluppo-sociale/ecologia"
+          ],
+          "questionIds": [
+            "dev-sviluppo-sociale-ecologia-0",
+            "dev-sviluppo-sociale-ecologia-1",
+            "dev-sviluppo-sociale-ecologia-2",
+            "dev-sviluppo-sociale-ecologia-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, caso originale svolto, quattro quiz con feedback e rimando integrale; prova aperta del capitolo con criteri di autoconfronto. Nessun voto automatico all’orale."
+        }
+      ],
+      "limits": [
+        "Il programma storico è generale; le schede correnti consultate non riportano il dettaglio dei contenuti.",
+        "Autori pedagogici, monografie e materiali specifici del docente restano da sviluppare o verificare.",
+        "Per Gross consultato soltanto l’abstract; per Wood/Bruner/Ross verificata la scheda bibliografica, non letto l’articolo integrale.",
+        "Casi numerici originali e dichiarati inventati; nessuna scala emotiva validata né diagnosi di sviluppo o attaccamento.",
+        "I modelli per stadi vengono insegnati con i propri limiti, senza trasformarli in scadenze individuali o previsioni inevitabili."
+      ]
+    },
+    {
+      "id": "pedagogia-analitico-2017",
+      "exam": "scienze-psicopedagogiche",
+      "sourceId": "ped-programma-2017",
+      "year": "2017/18",
+      "checked": "2026-10-21",
+      "currentEquivalentConfirmed": false,
+      "method": "Letto il PDF originale di una pagina. I blocchi e sottoargomenti sono articolati in 14 righe di confronto, cui si aggiungono due righe redazionali su confronto fra autori e argomentazione. Gli obiettivi di discussione sono collegati anche al PDF integrato 2024/25. Le tre righe monografiche restano parziali.",
+      "localSourceSnapshot": ".local/pedagogy-2017-source.pdf",
+      "requirements": [
+        {
+          "category": "nucleo-storico",
+          "topic": "Crisi dell’educazione",
+          "refs": [
+            "pedagogia-persona/fini",
+            "pedagogia-persona/prospettiva"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-fini-0",
+            "ped-pedagogia-persona-fini-1",
+            "ped-pedagogia-persona-fini-2",
+            "ped-pedagogia-persona-fini-3",
+            "ped-pedagogia-persona-prospettiva-0",
+            "ped-pedagogia-persona-prospettiva-1",
+            "ped-pedagogia-persona-prospettiva-2",
+            "ped-pedagogia-persona-prospettiva-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Visione antropologica ed esistenziale",
+          "refs": [
+            "pedagogia-persona/fini",
+            "pedagogia-persona/integralita"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-fini-0",
+            "ped-pedagogia-persona-fini-1",
+            "ped-pedagogia-persona-fini-2",
+            "ped-pedagogia-persona-fini-3",
+            "ped-pedagogia-persona-integralita-0",
+            "ped-pedagogia-persona-integralita-1",
+            "ped-pedagogia-persona-integralita-2",
+            "ped-pedagogia-persona-integralita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Identità personale",
+          "refs": [
+            "pedagogia-persona/fini",
+            "sviluppo-sociale/identita"
+          ],
+          "questionIds": [
+            "dev-sviluppo-sociale-identita-0",
+            "dev-sviluppo-sociale-identita-1",
+            "dev-sviluppo-sociale-identita-2",
+            "dev-sviluppo-sociale-identita-3",
+            "ped-pedagogia-persona-fini-0",
+            "ped-pedagogia-persona-fini-1",
+            "ped-pedagogia-persona-fini-2",
+            "ped-pedagogia-persona-fini-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Trasmissione della vita: nucleo monografico",
+          "refs": [
+            "pedagogia-comunita/reti",
+            "pedagogia-persona/prospettiva"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-prospettiva-0",
+            "ped-pedagogia-persona-prospettiva-1",
+            "ped-pedagogia-persona-prospettiva-2",
+            "ped-pedagogia-persona-prospettiva-3",
+            "ped-pedagogia-comunita-reti-0",
+            "ped-pedagogia-comunita-reti-1",
+            "ped-pedagogia-comunita-reti-2",
+            "ped-pedagogia-comunita-reti-3"
+          ],
+          "status": "partial",
+          "assessment": "Introdotti il tema documentato e i limiti delle fonti, con esercizi sul ragionamento e casi originali. I quiz NON verificano gli argomenti specifici della monografia non consultata integralmente; la riga resta parziale."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Relativismo nella prospettiva del programma",
+          "refs": [
+            "pedagogia-persona/prospettiva"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-prospettiva-0",
+            "ped-pedagogia-persona-prospettiva-1",
+            "ped-pedagogia-persona-prospettiva-2",
+            "ped-pedagogia-persona-prospettiva-3"
+          ],
+          "status": "partial",
+          "assessment": "Introdotti il tema documentato e i limiti delle fonti, con esercizi sul ragionamento e casi originali. I quiz NON verificano gli argomenti specifici della monografia non consultata integralmente; la riga resta parziale."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Rapporto fra razionalità e affettività",
+          "refs": [
+            "pedagogia-persona/integralita"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-integralita-0",
+            "ped-pedagogia-persona-integralita-1",
+            "ped-pedagogia-persona-integralita-2",
+            "ped-pedagogia-persona-integralita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Relazione educativa",
+          "refs": [
+            "pedagogia-persona/autorita",
+            "pedagogia-comunita/reti"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-autorita-0",
+            "ped-pedagogia-persona-autorita-1",
+            "ped-pedagogia-persona-autorita-2",
+            "ped-pedagogia-persona-autorita-3",
+            "ped-pedagogia-comunita-reti-0",
+            "ped-pedagogia-comunita-reti-1",
+            "ped-pedagogia-comunita-reti-2",
+            "ped-pedagogia-comunita-reti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Autorità e tradizione",
+          "refs": [
+            "pedagogia-persona/autorita",
+            "pedagogia-persona/prospettiva"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-prospettiva-0",
+            "ped-pedagogia-persona-prospettiva-1",
+            "ped-pedagogia-persona-prospettiva-2",
+            "ped-pedagogia-persona-prospettiva-3",
+            "ped-pedagogia-persona-autorita-0",
+            "ped-pedagogia-persona-autorita-1",
+            "ped-pedagogia-persona-autorita-2",
+            "ped-pedagogia-persona-autorita-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Famiglia",
+          "refs": [
+            "pedagogia-comunita/reti"
+          ],
+          "questionIds": [
+            "ped-pedagogia-comunita-reti-0",
+            "ped-pedagogia-comunita-reti-1",
+            "ped-pedagogia-comunita-reti-2",
+            "ped-pedagogia-comunita-reti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Scuola",
+          "refs": [
+            "pedagogia-comunita/reti",
+            "pedagogia-autori/confronto"
+          ],
+          "questionIds": [
+            "ped-pedagogia-autori-confronto-0",
+            "ped-pedagogia-autori-confronto-1",
+            "ped-pedagogia-autori-confronto-2",
+            "ped-pedagogia-autori-confronto-3",
+            "ped-pedagogia-comunita-reti-0",
+            "ped-pedagogia-comunita-reti-1",
+            "ped-pedagogia-comunita-reti-2",
+            "ped-pedagogia-comunita-reti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Società e partecipazione",
+          "refs": [
+            "pedagogia-autori/freire",
+            "pedagogia-comunita/reti"
+          ],
+          "questionIds": [
+            "ped-pedagogia-autori-freire-0",
+            "ped-pedagogia-autori-freire-1",
+            "ped-pedagogia-autori-freire-2",
+            "ped-pedagogia-autori-freire-3",
+            "ped-pedagogia-comunita-reti-0",
+            "ped-pedagogia-comunita-reti-1",
+            "ped-pedagogia-comunita-reti-2",
+            "ped-pedagogia-comunita-reti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Mass media",
+          "refs": [
+            "pedagogia-comunita/media"
+          ],
+          "questionIds": [
+            "ped-pedagogia-comunita-media-0",
+            "ped-pedagogia-comunita-media-1",
+            "ped-pedagogia-comunita-media-2",
+            "ped-pedagogia-comunita-media-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "Sport",
+          "refs": [
+            "pedagogia-comunita/sport",
+            "pedagogia-comunita/caso"
+          ],
+          "questionIds": [
+            "ped-pedagogia-comunita-sport-0",
+            "ped-pedagogia-comunita-sport-1",
+            "ped-pedagogia-comunita-sport-2",
+            "ped-pedagogia-comunita-sport-3",
+            "ped-pedagogia-comunita-caso-0",
+            "ped-pedagogia-comunita-caso-1",
+            "ped-pedagogia-comunita-caso-2",
+            "ped-pedagogia-comunita-caso-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "nucleo-storico",
+          "topic": "La ricerca della Bellezza: monografia assegnata",
+          "refs": [
+            "pedagogia-persona/prospettiva",
+            "pedagogia-persona/integralita"
+          ],
+          "questionIds": [
+            "ped-pedagogia-persona-prospettiva-0",
+            "ped-pedagogia-persona-prospettiva-1",
+            "ped-pedagogia-persona-prospettiva-2",
+            "ped-pedagogia-persona-prospettiva-3",
+            "ped-pedagogia-persona-integralita-0",
+            "ped-pedagogia-persona-integralita-1",
+            "ped-pedagogia-persona-integralita-2",
+            "ped-pedagogia-persona-integralita-3"
+          ],
+          "status": "partial",
+          "assessment": "Introdotti il tema documentato e i limiti delle fonti, con esercizi sul ragionamento e casi originali. I quiz NON verificano gli argomenti specifici della monografia non consultata integralmente; la riga resta parziale."
+        },
+        {
+          "category": "applicazione-redazionale",
+          "topic": "Confronto editoriale fra prospettive",
+          "refs": [
+            "pedagogia-autori/dewey",
+            "pedagogia-autori/montessori",
+            "pedagogia-autori/freire",
+            "pedagogia-autori/confronto"
+          ],
+          "questionIds": [
+            "ped-pedagogia-autori-dewey-0",
+            "ped-pedagogia-autori-dewey-1",
+            "ped-pedagogia-autori-dewey-2",
+            "ped-pedagogia-autori-dewey-3",
+            "ped-pedagogia-autori-montessori-0",
+            "ped-pedagogia-autori-montessori-1",
+            "ped-pedagogia-autori-montessori-2",
+            "ped-pedagogia-autori-montessori-3",
+            "ped-pedagogia-autori-freire-0",
+            "ped-pedagogia-autori-freire-1",
+            "ped-pedagogia-autori-freire-2",
+            "ped-pedagogia-autori-freire-3",
+            "ped-pedagogia-autori-confronto-0",
+            "ped-pedagogia-autori-confronto-1",
+            "ped-pedagogia-autori-confronto-2",
+            "ped-pedagogia-autori-confronto-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        },
+        {
+          "category": "applicazione-redazionale",
+          "topic": "Esposizione critica e applicazione (obiettivi 2024/25)",
+          "refs": [
+            "pedagogia-comunita/caso"
+          ],
+          "questionIds": [
+            "ped-pedagogia-comunita-caso-0",
+            "ped-pedagogia-comunita-caso-1",
+            "ped-pedagogia-comunita-caso-2",
+            "ped-pedagogia-comunita-caso-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni interne, esempi originali, quiz e collegamenti all’orale. Introdotto non significa esaurito in ogni dettaglio né equivalente al programma corrente."
+        }
+      ],
+      "limits": [
+        "La struttura del corso e i docenti correnti differiscono; non è confermata equivalenza 2026/27.",
+        "La ricerca della Bellezza non è stata letta integralmente. Il laboratorio estetico è una proposta originale, non una sintesi certificata del libro.",
+        "Persano/Giussani: consultate schede e sintesi editoriali, non i volumi integrali. La prospettiva religiosa e filosofica è attribuita, senza presentarla come fatto sperimentale o chiedere adesione.",
+        "I confronti Dewey/Montessori/Freire ampliano il ragionamento: non sono elencati come autori prescritti nella scheda storica.",
+        "Turni, gruppi, pubblicità e interventi sono casi inventati, non risultati di ricerche pubblicate.",
+        "I quiz non provano la padronanza orale: le prove aperte richiedono autoconfronto e revisione."
+      ]
+    },
+    {
+      "id": "informatica-dati-applicati-2022",
+      "exam": "informatica",
+      "sourceId": "syllabus-info",
+      "year": "Archivio 2022/23",
+      "currentEquivalentConfirmed": false,
+      "checked": "2026-10-21",
+      "method": "Riletto il PDF ufficiale già acquisito in .local/informatica.pdf. Il syllabus richiede gestione di fogli di calcolo, dati e comunicazione dei risultati; non elenca testualmente ordinamento, filtri e tipi di grafico. Le quattro righe seguenti sono un approfondimento editoriale applicativo, non un confronto esaustivo del programma.",
+      "requirements": [
+        {
+          "topic": "Ordinare senza separare una misura dalla sua riga",
+          "refs": [
+            "informatica-dati/ordinare"
+          ],
+          "questionIds": [
+            "data-ordinare-1",
+            "data-ordinare-2",
+            "data-ordinare-3",
+            "data-ordinare-4"
+          ],
+          "status": "introduced",
+          "assessment": "Quattro quiz e operazioni reali nei laboratori collegati; controlli su parametri richiesti, output e aiuti interni."
+        },
+        {
+          "topic": "Filtri, soglie e condizioni AND/OR",
+          "refs": [
+            "informatica-dati/filtrare"
+          ],
+          "questionIds": [
+            "data-filtrare-5",
+            "data-filtrare-6",
+            "data-filtrare-7",
+            "data-filtrare-8"
+          ],
+          "status": "introduced",
+          "assessment": "Quattro quiz e operazioni reali nei laboratori collegati; controlli su parametri richiesti, output e aiuti interni."
+        },
+        {
+          "topic": "Costruire un grafico che risponda alla domanda",
+          "refs": [
+            "informatica-dati/grafici"
+          ],
+          "questionIds": [
+            "data-grafici-9",
+            "data-grafici-10",
+            "data-grafici-11",
+            "data-grafici-12"
+          ],
+          "status": "introduced",
+          "assessment": "Quattro quiz e operazioni reali nei laboratori collegati; controlli su parametri richiesti, output e aiuti interni."
+        },
+        {
+          "topic": "Controllare e raccontare il risultato",
+          "refs": [
+            "informatica-dati/interpretare"
+          ],
+          "questionIds": [
+            "data-interpretare-13",
+            "data-interpretare-14",
+            "data-interpretare-15",
+            "data-interpretare-16"
+          ],
+          "status": "introduced",
+          "assessment": "Quattro quiz, prova aperta e tre report con modello/criteri; nessun voto automatico al testo."
+        }
+      ],
+      "limits": [
+        "La scheda storica riguarda il secondo anno, 2 CFU, docente Giovanni Cozzolongo, e indica scritto più attività di gruppo in laboratorio. Non certifica modalità o dettaglio del primo anno attuale.",
+        "Dispense e appunti di lezione non acquisiti. Il confronto completo di teoria, testi e competenze resta aperto.",
+        "Il laboratorio è individuale, con dati inventati; non valuta la collaborazione di gruppo né tutte le funzioni di Calc."
+      ],
+      "workbookIds": [
+        "dati-sedute",
+        "dati-unione",
+        "dati-tempo"
+      ]
+    },
+    {
+      "id": "informatica-analitico-2022",
+      "exam": "informatica",
+      "sourceId": "syllabus-info",
+      "year": "Archivio 2022/23",
+      "currentEquivalentConfirmed": false,
+      "checked": "2026-10-21",
+      "method": "Confronto del PDF originale ufficiale, acquisito localmente e riletto. 28 righe editoriali: contenuti, risultati attesi, materiali e valutazione. Le righe scompongono i periodi della scheda: non sono 28 capitoli enumerati dal docente.",
+      "requirements": [
+        {
+          "topic": "Storia dell’informatica",
+          "refs": [
+            "informatica-calcolo/modelli"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-modelli-0",
+            "it-informatica-calcolo-modelli-1",
+            "it-informatica-calcolo-modelli-2",
+            "it-informatica-calcolo-modelli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Livelli e tappe: calcolo, programma memorizzato, Web; quattro quiz e confronto dei concetti. Non un catalogo di ogni invenzione."
+        },
+        {
+          "topic": "Modelli teorici",
+          "refs": [
+            "informatica-calcolo/modelli",
+            "informatica-calcolo/algoritmi"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-modelli-0",
+            "it-informatica-calcolo-modelli-1",
+            "it-informatica-calcolo-modelli-2",
+            "it-informatica-calcolo-modelli-3",
+            "it-informatica-calcolo-algoritmi-0",
+            "it-informatica-calcolo-algoritmi-1",
+            "it-informatica-calcolo-algoritmi-2",
+            "it-informatica-calcolo-algoritmi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Distinzione modello astratto/macchina, procedura, programma, tracciamento e casi limite. Il syllabus non elenca modelli particolari da formalizzare."
+        },
+        {
+          "topic": "Componenti fisici",
+          "refs": [
+            "informatica-calcolo/componenti"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-componenti-0",
+            "it-informatica-calcolo-componenti-1",
+            "it-informatica-calcolo-componenti-2",
+            "it-informatica-calcolo-componenti-3"
+          ],
+          "status": "introduced",
+          "assessment": "CPU, memorie, periferiche, percorso di misura e persistenza, con casi."
+        },
+        {
+          "topic": "Componenti logici",
+          "refs": [
+            "informatica-calcolo/modelli",
+            "informatica-archivi/processi"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-modelli-0",
+            "it-informatica-calcolo-modelli-1",
+            "it-informatica-calcolo-modelli-2",
+            "it-informatica-calcolo-modelli-3",
+            "it-informatica-archivi-processi-0",
+            "it-informatica-archivi-processi-1",
+            "it-informatica-archivi-processi-2",
+            "it-informatica-archivi-processi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Linguaggi, programma/processo, software di base e applicativo."
+        },
+        {
+          "topic": "Sistemi operativi",
+          "refs": [
+            "informatica-archivi/processi"
+          ],
+          "questionIds": [
+            "it-informatica-archivi-processi-0",
+            "it-informatica-archivi-processi-1",
+            "it-informatica-archivi-processi-2",
+            "it-informatica-archivi-processi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Gestione risorse, concorrenza, processi, driver e permessi."
+        },
+        {
+          "topic": "File system",
+          "refs": [
+            "informatica-archivi/percorsi"
+          ],
+          "questionIds": [
+            "it-informatica-archivi-percorsi-0",
+            "it-informatica-archivi-percorsi-1",
+            "it-informatica-archivi-percorsi-2",
+            "it-informatica-archivi-percorsi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Percorsi, copie, collegamenti, metadati, versione e recupero."
+        },
+        {
+          "topic": "Software applicativo",
+          "refs": [
+            "informatica-progetto/report",
+            "informatica-archivi/formati",
+            "informatica-fogli/formule"
+          ],
+          "questionIds": [
+            "y1-informatica-fogli-formule",
+            "it-informatica-archivi-formati-0",
+            "it-informatica-archivi-formati-1",
+            "it-informatica-archivi-formati-2",
+            "it-informatica-archivi-formati-3",
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "introduced",
+          "assessment": "Scelta dello strumento e del formato, testo, calcolo e presentazione; applicazioni originali."
+        },
+        {
+          "topic": "Reti di calcolatori: storia",
+          "refs": [
+            "informatica-servizi/protocolli",
+            "informatica-calcolo/modelli"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-modelli-0",
+            "it-informatica-calcolo-modelli-1",
+            "it-informatica-calcolo-modelli-2",
+            "it-informatica-calcolo-modelli-3",
+            "it-informatica-servizi-protocolli-0",
+            "it-informatica-servizi-protocolli-1",
+            "it-informatica-servizi-protocolli-2",
+            "it-informatica-servizi-protocolli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Commutazione di pacchetto, ARPANET e distinzione Web/Internet; non ogni cronologia nazionale."
+        },
+        {
+          "topic": "Reti di calcolatori: protocolli",
+          "refs": [
+            "informatica-servizi/protocolli"
+          ],
+          "questionIds": [
+            "it-informatica-servizi-protocolli-0",
+            "it-informatica-servizi-protocolli-1",
+            "it-informatica-servizi-protocolli-2",
+            "it-informatica-servizi-protocolli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Collegamento, IP, TCP, UDP, DNS, HTTP/HTTPS e lettura dell’URL."
+        },
+        {
+          "topic": "Reti di calcolatori: applicazioni",
+          "refs": [
+            "informatica-servizi/protocolli",
+            "informatica-servizi/tempi"
+          ],
+          "questionIds": [
+            "it-informatica-servizi-protocolli-0",
+            "it-informatica-servizi-protocolli-1",
+            "it-informatica-servizi-protocolli-2",
+            "it-informatica-servizi-protocolli-3",
+            "it-informatica-servizi-tempi-0",
+            "it-informatica-servizi-tempi-1",
+            "it-informatica-servizi-tempi-2",
+            "it-informatica-servizi-tempi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Client/server, browser, accesso locale/remoto, trasferimento con unità esplicite e casi di errore."
+        },
+        {
+          "topic": "Cloud computing",
+          "refs": [
+            "informatica-servizi/cloud"
+          ],
+          "questionIds": [
+            "it-informatica-servizi-cloud-0",
+            "it-informatica-servizi-cloud-1",
+            "it-informatica-servizi-cloud-2",
+            "it-informatica-servizi-cloud-3"
+          ],
+          "status": "introduced",
+          "assessment": "Caratteristiche, SaaS/PaaS/IaaS e distribuzione; casi su confini di gestione e accessi."
+        },
+        {
+          "topic": "Codice amministrazione digitale",
+          "refs": [
+            "informatica-progetto/processo",
+            "informatica-progetto/firme"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-processo-0",
+            "it-informatica-progetto-processo-1",
+            "it-informatica-progetto-processo-2",
+            "it-informatica-progetto-processo-3",
+            "it-informatica-progetto-firme-0",
+            "it-informatica-progetto-firme-1",
+            "it-informatica-progetto-firme-2",
+            "it-informatica-progetto-firme-3"
+          ],
+          "status": "introduced",
+          "assessment": "Ambito del CAD e distinzione identificazione/firma/cifratura/consegna. Non una trattazione integrale di ogni articolo o aggiornamento normativo."
+        },
+        {
+          "topic": "Digitalizzazione dei processi",
+          "refs": [
+            "informatica-progetto/processo"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-processo-0",
+            "it-informatica-progetto-processo-1",
+            "it-informatica-progetto-processo-2",
+            "it-informatica-progetto-processo-3"
+          ],
+          "status": "introduced",
+          "assessment": "Scansione, OCR, documento nativo, controlli e percorso di formazione/revisione/conservazione."
+        },
+        {
+          "topic": "GDPR",
+          "refs": [
+            "informatica-progetto/privacy"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-privacy-0",
+            "it-informatica-progetto-privacy-1",
+            "it-informatica-progetto-privacy-2",
+            "it-informatica-progetto-privacy-3"
+          ],
+          "status": "introduced",
+          "assessment": "Principi, ruoli, basi, categorie particolari, pseudonimizzazione e diritti essenziali. Non un manuale professionale di conformità."
+        },
+        {
+          "topic": "Foglio di calcolo: definizioni e concetti base",
+          "refs": [
+            "informatica-fogli/celle",
+            "informatica-laboratorio/costruire"
+          ],
+          "questionIds": [
+            "y1-informatica-fogli-celle",
+            "sheet-costruire-base",
+            "sheet-costruire-caso"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazioni, otto quiz del laboratorio e casi con celle modificabili."
+        },
+        {
+          "topic": "Cella e indirizzamento",
+          "refs": [
+            "informatica-fogli/celle",
+            "informatica-laboratorio/copia"
+          ],
+          "questionIds": [
+            "y1-informatica-fogli-celle",
+            "sheet-copia-base",
+            "sheet-copia-caso"
+          ],
+          "status": "introduced",
+          "assessment": "Riferimenti relativi, assoluti e misti; copia operativa e correzione."
+        },
+        {
+          "topic": "Formule base",
+          "refs": [
+            "informatica-fogli/formule",
+            "informatica-fogli/funzioni",
+            "informatica-laboratorio/funzioni",
+            "informatica-laboratorio/controllo"
+          ],
+          "questionIds": [
+            "y1-informatica-fogli-formule",
+            "y1-informatica-fogli-funzioni",
+            "sheet-funzioni-base",
+            "sheet-controllo-base",
+            "sheet-funzioni-caso",
+            "sheet-controllo-caso"
+          ],
+          "status": "introduced",
+          "assessment": "21 celle su tre fogli, aggregazioni e condizioni, verifica anche con variazioni degli ingressi."
+        },
+        {
+          "topic": "Uso di programmi per elaborazione di testo",
+          "refs": [
+            "informatica-progetto/report"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "introduced",
+          "assessment": "Stili, struttura, report e verifica dell’esportazione; produzione in forma aperta con modello. Non prova la padronanza di ogni interfaccia Writer/Word."
+        },
+        {
+          "topic": "Gestione di fogli di calcolo elettronico",
+          "refs": [
+            "informatica-laboratorio/costruire",
+            "informatica-dati/ordinare",
+            "informatica-dati/filtrare",
+            "informatica-dati/grafici"
+          ],
+          "questionIds": [
+            "sheet-costruire-base",
+            "sheet-costruire-caso",
+            "data-ordinare-1",
+            "data-ordinare-2",
+            "data-ordinare-3",
+            "data-ordinare-4",
+            "data-filtrare-5",
+            "data-filtrare-6",
+            "data-filtrare-7",
+            "data-filtrare-8",
+            "data-grafici-9",
+            "data-grafici-10",
+            "data-grafici-11",
+            "data-grafici-12"
+          ],
+          "status": "introduced",
+          "assessment": "Sei laboratori operativi; le scelte cambiano celle o viste e sono verificate. Funzioni limitate e dichiarate."
+        },
+        {
+          "topic": "Applicazioni per comunicazione dei risultati",
+          "refs": [
+            "informatica-progetto/report",
+            "informatica-dati/interpretare"
+          ],
+          "questionIds": [
+            "data-interpretare-13",
+            "data-interpretare-14",
+            "data-interpretare-15",
+            "data-interpretare-16",
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "introduced",
+          "assessment": "Report e presentazione con fonte, unità, denominatore, selezione e limiti; casi e autoconfronto."
+        },
+        {
+          "topic": "Navigazione Internet e uso consapevole della rete",
+          "refs": [
+            "informatica-servizi/protocolli",
+            "informatica-servizi/sicurezza"
+          ],
+          "questionIds": [
+            "it-informatica-servizi-protocolli-0",
+            "it-informatica-servizi-protocolli-1",
+            "it-informatica-servizi-protocolli-2",
+            "it-informatica-servizi-protocolli-3",
+            "it-informatica-servizi-sicurezza-0",
+            "it-informatica-servizi-sicurezza-1",
+            "it-informatica-servizi-sicurezza-2",
+            "it-informatica-servizi-sicurezza-3"
+          ],
+          "status": "introduced",
+          "assessment": "Lettura URL, differenza canale/contenuto, permessi e verifica di richieste sospette."
+        },
+        {
+          "topic": "Raccolta, organizzazione e catalogazione con software e database",
+          "refs": [
+            "informatica-archivi/formati",
+            "informatica-archivi/relazioni"
+          ],
+          "questionIds": [
+            "it-informatica-archivi-formati-0",
+            "it-informatica-archivi-formati-1",
+            "it-informatica-archivi-formati-2",
+            "it-informatica-archivi-formati-3",
+            "it-informatica-archivi-relazioni-0",
+            "it-informatica-archivi-relazioni-1",
+            "it-informatica-archivi-relazioni-2",
+            "it-informatica-archivi-relazioni-3"
+          ],
+          "status": "introduced",
+          "assessment": "Granularità, chiavi, relazioni, importazione e qualità dei dati; nessun server richiesto."
+        },
+        {
+          "topic": "Autonomia nel gestire e interpretare dati",
+          "refs": [
+            "informatica-dati/interpretare",
+            "informatica-progetto/report"
+          ],
+          "questionIds": [
+            "data-interpretare-13",
+            "data-interpretare-14",
+            "data-interpretare-15",
+            "data-interpretare-16",
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "introduced",
+          "assessment": "Casi con trasformazioni dichiarate, interpretazione e report, senza attribuire causalità dal solo andamento."
+        },
+        {
+          "topic": "Riflessione tecnica a sostegno di decisioni",
+          "refs": [
+            "informatica-calcolo/componenti",
+            "informatica-servizi/cloud",
+            "informatica-progetto/report"
+          ],
+          "questionIds": [
+            "it-informatica-calcolo-componenti-0",
+            "it-informatica-calcolo-componenti-1",
+            "it-informatica-calcolo-componenti-2",
+            "it-informatica-calcolo-componenti-3",
+            "it-informatica-servizi-cloud-0",
+            "it-informatica-servizi-cloud-1",
+            "it-informatica-servizi-cloud-2",
+            "it-informatica-servizi-cloud-3",
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "introduced",
+          "assessment": "Motivazione delle scelte e dei limiti, senza diagnosi o conclusioni inventate."
+        },
+        {
+          "topic": "Lavoro di gruppo e collaborazione in laboratorio",
+          "refs": [
+            "informatica-progetto/report"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "partial",
+          "assessment": "Prova aperta con ruoli, revisione incrociata e modello. Il sito individuale non osserva né certifica collaborazione effettiva."
+        },
+        {
+          "topic": "Autoformazione e consultazione di fonti",
+          "refs": [
+            "informatica-servizi/protocolli",
+            "informatica-archivi/percorsi"
+          ],
+          "questionIds": [
+            "it-informatica-archivi-percorsi-0",
+            "it-informatica-archivi-percorsi-1",
+            "it-informatica-archivi-percorsi-2",
+            "it-informatica-archivi-percorsi-3",
+            "it-informatica-servizi-protocolli-0",
+            "it-informatica-servizi-protocolli-1",
+            "it-informatica-servizi-protocolli-2",
+            "it-informatica-servizi-protocolli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Controllo di origine, formato e versioni; fonti attribuite e limiti consultativi nelle lezioni."
+        },
+        {
+          "topic": "Dispense e appunti distribuiti a lezione",
+          "refs": [],
+          "questionIds": [],
+          "status": "missing",
+          "assessment": "La scheda li indica come testi di riferimento. Non acquisiti: i contenuti originali sviluppano i nuclei pubblicati, senza dichiarare copertura delle dispense non viste."
+        },
+        {
+          "topic": "Modalità e criteri di valutazione storici",
+          "refs": [
+            "informatica-progetto/report"
+          ],
+          "questionIds": [
+            "it-informatica-progetto-report-0",
+            "it-informatica-progetto-report-1",
+            "it-informatica-progetto-report-2",
+            "it-informatica-progetto-report-3"
+          ],
+          "status": "partial",
+          "assessment": "La scheda indica scritto e verifica della collaborazione nelle attività di laboratorio. I quiz e le prove aperte sono esercizi originali, non una simulazione certificata della prova corrente."
+        }
+      ],
+      "limits": [
+        "Nel programma storico l’esame era al secondo anno, semestre I, docente Giovanni Cozzolongo, 2 CFU. Il piano 2026/27 lo colloca al primo anno: la corrispondenza analitica non è confermata.",
+        "Lezioni originali e casi non sostituiscono la verifica delle dispense effettivamente assegnate; non sono stati acquisiti appunti di lezione.",
+        "La collaborazione di gruppo e la padronanza di tutte le funzioni dei software da ufficio non sono osservabili tramite i soli quiz. I sei laboratori hanno limiti visibili."
+      ]
     }
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-10-20",
-    "summary": "Preparazione del materiale in pausa. Ultimo aggiornamento verificato: Anatomia, capitoli su collo/dorso, torace/addome, pelvi/perineo e rotatori profondi, con tavola pelvica e 36 nuovi quiz. Il materiale disponibile resta utilizzabile.",
-    "next": "Riprendere da Anatomia: confronto analitico dei visceri e dello scheletro craniale/assile, poi ulteriori esercizi di riconoscimento su immagini. Proseguire con le lacune degli altri esami elencate sotto.",
+    "updated": "2026-10-21",
+    "summary": "Sviluppo in pausa su richiesta dell’utente dopo l’ampliamento di Informatica: dieci lezioni, 104 quiz e sei laboratori. Confrontata la scheda storica in 28 voci; restano i materiali assegnati e la verifica del programma corrente. Il primo anno non è ancora interamente coperto.",
+    "next": "Ampliare Inglese scientifico scritto: grammatica A2/B1, letture e produzione con correzioni; confrontare il programma reale disponibile. Poi casi giuridici e riconoscimenti anatomici, mantenendo esplicite dispense e parti monografiche ancora da verificare. Ascolto inglese escluso dall’obiettivo.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
@@ -4516,7 +8188,7 @@
       {
         "id": "anatomia-umana",
         "label": "Da ampliare e verificare",
-        "remaining": "Capitoli muscolari regionali ampliati. Restano confronto completo di visceri e scheletro craniale/assile, ulteriori tavole e riconoscimento senza etichette, verifica del programma attuale."
+        "remaining": "Disponibili tre simulazioni scritte e quattro micrografie guidate. Restano altri tessuti/visceri e viste regionali, ricostruzione spaziale e verifica del programma attuale. Un campione di immagini non dimostra riconoscimento su qualsiasi preparato."
       },
       {
         "id": "scienze-base",
@@ -4526,7 +8198,7 @@
       {
         "id": "scienze-psicopedagogiche",
         "label": "Da ampliare e verificare",
-        "remaining": "Approfondire autori e confronti di psicologia e pedagogia generale, letture monografiche, casi e confronto del modulo attuale di didattica speciale."
+        "remaining": "Ventiquattro lezioni: processi psicologici, motivazione, sviluppo e sei lezioni di Pedagogia. Confrontati nuclei del PDF pedagogico 2017/18, con casi e 48 nuovi quiz. Restano contenuti specifici della monografia di Persano, ulteriori richieste dei docenti e dettaglio/dispense correnti dei quattro moduli, inclusa didattica speciale. Nessuna certificazione della preparazione orale."
       },
       {
         "id": "scienze-giuridiche",
@@ -4535,23 +8207,23 @@
       },
       {
         "id": "allenamento",
-        "label": "Confronto completo da terminare",
-        "remaining": "Lezioni e quiz presenti; resta il confronto voce per voce del programma, con verifica della profondità di casi, progettazione e prove aperte."
+        "label": "Confronto storico svolto; verifica corrente da terminare",
+        "remaining": "Confrontate le 42 voci del syllabus 2024/25, con nove lezioni, casi, quiz, prove aperte e guida alla tesina. Restano dispense e richieste del docente corrente, modalità effettive di esame e verifica della preparazione."
       },
       {
         "id": "attivita-motorie",
-        "label": "Confronto completo da terminare",
-        "remaining": "Lezioni e quiz presenti; resta il confronto analitico dell’intero programma e della sufficienza di applicazioni pratiche e prove aperte."
+        "label": "Confronto storico svolto; verifica corrente da terminare",
+        "remaining": "Confrontata la scheda 2025/26: sette nuclei di contenuto e richieste applicative in 19 righe. Dieci lezioni incluse tre condivise, casi e progetto di quattro incontri. Restano dettaglio 2026/27, materiali del docente, accordi sull’eventuale project work e verifica dell’esposizione/pratica."
       },
       {
         "id": "gestione-sport",
-        "label": "Confronto completo da terminare",
-        "remaining": "Verificare sistematicamente diritto delle società sportive, organizzazione e marketing; integrare i casi e le verifiche che il confronto segnalerà come mancanti."
+        "label": "Confronto storico svolto; verifica corrente da terminare",
+        "remaining": "Otto lezioni, casi risolti, 80 quiz complessivi e prove aperte. Confrontati dieci nuclei del programma 2024/25 e richieste di ragionamento orale in 14 righe. Restano dettaglio corrente, materiali Teams, approfondimenti specifici del docente e verifica dell’esposizione. Non è una guida operativa a fiscalità o gestione legale."
       },
       {
         "id": "informatica",
-        "label": "Da ampliare e verificare",
-        "remaining": "Laboratorio su formule e report presente. Mancano esercitazioni operative su ordinamento, filtri e grafici e il confronto completo con il programma."
+        "label": "Confronto storico svolto; verifica corrente da terminare",
+        "remaining": "Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati attesi della scheda d’archivio in 28 righe. Restano dispense/appunti effettivamente assegnati, dettaglio e modalità correnti, pratica delle interfacce da ufficio e verifica della collaborazione richiesta in laboratorio. Il materiale non certifica il superamento della prova."
       },
       {
         "id": "inglese",
@@ -4560,16 +8232,126 @@
       }
     ],
     "closedUnits": [
-      "anatomia-collo-dorso",
-      "anatomia-pareti-tronco",
-      "anatomia-pelvi-perineo"
+      "anatomia-cranio",
+      "anatomia-colonna-torace",
+      "anatomia-tubo-digerente",
+      "anatomia-annessi-peritoneo",
+      "anatomia-rene-vie",
+      "anatomia-genitale",
+      "anatomia-endocrino",
+      "anatomia-epiteli-ghiandole",
+      "anatomia-connettivi-osso",
+      "anatomia-sangue-difese",
+      "anatomia-organi-linfoidi",
+      "anatomia-sensibilita-midollo",
+      "anatomia-encefalo-protezioni",
+      "anatomia-nervi-autonomo",
+      "anatomia-micrografie",
+      "allenamento-progettare",
+      "allenamento-metodi",
+      "allenamento-sviluppo",
+      "allenamento-insegnare",
+      "motricita-controllo",
+      "motricita-pratica",
+      "motricita-progetto",
+      "societa-decisioni",
+      "societa-casi",
+      "marketing-percorso",
+      "marketing-budget",
+      "psico-percepire",
+      "psico-memoria",
+      "psico-apprendere",
+      "psico-psicobiologia",
+      "psico-motivare",
+      "psico-regolare",
+      "sviluppo-pensare",
+      "sviluppo-sociale",
+      "pedagogia-persona",
+      "pedagogia-autori",
+      "pedagogia-comunita",
+      "informatica-dati",
+      "informatica-calcolo",
+      "informatica-archivi",
+      "informatica-servizi",
+      "informatica-progetto"
     ],
-    "validation": "npm run check e 32 test superati; trunk-browser: 72 feedback, tavola, aiuti, progressi, mobile e stampa; browser generale: file offline, riapertura, aggiornamento, backup e zero richieste di rete; controllo segnalibro: pausa, punto di ripresa e lacune dei dieci esami visibili.",
+    "validation": "Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame. Interfaccia alleggerita: fonti, note e segnalibro chiusi per impostazione iniziale; testo secondario 14 px, lezioni 20/23 px. Apertura da tastiera e riferimenti verificati nel browser.",
     "resumeFiles": [
       "data/course.json",
       "data/development-audit.json",
       "SEGNALIBRO.txt"
     ],
-    "instruction": "Pausa richiesta dall’utente: non proseguire automaticamente. Riprendere soltanto su sua richiesta. Nessun esame viene marcato integralmente completato."
+    "instruction": "L’utente ha chiesto di riprendere il 21 ottobre 2026. Proseguire dal punto indicato; non dichiarare completati gli esami sulla base del solo numero di lezioni."
+  },
+  "writtenAssessmentAudit": {
+    "sourceId": "syllabus-anatomy",
+    "referenceYear": "2024/25",
+    "checked": "2026-10-21",
+    "currentEquivalentConfirmed": false,
+    "officialFormat": "10 risposte brevissime di istologia e due elaborati: uno osteoartromuscolare, uno su organo/apparato; 90 minuti; sufficienza in ogni parte.",
+    "papers": [
+      {
+        "id": "anatomia-scritto-a",
+        "shortAnswers": 10,
+        "essays": 2
+      },
+      {
+        "id": "anatomia-scritto-b",
+        "shortAnswers": 10,
+        "essays": 2
+      },
+      {
+        "id": "anatomia-scritto-c",
+        "shortAnswers": 10,
+        "essays": 2
+      }
+    ],
+    "limitations": [
+      "Domande originali: non sono tracce ufficiali né previsioni degli argomenti estratti.",
+      "Il tempo è consigliato; nessun timer o consegna automatica.",
+      "Confronto qualitativo eseguito dalla studentessa; nessun riconoscimento automatico del testo, voto o attestazione di sufficienza.",
+      "Le tre tracce sono un campione. Restano riconoscimento anatomico e verifica del programma attuale."
+    ]
+  },
+  "micrographAudit": {
+    "checked": "2026-10-21",
+    "unit": "anatomia-micrografie",
+    "figures": [
+      {
+        "id": "histology-epithelium",
+        "source": "https://commons.wikimedia.org/wiki/File:COLUMNAR_SIMPLE_LM.jpg",
+        "license": "CC BY-SA 3.0",
+        "verifiedVisually": true
+      },
+      {
+        "id": "histology-cartilage",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyaline_cartilage_(254_01)_Mammal;_section.jpg",
+        "license": "CC BY-SA 3.0",
+        "verifiedVisually": true
+      },
+      {
+        "id": "histology-muscle",
+        "source": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Skeletal_Muscle_Fibers_(40153600100).jpg",
+        "license": "CC0 1.0",
+        "verifiedVisually": true
+      },
+      {
+        "id": "histology-sarcomeres",
+        "source": "https://commons.wikimedia.org/wiki/File:Human_skeletal_muscle_tissue_1_-_TEM.jpg",
+        "license": "Pubblico dominio (rilascio dell’autrice)",
+        "verifiedVisually": true
+      }
+    ],
+    "excluded": [
+      {
+        "source": "https://commons.wikimedia.org/wiki/File:Human_hyaline_cartilage_tissue.jpg",
+        "reason": "Contenuto visivo non sufficientemente coerente con il titolo; esclusa dalla consegna."
+      }
+    ],
+    "limits": [
+      "Campione limitato a rivestimento cilindrico, cartilagine e muscolo scheletrico ottico/TEM.",
+      "Le lettere hanno legenda solo nello studio e negli aiuti; attribuzioni sempre disponibili.",
+      "Non dedotte sede specifica, specie non dichiarata, tipo metabolico delle fibre o diagnosi."
+    ]
   }
 }

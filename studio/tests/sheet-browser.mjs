@@ -19,7 +19,7 @@ try{
  const state=()=>page.evaluate(key=>JSON.parse(localStorage.getItem(key)),STORAGE_KEY);
  await page.goto(`${url}#lesson/informatica-laboratorio`);
  assert.equal(await page.locator('a[href^="#lab/"]').count(),3);
- for(const lab of course.workbooks){
+ for(const lab of course.workbooks.filter(l=>l.kind!=='data')){
   await page.goto(`${url}#lab/${lab.id}`);await page.locator('#sheet-lab').waitFor();
   for(const task of lab.tasks)await page.locator(`[data-sheet-cell="${task.cell}"]`).fill(task.formula);
   if(lab.copy.from!==lab.copy.to){

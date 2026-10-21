@@ -1,3 +1,4 @@
+import { DATA_CONTROL_KEYS } from './data-lab.js';
 export const STORAGE_KEY = 'studio-motorie-v1';
 export function freshState() {
   return { version: 1, settings: { name: '', largeText: false, sessionSize: 8, theme: 'system' },
@@ -16,9 +17,22 @@ export function validateState(s) {
   assert(record(s.read) && Object.entries(s.read).every(([k,v]) => id(k) && date(v)), 'Registro letture non valido.');
   assert(record(s.notes) && Object.entries(s.notes).every(([k,v]) => id(k) && string(v)), 'Appunti non validi.');
   assert(s.lastUnit === null || id(s.lastUnit), 'Ultima lezione non valida.');
+  if(s.written!==undefined){
+    assert(record(s.written)&&Object.keys(s.written).length<=100,'Prove scritte non valide.');
+    for(const [key,p]of Object.entries(s.written)){
+      assert(id(key)&&record(p)&&record(p.answers)&&Object.keys(p.answers).length<=100
+        &&Object.entries(p.answers).every(([qid,text])=>id(qid)&&string(text,12000))
+        &&Array.isArray(p.revealed)&&p.revealed.length<=100&&p.revealed.every(id)
+        &&new Set(p.revealed).size===p.revealed.length&&record(p.ratings)&&Object.keys(p.ratings).length<=100,
+      'Una prova scritta contiene dati non validi.');
+      for(const [qid,rating]of Object.entries(p.ratings))assert(id(qid)&&['ripassare','parziale','solida'].includes(rating)
+        &&p.revealed.includes(qid)&&p.answers[qid]?.trim(),'Autovalutazione scritta non valida.');
+    }
+  }
   if(s.labs!==undefined){
     assert(record(s.labs)&&Object.keys(s.labs).length<=100,'Laboratori non validi.');
     for(const [key,lab] of Object.entries(s.labs)){
+      if(lab.controls!==undefined)assert(record(lab.controls)&&Object.entries(lab.controls).every(([k,v])=>DATA_CONTROL_KEYS.includes(k)&&string(v,100)), 'Controlli del laboratorio non validi.');
       assert(id(key)&&record(lab)&&record(lab.cells)&&Object.keys(lab.cells).length<=500
         &&Object.entries(lab.cells).every(([cell,value])=>/^[A-Z][1-9][0-9]?$/.test(cell)&&string(value,500))
         &&string(lab.report,10000)&&typeof lab.assisted==='boolean'&&Array.isArray(lab.checks)&&lab.checks.length<=100,
@@ -85,6 +99,11 @@ export function mergeState(current, incoming) {
     notes: { ...incoming.notes, ...current.notes }, attempts: merge(current.attempts, incoming.attempts),
     sessions: merge(current.sessions, incoming.sessions), active: current.active || incoming.active };
   merged.labs={...(incoming.labs||{}),...(current.labs||{})};
+  merged.written={...(incoming.written||{}),...(current.written||{})};
+  for(const [key,local]of Object.entries(current.written||{})){
+    const remote=incoming.written?.[key];
+    if(remote)merged.written[key]={...local,revealed:[...new Set([...local.revealed,...remote.revealed])]};
+  }
   for(const [key,local] of Object.entries(current.labs||{})){
     const remote=incoming.labs?.[key];
     if(remote)merged.labs[key]={...local,assisted:local.assisted||remote.assisted,report:local.report||remote.report,

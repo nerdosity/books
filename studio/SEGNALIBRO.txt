@@ -1,48 +1,60 @@
-SEGNALIBRO DI LAVORO — 20 ottobre 2026
-STATO: IN PAUSA SU RICHIESTA DELL’UTENTE
+SEGNALIBRO DI LAVORO — 21 ottobre 2026
+STATO: IN PAUSA SU RICHIESTA DELL’UTENTE — NON RIPRENDERE AUTOMATICAMENTE
 
-Intervento grafico successivo autorizzato: stile ispirato a NotebookLM, Google Sans offline, testi più grandi e tema chiaro/scuro OLED/dispositivo salvato. Questo aggiornamento non riprende né completa lo sviluppo didattico elencato sotto.
-
-Ultimo blocco chiuso e verificato: Anatomia, collo/dorso, torace/addome, pelvi/perineo e sei rotatori profondi dell’anca. Tre lezioni, 12 sezioni, 10 tabelle, 36 quiz, tre prove aperte e tavola OpenStax attribuita.
+Sviluppo in pausa su richiesta dell’utente dopo l’ampliamento di Informatica: dieci lezioni, 104 quiz e sei laboratori. Confrontata la scheda storica in 28 voci; restano i materiali assegnati e la verifica del programma corrente. Il primo anno non è ancora interamente coperto.
 Consegna: pronto/index.html. Apribile direttamente; progressi e impostazioni restano nel browser.
-Totali: 149 lezioni, 580 sezioni, 998 quiz, 27 famiglie numeriche, 129 prove aperte, 12 tavole anatomiche.
+Totali: 191 lezioni, 748 sezioni, 1567 quiz, 27 famiglie numeriche, 171 prove aperte, 19 immagini anatomiche. Tre simulazioni scritte (36 consegne) sono conteggiate separatamente.
 Copertura: 125 gruppi; 119 introdotti, 5 parziali, 1 mancante. Introdotto non significa programma esaurito. Nessuno dei dieci esami è certificato integralmente completato.
 
 PUNTO DI RIPRESA
-Riprendere da Anatomia: confronto analitico dei visceri e dello scheletro craniale/assile, poi ulteriori esercizi di riconoscimento su immagini. Proseguire con le lacune degli altri esami elencate sotto.
+Ampliare Inglese scientifico scritto: grammatica A2/B1, letture e produzione con correzioni; confrontare il programma reale disponibile. Poi casi giuridici e riconoscimenti anatomici, mantenendo esplicite dispense e parti monografiche ancora da verificare. Ascolto inglese escluso dall’obiettivo.
 
 ESAMI ANCORA DA TERMINARE
 Scienze biologiche — Verifica finale da terminare
 Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione.
 
 Anatomia umana e applicata — Da ampliare e verificare
-Capitoli muscolari regionali ampliati. Restano confronto completo di visceri e scheletro craniale/assile, ulteriori tavole e riconoscimento senza etichette, verifica del programma attuale.
+Disponibili tre simulazioni scritte e quattro micrografie guidate. Restano altri tessuti/visceri e viste regionali, ricostruzione spaziale e verifica del programma attuale. Un campione di immagini non dimostra riconoscimento su qualsiasi preparato.
 
 Scienze di base — Verifica finale da terminare
 Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso.
 
 Scienze psicologiche e pedagogiche — Da ampliare e verificare
-Approfondire autori e confronti di psicologia e pedagogia generale, letture monografiche, casi e confronto del modulo attuale di didattica speciale.
+Ventiquattro lezioni: processi psicologici, motivazione, sviluppo e sei lezioni di Pedagogia. Confrontati nuclei del PDF pedagogico 2017/18, con casi e 48 nuovi quiz. Restano contenuti specifici della monografia di Persano, ulteriori richieste dei docenti e dettaglio/dispense correnti dei quattro moduli, inclusa didattica speciale. Nessuna certificazione della preparazione orale.
 
 Scienze giuridiche — Da ampliare e verificare
 Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi.
 
-Teoria e metodologia dell’allenamento — Confronto completo da terminare
-Lezioni e quiz presenti; resta il confronto voce per voce del programma, con verifica della profondità di casi, progettazione e prove aperte.
+Teoria e metodologia dell’allenamento — Confronto storico svolto; verifica corrente da terminare
+Confrontate le 42 voci del syllabus 2024/25, con nove lezioni, casi, quiz, prove aperte e guida alla tesina. Restano dispense e richieste del docente corrente, modalità effettive di esame e verifica della preparazione.
 
-Teoria e metodologia delle attività motorie — Confronto completo da terminare
-Lezioni e quiz presenti; resta il confronto analitico dell’intero programma e della sufficienza di applicazioni pratiche e prove aperte.
+Teoria e metodologia delle attività motorie — Confronto storico svolto; verifica corrente da terminare
+Confrontata la scheda 2025/26: sette nuclei di contenuto e richieste applicative in 19 righe. Dieci lezioni incluse tre condivise, casi e progetto di quattro incontri. Restano dettaglio 2026/27, materiali del docente, accordi sull’eventuale project work e verifica dell’esposizione/pratica.
 
-Gestione delle società sportive — Confronto completo da terminare
-Verificare sistematicamente diritto delle società sportive, organizzazione e marketing; integrare i casi e le verifiche che il confronto segnalerà come mancanti.
+Gestione delle società sportive — Confronto storico svolto; verifica corrente da terminare
+Otto lezioni, casi risolti, 80 quiz complessivi e prove aperte. Confrontati dieci nuclei del programma 2024/25 e richieste di ragionamento orale in 14 righe. Restano dettaglio corrente, materiali Teams, approfondimenti specifici del docente e verifica dell’esposizione. Non è una guida operativa a fiscalità o gestione legale.
 
-Informatica — Da ampliare e verificare
-Laboratorio su formule e report presente. Mancano esercitazioni operative su ordinamento, filtri e grafici e il confronto completo con il programma.
+Informatica — Confronto storico svolto; verifica corrente da terminare
+Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati attesi della scheda d’archivio in 28 righe. Restano dispense/appunti effettivamente assegnati, dettaglio e modalità correnti, pratica delle interfacce da ufficio e verifica della collaborazione richiesta in laboratorio. Il materiale non certifica il superamento della prova.
 
 Inglese scientifico — Da ampliare e verificare
 Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio.
 
 VERIFICHE E FONTI
+Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame.
+Informatica, laboratorio dati: 41 test unitari e check superati; browser mirato con 12 operazioni, 32 feedback con aiuti, grafici, backup ripristinato, progressi precedenti, mobile e stampa. Browser dei fogli con formule superato. Browser generale offline superato; consegna autonoma ricompilata.
+Pedagogia: check e 37 test superati; browser mirato con 96 feedback errati e aiuti integrali, tre capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. Controlli tecnici distinti dalla copertura delle monografie e dalla preparazione orale.
+Motivazione e sviluppo: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non certificano copertura completa o preparazione all’orale.
+Psicologia: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non certificano preparazione o copertura integrale.
+Gestione: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non attestano padronanza o completezza del programma corrente.
+Attività motorie: check e 37 test superati; browser mirato con 96 feedback errati e aiuti integrali, tre capitoli nuovi e tre condivisi verificati nella scheda, tabelle, conservazione di appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non attestano padronanza o completezza del programma corrente.
+Allenamento: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, conservazione di appunti/tema, mobile e stampa offline. Browser generale offline superato. Il controllo tecnico non certifica copertura curriculare o preparazione.
 Il piano 2026/27 è verificato; i programmi analitici disponibili sono precedenti. La corrispondenza al programma corrente non è confermata.
-npm run check, npm test; test browser specifico tests/trunk-browser.mjs e generale tests/browser.mjs. Non pubblicato questo aggiornamento.
-Per riprendere leggere questo file, data/development-audit.json, README.md e MANUTENZIONE.md. Conservare gli ID delle lezioni e i progressi. Rimuovere lo stato di pausa solo quando l’utente chiede di riprendere.
+npm run check e 37 test superati. Browser scritti: tutte le 36 consegne con risposta, modello e aiuti integrali; autovalutazione, invalidazione dopo modifica, riapertura, backup esportato/reimportato, stampa, mobile scuro e zero richieste di rete verificati. Browser generale offline verificato dopo l’integrazione. Laboratorio microscopico verificato: quattro immagini e 32 feedback errati con aiuti completi, persistenza, mobile e stampa offline. I controlli tecnici non attestano la completezza curriculare.
+Audit mirati in data/development-audit.json: cranio/assile/visceri 28 righe, istologia/linfa 19, sistema nervoso 26. I quiz verificano concetti rappresentativi, non ogni dettaglio di ogni classificazione. Le tavole etichettate non certificano riconoscimento su preparati senza nomi.
+Grafica NotebookLM, Google Sans incorporato e temi chiaro/scuro OLED/dispositivo conservati.
+Aggiornamento locale: non pubblicato.
+Per continuare leggere questo file, data/development-audit.json, README.md e MANUTENZIONE.md. Conservare gli ID delle lezioni e i progressi. La ripresa è stata richiesta dall’utente il 21 ottobre 2026.
+
+INTERFACCIA
+Fonti e note secondarie sotto chevron chiusi, testo di 14 px. Programma e riferimenti in fondo alla scheda esame; fonti in fondo alla lezione. Testo da studiare mantenuto grande. Nessun nuovo esame avviato dopo Informatica.

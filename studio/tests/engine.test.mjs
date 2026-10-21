@@ -7,8 +7,8 @@ const read = async n => JSON.parse(await readFile(new URL(`../data/${n}.json`,im
 const [course, exercises, library] = await Promise.all(['course','exercises','library'].map(read));
 test('all lessons, distractors and generated diagnoses link to existing sections', () => {
   const result = validateContent(course,exercises,library);
-  assert.equal(result.units,149); assert.equal(result.questions,998); assert.equal(result.templates,27);
-  assert.equal(result.exams,10); assert.equal(result.oral,129);
+  assert.equal(result.units,191); assert.equal(result.questions,1567); assert.equal(result.templates,27);
+  assert.equal(result.exams,10); assert.equal(result.oral,171);
   const broken = structuredClone(exercises);
   broken.questions[0].options.find(o=>o.id!==broken.questions[0].answer).help = 'missing/section';
   assert.throws(()=>validateContent(course,broken,library),/aiuto/);

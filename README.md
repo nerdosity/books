@@ -2,7 +2,7 @@
 
 App di studio con lezioni, esercizi e tavole attribuite.
 
-**Sviluppo in pausa su richiesta dell’utente.** [Segnalibro e parti mancanti per esame](studio/SEGNALIBRO.txt). L’ultimo aggiornamento locale riguarda Anatomia; la copertura integrale del primo anno non è ancora conclusa.
+**Sviluppo in pausa su richiesta dell’utente il 21 ottobre 2026, dopo Informatica.** [Segnalibro e parti mancanti per esame](studio/SEGNALIBRO.txt). L’ultimo aggiornamento locale completa il confronto storico di Informatica: dieci lezioni, 104 quiz e sei laboratori, con limiti espliciti sui materiali ancora da verificare; la copertura integrale del primo anno non è ancora conclusa.
 
 **Apri il sito: https://nerdosity.github.io/books/**
 

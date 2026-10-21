@@ -14,7 +14,7 @@ test('all official first-year exams have teaching and preserve the biology/bioch
   assert.equal(examUnitIds(e).length,49);
   assert.equal(unitsForExam(course,e.id).length,49);
   assert.equal(examsForUnit(course,'ph')[0].id,e.id);
-  assert.equal(unitsForExam(course,'informatica').length,5);
+  assert.equal(unitsForExam(course,'informatica').length,10);
   assert.ok(course.exams.every(e=>e.modules.every(m=>m.unitIds.length)));
   assert.deepEqual(unitsForExam(course,'unknown'),[]);
 });
@@ -25,7 +25,11 @@ test('practice selection never leaks exercises outside the selected exam and int
   assert.deepEqual(selectDefinitions(course,definitions,{exam:'scienze-biologiche',unit:'leve'}),[]);
   const applied=selectDefinitions(course,definitions,{exam:'scienze-base',level:'applicazione'});
   assert.ok(applied.length>0&&applied.every(q=>q.level==='applicazione'));
-  assert.equal(selectDefinitions(course,definitions,{exam:'informatica'}).length,24);
+  assert.equal(selectDefinitions(course,definitions,{exam:'informatica'}).length,104);
+  const motor=selectDefinitions(course,definitions,{exam:'attivita-motorie'});
+  assert.ok(motor.some(q=>q.id==='train-insegnare-stili-0'));
+  assert.ok(motor.some(q=>q.id==='motor-progetto-rubrica-0'));
+  assert.ok(!motor.some(q=>q.unit==='allenamento-progettare'));
   assert.deepEqual(selectDefinitions(course,definitions,{exam:'unknown'}),[]);
 });
 test('validator rejects broken programme mappings, missing sources, unsafe links and prerequisite cycles',()=>{
@@ -70,7 +74,7 @@ test('visual markers reject invalid coordinates, duplicate letters and missing l
 });
 test('new chapters provide internal teaching, worked examples and self-assessed oral answers',()=>{
   const expanded=course.units.filter(u=>u.oral);
-  assert.equal(expanded.length,129);
+  assert.equal(expanded.length,171);
   for(const u of expanded) {
     assert.ok(u.sections.length>=4);
     assert.ok(u.sections.every(s=>s.text.length>=2&&s.example&&s.takeaway));

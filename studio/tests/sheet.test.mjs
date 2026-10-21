@@ -39,7 +39,7 @@ test('copy changes relative coordinates only, including ranges, and never change
   assert.throws(()=>copyFormula('=A1','B2','B1'),/fuori/);
 });
 test('lab grading accepts equivalent formulas and detects constants, wrong baselines and missing equality',()=>{
-  for(const lab of course.workbooks){
+  for(const lab of course.workbooks.filter(l=>l.kind!=='data')){
     const solved=Object.fromEntries(lab.tasks.map(t=>[t.cell,t.formula]));
     assert.equal(gradeSheet(lab,solved).correct,lab.tasks.length);
     const hardcoded=Object.fromEntries(lab.tasks.map(t=>{
