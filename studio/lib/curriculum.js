@@ -1,3 +1,10 @@
+import { shuffled } from './engine.js';
+export function mockQuestions(course, definitions, examId, random = Math.random) {
+  const test = course.exams.find(e => e.id === examId)?.mockTest;
+  if (!test) return [];
+  const selected = test.groups.flatMap(g => shuffled(definitions.filter(q => g.questionIds.includes(q.id)),random).slice(0,g.count));
+  return shuffled(selected,random);
+}
 export function examUnitIds(exam) {
   return [...new Set(exam.modules.flatMap(m => m.unitIds))];
 }

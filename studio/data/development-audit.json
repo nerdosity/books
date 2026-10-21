@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "objective": "Materiale interno sufficiente a preparare gli esami del primo anno UniBa, con spiegazioni, pratica, correzioni e recupero degli errori; consegna locale index.html.",
-  "status": "in-progress",
+  "status": "paused",
   "completionProven": false,
   "scope": {
     "exams": 10,
     "cfu": 61,
     "academicYear": "2026/2027",
     "currentAnalyticSyllabiConfirmed": false,
-    "listening": "Incluso come laboratorio facoltativo ElevenLabs su richiesta successiva: token personale e cache locale."
+    "listening": "Escluso dall’obiettivo su richiesta dell’utente. Conservato il laboratorio facoltativo esistente."
   },
   "deliveredThisStage": [
     "8 brani inglesi, traduzioni, 8 domande con aiuto e dettato per autoconfronto",
@@ -49,7 +49,9 @@
     "Motivazione, emozioni e sviluppo: quattro capitoli, 16 sezioni, 64 quiz e quattro prove aperte, con 14 fonti e audit mirato in 16 righe redazionali. Il corso integrato comprende 21 lezioni; pedagogia e materiali correnti restano in lavorazione.",
     "Pedagogia: tre capitoli, 12 sezioni, 48 quiz e tre prove aperte su fini/persona, prospettive e contesti educativi. PDF originale 2017/18 letto; audit di 16 righe con tre nuclei monografici parziali. Nove fonti documentano l’ambito della consultazione.",
     "Informatica: una lezione, quattro sezioni, 16 quiz, una prova aperta e tre laboratori operativi con 12 criteri verificati. Ordinamento a due chiavi, AND/OR, soglie inclusive, grafici a colonne e XY, ambito visibile/originale, tre report. Backup compatibile e copia offline.",
-    "Informatica: quattro approfondimenti, 16 sezioni, 64 quiz e quattro prove aperte su calcolo, sistemi/dati, reti e documenti. Confronto completo della scheda d’archivio in 28 righe editoriali, con limiti espliciti su dispense, collaborazione e prova corrente."
+    "Informatica: quattro approfondimenti, 16 sezioni, 64 quiz e quattro prove aperte su calcolo, sistemi/dati, reti e documenti. Confronto completo della scheda d’archivio in 28 righe editoriali, con limiti espliciti su dispense, collaborazione e prova corrente.",
+    "Inglese scritto: 6 capitoli, 24 sezioni, 96 quiz, 6 prove aperte e simulazione da 15 domande. Confronto storico con limiti espliciti.",
+    "Tre PDF forniti integrati con due capitoli, 8 sezioni, 32 quiz e due prove aperte; mappa delle pagine e formule leggibili."
   ],
   "remainingWork": [
     {
@@ -94,8 +96,7 @@
     {
       "area": "Inglese",
       "tasks": [
-        "Ampliare grammatica A2/B1, esercizi e testi oltre il ripasso iniziale",
-        "La generazione reale ElevenLabs richiede un account: preflight reale verificato, flusso testato con risposte simulate"
+        "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
       ]
     },
     {
@@ -8172,13 +8173,403 @@
         "Lezioni originali e casi non sostituiscono la verifica delle dispense effettivamente assegnate; non sono stati acquisiti appunti di lezione.",
         "La collaborazione di gruppo e la padronanza di tutte le funzioni dei software da ufficio non sono osservabili tramite i soli quiz. I sei laboratori hanno limiti visibili."
       ]
+    },
+    {
+      "id": "inglese-scritto-analitico-2024",
+      "exam": "inglese",
+      "sourceId": "syllabus-english",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "checked": "2026-10-22",
+      "method": "Quattro pagine ufficiali lette. Confronto dei contenuti e delle abilità scritte in 27 righe editoriali, con grammatica di supporto; non sono 27 capitoli del programma. Nessuna acquisizione del manuale commerciale.",
+      "requirements": [
+        {
+          "topic": "Chi fa che cosa? Soggetto, verbo e ausiliare",
+          "refs": [
+            "english-frase/struttura"
+          ],
+          "questionIds": [
+            "en-english-frase-struttura-0",
+            "en-english-frase-struttura-1",
+            "en-english-frase-struttura-2",
+            "en-english-frase-struttura-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Nomi, articoli e quantità senza tradurre parola per parola",
+          "refs": [
+            "english-frase/nomi"
+          ],
+          "questionIds": [
+            "en-english-frase-nomi-0",
+            "en-english-frase-nomi-1",
+            "en-english-frase-nomi-2",
+            "en-english-frase-nomi-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Fare la domanda giusta e leggere tempo e luogo",
+          "refs": [
+            "english-frase/domande"
+          ],
+          "questionIds": [
+            "en-english-frase-domande-0",
+            "en-english-frase-domande-1",
+            "en-english-frase-domande-2",
+            "en-english-frase-domande-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Descrivere, confrontare e collegare due idee",
+          "refs": [
+            "english-frase/confronti"
+          ],
+          "questionIds": [
+            "en-english-frase-confronti-0",
+            "en-english-frase-confronti-1",
+            "en-english-frase-confronti-2",
+            "en-english-frase-confronti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Una routine o ciò che sta succedendo?",
+          "refs": [
+            "english-tempi/presente"
+          ],
+          "questionIds": [
+            "en-english-tempi-presente-0",
+            "en-english-tempi-presente-1",
+            "en-english-tempi-presente-2",
+            "en-english-tempi-presente-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Eventi conclusi, sfondo e risultati ancora rilevanti",
+          "refs": [
+            "english-tempi/passato"
+          ],
+          "questionIds": [
+            "en-english-tempi-passato-0",
+            "en-english-tempi-passato-1",
+            "en-english-tempi-passato-2",
+            "en-english-tempi-passato-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Futuro, condizioni e forza di un consiglio",
+          "refs": [
+            "english-tempi/scelte"
+          ],
+          "questionIds": [
+            "en-english-tempi-scelte-0",
+            "en-english-tempi-scelte-1",
+            "en-english-tempi-scelte-2",
+            "en-english-tempi-scelte-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Seguire l’azione nel passivo e nelle frasi con due verbi",
+          "refs": [
+            "english-tempi/passivo"
+          ],
+          "questionIds": [
+            "en-english-tempi-passivo-0",
+            "en-english-tempi-passivo-1",
+            "en-english-tempi-passivo-2",
+            "en-english-tempi-passivo-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Activity, exercise, fitness e wellness: quattro idee diverse",
+          "refs": [
+            "english-communication/benessere"
+          ],
+          "questionIds": [
+            "en-english-communication-benessere-0",
+            "en-english-communication-benessere-1",
+            "en-english-communication-benessere-2",
+            "en-english-communication-benessere-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Capacità e attrezzi: costruire un glossario utile",
+          "refs": [
+            "english-communication/fitness"
+          ],
+          "questionIds": [
+            "en-english-communication-fitness-0",
+            "en-english-communication-fitness-1",
+            "en-english-communication-fitness-2",
+            "en-english-communication-fitness-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Istruzioni: sequenza, posizione e negazione",
+          "refs": [
+            "english-communication/istruzioni"
+          ],
+          "questionIds": [
+            "en-english-communication-istruzioni-0",
+            "en-english-communication-istruzioni-1",
+            "en-english-communication-istruzioni-2",
+            "en-english-communication-istruzioni-3"
+          ],
+          "status": "partial",
+          "assessment": "Lessico e comprensione delle istruzioni, incluso V push-up a pugni chiusi; non verifica pratica né ricostruzione delle slide del docente."
+        },
+        {
+          "topic": "Un dialogo completo: chiedere dettagli e dissentire",
+          "refs": [
+            "english-communication/dialogo"
+          ],
+          "questionIds": [
+            "en-english-communication-dialogo-0",
+            "en-english-communication-dialogo-1",
+            "en-english-communication-dialogo-2",
+            "en-english-communication-dialogo-3"
+          ],
+          "status": "partial",
+          "assessment": "Quiz di comprensione e modello di produzione per autoconfronto; esposizione autonoma da verificare."
+        },
+        {
+          "topic": "Dalla molecola all’organismo: gerarchie e riferimenti",
+          "refs": [
+            "english-movement/livelli"
+          ],
+          "questionIds": [
+            "en-english-movement-livelli-0",
+            "en-english-movement-livelli-1",
+            "en-english-movement-livelli-2",
+            "en-english-movement-livelli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Skeletal system: trovare l’idea di ogni paragrafo",
+          "refs": [
+            "english-movement/scheletro"
+          ],
+          "questionIds": [
+            "en-english-movement-scheletro-0",
+            "en-english-movement-scheletro-1",
+            "en-english-movement-scheletro-2",
+            "en-english-movement-scheletro-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Muscular system: active non significa sempre shortening",
+          "refs": [
+            "english-movement/muscoli"
+          ],
+          "questionIds": [
+            "en-english-movement-muscoli-0",
+            "en-english-movement-muscoli-1",
+            "en-english-movement-muscoli-2",
+            "en-english-movement-muscoli-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Movimenti del piede e piccola lettura biomeccanica",
+          "refs": [
+            "english-movement/movimenti"
+          ],
+          "questionIds": [
+            "en-english-movement-movimenti-0",
+            "en-english-movement-movimenti-1",
+            "en-english-movement-movimenti-2",
+            "en-english-movement-movimenti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Tre passaggi per leggere senza fermarsi a ogni parola",
+          "refs": [
+            "english-evidence/strategie"
+          ],
+          "questionIds": [
+            "en-english-evidence-strategie-0",
+            "en-english-evidence-strategie-1",
+            "en-english-evidence-strategie-2",
+            "en-english-evidence-strategie-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Una lettura con dati: chi è stato misurato?",
+          "refs": [
+            "english-evidence/dati"
+          ],
+          "questionIds": [
+            "en-english-evidence-dati-0",
+            "en-english-evidence-dati-1",
+            "en-english-evidence-dati-2",
+            "en-english-evidence-dati-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Falsi amici, negazioni e prudenza scientifica",
+          "refs": [
+            "english-evidence/precisione"
+          ],
+          "questionIds": [
+            "en-english-evidence-precisione-0",
+            "en-english-evidence-precisione-1",
+            "en-english-evidence-precisione-2",
+            "en-english-evidence-precisione-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Dall’abstract reale alla propria spiegazione",
+          "refs": [
+            "english-evidence/fonti"
+          ],
+          "questionIds": [
+            "en-english-evidence-fonti-0",
+            "en-english-evidence-fonti-1",
+            "en-english-evidence-fonti-2",
+            "en-english-evidence-fonti-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Un’idea, prove pertinenti e connettivi",
+          "refs": [
+            "english-revision/paragrafo"
+          ],
+          "questionIds": [
+            "en-english-revision-paragrafo-0",
+            "en-english-revision-paragrafo-1",
+            "en-english-revision-paragrafo-2",
+            "en-english-revision-paragrafo-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Una sintesi che non cambia la conclusione",
+          "refs": [
+            "english-revision/riassunto"
+          ],
+          "questionIds": [
+            "en-english-revision-riassunto-0",
+            "en-english-revision-riassunto-1",
+            "en-english-revision-riassunto-2",
+            "en-english-revision-riassunto-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Scrittura formale e correzione in due passaggi",
+          "refs": [
+            "english-revision/messaggio"
+          ],
+          "questionIds": [
+            "en-english-revision-messaggio-0",
+            "en-english-revision-messaggio-1",
+            "en-english-revision-messaggio-2",
+            "en-english-revision-messaggio-3"
+          ],
+          "status": "partial",
+          "assessment": "Quiz di comprensione e modello di produzione per autoconfronto; esposizione autonoma da verificare."
+        },
+        {
+          "topic": "Prepararsi alla verifica e capire quali errori restano",
+          "refs": [
+            "english-revision/prova"
+          ],
+          "questionIds": [
+            "en-english-revision-prova-0",
+            "en-english-revision-prova-1",
+            "en-english-revision-prova-2",
+            "en-english-revision-prova-3"
+          ],
+          "status": "introduced",
+          "assessment": "Spiegazione interna, esempio, quattro quiz con feedback e aiuto; prova aperta della lezione."
+        },
+        {
+          "topic": "Livello linguistico A2/B1 in ingresso",
+          "refs": [
+            "english-frase/struttura",
+            "english-frase/nomi",
+            "english-frase/domande",
+            "english-frase/confronti"
+          ],
+          "questionIds": [
+            "en-english-frase-struttura-0",
+            "en-english-frase-struttura-1",
+            "en-english-frase-struttura-2",
+            "en-english-frase-struttura-3",
+            "en-english-frase-nomi-0",
+            "en-english-frase-nomi-1",
+            "en-english-frase-nomi-2",
+            "en-english-frase-nomi-3",
+            "en-english-frase-domande-0",
+            "en-english-frase-domande-1",
+            "en-english-frase-domande-2",
+            "en-english-frase-domande-3",
+            "en-english-frase-confronti-0",
+            "en-english-frase-confronti-1",
+            "en-english-frase-confronti-2",
+            "en-english-frase-confronti-3"
+          ],
+          "status": "partial",
+          "assessment": "Ripasso di supporto, non certificazione della competenza globale."
+        },
+        {
+          "topic": "Slide e materiali specificamente assegnati",
+          "refs": [],
+          "questionIds": [],
+          "status": "missing",
+          "assessment": "Non acquisiti i materiali del docente attuale; nessuna equivalenza presunta."
+        },
+        {
+          "topic": "Ascolto e dettato",
+          "refs": [],
+          "questionIds": [],
+          "status": "excluded",
+          "assessment": "Esclusi dall’obiettivo su richiesta dell’utente. Conservato il laboratorio facoltativo esistente."
+        }
+      ]
     }
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-10-21",
-    "summary": "Sviluppo in pausa su richiesta dell’utente dopo l’ampliamento di Informatica: dieci lezioni, 104 quiz e sei laboratori. Confrontata la scheda storica in 28 voci; restano i materiali assegnati e la verifica del programma corrente. Il primo anno non è ancora interamente coperto.",
-    "next": "Ampliare Inglese scientifico scritto: grammatica A2/B1, letture e produzione con correzioni; confrontare il programma reale disponibile. Poi casi giuridici e riconoscimenti anatomici, mantenendo esplicite dispense e parti monografiche ancora da verificare. Ascolto inglese escluso dall’obiettivo.",
+    "updated": "2026-10-22",
+    "summary": "Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.",
+    "next": "Riprendere Scienze giuridiche: casi risolti e confronto dei programmi; restano materiali assegnati di diritto internazionale. Poi ulteriori riconoscimenti anatomici e verifiche correnti. Ascolto inglese escluso dall’obiettivo.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
@@ -8227,61 +8618,10 @@
       },
       {
         "id": "inglese",
-        "label": "Da ampliare e verificare",
-        "remaining": "Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio."
+        "label": "Percorso scritto ampliato; verifica corrente da terminare",
+        "remaining": "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
       }
-    ],
-    "closedUnits": [
-      "anatomia-cranio",
-      "anatomia-colonna-torace",
-      "anatomia-tubo-digerente",
-      "anatomia-annessi-peritoneo",
-      "anatomia-rene-vie",
-      "anatomia-genitale",
-      "anatomia-endocrino",
-      "anatomia-epiteli-ghiandole",
-      "anatomia-connettivi-osso",
-      "anatomia-sangue-difese",
-      "anatomia-organi-linfoidi",
-      "anatomia-sensibilita-midollo",
-      "anatomia-encefalo-protezioni",
-      "anatomia-nervi-autonomo",
-      "anatomia-micrografie",
-      "allenamento-progettare",
-      "allenamento-metodi",
-      "allenamento-sviluppo",
-      "allenamento-insegnare",
-      "motricita-controllo",
-      "motricita-pratica",
-      "motricita-progetto",
-      "societa-decisioni",
-      "societa-casi",
-      "marketing-percorso",
-      "marketing-budget",
-      "psico-percepire",
-      "psico-memoria",
-      "psico-apprendere",
-      "psico-psicobiologia",
-      "psico-motivare",
-      "psico-regolare",
-      "sviluppo-pensare",
-      "sviluppo-sociale",
-      "pedagogia-persona",
-      "pedagogia-autori",
-      "pedagogia-comunita",
-      "informatica-dati",
-      "informatica-calcolo",
-      "informatica-archivi",
-      "informatica-servizi",
-      "informatica-progetto"
-    ],
-    "validation": "Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame. Interfaccia alleggerita: fonti, note e segnalibro chiusi per impostazione iniziale; testo secondario 14 px, lezioni 20/23 px. Apertura da tastiera e riferimenti verificati nel browser.",
-    "resumeFiles": [
-      "data/course.json",
-      "data/development-audit.json",
-      "SEGNALIBRO.txt"
-    ],
-    "instruction": "L’utente ha chiesto di riprendere il 21 ottobre 2026. Proseguire dal punto indicato; non dichiarare completati gli esami sulla base del solo numero di lezioni."
+    ]
   },
   "writtenAssessmentAudit": {
     "sourceId": "syllabus-anatomy",
@@ -8353,5 +8693,301 @@
       "Le lettere hanno legenda solo nello studio e negli aiuti; attribuzioni sempre disponibili.",
       "Non dedotte sede specifica, specie non dichiarata, tipo metabolico delle fibre o diagnosi."
     ]
+  },
+  "userDocumentAudits": [
+    {
+      "id": "unidocs-13101",
+      "file": "unidocs-13101.pdf",
+      "sha256": "f1f3e77c83983d7bd4309cea51a3f664530300f932c43293bc28d538e0c2b539",
+      "pageCount": 75,
+      "checked": "2026-10-22",
+      "origin": "Documento fornito dall’utente; non prova di adozione ufficiale.",
+      "scope": "75 pagine fornite dall’utente, provenienza dichiarata Unidocs; non attestazione di un programma ufficiale. Letto il testo estraibile e controllate le principali pagine di sole immagini. Pagine 1–22: mitocondri; 23–36: reticolo e traffico; 37–50: degradazione e perossisomi; 51–75: muscolo. Integrate nella lezione “Compartimenti cellulari: leggere e verificare i meccanismi”.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 10,
+          "refs": [
+            "cellula-comparti-verifica/mitocondrio"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-mitocondrio-0",
+            "pdf-cellula-comparti-verifica-mitocondrio-1",
+            "pdf-cellula-comparti-verifica-mitocondrio-2",
+            "pdf-cellula-comparti-verifica-mitocondrio-3"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 17,
+          "refs": [
+            "cellula-comparti-verifica/mitocondrio"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-mitocondrio-0",
+            "pdf-cellula-comparti-verifica-mitocondrio-1",
+            "pdf-cellula-comparti-verifica-mitocondrio-2",
+            "pdf-cellula-comparti-verifica-mitocondrio-3"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 22,
+          "refs": [
+            "cellula-comparti-verifica/mitocondrio"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-mitocondrio-0",
+            "pdf-cellula-comparti-verifica-mitocondrio-1",
+            "pdf-cellula-comparti-verifica-mitocondrio-2",
+            "pdf-cellula-comparti-verifica-mitocondrio-3"
+          ]
+        },
+        {
+          "from": 23,
+          "to": 27,
+          "refs": [
+            "cellula-comparti-verifica/reticolo"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-reticolo-0",
+            "pdf-cellula-comparti-verifica-reticolo-1",
+            "pdf-cellula-comparti-verifica-reticolo-2",
+            "pdf-cellula-comparti-verifica-reticolo-3"
+          ]
+        },
+        {
+          "from": 28,
+          "to": 36,
+          "refs": [
+            "cellula-comparti-verifica/reticolo"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-reticolo-0",
+            "pdf-cellula-comparti-verifica-reticolo-1",
+            "pdf-cellula-comparti-verifica-reticolo-2",
+            "pdf-cellula-comparti-verifica-reticolo-3"
+          ]
+        },
+        {
+          "from": 37,
+          "to": 46,
+          "refs": [
+            "cellula-comparti-verifica/degradazione"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-degradazione-0",
+            "pdf-cellula-comparti-verifica-degradazione-1",
+            "pdf-cellula-comparti-verifica-degradazione-2",
+            "pdf-cellula-comparti-verifica-degradazione-3"
+          ]
+        },
+        {
+          "from": 47,
+          "to": 50,
+          "refs": [
+            "cellula-comparti-verifica/degradazione"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-degradazione-0",
+            "pdf-cellula-comparti-verifica-degradazione-1",
+            "pdf-cellula-comparti-verifica-degradazione-2",
+            "pdf-cellula-comparti-verifica-degradazione-3"
+          ]
+        },
+        {
+          "from": 51,
+          "to": 58,
+          "refs": [
+            "cellula-comparti-verifica/muscolo"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-muscolo-0",
+            "pdf-cellula-comparti-verifica-muscolo-1",
+            "pdf-cellula-comparti-verifica-muscolo-2",
+            "pdf-cellula-comparti-verifica-muscolo-3"
+          ]
+        },
+        {
+          "from": 59,
+          "to": 66,
+          "refs": [
+            "cellula-comparti-verifica/muscolo"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-muscolo-0",
+            "pdf-cellula-comparti-verifica-muscolo-1",
+            "pdf-cellula-comparti-verifica-muscolo-2",
+            "pdf-cellula-comparti-verifica-muscolo-3"
+          ]
+        },
+        {
+          "from": 67,
+          "to": 75,
+          "refs": [
+            "cellula-comparti-verifica/muscolo"
+          ],
+          "questionIds": [
+            "pdf-cellula-comparti-verifica-muscolo-0",
+            "pdf-cellula-comparti-verifica-muscolo-1",
+            "pdf-cellula-comparti-verifica-muscolo-2",
+            "pdf-cellula-comparti-verifica-muscolo-3"
+          ]
+        }
+      ],
+      "integration": "Lezioni originali collegate agli argomenti; nessuna promessa di riconoscimento di ogni figura. Le copie impaginate dei PDF conservano i contenuti originali, come richiesto."
+    },
+    {
+      "id": "unidocs-19289",
+      "file": "unidocs-19289.pdf",
+      "sha256": "f4b1dae66950b08372081aa12ce71460b7e083b4795222997b291af58ab514f8",
+      "pageCount": 20,
+      "checked": "2026-10-22",
+      "origin": "Documento fornito dall’utente; non prova di adozione ufficiale.",
+      "scope": "20 pagine fornite dall’utente da Unidocs. Testo letto e figure principali controllate. Pagine 1–7: materia e atomo; 8–10: masse e mole; 11–20: soluzioni, solubilità e concentrazioni. Integrate nella lezione “Materia e soluzioni”.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "refs": [
+            "chimica-materia-soluzioni/classificare"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-classificare-0",
+            "pdf-chimica-materia-soluzioni-classificare-1",
+            "pdf-chimica-materia-soluzioni-classificare-2",
+            "pdf-chimica-materia-soluzioni-classificare-3"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 6,
+          "refs": [
+            "chimica-materia-soluzioni/atomo"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-atomo-0",
+            "pdf-chimica-materia-soluzioni-atomo-1",
+            "pdf-chimica-materia-soluzioni-atomo-2",
+            "pdf-chimica-materia-soluzioni-atomo-3"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 7,
+          "refs": [
+            "chimica-materia-soluzioni/classificare"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-classificare-0",
+            "pdf-chimica-materia-soluzioni-classificare-1",
+            "pdf-chimica-materia-soluzioni-classificare-2",
+            "pdf-chimica-materia-soluzioni-classificare-3"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "refs": [
+            "chimica-materia-soluzioni/masse"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-masse-0",
+            "pdf-chimica-materia-soluzioni-masse-1",
+            "pdf-chimica-materia-soluzioni-masse-2",
+            "pdf-chimica-materia-soluzioni-masse-3"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 20,
+          "refs": [
+            "chimica-materia-soluzioni/soluzioni"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-soluzioni-0",
+            "pdf-chimica-materia-soluzioni-soluzioni-1",
+            "pdf-chimica-materia-soluzioni-soluzioni-2",
+            "pdf-chimica-materia-soluzioni-soluzioni-3"
+          ]
+        }
+      ],
+      "integration": "Lezioni originali collegate agli argomenti; nessuna promessa di riconoscimento di ogni figura. Le copie impaginate dei PDF conservano i contenuti originali, come richiesto."
+    },
+    {
+      "id": "chimica-appunti-forniti",
+      "file": "Chimica generale – Appunti dalle slide.pdf",
+      "sha256": "4944f0f204a136668681e6b1593a46731d40b060a168a6f842e590d56c853787",
+      "pageCount": 8,
+      "checked": "2026-10-22",
+      "origin": "Documento fornito dall’utente; non prova di adozione ufficiale.",
+      "scope": "Otto pagine fornite dall’utente: letto tutto il testo, viste entrambe le figure. La dispensa impaginata conserva il contenuto originale su richiesta; le lezioni dell’app distinguono massa relativa, massa molare e definizione attuale della mole.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "refs": [
+            "chimica-materia-soluzioni/classificare"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-classificare-0",
+            "pdf-chimica-materia-soluzioni-classificare-1",
+            "pdf-chimica-materia-soluzioni-classificare-2",
+            "pdf-chimica-materia-soluzioni-classificare-3"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 3,
+          "refs": [
+            "chimica-materia-soluzioni/atomo"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-atomo-0",
+            "pdf-chimica-materia-soluzioni-atomo-1",
+            "pdf-chimica-materia-soluzioni-atomo-2",
+            "pdf-chimica-materia-soluzioni-atomo-3"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "refs": [
+            "chimica-materia-soluzioni/masse"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-masse-0",
+            "pdf-chimica-materia-soluzioni-masse-1",
+            "pdf-chimica-materia-soluzioni-masse-2",
+            "pdf-chimica-materia-soluzioni-masse-3"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 8,
+          "refs": [
+            "chimica-materia-soluzioni/soluzioni"
+          ],
+          "questionIds": [
+            "pdf-chimica-materia-soluzioni-soluzioni-0",
+            "pdf-chimica-materia-soluzioni-soluzioni-1",
+            "pdf-chimica-materia-soluzioni-soluzioni-2",
+            "pdf-chimica-materia-soluzioni-soluzioni-3"
+          ]
+        }
+      ],
+      "integration": "Lezioni originali collegate agli argomenti; nessuna promessa di riconoscimento di ogni figura. Le copie impaginate dei PDF conservano i contenuti originali, come richiesto."
+    }
+  ],
+  "lastTechnicalVerification": {
+    "date": "2026-10-22",
+    "contentCheck": "passed",
+    "unitTests": 44,
+    "browser": [
+      "english-browser: 256 feedback errati e aiuti, otto capitoli, mobile, tema scuro, progressi e stampa offline",
+      "english-mock-browser: 15 domande, bozza e correzioni riprese, voto persistente",
+      "browser generale file:// offline superato"
+    ],
+    "limitation": "Controlli tecnici; non certificano copertura curricolare né preparazione individuale."
   }
 }

@@ -18989,6 +18989,904 @@
           "Distingue dati necessari, permessi e proprietà della consegna."
         ]
       }
+    },
+    {
+      "id": "english-frase",
+      "subject": "inglese",
+      "title": "Costruire la frase: nomi, domande e confronti",
+      "description": "Riparti da soggetto e verbo e impara a controllare le forme che cambiano il significato.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [],
+      "sources": [
+        "en-articles",
+        "en-count",
+        "en-questions",
+        "en-comparatives"
+      ],
+      "objectives": [
+        "Soggetti, pronomi e ausiliari",
+        "Articoli, quantità e possessivi",
+        "Domande e preposizioni",
+        "Confronti, avverbi e frasi relative"
+      ],
+      "sections": [
+        {
+          "id": "struttura",
+          "title": "Chi fa che cosa? Soggetto, verbo e ausiliare",
+          "text": [
+            "Una frase dichiarativa inglese mette normalmente soggetto prima del verbo: “The instructor checks the list” = l’istruttrice controlla l’elenco. Anche quando in italiano il soggetto è sottinteso, in inglese di solito lo scriviamo. I, you, he, she, it, we, they sostituiscono i nomi come soggetti. Dopo il verbo o una preposizione servono invece me, you, him, her, it, us, them: “The instructor helps them” significa che aiuta loro. Non è “them help the instructor”.",
+            "Be ha forme proprie: I am, you/we/they are, he/she/it is. La negazione aggiunge not e la domanda inverte verbo e soggetto: “They are ready”, “They are not ready”, “Are they ready?”. Per dichiarare che qualcosa esiste usiamo there is con il singolare e there are con il plurale: “There are two benches”. Non tradurre il ci italiano con it in questa costruzione.",
+            "Con un verbo ordinario al presente semplice, he/she/it richiedono normalmente -s: “She works”, “He teaches”. Per domanda e negazione intervengono do/does: “Does she work here?”, “She does not work here”. Il verbo dopo does torna alla forma base, perché la persona è già segnata nell’ausiliare. Con I/you/we/they: “Do they work here?”, “They do not work here”. Le contrazioni don’t e doesn’t hanno lo stesso valore negativo.",
+            "Have come verbo di possesso segue normalmente questo modello: “She has a notebook”, “Does she have a notebook?”. Have got è un’alternativa frequente: “She has got a notebook”, “Has she got a notebook?”. Non incrociare i due schemi scrivendo “Does she has got”. Un imperativo invece usa il verbo base senza soggetto espresso: “Check the list”; negativo “Don’t skip the title”.",
+            "Per correggere una frase procedi in ordine: cerchia il soggetto, trova il verbo principale, verifica se è be o un verbo ordinario, poi cerca la parola negativa o interrogativa. “The students is ready” fallisce l’accordo plurale; “Does the student understands?” marca due volte la terza persona. Una parola lunga di anatomia non cambia questa struttura."
+          ],
+          "example": "Correggi “Does she checks them?”: soggetto she, domanda con does, verbo base check, oggetto them. Risultato: “Does she check them?” = li/le controlla? La risposta breve è “Yes, she does”, non “Yes, she checks”.",
+          "takeaway": "Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+          "table": {
+            "headers": [
+              "Funzione",
+              "Affermazione",
+              "Domanda / negazione"
+            ],
+            "rows": [
+              [
+                "Stato",
+                "She is ready.",
+                "Is she ready? / She is not ready."
+              ],
+              [
+                "Azione abituale",
+                "She checks the list.",
+                "Does she check it? / She does not check it."
+              ],
+              [
+                "Esistenza plurale",
+                "There are two mats.",
+                "Are there two mats? / There are not two mats."
+              ],
+              [
+                "Possesso",
+                "She has a pen.",
+                "Does she have a pen? / She does not have a pen."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nomi",
+          "title": "Nomi, articoli e quantità senza tradurre parola per parola",
+          "text": [
+            "Un nome numerabile ha singolare e plurale: a muscle, two muscles; a class, two classes. Alcuni plurali cambiano: person/people, foot/feet, tooth/teeth, child/children. L’aggettivo non prende il plurale e normalmente precede il nome: “two small muscles”, non “two smalls muscles”. Nel gruppo “a short training session”, session è il nome principale, training precisa di che tipo, short la durata.",
+            "A/an introducono un singolare non ancora identificato; the indica ciò che il contesto identifica. Scegli a/an dal suono seguente: “an athlete”, ma “a university course” perché university inizia con un suono consonantico. “A trainer entered. The trainer checked the room”: nella seconda frase sappiamo di chi si parla. Per generalizzare: “Muscles produce force”, senza the; “the muscles of the arm” individua invece un gruppo.",
+            "Equipment, information, advice ed evidence sono normalmente non numerabili in questi usi. Non aggiungere -s e non anteporre a: “some equipment”, “a piece of advice”, “two pieces of equipment”. Some si usa spesso in affermazioni e offerte; any in domande neutre e negazioni. “Would you like some water?” è un’offerta: non esiste una regola assoluta che imponga any in ogni domanda.",
+            "How many chiede il numero di elementi numerabili; how much una quantità non numerabile: “How many sessions?”, “How much time?”. A few sessions significa alcune sedute; few sessions sottolinea che sono poche. A little time significa un po’ di tempo; little time sottolinea la scarsità. Much/many non sono intercambiabili; a lot of può accompagnare entrambi. L’assenza di un dato non autorizza a inventarne il numero.",
+            "My, your, his, her, its, our, their precedono il nome: “their results”. Mine, yours, his, hers, ours, theirs lo sostituiscono: “These results are theirs”. Its è possessivo, it’s significa it is o it has. Il possessivo con apostrofo distingue “the athlete’s bag” (un atleta) e “the athletes’ bags” (più atleti). This/that accompagnano il singolare, these/those il plurale: “these results”, non “this results”."
+          ],
+          "example": "“There isn’t much equipment, but there are a few benches” = non c’è molta attrezzatura, ma ci sono alcune panche. Equipment rimane singolare non numerabile; benches è plurale. La frase non dice né zero attrezzi né zero panche.",
+          "takeaway": "Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+          "table": {
+            "headers": [
+              "Nome o forma",
+              "Uso corretto",
+              "Significato"
+            ],
+            "rows": [
+              [
+                "equipment",
+                "some equipment / two pieces of equipment",
+                "attrezzatura / due attrezzi"
+              ],
+              [
+                "session",
+                "a session / a few sessions",
+                "una seduta / alcune sedute"
+              ],
+              [
+                "time",
+                "a little time / how much time",
+                "un po’ di tempo / quanto tempo"
+              ],
+              [
+                "people",
+                "three people",
+                "tre persone"
+              ],
+              [
+                "their / theirs",
+                "their notes / the notes are theirs",
+                "i loro appunti / gli appunti sono loro"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "domande",
+          "title": "Fare la domanda giusta e leggere tempo e luogo",
+          "text": [
+            "Una domanda informativa cerca un dato preciso. What chiede una cosa o azione, which una scelta, who una persona, where un luogo, when un momento, why una ragione, how un modo. Metti la parola interrogativa davanti alla struttura interrogativa: “Where does the group meet?”. La risposta “In room 4” è un luogo; “Because the other room is closed” risponde invece a why.",
+            "How often riguarda la frequenza: once a week, twice a month, three times a week. How long riguarda la durata: for twenty minutes. How far la distanza: two kilometres. How old l’età: twenty years old. How many/how much chiedono quantità. “Twice a week for six weeks” distingue frequenza e durata del periodo: due volte ogni settimana per sei settimane, non sei volte in due settimane.",
+            "Quando who è il soggetto della domanda non aggiungere do/does: “Who leads the class?” cerca chi conduce. “Who does the trainer help?” cerca chi riceve aiuto, mentre the trainer è già soggetto. Le domande con be invertono direttamente: “Where is the class?”. Una richiesta cortese può contenere una domanda indiretta: “Could you tell me where the class is?”. Dentro la parte indiretta torna l’ordine soggetto-verbo, non “where is the class”.",
+            "Per il tempo usa at con orari, on con giorni/date e in con mesi/anni o parti della giornata: at 7, on Thursday, in October, in the morning. At night è un’espressione fissa. On Thursday morning combina il giorno con la parte della giornata. Every Monday, next week e last year non richiedono normalmente una preposizione prima. From…to delimita un intervallo; for indica durata. Before/after ordinano eventi: non sono sinonimi.",
+            "Per il luogo, in segnala un interno o un’area, on una superficie e at un punto o una sede considerata come attività: in the room, on the bench, at the gym. Between mette in relazione elementi distinti; under è sotto, next to accanto. La traduzione di “in palestra” non si decide copiando la preposizione italiana. Per confermare un appuntamento riscrivi separatamente giorno, ora, luogo e durata."
+          ],
+          "example": "Avviso inventato: “Meet at reception on Friday at 6 pm. The workshop lasts for forty minutes.” Dove? At reception. Quando? On Friday at 6 pm. Quanto dura? Forty minutes. La frase non specifica quante volte al mese si tiene.",
+          "takeaway": "Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse."
+        },
+        {
+          "id": "confronti",
+          "title": "Descrivere, confrontare e collegare due idee",
+          "text": [
+            "L’aggettivo descrive un nome: “a slow movement”. L’avverbio descrive come avviene l’azione: “Move slowly”. Molti avverbi aggiungono -ly, ma fast resta fast e good diventa well. “The instructions are clear” usa clear dopo be per descrivere le istruzioni; “She explains clearly” descrive come spiega. Non aggiungere automaticamente -ly a ogni parola.",
+            "Il comparativo confronta due termini: short/shorter, large/larger, easy/easier, big/bigger. Per molti aggettivi lunghi usa more: more precise. Than introduce il secondo termine. Good/better e bad/worse sono irregolari. Non combinare more e -er: “more stronger” è scorretto. “Less demanding” significa meno impegnativo, non più. As…as esprime uguaglianza sulla proprietà: “A is as long as B”.",
+            "Il superlativo seleziona un estremo in un gruppo: the shortest session, the most useful example, the best result. Il criterio va letto: lowest time può essere il tempo minore, ma non definisce da solo la persona migliore. Se un test misura secondi per completare un compito, 10 è più rapido di 12; se misura secondi mantenuti in una posizione, la direzione interpretativa cambia.",
+            "Who, which e that collegano una descrizione al nome: “The student who arrived early checked the room”; “the device that measures time”. Nelle relative restrittive di base who riguarda persone, which cose; that può riferirsi a entrambe. Identifica il nome a cui la relativa si appoggia. “The coach helps the athletes who are new” qualifica gli atleti, non la coach. In “The coach who is new helps the athletes” cambia chi è nuovo.",
+            "Una strategia di lettura è ridurre la frase al suo scheletro. In “The small device that records the time is more accurate than the old one”, il nucleo è device is more accurate; that records the time descrive il dispositivo; than the old one introduce il confronto. Non usare la parola più vicina al verbo come soggetto senza controllare la struttura."
+          ],
+          "example": "Dati inventati di durata: sessione A 20 minuti, B 30, C 40. “A is shorter than B”; “C is the longest session”. Non scrivere “A is the shorter than B”: il confronto con than usa il comparativo senza quel the.",
+          "takeaway": "Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa."
+        }
+      ],
+      "oral": {
+        "prompt": "Write a five-sentence message introducing a training room: mention two objects, a meeting time, one comparison and one question. Poi controlla soggetti, articoli e preposizioni.",
+        "answer": "There are two mats in the room. The mats are next to the bench. We meet on Wednesday at six. This room is larger than the old one. Where does the instructor keep the register? È un modello possibile: there are concorda con mats; on/at distinguono giorno e ora; does regge keep.",
+        "criteria": [
+          "Cinque frasi con soggetto e verbo",
+          "Oggetti, tempo e confronto presenti",
+          "Domanda corretta",
+          "Articoli e preposizioni controllati"
+        ]
+      }
+    },
+    {
+      "id": "english-tempi",
+      "subject": "inglese",
+      "title": "Tempi e significati: raccontare, proporre, spiegare",
+      "description": "Dalle routine ai risultati: tempi verbali, condizioni, consigli e passivo con esercizi ragionati.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "english-frase"
+      ],
+      "sources": [
+        "en-perfect",
+        "en-future",
+        "en-conditionals",
+        "en-passives",
+        "en-past",
+        "en-patterns"
+      ],
+      "objectives": [
+        "Routine e azioni in corso",
+        "Passato e collegamento al presente",
+        "Progetti, condizioni e modali",
+        "Passivo e forme verbali collegate"
+      ],
+      "sections": [
+        {
+          "id": "presente",
+          "title": "Una routine o ciò che sta succedendo?",
+          "text": [
+            "Present simple e present continuous descrivono prospettive diverse. Il simple usa il verbo base con la -s della terza persona: “Maya trains on Tuesdays”. Il continuous usa am/is/are più -ing: “Maya is training in the studio now”. La prima frase parla di una routine, la seconda di un’azione in corso. La parola train da sola non determina il tempo: guardiamo il contesto.",
+            "Always, usually, often, sometimes e never esprimono frequenza e si collocano normalmente prima del verbo ordinario: “She often walks”. Con be stanno dopo: “She is often early”. Never contiene già negazione; nello standard scritto usa “She never skips the introduction”, non “She doesn’t never skip”. Every day è una locuzione di frequenza, everyday un aggettivo: “everyday activities”.",
+            "Nel continuous le negazioni e le domande agiscono su be: “They are not waiting”, “Are they waiting?”. Per la forma -ing: walk/walking, make/making; in casi come run/running raddoppia la consonante finale. Non raddoppiare sempre tutte le consonanti e non conservare automaticamente la e finale. Il continuous può descrivere un periodo temporaneo: “This month I am working at a new centre”, anche senza un’azione che avvenga proprio in questo secondo.",
+            "Verbi che esprimono stato, conoscenza o possesso si usano spesso al simple: know, understand, need, own. “I understand the instructions” è la forma normale per dichiarare comprensione. Alcuni verbi hanno usi diversi: “I have a notebook” indica possesso; “I am having a break” descrive un’attività. Non memorizzare una lista senza guardare il significato.",
+            "Mini-testo originale: “Lina usually works in the office. This week she is helping in the gym. She checks the timetable every morning, but right now she is speaking to a visitor.” Traduzione: Lina di solito lavora in ufficio; questa settimana aiuta in palestra; controlla l’orario ogni mattina, ma ora parla con una visitatrice o un visitatore. Il testo distingue routine, situazione temporanea e azione attuale; non afferma che abbia cambiato lavoro per sempre."
+          ],
+          "example": "“She usually ___ the timetable, but now she ___ to a visitor”: checks / is speaking. Usually introduce la routine; now l’azione in corso. In una domanda sulla routine: “Does she check the timetable?”.",
+          "takeaway": "Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo."
+        },
+        {
+          "id": "passato",
+          "title": "Eventi conclusi, sfondo e risultati ancora rilevanti",
+          "text": [
+            "Il past simple racconta un fatto collocato in un periodo concluso: “We recorded the results yesterday”. I regolari prendono -ed; alcuni irregolari frequenti sono go/went/gone, do/did/done, take/took/taken, write/wrote/written, see/saw/seen. Le tre forme sono base, passato e participio: servono a costruzioni diverse. Be ha was con I/he/she/it e were con you/we/they.",
+            "Con i verbi ordinari la domanda e la negazione al passato usano did più forma base: “Did they record the results?”, “They did not record them”. Non scrivere “didn’t recorded”. Con be: “Were they ready?”, “They were not ready”. Il past continuous usa was/were + -ing per lo sfondo in corso: “We were checking the register when the instructor arrived”. Il controllo era in corso; l’arrivo è l’evento puntuale narrato.",
+            "Il present perfect combina have/has e participio: “She has written the report”. Collega il passato al presente, per esempio un lavoro ora disponibile. “She wrote it yesterday” precisa un tempo passato concluso e usa past simple. Non basta tradurre l’italiano “ha scritto” con has written in qualunque contesto: yesterday cambia la scelta. Nelle domande inverti have: “Has she written it?”.",
+            "For indica quanto dura una condizione, since quando comincia: “I have worked here for two years”, “I have worked here since 2024”, se il lavoro continua. Ever cerca un’esperienza: “Have you ever used a stopwatch?”. Yet in domanda o negazione riguarda ciò che si attende: “Have they finished yet?”, “They haven’t finished yet”. Already indica che qualcosa è già avvenuto. Il participio di take è taken: “has taken”, non “has took”.",
+            "Leggi questa cronaca inventata: “At nine, the group was waiting outside. The instructor arrived at nine ten and opened the room. The participants have now completed the introduction.” Lo sfondo precede due eventi al passato; now collega il completamento alla situazione presente. Per un metodo scientifico già svolto spesso si usa il past simple: “The researchers measured distance”. Non è la professione del soggetto a imporre un tempo."
+          ],
+          "example": "Correggi “Yesterday she has took the test”: yesterday richiede qui un passato concluso; take diventa took. Risultato: “Yesterday she took the test”. Senza data, per un’esperienza: “She has taken the test before”.",
+          "takeaway": "Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+          "table": {
+            "headers": [
+              "Base",
+              "Passato",
+              "Participio"
+            ],
+            "rows": [
+              [
+                "write",
+                "wrote",
+                "written"
+              ],
+              [
+                "take",
+                "took",
+                "taken"
+              ],
+              [
+                "go",
+                "went",
+                "gone"
+              ],
+              [
+                "do",
+                "did",
+                "done"
+              ],
+              [
+                "measure",
+                "measured",
+                "measured"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "scelte",
+          "title": "Futuro, condizioni e forza di un consiglio",
+          "text": [
+            "Per un’intenzione già decisa puoi usare be going to: “I am going to revise the glossary tonight”. Per un accordo fissato, il present continuous con un riferimento futuro è naturale: “We are meeting the tutor on Monday”. Will più forma base può esprimere una decisione al momento, una promessa o una previsione: “I’ll send you the notes”. Il contesto permette talvolta più forme; non trattare ogni frase futura come un quiz con un’unica parola possibile.",
+            "Un periodo ipotetico collega condizione e conseguenza. Per una regola abituale: if + present simple, present simple. Per una situazione futura possibile: “If the room is free, we will meet there”. La condizione usa normalmente present simple, non will. L’ordine può invertirsi: “We will meet there if the room is free”. Una frase del genere non conferma che la stanza sia libera.",
+            "Per una situazione immaginata o meno probabile nel presente/futuro: if + past simple e would + forma base. “If I had more time, I would revise the glossary” non racconta necessariamente un passato: had segnala l’ipotesi. “If I were you, I would ask for clarification” è una formula di consiglio. Non confondere would con will: esprimono prospettive diverse.",
+            "Can riguarda capacità o possibilità; could può descrivere capacità passata o rendere cortese una richiesta. Should esprime consiglio, must un obbligo forte; have to un obbligo/necessità. Mustn’t vieta, don’t have to lascia libertà. “You don’t have to print the notes” consente sia stamparle sia non farlo; “You mustn’t share the password” vieta la condivisione. Dopo can/could/should/must/will/would usa forma base senza to.",
+            "May e might indicano possibilità: “The class may start later” non equivale a “will certainly start later”. Can in una generalizzazione non garantisce un esito a ogni persona. Quando traduci una raccomandazione, conserva il grado di forza: you should ask = dovresti chiedere; you must ask = devi chiedere nel contesto. Qui alleniamo il significato linguistico, non decidiamo prescrizioni di allenamento."
+          ],
+          "example": "Avviso inventato: “You don’t have to bring printed notes. If you need a copy, we will provide one.” La stampa personale è facoltativa; la copia viene offerta a condizione che serva. Non c’è un divieto di portare appunti.",
+          "takeaway": "Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente."
+        },
+        {
+          "id": "passivo",
+          "title": "Seguire l’azione nel passivo e nelle frasi con due verbi",
+          "text": [
+            "Attivo: “The researcher measured the distance”. Passivo: “The distance was measured by the researcher”. Cambia il centro della frase: distance diventa soggetto grammaticale ma riceve l’azione. Il passivo usa be più participio; by può indicare chi agisce, ma non è obbligatorio. Se l’agente manca, non inventarlo. “The results were recorded” non dice da chi.",
+            "Il tempo e il numero sono segnati in be: “The result is recorded”, “The results are recorded”, “The results were recorded”. Nel futuro: “The results will be recorded”. Non confondere “was measuring” (continuous attivo) con “was measured” (passivo). Il passivo non rende il risultato più vero, ufficiale o affidabile: cambia la struttura linguistica, non il valore della prova.",
+            "Con un modale la costruzione è modal + be + participio: “The form must be completed”. Con il present perfect: “The report has been checked”. Per interpretare questa catena cerca il soggetto, la forma di be/been e il participio finale. Has been checked indica un controllo completato con rilevanza presente; non significa che il report esegua un controllo su altri documenti.",
+            "Due verbi consecutivi non seguono tutti lo stesso schema. Want, plan e decide possono essere seguiti da to + verbo: “I plan to study”. Enjoy e avoid reggono normalmente -ing: “I enjoy reading”; “Avoid guessing”. Dopo una preposizione usa spesso -ing: “before answering”, “interested in learning”. L’infinito può indicare scopo: “Read the title to identify the topic” = leggi il titolo per identificare il tema.",
+            "Nella revisione distingui un errore grammaticale da una scelta di stile: “We measured distance” e “Distance was measured” possono esprimere lo stesso evento con enfasi diversa. Se la consegna chiede di trasformare in passivo, conserva tempo, negazione e oggetto, non solo la parola measured. “We did not record speed” diventa “Speed was not recorded”: la negazione è parte del dato."
+          ],
+          "example": "Trasforma “The tutors checked the forms”: oggetto forms plurale → soggetto; passato di be plurale were; participio checked. “The forms were checked by the tutors”. Per dire che è obbligatorio controllarle: “The forms must be checked”.",
+          "takeaway": "Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione."
+        }
+      ],
+      "oral": {
+        "prompt": "Scrivi sei frasi su uno studio inventato: routine, azione temporanea, metodo passato, risultato al passivo, ipotesi futura e consiglio. Non presentarlo come ricerca reale.",
+        "answer": "We usually check attendance. This week we are testing a new form. Yesterday we recorded twelve names. The list was checked twice. If the form works well, we will use it again. We should compare the two versions. Le frasi mantengono distinti routine, periodo temporaneo, passato, passivo, condizione e consiglio; dodici è un dato inventato.",
+        "criteria": [
+          "Sei funzioni riconoscibili",
+          "Ausiliari e participi corretti",
+          "Condizione distinta da certezza",
+          "Caso indicato come inventato"
+        ]
+      }
+    },
+    {
+      "id": "english-communication",
+      "subject": "inglese",
+      "title": "In palestra: capire, chiedere e dare istruzioni",
+      "description": "Attrezzi, benessere e componenti della fitness dentro dialoghi e testi da tradurre.",
+      "minutes": 30,
+      "bookIds": [],
+      "prerequisites": [
+        "english-frase",
+        "english-tempi"
+      ],
+      "sources": [
+        "en-activity",
+        "en-definitions",
+        "en-wellness",
+        "en-equipment"
+      ],
+      "objectives": [
+        "Distinguere attività, esercizio e fitness",
+        "Riconoscere capacità e attrezzi",
+        "Tradurre istruzioni e negazioni",
+        "Gestire richieste e disaccordo"
+      ],
+      "sections": [
+        {
+          "id": "benessere",
+          "title": "Activity, exercise, fitness e wellness: quattro idee diverse",
+          "text": [
+            "Physical activity è attività fisica: comprende movimenti che richiedono dispendio energetico, anche nel lavoro o negli spostamenti. Exercise è esercizio fisico, cioè una parte programmata, strutturata e ripetuta dell’attività, con uno scopo relativo alla fitness. Physical fitness indica capacità o caratteristiche della persona; non è il nome di una singola seduta. Wellness riguarda il benessere e il suo perseguimento; non equivale a vincere una gara o a un unico numero sul display.",
+            "Testo originale: “Nora walks to work and carries her shopping home. These activities are part of her daily routine. On Saturdays she follows a planned exercise session. She records what she does, but she does not treat one test score as a complete measure of wellness. Her goals include moving more confidently and enjoying time with other people.” Prima cerca chi, quali attività e quale distinzione introduce but.",
+            "Traduzione ragionata: Nora va a lavoro a piedi e porta a casa la spesa; queste attività fanno parte della routine. Il sabato segue una seduta programmata. Registra ciò che fa, ma non considera il punteggio di un test una misura completa del benessere. Fra i suoi obiettivi ci sono muoversi con più sicurezza e trascorrere piacevolmente tempo con altre persone. “Carries” significa porta/trasporta, non corre; “include” introduce esempi, non un elenco necessariamente esaustivo.",
+            "I benefici dell’attività fisica comprendono dimensioni fisiche e mentali; in attività condivise possono esserci occasioni di partecipazione sociale. Nel testo inglese separa physical, psychological e social: forza, fiducia e incontro con altri non sono la stessa variabile. Can help e may support indicano possibilità; do not guarantee nega una garanzia. Non tradurre una possibilità generale come un risultato certo per ogni persona.",
+            "Mini-argomentazione originale: “A walking group can provide opportunities for social contact. However, attendance alone does not show that every participant feels included.” Significa: un gruppo di cammino può offrire occasioni di relazione; tuttavia la presenza non dimostra che ogni partecipante si senta incluso. Per verificare la comprensione, formula una domanda sul beneficio e una sul limite. Una frase precisa può riconoscere entrambi."
+          ],
+          "example": "“Nora walks to work” descrive attività fisica, ma non basta da sola a documentare una seduta di esercizio programmata. “She follows a planned exercise session” lo indica esplicitamente. “Fitness” descrive capacità, non la borsa da palestra.",
+          "takeaway": "Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione."
+        },
+        {
+          "id": "fitness",
+          "title": "Capacità e attrezzi: costruire un glossario utile",
+          "text": [
+            "Le componenti health-related sono tradizionalmente legate alla salute: cardiorespiratory endurance, muscular strength, muscular endurance, flexibility e body composition. Endurance è resistenza; strength è forza. Ripetere o mantenere uno sforzo non è la stessa cosa che esprimere forza elevata in una singola azione. Body composition indica composizione corporea, non soltanto body weight, peso corporeo.",
+            "Le componenti skill/performance-related includono comunemente agility, balance, coordination, power, reaction time e speed: agilità, equilibrio, coordinazione, potenza, tempo di reazione e velocità. La classificazione aiuta il lessico ma le capacità possono essere rilevanti in più contesti: balance conta anche nella vita quotidiana. Power non è un sinonimo rigoroso di strength. Reaction time riguarda il tempo per rispondere a un segnale, non la durata totale di una corsa.",
+            "Per gli attrezzi studia nome, azione e unità di conteggio insieme. Una dumbbell è un manubrio; una barbell un bilanciere; a weight plate è un disco; a resistance band un elastico; a bench una panca; a mat un tappetino; a treadmill un tapis roulant; an exercise bike una cyclette; a rowing machine un vogatore. Una skipping rope è una corda per saltare e un stopwatch un cronometro. Equipment raggruppa l’attrezzatura ed è normalmente non numerabile.",
+            "Una repetition o rep è una ripetizione, un set una serie. “Two sets of six repetitions” significa due serie ciascuna da sei, per dodici ripetizioni se entrambe completate. Rest between sets è recupero fra le serie; load è carico; range of motion è ampiezza del movimento. Nel linguaggio di calendario session è seduta e schedule/timetable è programma orario. Non confondere una serie con una seduta intera.",
+            "Scheda linguistica inventata: “Equipment: one mat and two dumbbells. Task: two sets of six repetitions. Rest between sets. Record the completed repetitions.” Traduci: un tappetino e due manubri; due serie da sei; recupero fra le serie; registrare le ripetizioni completate. Non sono indicati peso dei manubri né durata del recupero: un traduttore non deve aggiungerli. Questa è un’esercitazione linguistica, non una prescrizione individuale."
+          ],
+          "example": "Se una persona risponde “a stopwatch” a “Which item measures time?”, ha individuato il cronometro. “How many sets?” cerca 2; “How many repetitions in total?” cerca 12 nella scheda, se completate tutte.",
+          "takeaway": "Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+          "table": {
+            "headers": [
+              "Area",
+              "Termini",
+              "Distinzione da ricordare"
+            ],
+            "rows": [
+              [
+                "Salute",
+                "cardiorespiratory endurance; muscular strength; muscular endurance",
+                "Resistenza cardiorespiratoria, forza e resistenza muscolare"
+              ],
+              [
+                "Salute",
+                "flexibility; body composition",
+                "Flessibilità e composizione, non solo peso"
+              ],
+              [
+                "Prestazione",
+                "agility; balance; coordination",
+                "Agilità, equilibrio, coordinazione"
+              ],
+              [
+                "Prestazione",
+                "power; reaction time; speed",
+                "Potenza, latenza di risposta, velocità"
+              ],
+              [
+                "Attrezzi",
+                "dumbbell / barbell / weight plate",
+                "manubrio / bilanciere / disco"
+              ],
+              [
+                "Seduta",
+                "set / repetition / rest",
+                "serie / ripetizione / recupero"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "istruzioni",
+          "title": "Istruzioni: sequenza, posizione e negazione",
+          "text": [
+            "Una consegna comprensibile specifica azione, parte del corpo e relazione: “Place your hands on the mat” = appoggia le mani sul tappetino. Place è collocare; keep è mantenere; bend piegare; straighten raddrizzare; raise sollevare; lower abbassare. Return to torna a; hold mantiene/trattiene secondo l’oggetto. “Hold the position” e “hold your breath” non sono la stessa istruzione.",
+            "First, next/then e finally ordinano i passaggi. Before e after descrivono quale evento precede l’altro. Slowly e gently qualificano il modo, not nega. “Do not hold your breath” chiede di non trattenere il respiro. Se salti not, la traduzione diventa il contrario. L’imperativo non richiede you espresso: “Check the position”, negativo “Don’t rush”.",
+            "La voce del programma relativa ai V push-ups con pugni chiusi richiede anche capire termini come clenched fists (pugni chiusi), knuckles (nocche), elbows (gomiti), hips (anche), palms (palmi) e bent/straight (piegato/dritto). V-shaped descrive una forma a V. La denominazione di una variante non fornisce da sola un protocollo completo: non inventiamo carichi, ripetizioni o adeguatezza alla persona da un titolo.",
+            "Testo originale per analisi linguistica, non sequenza da eseguire: “The diagram shows a V-shaped position with the hips raised. The hands are shown as clenched fists, not open palms. The caption asks the reader to identify the elbows before describing the arm movement.” Traduzione: il diagramma mostra una posizione a V con le anche sollevate; le mani sono rappresentate a pugno chiuso, non con palmi aperti; la didascalia chiede di identificare i gomiti prima di descrivere il movimento delle braccia. Non c’è un invito a provare una variante senza supervisione.",
+            "Per controllare una spiegazione usa una riformulazione: “In other words, keep the position” ripete il significato; “Do you mean that I should keep my hands still?” chiede conferma, non prova che l’interpretazione sia giusta. Se il termine è ambiguo, una domanda precisa è meglio di un sì generico. “Which joint do you mean?” chiarisce l’articolazione; “Could you show me the starting position?” chiede una dimostrazione."
+          ],
+          "example": "“First identify the elbows, then describe the movement” = prima identifica i gomiti, poi descrivi il movimento. “With clenched fists, not open palms” contrappone pugni chiusi e palmi aperti. Il testo riguarda lettura e descrizione di un’immagine.",
+          "takeaway": "In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui."
+        },
+        {
+          "id": "dialogo",
+          "title": "Un dialogo completo: chiedere dettagli e dissentire",
+          "text": [
+            "Dialogo originale. Visitor: “I’m new here. Where does the beginner class meet?” Receptionist: “In studio B, at half past six.” Visitor: “How long does it last?” Receptionist: “Forty-five minutes. You don’t have to bring a mat.” Visitor: “Could you repeat the room, please?” Receptionist: “Studio B, next to the changing rooms.” Visitor: “Do you mean the room beside reception?” Receptionist: “No, it’s upstairs.”",
+            "Traduzione e controllo: la persona è nuova e chiede dove si tiene la lezione per principianti. La risposta dà studio B e 6:30; la domanda successiva cerca la durata, 45 minuti. Non deve necessariamente portare un tappetino. Chiede di ripetere la sala, poi propone un’interpretazione sbagliata, che viene corretta: la sala è al piano superiore. Changing rooms significa spogliatoi; upstairs al piano superiore; beside/next to accanto.",
+            "Una richiesta cortese non è una domanda di capacità fisica: “Could you repeat that?” chiede di ripetere. “Could you speak more slowly?” modifica il modo di parlare. “What do you mean by load?” cerca il significato di un termine. Non rispondere a una domanda di durata con un orario: “at 6:30” e “for 45 minutes” hanno funzioni diverse.",
+            "Per dare un consiglio: “You should check the timetable” o “It may help to ask for an example”. Per dissentire: “I see your point, but I don’t think that follows from the data”. Per esprimere disapprovazione su un comportamento: “I don’t think it is acceptable to ignore someone’s question”. Il tono dipende dall’interlocutore e dalla situazione. Disapprovare un comportamento non richiede attaccare l’identità della persona.",
+            "Mini-dialogo originale sui risultati. A: “Everyone improved, so this method always works.” B: “I agree that this group improved, but that does not prove it always works.” B riconosce il dato e contesta la generalizzazione. Per verificarlo, separa le due proposizioni: accordo su this group; disaccordo su always. Non tradurre I agree come adesione a tutte le affermazioni successive."
+          ],
+          "example": "Nel dialogo della reception, “Studio B is beside reception” è un’ipotesi del visitatore smentita da “No, it’s upstairs”. Una domanda non ha lo stesso peso informativo di una risposta confermata.",
+          "takeaway": "Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione."
+        }
+      ],
+      "oral": {
+        "prompt": "Write a six-line dialogue: ask about a room and duration, ask for repetition, then politely disagree with an unsupported claim. Usa almeno una domanda con does e una richiesta con could.",
+        "answer": "A: Where does the workshop take place? B: In studio C. It lasts for thirty minutes. A: Could you repeat the room, please? B: Studio C. This workshop guarantees success for everyone. A: I understand the aim, but I don’t think one workshop can guarantee success for everyone. B: You are right; that claim is too strong. Modello inventato: controlla luogo, durata, richiesta e oggetto del disaccordo.",
+        "criteria": [
+          "Luogo e durata distinti",
+          "Domanda e richiesta grammaticali",
+          "Disaccordo rivolto a una tesi",
+          "Nessuna garanzia inventata"
+        ]
+      }
+    },
+    {
+      "id": "english-movement",
+      "subject": "inglese",
+      "title": "Leggere anatomia e biomeccanica in inglese",
+      "description": "Quattro letture originali con glossario e traduzione: dai livelli del corpo alle relazioni fra forza e movimento.",
+      "minutes": 30,
+      "bookIds": [],
+      "prerequisites": [
+        "english-anatomy",
+        "english-tempi"
+      ],
+      "sources": [
+        "en-bones",
+        "en-movements",
+        "en-muscles",
+        "en-organization"
+      ],
+      "objectives": [
+        "Leggere gerarchie e posizioni",
+        "Individuare cinque funzioni scheletriche",
+        "Distinguere tessuti e azioni muscolari",
+        "Tradurre movimenti e relazioni meccaniche"
+      ],
+      "sections": [
+        {
+          "id": "livelli",
+          "title": "Dalla molecola all’organismo: gerarchie e riferimenti",
+          "text": [
+            "Testo originale: “An organ contains more than one type of tissue. Tissues contain cells and extracellular material. Cells contain molecules, which are made of atoms. Organs work together in organ systems. In an anatomical description, the right side belongs to the person being described, not to the observer facing that person.” Leggi prima la struttura, poi i dettagli: contains indica contiene, are made of sono costituite da, together insieme, observer osservatore.",
+            "Traduzione: un organo contiene più di un tipo di tessuto; i tessuti comprendono cellule e materiale extracellulare; le cellule contengono molecole formate da atomi; gli organi cooperano in sistemi di organi. Il lato destro appartiene alla persona descritta, non all’osservatore che la guarda di fronte. “More than one” significa più di uno, non meno di uno. La relativa which are made of atoms si riferisce a molecules.",
+            "La sequenza di organizzazione da ripassare è atom → molecule → cell → tissue → organ → organ system → organism. È una gerarchia didattica, non l’affermazione che ogni organo sia fatto di un solo tessuto o ogni tessuto di sole cellule. Anatomy riguarda struttura e rapporti; physiology il funzionamento. La distinzione lessicale aiuta a capire se una domanda chiede posizione oppure funzione.",
+            "Per le relazioni: superior/inferior confrontano alto e basso nella posizione anatomica; anterior/posterior davanti e dietro; medial/lateral vicinanza al piano mediano; proximal/distal prossimità all’attacco dell’arto; superficial/deep profondità. “The skin is superficial to the underlying muscle” significa che la cute è superficiale rispetto al muscolo sottostante. Underlying è un aggettivo relazionale, non il nome di un nuovo tessuto.",
+            "Nel lessico regionale shoulder, elbow, wrist, hip, knee, ankle sono spalla, gomito, polso, anca, ginocchio, caviglia. Arm/forearm e thigh/leg distinguono braccio/avambraccio e coscia/gamba anatomica. “The knee is proximal to the ankle” va tradotto con entrambe le strutture: se inverti i nomi, inverti il rapporto. Non usare la destra di chi guarda al posto della destra del soggetto."
+          ],
+          "example": "In “Cells contain molecules, which are made of atoms”, which riprende molecules: non afferma che atoms contenga molecules. Ricostruire il riferimento evita di invertire la gerarchia nella traduzione.",
+          "takeaway": "Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo."
+        },
+        {
+          "id": "scheletro",
+          "title": "Skeletal system: trovare l’idea di ogni paragrafo",
+          "text": [
+            "Lettura originale, paragrafo A: “The skeleton has mechanical roles. It supports the body, protects some internal organs and provides levers for movement. Bones do not move the body on their own: muscle forces and joint structure also matter.” Paragrafo B: “Bones also have biological roles. They store minerals, and red bone marrow produces blood cells. These roles cannot be understood by treating bone as a lifeless building material.”",
+            "Traduzione di A: lo scheletro svolge ruoli meccanici; sostiene il corpo, protegge alcuni organi e offre leve per il movimento. Le ossa da sole non muovono il corpo: contano anche forze muscolari e struttura articolare. “Some” non significa tutti; “on their own” significa da sole. Subject skeleton diventa it nella seconda frase; bones diventa their. La topic sentence del paragrafo annuncia i ruoli meccanici.",
+            "Traduzione di B: le ossa hanno anche ruoli biologici; immagazzinano minerali e il midollo rosso produce cellule del sangue. Queste funzioni non si comprendono considerando l’osso un materiale da costruzione senza vita. “Marrow” è midollo, “blood cells” cellule del sangue, “store” è qui il verbo immagazzinare e non un negozio. They riprende bones, these roles riprende le funzioni biologiche.",
+            "Le cinque funzioni del riepilogo sono support, protection, movement, mineral storage e blood cell production: sostegno, protezione, movimento, riserva minerale e produzione di cellule del sangue. La lettura attribuisce la produzione al red bone marrow, non al liquido sinoviale. Il sistema scheletrico comprende anche cartilagine; la suddivisione in cinque non vieta ulteriori dettagli, come riserve energetiche del midollo giallo.",
+            "Per il paragraphing assegna un titolo breve a ogni paragrafo: A “Mechanical roles”, B “Biological roles”. Se una domanda chiede il tema comune, serve una formulazione più ampia come “Functions of the skeletal system”. Un titolo limitato a “Blood cell production” copre soltanto parte del testo. Riassumere non richiede conservare ogni frase, ma non deve cancellare un’intera famiglia di funzioni."
+          ],
+          "example": "Sintesi originale: “The skeleton supports, protects and helps movement; bones also store minerals and contain blood-forming marrow.” Contiene cinque funzioni senza affermare che l’osso produca movimento senza muscoli.",
+          "takeaway": "Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+          "table": {
+            "headers": [
+              "Inglese",
+              "Italiano",
+              "Idea della lettura"
+            ],
+            "rows": [
+              [
+                "support",
+                "sostegno",
+                "struttura portante"
+              ],
+              [
+                "protection",
+                "protezione",
+                "rapporto con alcuni organi"
+              ],
+              [
+                "movement",
+                "movimento",
+                "leve, muscoli e articolazioni"
+              ],
+              [
+                "mineral storage",
+                "riserva minerale",
+                "funzione biologica"
+              ],
+              [
+                "blood cell production",
+                "produzione di cellule del sangue",
+                "midollo rosso"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "muscoli",
+          "title": "Muscular system: active non significa sempre shortening",
+          "text": [
+            "Lettura originale: “Skeletal, cardiac and smooth muscle are different tissue types. Skeletal muscles help produce body movements and maintain posture. Cardiac muscle is found in the heart. Smooth muscle occurs in the walls of many hollow organs. Calling a tissue smooth describes its microscopic appearance, not how gently a person moves.” Il testo parte da una classificazione e la usa per assegnare sedi e significati.",
+            "Traduzione: scheletrico, cardiaco e liscio sono tipi diversi di tessuto muscolare. I muscoli scheletrici contribuiscono al movimento e al mantenimento della postura; il cardiaco si trova nel cuore; il liscio nelle pareti di molti organi cavi. “Hollow” significa cavo, “walls” pareti, “is found” si trova, non è una scoperta appena annunciata. Smooth non vuol dire che la persona compia un movimento dolce.",
+            "Seconda lettura originale: “A skeletal muscle can produce tension while shortening, staying approximately the same length or lengthening. Tendons transmit forces between muscle and its attachments. An agonist contributes to a task, while an antagonist can oppose or control it. The role depends on the movement being considered.” Traduzione: il muscolo può sviluppare tensione accorciandosi, restando circa della stessa lunghezza o allungandosi. I tendini trasmettono forze; i ruoli di agonista e antagonista dipendono dal compito.",
+            "Concentric, isometric ed eccentric descrivono rispettivamente accorciamento attivo, lunghezza approssimativamente costante e allungamento attivo nel modello qui usato. “Approximately” evita di promettere immobilità di ogni componente interna. While può significare mentre oppure contrapporre idee; in “tension while lengthening” lega due eventi simultanei. Active non significa per forza shortening e antagonist non significa muscolo sempre spento.",
+            "Per i nomi: biceps brachii, triceps brachii, deltoid, quadriceps, hamstrings e calf muscles richiamano bicipite, tricipite, deltoide, quadricipite, gruppo posteriore della coscia e muscoli del polpaccio. Tendon e ligament non sono sinonimi: tendine e legamento. Leggi l’intera relazione “connects muscle to bone”, non soltanto connects. Qui la descrizione serve a tradurre il testo; l’identificazione dettagliata dei muscoli è nel percorso anatomico."
+          ],
+          "example": "“The muscle remains active while lengthening” = il muscolo rimane attivo mentre si allunga. Se traduci “si rilassa”, aggiungi una conclusione opposta alla parola active.",
+          "takeaway": "Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato."
+        },
+        {
+          "id": "movimenti",
+          "title": "Movimenti del piede e piccola lettura biomeccanica",
+          "text": [
+            "Flexion ed extension indicano flessione ed estensione; abduction e adduction allontanamento e avvicinamento rispetto al riferimento pertinente; internal/external rotation rotazione interna/esterna. Specify the joint significa specifica l’articolazione. Quando si parla del piede, dorsiflexion avvicina il dorso alla gamba e plantar flexion orienta il piede nella direzione opposta; non sono traduzioni di inversion ed eversion.",
+            "Inversion orienta la pianta medialmente, eversion lateralmente, coinvolgendo le articolazioni del piede in movimenti composti. Sole significa pianta del piede, heel tallone, toes dita del piede, forefoot avampiede. “Turn the sole inward” descrive inversione; “turn the sole outward” eversione. Nel piede pronation e supination possono indicare combinazioni tridimensionali: non trasferire senza adattamento la definizione di pronazione dell’avambraccio.",
+            "Testo originale: “The description concerns the sole, not the toes alone. During inversion, the sole faces more medially. During eversion, it faces more laterally. Pointing the foot downward describes plantar flexion and does not, by itself, identify inversion.” Traduzione: la descrizione riguarda la pianta, non soltanto le dita; nell’inversione la pianta guarda più medialmente, nell’eversione più lateralmente; puntare il piede verso il basso descrive flessione plantare e da solo non identifica inversione.",
+            "Mini-lettura biomeccanica originale: “A force can act at a distance from a joint axis. Its turning effect depends on the force and the perpendicular distance from the axis to the line of action. For the same force, a larger perpendicular distance produces a larger moment.” Glossario: force forza; joint axis asse articolare; line of action retta d’azione; perpendicular distance distanza perpendicolare; moment momento di una forza. Turning effect è effetto rotatorio, non un intervallo di tempo.",
+            "Traduzione e confronto: una forza può agire a distanza dall’asse; il suo effetto rotatorio dipende dalla forza e dalla distanza perpendicolare alla retta d’azione. A parità di forza, maggiore distanza perpendicolare produce maggiore momento. “For the same force” è una condizione essenziale; larger non autorizza a concludere che ogni muscolo più lungo produca più forza. Nel modello numerico: 10 N per 0,02 m danno 0,20 N·m; 10 N per 0,04 m danno 0,40 N·m."
+          ],
+          "example": "“For the same force” = a parità di forza. Togliere questa parte rende la conclusione meno precisa. In anatomia “moment” può essere momento di una forza, mentre in “at this moment” significa momento temporale: il contesto decide.",
+          "takeaway": "Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto."
+        }
+      ],
+      "oral": {
+        "prompt": "Scrivi due brevi paragrafi in inglese: il primo su due funzioni dello scheletro, il secondo su inversione/eversione. Aggiungi una frase su un muscolo attivo in allungamento.",
+        "answer": "The skeleton supports the body and protects some internal organs. Bones also work with muscles and joints during movement. Inversion turns the sole medially, whereas eversion turns it laterally. These movements should not be confused with plantar flexion. A muscle can remain active while lengthening. Il modello usa some, non all, e conserva la pianta come riferimento.",
+        "criteria": [
+          "Paragrafi con temi distinti",
+          "Due funzioni corrette",
+          "Medial/lateral e sole coerenti",
+          "Active distinto da shortening"
+        ]
+      }
+    },
+    {
+      "id": "english-evidence",
+      "subject": "inglese",
+      "title": "Comprensione scientifica: dal testo alle risposte",
+      "description": "Leggere per uno scopo, interpretare dati e tradurre senza aggiungere conclusioni.",
+      "minutes": 30,
+      "bookIds": [],
+      "prerequisites": [
+        "english-reading",
+        "english-tempi"
+      ],
+      "sources": [
+        "en-definitions",
+        "en-equipment",
+        "en-activity"
+      ],
+      "objectives": [
+        "Scegliere skimming e scanning",
+        "Estrarre campione, misure e limiti",
+        "Controllare falsi amici e quantificatori",
+        "Usare un riferimento senza confonderlo con una prova"
+      ],
+      "sections": [
+        {
+          "id": "strategie",
+          "title": "Tre passaggi per leggere senza fermarsi a ogni parola",
+          "text": [
+            "Skimming è una lettura rapida per ricavare tema e struttura: titolo, prime frasi dei paragrafi, parole ripetute, conclusione. Scanning cerca un dato preciso, per esempio una data o una durata. La lettura analitica ricostruisce rapporti, condizioni e negazioni. Non sono tre livelli di bravura: sono strategie per tre scopi diversi. Prima chiediti quale risposta devi ottenere.",
+            "Avviso originale: “Movement workshop. Monday: introduction in room A, 17:00–17:30. Wednesday: practical vocabulary in room C, 18:00–18:45. Friday: written review in room A, 17:00–18:00. Bring a notebook. Printed materials are optional.” Con lo skimming riconosci un programma di incontri; con lo scanning trovi la sala del mercoledì o la durata del venerdì; leggendo optional capisci che le stampe sono facoltative.",
+            "Traduzione: laboratorio sul movimento; lunedì introduzione in aula A per mezz’ora; mercoledì lessico pratico in aula C per 45 minuti; venerdì ripasso scritto in aula A per un’ora. Serve un quaderno; i materiali stampati sono facoltativi. “Written review” non indica automaticamente una prova ufficiale. Un titolo non contiene tutte le informazioni operative della tabella.",
+            "Prima di aprire un dizionario, individua il ruolo della parola: nome, verbo, aggettivo o avverbio. In “record the result”, record è verbo; in “a written record”, è nome. Un dizionario per apprendenti segnala per esempio noun, verb, [C] numerabile e [U] non numerabile. Una scheda utile annota significato nel contesto, costruzione e frase propria; non copia dieci traduzioni senza scegliere.",
+            "Per parole polisemiche come set, arm e trial, usa gli elementi vicini. “A set of six repetitions” è una serie; “set the timer” significa imposta il timer. “Trial” può indicare prova o studio sperimentale secondo contesto, non sempre processo giudiziario. “Arm” può essere un arto o un gruppo sperimentale. L’obiettivo della traduzione è conservare l’evento descritto, non associare meccanicamente una parola a una sola parola italiana."
+          ],
+          "example": "Domanda: “Which room is used on Wednesday?” Cerca Wednesday e room C: scanning. Domanda: “What is this notice about?” Leggi titolo e struttura: un programma di laboratorio. “Optional” esclude l’obbligo delle stampe.",
+          "takeaway": "Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione."
+        },
+        {
+          "id": "dati",
+          "title": "Una lettura con dati: chi è stato misurato?",
+          "text": [
+            "Invented study for language practice: Thirty adults joined a six-week walking programme. Twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres. There was no comparison group. Participants reported enjoying the sessions, but the study did not measure changes in general health. The results describe this sample and do not establish that the programme caused the improvement.",
+            "Traduzione guidata: trenta adulti si sono iscritti a un programma di cammino di sei settimane; ventiquattro hanno completato entrambe le valutazioni. La loro distanza media è aumentata da 400 a 440 metri. Non c’era un gruppo di confronto. I partecipanti hanno riferito di apprezzare le sedute, ma lo studio non ha misurato cambiamenti della salute generale. I risultati descrivono questo campione e non stabiliscono una causa. Tutti questi dati sono inventati per esercitarsi.",
+            "Joined non equivale a completed: 30 iscritti e 24 con due valutazioni sono denominatori diversi. Il pronome their nella frase sulla media riprende chi ha completato entrambe le misure. “Both assessments” significa entrambe le valutazioni, non due gruppi. “Mean” è media; “increased from…to…” distingue valore iniziale e finale. Non scambiare 440 per l’aumento: l’aumento assoluto è 40 m.",
+            "La variazione relativa rispetto al valore iniziale è 40/400 × 100 = 10%. La quota che completa è 24/30 × 100 = 80%. Il testo non dice perché sei persone non hanno due valutazioni, né che tutti i 24 abbiano migliorato individualmente. Una media può aumentare anche se qualcuno resta stabile o peggiora. In una domanda sui dati espliciti scegli soltanto ciò che è riportato o calcolabile.",
+            "Distinguere tre livelli: risultato osservato, gradimento riferito e attribuzione causale. “Reported enjoying” è una dichiarazione di gradimento; non è una misura clinica di salute. L’assenza di controllo e di assegnazione comparativa impedisce di attribuire con sicurezza il cambiamento al programma. “Does not establish” non significa “dimostra che non funziona”: significa che quella conclusione non è stabilita da questo disegno."
+          ],
+          "example": "Risposta a “What changed in the measured sample?”: “Mean walking distance increased by 40 metres, or 10% of baseline.” Risposta a “Did general health improve?”: “The study did not measure it.” Mancanza di misura non significa peggioramento.",
+          "takeaway": "Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+          "table": {
+            "headers": [
+              "Informazione",
+              "Dato inventato",
+              "Che cosa non aggiungere"
+            ],
+            "rows": [
+              [
+                "Iscritti",
+                "30",
+                "Non tutti hanno due misure"
+              ],
+              [
+                "Con due valutazioni",
+                "24",
+                "Non è un gruppo di controllo"
+              ],
+              [
+                "Distanza media",
+                "400 → 440 m",
+                "Non indica la variazione di ogni individuo"
+              ],
+              [
+                "Salute generale",
+                "Non misurata",
+                "Non si può dichiarare un miglioramento clinico"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "precisione",
+          "title": "Falsi amici, negazioni e prudenza scientifica",
+          "text": [
+            "Actual significa reale/effettivo, non attuale; currently significa attualmente. Eventually significa alla fine, non eventualmente. Sensible è ragionevole, sensitive sensibile. Library è biblioteca, non libreria commerciale. Una parola familiare può portare a un errore più facilmente di una parola nuova perché la traduzione sembra ovvia.",
+            "In ricerca sample è campione, outcome esito, baseline valore iniziale, follow-up controllo successivo, finding risultato emerso, evidence evidenza/prove. Evidence è normalmente non numerabile: “some evidence”, non “an evidence”. Increase e decrease possono essere nomi o verbi. “An increase in distance” è un aumento della distanza; “distance increased” riferisce che la distanza è aumentata.",
+            "Conserva i quantificatori: all tutti, some alcuni, most la maggior parte, none nessuno, not all non tutti. “Not all participants completed the task” non equivale a “No participant completed it”. Only delimita: “Only adults were included” esclude minori dal campione; non significa che tutti gli adulti del mondo siano stati inclusi. At least è almeno, at most al massimo.",
+            "La cautela vive nei verbi e nei connettivi: may/might indicano possibilità, suggests suggerisce, is associated with indica associazione. “No evidence of an effect was found” descrive che non è stata trovata evidenza; non prova automaticamente l’identità di due condizioni o l’assenza di qualsiasi effetto. However oppone o limita, therefore presenta una conseguenza. Non trasformare l’uno nell’altro.",
+            "Correzione guidata di una traduzione inventata. Originale: “The actual number was lower than expected. Not all participants returned. These findings may reflect practical difficulties.” Bozza errata: “Il numero attuale era superiore; nessuno tornò e i risultati dimostrano incapacità”. Riparazione: “Il numero effettivo era inferiore alle attese. Non tutti sono tornati. Questi risultati potrebbero riflettere difficoltà pratiche.” Abbiamo corretto falso amico, direzione, quantificatore e grado di certezza."
+          ],
+          "example": "“Some participants may need clarification” = alcuni partecipanti potrebbero aver bisogno di chiarimenti. Non equivale a “tutti sono incapaci”: some e may sono informazioni, non decorazioni.",
+          "takeaway": "Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale."
+        },
+        {
+          "id": "fonti",
+          "title": "Dall’abstract reale alla propria spiegazione",
+          "text": [
+            "Una pubblicazione ha titolo, autori, anno e sede; l’abstract è una sintesi, non necessariamente il testo completo. Puoi studiare il caso seguente senza aprire collegamenti: Caspersen, Powell e Christenson pubblicarono nel 1985 un lavoro sulle definizioni di attività fisica, esercizio e fitness, registrato in PubMed con PMID 3920711. È un contributo concettuale: non descrive nel suo abstract una nuova sperimentazione di sei settimane.",
+            "Parafrasi didattica originale in inglese del punto centrale: “The authors separate movement in daily life, planned exercise and fitness attributes. The distinction gives researchers a clearer vocabulary when they compare studies.” Traduzione: gli autori distinguono movimento quotidiano, esercizio programmato e caratteristiche di fitness; la distinzione aiuta a confrontare studi usando termini più chiari. Non è una citazione letterale e non trasforma il lavoro in un trial.",
+            "Per leggere autonomamente una fonte: identifica il tipo di documento; cerca domanda, popolazione o ambito, metodo se presente e conclusione; separa ciò che hai letto da ciò che supponi. Un abstract concettuale può non avere partecipanti o risultati numerici. Non riempire questi campi inventando campioni. Un testo divulgativo può essere utile al lessico senza essere un esperimento.",
+            "Una voce bibliografica rende rintracciabile l’idea, ma non dimostra da sola che ogni frase costruita con quell’idea sia corretta. Per il tuo glossario registra per esempio “exercise — nome; attività pianificata con uno scopo relativo alla fitness; frase mia: The session is planned exercise”. Tieni separati definizione e esempio. Se la pagina non è accessibile, non dichiarare di aver letto sezioni che non hai visto.",
+            "Per cambiare destinatario, conserva il contenuto e modifica il registro. A uno specialista: “Distinguish physical activity from structured exercise”. A una persona nuova: “Everyday movement counts as activity; a planned session is a more specific kind of activity”. Il secondo messaggio esplicita i termini, non altera la distinzione. Non serve sostituire parole semplici con parole rare per apparire scientifici."
+          ],
+          "example": "Alla domanda “Does this abstract report a six-week experiment?”, la risposta è no: presenta definizioni. Il periodo di sei settimane appartiene al caso inventato della sezione precedente, non alla pubblicazione del 1985.",
+          "takeaway": "Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati."
+        }
+      ],
+      "oral": {
+        "prompt": "Riassumi il caso inventato dei 30 adulti in 50–70 parole inglesi: inclusi/completi, variazione della distanza, limite causale e salute non misurata. Poi scrivi una traduzione italiana.",
+        "answer": "Thirty adults joined a six-week walking programme, but only twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres, a ten per cent rise from baseline. Participants reported enjoying the sessions. However, there was no comparison group, and general health was not measured. The findings therefore describe this sample without establishing causation. Traduzione: trenta iscritti, ventiquattro completi; media da 400 a 440 m, più 10%; gradimento riferito, nessun confronto e nessuna misura della salute generale; descrizione del campione senza prova causale.",
+        "criteria": [
+          "30 e 24 distinti",
+          "Variazione e unità corrette",
+          "Limite causale mantenuto",
+          "Salute non misurata",
+          "50–70 parole senza inventare dati"
+        ]
+      }
+    },
+    {
+      "id": "english-revision",
+      "subject": "inglese",
+      "title": "Scrivere e revisionare: laboratorio finale",
+      "description": "Paragrafi, riassunti e messaggi formali, con modelli commentati e preparazione alla prova scritta.",
+      "minutes": 30,
+      "bookIds": [],
+      "prerequisites": [
+        "english-writing",
+        "english-evidence"
+      ],
+      "sources": [
+        "en-paragraphs",
+        "syllabus-english"
+      ],
+      "objectives": [
+        "Sviluppare un paragrafo coerente",
+        "Riassumere conservando i limiti",
+        "Scrivere per un destinatario",
+        "Rivedere gli errori e usare la simulazione"
+      ],
+      "sections": [
+        {
+          "id": "paragrafo",
+          "title": "Un’idea, prove pertinenti e connettivi",
+          "text": [
+            "Prima di scrivere definisci destinatario, scopo e messaggio principale. Un paragrafo leggibile sviluppa un’idea con dettagli pertinenti; un nuovo tema può richiedere un nuovo paragrafo. Una topic sentence iniziale è utile per chi comincia, ma non è una legge che imponga la stessa posizione in ogni testo. Le altre frasi devono contribuire alla tesi, non soltanto contenere parole dello stesso argomento.",
+            "Bozza originale da migliorare: “Clear instructions are useful. The gym has blue walls. Demonstrations can show the sequence. People can misunderstand a demonstration.” La frase sui muri non spiega l’utilità delle istruzioni. Una revisione ragionata è: “Clear instructions help learners identify the task. A demonstration can show the sequence, but it does not guarantee understanding. The trainer should therefore ask the learner to explain the main steps.”",
+            "Traduzione del testo rivisto: istruzioni chiare aiutano a individuare il compito; una dimostrazione può mostrare la sequenza ma non garantisce comprensione; perciò l’istruttore dovrebbe chiedere di spiegare i passaggi principali. Therefore collega il limite alla scelta di verificare. Aggiungere however al posto di therefore cambierebbe la relazione, non soltanto lo stile.",
+            "Because introduce una ragione seguita da proposizione: “We changed the room because it was noisy”. Because of è seguito da un gruppo nominale: “because of the noise”. Although introduce concessione: “Although the task was short, it required attention”. However collega un contrasto fra enunciati e vuole punteggiatura adeguata: “The task was short. However, it required attention”. Non usare “Although… but…” nello schema base.",
+            "For example introduce un caso; in addition aggiunge; first/then/finally ordinano. I pronomi evitano ripetizioni ma devono avere un referente chiaro. Se scrivi “The coach spoke to the athlete because she was worried”, she può essere ambiguo: ripeti il nome pertinente. Un buon testo non chiede al lettore di indovinare chi agisca."
+          ],
+          "example": "Correggi “We paused because of the room was noisy”: puoi scrivere “because the room was noisy” oppure “because of the noise”. Cambia la struttura richiesta dopo il connettivo.",
+          "takeaway": "Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica."
+        },
+        {
+          "id": "riassunto",
+          "title": "Una sintesi che non cambia la conclusione",
+          "text": [
+            "Riassumere significa ridurre mantenendo le idee necessarie. Prima annota domanda o tema, informazioni principali e limite; poi riscrivi senza guardare ogni parola. Riapri l’originale per controllare numeri, soggetti e negazioni. Una parafrasi non è una sequenza di sinonimi scelti dal dizionario: può riorganizzare la frase, ma non cambiare il rapporto fra le idee.",
+            "Testo originale per esercizio: “A community centre introduced clearer signs for its exercise rooms. Staff recorded fewer requests for directions during the following week. However, the number of visitors was also lower. The observation alone does not show that the signs caused the reduction. Staff plan to compare requests per visitor over a longer period.” Sono dati e situazione inventati; non una ricerca pubblicata.",
+            "Traduzione: un centro ha introdotto indicazioni più chiare per le sale. Nella settimana seguente lo staff ha registrato meno richieste di orientamento; anche il numero di visitatori era inferiore. L’osservazione da sola non dimostra che la segnaletica abbia causato il calo. Lo staff intende confrontare le richieste per visitatore su un periodo più lungo. Plan to è un’intenzione, non una misurazione già eseguita.",
+            "Sintesi modello: “After new signs were introduced, staff recorded fewer requests for directions. However, there were also fewer visitors, so the change cannot confidently be attributed to the signs. Staff plan a longer comparison using requests per visitor.” La sintesi conserva intervento, osservazione, limite e piano; elimina dettagli che non cambiano la conclusione. Non scrive che le nuove indicazioni sono inutili.",
+            "Prova tu: scrivi 35–50 parole con almeno un contrasto e un verbo al passato. Controlla quattro criteri: hai detto che le richieste sono diminuite? hai mantenuto il calo dei visitatori? hai evitato la causalità certa? hai distinto il piano futuro dal lavoro già fatto? La lunghezza è una consegna di allenamento interna, non un limite ufficiale dell’esame."
+          ],
+          "example": "Sintesi sbagliata: “The signs solved the problem for every visitor.” Introduce soluzione totale e causalità, entrambe assenti. Riparala mantenendo fewer requests, fewer visitors e il limite.",
+          "takeaway": "Togli dettagli secondari, non il limite che dà significato al risultato."
+        },
+        {
+          "id": "messaggio",
+          "title": "Scrittura formale e correzione in due passaggi",
+          "text": [
+            "Un messaggio formale breve rende chiaro perché scrivi e quale risposta ti serve. Apri con un saluto adeguato, specifica il contesto, formula una richiesta precisa e chiudi con cortesia. Evita formule vaghe come “Send everything immediately” se vuoi sapere soltanto l’aula. Il registro non dipende dal numero di parole difficili, ma dal rapporto con il destinatario.",
+            "Modello originale: “Dear Dr Green, I am writing to ask about next week’s workshop. Could you confirm the room and the starting time? I have read the timetable, but the room is not listed. I can attend on Wednesday after 5 pm. Please let me know whether I need to bring any printed materials. Thank you for your help. Kind regards, Sara.” È una richiesta inventata, non un messaggio da inviare.",
+            "Traduzione: scrivo per chiedere informazioni sul laboratorio della prossima settimana; può confermare aula e orario? Ho letto il calendario ma l’aula non è indicata. Posso partecipare mercoledì dopo le 17; mi faccia sapere se devo portare stampe. Starting time è l’inizio, after 5 pm una disponibilità successiva alle 17, whether introduce se nel senso di alternativa, non condizione con conseguenza.",
+            "Prima revisione: contenuto e coerenza. Hai un destinatario, una richiesta e tutte le informazioni utili? I pronomi sono chiari? Hai introdotto fatti non dati? Seconda revisione: forma. Controlla soggetti, accordo, do/does/did, articoli, plurali, preposizioni, ortografia e punteggiatura. Non lasciare che la ricerca di una virgola ti faccia dimenticare il senso del messaggio.",
+            "Bozza inventata da correggere: “She don’t know where is the room. She need informations.” Revisione: “She doesn’t know where the room is. She needs information.” Does not concorda con she; la domanda indiretta usa the room is; needs prende -s; information non prende -s. Sono quattro controlli distinti. In inglese britannico practise è normalmente verbo e practice nome; altre varietà usano practice anche come verbo. Il corso accetta formulazioni comprensibili e coerenti, non una sola identica stringa."
+          ],
+          "example": "Per chiedere due dati: “Could you confirm the room and the starting time?”. Per dare disponibilità: “I can attend after 5 pm”. Non scrivere “I can to attend”: dopo can serve attend senza to.",
+          "takeaway": "Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura."
+        },
+        {
+          "id": "prova",
+          "title": "Prepararsi alla verifica e capire quali errori restano",
+          "text": [
+            "La simulazione scritta disponibile nella scheda dell’esame propone 15 domande a scelta multipla. La quantità riprende la scheda storica consultata; la scelta dei quesiti e la distribuzione fra aree sono nostre. Non sono domande ufficiali. Per questa sessione di sviluppo l’ascolto è escluso: la simulazione usa soltanto contenuti leggibili, senza token o audio.",
+            "La distribuzione interna è cinque domande di grammatica, tre di comunicazione/fitness, tre di anatomia/movimento, due di comprensione scientifica e due di scrittura/revisione. Un nuovo avvio pesca altri quesiti dai rispettivi gruppi. Non è una promessa che l’esame reale abbia quelle proporzioni. I quiz possono allenare riconoscimento e interpretazione; la produzione libera richiede anche scrivere i testi proposti nelle lezioni.",
+            "Per una domanda a scelta multipla: leggi la consegna intera; individua se chiede forma, traduzione, dato o inferenza; cerca negazioni e quantificatori; confronta ogni opzione con il testo. Se due risposte sembrano possibili, cerca la condizione che una aggiunge o elimina. Non scegliere soltanto la frase che contiene più parole uguali alla domanda.",
+            "Nell’app il primo invio valido viene registrato. Puoi aprire un aiuto e il risultato lo segnala; dopo un errore trovi il paragrafo completo vicino alla correzione. La simulazione conserva questo funzionamento didattico: non nasconde tutte le soluzioni fino alla fine e non impone un tempo ufficiale. Il voto orientativo in trentesimi è un risultato di esercitazione; non stabilisce la soglia di idoneità dell’università.",
+            "A fine prova classifica gli errori in tre colonne nel tuo appunto: forma (per esempio does + verbo), lessico (marrow/muscle), comprensione (not all/none, campione/causa). Per ogni errore scrivi una frase corretta nuova e una ragione. Poi ripeti un testo libero senza modello: un buon punteggio nei quiz non basta se non riesci a costruire una domanda o un riassunto autonomamente."
+          ],
+          "example": "Errore: “Does she trains?”. Appunto utile: “Does she train? Dopo does il verbo torna alla base”. Nuovo esempio: “Does the group meet on Friday?”. Trasferire la regola è più utile che ricordare la posizione dell’opzione.",
+          "takeaway": "Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello."
+        }
+      ],
+      "oral": {
+        "prompt": "Scrivi 70–100 parole a una docente immaginaria: chiedi chiarimento su un termine, riassumi il tuo dubbio e proponi un esempio. Prima di leggere il modello, controlla soggetto, domanda indiretta e formula cortese.",
+        "answer": "Dear Dr Green, I am revising the terms used to describe movement, and I would like to check one distinction. I understand that inversion turns the sole medially, while plantar flexion points the foot downward. Could you confirm whether my interpretation is correct? I can identify the words in the text, but I sometimes confuse them when I translate a complete sentence. An additional example would help me check the meaning. Thank you for your time. Kind regards, Sara. Modello inventato; altre formulazioni sono valide se chiare e coerenti.",
+        "criteria": [
+          "Richiesta specifica",
+          "Distinzione anatomica coerente",
+          "Registro e grammatica",
+          "70–100 parole",
+          "Revisione prima del confronto"
+        ]
+      }
+    },
+    {
+      "id": "chimica-materia-soluzioni",
+      "subject": "biochimica",
+      "title": "Materia e soluzioni: classificare prima di calcolare",
+      "description": "Dalle sostanze pure alle concentrazioni: problemi guidati collegati alle slide di chimica fornite.",
+      "minutes": 30,
+      "bookIds": [],
+      "prerequisites": [
+        "chimica",
+        "soluzioni-quantitative"
+      ],
+      "sources": [
+        "unidocs-19289",
+        "pdf-mole",
+        "pdf-chemistry",
+        "chimica-appunti-forniti"
+      ],
+      "objectives": [
+        "Distinguere sostanza, miscela e fase",
+        "Separare isotopi, ioni e allotropi",
+        "Usare massa relativa e mole",
+        "Leggere solubilità e denominatori"
+      ],
+      "sections": [
+        {
+          "id": "classificare",
+          "title": "Elemento, composto, miscela e fase non sono sinonimi",
+          "text": [
+            "Una sostanza pura ha composizione definita. Un elemento è identificato dal numero di protoni dei suoi atomi; può presentarsi come atomi singoli, molecole dello stesso elemento o reticoli estesi. O₂ è una sostanza elementare anche se contiene due atomi per molecola. H₂O è un composto perché contiene elementi diversi legati in rapporti definiti. Una miscela contiene più sostanze in proporzioni che possono variare.",
+            "Una fase è una regione con proprietà intensive e composizione uniformi alla scala considerata, separata da altre fasi da un’interfaccia. Acqua liquida e ghiaccio costituiscono due fasi della stessa sostanza; sale completamente disciolto in acqua forma una fase liquida pur contenendo più componenti. Perciò contare le fasi non equivale a contare sostanze o elementi. Omogeneo descrive una sola fase alla scala considerata; eterogeneo più fasi distinguibili.",
+            "Una filtrazione ordinaria separa particelle sospese abbastanza grandi, non gli ioni disciolti di una soluzione salina. Evaporazione o distillazione sfruttano differenze fisiche; decomporre un composto richiede trasformazioni chimiche appropriate. Un colloide può apparire uniforme a occhio nudo pur contenendo una fase dispersa: latte ed emulsioni non diventano soluzioni molecolari solo perché sembrano omogenei.",
+            "Fusione è solido→liquido; solidificazione liquido→solido; vaporizzazione liquido→gas; condensazione gas→liquido; sublimazione solido→gas; brinamento gas→solido. Evaporazione ed ebollizione sono modi diversi di vaporizzare. Durante la fusione del ghiaccio non si rompono normalmente i legami covalenti O–H delle molecole: cambia l’organizzazione intermolecolare. I gas reali hanno interazioni; “assenza di legami” è una semplificazione del modello ideale, non una legge universale."
+          ],
+          "example": "Hai acqua, ghiaccio e NaCl disciolto nella parte liquida, senza cristalli di sale: due fasi (solida e liquida), due componenti principali (acqua e NaCl), non tre sostanze perché acqua e ghiaccio sono la stessa sostanza.",
+          "takeaway": "Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle."
+        },
+        {
+          "id": "atomo",
+          "title": "Isotopi, ioni e allotropi: cambia una cosa alla volta",
+          "text": [
+            "Il numero atomico Z conta i protoni e identifica l’elemento; il numero di massa A conta protoni più neutroni. I neutroni sono A−Z. In un atomo neutro gli elettroni sono Z; un catione con carica +2 ne ha Z−2, un anione −1 ne ha Z+1. La carica ionica non cambia da sola il nucleo. Il modello storico di Dalton è fondamentale per lo sviluppo della chimica, ma gli atomi non sono indivisibili nella descrizione moderna.",
+            "Isotopi dello stesso elemento hanno Z uguale e diverso numero di neutroni. Carbonio-12 e carbonio-14 hanno entrambi sei protoni, ma sei e otto neutroni. Il termine nuclide identifica una specie nucleare mediante protoni e neutroni; non è sinonimo di isotopo radioattivo. Alcuni isotopi sono stabili, altri decadono. Una catena di decadimento non deve necessariamente raggiungere un nucleo stabile in un solo passaggio.",
+            "Gli allotropi sono forme strutturali diverse di uno stesso elemento: grafite e diamante differiscono nell’organizzazione degli atomi di carbonio; O₂ e O₃ differiscono anche nel numero di atomi della molecola. Non confondere allotropia con isotopia: cambiare la disposizione dei legami non equivale a cambiare i neutroni del nucleo. Elementi metallici e solidi ionici hanno reticoli che non vanno sempre descritti come molecole isolate.",
+            "Per NaCl solido la formula esprime un rapporto fra ioni: una unità formula NaCl per il rapporto 1:1, non una molecola discreta isolata come H₂O. Nelle reazioni chimiche ordinarie si riordinano atomi ed elettroni; il bilanciamento conserva il numero di atomi di ogni elemento e la carica complessiva. Le proprietà chimiche dipendono molto dagli elettroni esterni: la piccola massa dell’elettrone non lo rende irrilevante."
+          ],
+          "example": "Calcio-40 con Z=20 e carica +2: 20 protoni, 40−20=20 neutroni, 20−2=18 elettroni. Non sottrarre due protoni: in quel caso cambierebbe l’elemento.",
+          "takeaway": "Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento."
+        },
+        {
+          "id": "masse",
+          "title": "Massa relativa, massa molare e numero di particelle",
+          "text": [
+            "L’unità di massa atomica unificata u, detta anche dalton Da, è un’unità di massa basata su un dodicesimo della massa di un atomo di carbonio-12 neutro nello stato fondamentale. La massa atomica relativa Aᵣ è il rapporto fra una massa atomica e questa unità: è adimensionale. Dire “massa relativa 12” e “massa di un atomo circa 12 u” usa numeri correlati ma grandezze diverse. Non attribuire u a una quantità che hai definito come rapporto puro.",
+            "La massa atomica media pesa gli isotopi secondo l’abbondanza. In un esempio inventato, isotopi di massa 10 u e 11 u hanno abbondanze 20% e 80%: media 10×0,20 + 11×0,80 = 10,8 u. La media semplice 10,5 u varrebbe soltanto per abbondanze uguali. Il numero di massa A è un intero per un nuclide; non va confuso con questa media.",
+            "Nel SI una mole contiene esattamente 6,02214076×10²³ entità specificate. Devi dichiarare se conti atomi, molecole, ioni o unità formula. Il collegamento operativo è N=nNₐ. La massa molare M ha unità g/mol nei nostri problemi; n=m/M. La vecchia descrizione basata su 12 g di carbonio-12 spiega la storia della mole, ma oggi il numero di Avogadro è fissato esattamente.",
+            "Per H₂O, usando H≈1,008 e O≈16,00, M≈18,016 g/mol. Una massa di 9,008 g contiene 0,500 mol di molecole d’acqua e circa 3,011×10²³ molecole. Gli atomi di idrogeno sono il doppio delle molecole: circa 6,022×10²³. Una formula chimica serve anche come contatore, non soltanto come etichetta. Le cifre finali dipendono dai valori approssimati e dai dati del problema."
+          ],
+          "example": "Con isotopi fittizi da 10 u (20%) e 11 u (80%), la media è 10,8 u; la massa relativa media è 10,8 senza unità. Se M=10,8 g/mol, 21,6 g corrispondono a 2,00 mol.",
+          "takeaway": "Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+          "formula": "Aᵣ = massa dell’atomo / u;  u ≈ 1,6605 × 10⁻²⁴ g;  N = n × Nₐ"
+        },
+        {
+          "id": "soluzioni",
+          "title": "Solubilità e concentrazione: il denominatore decide",
+          "text": [
+            "Una soluzione satura è in equilibrio con il soluto alla temperatura e pressione considerate. Una soluzione insatura può scioglierne ancora; una soprassatura contiene più soluto della solubilità di equilibrio ed è metastabile. La tendenza “il simile scioglie il simile” orienta il ragionamento sulle interazioni, ma non sostituisce bilanci energetici e condizioni. La solubilità di ogni sostanza non cresce necessariamente con la temperatura.",
+            "Esempio originale con dati assegnati: un sale ha solubilità 60 g per 100 g d’acqua a caldo e 40 g per 100 g d’acqua a freddo. In 50 g d’acqua si possono sciogliere 30 g a caldo e 20 g a freddo. Se parti dalla soluzione calda satura e raffreddi senza evaporazione, al raggiungimento dell’equilibrio precipitano 10 g. Non sono 20 g: hai metà della massa d’acqua usata per esprimere i dati.",
+            "Molarità: moli per litro di soluzione finale. Molalità: moli per chilogrammo di solvente. Una soluzione al 5% m/m contiene 5 g di soluto ogni 100 g di soluzione, cioè 95 g di solvente se ci sono due componenti. Al 5% m/V contiene 5 g ogni 100 mL di soluzione finale; al 5% V/V 5 mL di componente per 100 mL finali. I volumi non si sommano sempre: per preparare un volume finale si porta a volume dopo dissoluzione.",
+            "In ppm di massa il rapporto è un milionesimo, quindi 1 mg/kg = 1 μg/g. Equiparare mg/L a ppm richiede un’ipotesi sulla densità, circa 1 kg/L per soluzioni acquose diluite. La frazione molare xᵢ=nᵢ/Σn usa tutte le moli, incluso solvente; le frazioni sommano a 1. La normalità N=zₑc dipende dalla reazione: H₃PO₄ 0,10 M equivale a 0,10 N per neutralizzare un protone e 0,30 N per tutti e tre.",
+            "Per l’osmolarità ideale, 0,10 M MgCl₂ completamente dissociato produce circa 0,30 Osm/L, perché ogni unità formula dà tre ioni. Questa è un’approssimazione ideale, non una proprietà esatta a qualsiasi concentrazione. Per Henry a temperatura costante usa la convenzione dichiarata c=kₕp: se raddoppia la pressione parziale del gas, raddoppia c nel campo del modello. I valori di kₕ dipendono dalla convenzione e dalla temperatura; non mischiare formule inverse."
+          ],
+          "example": "50 g d’acqua, solubilità da 60 a 40 g/100 g acqua: massimo da 30 a 20 g, precipitato 10 g all’equilibrio senza perdita di solvente. Le concentrazioni usano il denominatore dichiarato, non sempre volume di solvente.",
+          "takeaway": "Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo."
+        }
+      ],
+      "oral": {
+        "prompt": "Spiega perché una soluzione salina omogenea non è una sostanza pura, poi prepara sulla carta 200 mL di soluzione 0,50 M di un soluto con M=40 g/mol.",
+        "answer": "Omogenea descrive una fase, non un unico componente: acqua e sale restano componenti diversi. Servono n=cV=0,50×0,200=0,100 mol; massa 0,100×40=4,00 g. Si scioglie il soluto in parte del solvente e si porta a 200 mL di volume finale, non si aggiungono automaticamente 200 mL di acqua.",
+        "criteria": [
+          "Fase distinta da componente",
+          "Litri convertiti",
+          "Massa e unità corrette",
+          "Volume finale della soluzione"
+        ]
+      }
+    },
+    {
+      "id": "cellula-comparti-verifica",
+      "subject": "biologia",
+      "title": "Organelli e muscolo: collegare struttura e funzione",
+      "description": "Un percorso ragionato attraverso le slide cellulari: mitocondri, reticolo, degradazione e contrazione.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "cellula-strutture",
+        "mitocondri",
+        "segnale-muscolare"
+      ],
+      "sources": [
+        "unidocs-13101",
+        "pdf-eukaryotes",
+        "pdf-lysosomes",
+        "pdf-muscle",
+        "pdf-ald",
+        "pdf-dynamics",
+        "pdf-microsomes"
+      ],
+      "objectives": [
+        "Leggere struttura e dinamica mitocondriale",
+        "Interpretare frazioni e reticolo",
+        "Distinguere lisosomi e perossisomi",
+        "Correggere equivoci sulla fibra e sul sarcomero"
+      ],
+      "sections": [
+        {
+          "id": "mitocondrio",
+          "title": "Un organello dinamico, non una batteria sempre identica",
+          "text": [
+            "L’origine endosimbiotica collega i mitocondri ad antenati batterici. DNA proprio, apparato di traduzione e doppia membrana sono parte del quadro, ma il mitocondrio attuale dipende fortemente da proteine codificate nel nucleo e importate. Nell’uomo il DNA mitocondriale ha circa 16,6 mila coppie di basi e 37 geni: 13 polipeptidi, 22 tRNA e 2 rRNA. Numero di copie, dimensioni e forma non sono costanti universali per ogni organello o cellula.",
+            "La membrana esterna e quella interna hanno permeabilità e composizione diverse. Le creste sono ripiegamenti della membrana interna; la matrice contiene enzimi, DNA e ribosomi. Molti enzimi del ciclo di Krebs si trovano nella matrice; la succinato deidrogenasi è anche complesso II della membrana interna. I complessi I, III e IV contribuiscono al pompaggio protonico verso lo spazio intermembrana; il II non pompa protoni. Il rientro attraverso ATP sintasi può sostenere sintesi di ATP.",
+            "Non tutto il metabolismo degli alimenti avviene dentro il mitocondrio: la glicolisi è citosolica e i substrati devono seguire vie e trasporti specifici. Krebs è anfibolico: ossida unità acetiliche ma fornisce anche intermedi per biosintesi. Per un acetil-CoA il giro produce convenzionalmente 3 NADH, 1 FADH₂, 1 GTP o ATP e 2 CO₂; non coincide con la catena respiratoria. Energia viene anche dissipata come calore.",
+            "Fusione unisce compartimenti e consente scambio di contenuti; fissione li divide e contribuisce alla distribuzione e al controllo di qualità. Mitofagia elimina selettivamente materiale mitocondriale attraverso l’autofagia; biogenesi costruisce componenti e capacità mitocondriale. L’adattamento all’esercizio coinvolge questi processi in modo dipendente dal contesto. Un diagramma che collega disfunzione mitocondriale e malattie non prova da solo diagnosi o causalità per una persona."
+          ],
+          "example": "Se una cellula presenta più frammenti mitocondriali, non puoi concludere soltanto contando che produca più ATP: può essere cambiata la fissione. Servono misure di massa, funzione e stato della rete, non solo numero apparente.",
+          "takeaway": "Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione."
+        },
+        {
+          "id": "reticolo",
+          "title": "Dal frazionamento al reticolo: localizzare non basta",
+          "text": [
+            "La centrifugazione differenziale separa frazioni di un omogenato in passaggi successivi. Aumentando forza centrifuga e tempo sedimentano particelle con proprietà diverse: dimensioni, densità e forma contano insieme. Pellet è il sedimento; surnatante il liquido sovrastante. Una frazione è arricchita, non necessariamente pura. Un’attività enzimatica in un pellet da sola non certifica l’identità esclusiva di ogni particella.",
+            "I microsomi sono piccole vescicole ottenute dalla frammentazione e richiusura di membrane durante l’omogeneizzazione: non sono organelli autonomi già presenti come tali nella cellula integra. Membrane provenienti dal reticolo ruvido possono mantenere ribosomi sul lato citosolico; quelle del liscio ne sono prive. Un secondo metodo di separazione o marcatori possono aiutare a distinguere le frazioni.",
+            "Il reticolo liscio contribuisce a sintesi e trasformazione lipidica, metabolismo di xenobiotici e deposito del calcio. Non localizzare per questo ogni passaggio della sintesi degli acidi grassi nel REL: la sintasi citosolica ha una sede diversa; elongazioni e desaturazioni coinvolgono anche il reticolo. Nel glicogeno molti passaggi sono citosolici; il sistema glucosio-6-fosfatasi del reticolo contribuisce alla liberazione di glucosio in tessuti appropriati. Non è una funzione generale del muscolo scheletrico.",
+            "ADME indica assorbimento, distribuzione, metabolismo ed escrezione. Biotrasformazione non significa necessariamente rendere sempre meno tossico: un metabolita può essere più reattivo. Molti citocromi P450 del reticolo catalizzano ossidazioni; altri enzimi e compartimenti partecipano. Nel muscolo il reticolo sarcoplasmatico immagazzina e rilascia Ca²⁺. Il Golgi modifica e smista molte proteine della via secretoria; il lato luminale di una vescicola diventa extracellulare dopo fusione con la membrana plasmatica."
+          ],
+          "example": "Dopo omogeneizzazione trovi vescicole con ribosomi esterni: sono compatibili con microsomi derivati dal RER. Non concludere che un microsoma sia un piccolo mitocondrio né che il pellet sia privo di contaminanti.",
+          "takeaway": "Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto."
+        },
+        {
+          "id": "degradazione",
+          "title": "Lisosomi e perossisomi: meccanismi diversi",
+          "text": [
+            "Il lisosoma ha una membrana e un lume acido con idrolasi che degradano macromolecole. La V-ATPasi usa ATP per trasferire protoni nel lume. Materiale esterno può arrivare per endocitosi, materiale interno per autofagia. Il lisosoma partecipa anche al controllo dei nutrienti, alla segnalazione e a processi di esocitosi: non è soltanto un contenitore finale di rifiuti.",
+            "Il pH ottimale acido di molte idrolasi limita parte della loro attività altrove, ma non rende innocua la rottura lisosomiale. La permeabilizzazione della membrana può contribuire al danno e alla morte cellulare. Un difetto di degradazione può dipendere da assenza di enzima, funzione alterata, smistamento o trasporto: un enzima sintetizzato ma inviato al posto sbagliato non garantisce degradazione corretta.",
+            "Il perossisoma è un compartimento ossidativo a singola membrana, distinto dal lisosoma. Alcune ossidasi producono H₂O₂; la catalasi può decomporlo in acqua e ossigeno o usarlo in reazioni perossidative. I perossisomi contribuiscono al metabolismo di acidi grassi molto lunghi e ad altre trasformazioni lipidiche. Non hanno una catena respiratoria che accoppi direttamente le loro ossidazioni alla sintesi mitocondriale di ATP.",
+            "La biogenesi perossisomiale comprende crescita/divisione di organelli e contributi del reticolo; proteine sintetizzate su ribosomi citosolici sono importate mediante segnali specifici. Un nucleo cristallino non è una caratteristica universale di ogni perossisoma umano. Nell’adrenoleucodistrofia legata all’X, varianti di ABCD1 compromettono un trasporto legato ad acidi grassi molto lunghi; non è corretto fissare un’unica età d’esordio o dire che le femmine non possano avere manifestazioni. Qui serve riconoscere il meccanismo cellulare, non fare diagnosi."
+          ],
+          "example": "Due cellule producono la stessa quantità di una idrolasi: in una raggiunge il lisosoma, nell’altra viene smistata male. Solo la misura della quantità totale non distingue le loro capacità di degradare il substrato lisosomiale.",
+          "takeaway": "Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima."
+        },
+        {
+          "id": "muscolo",
+          "title": "Fibra, sarcomero, calcio e ATP: ricostruire la sequenza",
+          "text": [
+            "Una fibra muscolare scheletrica è essa stessa una cellula lunga multinucleata, non un fascio di cellule separate; contiene molte miofibrille. Queste sono catene di sarcomeri, ciascuno fra due linee Z. Il muscolo cardiaco è anch’esso striato, pur essendo involontario; il liscio non mostra la stessa organizzazione in sarcomeri. Le cellule pacemaker del nodo senoatriale sono cardiomiociti specializzati, non un gruppo di fibre nervose che costituiscono il nodo.",
+            "Nel modello dello scorrimento, i filamenti sottili e spessi mantengono approssimativamente la loro lunghezza mentre cambia la sovrapposizione. Durante l’accorciamento del sarcomero le Z si avvicinano, banda I e zona H diminuiscono, banda A resta circa costante. La striatura non deve scomparire. Titina contribuisce all’organizzazione e alle proprietà elastiche; nebulina all’organizzazione dei filamenti sottili; distrofina collega il citoscheletro al complesso di membrana.",
+            "Nel muscolo scheletrico il segnale del motoneurone provoca rilascio di acetilcolina e depolarizzazione della fibra; il potenziale d’azione corre sul sarcolemma e nei tubuli T. La triade è un tubulo T fra due cisterne terminali del reticolo. Il sensore di voltaggio nel tubulo T è accoppiato al canale di rilascio RyR1 del reticolo: non sono tutti lo stesso canale. Il Ca²⁺ liberato si lega alla troponina C e modifica la regolazione della tropomiosina.",
+            "La miosina legata all’actina si distacca quando lega ATP; l’idrolisi prepara la testa, il rilascio di fosfato si associa alla generazione di forza e il ciclo prosegue se ci sono condizioni adeguate. L’ATP alimenta anche SERCA, che riporta Ca²⁺ nel reticolo, e pompe che mantengono gradienti ionici. Quindi il rilassamento richiede processi attivi: mancanza di ATP non equivale a rilassamento garantito. Le isoforme di troponina hanno proprietà diverse: non generalizzare un numero fisso di siti regolatori a ogni muscolo."
+          ],
+          "example": "Se il Ca²⁺ citosolico diminuisce grazie a SERCA, si riduce l’attivazione del filamento sottile. Se invece manca ATP, il distacco dei ponti e il recupero del calcio sono compromessi: non puoi descrivere entrambe le situazioni come semplice “muscolo spento”.",
+          "takeaway": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza."
+        }
+      ],
+      "oral": {
+        "prompt": "Collega reticolo, mitocondrio e sarcomero nel funzionamento di una fibra. Spiega poi perché un diagramma di slide non basta per dedurre che più frammenti mitocondriali significhino più forza.",
+        "answer": "Il reticolo sarcoplasmatico regola il Ca²⁺ citosolico che agisce sulla troponina; la miosina usa ATP per ciclare e staccarsi dall’actina, mentre SERCA usa ATP per recuperare calcio. Il mitocondrio contribuisce alla risintesi aerobica di ATP ma non è l’unica via energetica. Il numero di frammenti dipende anche dalla dinamica della rete; forza, massa mitocondriale e produzione di ATP non sono quantità intercambiabili.",
+        "criteria": [
+          "Compartimenti distinti",
+          "Calcio collegato alla troponina",
+          "Due usi diversi di ATP",
+          "Nessuna deduzione dal solo numero di organelli"
+        ]
+      }
     }
   ],
   "sources": [
@@ -19206,7 +20104,7 @@
       "id": "syllabus-english",
       "title": "UniBa · Inglese scientifico 2024/25",
       "url": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/inglese-scientifico-24-25.pdf",
-      "scope": "Programma analitico consultato, pagine 2–3. Il corso richiede basi A2/B1; attività di lettura e produzione incluse nelle lezioni originali.",
+      "scope": "Letto il PDF ufficiale completo di quattro pagine del 2024/25, inclusi contenuti, risultati attesi e prova scritta con 15 domande a scelta multipla. Non conferma del programma analitico 2026/27.",
       "checked": "2026-10-20"
     },
     {
@@ -22307,6 +23205,216 @@
       "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento%2BUE%2B2016%2B679.%2BArricchito%2Bcon%2Briferimenti%2Bai%2BConsiderando%2BAggiornato%2Balle%2Brettifiche%2Bpubblicate%2Bsulla%2BGazzetta%2BUfficiale%2B%2Bdell%27Unione%2Beuropea%2B127%2Bdel%2B23%2Bmaggio%2B2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9",
       "scope": "Consultati gli articoli 4–6, 9, 15–17 nella riproduzione informativa del Garante, aggiornata alle rettifiche del 2018 e dichiarata non ufficiale dall’Autorità. Non sono stati letti tutti i 112 fogli né certificata la conformità di un trattamento reale.",
       "checked": "2026-10-21"
+    },
+    {
+      "id": "en-articles",
+      "title": "British Council · Articles: a, an, the",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the",
+      "scope": "Spiegazione grammaticale consultata; esempi ed esercizi nell’app originali.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-count",
+      "title": "British Council · Countable and uncountable nouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/nouns-countable-uncountable",
+      "scope": "Spiegazione grammaticale su numerabilità e quantità.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-questions",
+      "title": "British Council · Question forms",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+      "scope": "Spiegazione sulle forme interrogative, comprese subject questions.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-comparatives",
+      "title": "British Council · Comparative adjectives",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/comparative-adjectives",
+      "scope": "Spiegazione grammaticale, non riproduzione degli esercizi.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-perfect",
+      "title": "British Council · Present perfect",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/present-perfect",
+      "scope": "Testo della spiegazione indicizzato, consultato per il confronto dei tempi.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-future",
+      "title": "British Council · Future forms",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-forms-will-be-going-present-continuous",
+      "scope": "Spiegazione delle forme future.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-conditionals",
+      "title": "British Council · Zero, first and second conditionals",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second",
+      "scope": "Spiegazione dei periodi ipotetici.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-passives",
+      "title": "British Council · Passives",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+      "scope": "Spiegazione della voce passiva.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-past",
+      "title": "British Council · Past continuous and past simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/past-continuous-past-simple",
+      "scope": "Spiegazione dei tempi passati.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-patterns",
+      "title": "British Council · -ing or infinitive",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/verbs-followed-ing-or-infinitive",
+      "scope": "Spiegazione delle costruzioni verbali.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-activity",
+      "title": "WHO · Physical activity",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "scope": "Definizione e benefici generali; la lezione è una lettura linguistica, non una prescrizione di attività.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-definitions",
+      "title": "Caspersen, Powell e Christenson · Physical activity, exercise and physical fitness (1985)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3920711/",
+      "scope": "Consultato l’abstract indicizzato. Non letto il testo integrale. Parafrasi originale per distinguere i termini e il genere del testo.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-wellness",
+      "title": "Cambridge Dictionary · Wellness",
+      "url": "https://dictionary.cambridge.org/dictionary/english/wellness",
+      "scope": "Definizione indicizzata consultata; accesso diretto limitato.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-equipment",
+      "title": "Cambridge English Grammar Today · Equipment",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/equipment",
+      "scope": "Spiegazione indicizzata sulla forma non numerabile equipment.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-bones",
+      "title": "OpenStax · Functions of the skeletal system",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-1-the-functions-of-the-skeletal-system",
+      "scope": "Sezione sulle funzioni dello scheletro. Letture e traduzioni didattiche originali.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-movements",
+      "title": "OpenStax · Types of body movements",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+      "scope": "Sezione sui movimenti, in particolare inversione ed eversione.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-muscles",
+      "title": "OpenStax · Overview of muscle tissues",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-1-overview-of-muscle-tissues",
+      "scope": "Sezione introduttiva ai tre tipi di tessuto muscolare.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-organization",
+      "title": "OpenStax · Structural organization",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-2-structural-organization-of-the-human-body",
+      "scope": "Livelli di organizzazione del corpo.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "en-paragraphs",
+      "title": "Purdue OWL · Paragraphs and paragraphing",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/paragraphs_and_paragraphing/index.html",
+      "scope": "Spiegazione di unità, coerenza e sviluppo del paragrafo; testi e modelli originali.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-mole",
+      "title": "NIST · Definitions of SI base units",
+      "url": "https://www.nist.gov/si-redefinition/definitions-si-base-units",
+      "scope": "Definizione della mole mediante valore esatto della costante di Avogadro.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-chemistry",
+      "title": "OpenStax · Phases and classification of matter",
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+      "scope": "Classificazione della materia, stati e distinzione tra elementi, composti e miscele.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-eukaryotes",
+      "title": "OpenStax · Eukaryotic cells",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "scope": "Compartimentazione e organelli eucariotici.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-lysosomes",
+      "title": "Lysosomal membrane permeabilization and cell death",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27250949/",
+      "scope": "Consultato abstract indicizzato sul danno alla membrana lisosomiale; non testo integrale.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-muscle",
+      "title": "OpenStax · Muscle fiber contraction and relaxation",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+      "scope": "Ruoli di calcio, ATP e filamenti nella contrazione e nel rilassamento.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-ald",
+      "title": "MedlinePlus Genetics · X-linked adrenoleukodystrophy",
+      "url": "https://medlineplus.gov/genetics/condition/x-linked-adrenoleukodystrophy/",
+      "scope": "Cause e trasmissione genetica; fenotipi ed età di esordio variabili.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-dynamics",
+      "title": "Yan, Lira e Greene · Exercise training-induced regulation of mitochondrial quality (2012)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22732425/",
+      "scope": "Abstract indicizzato consultato: biogenesi, mantenimento e rimozione; non testo integrale.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pdf-microsomes",
+      "title": "NCBI Bookshelf · Transport from the ER through the Golgi apparatus",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26936/",
+      "scope": "Estratto indicizzato sulla formazione di microsomi per frammentazione del reticolo; accesso diretto limitato.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "unidocs-13101",
+      "file": "unidocs-13101.pdf",
+      "title": "Organelli e contrazione · materiale fornito",
+      "scope": "75 pagine fornite dall’utente, provenienza dichiarata Unidocs; non attestazione di un programma ufficiale. Letto il testo estraibile e controllate le principali pagine di sole immagini. Pagine 1–22: mitocondri; 23–36: reticolo e traffico; 37–50: degradazione e perossisomi; 51–75: muscolo. Integrate nella lezione “Compartimenti cellulari: leggere e verificare i meccanismi”.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "unidocs-19289",
+      "file": "unidocs-19289.pdf",
+      "title": "Chimica generale · slide fornite",
+      "scope": "20 pagine fornite dall’utente da Unidocs. Testo letto e figure principali controllate. Pagine 1–7: materia e atomo; 8–10: masse e mole; 11–20: soluzioni, solubilità e concentrazioni. Integrate nella lezione “Materia e soluzioni”.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "chimica-appunti-forniti",
+      "file": "Chimica generale – Appunti dalle slide.pdf",
+      "title": "Chimica generale · appunti forniti",
+      "scope": "Otto pagine fornite dall’utente: letto tutto il testo, viste entrambe le figure. La dispensa impaginata conserva il contenuto originale su richiesta; le lezioni dell’app distinguono massa relativa, massa molare e definizione attuale della mole.",
+      "checked": "2026-10-22"
     }
   ],
   "curriculum": {
@@ -22347,7 +23455,8 @@
             "genoma-rna-segnali",
             "cellula-strutture",
             "genetica-microbica",
-            "divisioni-ereditarieta"
+            "divisioni-ereditarieta",
+            "cellula-comparti-verifica"
           ],
           "coverage": "Lezioni, casi e verifiche confrontati con il blocco Biologia applicata 2016/17 e i nuclei biologici 2025/26. La corrispondenza con il programma analitico e le dispense correnti resta da confermare."
         },
@@ -22386,7 +23495,8 @@
             "composizione-corporea",
             "glucosio-percorsi",
             "ossidazione-controllo",
-            "segnale-muscolare"
+            "segnale-muscolare",
+            "chimica-materia-soluzioni"
           ],
           "coverage": "Confrontato il blocco Biochimica 2016/17 in 69 voci con spiegazioni, esempi e verifiche; programma analitico, dispense e livello richiesto dal docente corrente da confermare. Le vie amminoacidiche sono rappresentative."
         }
@@ -22420,7 +23530,9 @@
               "cellula-strutture/nucleolo",
               "cellula-strutture/reticolo",
               "cellula-strutture/citoscheletro",
-              "cellula-strutture/cloroplasti"
+              "cellula-strutture/cloroplasti",
+              "cellula-comparti-verifica/reticolo",
+              "cellula-comparti-verifica/degradazione"
             ],
             "status": "introduced",
             "note": "Aggiunti nucleolo, reticolo liscio/sarcoplasmatico, tre famiglie del citoscheletro e cloroplasti con confronto dei gradienti. Si affiancano al traffico e controllo di qualità già presenti. Confronto storico 2016/17.",
@@ -22450,7 +23562,15 @@
               "bio-body-microbes-cellula-strutture-cloroplasti-0",
               "bio-body-microbes-cellula-strutture-cloroplasti-1",
               "bio-body-microbes-cellula-strutture-cloroplasti-2",
-              "bio-applied-cellula-strutture-citoscheletro-extra-20"
+              "bio-applied-cellula-strutture-citoscheletro-extra-20",
+              "pdf-cellula-comparti-verifica-reticolo-0",
+              "pdf-cellula-comparti-verifica-reticolo-1",
+              "pdf-cellula-comparti-verifica-reticolo-2",
+              "pdf-cellula-comparti-verifica-reticolo-3",
+              "pdf-cellula-comparti-verifica-degradazione-0",
+              "pdf-cellula-comparti-verifica-degradazione-1",
+              "pdf-cellula-comparti-verifica-degradazione-2",
+              "pdf-cellula-comparti-verifica-degradazione-3"
             ]
           },
           {
@@ -22617,7 +23737,11 @@
               "organica-anelli-reazioni/aromatici",
               "organica-anelli-reazioni/conformazioni",
               "organica-anelli-reazioni/schiff",
-              "organica-anelli-reazioni/esteri"
+              "organica-anelli-reazioni/esteri",
+              "chimica-materia-soluzioni/classificare",
+              "chimica-materia-soluzioni/atomo",
+              "chimica-materia-soluzioni/masse",
+              "chimica-materia-soluzioni/soluzioni"
             ],
             "status": "introduced",
             "note": "Aggiunti Lewis/cariche, modelli acido-base, equilibrio e cinetica, concentrazioni, Henry, osmosi, aromaticità, immine e saponificazione. Esempi svolti, schemi e quiz confrontati con il dettaglio storico 2016/17; non attestano equivalenza al syllabus attuale.",
@@ -22688,7 +23812,23 @@
               "bc-full-organica-anelli-reazioni-aromatici-extra-19",
               "bc-full-chimica-organica-gruppi-extra-23",
               "num-molarita",
-              "num-buffer-ph"
+              "num-buffer-ph",
+              "pdf-chimica-materia-soluzioni-classificare-0",
+              "pdf-chimica-materia-soluzioni-classificare-1",
+              "pdf-chimica-materia-soluzioni-classificare-2",
+              "pdf-chimica-materia-soluzioni-classificare-3",
+              "pdf-chimica-materia-soluzioni-atomo-0",
+              "pdf-chimica-materia-soluzioni-atomo-1",
+              "pdf-chimica-materia-soluzioni-atomo-2",
+              "pdf-chimica-materia-soluzioni-atomo-3",
+              "pdf-chimica-materia-soluzioni-masse-0",
+              "pdf-chimica-materia-soluzioni-masse-1",
+              "pdf-chimica-materia-soluzioni-masse-2",
+              "pdf-chimica-materia-soluzioni-masse-3",
+              "pdf-chimica-materia-soluzioni-soluzioni-0",
+              "pdf-chimica-materia-soluzioni-soluzioni-1",
+              "pdf-chimica-materia-soluzioni-soluzioni-2",
+              "pdf-chimica-materia-soluzioni-soluzioni-3"
             ]
           },
           {
@@ -22820,7 +23960,8 @@
               "ossidazione-controllo/pdh",
               "ossidazione-controllo/krebs",
               "ossidazione-controllo/regolazione",
-              "ossidazione-controllo/accoppiamento"
+              "ossidazione-controllo/accoppiamento",
+              "cellula-comparti-verifica/mitocondrio"
             ],
             "status": "introduced",
             "note": "Trasportatori, due navette redox, bilanci convenzionali 30/32 ATP e anaplerosi sviluppati con percorsi compartimentati, esempi e verifiche. Rapporti P/O dichiarati convenzionali; confronto storico 2016/17.",
@@ -22854,7 +23995,11 @@
               "bc-central-ossidazione-controllo-accoppiamento-1",
               "bc-central-ossidazione-controllo-accoppiamento-2",
               "num-krebs",
-              "num-energy-charge-v1"
+              "num-energy-charge-v1",
+              "pdf-cellula-comparti-verifica-mitocondrio-0",
+              "pdf-cellula-comparti-verifica-mitocondrio-1",
+              "pdf-cellula-comparti-verifica-mitocondrio-2",
+              "pdf-cellula-comparti-verifica-mitocondrio-3"
             ]
           },
           {
@@ -22950,7 +24095,8 @@
               "segnale-muscolare/placca",
               "segnale-muscolare/calcio",
               "segnale-muscolare/ponti",
-              "segnale-muscolare/fibre"
+              "segnale-muscolare/fibre",
+              "cellula-comparti-verifica/muscolo"
             ],
             "status": "introduced",
             "note": "",
@@ -22973,7 +24119,11 @@
               "bc-full-segnale-muscolare-ponti-2",
               "bc-full-segnale-muscolare-fibre-0",
               "bc-full-segnale-muscolare-fibre-1",
-              "bc-full-segnale-muscolare-fibre-2"
+              "bc-full-segnale-muscolare-fibre-2",
+              "pdf-cellula-comparti-verifica-muscolo-0",
+              "pdf-cellula-comparti-verifica-muscolo-1",
+              "pdf-cellula-comparti-verifica-muscolo-2",
+              "pdf-cellula-comparti-verifica-muscolo-3"
             ]
           },
           {
@@ -26385,13 +27535,19 @@
           "title": "Inglese scientifico",
           "unitIds": [
             "english-foundations",
+            "english-frase",
+            "english-tempi",
             "english-gym",
+            "english-communication",
             "english-anatomy",
+            "english-movement",
             "english-reading",
+            "english-evidence",
             "english-writing",
+            "english-revision",
             "english-listening"
           ],
-          "coverage": "Lezioni, casi svolti, domande con correzione e attività aperte disponibili. Il confronto con il programma è descritto nella mappa qui sotto."
+          "coverage": "Grammatica di supporto A2/B1, letture, terminologia motoria, comprensione e produzione scritta con modelli. Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare."
         }
       ],
       "programme": {
@@ -26399,11 +27555,12 @@
         "sourceIds": [
           "syllabus-english"
         ],
-        "checked": "2026-10-20",
+        "checked": "2026-10-22",
         "currentSyllabusConfirmed": false,
         "limitations": [
           "I testi e i dialoghi sono originali e leggibili offline; non riproducono le pagine del manuale.",
-          "Produzione scritta e orale hanno modelli e criteri di autoconfronto, senza voto automatico sul testo libero."
+          "Produzione scritta e orale hanno modelli e criteri di autoconfronto, senza voto automatico sul testo libero.",
+          "Confrontate tutte le quattro pagine della scheda 2024/25. Simulazione da 15 quiz basata sul formato storico; distribuzione dei temi scelta editorialmente, non dichiarata dal docente. Scrittura e dialogo hanno modelli di autoconfronto, non un voto automatico. Ascolto escluso dall’obiettivo di ampliamento."
         ],
         "topics": [
           {
@@ -26412,64 +27569,129 @@
               "english-foundations/present",
               "english-foundations/past",
               "english-foundations/questions",
-              "english-foundations/modals"
+              "english-foundations/modals",
+              "english-frase/struttura",
+              "english-frase/nomi",
+              "english-frase/domande",
+              "english-frase/confronti",
+              "english-tempi/presente",
+              "english-tempi/passato",
+              "english-tempi/scelte",
+              "english-tempi/passivo"
             ],
             "status": "partial",
-            "note": "Ripasso mirato, non corso completo di lingua generale A2/B1.",
+            "note": "Otto nuove sezioni grammaticali con esempi e 32 quiz. Ripasso di supporto: non equivale a un intero corso o a una certificazione A2/B1.",
             "id": "inglese-1",
             "questionIds": [
               "y1-english-foundations-present",
               "y1-english-foundations-past",
               "y1-english-foundations-questions",
-              "y1-english-foundations-modals"
+              "y1-english-foundations-modals",
+              "en-english-frase-struttura-0",
+              "en-english-frase-struttura-1",
+              "en-english-frase-struttura-2",
+              "en-english-frase-struttura-3",
+              "en-english-frase-nomi-0",
+              "en-english-frase-nomi-1",
+              "en-english-frase-nomi-2",
+              "en-english-frase-nomi-3",
+              "en-english-frase-domande-0",
+              "en-english-frase-domande-1",
+              "en-english-frase-domande-2",
+              "en-english-frase-domande-3",
+              "en-english-frase-confronti-0",
+              "en-english-frase-confronti-1",
+              "en-english-frase-confronti-2",
+              "en-english-frase-confronti-3",
+              "en-english-tempi-presente-0",
+              "en-english-tempi-presente-1",
+              "en-english-tempi-presente-2",
+              "en-english-tempi-presente-3",
+              "en-english-tempi-passato-0",
+              "en-english-tempi-passato-1",
+              "en-english-tempi-passato-2",
+              "en-english-tempi-passato-3",
+              "en-english-tempi-scelte-0",
+              "en-english-tempi-scelte-1",
+              "en-english-tempi-scelte-2",
+              "en-english-tempi-scelte-3",
+              "en-english-tempi-passivo-0",
+              "en-english-tempi-passivo-1",
+              "en-english-tempi-passivo-2",
+              "en-english-tempi-passivo-3"
             ]
           },
           {
             "title": "Lessico di palestra e attrezzi",
             "refs": [
-              "english-gym/vocabulary"
+              "english-gym/vocabulary",
+              "english-communication/fitness"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-2",
             "questionIds": [
-              "y1-english-gym-vocabulary"
+              "y1-english-gym-vocabulary",
+              "en-english-communication-fitness-0",
+              "en-english-communication-fitness-1",
+              "en-english-communication-fitness-2",
+              "en-english-communication-fitness-3"
             ]
           },
           {
             "title": "Attività fisica, fitness e benessere",
             "refs": [
-              "english-gym/health"
+              "english-gym/health",
+              "english-communication/benessere",
+              "english-communication/fitness"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-3",
             "questionIds": [
-              "y1-english-gym-health"
+              "y1-english-gym-health",
+              "en-english-communication-benessere-0",
+              "en-english-communication-benessere-1",
+              "en-english-communication-benessere-2",
+              "en-english-communication-benessere-3",
+              "en-english-communication-fitness-0",
+              "en-english-communication-fitness-1",
+              "en-english-communication-fitness-2",
+              "en-english-communication-fitness-3"
             ]
           },
           {
             "title": "Istruzioni, consigli, riformulazione e disaccordo",
             "refs": [
-              "english-gym/instructions"
+              "english-gym/instructions",
+              "english-communication/istruzioni"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-4",
             "questionIds": [
-              "y1-english-gym-instructions"
+              "y1-english-gym-instructions",
+              "en-english-communication-istruzioni-0",
+              "en-english-communication-istruzioni-1",
+              "en-english-communication-istruzioni-2",
+              "en-english-communication-istruzioni-3"
             ]
           },
           {
             "title": "Dialoghi e domande",
             "refs": [
-              "english-gym/dialogue"
+              "english-gym/dialogue",
+              "english-communication/dialogo"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-5",
             "questionIds": [
-              "y1-english-gym-dialogue"
+              "y1-english-gym-dialogue",
+              "en-english-communication-dialogo-0",
+              "en-english-communication-dialogo-1",
+              "en-english-communication-dialogo-2",
+              "en-english-communication-dialogo-3"
             ]
           },
           {
@@ -26477,7 +27699,9 @@
             "refs": [
               "english-anatomy/levels",
               "english-anatomy/positions",
-              "english-anatomy/movement"
+              "english-anatomy/movement",
+              "english-movement/livelli",
+              "english-movement/movimenti"
             ],
             "status": "introduced",
             "note": "",
@@ -26485,47 +27709,85 @@
             "questionIds": [
               "y1-english-anatomy-levels",
               "y1-english-anatomy-positions",
-              "y1-english-anatomy-movement"
+              "y1-english-anatomy-movement",
+              "en-english-movement-livelli-0",
+              "en-english-movement-livelli-1",
+              "en-english-movement-livelli-2",
+              "en-english-movement-livelli-3",
+              "en-english-movement-movimenti-0",
+              "en-english-movement-movimenti-1",
+              "en-english-movement-movimenti-2",
+              "en-english-movement-movimenti-3"
             ]
           },
           {
             "title": "Scheletro e muscoli: lettura e traduzione",
             "refs": [
-              "english-anatomy/reading"
+              "english-anatomy/reading",
+              "english-movement/scheletro",
+              "english-movement/muscoli"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-7",
             "questionIds": [
-              "y1-english-anatomy-reading"
+              "y1-english-anatomy-reading",
+              "en-english-movement-scheletro-0",
+              "en-english-movement-scheletro-1",
+              "en-english-movement-scheletro-2",
+              "en-english-movement-scheletro-3",
+              "en-english-movement-muscoli-0",
+              "en-english-movement-muscoli-1",
+              "en-english-movement-muscoli-2",
+              "en-english-movement-muscoli-3"
             ]
           },
           {
             "title": "Skimming, scanning e dizionari",
             "refs": [
               "english-reading/strategie",
-              "english-reading/dizionari"
+              "english-reading/dizionari",
+              "english-evidence/strategie",
+              "english-evidence/fonti"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-8",
             "questionIds": [
               "y1-english-reading-strategie",
-              "y1-english-reading-dizionari"
+              "y1-english-reading-dizionari",
+              "en-english-evidence-strategie-0",
+              "en-english-evidence-strategie-1",
+              "en-english-evidence-strategie-2",
+              "en-english-evidence-strategie-3",
+              "en-english-evidence-fonti-0",
+              "en-english-evidence-fonti-1",
+              "en-english-evidence-fonti-2",
+              "en-english-evidence-fonti-3"
             ]
           },
           {
             "title": "Comprensione di testi scientifici",
             "refs": [
               "english-reading/abstract",
-              "english-reading/lessico"
+              "english-reading/lessico",
+              "english-evidence/dati",
+              "english-evidence/precisione"
             ],
             "status": "introduced",
             "note": "",
             "id": "inglese-9",
             "questionIds": [
               "y1-english-reading-abstract",
-              "y1-english-reading-lessico"
+              "y1-english-reading-lessico",
+              "en-english-evidence-dati-0",
+              "en-english-evidence-dati-1",
+              "en-english-evidence-dati-2",
+              "en-english-evidence-dati-3",
+              "en-english-evidence-precisione-0",
+              "en-english-evidence-precisione-1",
+              "en-english-evidence-precisione-2",
+              "en-english-evidence-precisione-3"
             ]
           },
           {
@@ -26534,7 +27796,11 @@
               "english-writing/paragraph",
               "english-writing/connectors",
               "english-writing/summary",
-              "english-writing/task"
+              "english-writing/task",
+              "english-revision/paragrafo",
+              "english-revision/riassunto",
+              "english-revision/messaggio",
+              "english-revision/prova"
             ],
             "status": "introduced",
             "note": "",
@@ -26543,7 +27809,23 @@
               "y1-english-writing-paragraph",
               "y1-english-writing-connectors",
               "y1-english-writing-summary",
-              "y1-english-writing-task"
+              "y1-english-writing-task",
+              "en-english-revision-paragrafo-0",
+              "en-english-revision-paragrafo-1",
+              "en-english-revision-paragrafo-2",
+              "en-english-revision-paragrafo-3",
+              "en-english-revision-riassunto-0",
+              "en-english-revision-riassunto-1",
+              "en-english-revision-riassunto-2",
+              "en-english-revision-riassunto-3",
+              "en-english-revision-messaggio-0",
+              "en-english-revision-messaggio-1",
+              "en-english-revision-messaggio-2",
+              "en-english-revision-messaggio-3",
+              "en-english-revision-prova-0",
+              "en-english-revision-prova-1",
+              "en-english-revision-prova-2",
+              "en-english-revision-prova-3"
             ]
           },
           {
@@ -26566,6 +27848,135 @@
               "audio-listen-tendon",
               "audio-listen-study",
               "audio-listen-clarify"
+            ]
+          }
+        ]
+      },
+      "mockTest": {
+        "size": 15,
+        "referenceYear": "2024/25",
+        "sourceId": "syllabus-english",
+        "groups": [
+          {
+            "title": "Grammatica",
+            "count": 5,
+            "questionIds": [
+              "en-english-frase-struttura-0",
+              "en-english-frase-struttura-1",
+              "en-english-frase-struttura-2",
+              "en-english-frase-struttura-3",
+              "en-english-frase-nomi-0",
+              "en-english-frase-nomi-1",
+              "en-english-frase-nomi-2",
+              "en-english-frase-nomi-3",
+              "en-english-frase-domande-0",
+              "en-english-frase-domande-1",
+              "en-english-frase-domande-2",
+              "en-english-frase-domande-3",
+              "en-english-frase-confronti-0",
+              "en-english-frase-confronti-1",
+              "en-english-frase-confronti-2",
+              "en-english-frase-confronti-3",
+              "en-english-tempi-presente-0",
+              "en-english-tempi-presente-1",
+              "en-english-tempi-presente-2",
+              "en-english-tempi-presente-3",
+              "en-english-tempi-passato-0",
+              "en-english-tempi-passato-1",
+              "en-english-tempi-passato-2",
+              "en-english-tempi-passato-3",
+              "en-english-tempi-scelte-0",
+              "en-english-tempi-scelte-1",
+              "en-english-tempi-scelte-2",
+              "en-english-tempi-scelte-3",
+              "en-english-tempi-passivo-0",
+              "en-english-tempi-passivo-1",
+              "en-english-tempi-passivo-2",
+              "en-english-tempi-passivo-3"
+            ]
+          },
+          {
+            "title": "Comunicazione",
+            "count": 3,
+            "questionIds": [
+              "en-english-communication-benessere-0",
+              "en-english-communication-benessere-1",
+              "en-english-communication-benessere-2",
+              "en-english-communication-benessere-3",
+              "en-english-communication-fitness-0",
+              "en-english-communication-fitness-1",
+              "en-english-communication-fitness-2",
+              "en-english-communication-fitness-3",
+              "en-english-communication-istruzioni-0",
+              "en-english-communication-istruzioni-1",
+              "en-english-communication-istruzioni-2",
+              "en-english-communication-istruzioni-3",
+              "en-english-communication-dialogo-0",
+              "en-english-communication-dialogo-1",
+              "en-english-communication-dialogo-2",
+              "en-english-communication-dialogo-3"
+            ]
+          },
+          {
+            "title": "Anatomia e movimento",
+            "count": 3,
+            "questionIds": [
+              "en-english-movement-livelli-0",
+              "en-english-movement-livelli-1",
+              "en-english-movement-livelli-2",
+              "en-english-movement-livelli-3",
+              "en-english-movement-scheletro-0",
+              "en-english-movement-scheletro-1",
+              "en-english-movement-scheletro-2",
+              "en-english-movement-scheletro-3",
+              "en-english-movement-muscoli-0",
+              "en-english-movement-muscoli-1",
+              "en-english-movement-muscoli-2",
+              "en-english-movement-muscoli-3",
+              "en-english-movement-movimenti-0",
+              "en-english-movement-movimenti-1",
+              "en-english-movement-movimenti-2",
+              "en-english-movement-movimenti-3"
+            ]
+          },
+          {
+            "title": "Lettura",
+            "count": 2,
+            "questionIds": [
+              "en-english-evidence-strategie-0",
+              "en-english-evidence-strategie-1",
+              "en-english-evidence-strategie-2",
+              "en-english-evidence-strategie-3",
+              "en-english-evidence-dati-0",
+              "en-english-evidence-dati-1",
+              "en-english-evidence-dati-2",
+              "en-english-evidence-dati-3",
+              "en-english-evidence-precisione-0",
+              "en-english-evidence-precisione-1",
+              "en-english-evidence-precisione-2",
+              "en-english-evidence-precisione-3",
+              "en-english-evidence-fonti-0",
+              "en-english-evidence-fonti-1",
+              "en-english-evidence-fonti-2",
+              "en-english-evidence-fonti-3"
+            ]
+          },
+          {
+            "title": "Scrittura",
+            "count": 2,
+            "questionIds": [
+              "en-english-revision-paragrafo-0",
+              "en-english-revision-paragrafo-1",
+              "en-english-revision-paragrafo-2",
+              "en-english-revision-paragrafo-3",
+              "en-english-revision-riassunto-0",
+              "en-english-revision-riassunto-1",
+              "en-english-revision-riassunto-2",
+              "en-english-revision-riassunto-3",
+              "en-english-revision-messaggio-0",
+              "en-english-revision-messaggio-1",
+              "en-english-revision-messaggio-2",
+              "en-english-revision-messaggio-3"
             ]
           }
         ]
@@ -27850,9 +29261,9 @@
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-10-21",
-    "summary": "Sviluppo in pausa su richiesta dell’utente dopo l’ampliamento di Informatica: dieci lezioni, 104 quiz e sei laboratori. Confrontata la scheda storica in 28 voci; restano i materiali assegnati e la verifica del programma corrente. Il primo anno non è ancora interamente coperto.",
-    "next": "Ampliare Inglese scientifico scritto: grammatica A2/B1, letture e produzione con correzioni; confrontare il programma reale disponibile. Poi casi giuridici e riconoscimenti anatomici, mantenendo esplicite dispense e parti monografiche ancora da verificare. Ascolto inglese escluso dall’obiettivo.",
+    "updated": "2026-10-22",
+    "summary": "Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.",
+    "next": "Riprendere Scienze giuridiche: casi risolti e confronto dei programmi; restano materiali assegnati di diritto internazionale. Poi ulteriori riconoscimenti anatomici e verifiche correnti. Ascolto inglese escluso dall’obiettivo.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
@@ -27901,8 +29312,8 @@
       },
       {
         "id": "inglese",
-        "label": "Da ampliare e verificare",
-        "remaining": "Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio."
+        "label": "Percorso scritto ampliato; verifica corrente da terminare",
+        "remaining": "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
       }
     ]
   },

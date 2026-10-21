@@ -36,7 +36,8 @@ export function validateContent(course, exercises, library) {
       }
     }
   }
-  for (const s of course.sources || []) check(s.title && s.scope && safeUrl(s.url), `${s.id}: fonte incompleta o URL non valido`);
+  for (const s of course.sources || []) check(s.title && s.scope &&
+    ((s.file === undefined && safeUrl(s.url)) || (s.url === undefined && typeof s.file === 'string' && /^[^\\/\x00-\x1f]+\.pdf$/i.test(s.file) && !s.file.includes('..'))), `${s.id}: fonte incompleta o URL/file non valido`);
   const references = new Set(course.units.flatMap(u => u.sections.map(s => `${u.id}/${s.id}`)));
   const workbooks=unique(course.workbooks||[],'laboratori');
   for(const lab of course.workbooks||[]){
@@ -113,6 +114,19 @@ export function validateContent(course, exercises, library) {
   }
   const all = [...exercises.questions, ...exercises.templates];
   unique(all, 'esercizi');
+  for (const e of course.exams || []) if (e.mockTest) {
+    const t=e.mockTest, allowed=new Set(e.modules.flatMap(m=>m.unitIds));
+    check(Number.isInteger(t.size)&&t.size>0&&t.size<=100&&sources.has(t.sourceId)&&t.referenceYear&&Array.isArray(t.groups)&&t.groups.length,`${e.id}: simulazione incompleta`);
+    const ids=[];
+    for(const g of t.groups||[]) {
+      check(g.title&&Number.isInteger(g.count)&&g.count>0&&Array.isArray(g.questionIds)&&g.questionIds.length>=g.count,`${e.id}: gruppo simulazione insufficiente`);
+      for(const id of g.questionIds||[]) {
+        const q=all.find(q=>q.id===id);
+        check(q&&q.type==='choice'&&!q.audioId&&allowed.has(q.unit),`${e.id}: domanda simulazione non valida`);ids.push(id);
+      }
+    }
+    check(new Set(ids).size===ids.length&&(t.groups||[]).reduce((n,g)=>n+g.count,0)===t.size,`${e.id}: composizione simulazione non valida`);
+  }
   for (const e of course.exams || []) {
     const p = e.programme;
     check(p && p.referenceYear && p.checked && typeof p.currentSyllabusConfirmed === 'boolean', `${e.id}: confronto programma assente`);

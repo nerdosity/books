@@ -1,13 +1,13 @@
-SEGNALIBRO DI LAVORO — 21 ottobre 2026
+SEGNALIBRO DI LAVORO — 22 ottobre 2026
 STATO: IN PAUSA SU RICHIESTA DELL’UTENTE — NON RIPRENDERE AUTOMATICAMENTE
 
-Sviluppo in pausa su richiesta dell’utente dopo l’ampliamento di Informatica: dieci lezioni, 104 quiz e sei laboratori. Confrontata la scheda storica in 28 voci; restano i materiali assegnati e la verifica del programma corrente. Il primo anno non è ancora interamente coperto.
-Consegna: pronto/index.html. Apribile direttamente; progressi e impostazioni restano nel browser.
-Totali: 191 lezioni, 748 sezioni, 1567 quiz, 27 famiglie numeriche, 171 prove aperte, 19 immagini anatomiche. Tre simulazioni scritte (36 consegne) sono conteggiate separatamente.
-Copertura: 125 gruppi; 119 introdotti, 5 parziali, 1 mancante. Introdotto non significa programma esaurito. Nessuno dei dieci esami è certificato integralmente completato.
+Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.
+Consegna: pronto/index.html, apribile direttamente.
+Totali: 199 lezioni, 780 sezioni, 1695 quiz, 27 famiglie numeriche, 179 prove aperte, 19 immagini anatomiche. Tre prove scritte anatomiche separate (36 consegne).
+Copertura: 125 nuclei, 119 introdotti, 5 parziali, 1 mancante; nessun esame certificato integralmente completato.
 
 PUNTO DI RIPRESA
-Ampliare Inglese scientifico scritto: grammatica A2/B1, letture e produzione con correzioni; confrontare il programma reale disponibile. Poi casi giuridici e riconoscimenti anatomici, mantenendo esplicite dispense e parti monografiche ancora da verificare. Ascolto inglese escluso dall’obiettivo.
+Riprendere Scienze giuridiche: casi risolti e confronto dei programmi; restano materiali assegnati di diritto internazionale. Poi ulteriori riconoscimenti anatomici e verifiche correnti. Ascolto inglese escluso dall’obiettivo.
 
 ESAMI ANCORA DA TERMINARE
 Scienze biologiche — Verifica finale da terminare
@@ -37,10 +37,15 @@ Otto lezioni, casi risolti, 80 quiz complessivi e prove aperte. Confrontati diec
 Informatica — Confronto storico svolto; verifica corrente da terminare
 Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati attesi della scheda d’archivio in 28 righe. Restano dispense/appunti effettivamente assegnati, dettaglio e modalità correnti, pratica delle interfacce da ufficio e verifica della collaborazione richiesta in laboratorio. Il materiale non certifica il superamento della prova.
 
-Inglese scientifico — Da ampliare e verificare
-Ampliare grammatica A2/B1, testi ed esercizi e completare il confronto del programma. L’audio facoltativo già presente non è un requisito per proseguire lo studio.
+Inglese scientifico — Percorso scritto ampliato; verifica corrente da terminare
+Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale.
+
+PDF LOCALI
+Le ricostruzioni sono in dispense/, esclusa dal versionamento insieme ai documenti forniti e agli script di impaginazione. Il volume ricostruito dal MHTML non è integrato né collegato nella piattaforma, come richiesto. Non pubblicare o aggiungere collegamenti automaticamente.
 
 VERIFICHE E FONTI
+Inglese scritto e integrazione PDF: check e 44 test superati. Browser mirato: otto capitoli, 256 feedback errati con recupero interno, tabelle, progressi precedenti, mobile, tema scuro e stampa offline. Simulazione scritta verificata su 15 risposte, ripresa della bozza, correzioni e voto persistente. Browser generale offline superato. Nessuna richiesta di rete durante queste prove. I controlli tecnici non certificano copertura completa del programma o preparazione all’esame.
+Dispense: chimica in 7 pagine, slide di chimica in 20, organelli in 75. Volume separato ricostruito da tutte le 211 tavole del salvataggio in 422 facciate; corrispondenza dei pixel delle immagini verificata. Nessuna integrazione o collegamento al volume nella piattaforma. Completezza riferita al salvataggio fornito, non confrontata con l’edizione editoriale.
 Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame.
 Informatica, laboratorio dati: 41 test unitari e check superati; browser mirato con 12 operazioni, 32 feedback con aiuti, grafici, backup ripristinato, progressi precedenti, mobile e stampa. Browser dei fogli con formule superato. Browser generale offline superato; consegna autonoma ricompilata.
 Pedagogia: check e 37 test superati; browser mirato con 96 feedback errati e aiuti integrali, tre capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. Controlli tecnici distinti dalla copertura delle monografie e dalla preparazione orale.

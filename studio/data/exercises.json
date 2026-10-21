@@ -47295,6 +47295,3846 @@
           "help": "informatica-progetto/privacy"
         }
       ]
+    },
+    {
+      "id": "en-english-frase-struttura-0",
+      "unit": "english-frase",
+      "concept": "struttura",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Scegli la domanda corretta: “___ the instructor ___ the register every morning?”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Does / check"
+        },
+        {
+          "id": "errore-1",
+          "text": "Does / checks",
+          "feedback": "Dopo does il verbo principale è alla forma base: check.",
+          "help": "english-frase/struttura"
+        },
+        {
+          "id": "errore-2",
+          "text": "Is / check",
+          "feedback": "Per un’azione abituale con check usa do/does, non il solo be.",
+          "help": "english-frase/struttura"
+        }
+      ],
+      "hint": "Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "explanation": "Does / check Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "help": "english-frase/struttura"
+    },
+    {
+      "id": "en-english-frase-struttura-1",
+      "unit": "english-frase",
+      "concept": "struttura",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Completa: “The students are here. The instructor is helping ___.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "them"
+        },
+        {
+          "id": "errore-1",
+          "text": "they",
+          "feedback": "Dopo helping serve il pronome oggetto them; they è soggetto.",
+          "help": "english-frase/struttura"
+        },
+        {
+          "id": "errore-2",
+          "text": "their",
+          "feedback": "Their introduce un nome posseduto; qui serve il pronome oggetto.",
+          "help": "english-frase/struttura"
+        }
+      ],
+      "hint": "Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "explanation": "them Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "help": "english-frase/struttura"
+    },
+    {
+      "id": "en-english-frase-struttura-2",
+      "unit": "english-frase",
+      "concept": "struttura",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel magazzino ci sono tre tappetini. Quale frase lo esprime?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "There are three mats in the store room."
+        },
+        {
+          "id": "errore-1",
+          "text": "It is three mats in the store room.",
+          "feedback": "Per l’esistenza di un plurale usa there are.",
+          "help": "english-frase/struttura"
+        },
+        {
+          "id": "errore-2",
+          "text": "There is three mats in the store room.",
+          "feedback": "Three mats è plurale: are, non is.",
+          "help": "english-frase/struttura"
+        }
+      ],
+      "hint": "Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "explanation": "There are three mats in the store room. Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "help": "english-frase/struttura"
+    },
+    {
+      "id": "en-english-frase-struttura-3",
+      "unit": "english-frase",
+      "concept": "struttura",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale coppia affermazione/domanda mantiene il possesso e usa forme corrette?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "She has a stopwatch. / Does she have a stopwatch?"
+        },
+        {
+          "id": "errore-1",
+          "text": "She has a stopwatch. / Does she has a stopwatch?",
+          "feedback": "Does porta già la terza persona: dopo di esso scrivi have.",
+          "help": "english-frase/struttura"
+        },
+        {
+          "id": "errore-2",
+          "text": "She has a stopwatch. / Is she have a stopwatch?",
+          "feedback": "Have come verbo di possesso richiede do/does in questo schema.",
+          "help": "english-frase/struttura"
+        }
+      ],
+      "hint": "Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "explanation": "She has a stopwatch. / Does she have a stopwatch? Be si inverte direttamente; do/does reggono la forma base. Distingui chi compie l’azione da chi la riceve.",
+      "help": "english-frase/struttura"
+    },
+    {
+      "id": "en-english-frase-nomi-0",
+      "unit": "english-frase",
+      "concept": "nomi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale espressione indica correttamente due attrezzi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "two pieces of equipment"
+        },
+        {
+          "id": "errore-1",
+          "text": "two equipments",
+          "feedback": "Equipment è non numerabile: non prende normalmente -s.",
+          "help": "english-frase/nomi"
+        },
+        {
+          "id": "errore-2",
+          "text": "two equipment",
+          "feedback": "Per contare gli attrezzi usa pieces of equipment.",
+          "help": "english-frase/nomi"
+        }
+      ],
+      "hint": "Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "explanation": "two pieces of equipment Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "help": "english-frase/nomi"
+    },
+    {
+      "id": "en-english-frase-nomi-1",
+      "unit": "english-frase",
+      "concept": "nomi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Completa: “She is ___ athlete on ___ university course.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "an / a"
+        },
+        {
+          "id": "errore-1",
+          "text": "a / an",
+          "feedback": "Conta il suono: athlete inizia con vocale, university con il suono /j/.",
+          "help": "english-frase/nomi"
+        },
+        {
+          "id": "errore-2",
+          "text": "an / an",
+          "feedback": "University comincia con un suono consonantico, quindi a.",
+          "help": "english-frase/nomi"
+        }
+      ],
+      "hint": "Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "explanation": "an / a Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "help": "english-frase/nomi"
+    },
+    {
+      "id": "en-english-frase-nomi-2",
+      "unit": "english-frase",
+      "concept": "nomi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Vuoi sapere il numero di sedute, non la durata. Quale domanda usi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "How many sessions are there?"
+        },
+        {
+          "id": "errore-1",
+          "text": "How much sessions are there?",
+          "feedback": "Sessions è numerabile plurale: many, non much.",
+          "help": "english-frase/nomi"
+        },
+        {
+          "id": "errore-2",
+          "text": "How long is the session?",
+          "feedback": "How long chiede la durata di una seduta, non quante sedute ci sono.",
+          "help": "english-frase/nomi"
+        }
+      ],
+      "hint": "Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "explanation": "How many sessions are there? Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "help": "english-frase/nomi"
+    },
+    {
+      "id": "en-english-frase-nomi-3",
+      "unit": "english-frase",
+      "concept": "nomi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase distingue correttamente possessivo e contrazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The club changed its timetable; it’s online now."
+        },
+        {
+          "id": "errore-1",
+          "text": "The club changed it’s timetable; its online now.",
+          "feedback": "Its precede timetable; it’s online significa it is online.",
+          "help": "english-frase/nomi"
+        },
+        {
+          "id": "errore-2",
+          "text": "The club changed their timetable; its online now.",
+          "feedback": "Qui il club è trattato al singolare: its timetable; nella seconda proposizione manca is.",
+          "help": "english-frase/nomi"
+        }
+      ],
+      "hint": "Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "explanation": "The club changed its timetable; it’s online now. Controlla se il nome è numerabile prima di scegliere articolo, plurale e quantità.",
+      "help": "english-frase/nomi"
+    },
+    {
+      "id": "en-english-frase-domande-0",
+      "unit": "english-frase",
+      "concept": "domande",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La risposta è “Twice a week”. Quale domanda è coerente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "How often do you attend?"
+        },
+        {
+          "id": "errore-1",
+          "text": "How long do you attend?",
+          "feedback": "How long cerca una durata; twice a week è una frequenza.",
+          "help": "english-frase/domande"
+        },
+        {
+          "id": "errore-2",
+          "text": "Where do you attend?",
+          "feedback": "Where chiede un luogo, non una frequenza.",
+          "help": "english-frase/domande"
+        }
+      ],
+      "hint": "Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "explanation": "How often do you attend? Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "help": "english-frase/domande"
+    },
+    {
+      "id": "en-english-frase-domande-1",
+      "unit": "english-frase",
+      "concept": "domande",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale domanda cerca il soggetto che conduce la lezione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Who leads the class?"
+        },
+        {
+          "id": "errore-1",
+          "text": "Who does leads the class?",
+          "feedback": "Who è già soggetto; non occorre does e non va seguito da leads in questo schema.",
+          "help": "english-frase/domande"
+        },
+        {
+          "id": "errore-2",
+          "text": "Where does the class meet?",
+          "feedback": "Where cerca il luogo, non la persona che conduce.",
+          "help": "english-frase/domande"
+        }
+      ],
+      "hint": "Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "explanation": "Who leads the class? Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "help": "english-frase/domande"
+    },
+    {
+      "id": "en-english-frase-domande-2",
+      "unit": "english-frase",
+      "concept": "domande",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa l’appuntamento: “___ Tuesday ___ 8 am ___ room 2”.",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "on / at / in"
+        },
+        {
+          "id": "errore-1",
+          "text": "in / on / at",
+          "feedback": "Giorno on, orario at, interno della stanza in.",
+          "help": "english-frase/domande"
+        },
+        {
+          "id": "errore-2",
+          "text": "at / in / on",
+          "feedback": "At non introduce normalmente Tuesday; una stanza non è una superficie su cui stare.",
+          "help": "english-frase/domande"
+        }
+      ],
+      "hint": "Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "explanation": "on / at / in Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "help": "english-frase/domande"
+    },
+    {
+      "id": "en-english-frase-domande-3",
+      "unit": "english-frase",
+      "concept": "domande",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale richiesta indiretta ha l’ordine corretto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Could you tell me where the studio is?"
+        },
+        {
+          "id": "errore-1",
+          "text": "Could you tell me where is the studio?",
+          "feedback": "Dentro la domanda indiretta usa the studio is: soggetto prima del verbo.",
+          "help": "english-frase/domande"
+        },
+        {
+          "id": "errore-2",
+          "text": "Could you tell me where does the studio is?",
+          "feedback": "Be non richiede does; inoltre la proposizione indiretta usa ordine dichiarativo.",
+          "help": "english-frase/domande"
+        }
+      ],
+      "hint": "Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "explanation": "Could you tell me where the studio is? Prima identifica il dato cercato: persona, luogo, frequenza e durata richiedono domande diverse.",
+      "help": "english-frase/domande"
+    },
+    {
+      "id": "en-english-frase-confronti-0",
+      "unit": "english-frase",
+      "concept": "confronti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale frase descrive correttamente come avviene un movimento?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Move slowly and check the position."
+        },
+        {
+          "id": "errore-1",
+          "text": "Move slowlier and check the position.",
+          "feedback": "Slowlier non è la forma richiesta; slowly è l’avverbio di modo.",
+          "help": "english-frase/confronti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Move a slowly movement.",
+          "feedback": "Prima del nome movement occorre un aggettivo: a slow movement.",
+          "help": "english-frase/confronti"
+        }
+      ],
+      "hint": "Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "explanation": "Move slowly and check the position. Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "help": "english-frase/confronti"
+    },
+    {
+      "id": "en-english-frase-confronti-1",
+      "unit": "english-frase",
+      "concept": "confronti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale comparativo è corretto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "This explanation is more precise than that one."
+        },
+        {
+          "id": "errore-1",
+          "text": "This explanation is more preciser than that one.",
+          "feedback": "Non usare insieme more e una terminazione comparativa inventata: more precise.",
+          "help": "english-frase/confronti"
+        },
+        {
+          "id": "errore-2",
+          "text": "This explanation is most precise than that one.",
+          "feedback": "Confronto fra due e than: more precise, non most precise.",
+          "help": "english-frase/confronti"
+        }
+      ],
+      "hint": "Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "explanation": "This explanation is more precise than that one. Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "help": "english-frase/confronti"
+    },
+    {
+      "id": "en-english-frase-confronti-2",
+      "unit": "english-frase",
+      "concept": "confronti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "A dura 18 minuti, B 25, C 35. Quale frase rispetta i dati?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "A is the shortest session."
+        },
+        {
+          "id": "errore-1",
+          "text": "C is shorter than B.",
+          "feedback": "35 minuti sono più di 25: C è longer, non shorter.",
+          "help": "english-frase/confronti"
+        },
+        {
+          "id": "errore-2",
+          "text": "B is as long as A.",
+          "feedback": "As long as indica stessa durata; 25 e 18 non sono uguali.",
+          "help": "english-frase/confronti"
+        }
+      ],
+      "hint": "Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "explanation": "A is the shortest session. Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "help": "english-frase/confronti"
+    },
+    {
+      "id": "en-english-frase-confronti-3",
+      "unit": "english-frase",
+      "concept": "confronti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "In “The coach helps the athletes who are new”, chi è nuovo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Gli atleti descritti dalla relativa."
+        },
+        {
+          "id": "errore-1",
+          "text": "La coach.",
+          "feedback": "Who are si riferisce al plurale athletes; per qualificare coach cambierebbe posizione e accordo.",
+          "help": "english-frase/confronti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il testo dice che tutti sono nuovi.",
+          "feedback": "La relativa specifica athletes; non attribuisce la qualità a tutte le persone.",
+          "help": "english-frase/confronti"
+        }
+      ],
+      "hint": "Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "explanation": "Gli atleti descritti dalla relativa. Trova la proprietà confrontata e il nome descritto; poi scegli aggettivo, avverbio o forma comparativa.",
+      "help": "english-frase/confronti"
+    },
+    {
+      "id": "en-english-tempi-presente-0",
+      "unit": "english-tempi",
+      "concept": "presente",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa: “Ravi usually ___ at reception, but today he ___ in the studio.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "works / is helping"
+        },
+        {
+          "id": "errore-1",
+          "text": "works / helping",
+          "feedback": "Per l’azione in corso serve il presente continuo completo: is helping, non il solo participio helping.",
+          "help": "english-tempi/presente"
+        },
+        {
+          "id": "errore-2",
+          "text": "work / helping",
+          "feedback": "Ravi richiede works; il continuous richiede is prima di helping.",
+          "help": "english-tempi/presente"
+        }
+      ],
+      "hint": "Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "explanation": "works / is helping Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "help": "english-tempi/presente"
+    },
+    {
+      "id": "en-english-tempi-presente-1",
+      "unit": "english-tempi",
+      "concept": "presente",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale negazione standard significa che non salta mai l’introduzione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "She never skips the introduction."
+        },
+        {
+          "id": "errore-1",
+          "text": "She doesn’t never skip the introduction.",
+          "feedback": "Never è già negativo; nello standard scritto non lo sommiamo a doesn’t.",
+          "help": "english-tempi/presente"
+        },
+        {
+          "id": "errore-2",
+          "text": "She never skip the introduction.",
+          "feedback": "Soggetto she: al present simple occorre skips.",
+          "help": "english-tempi/presente"
+        }
+      ],
+      "hint": "Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "explanation": "She never skips the introduction. Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "help": "english-tempi/presente"
+    },
+    {
+      "id": "en-english-tempi-presente-2",
+      "unit": "english-tempi",
+      "concept": "presente",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Vuoi dire che capisci adesso le istruzioni. Quale forma è normale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "I understand the instructions."
+        },
+        {
+          "id": "errore-1",
+          "text": "I am understanding the instructions.",
+          "feedback": "Understand in questo uso è un verbo di stato: normalmente present simple.",
+          "help": "english-tempi/presente"
+        },
+        {
+          "id": "errore-2",
+          "text": "I understanding the instructions.",
+          "feedback": "Una forma in -ing isolata non costruisce il predicato della frase.",
+          "help": "english-tempi/presente"
+        }
+      ],
+      "hint": "Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "explanation": "I understand the instructions. Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "help": "english-tempi/presente"
+    },
+    {
+      "id": "en-english-tempi-presente-3",
+      "unit": "english-tempi",
+      "concept": "presente",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel testo: “Lina usually works in the office. This week she is helping in the gym”. Che cosa è giustificato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Questa settimana svolge un’attività temporanea diversa dalla routine."
+        },
+        {
+          "id": "errore-1",
+          "text": "Ha lasciato definitivamente il lavoro in ufficio.",
+          "feedback": "This week non afferma un cambiamento definitivo.",
+          "help": "english-tempi/presente"
+        },
+        {
+          "id": "errore-2",
+          "text": "Lavora sempre e soltanto in palestra.",
+          "feedback": "Usually works in the office descrive una routine diversa.",
+          "help": "english-tempi/presente"
+        }
+      ],
+      "hint": "Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "explanation": "Questa settimana svolge un’attività temporanea diversa dalla routine. Scegli il tempo dal significato; poi controlla ausiliare e forma del verbo.",
+      "help": "english-tempi/presente"
+    },
+    {
+      "id": "en-english-tempi-passato-0",
+      "unit": "english-tempi",
+      "concept": "passato",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa: “Yesterday the group ___ the test.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "completed"
+        },
+        {
+          "id": "errore-1",
+          "text": "has completed",
+          "feedback": "Yesterday colloca l’evento in un tempo concluso: qui past simple.",
+          "help": "english-tempi/passato"
+        },
+        {
+          "id": "errore-2",
+          "text": "complete",
+          "feedback": "L’evento è al passato: completed.",
+          "help": "english-tempi/passato"
+        }
+      ],
+      "hint": "Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "explanation": "completed Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "help": "english-tempi/passato"
+    },
+    {
+      "id": "en-english-tempi-passato-1",
+      "unit": "english-tempi",
+      "concept": "passato",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale domanda usa correttamente did?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Did they write the report?"
+        },
+        {
+          "id": "errore-1",
+          "text": "Did they wrote the report?",
+          "feedback": "Dopo did serve write, non il passato wrote.",
+          "help": "english-tempi/passato"
+        },
+        {
+          "id": "errore-2",
+          "text": "Did they written the report?",
+          "feedback": "Written è participio; did richiede la forma base.",
+          "help": "english-tempi/passato"
+        }
+      ],
+      "hint": "Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "explanation": "Did they write the report? Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "help": "english-tempi/passato"
+    },
+    {
+      "id": "en-english-tempi-passato-2",
+      "unit": "english-tempi",
+      "concept": "passato",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa una situazione ancora in corso: “I have worked here ___ three years.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "for"
+        },
+        {
+          "id": "errore-1",
+          "text": "since",
+          "feedback": "Since introduce il punto di inizio, non una durata come three years.",
+          "help": "english-tempi/passato"
+        },
+        {
+          "id": "errore-2",
+          "text": "ago",
+          "feedback": "Ago colloca un evento prima del presente; non completa così una durata ancora in corso.",
+          "help": "english-tempi/passato"
+        }
+      ],
+      "hint": "Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "explanation": "for Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "help": "english-tempi/passato"
+    },
+    {
+      "id": "en-english-tempi-passato-3",
+      "unit": "english-tempi",
+      "concept": "passato",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“We were checking the list when Sara arrived.” Quale interpretazione rispetta i tempi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il controllo era in corso quando Sara è arrivata."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il controllo era certamente terminato prima dell’arrivo.",
+          "feedback": "Were checking indica un’attività in corso, non il suo completamento.",
+          "help": "english-tempi/passato"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sara arriverà domani.",
+          "feedback": "Arrived è passato, non futuro.",
+          "help": "english-tempi/passato"
+        }
+      ],
+      "hint": "Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "explanation": "Il controllo era in corso quando Sara è arrivata. Did regge la forma base; have/has reggono il participio. Yesterday e since non svolgono lo stesso ruolo.",
+      "help": "english-tempi/passato"
+    },
+    {
+      "id": "en-english-tempi-scelte-0",
+      "unit": "english-tempi",
+      "concept": "scelte",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“You don’t have to print the handout” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non è obbligatorio stampare la dispensa."
+        },
+        {
+          "id": "errore-1",
+          "text": "È vietato stamparla.",
+          "feedback": "Il divieto sarebbe mustn’t; don’t have to toglie l’obbligo.",
+          "help": "english-tempi/scelte"
+        },
+        {
+          "id": "errore-2",
+          "text": "Devi stamparla prima di entrare.",
+          "feedback": "La frase nega proprio la necessità di stampare.",
+          "help": "english-tempi/scelte"
+        }
+      ],
+      "hint": "Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "explanation": "Non è obbligatorio stampare la dispensa. Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "help": "english-tempi/scelte"
+    },
+    {
+      "id": "en-english-tempi-scelte-1",
+      "unit": "english-tempi",
+      "concept": "scelte",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase costruisce una condizione futura possibile nello schema base?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "If the room is free, we will meet there."
+        },
+        {
+          "id": "errore-1",
+          "text": "If the room will free, we meet there.",
+          "feedback": "Nella condizione serve is; will free non costruisce be free.",
+          "help": "english-tempi/scelte"
+        },
+        {
+          "id": "errore-2",
+          "text": "If the room is free, we will to meet there.",
+          "feedback": "Dopo will non si mette to: will meet.",
+          "help": "english-tempi/scelte"
+        }
+      ],
+      "hint": "Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "explanation": "If the room is free, we will meet there. Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "help": "english-tempi/scelte"
+    },
+    {
+      "id": "en-english-tempi-scelte-2",
+      "unit": "english-tempi",
+      "concept": "scelte",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "In “If I had more time, I would revise”, quale lettura è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Immagino più tempo e ciò che farei in quella situazione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Confermo di avere più tempo adesso.",
+          "feedback": "La frase presenta una condizione ipotetica, non un fatto confermato.",
+          "help": "english-tempi/scelte"
+        },
+        {
+          "id": "errore-2",
+          "text": "Racconto di aver già completato il ripasso ieri.",
+          "feedback": "Would revise qui è conseguenza ipotetica, non azione passata conclusa.",
+          "help": "english-tempi/scelte"
+        }
+      ],
+      "hint": "Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "explanation": "Immagino più tempo e ciò che farei in quella situazione. Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "help": "english-tempi/scelte"
+    },
+    {
+      "id": "en-english-tempi-scelte-3",
+      "unit": "english-tempi",
+      "concept": "scelte",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase esprime un consiglio con forma corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "You should check the instructions."
+        },
+        {
+          "id": "errore-1",
+          "text": "You should to check the instructions.",
+          "feedback": "Should regge la forma base senza to.",
+          "help": "english-tempi/scelte"
+        },
+        {
+          "id": "errore-2",
+          "text": "You should checks the instructions.",
+          "feedback": "Il verbo dopo should non prende -s.",
+          "help": "english-tempi/scelte"
+        }
+      ],
+      "hint": "Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "explanation": "You should check the instructions. Condizione non significa fatto accaduto. Divieto, facoltà, consiglio e possibilità vanno tradotti separatamente.",
+      "help": "english-tempi/scelte"
+    },
+    {
+      "id": "en-english-tempi-passivo-0",
+      "unit": "english-tempi",
+      "concept": "passivo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Trasforma in passivo mantenendo il passato: “The tutor checked the forms”.",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The forms were checked by the tutor."
+        },
+        {
+          "id": "errore-1",
+          "text": "The forms are checked by the tutor.",
+          "feedback": "Are checked sposta la frase al presente; serve were checked.",
+          "help": "english-tempi/passivo"
+        },
+        {
+          "id": "errore-2",
+          "text": "The forms checked by the tutor.",
+          "feedback": "Manca la forma di be che costruisce il passivo.",
+          "help": "english-tempi/passivo"
+        }
+      ],
+      "hint": "Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "explanation": "The forms were checked by the tutor. Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "help": "english-tempi/passivo"
+    },
+    {
+      "id": "en-english-tempi-passivo-1",
+      "unit": "english-tempi",
+      "concept": "passivo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The results were not recorded” permette di concludere che:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "I risultati non sono stati registrati; l’agente non è specificato."
+        },
+        {
+          "id": "errore-1",
+          "text": "I risultati sono stati registrati dal medico.",
+          "feedback": "Not nega la registrazione e nessun medico è nominato.",
+          "help": "english-tempi/passivo"
+        },
+        {
+          "id": "errore-2",
+          "text": "I risultati stavano registrando altri dati.",
+          "feedback": "Were recorded è passivo; i risultati ricevono l’azione, che qui viene negata.",
+          "help": "english-tempi/passivo"
+        }
+      ],
+      "hint": "Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "explanation": "I risultati non sono stati registrati; l’agente non è specificato. Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "help": "english-tempi/passivo"
+    },
+    {
+      "id": "en-english-tempi-passivo-2",
+      "unit": "english-tempi",
+      "concept": "passivo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa: “The form must ___ before the session.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "be completed"
+        },
+        {
+          "id": "errore-1",
+          "text": "to be completed",
+          "feedback": "Dopo must non si mette to.",
+          "help": "english-tempi/passivo"
+        },
+        {
+          "id": "errore-2",
+          "text": "be completing",
+          "feedback": "Il modulo riceve l’azione: serve il participio completed, non completing.",
+          "help": "english-tempi/passivo"
+        }
+      ],
+      "hint": "Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "explanation": "be completed Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "help": "english-tempi/passivo"
+    },
+    {
+      "id": "en-english-tempi-passivo-3",
+      "unit": "english-tempi",
+      "concept": "passivo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale coppia usa le costruzioni corrette?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "I enjoy reading, and I plan to study tonight."
+        },
+        {
+          "id": "errore-1",
+          "text": "I enjoy to read, and I plan studying tonight.",
+          "feedback": "Enjoy richiede qui reading; plan può essere seguito da to study.",
+          "help": "english-tempi/passivo"
+        },
+        {
+          "id": "errore-2",
+          "text": "I enjoy read, and I plan to studying tonight.",
+          "feedback": "Servono enjoy reading e plan to study: non le forme proposte.",
+          "help": "english-tempi/passivo"
+        }
+      ],
+      "hint": "Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "explanation": "I enjoy reading, and I plan to study tonight. Passivo = be + participio. Con due verbi, controlla la costruzione richiesta dal primo verbo o dalla preposizione.",
+      "help": "english-tempi/passivo"
+    },
+    {
+      "id": "en-english-communication-benessere-0",
+      "unit": "english-communication",
+      "concept": "benessere",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel testo di Nora, quale elemento identifica esplicitamente esercizio programmato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La seduta pianificata del sabato."
+        },
+        {
+          "id": "errore-1",
+          "text": "Ogni movimento è necessariamente una seduta programmata.",
+          "feedback": "L’attività quotidiana può essere fisica senza essere organizzata come esercizio.",
+          "help": "english-communication/benessere"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il fatto che porti la spesa dimostra un programma di allenamento.",
+          "feedback": "Portare la spesa è attività, ma la frase non specifica una programmazione di allenamento.",
+          "help": "english-communication/benessere"
+        }
+      ],
+      "hint": "Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "explanation": "La seduta pianificata del sabato. Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "help": "english-communication/benessere"
+    },
+    {
+      "id": "en-english-communication-benessere-1",
+      "unit": "english-communication",
+      "concept": "benessere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Physical fitness indica qui:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Un insieme di capacità o caratteristiche della persona."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il singolo appuntamento del sabato.",
+          "feedback": "L’appuntamento è una session, non l’insieme di attributi chiamato fitness.",
+          "help": "english-communication/benessere"
+        },
+        {
+          "id": "errore-2",
+          "text": "Soltanto il numero di amici presenti.",
+          "feedback": "La dimensione sociale non coincide con la definizione di physical fitness.",
+          "help": "english-communication/benessere"
+        }
+      ],
+      "hint": "Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "explanation": "Un insieme di capacità o caratteristiche della persona. Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "help": "english-communication/benessere"
+    },
+    {
+      "id": "en-english-communication-benessere-2",
+      "unit": "english-communication",
+      "concept": "benessere",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Can provide opportunities for social contact” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Può offrire occasioni di contatto sociale."
+        },
+        {
+          "id": "errore-1",
+          "text": "Garantisce amicizie durature a tutti.",
+          "feedback": "Can e opportunities esprimono possibilità; non durata o garanzia universale.",
+          "help": "english-communication/benessere"
+        },
+        {
+          "id": "errore-2",
+          "text": "Impedisce sempre di incontrare persone.",
+          "feedback": "Il verbo provide indica offrire, non impedire.",
+          "help": "english-communication/benessere"
+        }
+      ],
+      "hint": "Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "explanation": "Può offrire occasioni di contatto sociale. Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "help": "english-communication/benessere"
+    },
+    {
+      "id": "en-english-communication-benessere-3",
+      "unit": "english-communication",
+      "concept": "benessere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa limita la frase “attendance alone does not show that every participant feels included”?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La deduzione che la sola presenza dimostri inclusione per tutti."
+        },
+        {
+          "id": "errore-1",
+          "text": "La possibilità che qualcuno partecipi.",
+          "feedback": "La frase riguarda il significato del dato di presenza, non vieta partecipazione.",
+          "help": "english-communication/benessere"
+        },
+        {
+          "id": "errore-2",
+          "text": "La frase dimostra che nessuno si sente incluso.",
+          "feedback": "Not every/inferenza non provata non equivale a nessuno incluso.",
+          "help": "english-communication/benessere"
+        }
+      ],
+      "hint": "Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "explanation": "La deduzione che la sola presenza dimostri inclusione per tutti. Non trattare activity, exercise, fitness e wellness come sinonimi; conserva possibilità e limiti nella traduzione.",
+      "help": "english-communication/benessere"
+    },
+    {
+      "id": "en-english-communication-fitness-0",
+      "unit": "english-communication",
+      "concept": "fitness",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale coppia distingue forza e resistenza muscolare?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Muscular strength / muscular endurance."
+        },
+        {
+          "id": "errore-1",
+          "text": "Muscular strength / body weight.",
+          "feedback": "Body weight significa peso corporeo, non resistenza muscolare.",
+          "help": "english-communication/fitness"
+        },
+        {
+          "id": "errore-2",
+          "text": "Muscular endurance / timetable.",
+          "feedback": "Timetable è il programma orario, non forza.",
+          "help": "english-communication/fitness"
+        }
+      ],
+      "hint": "Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "explanation": "Muscular strength / muscular endurance. Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "help": "english-communication/fitness"
+    },
+    {
+      "id": "en-english-communication-fitness-1",
+      "unit": "english-communication",
+      "concept": "fitness",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale espressione corrisponde al tempo di risposta a un segnale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Reaction time."
+        },
+        {
+          "id": "errore-1",
+          "text": "Body composition.",
+          "feedback": "Body composition riguarda la composizione corporea, non il tempo di risposta.",
+          "help": "english-communication/fitness"
+        },
+        {
+          "id": "errore-2",
+          "text": "Range of motion.",
+          "feedback": "Range of motion indica ampiezza del movimento.",
+          "help": "english-communication/fitness"
+        }
+      ],
+      "hint": "Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "explanation": "Reaction time. Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "help": "english-communication/fitness"
+    },
+    {
+      "id": "en-english-communication-fitness-2",
+      "unit": "english-communication",
+      "concept": "fitness",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“One mat and two dumbbells”: quali attrezzi sono richiesti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Un tappetino e due manubri."
+        },
+        {
+          "id": "errore-1",
+          "text": "Una panca e due bilancieri.",
+          "feedback": "Panca è bench e bilanciere barbell; non corrispondono ai nomi del testo.",
+          "help": "english-communication/fitness"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un cronometro e due corde.",
+          "feedback": "Stopwatch e ropes sono altri attrezzi.",
+          "help": "english-communication/fitness"
+        }
+      ],
+      "hint": "Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "explanation": "Un tappetino e due manubri. Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "help": "english-communication/fitness"
+    },
+    {
+      "id": "en-english-communication-fitness-3",
+      "unit": "english-communication",
+      "concept": "fitness",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Two sets of six repetitions. Rest between sets.” Che cosa sappiamo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sono previste 12 ripetizioni totali; il recupero è fra le serie e la sua durata non è data."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sono previste 8 ripetizioni con 30 secondi di recupero.",
+          "feedback": "Le serie moltiplicano le ripetizioni; inoltre 30 secondi è un dato inventato.",
+          "help": "english-communication/fitness"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sono previste 6 sedute e due minuti di recupero.",
+          "feedback": "Sets non significa sedute; il testo non dà due minuti.",
+          "help": "english-communication/fitness"
+        }
+      ],
+      "hint": "Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "explanation": "Sono previste 12 ripetizioni totali; il recupero è fra le serie e la sua durata non è data. Studia ogni termine con un contrasto: strength/endurance, set/repetition, barbell/dumbbell, weight/composition.",
+      "help": "english-communication/fitness"
+    },
+    {
+      "id": "en-english-communication-istruzioni-0",
+      "unit": "english-communication",
+      "concept": "istruzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Do not hold your breath” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non trattenere il respiro."
+        },
+        {
+          "id": "errore-1",
+          "text": "Trattieni il respiro.",
+          "feedback": "Hai perso not: la frase è negativa.",
+          "help": "english-communication/istruzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "Mantieni la posizione delle mani.",
+          "feedback": "Breath è respiro; non è la posizione delle mani.",
+          "help": "english-communication/istruzioni"
+        }
+      ],
+      "hint": "In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "explanation": "Non trattenere il respiro. In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "help": "english-communication/istruzioni"
+    },
+    {
+      "id": "en-english-communication-istruzioni-1",
+      "unit": "english-communication",
+      "concept": "istruzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel testo sulla posizione a V, “clenched fists” indica:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Pugni chiusi."
+        },
+        {
+          "id": "errore-1",
+          "text": "Palmi aperti.",
+          "feedback": "Il testo contrappone fists a open palms.",
+          "help": "english-communication/istruzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "Gomiti completamente raddrizzati.",
+          "feedback": "Elbows riguarda i gomiti; clenched fists descrive le mani.",
+          "help": "english-communication/istruzioni"
+        }
+      ],
+      "hint": "In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "explanation": "Pugni chiusi. In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "help": "english-communication/istruzioni"
+    },
+    {
+      "id": "en-english-communication-istruzioni-2",
+      "unit": "english-communication",
+      "concept": "istruzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Identify the elbows before describing the movement”: quale ordine è richiesto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Prima identificare i gomiti, poi descrivere il movimento."
+        },
+        {
+          "id": "errore-1",
+          "text": "Descrivere prima il movimento, poi identificare i gomiti.",
+          "feedback": "Before indica che l’identificazione viene prima.",
+          "help": "english-communication/istruzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il testo prescrive un numero preciso di ripetizioni.",
+          "feedback": "Non c’è un numero di ripetizioni: è una consegna di analisi.",
+          "help": "english-communication/istruzioni"
+        }
+      ],
+      "hint": "In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "explanation": "Prima identificare i gomiti, poi descrivere il movimento. In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "help": "english-communication/istruzioni"
+    },
+    {
+      "id": "en-english-communication-istruzioni-3",
+      "unit": "english-communication",
+      "concept": "istruzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Do you mean that I should keep my hands still?” serve a:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Chiedere conferma della propria interpretazione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Affermare che l’interpretazione è già stata confermata.",
+          "feedback": "Do you mean è una domanda, non una conferma ricevuta.",
+          "help": "english-communication/istruzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "Vietare all’altra persona di parlare.",
+          "feedback": "La frase chiede chiarimento sull’istruzione, non silenzio.",
+          "help": "english-communication/istruzioni"
+        }
+      ],
+      "hint": "In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "explanation": "Chiedere conferma della propria interpretazione. In un’istruzione non perdere negazioni, ordine dei passaggi e parte del corpo; chiedi conferma dei termini ambigui.",
+      "help": "english-communication/istruzioni"
+    },
+    {
+      "id": "en-english-communication-dialogo-0",
+      "unit": "english-communication",
+      "concept": "dialogo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel dialogo, l’ultima precisazione colloca studio B:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Al piano superiore, vicino agli spogliatoi."
+        },
+        {
+          "id": "errore-1",
+          "text": "Accanto alla reception.",
+          "feedback": "La receptionist smentisce questa ipotesi del visitatore.",
+          "help": "english-communication/dialogo"
+        },
+        {
+          "id": "errore-2",
+          "text": "In una sala che il testo non nomina mai.",
+          "feedback": "Studio B è nominato e poi collocato upstairs.",
+          "help": "english-communication/dialogo"
+        }
+      ],
+      "hint": "Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "explanation": "Al piano superiore, vicino agli spogliatoi. Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "help": "english-communication/dialogo"
+    },
+    {
+      "id": "en-english-communication-dialogo-1",
+      "unit": "english-communication",
+      "concept": "dialogo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La lezione inizia alle 6:30 e dura 45 minuti. Quale risposta va a “How long does it last?”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Forty-five minutes."
+        },
+        {
+          "id": "errore-1",
+          "text": "At half past six.",
+          "feedback": "Questa è l’ora di inizio, non la durata.",
+          "help": "english-communication/dialogo"
+        },
+        {
+          "id": "errore-2",
+          "text": "In studio B.",
+          "feedback": "Questa è la sala, non la durata.",
+          "help": "english-communication/dialogo"
+        }
+      ],
+      "hint": "Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "explanation": "Forty-five minutes. Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "help": "english-communication/dialogo"
+    },
+    {
+      "id": "en-english-communication-dialogo-2",
+      "unit": "english-communication",
+      "concept": "dialogo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Could you repeat that more slowly?” è:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una richiesta cortese di ripetere più lentamente."
+        },
+        {
+          "id": "errore-1",
+          "text": "Un’affermazione che l’interlocutore non può parlare.",
+          "feedback": "Could you è qui una formula di richiesta, non una diagnosi di incapacità.",
+          "help": "english-communication/dialogo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un ordine di terminare definitivamente il dialogo.",
+          "feedback": "Repeat chiede di ripetere, non di chiudere il dialogo.",
+          "help": "english-communication/dialogo"
+        }
+      ],
+      "hint": "Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "explanation": "Una richiesta cortese di ripetere più lentamente. Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "help": "english-communication/dialogo"
+    },
+    {
+      "id": "en-english-communication-dialogo-3",
+      "unit": "english-communication",
+      "concept": "dialogo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "B dice: “I agree that this group improved, but that does not prove it always works”. B:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Accetta il risultato del gruppo e contesta la generalizzazione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Nega che il gruppo sia migliorato.",
+          "feedback": "I agree that this group improved accetta esplicitamente il dato.",
+          "help": "english-communication/dialogo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Conferma che il metodo funziona sempre.",
+          "feedback": "But introduce proprio il rifiuto della conclusione universale.",
+          "help": "english-communication/dialogo"
+        }
+      ],
+      "hint": "Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "explanation": "Accetta il risultato del gruppo e contesta la generalizzazione. Per capire un dialogo identifica domanda, risposta, proposta di interpretazione e sua eventuale correzione.",
+      "help": "english-communication/dialogo"
+    },
+    {
+      "id": "en-english-movement-livelli-0",
+      "unit": "english-movement",
+      "concept": "livelli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale sequenza procede verso livelli di organizzazione più complessi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Cell → tissue → organ → organ system."
+        },
+        {
+          "id": "errore-1",
+          "text": "Organ → tissue → cell → organ system.",
+          "feedback": "Questa sequenza scende a livelli meno complessi prima di risalire.",
+          "help": "english-movement/livelli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Tissue → molecule → cell → atom.",
+          "feedback": "Molecole e atomi non sono livelli più complessi dei tessuti.",
+          "help": "english-movement/livelli"
+        }
+      ],
+      "hint": "Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "explanation": "Cell → tissue → organ → organ system. Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "help": "english-movement/livelli"
+    },
+    {
+      "id": "en-english-movement-livelli-1",
+      "unit": "english-movement",
+      "concept": "livelli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“An organ contains more than one type of tissue” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Un organo contiene più di un tipo di tessuto."
+        },
+        {
+          "id": "errore-1",
+          "text": "Ogni organo contiene un solo tipo di tessuto.",
+          "feedback": "More than one esclude proprio l’interpretazione un solo tipo.",
+          "help": "english-movement/livelli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un tessuto contiene sempre tutti gli organi.",
+          "feedback": "Hai invertito soggetto e oggetto e aggiunto always/tutti.",
+          "help": "english-movement/livelli"
+        }
+      ],
+      "hint": "Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "explanation": "Un organo contiene più di un tipo di tessuto. Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "help": "english-movement/livelli"
+    },
+    {
+      "id": "en-english-movement-livelli-2",
+      "unit": "english-movement",
+      "concept": "livelli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“The knee is proximal to the ankle”: quale traduzione conserva il rapporto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il ginocchio è prossimale rispetto alla caviglia."
+        },
+        {
+          "id": "errore-1",
+          "text": "La caviglia è prossimale rispetto al ginocchio.",
+          "feedback": "Hai scambiato le due strutture e invertito il rapporto.",
+          "help": "english-movement/livelli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il ginocchio è posteriore alla caviglia.",
+          "feedback": "Proximal non significa posterior.",
+          "help": "english-movement/livelli"
+        }
+      ],
+      "hint": "Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "explanation": "Il ginocchio è prossimale rispetto alla caviglia. Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "help": "english-movement/livelli"
+    },
+    {
+      "id": "en-english-movement-livelli-3",
+      "unit": "english-movement",
+      "concept": "livelli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nella descrizione anatomica “right” si riferisce:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Alla destra della persona descritta."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sempre alla destra dell’osservatore che la guarda di fronte.",
+          "feedback": "La destra anatomica appartiene al soggetto; la vista frontale può confondere i lati.",
+          "help": "english-movement/livelli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Alla struttura più superficiale.",
+          "feedback": "Right riguarda il lato, superficial la profondità.",
+          "help": "english-movement/livelli"
+        }
+      ],
+      "hint": "Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "explanation": "Alla destra della persona descritta. Traduci anche quantificatori, riferimenti dei pronomi e termini di relazione: non basta conoscere i nomi del corpo.",
+      "help": "english-movement/livelli"
+    },
+    {
+      "id": "en-english-movement-scheletro-0",
+      "unit": "english-movement",
+      "concept": "scheletro",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale titolo comprende entrambi i paragrafi della lettura?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Mechanical and biological roles of the skeleton."
+        },
+        {
+          "id": "errore-1",
+          "text": "Only the production of blood cells.",
+          "feedback": "Il testo tratta anche sostegno, protezione, movimento e minerali.",
+          "help": "english-movement/scheletro"
+        },
+        {
+          "id": "errore-2",
+          "text": "Why bones move without muscles.",
+          "feedback": "Il paragrafo A nega che le ossa muovano il corpo da sole.",
+          "help": "english-movement/scheletro"
+        }
+      ],
+      "hint": "Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "explanation": "Mechanical and biological roles of the skeleton. Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "help": "english-movement/scheletro"
+    },
+    {
+      "id": "en-english-movement-scheletro-1",
+      "unit": "english-movement",
+      "concept": "scheletro",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel paragrafo B “They store minerals”, they riprende:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Bones."
+        },
+        {
+          "id": "errore-1",
+          "text": "Minerals.",
+          "feedback": "Minerals è l’oggetto immagazzinato; il soggetto riprende bones.",
+          "help": "english-movement/scheletro"
+        },
+        {
+          "id": "errore-2",
+          "text": "The observer.",
+          "feedback": "Nessun osservatore è soggetto di questo paragrafo.",
+          "help": "english-movement/scheletro"
+        }
+      ],
+      "hint": "Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "explanation": "Bones. Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "help": "english-movement/scheletro"
+    },
+    {
+      "id": "en-english-movement-scheletro-2",
+      "unit": "english-movement",
+      "concept": "scheletro",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "A quale struttura la lettura attribuisce la produzione delle cellule del sangue?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Red bone marrow."
+        },
+        {
+          "id": "errore-1",
+          "text": "Synovial fluid.",
+          "feedback": "Il testo parla di midollo rosso, non di liquido sinoviale.",
+          "help": "english-movement/scheletro"
+        },
+        {
+          "id": "errore-2",
+          "text": "The joint surface only.",
+          "feedback": "La superficie articolare non è la struttura nominata per questa funzione.",
+          "help": "english-movement/scheletro"
+        }
+      ],
+      "hint": "Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "explanation": "Red bone marrow. Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "help": "english-movement/scheletro"
+    },
+    {
+      "id": "en-english-movement-scheletro-3",
+      "unit": "english-movement",
+      "concept": "scheletro",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale riassunto conserva tutte e cinque le funzioni elencate?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Support, protection, movement, mineral storage and blood cell production."
+        },
+        {
+          "id": "errore-1",
+          "text": "Support, protection and movement only.",
+          "feedback": "Mancano entrambe le funzioni biologiche del paragrafo B.",
+          "help": "english-movement/scheletro"
+        },
+        {
+          "id": "errore-2",
+          "text": "Movement, speed, power, balance and reaction time.",
+          "feedback": "Hai sostituito funzioni scheletriche con capacità di prestazione.",
+          "help": "english-movement/scheletro"
+        }
+      ],
+      "hint": "Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "explanation": "Support, protection, movement, mineral storage and blood cell production. Un titolo deve coprire il contenuto del paragrafo; un riassunto deve conservare sia le funzioni meccaniche sia quelle biologiche.",
+      "help": "english-movement/scheletro"
+    },
+    {
+      "id": "en-english-movement-muscoli-0",
+      "unit": "english-movement",
+      "concept": "muscoli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel testo “smooth muscle” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Muscolo liscio, un tipo di tessuto."
+        },
+        {
+          "id": "errore-1",
+          "text": "Qualsiasi muscolo usato in un movimento delicato.",
+          "feedback": "Smooth indica qui l’aspetto del tessuto, non il modo del movimento.",
+          "help": "english-movement/muscoli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Esclusivamente il muscolo cardiaco.",
+          "feedback": "Il testo distingue smooth e cardiac come tipi diversi.",
+          "help": "english-movement/muscoli"
+        }
+      ],
+      "hint": "Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "explanation": "Muscolo liscio, un tipo di tessuto. Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "help": "english-movement/muscoli"
+    },
+    {
+      "id": "en-english-movement-muscoli-1",
+      "unit": "english-movement",
+      "concept": "muscoli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Tension while lengthening” descrive:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tensione durante l’allungamento."
+        },
+        {
+          "id": "errore-1",
+          "text": "Assenza certa di attività muscolare.",
+          "feedback": "Il testo dice che viene prodotta tensione durante l’allungamento.",
+          "help": "english-movement/muscoli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un accorciamento obbligatorio.",
+          "feedback": "Lengthening significa allungamento, non shortening.",
+          "help": "english-movement/muscoli"
+        }
+      ],
+      "hint": "Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "explanation": "Tensione durante l’allungamento. Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "help": "english-movement/muscoli"
+    },
+    {
+      "id": "en-english-movement-muscoli-2",
+      "unit": "english-movement",
+      "concept": "muscoli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale traduzione conserva “approximately the same length”?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Approssimativamente della stessa lunghezza."
+        },
+        {
+          "id": "errore-1",
+          "text": "Esattamente senza alcun cambiamento interno possibile.",
+          "feedback": "Approximately introduce un’approssimazione, non una garanzia assoluta.",
+          "help": "english-movement/muscoli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sempre lungo il doppio.",
+          "feedback": "Same length non significa il doppio della lunghezza.",
+          "help": "english-movement/muscoli"
+        }
+      ],
+      "hint": "Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "explanation": "Approssimativamente della stessa lunghezza. Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "help": "english-movement/muscoli"
+    },
+    {
+      "id": "en-english-movement-muscoli-3",
+      "unit": "english-movement",
+      "concept": "muscoli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The role depends on the movement being considered” riferito ad agonista/antagonista significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il ruolo va interpretato in relazione al movimento considerato."
+        },
+        {
+          "id": "errore-1",
+          "text": "Ogni muscolo ha per sempre lo stesso ruolo in tutti i compiti.",
+          "feedback": "Depends on segnala una dipendenza dal compito, non un ruolo immutabile.",
+          "help": "english-movement/muscoli"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il ruolo è indipendente da qualsiasi movimento.",
+          "feedback": "È il contrario della relazione espressa da depends on.",
+          "help": "english-movement/muscoli"
+        }
+      ],
+      "hint": "Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "explanation": "Il ruolo va interpretato in relazione al movimento considerato. Conserva tipo di tessuto, sede e condizione del muscolo; non tradurre un termine anatomico con il significato quotidiano sbagliato.",
+      "help": "english-movement/muscoli"
+    },
+    {
+      "id": "en-english-movement-movimenti-0",
+      "unit": "english-movement",
+      "concept": "movimenti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“The sole faces more medially” descrive nel testo:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Inversion."
+        },
+        {
+          "id": "errore-1",
+          "text": "Eversion.",
+          "feedback": "Eversion orienta la pianta più lateralmente.",
+          "help": "english-movement/movimenti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Soltanto la flessione delle dita.",
+          "feedback": "Il testo riguarda l’orientamento della pianta, non solo le dita.",
+          "help": "english-movement/movimenti"
+        }
+      ],
+      "hint": "Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "explanation": "Inversion. Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "help": "english-movement/movimenti"
+    },
+    {
+      "id": "en-english-movement-movimenti-1",
+      "unit": "english-movement",
+      "concept": "movimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Pointing the foot downward” basta per concludere che c’è inversione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: descrive flessione plantare e non identifica da solo inversione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, ogni flessione plantare è per definizione inversione.",
+          "feedback": "La lettura distingue questi movimenti.",
+          "help": "english-movement/movimenti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, perché sole significa dita.",
+          "feedback": "Sole significa pianta; toes sono le dita.",
+          "help": "english-movement/movimenti"
+        }
+      ],
+      "hint": "Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "explanation": "No: descrive flessione plantare e non identifica da solo inversione. Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "help": "english-movement/movimenti"
+    },
+    {
+      "id": "en-english-movement-movimenti-2",
+      "unit": "english-movement",
+      "concept": "movimenti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella lettura biomeccanica “moment” indica:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il momento di una forza, cioè un effetto rotatorio."
+        },
+        {
+          "id": "errore-1",
+          "text": "La durata della seduta.",
+          "feedback": "Force, axis e perpendicular distance definiscono qui il contesto meccanico.",
+          "help": "english-movement/movimenti"
+        },
+        {
+          "id": "errore-2",
+          "text": "La massa del soggetto.",
+          "feedback": "Il testo parla di forza per braccio, non massa.",
+          "help": "english-movement/movimenti"
+        }
+      ],
+      "hint": "Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "explanation": "Il momento di una forza, cioè un effetto rotatorio. Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "help": "english-movement/movimenti"
+    },
+    {
+      "id": "en-english-movement-movimenti-3",
+      "unit": "english-movement",
+      "concept": "movimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Con la stessa forza di 10 N, il braccio perpendicolare passa da 0,02 a 0,04 m. Quale frase è coerente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The moment doubles from 0.20 to 0.40 N·m."
+        },
+        {
+          "id": "errore-1",
+          "text": "The force doubles from 10 to 20 N.",
+          "feedback": "La condizione dice same force; cambia il braccio, non la forza.",
+          "help": "english-movement/movimenti"
+        },
+        {
+          "id": "errore-2",
+          "text": "The moment remains unchanged.",
+          "feedback": "Forza uguale e braccio doppio producono momento doppio.",
+          "help": "english-movement/movimenti"
+        }
+      ],
+      "hint": "Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "explanation": "The moment doubles from 0.20 to 0.40 N·m. Inversione, eversione e flessione plantare vanno distinte; nelle relazioni meccaniche conserva le condizioni del confronto.",
+      "help": "english-movement/movimenti"
+    },
+    {
+      "id": "en-english-evidence-strategie-0",
+      "unit": "english-evidence",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Devi trovare rapidamente il numero di partecipanti in un abstract. Quale strategia è più mirata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Scanning: cercare il dato numerico e la frase che lo definisce."
+        },
+        {
+          "id": "errore-1",
+          "text": "Scegliere il numero più grande della pagina.",
+          "feedback": "Il numero più grande può indicare durata o bibliografia; serve il contesto del campione.",
+          "help": "english-evidence/strategie"
+        },
+        {
+          "id": "errore-2",
+          "text": "Leggere solo il titolo e indovinare il numero.",
+          "feedback": "Il titolo può dare il tema, non necessariamente il numero.",
+          "help": "english-evidence/strategie"
+        }
+      ],
+      "hint": "Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "explanation": "Scanning: cercare il dato numerico e la frase che lo definisce. Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "help": "english-evidence/strategie"
+    },
+    {
+      "id": "en-english-evidence-strategie-1",
+      "unit": "english-evidence",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Avviso: “Wednesday: practical vocabulary in room C, 18:00–18:45. Printed materials are optional.” Quale risposta è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Si usa aula C e le stampe sono facoltative."
+        },
+        {
+          "id": "errore-1",
+          "text": "Si usa aula A e le stampe sono obbligatorie.",
+          "feedback": "Entrambi i dati contraddicono il testo: C e optional.",
+          "help": "english-evidence/strategie"
+        },
+        {
+          "id": "errore-2",
+          "text": "La lezione dura 18 ore.",
+          "feedback": "18:00 è un orario; l’intervallo è di 45 minuti.",
+          "help": "english-evidence/strategie"
+        }
+      ],
+      "hint": "Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "explanation": "Si usa aula C e le stampe sono facoltative. Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "help": "english-evidence/strategie"
+    },
+    {
+      "id": "en-english-evidence-strategie-2",
+      "unit": "english-evidence",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Set the timer”: quale funzione ha set?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Verbo: imposta il timer."
+        },
+        {
+          "id": "errore-1",
+          "text": "Nome: una serie di ripetizioni.",
+          "feedback": "Set può essere nome, ma qui è un imperativo che regge the timer.",
+          "help": "english-evidence/strategie"
+        },
+        {
+          "id": "errore-2",
+          "text": "Aggettivo: timer più rapido.",
+          "feedback": "Non c’è un confronto né un aggettivo comparativo.",
+          "help": "english-evidence/strategie"
+        }
+      ],
+      "hint": "Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "explanation": "Verbo: imposta il timer. Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "help": "english-evidence/strategie"
+    },
+    {
+      "id": "en-english-evidence-strategie-3",
+      "unit": "english-evidence",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una voce di dizionario indica “equipment, noun [U]”. Come usi l’informazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Come nome non numerabile: some equipment."
+        },
+        {
+          "id": "errore-1",
+          "text": "Aggiungo sempre -s: equipments.",
+          "feedback": "[U] segnala uncountable, non plurale obbligatorio.",
+          "help": "english-evidence/strategie"
+        },
+        {
+          "id": "errore-2",
+          "text": "Lo tratto necessariamente come verbo.",
+          "feedback": "Noun significa nome, non verbo.",
+          "help": "english-evidence/strategie"
+        }
+      ],
+      "hint": "Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "explanation": "Come nome non numerabile: some equipment. Definisci prima la domanda; usa il dizionario per risolvere un dubbio nel contesto, non per sostituire la comprensione.",
+      "help": "english-evidence/strategie"
+    },
+    {
+      "id": "en-english-evidence-dati-0",
+      "unit": "english-evidence",
+      "concept": "dati",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Invented study for language practice: Thirty adults joined a six-week walking programme. Twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres. There was no comparison group. Participants reported enjoying the sessions, but the study did not measure changes in general health. The results describe this sample and do not establish that the programme caused the improvement. Which number completed both assessments?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Twenty-four."
+        },
+        {
+          "id": "errore-1",
+          "text": "Thirty.",
+          "feedback": "Thirty joined; twenty-four completed both measurements.",
+          "help": "english-evidence/dati"
+        },
+        {
+          "id": "errore-2",
+          "text": "Six.",
+          "feedback": "Six è la differenza fra iscritti e completi, non il numero che completa.",
+          "help": "english-evidence/dati"
+        }
+      ],
+      "hint": "Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "explanation": "Twenty-four. Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "help": "english-evidence/dati"
+    },
+    {
+      "id": "en-english-evidence-dati-1",
+      "unit": "english-evidence",
+      "concept": "dati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Invented study for language practice: Thirty adults joined a six-week walking programme. Twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres. There was no comparison group. Participants reported enjoying the sessions, but the study did not measure changes in general health. The results describe this sample and do not establish that the programme caused the improvement. What was the relative increase in mean walking distance from baseline?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "10%."
+        },
+        {
+          "id": "errore-1",
+          "text": "40%.",
+          "feedback": "40 è l’aumento in metri; la percentuale è 40/400 × 100.",
+          "help": "english-evidence/dati"
+        },
+        {
+          "id": "errore-2",
+          "text": "110%.",
+          "feedback": "110% è il valore finale espresso in percentuale del basale, non l’aumento.",
+          "help": "english-evidence/dati"
+        }
+      ],
+      "hint": "Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "explanation": "10%. Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "help": "english-evidence/dati"
+    },
+    {
+      "id": "en-english-evidence-dati-2",
+      "unit": "english-evidence",
+      "concept": "dati",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Invented study for language practice: Thirty adults joined a six-week walking programme. Twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres. There was no comparison group. Participants reported enjoying the sessions, but the study did not measure changes in general health. The results describe this sample and do not establish that the programme caused the improvement. Which conclusion is supported?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Mean distance increased in the measured sample."
+        },
+        {
+          "id": "errore-1",
+          "text": "Every participant improved by exactly 40 metres.",
+          "feedback": "La media non specifica le variazioni individuali.",
+          "help": "english-evidence/dati"
+        },
+        {
+          "id": "errore-2",
+          "text": "The programme certainly caused better general health.",
+          "feedback": "Salute non misurata e assenza di confronto non sostengono questa causalità.",
+          "help": "english-evidence/dati"
+        }
+      ],
+      "hint": "Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "explanation": "Mean distance increased in the measured sample. Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "help": "english-evidence/dati"
+    },
+    {
+      "id": "en-english-evidence-dati-3",
+      "unit": "english-evidence",
+      "concept": "dati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Invented study for language practice: Thirty adults joined a six-week walking programme. Twenty-four completed both assessments. Their mean walking distance increased from 400 to 440 metres. There was no comparison group. Participants reported enjoying the sessions, but the study did not measure changes in general health. The results describe this sample and do not establish that the programme caused the improvement. What proportion of those who joined completed both assessments?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "80%."
+        },
+        {
+          "id": "errore-1",
+          "text": "20%.",
+          "feedback": "20% è la quota senza entrambe le valutazioni, non quella completa.",
+          "help": "english-evidence/dati"
+        },
+        {
+          "id": "errore-2",
+          "text": "125%.",
+          "feedback": "30/24 inverte il rapporto: i completi sono 24 dei 30 iscritti.",
+          "help": "english-evidence/dati"
+        }
+      ],
+      "hint": "Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "explanation": "80%. Controlla denominatore, variabile, media e limite. Non convertire gradimento in salute o prima/dopo in causalità.",
+      "help": "english-evidence/dati"
+    },
+    {
+      "id": "en-english-evidence-precisione-0",
+      "unit": "english-evidence",
+      "concept": "precisione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Traduci “The actual number was lower than expected”.",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il numero effettivo era inferiore alle attese."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il numero attuale era superiore alle attese.",
+          "feedback": "Actual = effettivo; lower = inferiore: entrambi sono stati cambiati.",
+          "help": "english-evidence/precisione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il numero previsto era certamente zero.",
+          "feedback": "Non c’è zero nel testo e expected non annulla il confronto.",
+          "help": "english-evidence/precisione"
+        }
+      ],
+      "hint": "Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "explanation": "Il numero effettivo era inferiore alle attese. Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "help": "english-evidence/precisione"
+    },
+    {
+      "id": "en-english-evidence-precisione-1",
+      "unit": "english-evidence",
+      "concept": "precisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Not all participants returned” significa:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non tutti i partecipanti sono tornati."
+        },
+        {
+          "id": "errore-1",
+          "text": "Nessun partecipante è tornato.",
+          "feedback": "Not all non significa none: non sappiamo da questa frase quanti siano tornati.",
+          "help": "english-evidence/precisione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Tutti i partecipanti sono tornati.",
+          "feedback": "Hai eliminato la negazione.",
+          "help": "english-evidence/precisione"
+        }
+      ],
+      "hint": "Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "explanation": "Non tutti i partecipanti sono tornati. Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "help": "english-evidence/precisione"
+    },
+    {
+      "id": "en-english-evidence-precisione-2",
+      "unit": "english-evidence",
+      "concept": "precisione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale traduzione mantiene “may reflect practical difficulties”?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Potrebbero riflettere difficoltà pratiche."
+        },
+        {
+          "id": "errore-1",
+          "text": "Dimostrano sicuramente incapacità personale.",
+          "feedback": "May esprime possibilità e practical difficulties non significa incapacità personale.",
+          "help": "english-evidence/precisione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Escludono ogni difficoltà pratica.",
+          "feedback": "Reflect indica riflettere, non escludere.",
+          "help": "english-evidence/precisione"
+        }
+      ],
+      "hint": "Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "explanation": "Potrebbero riflettere difficoltà pratiche. Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "help": "english-evidence/precisione"
+    },
+    {
+      "id": "en-english-evidence-precisione-3",
+      "unit": "english-evidence",
+      "concept": "precisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Only adults were included” consente di dire:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il campione non includeva minori."
+        },
+        {
+          "id": "errore-1",
+          "text": "Tutti gli adulti esistenti erano nel campione.",
+          "feedback": "Only limita la categoria ammessa, non include l’intera popolazione mondiale.",
+          "help": "english-evidence/precisione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il campione comprendeva solo bambini.",
+          "feedback": "Adults significa adulti, non bambini.",
+          "help": "english-evidence/precisione"
+        }
+      ],
+      "hint": "Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "explanation": "Il campione non includeva minori. Una buona traduzione conserva quantità, negazione, direzione del confronto e certezza dell’originale.",
+      "help": "english-evidence/precisione"
+    },
+    {
+      "id": "en-english-evidence-fonti-0",
+      "unit": "english-evidence",
+      "concept": "fonti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Il lavoro del 1985 di Caspersen, Powell e Christenson, qui descritto attraverso il suo abstract, è usato per:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Distinguere concetti e termini, non come resoconto del nostro studio inventato."
+        },
+        {
+          "id": "errore-1",
+          "text": "Dimostrare i risultati del campione inventato di 30 adulti.",
+          "feedback": "Quel campione appartiene a un esercizio originale, non all’abstract del 1985.",
+          "help": "english-evidence/fonti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Provare che qualsiasi programma garantisce lo stesso risultato.",
+          "feedback": "Un contributo definitorio non sostiene una garanzia universale.",
+          "help": "english-evidence/fonti"
+        }
+      ],
+      "hint": "Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "explanation": "Distinguere concetti e termini, non come resoconto del nostro studio inventato. Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "help": "english-evidence/fonti"
+    },
+    {
+      "id": "en-english-evidence-fonti-1",
+      "unit": "english-evidence",
+      "concept": "fonti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Hai letto solo un abstract. Quale annotazione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ho consultato l’abstract; non attribuisco dettagli non presenti."
+        },
+        {
+          "id": "errore-1",
+          "text": "Ho letto sicuramente tutte le tabelle del testo completo.",
+          "feedback": "Leggere un abstract non prova la consultazione delle tabelle integrali.",
+          "help": "english-evidence/fonti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Posso inventare un campione se non è indicato.",
+          "feedback": "L’assenza di un campione può dipendere dal genere del testo; non va inventato.",
+          "help": "english-evidence/fonti"
+        }
+      ],
+      "hint": "Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "explanation": "Ho consultato l’abstract; non attribuisco dettagli non presenti. Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "help": "english-evidence/fonti"
+    },
+    {
+      "id": "en-english-evidence-fonti-2",
+      "unit": "english-evidence",
+      "concept": "fonti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale spiegazione per un principiante conserva la distinzione fra attività ed esercizio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Everyday movement is activity; planned exercise is a more specific kind of activity."
+        },
+        {
+          "id": "errore-1",
+          "text": "Only competitive athletes can be physically active.",
+          "feedback": "L’attività quotidiana non è limitata agli atleti competitivi.",
+          "help": "english-evidence/fonti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Exercise means the same thing as a test score.",
+          "feedback": "Un punteggio può misurare un attributo, ma non è esercizio.",
+          "help": "english-evidence/fonti"
+        }
+      ],
+      "hint": "Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "explanation": "Everyday movement is activity; planned exercise is a more specific kind of activity. Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "help": "english-evidence/fonti"
+    },
+    {
+      "id": "en-english-evidence-fonti-3",
+      "unit": "english-evidence",
+      "concept": "fonti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una parafrasi didattica originale deve essere presentata come:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una riformulazione del significato, distinta da una citazione letterale."
+        },
+        {
+          "id": "errore-1",
+          "text": "Parole esatte dell’autore, anche se riscritte.",
+          "feedback": "Una riscrittura non è una citazione testuale.",
+          "help": "english-evidence/fonti"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un risultato sperimentale nuovo verificato sui lettori.",
+          "feedback": "La parafrasi non costituisce una nuova sperimentazione.",
+          "help": "english-evidence/fonti"
+        }
+      ],
+      "hint": "Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "explanation": "Una riformulazione del significato, distinta da una citazione letterale. Identifica il genere del testo e distingui parafrasi, dati inventati e risultati realmente riportati.",
+      "help": "english-evidence/fonti"
+    },
+    {
+      "id": "en-english-revision-paragrafo-0",
+      "unit": "english-revision",
+      "concept": "paragrafo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "In un paragrafo sull’utilità delle istruzioni, quale frase della bozza è meno pertinente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The gym has blue walls."
+        },
+        {
+          "id": "errore-1",
+          "text": "A demonstration can show the sequence.",
+          "feedback": "La dimostrazione contribuisce al tema dell’istruzione.",
+          "help": "english-revision/paragrafo"
+        },
+        {
+          "id": "errore-2",
+          "text": "People can misunderstand a demonstration.",
+          "feedback": "Questo limite motiva il controllo della comprensione.",
+          "help": "english-revision/paragrafo"
+        }
+      ],
+      "hint": "Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "explanation": "The gym has blue walls. Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "help": "english-revision/paragrafo"
+    },
+    {
+      "id": "en-english-revision-paragrafo-1",
+      "unit": "english-revision",
+      "concept": "paragrafo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale costruzione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "We changed rooms because of the noise."
+        },
+        {
+          "id": "errore-1",
+          "text": "We changed rooms because of it was noisy.",
+          "feedback": "Because of richiede qui un nome; per it was noisy usa because.",
+          "help": "english-revision/paragrafo"
+        },
+        {
+          "id": "errore-2",
+          "text": "We changed rooms because the noise.",
+          "feedback": "Dopo because serve la proposizione; per the noise usa because of.",
+          "help": "english-revision/paragrafo"
+        }
+      ],
+      "hint": "Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "explanation": "We changed rooms because of the noise. Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "help": "english-revision/paragrafo"
+    },
+    {
+      "id": "en-english-revision-paragrafo-2",
+      "unit": "english-revision",
+      "concept": "paragrafo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Scegli il connettivo per la conseguenza: “The meaning was unclear. ___, we asked for clarification.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Therefore"
+        },
+        {
+          "id": "errore-1",
+          "text": "However",
+          "feedback": "La seconda frase è una conseguenza ragionata dell’incertezza, non un contrasto.",
+          "help": "english-revision/paragrafo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Although",
+          "feedback": "Although non collega così due frasi separate: richiede una subordinata.",
+          "help": "english-revision/paragrafo"
+        }
+      ],
+      "hint": "Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "explanation": "Therefore Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "help": "english-revision/paragrafo"
+    },
+    {
+      "id": "en-english-revision-paragrafo-3",
+      "unit": "english-revision",
+      "concept": "paragrafo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The coach spoke to the athlete because she was worried” presenta quale possibile problema?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "She può riferirsi a due persone: occorre chiarire chi fosse preoccupata."
+        },
+        {
+          "id": "errore-1",
+          "text": "Non c’è alcun pronome nella frase.",
+          "feedback": "She è proprio un pronome.",
+          "help": "english-revision/paragrafo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Because significa sempre tuttavia.",
+          "feedback": "Because introduce una ragione, non contrasto.",
+          "help": "english-revision/paragrafo"
+        }
+      ],
+      "hint": "Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "explanation": "She può riferirsi a due persone: occorre chiarire chi fosse preoccupata. Contenuto, connettivo e punteggiatura devono esprimere la stessa relazione logica.",
+      "help": "english-revision/paragrafo"
+    },
+    {
+      "id": "en-english-revision-riassunto-0",
+      "unit": "english-revision",
+      "concept": "riassunto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Testo inventato: “Staff recorded fewer requests after new signs appeared, but there were also fewer visitors.” Quale sintesi è fedele?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Requests decreased, but fewer visitors limit the causal interpretation."
+        },
+        {
+          "id": "errore-1",
+          "text": "The signs certainly solved every problem.",
+          "feedback": "Il testo non dimostra una soluzione totale né una causa certa.",
+          "help": "english-revision/riassunto"
+        },
+        {
+          "id": "errore-2",
+          "text": "The number of requests increased.",
+          "feedback": "Fewer indica meno, non aumento.",
+          "help": "english-revision/riassunto"
+        }
+      ],
+      "hint": "Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "explanation": "Requests decreased, but fewer visitors limit the causal interpretation. Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "help": "english-revision/riassunto"
+    },
+    {
+      "id": "en-english-revision-riassunto-1",
+      "unit": "english-revision",
+      "concept": "riassunto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Staff plan to compare requests per visitor”: che cosa è già certo dal testo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Esiste un piano di confronto, non un risultato già ottenuto da quel confronto."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il confronto per visitatore è già concluso.",
+          "feedback": "Plan to indica intenzione futura.",
+          "help": "english-revision/riassunto"
+        },
+        {
+          "id": "errore-2",
+          "text": "È stato dimostrato che ogni visitatore chiede meno indicazioni.",
+          "feedback": "Non c’è questo risultato individuale né un confronto già eseguito.",
+          "help": "english-revision/riassunto"
+        }
+      ],
+      "hint": "Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "explanation": "Esiste un piano di confronto, non un risultato già ottenuto da quel confronto. Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "help": "english-revision/riassunto"
+    },
+    {
+      "id": "en-english-revision-riassunto-2",
+      "unit": "english-revision",
+      "concept": "riassunto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale dettaglio non puoi eliminare senza rafforzare indebitamente la conclusione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Anche i visitatori erano meno numerosi."
+        },
+        {
+          "id": "errore-1",
+          "text": "La sintesi usa parole diverse dall’originale.",
+          "feedback": "Cambiare formulazione è normale; il punto essenziale è mantenere i limiti.",
+          "help": "english-revision/riassunto"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il titolo scelto è breve.",
+          "feedback": "La lunghezza del titolo non è il limite causale del caso.",
+          "help": "english-revision/riassunto"
+        }
+      ],
+      "hint": "Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "explanation": "Anche i visitatori erano meno numerosi. Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "help": "english-revision/riassunto"
+    },
+    {
+      "id": "en-english-revision-riassunto-3",
+      "unit": "english-revision",
+      "concept": "riassunto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa distingue una sintesi corretta da una sostituzione meccanica di parole?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ricostruisce idee e relazioni senza aggiungere risultati."
+        },
+        {
+          "id": "errore-1",
+          "text": "Conserva ogni parola nell’identico ordine.",
+          "feedback": "La sintesi deve ridurre e riorganizzare, non ripetere tutto.",
+          "help": "english-revision/riassunto"
+        },
+        {
+          "id": "errore-2",
+          "text": "Rende sempre più certa la conclusione per essere breve.",
+          "feedback": "La brevità non autorizza a togliere l’incertezza.",
+          "help": "english-revision/riassunto"
+        }
+      ],
+      "hint": "Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "explanation": "Ricostruisce idee e relazioni senza aggiungere risultati. Togli dettagli secondari, non il limite che dà significato al risultato.",
+      "help": "english-revision/riassunto"
+    },
+    {
+      "id": "en-english-revision-messaggio-0",
+      "unit": "english-revision",
+      "concept": "messaggio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale richiesta è precisa e cortese in un messaggio alla docente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Could you confirm the room and the starting time?"
+        },
+        {
+          "id": "errore-1",
+          "text": "You must send everything now!",
+          "feedback": "È un ordine generico e non specifica i due dati richiesti.",
+          "help": "english-revision/messaggio"
+        },
+        {
+          "id": "errore-2",
+          "text": "The room surely starts yesterday.",
+          "feedback": "La frase non formula una richiesta coerente e mescola soggetto e tempo.",
+          "help": "english-revision/messaggio"
+        }
+      ],
+      "hint": "Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "explanation": "Could you confirm the room and the starting time? Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "help": "english-revision/messaggio"
+    },
+    {
+      "id": "en-english-revision-messaggio-1",
+      "unit": "english-revision",
+      "concept": "messaggio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Correggi “She need informations”.",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "She needs information."
+        },
+        {
+          "id": "errore-1",
+          "text": "She needs informations.",
+          "feedback": "Information è normalmente non numerabile: niente -s.",
+          "help": "english-revision/messaggio"
+        },
+        {
+          "id": "errore-2",
+          "text": "She need information.",
+          "feedback": "Il soggetto she richiede needs al present simple.",
+          "help": "english-revision/messaggio"
+        }
+      ],
+      "hint": "Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "explanation": "She needs information. Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "help": "english-revision/messaggio"
+    },
+    {
+      "id": "en-english-revision-messaggio-2",
+      "unit": "english-revision",
+      "concept": "messaggio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale frase mantiene una domanda indiretta corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "She doesn’t know where the room is."
+        },
+        {
+          "id": "errore-1",
+          "text": "She doesn’t know where is the room.",
+          "feedback": "La parte indiretta usa ordine soggetto-verbo.",
+          "help": "english-revision/messaggio"
+        },
+        {
+          "id": "errore-2",
+          "text": "She don’t knows where the room is.",
+          "feedback": "Con she servono doesn’t e la forma base know.",
+          "help": "english-revision/messaggio"
+        }
+      ],
+      "hint": "Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "explanation": "She doesn’t know where the room is. Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "help": "english-revision/messaggio"
+    },
+    {
+      "id": "en-english-revision-messaggio-3",
+      "unit": "english-revision",
+      "concept": "messaggio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel messaggio “I can attend on Wednesday after 5 pm” indica:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Disponibilità mercoledì dopo le 17."
+        },
+        {
+          "id": "errore-1",
+          "text": "Obbligo per tutti di arrivare alle 5 del mattino.",
+          "feedback": "Can è capacità/disponibilità; pm è pomeriggio e after non fissa un istante esatto.",
+          "help": "english-revision/messaggio"
+        },
+        {
+          "id": "errore-2",
+          "text": "Conferma che il laboratorio comincia alle 17.",
+          "feedback": "È la disponibilità di chi scrive, non l’orario ufficiale del laboratorio.",
+          "help": "english-revision/messaggio"
+        }
+      ],
+      "hint": "Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "explanation": "Disponibilità mercoledì dopo le 17. Rivedi prima ciò che dici e a chi lo dici; poi controlla grammatica, spelling e punteggiatura.",
+      "help": "english-revision/messaggio"
+    },
+    {
+      "id": "en-english-revision-prova-0",
+      "unit": "english-revision",
+      "concept": "prova",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dopo aver sbagliato “Does she trains?”, quale ripasso trasferisce la regola?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Scrivere “Does the group meet?” e spiegare la forma base dopo does."
+        },
+        {
+          "id": "errore-1",
+          "text": "Memorizzare che la risposta corretta era sempre la prima.",
+          "feedback": "Le opzioni possono cambiare ordine; serve la regola grammaticale.",
+          "help": "english-revision/prova"
+        },
+        {
+          "id": "errore-2",
+          "text": "Aggiungere sempre -s a ogni verbo dopo does.",
+          "feedback": "Questo ripeterebbe l’errore: does porta già l’accordo.",
+          "help": "english-revision/prova"
+        }
+      ],
+      "hint": "Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "explanation": "Scrivere “Does the group meet?” e spiegare la forma base dopo does. Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "help": "english-revision/prova"
+    },
+    {
+      "id": "en-english-revision-prova-1",
+      "unit": "english-revision",
+      "concept": "prova",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una risposta traduce “not all” come “none”. Quale errore va corretto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La quantità espressa dalla negazione, non soltanto lo spelling."
+        },
+        {
+          "id": "errore-1",
+          "text": "Solo il colore del testo.",
+          "feedback": "Il problema cambia il significato della frase.",
+          "help": "english-revision/prova"
+        },
+        {
+          "id": "errore-2",
+          "text": "Nessuno: le espressioni sono equivalenti.",
+          "feedback": "Non tutti non equivale a nessuno.",
+          "help": "english-revision/prova"
+        }
+      ],
+      "hint": "Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "explanation": "La quantità espressa dalla negazione, non soltanto lo spelling. Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "help": "english-revision/prova"
+    },
+    {
+      "id": "en-english-revision-prova-2",
+      "unit": "english-revision",
+      "concept": "prova",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un alto punteggio nei quiz dimostra automaticamente la capacità di scrivere un paragrafo autonomo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre anche svolgere e rivedere le prove di produzione libera."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, rende inutile qualunque scrittura.",
+          "feedback": "Riconoscimento di opzioni e produzione autonoma sono compiti diversi.",
+          "help": "english-revision/prova"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, certifica anche pronuncia e ascolto.",
+          "feedback": "Questi quiz scritti non certificano abilità acustiche o pronuncia.",
+          "help": "english-revision/prova"
+        }
+      ],
+      "hint": "Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "explanation": "No: occorre anche svolgere e rivedere le prove di produzione libera. Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "help": "english-revision/prova"
+    },
+    {
+      "id": "en-english-revision-prova-3",
+      "unit": "english-revision",
+      "concept": "prova",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Per una domanda di comprensione, qual è un buon criterio di scelta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’opzione conserva dati, negazioni e grado di certezza del testo."
+        },
+        {
+          "id": "errore-1",
+          "text": "L’opzione aggiunge sempre la conclusione più ottimistica.",
+          "feedback": "Una conclusione più forte può essere ingiustificata.",
+          "help": "english-revision/prova"
+        },
+        {
+          "id": "errore-2",
+          "text": "L’opzione è corretta se è la più lunga.",
+          "feedback": "La lunghezza non prova fedeltà al testo.",
+          "help": "english-revision/prova"
+        }
+      ],
+      "hint": "Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "explanation": "L’opzione conserva dati, negazioni e grado di certezza del testo. Usa il test per individuare regole e significati da ripassare; verifica separatamente la capacità di scrivere senza modello.",
+      "help": "english-revision/prova"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-classificare-0",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "classificare",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "O₂ puro è:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una sostanza elementare molecolare."
+        },
+        {
+          "id": "errore-1",
+          "text": "Un composto perché ha due atomi.",
+          "feedback": "Un composto contiene elementi diversi; qui entrambi gli atomi sono ossigeno.",
+          "help": "chimica-materia-soluzioni/classificare"
+        },
+        {
+          "id": "errore-2",
+          "text": "Una miscela di due elementi.",
+          "feedback": "La formula contiene un solo elemento chimico.",
+          "help": "chimica-materia-soluzioni/classificare"
+        }
+      ],
+      "hint": "Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "explanation": "Una sostanza elementare molecolare. Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "help": "chimica-materia-soluzioni/classificare"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-classificare-1",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "classificare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Acqua liquida e ghiaccio puri nello stesso recipiente:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una sostanza e due fasi."
+        },
+        {
+          "id": "errore-1",
+          "text": "Due sostanze perché hanno stati diversi.",
+          "feedback": "Il passaggio di stato non cambia l’identità chimica H₂O.",
+          "help": "chimica-materia-soluzioni/classificare"
+        },
+        {
+          "id": "errore-2",
+          "text": "Una sola fase perché c’è un solo elemento.",
+          "feedback": "H₂O contiene due elementi e coesistono due fasi.",
+          "help": "chimica-materia-soluzioni/classificare"
+        }
+      ],
+      "hint": "Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "explanation": "Una sostanza e due fasi. Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "help": "chimica-materia-soluzioni/classificare"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-classificare-2",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "classificare",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un normale filtro da particelle separa il sale completamente disciolto dall’acqua?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: gli ioni disciolti attraversano quel tipo di filtro."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, perché ogni miscela contiene granuli visibili.",
+          "feedback": "Le soluzioni non contengono necessariamente particelle visibili trattenibili.",
+          "help": "chimica-materia-soluzioni/classificare"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, trasformando il sale in un nuovo elemento.",
+          "feedback": "La filtrazione non cambia gli elementi chimici.",
+          "help": "chimica-materia-soluzioni/classificare"
+        }
+      ],
+      "hint": "Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "explanation": "No: gli ioni disciolti attraversano quel tipo di filtro. Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "help": "chimica-materia-soluzioni/classificare"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-classificare-3",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "classificare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nella fusione ordinaria del ghiaccio cambia soprattutto:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’organizzazione intermolecolare, non l’identità delle molecole H₂O."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il numero di protoni dell’ossigeno.",
+          "feedback": "Una fusione non è una trasformazione nucleare.",
+          "help": "chimica-materia-soluzioni/classificare"
+        },
+        {
+          "id": "errore-2",
+          "text": "La formula H₂O in H₂ e O₂.",
+          "feedback": "Questa sarebbe una trasformazione chimica, non semplice fusione.",
+          "help": "chimica-materia-soluzioni/classificare"
+        }
+      ],
+      "hint": "Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "explanation": "L’organizzazione intermolecolare, non l’identità delle molecole H₂O. Fase, componente e tipo di atomo rispondono a domande diverse. Una soluzione non si separa con un normale filtro da particelle.",
+      "help": "chimica-materia-soluzioni/classificare"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-atomo-0",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "atomo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una specie ha A=40, Z=20, carica +2. Quanti elettroni ha?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "18."
+        },
+        {
+          "id": "errore-1",
+          "text": "20.",
+          "feedback": "20 sarebbe il numero di elettroni dell’atomo neutro.",
+          "help": "chimica-materia-soluzioni/atomo"
+        },
+        {
+          "id": "errore-2",
+          "text": "22.",
+          "feedback": "Una carica positiva segnala perdita di elettroni, non acquisto.",
+          "help": "chimica-materia-soluzioni/atomo"
+        }
+      ],
+      "hint": "Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "explanation": "18. Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "help": "chimica-materia-soluzioni/atomo"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-atomo-1",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "atomo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Carbonio-12 e carbonio-14 differiscono per:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Numero di neutroni."
+        },
+        {
+          "id": "errore-1",
+          "text": "Numero di protoni.",
+          "feedback": "Z deve rimanere sei perché entrambi siano carbonio.",
+          "help": "chimica-materia-soluzioni/atomo"
+        },
+        {
+          "id": "errore-2",
+          "text": "La necessità che uno sia sempre uno ione.",
+          "feedback": "Isotopia riguarda il nucleo e non impone una carica ionica.",
+          "help": "chimica-materia-soluzioni/atomo"
+        }
+      ],
+      "hint": "Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "explanation": "Numero di neutroni. Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "help": "chimica-materia-soluzioni/atomo"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-atomo-2",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "atomo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Grafite e diamante sono:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Allotropi del carbonio."
+        },
+        {
+          "id": "errore-1",
+          "text": "Isotopi perché hanno per forza neutroni diversi.",
+          "feedback": "La distinzione riguarda i legami e la struttura, non necessariamente i neutroni.",
+          "help": "chimica-materia-soluzioni/atomo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Due elementi con Z diverso.",
+          "feedback": "Entrambi sono carbonio.",
+          "help": "chimica-materia-soluzioni/atomo"
+        }
+      ],
+      "hint": "Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "explanation": "Allotropi del carbonio. Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "help": "chimica-materia-soluzioni/atomo"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-atomo-3",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "atomo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel reticolo del NaCl solido la formula indica:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il rapporto 1:1 fra ioni, rappresentato dall’unità formula."
+        },
+        {
+          "id": "errore-1",
+          "text": "Una molecola isolata identica all’acqua.",
+          "feedback": "Il solido ionico non è descritto correttamente come una collezione di molecole H₂O-like.",
+          "help": "chimica-materia-soluzioni/atomo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Due atomi necessariamente neutri senza cariche.",
+          "feedback": "Il reticolo è formato da ioni, non da una coppia di atomi neutri indipendenti.",
+          "help": "chimica-materia-soluzioni/atomo"
+        }
+      ],
+      "hint": "Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "explanation": "Il rapporto 1:1 fra ioni, rappresentato dall’unità formula. Isotopo: neutroni. Ione: elettroni. Allotropo: struttura dello stesso elemento.",
+      "help": "chimica-materia-soluzioni/atomo"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-masse-0",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "masse",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La massa atomica relativa Aᵣ ha unità:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nessuna: è un rapporto adimensionale."
+        },
+        {
+          "id": "errore-1",
+          "text": "g/mol.",
+          "feedback": "g/mol è un’unità di massa molare, non di Aᵣ.",
+          "help": "chimica-materia-soluzioni/masse"
+        },
+        {
+          "id": "errore-2",
+          "text": "Mol.",
+          "feedback": "La mole misura quantità di sostanza, non massa relativa.",
+          "help": "chimica-materia-soluzioni/masse"
+        }
+      ],
+      "hint": "Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "explanation": "Nessuna: è un rapporto adimensionale. Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "help": "chimica-materia-soluzioni/masse"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-masse-1",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "masse",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Isotopi fittizi da 10 u (20%) e 11 u (80%): massa media?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "10,8 u."
+        },
+        {
+          "id": "errore-1",
+          "text": "10,5 u.",
+          "feedback": "Hai fatto una media non pesata: le abbondanze non sono uguali.",
+          "help": "chimica-materia-soluzioni/masse"
+        },
+        {
+          "id": "errore-2",
+          "text": "21 u.",
+          "feedback": "La somma delle masse non è la media di un campione isotopico.",
+          "help": "chimica-materia-soluzioni/masse"
+        }
+      ],
+      "hint": "Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "explanation": "10,8 u. Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "help": "chimica-materia-soluzioni/masse"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-masse-2",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "masse",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Con M=18 g/mol, 9 g di acqua contengono:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "0,5 mol di molecole d’acqua."
+        },
+        {
+          "id": "errore-1",
+          "text": "2 mol di molecole d’acqua.",
+          "feedback": "Hai invertito M/m; occorre n=m/M.",
+          "help": "chimica-materia-soluzioni/masse"
+        },
+        {
+          "id": "errore-2",
+          "text": "162 mol di molecole d’acqua.",
+          "feedback": "m×M non dà una quantità in mol.",
+          "help": "chimica-materia-soluzioni/masse"
+        }
+      ],
+      "hint": "Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "explanation": "0,5 mol di molecole d’acqua. Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "help": "chimica-materia-soluzioni/masse"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-masse-3",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "masse",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "0,5 mol di molecole H₂O contengono quanti mol di atomi H?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "1 mol di atomi H."
+        },
+        {
+          "id": "errore-1",
+          "text": "0,5 mol di atomi H.",
+          "feedback": "Ogni molecola contiene due atomi di idrogeno.",
+          "help": "chimica-materia-soluzioni/masse"
+        },
+        {
+          "id": "errore-2",
+          "text": "3 mol di atomi H.",
+          "feedback": "Tre è il numero totale di atomi per molecola, non il numero di H, e va moltiplicato per 0,5.",
+          "help": "chimica-materia-soluzioni/masse"
+        }
+      ],
+      "hint": "Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "explanation": "1 mol di atomi H. Massa relativa senza unità, massa atomica in u, massa molare in g/mol, quantità in mol: prima la grandezza, poi il numero.",
+      "help": "chimica-materia-soluzioni/masse"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-soluzioni-0",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "soluzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Solubilità da 60 a 40 g/100 g acqua; 50 g acqua, soluzione inizialmente satura, nessuna evaporazione. Quanto precipita all’equilibrio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "10 g."
+        },
+        {
+          "id": "errore-1",
+          "text": "20 g.",
+          "feedback": "20 g è la differenza per 100 g d’acqua; qui ne hai 50.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "30 g.",
+          "feedback": "30 g è il soluto iniziale, ma 20 g restano disciolti.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        }
+      ],
+      "hint": "Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "explanation": "10 g. Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "help": "chimica-materia-soluzioni/soluzioni"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-soluzioni-1",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "soluzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "100 g di soluzione binaria al 5% m/m contengono:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "5 g di soluto e 95 g di solvente."
+        },
+        {
+          "id": "errore-1",
+          "text": "5 g di soluto e 100 g di solvente.",
+          "feedback": "Il denominatore è la soluzione totale, non il solo solvente.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "5 mL di soluto e 95 mL di solvente.",
+          "feedback": "m/m riguarda masse, non volumi; i volumi inoltre non sono sempre additivi.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        }
+      ],
+      "hint": "Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "explanation": "5 g di soluto e 95 g di solvente. Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "help": "chimica-materia-soluzioni/soluzioni"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-soluzioni-2",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "soluzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "0,10 M di MgCl₂ completamente dissociato, soluzione ideale: osmolarità?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "0,30 Osm/L."
+        },
+        {
+          "id": "errore-1",
+          "text": "0,10 Osm/L.",
+          "feedback": "Hai contato unità formula invece delle tre particelle prodotte.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "0,20 Osm/L.",
+          "feedback": "MgCl₂ dà un Mg²⁺ e due Cl⁻: tre ioni, non due.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        }
+      ],
+      "hint": "Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "explanation": "0,30 Osm/L. Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "help": "chimica-materia-soluzioni/soluzioni"
+    },
+    {
+      "id": "pdf-chimica-materia-soluzioni-soluzioni-3",
+      "unit": "chimica-materia-soluzioni",
+      "concept": "soluzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Per H₃PO₄ 0,10 M, quale affermazione sulla normalità è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Dipende dalla neutralizzazione: 0,10 N per un protone, 0,30 N per tre."
+        },
+        {
+          "id": "errore-1",
+          "text": "È sempre 0,30 N in qualunque reazione.",
+          "feedback": "Il numero di equivalenza è definito dalla reazione, non solo dalla formula.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        },
+        {
+          "id": "errore-2",
+          "text": "Non dipende mai dalla molarità.",
+          "feedback": "N=zₑc: molarità e numero di equivalenza concorrono entrambi.",
+          "help": "chimica-materia-soluzioni/soluzioni"
+        }
+      ],
+      "hint": "Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "explanation": "Dipende dalla neutralizzazione: 0,10 N per un protone, 0,30 N per tre. Scrivi esplicitamente solvente o soluzione, massa o volume, reazione e ipotesi di idealità prima del calcolo.",
+      "help": "chimica-materia-soluzioni/soluzioni"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-mitocondrio-0",
+      "unit": "cellula-comparti-verifica",
+      "concept": "mitocondrio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale complesso della catena non pompa protoni nel modello descritto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il complesso II."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il complesso I.",
+          "feedback": "Il complesso I contribuisce al pompaggio.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        },
+        {
+          "id": "errore-2",
+          "text": "Il complesso IV.",
+          "feedback": "Il complesso IV contribuisce al pompaggio durante il trasferimento all’ossigeno.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        }
+      ],
+      "hint": "Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "explanation": "Il complesso II. Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "help": "cellula-comparti-verifica/mitocondrio"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-mitocondrio-1",
+      "unit": "cellula-comparti-verifica",
+      "concept": "mitocondrio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Dove si svolge la glicolisi nelle cellule eucariotiche?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nel citosol."
+        },
+        {
+          "id": "errore-1",
+          "text": "Interamente nella matrice mitocondriale.",
+          "feedback": "La glicolisi precede gli ingressi mitocondriali e avviene nel citosol.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        },
+        {
+          "id": "errore-2",
+          "text": "Nello spazio intermembrana.",
+          "feedback": "Questo compartimento non è la sede della glicolisi.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        }
+      ],
+      "hint": "Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "explanation": "Nel citosol. Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "help": "cellula-comparti-verifica/mitocondrio"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-mitocondrio-2",
+      "unit": "cellula-comparti-verifica",
+      "concept": "mitocondrio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un aumento del numero di frammenti mitocondriali dimostra da solo più ATP?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: numero, massa, dinamica e funzione sono misure distinte."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, ogni frammento ha sempre la stessa produzione.",
+          "feedback": "La produzione non è una costante per frammento.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, la fissione sintetizza direttamente ATP senza substrati.",
+          "feedback": "La fissione divide la rete; non sostituisce il metabolismo energetico.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        }
+      ],
+      "hint": "Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "explanation": "No: numero, massa, dinamica e funzione sono misure distinte. Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "help": "cellula-comparti-verifica/mitocondrio"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-mitocondrio-3",
+      "unit": "cellula-comparti-verifica",
+      "concept": "mitocondrio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa distingue mitofagia e biogenesi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La prima elimina materiale mitocondriale; la seconda costruisce componenti e capacità."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sono due nomi per la sola fusione delle membrane.",
+          "feedback": "Fusione, biogenesi e mitofagia svolgono funzioni differenti.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        },
+        {
+          "id": "errore-2",
+          "text": "La mitofagia copia soltanto il DNA senza degradazione.",
+          "feedback": "Il termine riguarda un processo autofagico di rimozione.",
+          "help": "cellula-comparti-verifica/mitocondrio"
+        }
+      ],
+      "hint": "Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "explanation": "La prima elimina materiale mitocondriale; la seconda costruisce componenti e capacità. Separa compartimento, via metabolica e dinamica; un numero o un’immagine non misurano da soli la funzione.",
+      "help": "cellula-comparti-verifica/mitocondrio"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-reticolo-0",
+      "unit": "cellula-comparti-verifica",
+      "concept": "reticolo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "I microsomi sono:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Vescicole derivate da membrane frammentate durante la preparazione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Organelli autonomi presenti identici nella cellula integra.",
+          "feedback": "Sono prodotti dell’omogeneizzazione e richiusura delle membrane.",
+          "help": "cellula-comparti-verifica/reticolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sempre mitocondri completi.",
+          "feedback": "I microsomi non coincidono con mitocondri intatti.",
+          "help": "cellula-comparti-verifica/reticolo"
+        }
+      ],
+      "hint": "Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "explanation": "Vescicole derivate da membrane frammentate durante la preparazione. Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "help": "cellula-comparti-verifica/reticolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-reticolo-1",
+      "unit": "cellula-comparti-verifica",
+      "concept": "reticolo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una centrifugazione differenziale produce un pellet: possiamo definirlo automaticamente puro?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è una frazione arricchita che richiede caratterizzazione."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, qualunque pellet contiene una sola specie di organello.",
+          "feedback": "Le proprietà di sedimentazione possono sovrapporsi.",
+          "help": "cellula-comparti-verifica/reticolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, perché il surnatante non contiene particelle.",
+          "feedback": "Il surnatante può contenere particelle non ancora sedimentate.",
+          "help": "cellula-comparti-verifica/reticolo"
+        }
+      ],
+      "hint": "Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "explanation": "No: è una frazione arricchita che richiede caratterizzazione. Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "help": "cellula-comparti-verifica/reticolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-reticolo-2",
+      "unit": "cellula-comparti-verifica",
+      "concept": "reticolo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Il REL partecipa al metabolismo lipidico. Questo significa che tutta la sintesi degli acidi grassi avviene nel suo lume?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la sintasi degli acidi grassi è citosolica; altre trasformazioni coinvolgono il reticolo."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, ogni reazione lipidica è luminale.",
+          "feedback": "La categoria metabolismo lipidico comprende vie in compartimenti diversi.",
+          "help": "cellula-comparti-verifica/reticolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "No, il reticolo non partecipa mai a reazioni lipidiche.",
+          "feedback": "Partecipa a molte trasformazioni: il problema è l’assoluto tutta/mai.",
+          "help": "cellula-comparti-verifica/reticolo"
+        }
+      ],
+      "hint": "Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "explanation": "No: la sintasi degli acidi grassi è citosolica; altre trasformazioni coinvolgono il reticolo. Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "help": "cellula-comparti-verifica/reticolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-reticolo-3",
+      "unit": "cellula-comparti-verifica",
+      "concept": "reticolo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Biotrasformazione di uno xenobiotico implica sempre minor tossicità?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può anche generare metaboliti più reattivi."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, metabolismo ed eliminazione innocua sono sinonimi.",
+          "feedback": "Metabolismo ed escrezione sono processi distinti e non garantiscono innocuità.",
+          "help": "cellula-comparti-verifica/reticolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, basta che la sostanza entri nel sangue.",
+          "feedback": "La distribuzione nel sangue non dimostra detossificazione.",
+          "help": "cellula-comparti-verifica/reticolo"
+        }
+      ],
+      "hint": "Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "explanation": "No: può anche generare metaboliti più reattivi. Una frazione arricchita non è pura; microsoma è un prodotto della preparazione. Associa ogni reazione al compartimento corretto.",
+      "help": "cellula-comparti-verifica/reticolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-degradazione-0",
+      "unit": "cellula-comparti-verifica",
+      "concept": "degradazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale processo sostiene direttamente l’acidità lisosomiale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Trasporto di protoni nel lume tramite una pompa che usa ATP."
+        },
+        {
+          "id": "errore-1",
+          "text": "Produzione obbligatoria di ATP da una catena respiratoria lisosomiale.",
+          "feedback": "Il lisosoma non usa una propria catena respiratoria per questo scopo.",
+          "help": "cellula-comparti-verifica/degradazione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Diffusione che rende sempre uguale il pH a quello citosolico.",
+          "feedback": "Il lume viene mantenuto più acido mediante trasporto attivo.",
+          "help": "cellula-comparti-verifica/degradazione"
+        }
+      ],
+      "hint": "Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "explanation": "Trasporto di protoni nel lume tramite una pompa che usa ATP. Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "help": "cellula-comparti-verifica/degradazione"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-degradazione-1",
+      "unit": "cellula-comparti-verifica",
+      "concept": "degradazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il pH ottimale acido delle idrolasi rende sempre innocua la rottura del lisosoma?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la permeabilizzazione può contribuire a danno e morte cellulare."
+        },
+        {
+          "id": "errore-1",
+          "text": "Sì, qualunque enzima fuori dal lisosoma è immediatamente e totalmente innocuo.",
+          "feedback": "La differenza di pH non garantisce assenza di danno.",
+          "help": "cellula-comparti-verifica/degradazione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Sì, perché i lisosomi non contengono proteine.",
+          "feedback": "Contengono numerosi enzimi proteici.",
+          "help": "cellula-comparti-verifica/degradazione"
+        }
+      ],
+      "hint": "Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "explanation": "No: la permeabilizzazione può contribuire a danno e morte cellulare. Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "help": "cellula-comparti-verifica/degradazione"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-degradazione-2",
+      "unit": "cellula-comparti-verifica",
+      "concept": "degradazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Perossisoma: ossidazioni e gestione di H₂O₂ mediante catalasi."
+        },
+        {
+          "id": "errore-1",
+          "text": "Perossisoma: sola idrolisi acida identica al lisosoma.",
+          "feedback": "Il perossisoma è un compartimento ossidativo distinto.",
+          "help": "cellula-comparti-verifica/degradazione"
+        },
+        {
+          "id": "errore-2",
+          "text": "Lisosoma: principale sede del ciclo di Krebs.",
+          "feedback": "Krebs è principalmente mitocondriale, non lisosomiale.",
+          "help": "cellula-comparti-verifica/degradazione"
+        }
+      ],
+      "hint": "Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "explanation": "Perossisoma: ossidazioni e gestione di H₂O₂ mediante catalasi. Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "help": "cellula-comparti-verifica/degradazione"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-degradazione-3",
+      "unit": "cellula-comparti-verifica",
+      "concept": "degradazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un’idrolasi è presente ma non raggiunge il lisosoma. Quale conclusione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La quantità totale non garantisce la funzione nel compartimento giusto."
+        },
+        {
+          "id": "errore-1",
+          "text": "La degradazione lisosomiale è certamente normale.",
+          "feedback": "La destinazione dell’enzima è necessaria per la funzione locale.",
+          "help": "cellula-comparti-verifica/degradazione"
+        },
+        {
+          "id": "errore-2",
+          "text": "È impossibile che il trasporto alteri una funzione enzimatica cellulare.",
+          "feedback": "Smistamento e trasporto possono compromettere la funzione pur con enzima sintetizzato.",
+          "help": "cellula-comparti-verifica/degradazione"
+        }
+      ],
+      "hint": "Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "explanation": "La quantità totale non garantisce la funzione nel compartimento giusto. Idrolisi acida e ossidazione perossisomiale sono processi diversi. Funzione, destinazione e integrità della membrana contano quanto la quantità di enzima.",
+      "help": "cellula-comparti-verifica/degradazione"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-muscolo-0",
+      "unit": "cellula-comparti-verifica",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una fibra muscolare scheletrica è:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una cellula multinucleata con molte miofibrille."
+        },
+        {
+          "id": "errore-1",
+          "text": "Un fascio di cellule individuali ciascuna chiamata miofibrilla.",
+          "feedback": "Le miofibrille sono strutture intracellulari; la fibra è già una cellula.",
+          "help": "cellula-comparti-verifica/muscolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un sarcomero senza membrana cellulare.",
+          "feedback": "Il sarcomero è un’unità delle miofibrille, non l’intera fibra.",
+          "help": "cellula-comparti-verifica/muscolo"
+        }
+      ],
+      "hint": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "explanation": "Una cellula multinucleata con molte miofibrille. La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "help": "cellula-comparti-verifica/muscolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-muscolo-1",
+      "unit": "cellula-comparti-verifica",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Durante l’accorciamento del sarcomero nel modello dello scorrimento:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Banda A circa costante; banda I e zona H diminuiscono."
+        },
+        {
+          "id": "errore-1",
+          "text": "Si accorciano necessariamente tutti i filamenti spessi.",
+          "feedback": "Il modello prevede scorrimento, non accorciamento dei filamenti.",
+          "help": "cellula-comparti-verifica/muscolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Le linee Z si allontanano.",
+          "feedback": "Le Z si avvicinano quando il sarcomero si accorcia.",
+          "help": "cellula-comparti-verifica/muscolo"
+        }
+      ],
+      "hint": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "explanation": "Banda A circa costante; banda I e zona H diminuiscono. La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "help": "cellula-comparti-verifica/muscolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-muscolo-2",
+      "unit": "cellula-comparti-verifica",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La triade scheletrica comprende:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Un tubulo T e due cisterne terminali del reticolo."
+        },
+        {
+          "id": "errore-1",
+          "text": "Tre nuclei cellulari.",
+          "feedback": "Triade indica un’organizzazione di membrane, non tre nuclei.",
+          "help": "cellula-comparti-verifica/muscolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "Un mitocondrio e due lisosomi.",
+          "feedback": "Gli organelli indicati non costituiscono la triade.",
+          "help": "cellula-comparti-verifica/muscolo"
+        }
+      ],
+      "hint": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "explanation": "Un tubulo T e due cisterne terminali del reticolo. La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "help": "cellula-comparti-verifica/muscolo"
+    },
+    {
+      "id": "pdf-cellula-comparti-verifica-muscolo-3",
+      "unit": "cellula-comparti-verifica",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale evento richiede legame di ATP alla miosina nel ciclo dei ponti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il distacco della testa dall’actina."
+        },
+        {
+          "id": "errore-1",
+          "text": "Il mantenimento irreversibile di ogni ponte attaccato.",
+          "feedback": "Il legame dell’ATP permette il distacco, non il blocco irreversibile.",
+          "help": "cellula-comparti-verifica/muscolo"
+        },
+        {
+          "id": "errore-2",
+          "text": "La trasformazione del tubulo T in una cisterna lisosomiale.",
+          "feedback": "Non è un evento del ciclo dei ponti.",
+          "help": "cellula-comparti-verifica/muscolo"
+        }
+      ],
+      "hint": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "explanation": "Il distacco della testa dall’actina. La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
+      "help": "cellula-comparti-verifica/muscolo"
     }
   ],
   "templates": [

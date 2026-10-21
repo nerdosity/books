@@ -11,8 +11,8 @@ test('all official first-year exams have teaching and preserve the biology/bioch
   assert.equal(course.curriculum.academicYear,'2026/2027');
   const e=course.exams.find(e=>e.id==='scienze-biologiche');
   assert.equal(e.modules.length,2);
-  assert.equal(examUnitIds(e).length,49);
-  assert.equal(unitsForExam(course,e.id).length,49);
+  assert.equal(examUnitIds(e).length,51);
+  assert.equal(unitsForExam(course,e.id).length,51);
   assert.equal(examsForUnit(course,'ph')[0].id,e.id);
   assert.equal(unitsForExam(course,'informatica').length,10);
   assert.ok(course.exams.every(e=>e.modules.every(m=>m.unitIds.length)));
@@ -74,7 +74,7 @@ test('visual markers reject invalid coordinates, duplicate letters and missing l
 });
 test('new chapters provide internal teaching, worked examples and self-assessed oral answers',()=>{
   const expanded=course.units.filter(u=>u.oral);
-  assert.equal(expanded.length,171);
+  assert.equal(expanded.length,179);
   for(const u of expanded) {
     assert.ok(u.sections.length>=4);
     assert.ok(u.sections.every(s=>s.text.length>=2&&s.example&&s.takeaway));

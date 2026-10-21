@@ -10,3 +10,18 @@ node_modules/
 *backup*.json
 progressi*.json
 /studio/pronto/
+
+# Materiali forniti e ricostruzioni PDF: solo locali, esclusi dalla pubblicazione.
+/studio/*.pdf
+/studio/*.mhtml
+/studio/*.mht
+/studio/dispense/
+/studio/scripts/chemistry-slides.mjs
+/studio/scripts/extract-studocu.py
+/studio/scripts/prepare-chemistry-crops.py
+/studio/scripts/print-chemistry.mjs
+/studio/scripts/print-slides.mjs
+/studio/scripts/restyle-slides.py
+/studio/Biologia e Genetica_ Studio di Bonaldo, Duga, Pierantoni, Riva, Romanelli - Studocu.mhtml
+/studio/unidocs-13101.pdf
+/studio/unidocs-19289.pdf

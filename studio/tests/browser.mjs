@@ -33,14 +33,14 @@ try {
   await page.screenshot({path:`${artifacts}/scrivania.png`,fullPage:true});
   await page.getByRole('link',{name:'Scienze biologiche',exact:true}).click();
   await page.getByRole('heading',{name:'Scienze biologiche',exact:true,level:1}).waitFor();
-  assert.equal(await page.locator('.unit-card').count(),49);
+  assert.equal(await page.locator('.unit-card').count(),51);
   assert.equal(await page.locator('.exam-module').count(),2);
   await page.locator('#lesson-search').fill('Krebs');
   assert.equal(await page.locator('.unit-card:visible').count(),1);
   await page.locator('#lesson-search').fill('inesistente-abc');
   assert.ok(await page.locator('#search-empty').isVisible());
   await page.locator('#lesson-search').fill('');
-  assert.equal(await page.locator('.unit-card:visible').count(),49);
+  assert.equal(await page.locator('.unit-card:visible').count(),51);
   await page.screenshot({path:`${artifacts}/esame-biologiche.png`,fullPage:true});
   await page.goto(`${url}#lesson/mitocondri`);
   await page.getByRole('heading',{name:'Krebs e fosforilazione ossidativa',exact:true}).waitFor();
@@ -65,7 +65,7 @@ try {
   const examContext=await browser.newContext({offline:true}),examPage=await examContext.newPage();
   await examPage.goto(`${url}#practice/scienze-biologiche`);
   await examPage.locator('#practice-exam').waitFor();
-  assert.equal(await examPage.locator('#practice-unit option').count(),50);
+  assert.equal(await examPage.locator('#practice-unit option').count(),52);
   await examPage.locator('#practice-exam').selectOption('scienze-base');
   assert.deepEqual(await examPage.locator('#practice-unit option').evaluateAll(options=>options.map(o=>o.value).filter(Boolean).sort()),
     unitsForExam(course,'scienze-base').map(u=>u.id).sort());

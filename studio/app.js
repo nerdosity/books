@@ -1,7 +1,7 @@
 import { makeQuestion, checkAnswer, expectedText, shuffled, sessionScore, reviewQueue, ENGINE_VERSION, fmt } from './lib/engine.js';
 import { STORAGE_KEY, freshState, validateState, mergeState } from './lib/state.js';
 import { validateContent } from './lib/validate.js';
-import { unitsForExam, examsForUnit, selectDefinitions, programmeQuestions } from './lib/curriculum.js';
+import { unitsForExam, examsForUnit, selectDefinitions, programmeQuestions, mockQuestions } from './lib/curriculum.js';
 import { audioSettingsHTML, audioPanelHTML, handleAudioClick, handleAudioSubmit, disposeAudioPlayers, bindAudioSettingsForm } from './lib/audio-ui.js';
 import { newSheetRecord, sheetLinks, sheetPage, sheetAction, refreshSheet, fillSheetDown, sheetPrint, sheetProgress } from './lib/sheet-ui.js';
 import { updateDataLab } from './lib/data-lab-ui.js';
@@ -91,9 +91,12 @@ function oralHTML(unit, solution = false) {
   return `<section class="oral"><h2>${unit.subject === 'inglese' ? 'Prova di scrittura e produzione orale' : 'Allenati a rispondere a voce'}</h2><p>${esc(o.prompt)}</p><p class="reading-note">Prova prima con parole tue, anche nell’appunto in fondo alla pagina, poi confronta. Questa attività non riceve un voto automatico.</p>
     ${solution ? '<div>' : '<details><summary>Confronta con una risposta ragionata</summary>'}<p>${esc(o.answer)}</p><strong>Controlla di aver spiegato:</strong><ul>${o.criteria.map(c => `<li>${esc(c)}</li>`).join('')}</ul>${solution ? '</div>' : '</details>'}</section>`;
 }
+function sourceLink(s) {
+  return s.file ? `<span>${esc(s.title)} · ${esc(s.file)}</span>` : `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`;
+}
 function sourceHTML(unit) {
   const sources = (unit.sources || []).map(id => course.sources.find(s => s.id === id));
-  return sources.length ? `<details class="lesson-sources editorial"><summary>Fonti e approfondimenti</summary><p class="reading-note">Riferimenti facoltativi; le spiegazioni da studiare sono in questa pagina.</p><ul>${sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>` : '';
+  return sources.length ? `<details class="lesson-sources editorial"><summary>Fonti e approfondimenti</summary><p class="reading-note">Riferimenti facoltativi; le spiegazioni da studiare sono in questa pagina.</p><ul>${sources.map(s => `<li>${sourceLink(s)}<p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>` : '';
 }
 function examPendingHTML(exam) {
   const note=course.checkpoint?.examNotes?.find(n=>n.id===exam.id);
@@ -124,7 +127,7 @@ function programmeHTML(exam) {
     <p>${esc(exam.syllabusStatus)}. <a href="${esc(exam.sourceUrl)}" target="_blank" rel="noopener noreferrer">Scheda ufficiale UniBa ↗</a></p>
     <p><strong>Fonte analitica: ${esc(p.referenceYear)}.</strong> Piano attuale verificato, programma analitico 2026/27 non confermato. ${partial} nuclei hanno approfondimenti esplicitamente da completare.</p>
     <p class="reading-note">La mappa raggruppa gli argomenti delle schede consultate. “Lezione + quiz” significa che esiste una trattazione introduttiva verificabile, non che siano esauriti tutti i dettagli o dimostrata la preparazione d’esame.</p>
-    <ul>${p.sourceIds.map(id=>{const s=course.sources.find(s=>s.id===id);return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`;}).join('')}</ul>
+    <ul>${p.sourceIds.map(id=>{const s=course.sources.find(s=>s.id===id);return `<li>${sourceLink(s)}<p class="reading-note">${esc(s.scope)}</p></li>`;}).join('')}</ul>
     <div class="programme-topics">${p.topics.map(t=>`<article class="programme-topic"><h3>${esc(t.title)}</h3><span class="tag ${t.status==='introduced'?'':'orange'}">${({introduced:'Lezione + quiz',partial:'Da approfondire',missing:'Non ancora disponibile'})[t.status]}</span>
       ${t.note?`<p>${esc(t.note)}</p>`:''}
       ${t.refs.length?`<ul>${t.refs.map(ref=>{const [id,sid]=ref.split('/'),u=unitById(id),s=u.sections.find(s=>s.id===sid);return `<li><a href="#lesson/${esc(ref)}">${esc(u.title)} · ${esc(s.title)}</a></li>`;}).join('')}</ul><p class="reading-note">${t.questionIds.length} domande con correzione e aiuto interno.</p>`:''}
@@ -141,6 +144,7 @@ function examPage(id) {
     <p class="reading-note">${units.length ? `${read} di ${units.length} lezioni segnate come lette · materiale in ampliamento.` : 'Materiale di studio da sviluppare.'}</p>
     ${examPendingHTML(exam)}
     ${units.length ? `<div class="row">${action('start-exam','Esercitati su questo esame',`data-exam="${exam.id}"`,'primary')}${action('start-programme',`Test guidato · ${programmeQuestions(course,definitions,exam.id,()=>0).length} domande`,`data-exam="${exam.id}"`)}<a class="button" href="#print/${exam.id}">Quaderno di questo esame</a></div>` : ''}
+    ${exam.mockTest ? `<div class="row">${action('start-mock',`Simulazione scritta · ${exam.mockTest.size} domande`,`data-exam="${exam.id}"`)}</div><p class="reading-note">Allenamento con correzione immediata. Formato dalla scheda ${esc(exam.mockTest.referenceYear)}; distribuzione degli argomenti scelta per il ripasso.</p>` : ''}
     ${writtenLinks(course,exam.id)}
     ${units.length ? '<label class="search-label">Cerca tra le lezioni di questo esame<input id="lesson-search" type="search" placeholder="Es. metabolismo, contratti, apprendimento"></label>' : ''}
     ${exam.modules.map(m => `<section class="exam-module"><div class="section-heading"><h2>${esc(m.title)}</h2><details class="editorial"><summary>Note sul modulo</summary><p>${esc(m.coverage)}</p></details></div>
@@ -228,11 +232,13 @@ function practice(examId = '') {
     <button class="primary">Inizia la sessione →</button></form></div>
     <div class="callout section-heading"><strong>Come funziona la verifica.</strong> Conta il primo invio valido. Un aiuto resta sempre disponibile e viene annotato nel risultato. Per riprovare con altri dati, inizia una nuova sessione. Il voto in trentesimi è un indicatore di esercitazione, non una previsione dell’esame.</div>`;
 }
-function startSession({ unit = '', exam = '', level = '', size = state.settings.sessionSize, review = false, programme = false } = {}) {
+function startSession({ unit = '', exam = '', level = '', size = state.settings.sessionSize, review = false, programme = false, mock = false } = {}) {
   if (state.active) { location.hash = '#practice'; return; }
   let pool = selectDefinitions(course,definitions,{exam,unit,level});
   let items;
-  if (programme) {
+  if (mock) {
+    items = mockQuestions(course,definitions,exam).map(q=>({qid:q.id,seed:seed(),assisted:false,attemptId:null}));
+  } else if (programme) {
     items = programmeQuestions(course,definitions,exam).map(q=>({qid:q.id,seed:seed(),assisted:false,attemptId:null}));
   } else if (review) {
     items = reviewQueue(state.attempts).filter(a => definitions.some(d => d.id === a.qid)).slice(0,size)
@@ -247,7 +253,7 @@ function startSession({ unit = '', exam = '', level = '', size = state.settings.
     items = selected.map(q => ({ qid:q.id, seed:seed(), assisted:false, attemptId:null }));
   }
   if (!items.length) { notice('Non ci sono esercizi disponibili per questa selezione.'); return; }
-  state.active = { id:uid(), startedAt:now(), title:programme ? `Test guidato · ${course.exams.find(e=>e.id===exam).title}` : review ? 'Ripasso degli errori' : unit ? unitById(unit).title : exam ? course.exams.find(e => e.id === exam).title : 'Allenamento misto',
+  state.active = { id:uid(), startedAt:now(), title:mock ? `Simulazione scritta · ${course.exams.find(e=>e.id===exam).title}` : programme ? `Test guidato · ${course.exams.find(e=>e.id===exam).title}` : review ? 'Ripasso degli errori' : unit ? unitById(unit).title : exam ? course.exams.find(e => e.id === exam).title : 'Allenamento misto',
     kind:review ? 'review' : 'practice', items, index:0 };
   save(); location.hash = '#session';
 }
@@ -314,7 +320,7 @@ function books() {
     <div class="card"><h2>Primo anno · Università di Bari</h2><p>${esc(course.curriculum.note)}</p><p><a href="#learn">Esami e materiale disponibile →</a> · <a href="${esc(course.curriculum.sourceUrl)}" target="_blank" rel="noopener noreferrer">Piano ufficiale 2026/27 ↗</a></p></div>
     <div class="callout warning">${esc(library.scope)} Ricerca aggiornata al 20 ottobre 2026.</div>
     <div class="section-heading"><h2>Confronto con i programmi</h2></div><div class="grid">${course.exams.map(e => `<article class="card"><h3>${esc(e.title)}</h3><p>Fonte analitica: ${esc(e.programme.referenceYear)}. ${unitsForExam(course,e.id).length} lezioni disponibili.</p><ul>${e.programme.topics.filter(t=>t.status!=='introduced').map(t=>`<li>${esc(t.title)}: ${esc(t.note)}</li>`).join('') || '<li>Nuclei della scheda consultata introdotti; profondità e corrispondenza con il programma attuale da confermare.</li>'}</ul><a href="#exam/${e.id}">Apri mappa, lezioni e test →</a></article>`).join('')}</div>
-    <details class="card"><summary>Fonti aperte: consultazione, confronto e approfondimento</summary><p>Testi, schemi e quesiti nell’app sono originali. I riferimenti indicano il loro ambito: un indice non equivale alla lettura integrale di un manuale. Non serve acquistare né aprire questi testi per svolgere gli esercizi disponibili.</p><ul>${course.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>
+    <details class="card"><summary>Fonti aperte: consultazione, confronto e approfondimento</summary><p>Testi, schemi e quesiti nell’app sono originali. I riferimenti indicano il loro ambito: un indice non equivale alla lettura integrale di un manuale. Non serve acquistare né aprire questi testi per svolgere gli esercizi disponibili.</p><ul>${course.sources.map(s => `<li>${sourceLink(s)}<p class="reading-note">${esc(s.scope)}</p></li>`).join('')}</ul></details>
     <div class="section-heading"><h2>I riferimenti delle fotografie</h2></div>
     ${library.books.map(b => `<article class="card book"><span class="tag">${esc(subjectById(b.subject).title)}</span><h3>${esc(b.title)}</h3><p>${esc(b.authors)}<br>${esc(b.edition)}</p><ul>${b.topics.map(t => `<li>${esc(t)}</li>`).join('')}</ul><p><strong>Che cosa è stato verificato:</strong> ${esc(b.evidence)}</p><div class="callout">${esc(b.note)}</div><p class="section-heading"><a href="${esc(b.url)}" target="_blank" rel="noopener noreferrer">Scheda dell’editore ↗</a></p></article>`).join('')}
     <details class="card"><summary>Altre fonti della ricerca</summary><ul>${library.additionalSources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a></li>`).join('')}</ul></details>`;
@@ -395,6 +401,7 @@ document.addEventListener('click', event => {
   if (name.startsWith('audio-')) { void handleAudioClick(button,course.listening || []); return; }
   if (name === 'start-unit') startSession({unit:button.dataset.unit});
   if (name === 'start-exam') startSession({exam:button.dataset.exam});
+  if (name === 'start-mock') startSession({exam:button.dataset.exam,mock:true});
   if (name === 'start-programme') startSession({exam:button.dataset.exam,programme:true});
   if (name === 'start-review') startSession({review:true});
   if (name === 'read') { state.read[button.dataset.unit] = now(); save(); button.textContent = 'Letta ✓'; }
