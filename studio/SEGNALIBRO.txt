@@ -1,6 +1,9 @@
 SEGNALIBRO DI LAVORO — 22 ottobre 2026
 STATO: IN PAUSA SU RICHIESTA DELL’UTENTE — NON RIPRENDERE AUTOMATICAMENTE
 
+AGGIORNAMENTO APPROFONDIMENTI — 22 ottobre 2026
+Aggiunti 470 collegamenti OpenStax in 185 lezioni, su 233 pagine distinte raggiungibili e controllate per titolo/argomento. Disponibili sotto chevron nelle lezioni, negli aiuti e nel quaderno stampabile; inglese, Internet solo all’apertura volontaria. Fonti e limiti in data/openstax-audit.json. Nessuna integrazione dei PDF privati nella piattaforma. Questo intervento aggiunge letture, non nuovi capitoli o quiz, e non risolve automaticamente le lacune del programma. Il punto di ripresa rimane Scienze giuridiche.
+
 Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.
 Consegna: pronto/index.html, apribile direttamente.
 Totali: 199 lezioni, 780 sezioni, 1695 quiz, 27 famiglie numeriche, 179 prove aperte, 19 immagini anatomiche. Tre prove scritte anatomiche separate (36 consegne).
@@ -44,6 +47,7 @@ PDF LOCALI
 Le ricostruzioni sono in dispense/, esclusa dal versionamento insieme ai documenti forniti e agli script di impaginazione. Il volume ricostruito dal MHTML non è integrato né collegato nella piattaforma, come richiesto. Non pubblicare o aggiungere collegamenti automaticamente.
 
 VERIFICHE E FONTI
+Approfondimenti OpenStax: check e 46 test superati; verifica HTTP delle 233 destinazioni; browser sulle 185 lezioni con controlli degli URL, chevron, testo secondario, aiuto completo dopo errore, stampa e apertura in scheda separata con progressi conservati. Browser generale e temi chiaro/scuro/dispositivo superati. Nessuna richiesta automatica di rete. Testi delle 199 lezioni e fonti precedenti preservati.
 Inglese scritto e integrazione PDF: check e 44 test superati. Browser mirato: otto capitoli, 256 feedback errati con recupero interno, tabelle, progressi precedenti, mobile, tema scuro e stampa offline. Simulazione scritta verificata su 15 risposte, ripresa della bozza, correzioni e voto persistente. Browser generale offline superato. Nessuna richiesta di rete durante queste prove. I controlli tecnici non certificano copertura completa del programma o preparazione all’esame.
 Dispense: chimica in 7 pagine, slide di chimica in 20, organelli in 75. Volume separato ricostruito da tutte le 211 tavole del salvataggio in 422 facciate; corrispondenza dei pixel delle immagini verificata. Nessuna integrazione o collegamento al volume nella piattaforma. Completezza riferita al salvataggio fornito, non confrontata con l’edizione editoriale.
 Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame.

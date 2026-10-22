@@ -11,6 +11,7 @@ import { biologyDiagramHTML } from './lib/biology-diagrams.js';
 import { vascularDiagramHTML } from './lib/vascular-diagrams.js';
 import { newWrittenRecord, writeDraft, revealWritten, rateWritten } from './lib/written.js';
 import { writtenLinks, writtenPage, writtenSummaryHTML, writtenPrintSolutions } from './lib/written-ui.js';
+import { openstaxReadingHTML } from './lib/readings.js';
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -155,7 +156,7 @@ function inlineHelp(ref) {
   const [uid, sid] = ref.split('/');
   const unit = unitById(uid), section = unit?.sections.find(s => s.id === sid);
   if (!section) return '<p>Questo paragrafo non è presente nella versione attuale dei contenuti.</p>';
-  return `<div class="lesson inline-lesson"><span class="eyebrow">${esc(unit.title)}</span>${sectionHTML(section)}</div>`;
+  return `<div class="lesson inline-lesson"><span class="eyebrow">${esc(unit.title)}</span>${sectionHTML(section)}${openstaxReadingHTML(course,unit)}</div>`;
 }
 function currentQuestion() {
   const item = state.active?.items[state.active.index];
@@ -210,6 +211,7 @@ function lesson(id, sectionId) {
     <div class="callout"><strong>Alla fine saprai:</strong><ul>${unit.objectives.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>
     ${unit.prerequisites?.length ? `<p class="reading-note">Prima di iniziare: ${unit.prerequisites.map(id => `<a href="#lesson/${id}">${esc(unitById(id).title)}</a>`).join(' · ')}</p>` : ''}
     ${unit.sections.map(s => `<section id="section-${s.id}" class="${sectionId === s.id ? 'highlight' : ''}">${sectionHTML(s)}</section>`).join('')}
+    ${openstaxReadingHTML(course,unit)}
     ${sheetLinks((course.workbooks||[]).filter(l=>l.unit===unit.id))}
     ${oralHTML(unit)}
     <section class="no-print"><h2>Ora prova a spiegarlo tu</h2><p>Chiudi per un momento la spiegazione. Ripeti i punti “Da ricordare” con parole tue e usa l’esempio per controllare il ragionamento.</p>
@@ -343,7 +345,7 @@ function printBook(id) {
   const questions = units.flatMap(u => itemsFor(u.id).map(def => makeQuestion(def, 17)));
   const labs=(course.workbooks||[]).filter(l=>units.some(u=>u.id===l.unit));
   return `<div class="no-print">${head('IL TUO QUADERNO', 'Leggi, scrivi, verifica.', 'Le soluzioni sono raccolte in fondo, separate dagli esercizi. Nella finestra di stampa puoi scegliere “Salva come PDF”.')}<div class="row">${action('print', 'Stampa / Salva come PDF', '', 'primary')}<a class="button" href="#learn">Torna al percorso</a></div></div>
-    <h1 class="print-only">Studio · Scienze motorie</h1>${units.map(u => `<article class="lesson section-heading"><h1>${esc(u.title)}</h1>${u.sections.map(s => `<section>${sectionHTML(s)}</section>`).join('')}</article>`).join('')}
+    <h1 class="print-only">Studio · Scienze motorie</h1>${units.map(u => `<article class="lesson section-heading"><h1>${esc(u.title)}</h1>${u.sections.map(s => `<section>${sectionHTML(s)}</section>`).join('')}${openstaxReadingHTML(course,u,true)}</article>`).join('')}
     <h1 class="section-heading">Esercizi</h1>${questions.map((q,i) => `<article class="question"><h3>${i+1}. ${esc(q.prompt)}</h3>${q.figureId?figureHTML(q.figureId,false):''}${q.audioId?`<p lang="en">Versione scritta del brano: ${esc(course.listening.find(c=>c.id===q.audioId).text)}</p>`:''}${q.type === 'choice' ? `<ul>${q.options.map(o => `<li>☐ ${esc(o.text)}</li>`).join('')}</ul>` : '<p>Risultato: ____________________ Unità: ____________</p>'}<p>Ragionamento: ____________________________________________________</p></article>`).join('')}
     ${sheetPrint(labs)}
     ${units.some(u => u.oral) ? `<h1 class="section-heading">Domande per l’orale</h1>${units.filter(u => u.oral).map(u => `<article class="question"><h3>${esc(u.title)}</h3><p>${esc(u.oral.prompt)}</p><p>La tua spiegazione: ____________________________________________________</p></article>`).join('')}` : ''}

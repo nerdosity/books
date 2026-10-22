@@ -1,0 +1,1232 @@
+{
+  "checked": "2026-10-22",
+  "scope": "Collegamenti facoltativi a sezioni OpenStax. Controllati HTTP, titolo e argomenti per gli abbinamenti. Non è una certificazione di copertura del syllabus.",
+  "units": 185,
+  "placements": 470,
+  "distinctPages": 233,
+  "excluded": [
+    {
+      "unit": "diritto-soggetti",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "diritto-obbligazioni",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "diritto-contratto",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "diritto-rimedi",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "pubblico-fonti",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "pubblico-amministrazione",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "internazionale-istituzioni",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "internazionale-sport",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "societa-forme",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "societa-contratti",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "english-listening",
+      "reason": "Ascolto escluso dall’obiettivo."
+    },
+    {
+      "unit": "societa-decisioni",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "societa-casi",
+      "reason": "Diritto italiano/europeo e regolamenti sportivi: non sostituiti con manuali giuridici statunitensi."
+    },
+    {
+      "unit": "pedagogia-autori",
+      "reason": "Nessun capitolo specifico selezionato per il confronto Dewey, Montessori e Freire."
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+      "status": 200,
+      "title": "9.2 Propagation of the Signal - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+      "status": 200,
+      "title": "11.5 Muscles of the Pectoral Girdle and Upper Limbs  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-6-appendicular-muscles-of-the-pelvic-girdle-and-lower-limbs",
+      "status": 200,
+      "title": "11.6 Appendicular Muscles of the Pelvic Girdle and Lower Limbs  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-ap-courses-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law",
+      "status": 200,
+      "title": "12.4 Viscosity and Laminar Flow; Poiseuille’s Law - College Physics for AP® Courses 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system",
+      "status": 200,
+      "title": "13.2 The Central Nervous System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-4-the-peripheral-nervous-system",
+      "status": 200,
+      "title": "13.4 The Peripheral Nervous System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system",
+      "status": 200,
+      "title": "22.1 Organs and Structures of the Respiratory System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-7-cardiac-muscle-tissue",
+      "status": 200,
+      "title": "10.7 Cardiac Muscle Tissue  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-8-smooth-muscle",
+      "status": 200,
+      "title": "10.8 Smooth Muscle  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
+      "status": 200,
+      "title": "12.2 Nervous Tissue  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-3-circulation-and-the-central-nervous-system",
+      "status": 200,
+      "title": "13.3 Circulation and the Central Nervous System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/3-1-functional-groups",
+      "status": 200,
+      "title": "3.1 Functional Groups - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/5-1-enantiomers-and-the-tetrahedral-carbon",
+      "status": 200,
+      "title": "5.1 Enantiomers and the Tetrahedral Carbon - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers",
+      "status": 200,
+      "title": "25.5 Cyclic Structures of Monosaccharides: Anomers - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+      "status": 200,
+      "title": "14.6 Buffers - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-4-protein-metabolism",
+      "status": 200,
+      "title": "24.4 Protein Metabolism  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+      "status": 200,
+      "title": "14.4 Archimedes’ Principle and Buoyancy - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-2-measuring-pressure",
+      "status": 200,
+      "title": "14.2 Measuring Pressure - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/6-2-explaining-gausss-law",
+      "status": 200,
+      "title": "6.2 Explaining Gauss’s Law - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "status": 200,
+      "title": "16.1 Maxwell’s Equations and Electromagnetic Waves - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/4-6-x-ray-diffraction",
+      "status": 200,
+      "title": "4.6 X-Ray Diffraction - University Physics Volume 3 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-7-chemical-digestion-and-absorption-a-closer-look",
+      "status": 200,
+      "title": "23.7 Chemical Digestion and Absorption: A Closer Look  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-7-nutrition-and-diet",
+      "status": 200,
+      "title": "24.7 Nutrition and Diet  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/7-3-lewis-symbols-and-structures",
+      "status": 200,
+      "title": "7.3 Lewis Symbols and Structures - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/7-4-formal-charges-and-resonance",
+      "status": 200,
+      "title": "7.4 Formal Charges and Resonance - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+      "status": 200,
+      "title": "13.3 Shifting Equilibria: Le Châtelier’s Principle - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+      "status": 200,
+      "title": "16.4 Free Energy - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+      "status": 200,
+      "title": "12.5 Collision Theory - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+      "status": 200,
+      "title": "11.3 Solubility - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+      "status": 200,
+      "title": "11.4 Colligative Properties - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/15-3-aromaticity-and-the-huckel-4n-2-rule",
+      "status": 200,
+      "title": "15.3 Aromaticity and the Hückel 4n + 2 Rule - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/15-5-aromatic-heterocycles-pyridine-and-pyrrole",
+      "status": 200,
+      "title": "15.5 Aromatic Heterocycles: Pyridine and Pyrrole - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/4-5-conformations-of-cyclohexane",
+      "status": 200,
+      "title": "4.5 Conformations of Cyclohexane - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/4-6-axial-and-equatorial-bonds-in-cyclohexane",
+      "status": 200,
+      "title": "4.6 Axial and Equatorial Bonds in Cyclohexane - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation",
+      "status": 200,
+      "title": "19.8 Nucleophilic Addition of Amines: Imine and Enamine Formation - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/21-6-chemistry-of-esters",
+      "status": 200,
+      "title": "21.6 Chemistry of Esters - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/27-2-soap",
+      "status": 200,
+      "title": "27.2 Soap - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics",
+      "status": 200,
+      "title": "17.5 Genomics and Proteomics - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+      "status": 200,
+      "title": "17.1 Biotechnology - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing",
+      "status": 200,
+      "title": "17.3 Whole-Genome Sequencing - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system",
+      "status": 200,
+      "title": "7.1 Divisions of the Skeletal System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-1-the-pectoral-girdle",
+      "status": 200,
+      "title": "8.1 The Pectoral Girdle  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb",
+      "status": 200,
+      "title": "8.2 Bones of the Upper Limb  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis",
+      "status": 200,
+      "title": "8.3 The Pelvic Girdle and Pelvis  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-4-bones-of-the-lower-limb",
+      "status": 200,
+      "title": "8.4 Bones of the Lower Limb  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+      "status": 200,
+      "title": "9.4 Synovial Joints  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology/pages/9-5-types-of-body-movements",
+      "status": 200,
+      "title": "9.5 Types of Body Movements  - Anatomy and Physiology | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
+      "status": 200,
+      "title": "9.6 Anatomy of Selected Synovial Joints  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-5-circulatory-pathways",
+      "status": 200,
+      "title": "20.5 Circulatory Pathways  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
+      "status": 200,
+      "title": "19.1 Heart Anatomy  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-2-cardiac-muscle-and-electrical-activity",
+      "status": 200,
+      "title": "19.2 Cardiac Muscle and Electrical Activity  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle",
+      "status": 200,
+      "title": "19.3 Cardiac Cycle  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-1-structure-and-function-of-blood-vessels",
+      "status": 200,
+      "title": "20.1 Structure and Function of Blood Vessels  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/5-5-newtons-third-law",
+      "status": 200,
+      "title": "5.5 Newton’s Third Law - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/2-4-products-of-vectors",
+      "status": 200,
+      "title": "2.4 Products of Vectors - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/8-3-conservation-of-energy",
+      "status": 200,
+      "title": "8.3 Conservation of Energy - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+      "status": 200,
+      "title": "12.1 Conditions for Static Equilibrium - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure",
+      "status": 200,
+      "title": "14.1 Fluids, Density, and Pressure - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/14-7-viscosity-and-turbulence",
+      "status": 200,
+      "title": "14.7 Viscosity and Turbulence - University Physics Volume 1 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/20-2-blood-flow-blood-pressure-and-resistance",
+      "status": 200,
+      "title": "20.2 Blood Flow, Blood Pressure, and Resistance  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/11-6-gauge-pressure-absolute-pressure-and-pressure-measurement",
+      "status": 200,
+      "title": "11.6 Gauge Pressure, Absolute Pressure, and Pressure Measurement - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/1-2-thermometers-and-temperature-scales",
+      "status": 200,
+      "title": "1.2 Thermometers and Temperature Scales - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+      "status": 200,
+      "title": "1.6 Mechanisms of Heat Transfer - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/2-1-molecular-model-of-an-ideal-gas",
+      "status": 200,
+      "title": "2.1 Molecular Model of an Ideal Gas - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed",
+      "status": 200,
+      "title": "2.2 Pressure, Temperature, and RMS Speed - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics",
+      "status": 200,
+      "title": "3.3 First Law of Thermodynamics - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/3-5-heat-capacities-of-an-ideal-gas",
+      "status": 200,
+      "title": "3.5 Heat Capacities of an Ideal Gas - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/3-6-adiabatic-processes-for-an-ideal-gas",
+      "status": 200,
+      "title": "3.6 Adiabatic Processes for an Ideal Gas - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/4-6-entropy",
+      "status": 200,
+      "title": "4.6 Entropy - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/5-1-electric-charge",
+      "status": 200,
+      "title": "5.1 Electric Charge - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/5-3-coulombs-law",
+      "status": 200,
+      "title": "5.3 Coulomb's Law - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-2-simple-ac-circuits",
+      "status": 200,
+      "title": "15.2 Simple AC Circuits - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-4-power-in-an-ac-circuit",
+      "status": 200,
+      "title": "15.4 Power in an AC Circuit - University Physics Volume 2 | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+      "status": 200,
+      "title": "7.5 Metabolism without Oxygen - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+      "status": 200,
+      "title": "14.2 DNA Structure and Sequencing - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+      "status": 200,
+      "title": "15.4 RNA Processing in Eukaryotes - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+      "status": 200,
+      "title": "16.5 Eukaryotic Post-transcriptional Gene Regulation - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+      "status": 200,
+      "title": "4.3 Eukaryotic Cells - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+      "status": 200,
+      "title": "4.4 The Endomembrane System and Proteins - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+      "status": 200,
+      "title": "4.5 The Cytoskeleton - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+      "status": 200,
+      "title": "8.2 The Light-Dependent Reactions of Photosynthesis - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+      "status": 200,
+      "title": "8.3 Using Light Energy to Make Organic Molecules - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/16-2-prokaryotic-gene-regulation",
+      "status": 200,
+      "title": "16.2 Prokaryotic Gene Regulation - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/microbiology/pages/11-6-how-asexual-prokaryotes-achieve-genetic-diversity",
+      "status": 200,
+      "title": "11.6 How Asexual Prokaryotes Achieve Genetic Diversity - Microbiology | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/21-2-virus-infections-and-hosts",
+      "status": 200,
+      "title": "21.2 Virus Infections and Hosts - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+      "status": 200,
+      "title": "21.1 Viral Evolution, Morphology, and Classification - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+      "status": 200,
+      "title": "10.2 The Cell Cycle - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+      "status": 200,
+      "title": "11.1 The Process of Meiosis - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes",
+      "status": 200,
+      "title": "14.4 DNA Replication in Prokaryotes - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+      "status": 200,
+      "title": "15.3 Eukaryotic Transcription - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+      "status": 200,
+      "title": "15.5 Ribosomes and Protein Synthesis - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-1-population-evolution",
+      "status": 200,
+      "title": "19.1 Population Evolution - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+      "status": 200,
+      "title": "7.2 Glycolysis - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle",
+      "status": 200,
+      "title": "7.3 Oxidation of Pyruvate and the Citric Acid Cycle - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+      "status": 200,
+      "title": "7.4 Oxidative Phosphorylation - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-7-regulation-of-cellular-respiration",
+      "status": 200,
+      "title": "7.7 Regulation of Cellular Respiration - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle",
+      "status": 200,
+      "title": "10.2 Skeletal Muscle  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+      "status": 200,
+      "title": "10.3 Muscle Fiber Contraction and Relaxation  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-5-types-of-muscle-fibers",
+      "status": 200,
+      "title": "10.5 Types of Muscle Fibers  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+      "status": 200,
+      "title": "20.1 Hydrocarbons - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/21-5-chemistry-of-acid-anhydrides",
+      "status": 200,
+      "title": "21.5 Chemistry of Acid Anhydrides - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+      "status": 200,
+      "title": "5.1 Components and Structure - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-3-axial-muscles-of-the-head-neck-and-back",
+      "status": 200,
+      "title": "11.3 Axial Muscles of the Head, Neck, and Back  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/11-4-axial-muscles-of-the-abdominal-wall-and-thorax",
+      "status": 200,
+      "title": "11.4 Axial Muscles of the Abdominal Wall, and Thorax  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull",
+      "status": 200,
+      "title": "7.2 The Skull  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-3-the-vertebral-column",
+      "status": 200,
+      "title": "7.3 The Vertebral Column  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-3-the-mouth-pharynx-and-esophagus",
+      "status": 200,
+      "title": "23.3 The Mouth, Pharynx, and Esophagus  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-4-the-stomach",
+      "status": 200,
+      "title": "23.4 The Stomach  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
+      "status": 200,
+      "title": "23.5 The Small and Large Intestines  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder",
+      "status": 200,
+      "title": "23.6 Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system",
+      "status": 200,
+      "title": "23.1 Overview of the Digestive System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
+      "status": 200,
+      "title": "25.3 Gross Anatomy of the Kidney  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney",
+      "status": 200,
+      "title": "25.4 Microscopic Anatomy of the Kidney  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport",
+      "status": 200,
+      "title": "25.2 Gross Anatomy of Urine Transport  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-1-anatomy-and-physiology-of-the-testicular-reproductive-system",
+      "status": 200,
+      "title": "27.1 Anatomy and Physiology of the Testicular Reproductive System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+      "status": 200,
+      "title": "27.2 Anatomy and Physiology of the Ovarian Reproductive System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-3-the-pituitary-gland-and-hypothalamus",
+      "status": 200,
+      "title": "17.3 The Pituitary Gland and Hypothalamus  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-4-the-thyroid-gland",
+      "status": 200,
+      "title": "17.4 The Thyroid Gland  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-5-the-parathyroid-glands",
+      "status": 200,
+      "title": "17.5 The Parathyroid Glands  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-6-the-adrenal-glands",
+      "status": 200,
+      "title": "17.6 The Adrenal Glands  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-9-the-endocrine-pancreas",
+      "status": 200,
+      "title": "17.9 The Endocrine Pancreas  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+      "status": 200,
+      "title": "4.2 Epithelial Tissue  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-3-connective-tissue-supports-and-protects",
+      "status": 200,
+      "title": "4.3 Connective Tissue Supports and Protects  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-3-bone-structure",
+      "status": 200,
+      "title": "6.3 Bone Structure  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-4-bone-formation-and-development",
+      "status": 200,
+      "title": "6.4 Bone Formation and Development  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-1-an-overview-of-blood",
+      "status": 200,
+      "title": "18.1 An Overview of Blood  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-2-production-of-the-formed-elements",
+      "status": 200,
+      "title": "18.2 Production of the Formed Elements  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+      "status": 200,
+      "title": "18.4 Leukocytes and Platelets  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-2-barrier-defenses-and-the-innate-immune-response",
+      "status": 200,
+      "title": "21.2 Barrier Defenses and the Innate Immune Response  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-4-the-adaptive-immune-response-b-lymphocytes-and-antibodies",
+      "status": 200,
+      "title": "21.4 The Adaptive Immune Response: B-lymphocytes and Antibodies  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems",
+      "status": 200,
+      "title": "21.1 Anatomy of the Lymphatic and Immune Systems  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+      "status": 200,
+      "title": "14.1 Sensory Perception  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-2-central-processing",
+      "status": 200,
+      "title": "14.2 Central Processing  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses",
+      "status": 200,
+      "title": "14.3 Motor Responses  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system",
+      "status": 200,
+      "title": "15.1 Divisions of the Autonomic Nervous System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-2-autonomic-reflexes-and-homeostasis",
+      "status": 200,
+      "title": "15.2 Autonomic Reflexes and Homeostasis  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/principles-marketing/pages/5-1-market-segmentation-and-consumer-markets",
+      "status": 200,
+      "title": "5.1 Market Segmentation and Consumer Markets - Principles of Marketing | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/principles-marketing/pages/11-1-classification-of-services",
+      "status": 200,
+      "title": "11.1 Classification of Services - Principles of Marketing | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/principles-marketing/pages/11-3-the-gap-model-of-service-quality",
+      "status": 200,
+      "title": "11.3 The Gap Model of Service Quality - Principles of Marketing | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/principles-managerial-accounting/pages/3-2-calculate-a-break-even-point-in-units-and-dollars",
+      "status": 200,
+      "title": "3.2 Calculate a Break-Even Point in Units and Dollars - Principles of Accounting, Volume 2: Managerial Accounting | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/5-1-sensation-versus-perception",
+      "status": 200,
+      "title": "5.1 Sensation versus Perception - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception",
+      "status": 200,
+      "title": "5.6 Gestalt Principles of Perception - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+      "status": 200,
+      "title": "8.1 How Memory Functions - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/8-4-ways-to-enhance-memory",
+      "status": 200,
+      "title": "8.4 Ways to Enhance Memory - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+      "status": 200,
+      "title": "8.3 Problems with Memory - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+      "status": 200,
+      "title": "6.2 Classical Conditioning - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning",
+      "status": 200,
+      "title": "6.3 Operant Conditioning - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling",
+      "status": 200,
+      "title": "6.4 Observational Learning (Modeling) - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/3-2-cells-of-the-nervous-system",
+      "status": 200,
+      "title": "3.2 Cells of the Nervous System - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/3-4-the-brain-and-spinal-cord",
+      "status": 200,
+      "title": "3.4 The Brain and Spinal Cord - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/4-2-sleep-and-why-we-sleep",
+      "status": 200,
+      "title": "4.2 Sleep and Why We Sleep - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/4-3-stages-of-sleep",
+      "status": 200,
+      "title": "4.3 Stages of Sleep - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/4-1-what-is-consciousness",
+      "status": 200,
+      "title": "4.1 What Is Consciousness? - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/10-1-motivation",
+      "status": 200,
+      "title": "10.1 Motivation - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/10-4-emotion",
+      "status": 200,
+      "title": "10.4 Emotion - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/9-2-lifespan-theories",
+      "status": 200,
+      "title": "9.2 Lifespan Theories - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/1-5-lifespan-development-as-a-science-research-methods",
+      "status": 200,
+      "title": "1.5 Lifespan Development as a Science: Research Methods - Lifespan Development | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/5-3-cognition-in-early-childhood",
+      "status": 200,
+      "title": "5.3 Cognition in Early Childhood - Lifespan Development | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/7-2-language",
+      "status": 200,
+      "title": "7.2 Language - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/9-3-stages-of-development",
+      "status": 200,
+      "title": "9.3 Stages of Development - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/1-4-contexts-and-settings-of-development",
+      "status": 200,
+      "title": "1.4 Contexts and Settings of Development - Lifespan Development | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/4-1-models-of-computation",
+      "status": 200,
+      "title": "4.1 Models of Computation - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/3-1-introduction-to-data-structures-and-algorithms",
+      "status": 200,
+      "title": "3.1 Introduction to Data Structures and Algorithms - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/5-3-machine-level-information-representation",
+      "status": 200,
+      "title": "5.3 Machine-Level Information Representation - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/6-2-fundamental-os-concepts",
+      "status": 200,
+      "title": "6.2 Fundamental OS Concepts - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/6-5-file-systems",
+      "status": 200,
+      "title": "6.5 File Systems - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-1-the-functions-of-the-skeletal-system",
+      "status": 200,
+      "title": "6.1 The Functions of the Skeletal System  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-5-types-of-body-movements",
+      "status": 200,
+      "title": "9.5 Types of Body Movements  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-1-overview-of-muscle-tissues",
+      "status": 200,
+      "title": "10.1 Overview of Muscle Tissues  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-2-structural-organization-of-the-human-body",
+      "status": 200,
+      "title": "1.2 Structural Organization of the Human Body  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+      "status": 200,
+      "title": "1.2 Phases and Classification of Matter - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+      "status": 200,
+      "title": "5.2 Passive Transport - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+      "status": 200,
+      "title": "5.3 Active Transport - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+      "status": 200,
+      "title": "10.3 Control of the Cell Cycle - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+      "status": 200,
+      "title": "14.6 DNA Repair - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+      "status": 200,
+      "title": "12.3 Laws of Inheritance - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+      "status": 200,
+      "title": "13.1 Chromosomal Theory and Genetic Linkage - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/43-6-fertilization-and-early-embryonic-development",
+      "status": 200,
+      "title": "43.6 Fertilization and Early Embryonic Development - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/19-3-adaptive-evolution",
+      "status": 200,
+      "title": "19.3 Adaptive Evolution - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+      "status": 200,
+      "title": "3.4 Proteins - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+      "status": 200,
+      "title": "6.5 Enzymes - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/6-4-atp-adenosine-triphosphate",
+      "status": 200,
+      "title": "6.4 ATP: Adenosine Triphosphate - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+      "status": 200,
+      "title": "3.2 Carbohydrates - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids",
+      "status": 200,
+      "title": "3.3 Lipids - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/7-6-connections-of-carbohydrate-protein-and-lipid-metabolic-pathways",
+      "status": 200,
+      "title": "7.6 Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways - Biology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+      "status": 200,
+      "title": "2.3 Atomic Structure and Symbolism - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+      "status": 200,
+      "title": "3.3 Molarity - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+      "status": 200,
+      "title": "14.2 pH and pOH - Chemistry 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-6-anatomical-terminology",
+      "status": 200,
+      "title": "1.6 Anatomical Terminology  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues",
+      "status": 200,
+      "title": "4.1 Types of Tissues  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-6-exercise-nutrition-hormones-and-bone-tissue",
+      "status": 200,
+      "title": "6.6 Exercise, Nutrition, Hormones, and Bone Tissue  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-4-nervous-system-control-of-muscle-tension",
+      "status": 200,
+      "title": "10.4 Nervous System Control of Muscle Tension  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-6-exercise-and-muscle-performance",
+      "status": 200,
+      "title": "10.6 Exercise and Muscle Performance  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-3-the-process-of-breathing",
+      "status": 200,
+      "title": "22.3 The Process of Breathing  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-4-gas-exchange",
+      "status": 200,
+      "title": "22.4 Gas Exchange  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-3-lipid-metabolism",
+      "status": 200,
+      "title": "24.3 Lipid Metabolism  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-2-carbohydrate-metabolism",
+      "status": 200,
+      "title": "24.2 Carbohydrate Metabolism  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-5-metabolic-states-of-the-body",
+      "status": 200,
+      "title": "24.5 Metabolic States of the Body  - Anatomy and Physiology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids",
+      "status": 200,
+      "title": "26.1 Structures of Amino Acids - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/organic-chemistry/pages/28-1-nucleotides-and-nucleic-acids",
+      "status": 200,
+      "title": "28.1 Nucleotides and Nucleic Acids - Organic Chemistry | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+      "status": 200,
+      "title": "1.2 Physical Quantities and Units - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/2-4-acceleration",
+      "status": 200,
+      "title": "2.4 Acceleration - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/4-3-newtons-second-law-of-motion-concept-of-a-system",
+      "status": 200,
+      "title": "4.3 Newton’s Second Law of Motion: Concept of a System - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/3-2-vector-addition-and-subtraction-graphical-methods",
+      "status": 200,
+      "title": "3.2 Vector Addition and Subtraction: Graphical Methods - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion",
+      "status": 200,
+      "title": "3.4 Projectile Motion - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-1-work-the-scientific-definition",
+      "status": 200,
+      "title": "7.1 Work: The Scientific Definition - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/7-7-power",
+      "status": 200,
+      "title": "7.7 Power - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-2-the-second-condition-for-equilibrium",
+      "status": 200,
+      "title": "9.2 The Second Condition for Equilibrium - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/9-6-forces-and-torques-in-muscles-and-joints",
+      "status": 200,
+      "title": "9.6 Forces and Torques in Muscles and Joints - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/8-2-impulse",
+      "status": 200,
+      "title": "8.2 Impulse - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/10-3-dynamics-of-rotational-motion-rotational-inertia",
+      "status": 200,
+      "title": "10.3 Dynamics of Rotational Motion: Rotational Inertia - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/5-3-elasticity-stress-and-strain",
+      "status": 200,
+      "title": "5.3 Elasticity: Stress and Strain - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/14-2-temperature-change-and-heat-capacity",
+      "status": 200,
+      "title": "14.2 Temperature Change and Heat Capacity - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-9-waves",
+      "status": 200,
+      "title": "16.9 Waves - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/25-6-image-formation-by-lenses",
+      "status": 200,
+      "title": "25.6 Image Formation by Lenses - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/20-2-ohms-law-resistance-and-simple-circuits",
+      "status": 200,
+      "title": "20.2 Ohm’s Law: Resistance and Simple Circuits - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+      "status": 200,
+      "title": "21.1 Resistors in Series and Parallel - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/college-physics-2e/pages/16-3-simple-harmonic-motion-a-special-periodic-motion",
+      "status": 200,
+      "title": "16.3 Simple Harmonic Motion: A Special Periodic Motion - College Physics 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/2-2-approaches-to-research",
+      "status": 200,
+      "title": "2.2 Approaches to Research - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/2-3-analyzing-findings",
+      "status": 200,
+      "title": "2.3 Analyzing Findings - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/14-1-what-is-stress",
+      "status": 200,
+      "title": "14.1 What Is Stress? - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/psychology-2e/pages/6-1-what-is-learning",
+      "status": 200,
+      "title": "6.1 What Is Learning? - Psychology 2e | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/writing-guide/pages/handbook",
+      "status": 200,
+      "title": "Handbook - Writing Guide with Handbook | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/writing-guide/pages/1-3-glance-at-critical-response-rhetoric-and-critical-thinking",
+      "status": 200,
+      "title": "1.3 Glance at Critical Response: Rhetoric and Critical Thinking - Writing Guide with Handbook | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/writing-guide/pages/1-5-writing-process-thinking-critically-about-a-text",
+      "status": 200,
+      "title": "1.5 Writing Process: Thinking Critically About a “Text” - Writing Guide with Handbook | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/workplace-software-skills/pages/2-1-software-basics",
+      "status": 200,
+      "title": "2.1 Software Basics - Workplace Software and Skills | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/workplace-software-skills/pages/9-3-calculations-and-basic-formulas-in-microsoft-excel",
+      "status": 200,
+      "title": "9.3 Calculations and Basic Formulas in Microsoft Excel - Workplace Software and Skills | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/workplace-software-skills/pages/10-2-more-about-formulas",
+      "status": 200,
+      "title": "10.2 More About Formulas - Workplace Software and Skills | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/workplace-software-skills/pages/11-1-understanding-data-data-validation-and-data-tables",
+      "status": 200,
+      "title": "11.1 Understanding Data, Data Validation, and Data Tables - Workplace Software and Skills | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/workplace-software-skills/pages/11-5-data-analysis-charts",
+      "status": 200,
+      "title": "11.5 Data Analysis Charts - Workplace Software and Skills | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/6-6-reliability-and-security",
+      "status": 200,
+      "title": "6.6 Reliability and Security - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/introduction-computer-science/pages/a-appendix-a-network-design-application-of-algorithms",
+      "status": 200,
+      "title": "A Appendix A: Network Design Application of Algorithms - Introduction to Computer Science | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/principles-management/pages/17-2-the-planning-process",
+      "status": 200,
+      "title": "17.2 The Planning Process - Principles of Management | OpenStax"
+    }
+  ]
+}

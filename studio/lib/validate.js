@@ -5,6 +5,7 @@ import { PHYSICS_DEMOS } from './physics-demos.js';
 import { CHEMISTRY_DIAGRAMS } from './chemistry-diagrams.js';
 import { BIOLOGY_DIAGRAMS } from './biology-diagrams.js';
 import { VASCULAR_DIAGRAMS } from './vascular-diagrams.js';
+import { isOpenStaxReading } from './readings.js';
 export function validateContent(course, exercises, library) {
   const errors = [];
   const check = (value, message) => { if (!value) errors.push(message); };
@@ -68,6 +69,20 @@ export function validateContent(course, exercises, library) {
     check(u.bookIds.every(id => books.has(id)), `${u.id}: riferimento bibliografico assente`);
     check((u.prerequisites || []).every(id => units.has(id) && id !== u.id), `${u.id}: prerequisito assente o autoreferenziale`);
     check((u.sources || []).every(id => sources.has(id)), `${u.id}: fonte aperta assente`);
+    if (u.openstax !== undefined) {
+      check(Array.isArray(u.openstax) && u.openstax.length > 0, `${u.id}: approfondimenti OpenStax non validi`);
+      if (Array.isArray(u.openstax)) {
+        const urls = [];
+        for (const id of u.openstax) {
+          const source = course.sources.find(s => s.id === id);
+          check(source && isOpenStaxReading(source.url) && source.reading?.section && source.reading?.book
+            && /^\d{4}-\d{2}-\d{2}$/.test(source.reading?.checked || ''), `${u.id}: approfondimento OpenStax assente o non verificato`);
+          urls.push(source?.url);
+        }
+        check(new Set(urls).size === urls.length, `${u.id}: approfondimenti OpenStax duplicati`);
+      }
+    }
+    if (u.openstaxNote !== undefined) check(typeof u.openstaxNote === 'string' && u.openstaxNote.trim() && u.openstax?.length, `${u.id}: nota OpenStax senza letture`);
     check((u.labIds||[]).every(id=>workbooks.has(id)&&course.workbooks.find(l=>l.id===id).unit===u.id),`${u.id}: laboratorio assente o fuori lezione`);
     if (u.oral) check(u.oral.prompt && u.oral.answer && u.oral.criteria?.length >= 2, `${u.id}: attività orale incompleta`);
     for (const s of u.sections) {

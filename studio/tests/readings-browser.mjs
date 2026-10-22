@@ -1,0 +1,60 @@
+import {createRequire} from 'node:module';
+import {readFile} from 'node:fs/promises';
+import {fileURLToPath,pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+import {build,outputFile} from '../scripts/build.mjs';
+import {freshState,STORAGE_KEY} from '../lib/state.js';
+const require=createRequire(import.meta.url),{chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+await build();
+const course=JSON.parse(await readFile(new URL('../data/course.json',import.meta.url),'utf8'));
+const url=pathToFileURL(outputFile).href;
+const browser=await chromium.launch({headless:true,...(process.env.CHROMIUM_EXECUTABLE?{executablePath:process.env.CHROMIUM_EXECUTABLE}:{})});
+try{
+ const context=await browser.newContext({offline:true,viewport:{width:390,height:844}}),page=await context.newPage();
+ const errors=[],network=[];page.on('pageerror',e=>errors.push(e.message));context.on('request',r=>{if(/^https?:/.test(r.url()))network.push(r.url());});
+ await page.goto(url);
+ const state=freshState();state.notes.cellula='Appunto da conservare';state.read.cellula='2026-10-21T12:00:00Z';state.settings.theme='dark';
+ await page.evaluate(({key,state})=>localStorage.setItem(key,JSON.stringify(state)),{key:STORAGE_KEY,state});await page.reload();
+ let count=0;
+ for(const u of course.units){
+  await page.evaluate(id=>location.hash=`#lesson/${id}`,u.id);
+  await page.waitForFunction(title=>document.querySelector('#main h1')?.textContent===title,u.title);
+  const panel=page.locator('.lesson > .openstax-reading');
+  assert.equal(await panel.count(),u.openstax?.length?1:0,u.id);
+  if(!u.openstax)continue;
+  assert.equal(await panel.getAttribute('open'),null);
+  assert.deepEqual(await panel.locator('a').evaluateAll(links=>links.map(a=>a.href)),u.openstax.map(id=>course.sources.find(s=>s.id===id).url));
+  if(++count%50===0)console.log(`${count} lezioni controllate`);
+ }
+ await page.evaluate(()=>location.hash='#lesson/english-frase');await page.getByRole('heading',{name:'Costruire la frase: nomi, domande e confronti',exact:true}).waitFor();
+ const panel=page.locator('.lesson > .openstax-reading');await panel.locator('summary').focus();await page.keyboard.press('Enter');
+ assert.equal(await panel.getAttribute('open'),'');
+ assert.equal(await panel.locator('a').first().evaluate(a=>getComputedStyle(a).fontSize),'14px');
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+ await panel.screenshot({path:fileURLToPath(new URL('../.local/openstax-mobile-dark.png',import.meta.url))});
+ await page.selectOption('#appearance','light');await panel.screenshot({path:fileURLToPath(new URL('../.local/openstax-mobile-light.png',import.meta.url))});
+ const before=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),STORAGE_KEY);
+ assert.deepEqual(network,[]);
+ // Simulated response isolates navigation behavior from the availability of the live site.
+ const href=await panel.locator('a').first().getAttribute('href');
+ await context.route('https://openstax.org/**',route=>route.fulfill({contentType:'text/html',body:'<title>External chapter test</title>'}));
+ const popupPromise=context.waitForEvent('page');await panel.locator('a').first().click();const popup=await popupPromise;await popup.waitForLoadState();
+ assert.equal(popup.url(),href);assert.equal(page.url(),url+'#lesson/english-frase');
+ assert.deepEqual(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),STORAGE_KEY),before);await popup.close();
+ const exercises=JSON.parse(await readFile(new URL('../data/exercises.json',import.meta.url),'utf8'));
+ const q=exercises.questions.find(q=>q.unit==='english-frase'),wrong=q.options.find(o=>o.id!==q.answer);
+ const activeState=structuredClone(before);
+ activeState.active={id:'readings-check',startedAt:new Date().toISOString(),title:'Verifica aiuti',kind:'practice',index:0,items:[{qid:q.id,seed:11,assisted:false,attemptId:null}]};
+ await page.evaluate(({key,state})=>localStorage.setItem(key,JSON.stringify(state)),{key:STORAGE_KEY,state:activeState});
+ await page.goto(url+'#session');await page.reload();await page.locator('#answer-form').waitFor();
+ await page.locator(`input[name=answer][value="${wrong.id}"]`).check();await page.getByRole('button',{name:'Verifica la risposta'}).click();
+ const help=page.locator('.inline-lesson');await help.waitFor();assert.equal(await help.locator('.openstax-reading').getAttribute('open'),null);
+ assert.equal(await help.locator('.openstax-reading a').first().getAttribute('href'),href);
+ const section=course.units.find(u=>u.id===q.unit).sections.find(s=>s.id===wrong.help.split('/')[1]);
+ for(const p of section.text)assert.ok((await help.textContent()).includes(p));
+ assert.equal(await page.evaluate(key=>JSON.parse(localStorage.getItem(key)).notes.cellula,STORAGE_KEY),'Appunto da conservare');
+ await page.evaluate(()=>location.hash='#print/english-frase');await page.getByRole('heading',{name:'Soluzioni ragionate'}).waitFor();
+ assert.equal(await page.locator('section.openstax-reading a').first().getAttribute('href'),href);
+ assert.deepEqual(errors,[]);assert.deepEqual(network,[href]);
+ console.log(`OpenStax OK: ${count} lezioni, pannelli chiusi, link esatti, mobile chiaro/scuro, stampa, scheda separata e progressi conservati. Zero richieste automatiche.`);
+}finally{await browser.close();}

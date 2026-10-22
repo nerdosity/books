@@ -232,3 +232,5 @@ body.large{--reading:23px}
   .lesson .example p,.question p,.question li{font-size:11pt}.lesson h2{font-size:18pt}.anatomy-figure{color:#000}
   .topbar,.sidebar,footer{display:none!important}.question{padding:12px 0}.lesson section:target,.lesson section.highlight{box-shadow:none;background:#fff}
 }
+.openstax-reading{margin:24px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);break-inside:avoid}
+.openstax-reading li{margin:12px 0;overflow-wrap:anywhere}.openstax-reading .reading-book{display:block;font-size:12px;line-height:1.5;margin-top:3px;color:var(--muted)}

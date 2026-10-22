@@ -8989,5 +8989,14 @@
       "browser generale file:// offline superato"
     ],
     "limitation": "Controlli tecnici; non certificano copertura curricolare né preparazione individuale."
+  },
+  "openstaxFurtherReading": {
+    "checked": "2026-10-22",
+    "units": 185,
+    "placements": 470,
+    "distinctPages": 233,
+    "audit": "openstax-audit.json",
+    "scope": "Approfondimenti esterni selezionati: nessuna modifica alla copertura certificata o ai testi delle lezioni.",
+    "verification": "46 test, controllo contenuti e browser generale superati; letture verificate in 185 lezioni, aiuti, stampa e scheda separata; tema e progressi conservati, nessuna richiesta automatica."
   }
 }
