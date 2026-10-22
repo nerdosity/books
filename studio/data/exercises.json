@@ -51135,6 +51135,3846 @@
       "hint": "La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
       "explanation": "Il distacco della testa dall’actina. La fibra è una cellula; il sarcomero si accorcia per scorrimento. ATP serve anche a distacco e recupero, non solo alla forza.",
       "help": "cellula-comparti-verifica/muscolo"
+    },
+    {
+      "id": "law-diritto-soggetti-norme-1",
+      "unit": "diritto-soggetti",
+      "concept": "norme",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una clausola esclude preventivamente anche la responsabilità per dolo. La firma la rende valida?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: il consenso incontra il limite dell’art. 1229 c.c."
+        },
+        {
+          "id": "a",
+          "text": "Sì, il consenso prevale su ogni norma",
+          "feedback": "Le norme imperative limitano l’autonomia.",
+          "help": "diritto-soggetti/norme"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché la scritta sia grande",
+          "feedback": "La leggibilità non elimina un divieto sostanziale.",
+          "help": "diritto-soggetti/norme"
+        }
+      ],
+      "hint": "Il fatto, la regola applicabile e la conseguenza sono passaggi distinti.",
+      "explanation": "No: il consenso incontra il limite dell’art. 1229 c.c.. Il fatto, la regola applicabile e la conseguenza sono passaggi distinti.",
+      "help": "diritto-soggetti/norme"
+    },
+    {
+      "id": "law-diritto-soggetti-situazioni-1",
+      "unit": "diritto-soggetti",
+      "concept": "situazioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La ricevuta di un pagamento prova normalmente…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Un fatto estintivo dell’obbligazione soddisfatta"
+        },
+        {
+          "id": "a",
+          "text": "La nascita di un nuovo debito",
+          "feedback": "Il pagamento soddisfa il debito cui si riferisce.",
+          "help": "diritto-soggetti/situazioni"
+        },
+        {
+          "id": "b",
+          "text": "La nullità del contratto",
+          "feedback": "Adempiere non rende nullo il titolo.",
+          "help": "diritto-soggetti/situazioni"
+        }
+      ],
+      "hint": "Chiedi sempre chi può pretendere che cosa e nei confronti di chi.",
+      "explanation": "Un fatto estintivo dell’obbligazione soddisfatta. Chiedi sempre chi può pretendere che cosa e nei confronti di chi.",
+      "help": "diritto-soggetti/situazioni"
+    },
+    {
+      "id": "law-diritto-soggetti-persone-1",
+      "unit": "diritto-soggetti",
+      "concept": "persone",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una persona ha un amministratore di sostegno. Per sapere se può stipulare un contratto…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Si esaminano decreto e disciplina dell’atto"
+        },
+        {
+          "id": "a",
+          "text": "Si presume nullo qualsiasi suo contratto",
+          "feedback": "La misura conserva spazi di autonomia.",
+          "help": "diritto-soggetti/persone"
+        },
+        {
+          "id": "b",
+          "text": "Si ignora sempre il decreto",
+          "feedback": "Il decreto individua gli atti sottoposti a protezione.",
+          "help": "diritto-soggetti/persone"
+        }
+      ],
+      "hint": "Essere titolare di un diritto non equivale a poter compiere ogni atto da soli.",
+      "explanation": "Si esaminano decreto e disciplina dell’atto. Essere titolare di un diritto non equivale a poter compiere ogni atto da soli.",
+      "help": "diritto-soggetti/persone"
+    },
+    {
+      "id": "law-diritto-soggetti-enti-1",
+      "unit": "diritto-soggetti",
+      "concept": "enti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un’associazione non riconosciuta acquista attrezzi. Quale criterio è corretto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Accertare chi ha agito in nome e per conto dell’associazione"
+        },
+        {
+          "id": "a",
+          "text": "Far pagare automaticamente tutti gli iscritti",
+          "feedback": "L’art. 38 non rende debitore ogni socio.",
+          "help": "diritto-soggetti/enti"
+        },
+        {
+          "id": "b",
+          "text": "Escludere sempre qualsiasi responsabilità personale",
+          "feedback": "La legge prevede responsabilità personale di chi ha agito.",
+          "help": "diritto-soggetti/enti"
+        }
+      ],
+      "hint": "Associazione non riconosciuta non significa ente inesistente.",
+      "explanation": "Accertare chi ha agito in nome e per conto dell’associazione. Associazione non riconosciuta non significa ente inesistente.",
+      "help": "diritto-soggetti/enti"
+    },
+    {
+      "id": "law-diritto-obbligazioni-rapporto-1",
+      "unit": "diritto-obbligazioni",
+      "concept": "rapporto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il desiderio personale di imparare nuoto impedisce un’obbligazione contrattuale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: l’interesse può essere non patrimoniale, la prestazione deve essere valutabile"
+        },
+        {
+          "id": "a",
+          "text": "Sì, deve esserci sempre un profitto del cliente",
+          "feedback": "Confondi interesse del creditore e valore della prestazione.",
+          "help": "diritto-obbligazioni/rapporto"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi neppure la prestazione deve essere valutabile",
+          "feedback": "La valutabilità economica riguarda la prestazione.",
+          "help": "diritto-obbligazioni/rapporto"
+        }
+      ],
+      "hint": "L'adempimento si confronta con la prestazione effettivamente dovuta.",
+      "explanation": "No: l’interesse può essere non patrimoniale, la prestazione deve essere valutabile. L'adempimento si confronta con la prestazione effettivamente dovuta.",
+      "help": "diritto-obbligazioni/rapporto"
+    },
+    {
+      "id": "law-diritto-obbligazioni-adempimento-1",
+      "unit": "diritto-obbligazioni",
+      "concept": "adempimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Otto ingressi liberi sostituiscono otto lezioni individuali…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Solo se la sostituzione è validamente concordata"
+        },
+        {
+          "id": "a",
+          "text": "Sempre, perché il numero coincide",
+          "feedback": "La qualità e il contenuto contano quanto la quantità.",
+          "help": "diritto-obbligazioni/adempimento"
+        },
+        {
+          "id": "b",
+          "text": "Quando lo decide unilateralmente il centro",
+          "feedback": "Il debitore non può cambiare da solo la prestazione.",
+          "help": "diritto-obbligazioni/adempimento"
+        }
+      ],
+      "hint": "Un modo di estinzione opera solo quando ricorrono i suoi presupposti.",
+      "explanation": "Solo se la sostituzione è validamente concordata. Un modo di estinzione opera solo quando ricorrono i suoi presupposti.",
+      "help": "diritto-obbligazioni/adempimento"
+    },
+    {
+      "id": "law-diritto-obbligazioni-inadempimento-1",
+      "unit": "diritto-obbligazioni",
+      "concept": "inadempimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La mancata esecuzione di una lezione rende necessariamente nullo il contratto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: si valutano inadempimento e relativi rimedi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni inadempimento è nullità",
+          "feedback": "Confondi difetto originario ed esecuzione.",
+          "help": "diritto-obbligazioni/inadempimento"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi nessun rimedio è disponibile",
+          "feedback": "Un contratto valido può essere eseguito male.",
+          "help": "diritto-obbligazioni/inadempimento"
+        }
+      ],
+      "hint": "L'assenza di intenzione dannosa non equivale a esatto adempimento.",
+      "explanation": "No: si valutano inadempimento e relativi rimedi. L'assenza di intenzione dannosa non equivale a esatto adempimento.",
+      "help": "diritto-obbligazioni/inadempimento"
+    },
+    {
+      "id": "law-diritto-obbligazioni-mora-1",
+      "unit": "diritto-obbligazioni",
+      "concept": "mora",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il rifiuto del creditore libera immediatamente il debitore in ogni caso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: offerta, mora e liberazione hanno presupposti distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta l’affermazione del debitore",
+          "feedback": "Le formalità e i presupposti non sono sostituiti da un’affermazione.",
+          "help": "diritto-obbligazioni/mora"
+        },
+        {
+          "id": "b",
+          "text": "No, perché la mora riguarda soltanto il debitore",
+          "feedback": "Esiste anche la mora del creditore.",
+          "help": "diritto-obbligazioni/mora"
+        }
+      ],
+      "hint": "Tempo e interesse del creditore fanno parte dell'analisi della prestazione.",
+      "explanation": "No: offerta, mora e liberazione hanno presupposti distinti. Tempo e interesse del creditore fanno parte dell'analisi della prestazione.",
+      "help": "diritto-obbligazioni/mora"
+    },
+    {
+      "id": "law-diritto-contratto-requisiti-1",
+      "unit": "diritto-contratto",
+      "concept": "requisiti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La forma scritta è sempre requisito di validità di ogni contratto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è essenziale nei casi in cui la legge la richiede a pena di nullità"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni accordo orale è nullo",
+          "feedback": "Vige una generale libertà di forma, con eccezioni.",
+          "help": "diritto-contratto/requisiti"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi non può mai essere richiesta",
+          "feedback": "Alcuni contratti richiedono una forma specifica.",
+          "help": "diritto-contratto/requisiti"
+        }
+      ],
+      "hint": "Causa, oggetto e motivi personali non vanno confusi.",
+      "explanation": "No: è essenziale nei casi in cui la legge la richiede a pena di nullità. Causa, oggetto e motivi personali non vanno confusi.",
+      "help": "diritto-contratto/requisiti"
+    },
+    {
+      "id": "law-diritto-contratto-conclusione-1",
+      "unit": "diritto-contratto",
+      "concept": "conclusione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una risposta cambia il prezzo proposto: nel modello ordinario è…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una nuova proposta"
+        },
+        {
+          "id": "a",
+          "text": "Sempre un’accettazione valida del prezzo originario",
+          "feedback": "La modifica non è conforme alla proposta.",
+          "help": "diritto-contratto/conclusione"
+        },
+        {
+          "id": "b",
+          "text": "Sempre un atto nullo",
+          "feedback": "Può avviare la formazione di un diverso accordo.",
+          "help": "diritto-contratto/conclusione"
+        }
+      ],
+      "hint": "Prima di parlare di inadempimento, verifica se e quale accordo si è concluso.",
+      "explanation": "Una nuova proposta. Prima di parlare di inadempimento, verifica se e quale accordo si è concluso.",
+      "help": "diritto-contratto/conclusione"
+    },
+    {
+      "id": "law-diritto-contratto-interpretazione-1",
+      "unit": "diritto-contratto",
+      "concept": "interpretazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una clausola ambigua va letta…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nel contesto del contratto e della comune intenzione, secondo buona fede"
+        },
+        {
+          "id": "a",
+          "text": "Sempre isolando la singola parola più favorevole",
+          "feedback": "L’interpretazione è anche sistematica.",
+          "help": "diritto-contratto/interpretazione"
+        },
+        {
+          "id": "b",
+          "text": "Solo secondo il desiderio successivo di una parte",
+          "feedback": "Il desiderio unilaterale non è comune intenzione.",
+          "help": "diritto-contratto/interpretazione"
+        }
+      ],
+      "hint": "Interpretazione ed effetti richiedono l'intero rapporto e le norme applicabili.",
+      "explanation": "Nel contesto del contratto e della comune intenzione, secondo buona fede. Interpretazione ed effetti richiedono l'intero rapporto e le norme applicabili.",
+      "help": "diritto-contratto/interpretazione"
+    },
+    {
+      "id": "law-diritto-contratto-elementi-1",
+      "unit": "diritto-contratto",
+      "concept": "elementi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’efficacia subordinata al rilascio futuro e incerto di un’autorizzazione è…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una condizione sospensiva"
+        },
+        {
+          "id": "a",
+          "text": "Un termine certo",
+          "feedback": "L’ottenimento non è un evento certo.",
+          "help": "diritto-contratto/elementi"
+        },
+        {
+          "id": "b",
+          "text": "Una nullità automatica",
+          "feedback": "La pendenza non è di per sé invalidità.",
+          "help": "diritto-contratto/elementi"
+        }
+      ],
+      "hint": "Futuro e incerto: condizione. Futuro e certo: termine.",
+      "explanation": "Una condizione sospensiva. Futuro e incerto: condizione. Futuro e certo: termine.",
+      "help": "diritto-contratto/elementi"
+    },
+    {
+      "id": "law-diritto-rimedi-nullita-1",
+      "unit": "diritto-rimedi",
+      "concept": "nullita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un contratto valido con effetti sospesi è necessariamente nullo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: validità ed efficacia sono piani distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, nessun effetto significa nessun contratto valido",
+          "feedback": "Una condizione può sospendere gli effetti senza invalidare l’accordo.",
+          "help": "diritto-rimedi/nullita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ma solo per i contratti sportivi",
+          "feedback": "Il contesto sportivo non elimina la distinzione.",
+          "help": "diritto-rimedi/nullita"
+        }
+      ],
+      "hint": "Validità e produzione degli effetti sono piani distinti.",
+      "explanation": "No: validità ed efficacia sono piani distinti. Validità e produzione degli effetti sono piani distinti.",
+      "help": "diritto-rimedi/nullita"
+    },
+    {
+      "id": "law-diritto-rimedi-vizi-1",
+      "unit": "diritto-rimedi",
+      "concept": "vizi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Scoprire dopo l’acquisto un’offerta più economica prova da solo un vizio del consenso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono i presupposti di errore, dolo o violenza"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni cattivo affare è annullabile",
+          "feedback": "Il pentimento economico non è di per sé un vizio.",
+          "help": "diritto-rimedi/vizi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, dimostra automaticamente una minaccia",
+          "feedback": "Non è descritto alcun fatto di violenza morale.",
+          "help": "diritto-rimedi/vizi"
+        }
+      ],
+      "hint": "Il vizio deve avere i presupposti giuridici e incidere sul consenso.",
+      "explanation": "No: occorrono i presupposti di errore, dolo o violenza. Il vizio deve avere i presupposti giuridici e incidere sul consenso.",
+      "help": "diritto-rimedi/vizi"
+    },
+    {
+      "id": "law-diritto-rimedi-rescissione-1",
+      "unit": "diritto-rimedi",
+      "concept": "rescissione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Bene da 10.000 euro venduto a 4.000: la rescissione è automatica?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: vanno accertati anche bisogno, approfittamento e altri requisiti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta il prezzo",
+          "feedback": "La lesione quantitativa è solo uno dei presupposti.",
+          "help": "diritto-rimedi/rescissione"
+        },
+        {
+          "id": "b",
+          "text": "No, perché lo scarto non supera la metà",
+          "feedback": "Lo scarto è 6.000, superiore a 5.000.",
+          "help": "diritto-rimedi/rescissione"
+        }
+      ],
+      "hint": "La rescissione richiede condizioni specifiche al momento della stipula.",
+      "explanation": "No: vanno accertati anche bisogno, approfittamento e altri requisiti. La rescissione richiede condizioni specifiche al momento della stipula.",
+      "help": "diritto-rimedi/rescissione"
+    },
+    {
+      "id": "law-diritto-rimedi-risoluzione-1",
+      "unit": "diritto-rimedi",
+      "concept": "risoluzione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un normale aumento dei costi consente sempre la risoluzione per eccessiva onerosità?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: servono i requisiti dell’art. 1467 e un evento oltre la normale alea"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta una minore convenienza",
+          "feedback": "Il rischio normale del contratto non basta.",
+          "help": "diritto-rimedi/risoluzione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché il contratto sia orale",
+          "feedback": "La forma non sostituisce i presupposti sostanziali.",
+          "help": "diritto-rimedi/risoluzione"
+        }
+      ],
+      "hint": "La risoluzione non è sinonimo di invalidità originaria.",
+      "explanation": "No: servono i requisiti dell’art. 1467 e un evento oltre la normale alea. La risoluzione non è sinonimo di invalidità originaria.",
+      "help": "diritto-rimedi/risoluzione"
+    },
+    {
+      "id": "law-diritto-estinzione-compensazione-1",
+      "unit": "diritto-estinzione",
+      "concept": "compensazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "A deve 900 a B; B deve 350 ad A. Dati i requisiti di compensazione legale, quale saldo resta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "A deve 550 a B"
+        },
+        {
+          "id": "a",
+          "text": "B deve 550 ad A",
+          "feedback": "Hai invertito la direzione del debito maggiore.",
+          "help": "diritto-estinzione/compensazione"
+        },
+        {
+          "id": "b",
+          "text": "Entrambi i debiti spariscono integralmente",
+          "feedback": "L’estinzione opera fino alla concorrenza del minore.",
+          "help": "diritto-estinzione/compensazione"
+        }
+      ],
+      "hint": "Prima i requisiti, poi la sottrazione.",
+      "explanation": "A deve 550 a B. Prima i requisiti, poi la sottrazione.",
+      "help": "diritto-estinzione/compensazione"
+    },
+    {
+      "id": "law-diritto-estinzione-compensazione-2",
+      "unit": "diritto-estinzione",
+      "concept": "compensazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "A deve una fattura scaduta di 900 euro. A sostiene che B gli abbia causato un danno di 350 euro, ancora da accertare e quantificare. Può considerare già avvenuta la compensazione legale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: manca almeno l’accertamento della liquidità del credito"
+        },
+        {
+          "id": "a",
+          "text": "Sì, qualsiasi pretesa si sottrae dalla fattura",
+          "feedback": "Una pretesa non accertata non è per ciò un credito liquido.",
+          "help": "diritto-estinzione/compensazione"
+        },
+        {
+          "id": "b",
+          "text": "No, nessun credito può mai essere compensato",
+          "feedback": "La compensazione esiste quando ne ricorrono i presupposti.",
+          "help": "diritto-estinzione/compensazione"
+        }
+      ],
+      "hint": "Prima i requisiti, poi la sottrazione.",
+      "explanation": "No: la semplice richiesta risarcitoria non dimostra un credito liquido. Il calcolo 900 − 350 non sostituisce i requisiti; vanno distinti compensazione legale, giudiziale e accordo volontario.",
+      "help": "diritto-estinzione/compensazione"
+    },
+    {
+      "id": "law-diritto-estinzione-confusione-1",
+      "unit": "diritto-estinzione",
+      "concept": "confusione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due società hanno lo stesso socio: i debiti reciproci si estinguono per confusione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non per questo solo fatto: restano soggetti distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, il socio comune coincide con entrambe",
+          "feedback": "Controllo economico e identità giuridica non sono la stessa cosa.",
+          "help": "diritto-estinzione/confusione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se svolgono entrambe sport",
+          "feedback": "Il settore di attività non unifica i soggetti.",
+          "help": "diritto-estinzione/confusione"
+        }
+      ],
+      "hint": "Riunione delle qualità, rinuncia al credito e semplice rinvio sono tre fatti diversi.",
+      "explanation": "Non per questo solo fatto: restano soggetti distinti. Riunione delle qualità, rinuncia al credito e semplice rinvio sono tre fatti diversi.",
+      "help": "diritto-estinzione/confusione"
+    },
+    {
+      "id": "law-diritto-estinzione-confusione-2",
+      "unit": "diritto-estinzione",
+      "concept": "confusione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "«Puoi pagare il mese prossimo» indica necessariamente remissione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può essere soltanto una proroga"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni tolleranza cancella il credito",
+          "feedback": "Una dilazione non equivale a rinuncia.",
+          "help": "diritto-estinzione/confusione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché la nuova scadenza estingue necessariamente il vecchio debito",
+          "feedback": "Una modifica del termine non prova né remissione né novazione.",
+          "help": "diritto-estinzione/confusione"
+        }
+      ],
+      "hint": "Riunione delle qualità, rinuncia al credito e semplice rinvio sono tre fatti diversi.",
+      "explanation": "No: può essere soltanto una proroga. Riunione delle qualità, rinuncia al credito e semplice rinvio sono tre fatti diversi.",
+      "help": "diritto-estinzione/confusione"
+    },
+    {
+      "id": "law-diritto-estinzione-novazione-1",
+      "unit": "diritto-estinzione",
+      "concept": "novazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una semplice proroga della scadenza prova una novazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: servono novità sostanziale e volontà estintiva non equivoca"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni modifica estingue il rapporto",
+          "feedback": "Gli elementi accessori non bastano.",
+          "help": "diritto-estinzione/novazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché il debitore la desideri",
+          "feedback": "Occorre un accordo con i requisiti previsti.",
+          "help": "diritto-estinzione/novazione"
+        }
+      ],
+      "hint": "Novazione: nuova obbligazione; prestazione sostitutiva: estinzione con l’esecuzione.",
+      "explanation": "No: servono novità sostanziale e volontà estintiva non equivoca. Novazione: nuova obbligazione; prestazione sostitutiva: estinzione con l’esecuzione.",
+      "help": "diritto-estinzione/novazione"
+    },
+    {
+      "id": "law-diritto-estinzione-novazione-2",
+      "unit": "diritto-estinzione",
+      "concept": "novazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella prestazione in luogo dell’adempimento, senza novazione, il debito si estingue normalmente…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Quando viene eseguita la prestazione diversa accettata"
+        },
+        {
+          "id": "a",
+          "text": "Quando il debitore la propone da solo",
+          "feedback": "Mancano consenso e adempimento sostitutivo.",
+          "help": "diritto-estinzione/novazione"
+        },
+        {
+          "id": "b",
+          "text": "Sempre prima dell’esecuzione, con la sola promessa",
+          "feedback": "Confondi la prestazione sostitutiva con la novazione.",
+          "help": "diritto-estinzione/novazione"
+        }
+      ],
+      "hint": "Novazione: nuova obbligazione; prestazione sostitutiva: estinzione con l’esecuzione.",
+      "explanation": "Quando viene eseguita la prestazione diversa accettata. Novazione: nuova obbligazione; prestazione sostitutiva: estinzione con l’esecuzione.",
+      "help": "diritto-estinzione/novazione"
+    },
+    {
+      "id": "law-diritto-estinzione-impossibilita-1",
+      "unit": "diritto-estinzione",
+      "concept": "impossibilita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un impedimento temporaneo può portare all’estinzione dell’obbligazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sì, se ricorrono le condizioni legate a durata, titolo e interesse"
+        },
+        {
+          "id": "a",
+          "text": "No, la temporaneità esclude sempre l’estinzione",
+          "feedback": "L’art. 1256 considera anche la perdita dell’interesse alla prestazione.",
+          "help": "diritto-estinzione/impossibilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, qualunque ritardo cancella ogni debito",
+          "feedback": "Occorrono impossibilità non imputabile e ulteriori presupposti.",
+          "help": "diritto-estinzione/impossibilita"
+        }
+      ],
+      "hint": "Verifica causa, durata e interesse residuo prima di dire che il debitore è liberato.",
+      "explanation": "Sì, se ricorrono le condizioni legate a durata, titolo e interesse. Verifica causa, durata e interesse residuo prima di dire che il debitore è liberato.",
+      "help": "diritto-estinzione/impossibilita"
+    },
+    {
+      "id": "law-diritto-estinzione-impossibilita-2",
+      "unit": "diritto-estinzione",
+      "concept": "impossibilita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La perdita del denaro del debitore rende automaticamente impossibile pagare?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: difficoltà economica e impossibilità liberatoria sono distinte"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta non avere liquidità",
+          "feedback": "Non basta una difficoltà soggettiva di pagamento.",
+          "help": "diritto-estinzione/impossibilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché sia un debito sportivo",
+          "feedback": "Non esiste questa eccezione generale sportiva.",
+          "help": "diritto-estinzione/impossibilita"
+        }
+      ],
+      "hint": "Verifica causa, durata e interesse residuo prima di dire che il debitore è liberato.",
+      "explanation": "No: difficoltà economica e impossibilità liberatoria sono distinte. Verifica causa, durata e interesse residuo prima di dire che il debitore è liberato.",
+      "help": "diritto-estinzione/impossibilita"
+    },
+    {
+      "id": "law-diritto-preliminare-trattative-1",
+      "unit": "diritto-preliminare",
+      "concept": "trattative",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Le trattative obbligano sempre a concludere il contratto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, ma devono essere condotte secondo buona fede"
+        },
+        {
+          "id": "a",
+          "text": "Sì, dal primo contatto",
+          "feedback": "Il negoziato non è già necessariamente il contratto.",
+          "help": "diritto-preliminare/trattative"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi ogni inganno è lecito",
+          "feedback": "La libertà non elimina la responsabilità per scorrettezze.",
+          "help": "diritto-preliminare/trattative"
+        }
+      ],
+      "hint": "Libertà di non contrarre e dovere di buona fede convivono.",
+      "explanation": "No, ma devono essere condotte secondo buona fede. Libertà di non contrarre e dovere di buona fede convivono.",
+      "help": "diritto-preliminare/trattative"
+    },
+    {
+      "id": "law-diritto-preliminare-trattative-2",
+      "unit": "diritto-preliminare",
+      "concept": "trattative",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Per quantificare un danno da trattative scorrette occorre…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Provare perdita e collegamento causale, senza presumere il profitto dell’accordo mancato"
+        },
+        {
+          "id": "a",
+          "text": "Assegnare sempre l’intero fatturato sperato",
+          "feedback": "Il profitto ipotizzato non coincide automaticamente col danno da affidamento.",
+          "help": "diritto-preliminare/trattative"
+        },
+        {
+          "id": "b",
+          "text": "Ignorare ogni spesa sostenuta",
+          "feedback": "Le spese inutili possono rilevare se ne ricorrono i presupposti.",
+          "help": "diritto-preliminare/trattative"
+        }
+      ],
+      "hint": "Libertà di non contrarre e dovere di buona fede convivono.",
+      "explanation": "Provare perdita e collegamento causale, senza presumere il profitto dell’accordo mancato. Libertà di non contrarre e dovere di buona fede convivono.",
+      "help": "diritto-preliminare/trattative"
+    },
+    {
+      "id": "law-diritto-preliminare-vincoli-1",
+      "unit": "diritto-preliminare",
+      "concept": "vincoli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "«Se venderò il locale, ti preferirò a parità di condizioni». Il beneficiario può pretendere ora la vendita per il solo contenuto di questa clausola?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: il patto di prelazione attribuisce preferenza se si decide di vendere"
+        },
+        {
+          "id": "a",
+          "text": "Sì, è sempre un preliminare",
+          "feedback": "Prelazione e preliminare hanno effetti distinti.",
+          "help": "diritto-preliminare/vincoli"
+        },
+        {
+          "id": "b",
+          "text": "Sì, appena il beneficiario lo chiede",
+          "feedback": "La richiesta non crea l’obbligo di vendere previsto per un preliminare.",
+          "help": "diritto-preliminare/vincoli"
+        }
+      ],
+      "hint": "Preferenza, facoltà di accettare e obbligo di stipulare non sono intercambiabili.",
+      "explanation": "La clausola esprime una preferenza condizionata alla decisione di vendere, non un obbligo attuale di stipulare un definitivo. Un preliminare avrebbe un diverso effetto vincolante.",
+      "help": "diritto-preliminare/vincoli"
+    },
+    {
+      "id": "law-diritto-preliminare-vincoli-2",
+      "unit": "diritto-preliminare",
+      "concept": "vincoli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nell’opzione la permanenza del vincolo deriva…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Da un accordo tra le parti"
+        },
+        {
+          "id": "a",
+          "text": "Soltanto dal silenzio del destinatario",
+          "feedback": "Il silenzio non costituisce automaticamente un accordo di opzione.",
+          "help": "diritto-preliminare/vincoli"
+        },
+        {
+          "id": "b",
+          "text": "Da una sentenza necessariamente già emessa",
+          "feedback": "L’opzione è un patto, non richiede questa origine giudiziale.",
+          "help": "diritto-preliminare/vincoli"
+        }
+      ],
+      "hint": "Preferenza, facoltà di accettare e obbligo di stipulare non sono intercambiabili.",
+      "explanation": "Da un accordo tra le parti. Preferenza, facoltà di accettare e obbligo di stipulare non sono intercambiabili.",
+      "help": "diritto-preliminare/vincoli"
+    },
+    {
+      "id": "law-diritto-preliminare-preliminare-1",
+      "unit": "diritto-preliminare",
+      "concept": "preliminare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il preliminare di vendita trasferisce sempre immediatamente la proprietà?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: il suo effetto tipico è l’obbligo di stipulare il definitivo"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta chiamarlo preliminare",
+          "feedback": "Il titolo non trasforma l’obbligo in trasferimento.",
+          "help": "diritto-preliminare/preliminare"
+        },
+        {
+          "id": "b",
+          "text": "Sì, anche se non identifica il bene",
+          "feedback": "L’individuazione dell’operazione è essenziale.",
+          "help": "diritto-preliminare/preliminare"
+        }
+      ],
+      "hint": "Il preliminare vincola a stipulare; il definitivo o la sentenza idonea producono gli effetti ulteriori.",
+      "explanation": "No: il suo effetto tipico è l’obbligo di stipulare il definitivo. Il preliminare vincola a stipulare; il definitivo o la sentenza idonea producono gli effetti ulteriori.",
+      "help": "diritto-preliminare/preliminare"
+    },
+    {
+      "id": "law-diritto-preliminare-preliminare-2",
+      "unit": "diritto-preliminare",
+      "concept": "preliminare",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "L’art. 2932 permette la sentenza sostitutiva…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Quando ricorrono i requisiti, tra cui possibilità ed esecuzione/offerta della propria prestazione ove dovuta"
+        },
+        {
+          "id": "a",
+          "text": "Sempre, senza controllare il contratto",
+          "feedback": "Non è una tutela automatica per qualsiasi promessa.",
+          "help": "diritto-preliminare/preliminare"
+        },
+        {
+          "id": "b",
+          "text": "Solo se entrambe le parti vogliono già firmare",
+          "feedback": "Il rimedio serve proprio contro un inadempimento, ricorrendone i requisiti.",
+          "help": "diritto-preliminare/preliminare"
+        }
+      ],
+      "hint": "Il preliminare vincola a stipulare; il definitivo o la sentenza idonea producono gli effetti ulteriori.",
+      "explanation": "Quando ricorrono i requisiti, tra cui possibilità ed esecuzione/offerta della propria prestazione ove dovuta. Il preliminare vincola a stipulare; il definitivo o la sentenza idonea producono gli effetti ulteriori.",
+      "help": "diritto-preliminare/preliminare"
+    },
+    {
+      "id": "law-diritto-preliminare-rappresentanza-1",
+      "unit": "diritto-preliminare",
+      "concept": "rappresentanza",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una persona firma in nome dell’associazione senza poteri. L’ente è sempre vincolato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre verificare poteri ed eventuale ratifica"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta scrivere il nome dell’ente",
+          "feedback": "La spendita del nome non crea da sola il potere.",
+          "help": "diritto-preliminare/rappresentanza"
+        },
+        {
+          "id": "b",
+          "text": "No, e nessun’altra responsabilità è possibile",
+          "feedback": "Può rilevare la responsabilità di chi ha agito senza poteri.",
+          "help": "diritto-preliminare/rappresentanza"
+        }
+      ],
+      "hint": "Firma, spendita del nome e potere di rappresentanza sono controlli distinti.",
+      "explanation": "No: occorre verificare poteri ed eventuale ratifica. Firma, spendita del nome e potere di rappresentanza sono controlli distinti.",
+      "help": "diritto-preliminare/rappresentanza"
+    },
+    {
+      "id": "law-diritto-preliminare-rappresentanza-2",
+      "unit": "diritto-preliminare",
+      "concept": "rappresentanza",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Procura e mandato sono sinonimi perfetti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: potere di rappresentanza e rapporto interno di gestione sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, hanno sempre gli stessi effetti",
+          "feedback": "Il mandato può anche essere senza rappresentanza.",
+          "help": "diritto-preliminare/rappresentanza"
+        },
+        {
+          "id": "b",
+          "text": "No, perché la procura è sempre un atto del giudice",
+          "feedback": "Può essere conferita volontariamente.",
+          "help": "diritto-preliminare/rappresentanza"
+        }
+      ],
+      "hint": "Firma, spendita del nome e potere di rappresentanza sono controlli distinti.",
+      "explanation": "No: potere di rappresentanza e rapporto interno di gestione sono distinti. Firma, spendita del nome e potere di rappresentanza sono controlli distinti.",
+      "help": "diritto-preliminare/rappresentanza"
+    },
+    {
+      "id": "law-diritto-casi-metodo-1",
+      "unit": "diritto-casi",
+      "concept": "metodo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il caso dice soltanto «corso cancellato». Qual è il primo passo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Chiarire causa, obblighi e fatti rilevanti prima di scegliere il rimedio"
+        },
+        {
+          "id": "a",
+          "text": "Dichiarare sempre nullo il contratto",
+          "feedback": "La cancellazione descrive l’esecuzione, non prova un vizio originario.",
+          "help": "diritto-casi/metodo"
+        },
+        {
+          "id": "b",
+          "text": "Inventare una causa per arrivare a una risposta unica",
+          "feedback": "I fatti mancanti vanno dichiarati.",
+          "help": "diritto-casi/metodo"
+        }
+      ],
+      "hint": "Una conclusione condizionata e motivata è migliore di una certezza costruita su fatti inventati.",
+      "explanation": "Chiarire causa, obblighi e fatti rilevanti prima di scegliere il rimedio. Una conclusione condizionata e motivata è migliore di una certezza costruita su fatti inventati.",
+      "help": "diritto-casi/metodo"
+    },
+    {
+      "id": "law-diritto-casi-metodo-2",
+      "unit": "diritto-casi",
+      "concept": "metodo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una buona risposta condizionata contiene…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Presupposti espliciti e conseguenze diverse secondo i fatti"
+        },
+        {
+          "id": "a",
+          "text": "Solo il nome di tre rimedi senza applicazione",
+          "feedback": "Un elenco non spiega quale rimedio ricorra.",
+          "help": "diritto-casi/metodo"
+        },
+        {
+          "id": "b",
+          "text": "Una soluzione certa indipendente da ogni fatto",
+          "feedback": "La disciplina dipende dai presupposti.",
+          "help": "diritto-casi/metodo"
+        }
+      ],
+      "hint": "Una conclusione condizionata e motivata è migliore di una certezza costruita su fatti inventati.",
+      "explanation": "Presupposti espliciti e conseguenze diverse secondo i fatti. Una conclusione condizionata e motivata è migliore di una certezza costruita su fatti inventati.",
+      "help": "diritto-casi/metodo"
+    },
+    {
+      "id": "law-diritto-casi-validita-1",
+      "unit": "diritto-casi",
+      "concept": "validita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un accordo valido sotto condizione sospensiva pendente presenta anzitutto un problema di…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Efficacia"
+        },
+        {
+          "id": "a",
+          "text": "Nullità per oggetto illecito",
+          "feedback": "Nel caso l’oggetto illecito non è descritto.",
+          "help": "diritto-casi/validita"
+        },
+        {
+          "id": "b",
+          "text": "Inadempimento già certo",
+          "feedback": "La prestazione potrebbe non essere ancora efficace ed esigibile.",
+          "help": "diritto-casi/validita"
+        }
+      ],
+      "hint": "Stesso esito pratico apparente, tre qualificazioni giuridiche diverse.",
+      "explanation": "Efficacia. Stesso esito pratico apparente, tre qualificazioni giuridiche diverse.",
+      "help": "diritto-casi/validita"
+    },
+    {
+      "id": "law-diritto-casi-validita-2",
+      "unit": "diritto-casi",
+      "concept": "validita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel caso di un minore senza la capacità necessaria, il rimedio da esaminare è normalmente…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’annullabilità, verificando la disciplina dell’atto"
+        },
+        {
+          "id": "a",
+          "text": "La risoluzione per eccessiva onerosità",
+          "feedback": "Non è descritto uno squilibrio sopravvenuto.",
+          "help": "diritto-casi/validita"
+        },
+        {
+          "id": "b",
+          "text": "La nullità di qualsiasi suo rapporto",
+          "feedback": "Non ogni atto del minore è automaticamente nullo.",
+          "help": "diritto-casi/validita"
+        }
+      ],
+      "hint": "Stesso esito pratico apparente, tre qualificazioni giuridiche diverse.",
+      "explanation": "L’annullabilità, verificando la disciplina dell’atto. Stesso esito pratico apparente, tre qualificazioni giuridiche diverse.",
+      "help": "diritto-casi/validita"
+    },
+    {
+      "id": "law-diritto-casi-esecuzione-1",
+      "unit": "diritto-casi",
+      "concept": "esecuzione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una generica email «sono scontento» è sempre una diffida ad adempiere efficace?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono contenuto, termine e avvertimento richiesti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni protesta scioglie il contratto",
+          "feedback": "La protesta non soddisfa automaticamente i requisiti della diffida.",
+          "help": "diritto-casi/esecuzione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché sia inviata per iscritto, anche senza termine e avvertimento",
+          "feedback": "La forma scritta è necessaria ma non sostituisce gli altri requisiti della diffida.",
+          "help": "diritto-casi/esecuzione"
+        }
+      ],
+      "hint": "La rilevanza dell’inadempimento dipende dall’interesse e dal meccanismo di tutela invocato.",
+      "explanation": "No: occorrono contenuto, termine e avvertimento richiesti. La rilevanza dell’inadempimento dipende dall’interesse e dal meccanismo di tutela invocato.",
+      "help": "diritto-casi/esecuzione"
+    },
+    {
+      "id": "law-diritto-casi-esecuzione-2",
+      "unit": "diritto-casi",
+      "concept": "esecuzione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Ogni data fissata nel contratto è un termine essenziale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: l’essenzialità richiede una valutazione dell’interesse e del titolo"
+        },
+        {
+          "id": "a",
+          "text": "Sì, data e termine essenziale sono sinonimi",
+          "feedback": "Molte scadenze ammettono prestazione tardiva ancora utile.",
+          "help": "diritto-casi/esecuzione"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi i termini non hanno effetti",
+          "feedback": "Anche un termine non essenziale può rilevare per ritardo e mora.",
+          "help": "diritto-casi/esecuzione"
+        }
+      ],
+      "hint": "La rilevanza dell’inadempimento dipende dall’interesse e dal meccanismo di tutela invocato.",
+      "explanation": "No: l’essenzialità richiede una valutazione dell’interesse e del titolo. La rilevanza dell’inadempimento dipende dall’interesse e dal meccanismo di tutela invocato.",
+      "help": "diritto-casi/esecuzione"
+    },
+    {
+      "id": "law-diritto-casi-orale-1",
+      "unit": "diritto-casi",
+      "concept": "orale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una rubrica didattica su 8 punti equivale al voto ufficiale in trentesimi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è un’autovalutazione dell’esposizione"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta moltiplicare il punteggio",
+          "feedback": "Non esiste questa equivalenza certificata.",
+          "help": "diritto-casi/orale"
+        },
+        {
+          "id": "b",
+          "text": "Sì, sostituisce la prova dei tre moduli",
+          "feedback": "L’app non sostituisce la valutazione universitaria.",
+          "help": "diritto-casi/orale"
+        }
+      ],
+      "hint": "All’orale devi giustificare la risposta: riconoscere un’opzione corretta è soltanto un primo passo.",
+      "explanation": "No: è un’autovalutazione dell’esposizione. All’orale devi giustificare la risposta: riconoscere un’opzione corretta è soltanto un primo passo.",
+      "help": "diritto-casi/orale"
+    },
+    {
+      "id": "law-diritto-casi-orale-2",
+      "unit": "diritto-casi",
+      "concept": "orale",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Per dimostrare comprensione di un rimedio è utile…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Indicare presupposti, applicarli e proporre un controesempio"
+        },
+        {
+          "id": "a",
+          "text": "Ripetere il nome del rimedio molte volte",
+          "feedback": "Il nome da solo non dimostra applicazione.",
+          "help": "diritto-casi/orale"
+        },
+        {
+          "id": "b",
+          "text": "Aggiungere fatti non presenti senza dirlo",
+          "feedback": "Le ipotesi aggiunte devono essere esplicite.",
+          "help": "diritto-casi/orale"
+        }
+      ],
+      "hint": "All’orale devi giustificare la risposta: riconoscere un’opzione corretta è soltanto un primo passo.",
+      "explanation": "Indicare presupposti, applicarli e proporre un controesempio. All’orale devi giustificare la risposta: riconoscere un’opzione corretta è soltanto un primo passo.",
+      "help": "diritto-casi/orale"
+    },
+    {
+      "id": "law-pubblico-fonti-costituzione-1",
+      "unit": "pubblico-fonti",
+      "concept": "costituzione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’eguaglianza sostanziale richiede necessariamente di trattare tutti in modo identico?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può richiedere misure pertinenti per rimuovere ostacoli reali"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni adattamento è un privilegio",
+          "feedback": "Una differenza ragionevole può rendere effettiva la partecipazione.",
+          "help": "pubblico-fonti/costituzione"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi permette qualsiasi preferenza",
+          "feedback": "Le differenziazioni richiedono ragioni e proporzionalità.",
+          "help": "pubblico-fonti/costituzione"
+        }
+      ],
+      "hint": "I principi costituzionali orientano l'analisi, ma vanno collegati a regole e fatti.",
+      "explanation": "No: può richiedere misure pertinenti per rimuovere ostacoli reali. I principi costituzionali orientano l'analisi, ma vanno collegati a regole e fatti.",
+      "help": "pubblico-fonti/costituzione"
+    },
+    {
+      "id": "law-pubblico-fonti-fonti-1",
+      "unit": "pubblico-fonti",
+      "concept": "fonti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un regolamento successivo può superare una legge soltanto perché più recente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la cronologia non elimina il diverso rango"
+        },
+        {
+          "id": "a",
+          "text": "Sì, il testo più nuovo prevale sempre",
+          "feedback": "La gerarchia va verificata prima della successione temporale.",
+          "help": "pubblico-fonti/fonti"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se riguarda una palestra",
+          "feedback": "L’oggetto sportivo non elimina la gerarchia.",
+          "help": "pubblico-fonti/fonti"
+        }
+      ],
+      "hint": "Non tutte le regole hanno lo stesso rango o lo stesso ambito.",
+      "explanation": "No: la cronologia non elimina il diverso rango. Non tutte le regole hanno lo stesso rango o lo stesso ambito.",
+      "help": "pubblico-fonti/fonti"
+    },
+    {
+      "id": "law-pubblico-fonti-organi-1",
+      "unit": "pubblico-fonti",
+      "concept": "organi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La Corte costituzionale è un normale grado d’appello per qualsiasi diniego comunale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: ha competenze e modalità di accesso specifiche"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni cittadino può appellarvi ogni atto",
+          "feedback": "Confondi giudizio costituzionale e tutela contro un provvedimento.",
+          "help": "pubblico-fonti/organi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché sostituisce il Parlamento",
+          "feedback": "Legiferare e giudicare la costituzionalità sono funzioni distinte.",
+          "help": "pubblico-fonti/organi"
+        }
+      ],
+      "hint": "Individua funzione e organo prima di descrivere il controllo possibile.",
+      "explanation": "No: ha competenze e modalità di accesso specifiche. Individua funzione e organo prima di descrivere il controllo possibile.",
+      "help": "pubblico-fonti/organi"
+    },
+    {
+      "id": "law-pubblico-fonti-autonomie-1",
+      "unit": "pubblico-fonti",
+      "concept": "autonomie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La sussidiarietà orizzontale elimina le regole per usare risorse pubbliche?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: favorisce l’iniziativa civica entro il quadro giuridico"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni associazione può ricevere beni senza criteri",
+          "feedback": "Il principio non cancella imparzialità e disciplina applicabile.",
+          "help": "pubblico-fonti/autonomie"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ma soltanto per le federazioni",
+          "feedback": "Non esiste questa esenzione generale.",
+          "help": "pubblico-fonti/autonomie"
+        }
+      ],
+      "hint": "Autonomia sportiva non significa assenza di limiti esterni.",
+      "explanation": "No: favorisce l’iniziativa civica entro il quadro giuridico. Autonomia sportiva non significa assenza di limiti esterni.",
+      "help": "pubblico-fonti/autonomie"
+    },
+    {
+      "id": "law-pubblico-amministrazione-organizzazione-1",
+      "unit": "pubblico-amministrazione",
+      "concept": "organizzazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ricevere un contributo pubblico rende automaticamente un’associazione un ente pubblico?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: finanziamento e natura giuridica sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, anche per un euro",
+          "feedback": "Il finanziamento non è da solo un criterio sufficiente.",
+          "help": "pubblico-amministrazione/organizzazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’associazione usa un impianto",
+          "feedback": "Anche l’uso di un bene non determina da solo la natura.",
+          "help": "pubblico-amministrazione/organizzazione"
+        }
+      ],
+      "hint": "Soggetto, struttura e competenza non sono sinonimi.",
+      "explanation": "No: finanziamento e natura giuridica sono distinti. Soggetto, struttura e competenza non sono sinonimi.",
+      "help": "pubblico-amministrazione/organizzazione"
+    },
+    {
+      "id": "law-pubblico-amministrazione-procedimento-1",
+      "unit": "pubblico-amministrazione",
+      "concept": "procedimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La partecipazione al procedimento garantisce sempre l’accoglimento della domanda?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: garantisce possibilità di apporto e valutazione nei limiti di legge"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta depositare una memoria",
+          "feedback": "La partecipazione non attribuisce il risultato sostanziale.",
+          "help": "pubblico-amministrazione/procedimento"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi le memorie non contano mai",
+          "feedback": "Gli apporti pertinenti devono essere valutati secondo la disciplina.",
+          "help": "pubblico-amministrazione/procedimento"
+        }
+      ],
+      "hint": "La motivazione rende ricostruibile il percorso della decisione.",
+      "explanation": "No: garantisce possibilità di apporto e valutazione nei limiti di legge. La motivazione rende ricostruibile il percorso della decisione.",
+      "help": "pubblico-amministrazione/procedimento"
+    },
+    {
+      "id": "law-pubblico-amministrazione-poteri-1",
+      "unit": "pubblico-amministrazione",
+      "concept": "poteri",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Discrezionalità significa che l’amministrazione può scegliere senza motivi controllabili?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: deve rispettare finalità, criteri e principi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, altrimenti non sarebbe discrezionale",
+          "feedback": "Scelta regolata e arbitrio sono diversi.",
+          "help": "pubblico-amministrazione/poteri"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il risultato piace alla maggioranza",
+          "feedback": "Il consenso non sostituisce la legalità.",
+          "help": "pubblico-amministrazione/poteri"
+        }
+      ],
+      "hint": "Discrezionalità significa scelta regolata, non libertà senza criteri.",
+      "explanation": "No: deve rispettare finalità, criteri e principi. Discrezionalità significa scelta regolata, non libertà senza criteri.",
+      "help": "pubblico-amministrazione/poteri"
+    },
+    {
+      "id": "law-pubblico-amministrazione-mezzi-1",
+      "unit": "pubblico-amministrazione",
+      "concept": "mezzi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Chiamare un accordo «convenzione» basta a escludere la disciplina degli affidamenti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: contano contenuto, funzione e regime applicabile"
+        },
+        {
+          "id": "a",
+          "text": "Sì, è sufficiente cambiare il titolo",
+          "feedback": "La qualificazione giuridica non dipende dalla sola etichetta.",
+          "help": "pubblico-amministrazione/mezzi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’ente ha fini sociali",
+          "feedback": "Il fine sociale non elimina automaticamente le regole.",
+          "help": "pubblico-amministrazione/mezzi"
+        }
+      ],
+      "hint": "Le risorse pubbliche richiedono poteri, procedure e controlli coerenti.",
+      "explanation": "No: contano contenuto, funzione e regime applicabile. Le risorse pubbliche richiedono poteri, procedure e controlli coerenti.",
+      "help": "pubblico-amministrazione/mezzi"
+    },
+    {
+      "id": "law-pubblico-principi-legalita-1",
+      "unit": "pubblico-principi",
+      "concept": "legalita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’utilità dichiarata di una misura sostituisce il fondamento legale del potere?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono attribuzione e presupposti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, se il funzionario è convinto",
+          "feedback": "La convinzione non crea competenza.",
+          "help": "pubblico-principi/legalita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il destinatario è un’associazione",
+          "feedback": "La natura del destinatario non elimina la legalità.",
+          "help": "pubblico-principi/legalita"
+        }
+      ],
+      "hint": "Un potere deve esistere ed essere esercitato per il fine per cui è attribuito.",
+      "explanation": "No: occorrono attribuzione e presupposti. Un potere deve esistere ed essere esercitato per il fine per cui è attribuito.",
+      "help": "pubblico-principi/legalita"
+    },
+    {
+      "id": "law-pubblico-principi-legalita-2",
+      "unit": "pubblico-principi",
+      "concept": "legalita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Usare un potere di vigilanza solo per favorire un concorrente pone un problema di…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sviamento rispetto al fine del potere"
+        },
+        {
+          "id": "a",
+          "text": "Semplice cambio di nome dell’ufficio",
+          "feedback": "Il problema è la finalità perseguita.",
+          "help": "pubblico-principi/legalita"
+        },
+        {
+          "id": "b",
+          "text": "Compensazione tra debiti",
+          "feedback": "Non sono descritti crediti reciproci.",
+          "help": "pubblico-principi/legalita"
+        }
+      ],
+      "hint": "Un potere deve esistere ed essere esercitato per il fine per cui è attribuito.",
+      "explanation": "Sviamento rispetto al fine del potere. Un potere deve esistere ed essere esercitato per il fine per cui è attribuito.",
+      "help": "pubblico-principi/legalita"
+    },
+    {
+      "id": "law-pubblico-principi-imparzialita-1",
+      "unit": "pubblico-principi",
+      "concept": "imparzialita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il conflitto di interessi è identico alla prova di una corruzione già avvenuta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può richiedere intervento anche prima di un illecito consumato"
+        },
+        {
+          "id": "a",
+          "text": "Sì, senza reato accertato non conta",
+          "feedback": "La prevenzione riguarda anche situazioni potenziali.",
+          "help": "pubblico-principi/imparzialita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, riguarda soltanto sentenze penali",
+          "feedback": "Rileva anche nell’organizzazione amministrativa.",
+          "help": "pubblico-principi/imparzialita"
+        }
+      ],
+      "hint": "Il conflitto va affrontato prima che comprometta l’imparzialità della funzione.",
+      "explanation": "No: può richiedere intervento anche prima di un illecito consumato. Il conflitto va affrontato prima che comprometta l’imparzialità della funzione.",
+      "help": "pubblico-principi/imparzialita"
+    },
+    {
+      "id": "law-pubblico-principi-imparzialita-2",
+      "unit": "pubblico-principi",
+      "concept": "imparzialita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Decidere rapidamente permette di ignorare criteri del bando?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: buon andamento e legalità devono essere rispettati insieme"
+        },
+        {
+          "id": "a",
+          "text": "Sì, l’efficienza supera qualsiasi regola",
+          "feedback": "Il risultato rapido non sana favoritismi.",
+          "help": "pubblico-principi/imparzialita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’ufficio ritiene il risultato sostanzialmente equivalente",
+          "feedback": "L’efficienza dichiarata non autorizza a sostituire informalmente i criteri vincolanti.",
+          "help": "pubblico-principi/imparzialita"
+        }
+      ],
+      "hint": "Il conflitto va affrontato prima che comprometta l’imparzialità della funzione.",
+      "explanation": "No: buon andamento e legalità devono essere rispettati insieme. Il conflitto va affrontato prima che comprometta l’imparzialità della funzione.",
+      "help": "pubblico-principi/imparzialita"
+    },
+    {
+      "id": "law-pubblico-principi-proporzione-1",
+      "unit": "pubblico-principi",
+      "concept": "proporzione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La misura più severa è automaticamente la più proporzionata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: va confrontata con alternative adeguate e meno restrittive"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché evita ogni discussione",
+          "feedback": "La severità non prova necessità e bilanciamento.",
+          "help": "pubblico-principi/proporzione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se è chiamata misura di sicurezza",
+          "feedback": "Il titolo non sostituisce l’istruttoria.",
+          "help": "pubblico-principi/proporzione"
+        }
+      ],
+      "hint": "Idoneità → necessità → bilanciamento: tre controlli, non uno slogan.",
+      "explanation": "No: va confrontata con alternative adeguate e meno restrittive. Idoneità → necessità → bilanciamento: tre controlli, non uno slogan.",
+      "help": "pubblico-principi/proporzione"
+    },
+    {
+      "id": "law-pubblico-principi-proporzione-2",
+      "unit": "pubblico-principi",
+      "concept": "proporzione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Due casi possono ricevere decisioni diverse legittimamente se…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Esistono differenze rilevanti e motivi coerenti con la disciplina"
+        },
+        {
+          "id": "a",
+          "text": "Il funzionario preferisce un richiedente",
+          "feedback": "La preferenza personale è estranea ai criteri.",
+          "help": "pubblico-principi/proporzione"
+        },
+        {
+          "id": "b",
+          "text": "Si evita di scrivere la motivazione",
+          "feedback": "L’assenza di ragioni non giustifica la differenza.",
+          "help": "pubblico-principi/proporzione"
+        }
+      ],
+      "hint": "Idoneità → necessità → bilanciamento: tre controlli, non uno slogan.",
+      "explanation": "Esistono differenze rilevanti e motivi coerenti con la disciplina. Idoneità → necessità → bilanciamento: tre controlli, non uno slogan.",
+      "help": "pubblico-principi/proporzione"
+    },
+    {
+      "id": "law-pubblico-principi-posizioni-1",
+      "unit": "pubblico-principi",
+      "concept": "posizioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’interesse legittimo è una posizione priva di tutela?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: tutela un interesse in relazione al legittimo esercizio del potere"
+        },
+        {
+          "id": "a",
+          "text": "Sì, è soltanto un desiderio",
+          "feedback": "È una situazione giuridica protetta.",
+          "help": "pubblico-principi/posizioni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il richiedente è privato",
+          "feedback": "I privati possono essere titolari di interessi legittimi.",
+          "help": "pubblico-principi/posizioni"
+        }
+      ],
+      "hint": "Identifica la situazione e il potere, poi il rimedio; il nome dell’ente non basta.",
+      "explanation": "No: tutela un interesse in relazione al legittimo esercizio del potere. Identifica la situazione e il potere, poi il rimedio; il nome dell’ente non basta.",
+      "help": "pubblico-principi/posizioni"
+    },
+    {
+      "id": "law-pubblico-principi-posizioni-2",
+      "unit": "pubblico-principi",
+      "concept": "posizioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La presenza di un Comune implica sempre giurisdizione amministrativa?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: contano rapporto, domanda e disciplina di giurisdizione"
+        },
+        {
+          "id": "a",
+          "text": "Sì, indipendentemente dal rapporto",
+          "feedback": "Anche la PA ha rapporti di diritto privato.",
+          "help": "pubblico-principi/posizioni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, anche per ogni credito contrattuale",
+          "feedback": "Non si individua il giudice dal solo nome della parte.",
+          "help": "pubblico-principi/posizioni"
+        }
+      ],
+      "hint": "Identifica la situazione e il potere, poi il rimedio; il nome dell’ente non basta.",
+      "explanation": "No: contano rapporto, domanda e disciplina di giurisdizione. Identifica la situazione e il potere, poi il rimedio; il nome dell’ente non basta.",
+      "help": "pubblico-principi/posizioni"
+    },
+    {
+      "id": "law-pubblico-organizzazione-strutture-1",
+      "unit": "pubblico-organizzazione",
+      "concept": "strutture",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il cambio della persona responsabile fa scomparire l’ente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: ente e persona fisica sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, i rapporti si estinguono sempre",
+          "feedback": "L’ente mantiene la propria continuità.",
+          "help": "pubblico-organizzazione/strutture"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’organo è individuale",
+          "feedback": "L’organo individuale non coincide con l’intero ente.",
+          "help": "pubblico-organizzazione/strutture"
+        }
+      ],
+      "hint": "Persona che firma, ufficio, organo ed ente vanno tenuti distinti.",
+      "explanation": "No: ente e persona fisica sono distinti. Persona che firma, ufficio, organo ed ente vanno tenuti distinti.",
+      "help": "pubblico-organizzazione/strutture"
+    },
+    {
+      "id": "law-pubblico-organizzazione-strutture-2",
+      "unit": "pubblico-organizzazione",
+      "concept": "strutture",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una delega può attribuire liberamente qualsiasi potere non previsto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: opera nei limiti consentiti dall’ordinamento"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta un foglio firmato",
+          "feedback": "La forma non crea un potere privo di base.",
+          "help": "pubblico-organizzazione/strutture"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il delegato è esperto",
+          "feedback": "La competenza tecnica non sostituisce quella giuridica.",
+          "help": "pubblico-organizzazione/strutture"
+        }
+      ],
+      "hint": "Persona che firma, ufficio, organo ed ente vanno tenuti distinti.",
+      "explanation": "No: opera nei limiti consentiti dall’ordinamento. Persona che firma, ufficio, organo ed ente vanno tenuti distinti.",
+      "help": "pubblico-organizzazione/strutture"
+    },
+    {
+      "id": "law-pubblico-organizzazione-territorio-1",
+      "unit": "pubblico-organizzazione",
+      "concept": "territorio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un ufficio periferico di un ministero è per questo un Comune autonomo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: resta parte dell’amministrazione statale"
+        },
+        {
+          "id": "a",
+          "text": "Sì: decentramento statale e autonomia territoriale coincidono",
+          "feedback": "Un ufficio decentrato resta parte dello Stato; l’autonomia riguarda un ente distinto.",
+          "help": "pubblico-organizzazione/territorio"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se tratta pratiche locali",
+          "feedback": "L’oggetto locale non crea autonomia territoriale.",
+          "help": "pubblico-organizzazione/territorio"
+        }
+      ],
+      "hint": "Territorio di attività e natura territoriale dell’ente non coincidono.",
+      "explanation": "No: resta parte dell’amministrazione statale. Territorio di attività e natura territoriale dell’ente non coincidono.",
+      "help": "pubblico-organizzazione/territorio"
+    },
+    {
+      "id": "law-pubblico-organizzazione-territorio-2",
+      "unit": "pubblico-organizzazione",
+      "concept": "territorio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La proprietà comunale dell’impianto attribuisce al Comune ogni competenza sulla gara?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: vanno distinti proprietà, poteri amministrativi e regole sportive"
+        },
+        {
+          "id": "a",
+          "text": "Sì, tutte le competenze seguono la proprietà",
+          "feedback": "La proprietà non assorbe ogni funzione.",
+          "help": "pubblico-organizzazione/territorio"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi il Comune non ha mai alcun ruolo",
+          "feedback": "Anche questa conclusione elimina distinzioni necessarie.",
+          "help": "pubblico-organizzazione/territorio"
+        }
+      ],
+      "hint": "Territorio di attività e natura territoriale dell’ente non coincidono.",
+      "explanation": "No: vanno distinti proprietà, poteri amministrativi e regole sportive. Territorio di attività e natura territoriale dell’ente non coincidono.",
+      "help": "pubblico-organizzazione/territorio"
+    },
+    {
+      "id": "law-pubblico-organizzazione-politica-1",
+      "unit": "pubblico-organizzazione",
+      "concept": "politica",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Fissare obiettivi generali e applicare il bando a una singola domanda sono la stessa funzione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: indirizzo e gestione vanno distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni politico può sostituire l’istruttoria",
+          "feedback": "La gestione segue competenze e criteri.",
+          "help": "pubblico-organizzazione/politica"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’attività è sportiva",
+          "feedback": "Non c’è una deroga generale per lo sport.",
+          "help": "pubblico-organizzazione/politica"
+        }
+      ],
+      "hint": "Obiettivi e gestione sono collegati, ma non intercambiabili.",
+      "explanation": "No: indirizzo e gestione vanno distinti. Obiettivi e gestione sono collegati, ma non intercambiabili.",
+      "help": "pubblico-organizzazione/politica"
+    },
+    {
+      "id": "law-pubblico-organizzazione-politica-2",
+      "unit": "pubblico-organizzazione",
+      "concept": "politica",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Il dirigente è libero da ogni controllo perché gestisce?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: risponde dell’attività e deve rispettare regole e obiettivi legittimi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, gestione significa sovranità",
+          "feedback": "La competenza non elimina responsabilità.",
+          "help": "pubblico-organizzazione/politica"
+        },
+        {
+          "id": "b",
+          "text": "Sì, può cambiare la legge del bando",
+          "feedback": "Non ha questa libertà normativa.",
+          "help": "pubblico-organizzazione/politica"
+        }
+      ],
+      "hint": "Obiettivi e gestione sono collegati, ma non intercambiabili.",
+      "explanation": "No: risponde dell’attività e deve rispettare regole e obiettivi legittimi. Obiettivi e gestione sono collegati, ma non intercambiabili.",
+      "help": "pubblico-organizzazione/politica"
+    },
+    {
+      "id": "law-pubblico-organizzazione-sport-1",
+      "unit": "pubblico-organizzazione",
+      "concept": "sport",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Le federazioni nazionali sono tutte ministeri?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: hanno natura associativa privata, con attività anche di rilevanza pubblicistica"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni regola sportiva è una legge statale",
+          "feedback": "Regole associative e fonti statali non coincidono.",
+          "help": "pubblico-organizzazione/sport"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché ricevono contributi",
+          "feedback": "Il finanziamento non le trasforma in ministeri.",
+          "help": "pubblico-organizzazione/sport"
+        }
+      ],
+      "hint": "La natura del soggetto non risolve da sola il regime di ogni sua attività.",
+      "explanation": "No: hanno natura associativa privata, con attività anche di rilevanza pubblicistica. La natura del soggetto non risolve da sola il regime di ogni sua attività.",
+      "help": "pubblico-organizzazione/sport"
+    },
+    {
+      "id": "law-pubblico-organizzazione-sport-2",
+      "unit": "pubblico-organizzazione",
+      "concept": "sport",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Per qualificare un atto federale occorre guardare…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Anche alla funzione e al rapporto concreto"
+        },
+        {
+          "id": "a",
+          "text": "Soltanto alla natura privata della federazione, che rende privato ogni atto",
+          "feedback": "La natura associativa non elimina attività di rilevanza pubblicistica.",
+          "help": "pubblico-organizzazione/sport"
+        },
+        {
+          "id": "b",
+          "text": "Soltanto al finanziamento pubblico, che rende amministrativo ogni contratto",
+          "feedback": "Finanziamento, natura del soggetto e funzione del singolo atto sono distinti.",
+          "help": "pubblico-organizzazione/sport"
+        }
+      ],
+      "hint": "La natura del soggetto non risolve da sola il regime di ogni sua attività.",
+      "explanation": "Anche alla funzione e al rapporto concreto. La natura del soggetto non risolve da sola il regime di ogni sua attività.",
+      "help": "pubblico-organizzazione/sport"
+    },
+    {
+      "id": "law-pubblico-impiego-accesso-1",
+      "unit": "pubblico-impiego",
+      "concept": "accesso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’urgenza dichiarata da un ufficio basta sempre a eliminare il concorso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: le deroghe richiedono una base normativa applicabile"
+        },
+        {
+          "id": "a",
+          "text": "Sì, se il candidato è conosciuto",
+          "feedback": "La conoscenza personale non è una deroga.",
+          "help": "pubblico-impiego/accesso"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il lavoro riguarda lo sport",
+          "feedback": "Il settore non crea un’eccezione generale.",
+          "help": "pubblico-impiego/accesso"
+        }
+      ],
+      "hint": "La selezione serve a comparare capacità secondo regole, non a convalidare una preferenza.",
+      "explanation": "No: le deroghe richiedono una base normativa applicabile. La selezione serve a comparare capacità secondo regole, non a convalidare una preferenza.",
+      "help": "pubblico-impiego/accesso"
+    },
+    {
+      "id": "law-pubblico-impiego-accesso-2",
+      "unit": "pubblico-impiego",
+      "concept": "accesso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un ente vuole modificare informalmente i criteri dopo aver visto le candidature. Può farlo per scegliere il candidato che preferisce?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: criteri e parità di trattamento vincolano la selezione"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché la valutazione comparativa è sempre una scelta politica libera",
+          "feedback": "La selezione è vincolata da criteri, competenze e imparzialità.",
+          "help": "pubblico-impiego/accesso"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché non comunichi la modifica agli altri candidati",
+          "feedback": "Nascondere la modifica aggrava il problema di trasparenza e parità.",
+          "help": "pubblico-impiego/accesso"
+        }
+      ],
+      "hint": "La selezione serve a comparare capacità secondo regole, non a convalidare una preferenza.",
+      "explanation": "No: criteri e parità di trattamento vincolano la selezione. La selezione serve a comparare capacità secondo regole, non a convalidare una preferenza.",
+      "help": "pubblico-impiego/accesso"
+    },
+    {
+      "id": "law-pubblico-impiego-rapporto-1",
+      "unit": "pubblico-impiego",
+      "concept": "rapporto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Contrattualizzare il rapporto rende l’ente un’azienda privata per ogni funzione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: rapporto di lavoro e natura dell’amministrazione sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, scompaiono le competenze pubbliche",
+          "feedback": "La disciplina del lavoro non trasforma tutte le funzioni.",
+          "help": "pubblico-impiego/rapporto"
+        },
+        {
+          "id": "b",
+          "text": "Sì, non esistono più norme imperative",
+          "feedback": "Restano regole speciali e inderogabili.",
+          "help": "pubblico-impiego/rapporto"
+        }
+      ],
+      "hint": "Contrattualizzazione del lavoro non significa scomparsa delle regole pubbliche.",
+      "explanation": "No: rapporto di lavoro e natura dell’amministrazione sono distinti. Contrattualizzazione del lavoro non significa scomparsa delle regole pubbliche.",
+      "help": "pubblico-impiego/rapporto"
+    },
+    {
+      "id": "law-pubblico-impiego-rapporto-2",
+      "unit": "pubblico-impiego",
+      "concept": "rapporto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Concorso di assunzione e credito retributivo di un dipendente contrattualizzato vanno sempre allo stesso giudice?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: l’art. 63 distingue le relative controversie"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta che il datore sia pubblico",
+          "feedback": "Il criterio richiede di distinguere rapporto e fase.",
+          "help": "pubblico-impiego/rapporto"
+        },
+        {
+          "id": "b",
+          "text": "Sì, decide sempre la federazione sportiva",
+          "feedback": "Non ha questa competenza generale.",
+          "help": "pubblico-impiego/rapporto"
+        }
+      ],
+      "hint": "Contrattualizzazione del lavoro non significa scomparsa delle regole pubbliche.",
+      "explanation": "No: l’art. 63 distingue le relative controversie. Contrattualizzazione del lavoro non significa scomparsa delle regole pubbliche.",
+      "help": "pubblico-impiego/rapporto"
+    },
+    {
+      "id": "law-pubblico-impiego-doveri-1",
+      "unit": "pubblico-impiego",
+      "concept": "doveri",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un incarico esterno è sempre lecito se svolto la sera?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: vanno verificati incompatibilità, autorizzazioni e conflitti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, l’orario risolve tutto",
+          "feedback": "Le regole riguardano anche il rapporto fra interessi e funzione.",
+          "help": "pubblico-impiego/doveri"
+        },
+        {
+          "id": "b",
+          "text": "No, ogni attività personale è sempre vietata",
+          "feedback": "Esistono condizioni, eccezioni e attività consentite.",
+          "help": "pubblico-impiego/doveri"
+        }
+      ],
+      "hint": "Fuori orario non significa fuori dalle regole su incarichi e conflitti.",
+      "explanation": "No: vanno verificati incompatibilità, autorizzazioni e conflitti. Fuori orario non significa fuori dalle regole su incarichi e conflitti.",
+      "help": "pubblico-impiego/doveri"
+    },
+    {
+      "id": "law-pubblico-impiego-doveri-2",
+      "unit": "pubblico-impiego",
+      "concept": "doveri",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un dato acquisito per servizio può essere usato liberamente per un’attività privata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: doveri di servizio e limiti sui dati restano applicabili"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché il dipendente lo conosce",
+          "feedback": "La conoscenza non attribuisce libera disponibilità.",
+          "help": "pubblico-impiego/doveri"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’uso avviene fuori dall’orario di servizio",
+          "feedback": "L’orario non elimina doveri di riservatezza e limiti all’uso delle informazioni.",
+          "help": "pubblico-impiego/doveri"
+        }
+      ],
+      "hint": "Fuori orario non significa fuori dalle regole su incarichi e conflitti.",
+      "explanation": "No: doveri di servizio e limiti sui dati restano applicabili. Fuori orario non significa fuori dalle regole su incarichi e conflitti.",
+      "help": "pubblico-impiego/doveri"
+    },
+    {
+      "id": "law-pubblico-impiego-responsabilita-1",
+      "unit": "pubblico-impiego",
+      "concept": "responsabilita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ogni errore del dipendente integra automaticamente un reato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono gli elementi della fattispecie penale"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché il datore è pubblico",
+          "feedback": "La natura pubblica non rende penale ogni errore.",
+          "help": "pubblico-impiego/responsabilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il risultato è insoddisfacente",
+          "feedback": "L’insuccesso non prova da solo un reato.",
+          "help": "pubblico-impiego/responsabilita"
+        }
+      ],
+      "hint": "Più piani di responsabilità sono possibili, ma ciascuno ha presupposti propri.",
+      "explanation": "No: occorrono gli elementi della fattispecie penale. Più piani di responsabilità sono possibili, ma ciascuno ha presupposti propri.",
+      "help": "pubblico-impiego/responsabilita"
+    },
+    {
+      "id": "law-pubblico-impiego-responsabilita-2",
+      "unit": "pubblico-impiego",
+      "concept": "responsabilita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una sanzione disciplinare può ignorare il diritto di difesa?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: richiede procedimento e garanzie applicabili"
+        },
+        {
+          "id": "a",
+          "text": "Sì, se il superiore è irritato",
+          "feedback": "Il sentimento del superiore non sostituisce le garanzie.",
+          "help": "pubblico-impiego/responsabilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché non è una sanzione penale",
+          "feedback": "Anche il procedimento disciplinare ha regole.",
+          "help": "pubblico-impiego/responsabilita"
+        }
+      ],
+      "hint": "Più piani di responsabilità sono possibili, ma ciascuno ha presupposti propri.",
+      "explanation": "No: richiede procedimento e garanzie applicabili. Più piani di responsabilità sono possibili, ma ciascuno ha presupposti propri.",
+      "help": "pubblico-impiego/responsabilita"
+    },
+    {
+      "id": "law-pubblico-procedimento-fasi-1",
+      "unit": "pubblico-procedimento",
+      "concept": "fasi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il responsabile del procedimento firma necessariamente ogni provvedimento finale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: decide solo se ne ha la competenza"
+        },
+        {
+          "id": "a",
+          "text": "Sì, altrimenti non sarebbe responsabile",
+          "feedback": "La legge distingue compiti istruttori e competenza finale.",
+          "help": "pubblico-procedimento/fasi"
+        },
+        {
+          "id": "b",
+          "text": "No, non svolge mai alcun compito concreto",
+          "feedback": "Cura numerose attività istruttorie e organizzative.",
+          "help": "pubblico-procedimento/fasi"
+        }
+      ],
+      "hint": "Responsabilità istruttoria e competenza a decidere possono spettare a soggetti diversi.",
+      "explanation": "No: decide solo se ne ha la competenza. Responsabilità istruttoria e competenza a decidere possono spettare a soggetti diversi.",
+      "help": "pubblico-procedimento/fasi"
+    },
+    {
+      "id": "law-pubblico-procedimento-fasi-2",
+      "unit": "pubblico-procedimento",
+      "concept": "fasi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Scaduto un termine, la domanda è sempre accolta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre verificare la disciplina del silenzio"
+        },
+        {
+          "id": "a",
+          "text": "Sì, per qualsiasi procedimento",
+          "feedback": "Il silenzio ha significati diversi ed esclusioni.",
+          "help": "pubblico-procedimento/fasi"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi i termini sono irrilevanti",
+          "feedback": "Restano dovere di conclusione e strumenti di tutela.",
+          "help": "pubblico-procedimento/fasi"
+        }
+      ],
+      "hint": "Responsabilità istruttoria e competenza a decidere possono spettare a soggetti diversi.",
+      "explanation": "No: occorre verificare la disciplina del silenzio. Responsabilità istruttoria e competenza a decidere possono spettare a soggetti diversi.",
+      "help": "pubblico-procedimento/fasi"
+    },
+    {
+      "id": "law-pubblico-procedimento-partecipazione-1",
+      "unit": "pubblico-procedimento",
+      "concept": "partecipazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il preavviso di rigetto dell’art. 10-bis si applica senza eccezioni a ogni concorso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la norma prevede esclusioni, comprese le procedure concorsuali"
+        },
+        {
+          "id": "a",
+          "text": "Sì, non esistono esclusioni",
+          "feedback": "Occorre rispettare l’ambito della norma.",
+          "help": "pubblico-procedimento/partecipazione"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi nessun procedimento conosce partecipazione",
+          "feedback": "L’esclusione di uno strumento non cancella tutte le garanzie.",
+          "help": "pubblico-procedimento/partecipazione"
+        }
+      ],
+      "hint": "Partecipazione significa ascolto e valutazione effettivi, non accoglimento garantito.",
+      "explanation": "No: la norma prevede esclusioni, comprese le procedure concorsuali. Partecipazione significa ascolto e valutazione effettivi, non accoglimento garantito.",
+      "help": "pubblico-procedimento/partecipazione"
+    },
+    {
+      "id": "law-pubblico-procedimento-partecipazione-2",
+      "unit": "pubblico-procedimento",
+      "concept": "partecipazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una memoria pertinente può essere ignorata solo perché contraddice l’ufficio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: deve essere valutata secondo le regole applicabili"
+        },
+        {
+          "id": "a",
+          "text": "Sì, la decisione è già sempre definitiva",
+          "feedback": "Il procedimento serve anche a correggere l’istruttoria.",
+          "help": "pubblico-procedimento/partecipazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se è breve",
+          "feedback": "La lunghezza non determina la rilevanza.",
+          "help": "pubblico-procedimento/partecipazione"
+        }
+      ],
+      "hint": "Partecipazione significa ascolto e valutazione effettivi, non accoglimento garantito.",
+      "explanation": "No: deve essere valutata secondo le regole applicabili. Partecipazione significa ascolto e valutazione effettivi, non accoglimento garantito.",
+      "help": "pubblico-procedimento/partecipazione"
+    },
+    {
+      "id": "law-pubblico-procedimento-accesso-1",
+      "unit": "pubblico-procedimento",
+      "concept": "accesso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un documento soggetto a pubblicazione obbligatoria è assente: quale accesso è specificamente pertinente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Accesso civico semplice"
+        },
+        {
+          "id": "a",
+          "text": "Soltanto un ricorso alla Corte costituzionale",
+          "feedback": "Non è il rimedio ordinario descritto per questa richiesta.",
+          "help": "pubblico-procedimento/accesso"
+        },
+        {
+          "id": "b",
+          "text": "Nessun accesso è possibile",
+          "feedback": "L’omissione è proprio il presupposto dell’accesso civico semplice.",
+          "help": "pubblico-procedimento/accesso"
+        }
+      ],
+      "hint": "Documento per una posizione personale, pubblicazione omessa e controllo diffuso hanno regole diverse.",
+      "explanation": "Accesso civico semplice. Documento per una posizione personale, pubblicazione omessa e controllo diffuso hanno regole diverse.",
+      "help": "pubblico-procedimento/accesso"
+    },
+    {
+      "id": "law-pubblico-procedimento-accesso-2",
+      "unit": "pubblico-procedimento",
+      "concept": "accesso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "L’accesso generalizzato elimina ogni limite relativo ai dati personali?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: prevede esclusioni e limiti da applicare"
+        },
+        {
+          "id": "a",
+          "text": "Sì, tutti i dati diventano pubblici",
+          "feedback": "Trasparenza non equivale a divulgazione indiscriminata.",
+          "help": "pubblico-procedimento/accesso"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché non occorre dimostrare un interesse qualificato",
+          "feedback": "L’assenza di un interesse qualificato come requisito non elimina le esclusioni a tutela dei dati.",
+          "help": "pubblico-procedimento/accesso"
+        }
+      ],
+      "hint": "Documento per una posizione personale, pubblicazione omessa e controllo diffuso hanno regole diverse.",
+      "explanation": "No: prevede esclusioni e limiti da applicare. Documento per una posizione personale, pubblicazione omessa e controllo diffuso hanno regole diverse.",
+      "help": "pubblico-procedimento/accesso"
+    },
+    {
+      "id": "law-pubblico-procedimento-semplificazione-1",
+      "unit": "pubblico-procedimento",
+      "concept": "semplificazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La SCIA è sempre un provvedimento autorizzativo espresso della PA?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è una segnalazione del privato nel regime previsto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni modulo equivale a una licenza",
+          "feedback": "Soggetto e natura dell’atto sono diversi.",
+          "help": "pubblico-procedimento/semplificazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, elimina ogni controllo successivo",
+          "feedback": "Restano poteri di verifica nei limiti di legge.",
+          "help": "pubblico-procedimento/semplificazione"
+        }
+      ],
+      "hint": "La semplificazione cambia strumenti e passaggi, non cancella automaticamente i requisiti.",
+      "explanation": "No: è una segnalazione del privato nel regime previsto. La semplificazione cambia strumenti e passaggi, non cancella automaticamente i requisiti.",
+      "help": "pubblico-procedimento/semplificazione"
+    },
+    {
+      "id": "law-pubblico-procedimento-semplificazione-2",
+      "unit": "pubblico-procedimento",
+      "concept": "semplificazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La conferenza di servizi serve principalmente a…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Coordinare gli apporti delle amministrazioni interessate"
+        },
+        {
+          "id": "a",
+          "text": "Eliminare ogni competenza diversa da quella del gestore",
+          "feedback": "Il coordinamento non sopprime le competenze.",
+          "help": "pubblico-procedimento/semplificazione"
+        },
+        {
+          "id": "b",
+          "text": "Garantire sempre un esito favorevole",
+          "feedback": "Il coordinamento non assicura l’assenso sostanziale.",
+          "help": "pubblico-procedimento/semplificazione"
+        }
+      ],
+      "hint": "La semplificazione cambia strumenti e passaggi, non cancella automaticamente i requisiti.",
+      "explanation": "Coordinare gli apporti delle amministrazioni interessate. La semplificazione cambia strumenti e passaggi, non cancella automaticamente i requisiti.",
+      "help": "pubblico-procedimento/semplificazione"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-atti-1",
+      "unit": "pubblico-provvedimenti",
+      "concept": "atti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ogni parere tecnico è necessariamente il provvedimento finale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può essere un atto dell’istruttoria"
+        },
+        {
+          "id": "a",
+          "text": "Sì, se è sfavorevole",
+          "feedback": "Il contenuto sfavorevole non lo trasforma sempre in decisione finale.",
+          "help": "pubblico-provvedimenti/atti"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se è scritto",
+          "feedback": "La forma scritta non determina la funzione.",
+          "help": "pubblico-provvedimenti/atti"
+        }
+      ],
+      "hint": "Preparare la decisione, decidere e rendere efficace l’atto sono funzioni distinte.",
+      "explanation": "No: può essere un atto dell’istruttoria. Preparare la decisione, decidere e rendere efficace l’atto sono funzioni distinte.",
+      "help": "pubblico-provvedimenti/atti"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-atti-2",
+      "unit": "pubblico-provvedimenti",
+      "concept": "atti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "L’esecuzione coattiva è sempre libera per qualsiasi atto amministrativo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: richiede casi e modi previsti dalla legge"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché la PA ha sempre ragione",
+          "feedback": "L’autorità incontra limiti legali.",
+          "help": "pubblico-provvedimenti/atti"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il destinatario protesta",
+          "feedback": "La protesta non attribuisce ulteriori poteri.",
+          "help": "pubblico-provvedimenti/atti"
+        }
+      ],
+      "hint": "Preparare la decisione, decidere e rendere efficace l’atto sono funzioni distinte.",
+      "explanation": "No: richiede casi e modi previsti dalla legge. Preparare la decisione, decidere e rendere efficace l’atto sono funzioni distinte.",
+      "help": "pubblico-provvedimenti/atti"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-invalidita-1",
+      "unit": "pubblico-provvedimenti",
+      "concept": "invalidita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Incompetenza relativa e difetto assoluto di attribuzione sono identici?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: hanno collocazioni diverse nella disciplina dei vizi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, comportano sempre la stessa nullità",
+          "feedback": "La legge distingue nullità e annullabilità.",
+          "help": "pubblico-provvedimenti/invalidita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’atto è sfavorevole",
+          "feedback": "L’effetto sfavorevole non determina il tipo di vizio.",
+          "help": "pubblico-provvedimenti/invalidita"
+        }
+      ],
+      "hint": "I vizi hanno categorie e conseguenze diverse: qualificare precede il rimedio.",
+      "explanation": "No: hanno collocazioni diverse nella disciplina dei vizi. I vizi hanno categorie e conseguenze diverse: qualificare precede il rimedio.",
+      "help": "pubblico-provvedimenti/invalidita"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-invalidita-2",
+      "unit": "pubblico-provvedimenti",
+      "concept": "invalidita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "L’art. 21-octies permette di saltare sempre la partecipazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: contiene ipotesi e limiti specifici, non un’esenzione generale"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta dire che sarebbe finita allo stesso modo",
+          "feedback": "Occorre verificare rigorosamente le condizioni.",
+          "help": "pubblico-provvedimenti/invalidita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, solo per gli impianti sportivi",
+          "feedback": "Non esiste questa esclusione generale.",
+          "help": "pubblico-provvedimenti/invalidita"
+        }
+      ],
+      "hint": "I vizi hanno categorie e conseguenze diverse: qualificare precede il rimedio.",
+      "explanation": "No: contiene ipotesi e limiti specifici, non un’esenzione generale. I vizi hanno categorie e conseguenze diverse: qualificare precede il rimedio.",
+      "help": "pubblico-provvedimenti/invalidita"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-autotutela-1",
+      "unit": "pubblico-provvedimenti",
+      "concept": "autotutela",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Annullamento d’ufficio e revoca sono sinonimi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: presupposti e conseguenze differiscono"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta che l’atto venga ritirato",
+          "feedback": "Il risultato pratico non rende identiche le basi giuridiche.",
+          "help": "pubblico-provvedimenti/autotutela"
+        },
+        {
+          "id": "b",
+          "text": "Sì, la PA può scegliere il nome senza limiti",
+          "feedback": "La qualificazione dipende dai presupposti reali.",
+          "help": "pubblico-provvedimenti/autotutela"
+        }
+      ],
+      "hint": "Illegittimità originaria e rivalutazione ammessa conducono a istituti differenti.",
+      "explanation": "No: presupposti e conseguenze differiscono. Illegittimità originaria e rivalutazione ammessa conducono a istituti differenti.",
+      "help": "pubblico-provvedimenti/autotutela"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-autotutela-2",
+      "unit": "pubblico-provvedimenti",
+      "concept": "autotutela",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Per le autorizzazioni, il testo verificato al 22 ottobre 2026 indica nell’art. 21-nonies quale limite ordinario massimo, salve eccezioni?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sei mesi, entro un termine ragionevole e con gli altri presupposti"
+        },
+        {
+          "id": "a",
+          "text": "Sempre dodici mesi",
+          "feedback": "È il riferimento precedente alla modifica del 2025.",
+          "help": "pubblico-provvedimenti/autotutela"
+        },
+        {
+          "id": "b",
+          "text": "Nessun termine né bilanciamento",
+          "feedback": "La norma protegge anche affidamento e interessi coinvolti.",
+          "help": "pubblico-provvedimenti/autotutela"
+        }
+      ],
+      "hint": "Illegittimità originaria e rivalutazione ammessa conducono a istituti differenti.",
+      "explanation": "Sei mesi, entro un termine ragionevole e con gli altri presupposti. Illegittimità originaria e rivalutazione ammessa conducono a istituti differenti.",
+      "help": "pubblico-provvedimenti/autotutela"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-tutela-1",
+      "unit": "pubblico-provvedimenti",
+      "concept": "tutela",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una richiesta di riesame sospende sempre i termini di impugnazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: non produce automaticamente questo effetto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta inviare un’email",
+          "feedback": "Una richiesta informale non arresta di regola il termine.",
+          "help": "pubblico-provvedimenti/tutela"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se l’ente non risponde",
+          "feedback": "Il silenzio non crea automaticamente sospensione.",
+          "help": "pubblico-provvedimenti/tutela"
+        }
+      ],
+      "hint": "Giudice, azione e termine dipendono da rapporto e disciplina; il riesame non sostituisce automaticamente il ricorso.",
+      "explanation": "No: non produce automaticamente questo effetto. Giudice, azione e termine dipendono da rapporto e disciplina; il riesame non sostituisce automaticamente il ricorso.",
+      "help": "pubblico-provvedimenti/tutela"
+    },
+    {
+      "id": "law-pubblico-provvedimenti-tutela-2",
+      "unit": "pubblico-provvedimenti",
+      "concept": "tutela",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Ogni controversia sportiva spetta direttamente al TAR?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: vanno distinti materia, posizione, domanda e regole di tutela"
+        },
+        {
+          "id": "a",
+          "text": "Sì, lo sport è sempre amministrativo",
+          "feedback": "Esistono rapporti tecnici, associativi e privatistici diversi.",
+          "help": "pubblico-provvedimenti/tutela"
+        },
+        {
+          "id": "b",
+          "text": "No, nessuna controversia sportiva ha tutela esterna",
+          "feedback": "L’autonomia non elimina ogni tutela dell’ordinamento generale.",
+          "help": "pubblico-provvedimenti/tutela"
+        }
+      ],
+      "hint": "Giudice, azione e termine dipendono da rapporto e disciplina; il riesame non sostituisce automaticamente il ricorso.",
+      "explanation": "No: vanno distinti materia, posizione, domanda e regole di tutela. Giudice, azione e termine dipendono da rapporto e disciplina; il riesame non sostituisce automaticamente il ricorso.",
+      "help": "pubblico-provvedimenti/tutela"
+    },
+    {
+      "id": "law-pubblico-mezzi-beni-1",
+      "unit": "pubblico-mezzi",
+      "concept": "beni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ogni bene del Comune è automaticamente demaniale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre distinguere le categorie patrimoniali"
+        },
+        {
+          "id": "a",
+          "text": "Sì, proprietà pubblica significa sempre demanio",
+          "feedback": "Esistono patrimonio indisponibile e disponibile.",
+          "help": "pubblico-mezzi/beni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se vale molto",
+          "feedback": "Il valore economico non è il criterio decisivo.",
+          "help": "pubblico-mezzi/beni"
+        }
+      ],
+      "hint": "La proprietà pubblica è il punto di partenza; destinazione e regime completano la qualificazione.",
+      "explanation": "No: occorre distinguere le categorie patrimoniali. La proprietà pubblica è il punto di partenza; destinazione e regime completano la qualificazione.",
+      "help": "pubblico-mezzi/beni"
+    },
+    {
+      "id": "law-pubblico-mezzi-beni-2",
+      "unit": "pubblico-mezzi",
+      "concept": "beni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un canone basta a dimostrare una locazione privata di un impianto pubblico?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: contano regime del bene e contenuto del rapporto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, qualsiasi pagamento è locazione",
+          "feedback": "Anche altri rapporti possono prevedere canoni.",
+          "help": "pubblico-mezzi/beni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il contratto usa quella parola",
+          "feedback": "Il titolo non prevale sulla qualificazione sostanziale.",
+          "help": "pubblico-mezzi/beni"
+        }
+      ],
+      "hint": "La proprietà pubblica è il punto di partenza; destinazione e regime completano la qualificazione.",
+      "explanation": "No: contano regime del bene e contenuto del rapporto. La proprietà pubblica è il punto di partenza; destinazione e regime completano la qualificazione.",
+      "help": "pubblico-mezzi/beni"
+    },
+    {
+      "id": "law-pubblico-mezzi-servizi-1",
+      "unit": "pubblico-mezzi",
+      "concept": "servizi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale elemento distingue in modo centrale una concessione di servizi nel codice?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il trasferimento del rischio operativo nei termini della disciplina"
+        },
+        {
+          "id": "a",
+          "text": "La sola presenza della parola concessione",
+          "feedback": "L’etichetta non prova il contenuto economico.",
+          "help": "pubblico-mezzi/servizi"
+        },
+        {
+          "id": "b",
+          "text": "La sola proprietà pubblica dell’edificio usato",
+          "feedback": "La proprietà del bene non dimostra il trasferimento del rischio operativo del servizio.",
+          "help": "pubblico-mezzi/servizi"
+        }
+      ],
+      "hint": "Bene, servizio, remunerazione e rischio sono quattro domande separate.",
+      "explanation": "Il trasferimento del rischio operativo nei termini della disciplina. Bene, servizio, remunerazione e rischio sono quattro domande separate.",
+      "help": "pubblico-mezzi/servizi"
+    },
+    {
+      "id": "law-pubblico-mezzi-servizi-2",
+      "unit": "pubblico-mezzi",
+      "concept": "servizi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un servizio pubblico deve essere materialmente svolto sempre da dipendenti dell’ente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: può essere gestito da altri soggetti secondo la disciplina"
+        },
+        {
+          "id": "a",
+          "text": "Sì, la gestione privata è sempre impossibile",
+          "feedback": "Funzione pubblica e produzione materiale sono distinguibili.",
+          "help": "pubblico-mezzi/servizi"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi non esistono più obblighi di servizio",
+          "feedback": "La modalità di gestione non cancella i vincoli.",
+          "help": "pubblico-mezzi/servizi"
+        }
+      ],
+      "hint": "Bene, servizio, remunerazione e rischio sono quattro domande separate.",
+      "explanation": "No: può essere gestito da altri soggetti secondo la disciplina. Bene, servizio, remunerazione e rischio sono quattro domande separate.",
+      "help": "pubblico-mezzi/servizi"
+    },
+    {
+      "id": "law-pubblico-mezzi-risorse-1",
+      "unit": "pubblico-mezzi",
+      "concept": "risorse",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il principio del risultato consente qualunque affidamento informale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: opera insieme agli altri principi e alle regole"
+        },
+        {
+          "id": "a",
+          "text": "Sì, se il servizio viene svolto",
+          "feedback": "La buona riuscita non sana ogni violazione.",
+          "help": "pubblico-mezzi/risorse"
+        },
+        {
+          "id": "b",
+          "text": "Sì, purché il gestore sia conosciuto",
+          "feedback": "La fiducia non equivale a favoritismo personale.",
+          "help": "pubblico-mezzi/risorse"
+        }
+      ],
+      "hint": "Prima qualifica l’operazione; poi scegli procedura, atto e controllo.",
+      "explanation": "No: opera insieme agli altri principi e alle regole. Prima qualifica l’operazione; poi scegli procedura, atto e controllo.",
+      "help": "pubblico-mezzi/risorse"
+    },
+    {
+      "id": "law-pubblico-mezzi-risorse-2",
+      "unit": "pubblico-mezzi",
+      "concept": "risorse",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un contributo e l’acquisto di un servizio sono sempre identici?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: finalità e assetto delle prestazioni vanno qualificati"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché esce denaro pubblico",
+          "feedback": "Il solo flusso finanziario non determina il rapporto.",
+          "help": "pubblico-mezzi/risorse"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il destinatario è un’associazione",
+          "feedback": "La natura del destinatario non basta.",
+          "help": "pubblico-mezzi/risorse"
+        }
+      ],
+      "hint": "Prima qualifica l’operazione; poi scegli procedura, atto e controllo.",
+      "explanation": "No: finalità e assetto delle prestazioni vanno qualificati. Prima qualifica l’operazione; poi scegli procedura, atto e controllo.",
+      "help": "pubblico-mezzi/risorse"
+    },
+    {
+      "id": "law-pubblico-mezzi-caso-1",
+      "unit": "pubblico-mezzi",
+      "concept": "caso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il gestore viola gli orari pattuiti dopo un affidamento regolare: il primo tema è…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’esecuzione degli obblighi e i rimedi del rapporto"
+        },
+        {
+          "id": "a",
+          "text": "La nullità originaria dell’affidamento per il solo mancato rispetto degli orari",
+          "feedback": "Un inadempimento successivo non prova da solo un difetto originario di validità.",
+          "help": "pubblico-mezzi/caso"
+        },
+        {
+          "id": "b",
+          "text": "La revoca per nuova valutazione pubblica, senza esaminare gli obblighi",
+          "feedback": "Prima di scegliere il rimedio occorre distinguere inadempimento e presupposti della revoca.",
+          "help": "pubblico-mezzi/caso"
+        }
+      ],
+      "hint": "Una vicenda, più rapporti: separare le fasi permette di scegliere rimedi coerenti.",
+      "explanation": "L’esecuzione degli obblighi e i rimedi del rapporto. Una vicenda, più rapporti: separare le fasi permette di scegliere rimedi coerenti.",
+      "help": "pubblico-mezzi/caso"
+    },
+    {
+      "id": "law-pubblico-mezzi-caso-2",
+      "unit": "pubblico-mezzi",
+      "concept": "caso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un confronto completo del caso deve includere…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Bene, competenza, procedura, scelta, esecuzione e tutela"
+        },
+        {
+          "id": "a",
+          "text": "Soltanto il nome del gestore",
+          "feedback": "Il nome non spiega la legalità dell’operazione.",
+          "help": "pubblico-mezzi/caso"
+        },
+        {
+          "id": "b",
+          "text": "Solo il risultato economico finale",
+          "feedback": "Non esaurisce competenze, diritti e procedimento.",
+          "help": "pubblico-mezzi/caso"
+        }
+      ],
+      "hint": "Una vicenda, più rapporti: separare le fasi permette di scegliere rimedi coerenti.",
+      "explanation": "Bene, competenza, procedura, scelta, esecuzione e tutela. Una vicenda, più rapporti: separare le fasi permette di scegliere rimedi coerenti.",
+      "help": "pubblico-mezzi/caso"
+    },
+    {
+      "id": "law-internazionale-istituzioni-comunita-1",
+      "unit": "internazionale-istituzioni",
+      "concept": "comunita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un’abitudine ripetuta fra club basta a creare consuetudine internazionale fra Stati?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono prassi pertinente e convinzione di obbligatorietà giuridica"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta che i club siano molti",
+          "feedback": "Il numero non sostituisce soggetti ed elementi richiesti.",
+          "help": "internazionale-istituzioni/comunita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se la scelta viene pubblicizzata",
+          "feedback": "La pubblicità non dimostra opinio juris.",
+          "help": "internazionale-istituzioni/comunita"
+        }
+      ],
+      "hint": "Fonte e forza vincolante vanno identificate, non dedotte dal prestigio del nome.",
+      "explanation": "No: occorrono prassi pertinente e convinzione di obbligatorietà giuridica. Fonte e forza vincolante vanno identificate, non dedotte dal prestigio del nome.",
+      "help": "internazionale-istituzioni/comunita"
+    },
+    {
+      "id": "law-internazionale-istituzioni-italia-1",
+      "unit": "internazionale-istituzioni",
+      "concept": "italia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Firma, ratifica ed esecuzione interna sono sempre lo stesso atto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: hanno funzioni distinte e vanno verificate"
+        },
+        {
+          "id": "a",
+          "text": "Sì, tutte le parole indicano una firma",
+          "feedback": "Il consenso internazionale e l’adattamento interno sono piani diversi.",
+          "help": "internazionale-istituzioni/italia"
+        },
+        {
+          "id": "b",
+          "text": "Sì, nei trattati sportivi senza eccezioni",
+          "feedback": "L’oggetto sportivo non elimina i procedimenti applicabili.",
+          "help": "internazionale-istituzioni/italia"
+        }
+      ],
+      "hint": "Firma, ratifica ed esecuzione sono passaggi diversi.",
+      "explanation": "No: hanno funzioni distinte e vanno verificate. Firma, ratifica ed esecuzione sono passaggi diversi.",
+      "help": "internazionale-istituzioni/italia"
+    },
+    {
+      "id": "law-internazionale-istituzioni-ue-1",
+      "unit": "internazionale-istituzioni",
+      "concept": "ue",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Primato ed effetto diretto sono sinonimi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: prevalenza e invocabilità della disposizione sono questioni distinte"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni atto UE è sempre invocabile contro chiunque",
+          "feedback": "Tipo di atto, contenuto e rapporto contano.",
+          "help": "internazionale-istituzioni/ue"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni direttiva vale sempre orizzontalmente",
+          "feedback": "Non si presume l’effetto diretto contro un altro privato.",
+          "help": "internazionale-istituzioni/ue"
+        }
+      ],
+      "hint": "Distinguere istituzione e tipo di atto è il primo controllo.",
+      "explanation": "No: prevalenza e invocabilità della disposizione sono questioni distinte. Distinguere istituzione e tipo di atto è il primo controllo.",
+      "help": "internazionale-istituzioni/ue"
+    },
+    {
+      "id": "law-internazionale-istituzioni-diritti-1",
+      "unit": "internazionale-istituzioni",
+      "concept": "diritti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un atleta può adire la Corte internazionale di giustizia come parte in una controversia fra Stati?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: l’accesso contenzioso è riservato agli Stati"
+        },
+        {
+          "id": "a",
+          "text": "Sì, per qualsiasi problema sportivo",
+          "feedback": "La materia sportiva non cambia i soggetti ammessi.",
+          "help": "internazionale-istituzioni/diritti"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché è identica al TAS",
+          "feedback": "Sono organi diversi con basi e competenze diverse.",
+          "help": "internazionale-istituzioni/diritti"
+        }
+      ],
+      "hint": "Ogni sistema ha soggetti, fonti e rimedi propri.",
+      "explanation": "No: l’accesso contenzioso è riservato agli Stati. Ogni sistema ha soggetti, fonti e rimedi propri.",
+      "help": "internazionale-istituzioni/diritti"
+    },
+    {
+      "id": "law-internazionale-sport-olimpico-1",
+      "unit": "internazionale-sport",
+      "concept": "olimpico",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La Carta olimpica è un trattato fra Stati membri dell’ONU?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è la carta del movimento olimpico, su una diversa base organizzativa"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché riguarda molti Paesi",
+          "feedback": "La diffusione internazionale non trasforma un atto associativo in trattato.",
+          "help": "internazionale-sport/olimpico"
+        },
+        {
+          "id": "b",
+          "text": "Sì, il CIO è un organo del Consiglio di sicurezza",
+          "feedback": "Le due organizzazioni non coincidono.",
+          "help": "internazionale-sport/olimpico"
+        }
+      ],
+      "hint": "L'autorità sportiva internazionale non coincide con sovranità statale.",
+      "explanation": "No: è la carta del movimento olimpico, su una diversa base organizzativa. L'autorità sportiva internazionale non coincide con sovranità statale.",
+      "help": "internazionale-sport/olimpico"
+    },
+    {
+      "id": "law-internazionale-sport-europa-sport-1",
+      "unit": "internazionale-sport",
+      "concept": "europa-sport",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La sentenza Superleague del 2023 autorizza automaticamente qualsiasi progetto alternativo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: controlla regole e presupposti del caso, non approva ogni progetto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni nuova competizione è automaticamente approvata",
+          "feedback": "La decisione non ha questa portata generale.",
+          "help": "internazionale-sport/europa-sport"
+        },
+        {
+          "id": "b",
+          "text": "Sì, elimina ogni competenza organizzativa delle federazioni",
+          "feedback": "Il controllo delle restrizioni non cancella ogni ruolo organizzativo.",
+          "help": "internazionale-sport/europa-sport"
+        }
+      ],
+      "hint": "Specificità sportiva non equivale a immunità dal diritto europeo.",
+      "explanation": "No: controlla regole e presupposti del caso, non approva ogni progetto. Specificità sportiva non equivale a immunità dal diritto europeo.",
+      "help": "internazionale-sport/europa-sport"
+    },
+    {
+      "id": "law-internazionale-sport-arbitrato-1",
+      "unit": "internazionale-sport",
+      "concept": "arbitrato",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Essere sportivi attribuisce automaticamente al TAS competenza su ogni controversia?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: serve una base di competenza pertinente"
+        },
+        {
+          "id": "a",
+          "text": "Sì, anche per qualsiasi controversia estranea allo sport",
+          "feedback": "L’arbitrato richiede un fondamento e un ambito.",
+          "help": "internazionale-sport/arbitrato"
+        },
+        {
+          "id": "b",
+          "text": "Sì, non esistono condizioni procedurali",
+          "feedback": "Regole e termini restano applicabili.",
+          "help": "internazionale-sport/arbitrato"
+        }
+      ],
+      "hint": "Prima del merito, verifica chi può decidere e su quale base.",
+      "explanation": "No: serve una base di competenza pertinente. Prima del merito, verifica chi può decidere e su quale base.",
+      "help": "internazionale-sport/arbitrato"
+    },
+    {
+      "id": "law-internazionale-sport-antidoping-1",
+      "unit": "internazionale-sport",
+      "concept": "antidoping",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La pubblicazione del Codice 2027 lo rende applicabile a ogni caso del 2026?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: pubblicazione ed entrata in vigore sono distinte"
+        },
+        {
+          "id": "a",
+          "text": "Sì, il PDF più recente prevale sempre",
+          "feedback": "Va rispettata la decorrenza dichiarata.",
+          "help": "internazionale-sport/antidoping"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché non esistono regole temporali nello sport",
+          "feedback": "Anche le norme sportive hanno versioni e decorrenze.",
+          "help": "internazionale-sport/antidoping"
+        }
+      ],
+      "hint": "Data di pubblicazione e data di entrata in vigore sono diverse.",
+      "explanation": "No: pubblicazione ed entrata in vigore sono distinte. Data di pubblicazione e data di entrata in vigore sono diverse.",
+      "help": "internazionale-sport/antidoping"
+    },
+    {
+      "id": "law-internazionale-fonti-trattati-1",
+      "unit": "internazionale-fonti",
+      "concept": "trattati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un testo chiamato protocollo è sempre privo di forza vincolante?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre identificarne natura e condizioni giuridiche"
+        },
+        {
+          "id": "a",
+          "text": "Sì, soltanto la parola trattato è ammessa",
+          "feedback": "Il nome non determina da solo la natura.",
+          "help": "internazionale-fonti/trattati"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se è breve",
+          "feedback": "La lunghezza non decide la forza giuridica.",
+          "help": "internazionale-fonti/trattati"
+        }
+      ],
+      "hint": "Nome del documento e forza giuridica non coincidono.",
+      "explanation": "No: occorre identificarne natura e condizioni giuridiche. Nome del documento e forza giuridica non coincidono.",
+      "help": "internazionale-fonti/trattati"
+    },
+    {
+      "id": "law-internazionale-fonti-trattati-2",
+      "unit": "internazionale-fonti",
+      "concept": "trattati",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una riserva permette di eliminare liberamente qualunque obbligo di un trattato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è soggetta a limiti di ammissibilità"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni Stato può riscrivere tutto unilateralmente",
+          "feedback": "Il consenso pattizio e i limiti alle riserve non lo consentono.",
+          "help": "internazionale-fonti/trattati"
+        },
+        {
+          "id": "b",
+          "text": "Sì, anche contro qualsiasi norma imperativa",
+          "feedback": "Le norme imperative pongono un limite ulteriore.",
+          "help": "internazionale-fonti/trattati"
+        }
+      ],
+      "hint": "Nome del documento e forza giuridica non coincidono.",
+      "explanation": "No: è soggetta a limiti di ammissibilità. Nome del documento e forza giuridica non coincidono.",
+      "help": "internazionale-fonti/trattati"
+    },
+    {
+      "id": "law-internazionale-fonti-onu-1",
+      "unit": "internazionale-fonti",
+      "concept": "onu",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ogni risoluzione ONU ha identica forza giuridica?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: dipende da organo, competenza e contenuto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, sono tutte leggi mondiali",
+          "feedback": "L’ONU non è un legislatore statale universale.",
+          "help": "internazionale-fonti/onu"
+        },
+        {
+          "id": "b",
+          "text": "Sì, sono tutte necessariamente senza effetti",
+          "feedback": "Alcune decisioni sono vincolanti nei limiti della Carta.",
+          "help": "internazionale-fonti/onu"
+        }
+      ],
+      "hint": "Prima di citare «l’ONU», identifica organo, atto e base della sua forza.",
+      "explanation": "No: dipende da organo, competenza e contenuto. Prima di citare «l’ONU», identifica organo, atto e base della sua forza.",
+      "help": "internazionale-fonti/onu"
+    },
+    {
+      "id": "law-internazionale-fonti-onu-2",
+      "unit": "internazionale-fonti",
+      "concept": "onu",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "UNESCO e CIO coincidono?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: un’organizzazione intergovernativa e un soggetto del movimento olimpico sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, entrambi trattano sport",
+          "feedback": "Un tema comune non unifica natura e competenze.",
+          "help": "internazionale-fonti/onu"
+        },
+        {
+          "id": "b",
+          "text": "Sì, il CIO è un ministero UNESCO",
+          "feedback": "Non esiste questa relazione istituzionale.",
+          "help": "internazionale-fonti/onu"
+        }
+      ],
+      "hint": "Prima di citare «l’ONU», identifica organo, atto e base della sua forza.",
+      "explanation": "No: un’organizzazione intergovernativa e un soggetto del movimento olimpico sono distinti. Prima di citare «l’ONU», identifica organo, atto e base della sua forza.",
+      "help": "internazionale-fonti/onu"
+    },
+    {
+      "id": "law-internazionale-fonti-adattamento-1",
+      "unit": "internazionale-fonti",
+      "concept": "adattamento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il fatto che uno Stato sia vincolato da un trattato prova da solo ogni pretesa immediata del privato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: vanno esaminati adattamento, contenuto e tutela"
+        },
+        {
+          "id": "a",
+          "text": "Sì, qualsiasi obiettivo diventa una prestazione esigibile",
+          "feedback": "Il contenuto può richiedere misure ulteriori.",
+          "help": "internazionale-fonti/adattamento"
+        },
+        {
+          "id": "b",
+          "text": "No, quindi i trattati non contano mai internamente",
+          "feedback": "Possono produrre effetti tramite i meccanismi pertinenti.",
+          "help": "internazionale-fonti/adattamento"
+        }
+      ],
+      "hint": "Vincolo, adattamento e applicazione al caso sono tre controlli consecutivi.",
+      "explanation": "No: vanno esaminati adattamento, contenuto e tutela. Vincolo, adattamento e applicazione al caso sono tre controlli consecutivi.",
+      "help": "internazionale-fonti/adattamento"
+    },
+    {
+      "id": "law-internazionale-fonti-adattamento-2",
+      "unit": "internazionale-fonti",
+      "concept": "adattamento",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale fonte è direttamente applicabile nell’ordinamento UE secondo l’art. 288?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il regolamento"
+        },
+        {
+          "id": "a",
+          "text": "Ogni raccomandazione come una legge",
+          "feedback": "Le raccomandazioni non hanno quella forza.",
+          "help": "internazionale-fonti/adattamento"
+        },
+        {
+          "id": "b",
+          "text": "Ogni direttiva senza condizioni contro qualunque privato",
+          "feedback": "La direttiva ha disciplina ed effetti distinti.",
+          "help": "internazionale-fonti/adattamento"
+        }
+      ],
+      "hint": "Vincolo, adattamento e applicazione al caso sono tre controlli consecutivi.",
+      "explanation": "Il regolamento. Vincolo, adattamento e applicazione al caso sono tre controlli consecutivi.",
+      "help": "internazionale-fonti/adattamento"
+    },
+    {
+      "id": "law-internazionale-fonti-responsabilita-1",
+      "unit": "internazionale-fonti",
+      "concept": "responsabilita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Ogni violazione privata di una regola sportiva è automaticamente un illecito internazionale dello Stato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorrono i presupposti della responsabilità statale"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta la sede nel territorio",
+          "feedback": "La sede non rende automaticamente statale ogni condotta.",
+          "help": "internazionale-fonti/responsabilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se la gara è trasmessa all’estero",
+          "feedback": "La diffusione internazionale non prova attribuzione e violazione.",
+          "help": "internazionale-fonti/responsabilita"
+        }
+      ],
+      "hint": "Obbligo violato, autore della condotta e giudice competente non si deducono l’uno dall’altro.",
+      "explanation": "No: occorrono i presupposti della responsabilità statale. Obbligo violato, autore della condotta e giudice competente non si deducono l’uno dall’altro.",
+      "help": "internazionale-fonti/responsabilita"
+    },
+    {
+      "id": "law-internazionale-fonti-responsabilita-2",
+      "unit": "internazionale-fonti",
+      "concept": "responsabilita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Provare l’esistenza di un obbligo rende competente qualsiasi tribunale internazionale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la competenza ha un fondamento distinto"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni giudice può decidere ogni violazione",
+          "feedback": "Ogni organo ha limiti soggettivi e materiali.",
+          "help": "internazionale-fonti/responsabilita"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il problema è grave",
+          "feedback": "La gravità non crea da sola giurisdizione.",
+          "help": "internazionale-fonti/responsabilita"
+        }
+      ],
+      "hint": "Obbligo violato, autore della condotta e giudice competente non si deducono l’uno dall’altro.",
+      "explanation": "No: la competenza ha un fondamento distinto. Obbligo violato, autore della condotta e giudice competente non si deducono l’uno dall’altro.",
+      "help": "internazionale-fonti/responsabilita"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-lettura-1",
+      "unit": "internazionale-sostenibilita",
+      "concept": "lettura",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un dato citato in un articolo del 2020 è automaticamente un dato corrente del 2026?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: anno e aggiornamento vanno controllati"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché compare in un testo universitario",
+          "feedback": "L’autorevolezza non elimina il tempo del dato.",
+          "help": "internazionale-sostenibilita/lettura"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se parla di sport",
+          "feedback": "Il settore non rende immutabili i dati.",
+          "help": "internazionale-sostenibilita/lettura"
+        }
+      ],
+      "hint": "Leggi la tesi, identifica le fonti e controlla quali condizioni rendono possibile il risultato.",
+      "explanation": "No: anno e aggiornamento vanno controllati. Leggi la tesi, identifica le fonti e controlla quali condizioni rendono possibile il risultato.",
+      "help": "internazionale-sostenibilita/lettura"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-lettura-2",
+      "unit": "internazionale-sostenibilita",
+      "concept": "lettura",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una tesi sul possibile contributo dello sport implica un risultato garantito per ogni evento?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: richiede condizioni e verifica degli effetti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, basta organizzare una gara",
+          "feedback": "L’attività non dimostra da sola inclusione o sostenibilità.",
+          "help": "internazionale-sostenibilita/lettura"
+        },
+        {
+          "id": "b",
+          "text": "Sì, basta che aumentino gli iscritti nel primo giorno",
+          "feedback": "Un incremento iniziale non dimostra continuità, inclusione effettiva e sostenibilità complessiva.",
+          "help": "internazionale-sostenibilita/lettura"
+        }
+      ],
+      "hint": "Leggi la tesi, identifica le fonti e controlla quali condizioni rendono possibile il risultato.",
+      "explanation": "No: richiede condizioni e verifica degli effetti. Leggi la tesi, identifica le fonti e controlla quali condizioni rendono possibile il risultato.",
+      "help": "internazionale-sostenibilita/lettura"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-agenda-1",
+      "unit": "internazionale-sostenibilita",
+      "concept": "agenda",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’Agenda 2030 è automaticamente un contratto individuale per ricevere un corso gratuito?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: è una cornice programmatica da distinguere dai titoli specifici di tutela"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni obiettivo è un contratto",
+          "feedback": "Obiettivi internazionali e obbligazioni contrattuali sono fonti diverse.",
+          "help": "internazionale-sostenibilita/agenda"
+        },
+        {
+          "id": "b",
+          "text": "Sì, basta citarne il numero",
+          "feedback": "Il numero non crea una prestazione specifica.",
+          "help": "internazionale-sostenibilita/agenda"
+        }
+      ],
+      "hint": "Obiettivo dichiarato, intervento e risultato misurato sono livelli diversi.",
+      "explanation": "No: è una cornice programmatica da distinguere dai titoli specifici di tutela. Obiettivo dichiarato, intervento e risultato misurato sono livelli diversi.",
+      "help": "internazionale-sostenibilita/agenda"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-agenda-2",
+      "unit": "internazionale-sostenibilita",
+      "concept": "agenda",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel caso inventato 24 partecipanti su 40 equivalgono a…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "60%, senza dimostrare da soli la causalità del progetto"
+        },
+        {
+          "id": "a",
+          "text": "24%, con causalità certa",
+          "feedback": "Occorre dividere 24 per 40; un rapporto non prova causalità.",
+          "help": "internazionale-sostenibilita/agenda"
+        },
+        {
+          "id": "b",
+          "text": "40%, perché conta il totale",
+          "feedback": "Il denominatore non è la percentuale.",
+          "help": "internazionale-sostenibilita/agenda"
+        }
+      ],
+      "hint": "Obiettivo dichiarato, intervento e risultato misurato sono livelli diversi.",
+      "explanation": "60%, senza dimostrare da soli la causalità del progetto. Obiettivo dichiarato, intervento e risultato misurato sono livelli diversi.",
+      "help": "internazionale-sostenibilita/agenda"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-inclusione-1",
+      "unit": "internazionale-sostenibilita",
+      "concept": "inclusione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Carta UNESCO e Convenzione sui diritti delle persone con disabilità hanno necessariamente identica natura?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: dichiarazione di principi e trattato vanno distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, perché entrambe citano diritti",
+          "feedback": "Un oggetto comune non rende uguale la forza giuridica.",
+          "help": "internazionale-sostenibilita/inclusione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché sono documenti internazionali",
+          "feedback": "Internazionale non è un unico tipo di fonte.",
+          "help": "internazionale-sostenibilita/inclusione"
+        }
+      ],
+      "hint": "Il diritto alla partecipazione richiede attenzione alle condizioni reali, non soltanto alla porta formalmente aperta.",
+      "explanation": "No: dichiarazione di principi e trattato vanno distinti. Il diritto alla partecipazione richiede attenzione alle condizioni reali, non soltanto alla porta formalmente aperta.",
+      "help": "internazionale-sostenibilita/inclusione"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-inclusione-2",
+      "unit": "internazionale-sostenibilita",
+      "concept": "inclusione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Ammettere formalmente tutti dimostra sempre accesso effettivo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: possono restare barriere materiali, economiche o comunicative"
+        },
+        {
+          "id": "a",
+          "text": "Sì, il modulo risolve tutto",
+          "feedback": "L’accesso reale richiede condizioni utilizzabili.",
+          "help": "internazionale-sostenibilita/inclusione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il corso è gratuito",
+          "feedback": "La gratuità non elimina ogni altro ostacolo.",
+          "help": "internazionale-sostenibilita/inclusione"
+        }
+      ],
+      "hint": "Il diritto alla partecipazione richiede attenzione alle condizioni reali, non soltanto alla porta formalmente aperta.",
+      "explanation": "No: possono restare barriere materiali, economiche o comunicative. Il diritto alla partecipazione richiede attenzione alle condizioni reali, non soltanto alla porta formalmente aperta.",
+      "help": "internazionale-sostenibilita/inclusione"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-progetto-1",
+      "unit": "internazionale-sostenibilita",
+      "concept": "progetto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Per misurare partecipazione continuativa è sufficiente il numero iniziale di iscritti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: servono anche informazioni sulla frequenza nel tempo"
+        },
+        {
+          "id": "a",
+          "text": "Sì, iscrizione e partecipazione sono identiche",
+          "feedback": "Un iscritto può non frequentare o abbandonare.",
+          "help": "internazionale-sostenibilita/progetto"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se il numero è grande",
+          "feedback": "La dimensione non risolve il problema dell’indicatore.",
+          "help": "internazionale-sostenibilita/progetto"
+        }
+      ],
+      "hint": "Un progetto è valutabile quando esplicita destinatari, azioni, indicatori e limiti.",
+      "explanation": "No: servono anche informazioni sulla frequenza nel tempo. Un progetto è valutabile quando esplicita destinatari, azioni, indicatori e limiti.",
+      "help": "internazionale-sostenibilita/progetto"
+    },
+    {
+      "id": "law-internazionale-sostenibilita-progetto-2",
+      "unit": "internazionale-sostenibilita",
+      "concept": "progetto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La finalità sostenibile esenta automaticamente da regole su contratti e spesa?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: finalità e disciplina dei mezzi devono essere rispettate insieme"
+        },
+        {
+          "id": "a",
+          "text": "Sì, un buon fine elimina ogni vincolo",
+          "feedback": "Il valore sociale non attribuisce poteri illimitati.",
+          "help": "internazionale-sostenibilita/progetto"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se gli indicatori migliorano",
+          "feedback": "Il risultato non sana automaticamente violazioni.",
+          "help": "internazionale-sostenibilita/progetto"
+        }
+      ],
+      "hint": "Un progetto è valutabile quando esplicita destinatari, azioni, indicatori e limiti.",
+      "explanation": "No: finalità e disciplina dei mezzi devono essere rispettate insieme. Un progetto è valutabile quando esplicita destinatari, azioni, indicatori e limiti.",
+      "help": "internazionale-sostenibilita/progetto"
+    },
+    {
+      "id": "law-internazionale-europa-lettura-1",
+      "unit": "internazionale-europa",
+      "concept": "lettura",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La Carta europea dello sport del Consiglio d’Europa è una direttiva dell’UE?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: proviene da un’organizzazione diversa e ha natura diversa"
+        },
+        {
+          "id": "a",
+          "text": "Sì, ogni documento europeo è una direttiva",
+          "feedback": "Europa non coincide con UE né con un unico atto.",
+          "help": "internazionale-europa/lettura"
+        },
+        {
+          "id": "b",
+          "text": "Sì, perché riguarda gli stessi atleti",
+          "feedback": "I destinatari non unificano le fonti.",
+          "help": "internazionale-europa/lettura"
+        }
+      ],
+      "hint": "Organizzazione → strumento → forza → funzione: questa scheda evita di confondere i livelli europei.",
+      "explanation": "No: proviene da un’organizzazione diversa e ha natura diversa. Organizzazione → strumento → forza → funzione: questa scheda evita di confondere i livelli europei.",
+      "help": "internazionale-europa/lettura"
+    },
+    {
+      "id": "law-internazionale-europa-lettura-2",
+      "unit": "internazionale-europa",
+      "concept": "lettura",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "I conteggi di ratifiche citati nel 2022 possono essere usati come correnti senza controllo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: devono essere datati o aggiornati"
+        },
+        {
+          "id": "a",
+          "text": "Sì, le ratifiche non cambiano mai",
+          "feedback": "Gli Stati possono aderire successivamente.",
+          "help": "internazionale-europa/lettura"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se sono pochi",
+          "feedback": "La quantità non rende il dato immutabile.",
+          "help": "internazionale-europa/lettura"
+        }
+      ],
+      "hint": "Organizzazione → strumento → forza → funzione: questa scheda evita di confondere i livelli europei.",
+      "explanation": "No: devono essere datati o aggiornati. Organizzazione → strumento → forza → funzione: questa scheda evita di confondere i livelli europei.",
+      "help": "internazionale-europa/lettura"
+    },
+    {
+      "id": "law-internazionale-europa-convenzioni-1",
+      "unit": "internazionale-europa",
+      "concept": "convenzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Macolin e Saint-Denis affrontano esattamente lo stesso oggetto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: manipolazione delle competizioni e gestione integrata della sicurezza sono distinti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, entrambe vietano solo il doping",
+          "feedback": "Il doping ha ulteriori strumenti specifici.",
+          "help": "internazionale-europa/convenzioni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, sono due nomi della stessa federazione",
+          "feedback": "Sono convenzioni, non federazioni.",
+          "help": "internazionale-europa/convenzioni"
+        }
+      ],
+      "hint": "Carta e convenzioni hanno natura e oggetti distinti; la sicurezza richiede un approccio integrato.",
+      "explanation": "No: manipolazione delle competizioni e gestione integrata della sicurezza sono distinti. Carta e convenzioni hanno natura e oggetti distinti; la sicurezza richiede un approccio integrato.",
+      "help": "internazionale-europa/convenzioni"
+    },
+    {
+      "id": "law-internazionale-europa-convenzioni-2",
+      "unit": "internazionale-europa",
+      "concept": "convenzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un buon approccio alla sicurezza di un evento comprende soltanto repressione della violenza?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: considera anche prevenzione degli incidenti e servizi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, uscite e informazioni non contano",
+          "feedback": "Flussi, strutture e accoglienza incidono sulla sicurezza.",
+          "help": "internazionale-europa/convenzioni"
+        },
+        {
+          "id": "b",
+          "text": "Sì, basta aumentare il numero di biglietti",
+          "feedback": "Il numero di spettatori può anzi richiedere più organizzazione.",
+          "help": "internazionale-europa/convenzioni"
+        }
+      ],
+      "hint": "Carta e convenzioni hanno natura e oggetti distinti; la sicurezza richiede un approccio integrato.",
+      "explanation": "No: considera anche prevenzione degli incidenti e servizi. Carta e convenzioni hanno natura e oggetti distinti; la sicurezza richiede un approccio integrato.",
+      "help": "internazionale-europa/convenzioni"
+    },
+    {
+      "id": "law-internazionale-europa-mercato-1",
+      "unit": "internazionale-europa",
+      "concept": "mercato",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’art. 165 permette di armonizzare liberamente tutte le leggi sportive nazionali?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: la competenza di sostegno esclude quell’armonizzazione"
+        },
+        {
+          "id": "a",
+          "text": "Sì, lo sport è competenza esclusiva dell’UE",
+          "feedback": "Il trattato non lo configura così.",
+          "help": "internazionale-europa/mercato"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni finanziamento trasferisce tutta la competenza",
+          "feedback": "Finanziare non equivale ad armonizzare.",
+          "help": "internazionale-europa/mercato"
+        }
+      ],
+      "hint": "Sostegno allo sport e applicazione delle regole del mercato sono piani da distinguere.",
+      "explanation": "No: la competenza di sostegno esclude quell’armonizzazione. Sostegno allo sport e applicazione delle regole del mercato sono piani da distinguere.",
+      "help": "internazionale-europa/mercato"
+    },
+    {
+      "id": "law-internazionale-europa-mercato-2",
+      "unit": "internazionale-europa",
+      "concept": "mercato",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Il doppio ruolo di organizzatore economico e regolatore richiede…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Controllo di criteri, effetti e garanzie nel quadro applicabile"
+        },
+        {
+          "id": "a",
+          "text": "Un’esenzione automatica dalle regole UE",
+          "feedback": "La specificità sportiva non è immunità.",
+          "help": "internazionale-europa/mercato"
+        },
+        {
+          "id": "b",
+          "text": "Il divieto automatico di ogni gara organizzata",
+          "feedback": "Non si deduce questo divieto generale.",
+          "help": "internazionale-europa/mercato"
+        }
+      ],
+      "hint": "Sostegno allo sport e applicazione delle regole del mercato sono piani da distinguere.",
+      "explanation": "Controllo di criteri, effetti e garanzie nel quadro applicabile. Sostegno allo sport e applicazione delle regole del mercato sono piani da distinguere.",
+      "help": "internazionale-europa/mercato"
+    },
+    {
+      "id": "law-internazionale-europa-simulazione-1",
+      "unit": "internazionale-europa",
+      "concept": "simulazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel caso con barriere, sospetti e sanzione basta dire «decide l’Europa»?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: occorre distinguere sistemi, autorità e problemi"
+        },
+        {
+          "id": "a",
+          "text": "Sì, esiste un unico tribunale europeo per tutto",
+          "feedback": "CEDU, UE e arbitrato hanno basi diverse.",
+          "help": "internazionale-europa/simulazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, il CIO sostituisce tutte le autorità",
+          "feedback": "Il CIO non è un governo sovrano.",
+          "help": "internazionale-europa/simulazione"
+        }
+      ],
+      "hint": "Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
+      "explanation": "No: occorre distinguere sistemi, autorità e problemi. Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
+      "help": "internazionale-europa/simulazione"
+    },
+    {
+      "id": "law-internazionale-europa-simulazione-2",
+      "unit": "internazionale-europa",
+      "concept": "simulazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un sospetto di manipolazione dimostra già la responsabilità di ogni atleta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: servono accertamenti e procedure pertinenti"
+        },
+        {
+          "id": "a",
+          "text": "Sì, la gravità del sospetto basta",
+          "feedback": "Sospetto e prova non coincidono.",
+          "help": "internazionale-europa/simulazione"
+        },
+        {
+          "id": "b",
+          "text": "Sì, se la gara è internazionale",
+          "feedback": "La dimensione internazionale non elimina le garanzie.",
+          "help": "internazionale-europa/simulazione"
+        }
+      ],
+      "hint": "Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
+      "explanation": "No: servono accertamenti e procedure pertinenti. Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
+      "help": "internazionale-europa/simulazione"
     }
   ],
   "templates": [

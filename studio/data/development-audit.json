@@ -51,7 +51,8 @@
     "Informatica: una lezione, quattro sezioni, 16 quiz, una prova aperta e tre laboratori operativi con 12 criteri verificati. Ordinamento a due chiavi, AND/OR, soglie inclusive, grafici a colonne e XY, ambito visibile/originale, tre report. Backup compatibile e copia offline.",
     "Informatica: quattro approfondimenti, 16 sezioni, 64 quiz e quattro prove aperte su calcolo, sistemi/dati, reti e documenti. Confronto completo della scheda d’archivio in 28 righe editoriali, con limiti espliciti su dispense, collaborazione e prova corrente.",
     "Inglese scritto: 6 capitoli, 24 sezioni, 96 quiz, 6 prove aperte e simulazione da 15 domande. Confronto storico con limiti espliciti.",
-    "Tre PDF forniti integrati con due capitoli, 8 sezioni, 32 quiz e due prove aperte; mappa delle pagine e formule leggibili."
+    "Tre PDF forniti integrati con due capitoli, 8 sezioni, 32 quiz e due prove aperte; mappa delle pagine e formule leggibili.",
+    "Scienze giuridiche: 12 nuove lezioni e 8 ampliate; 128 nuovi quiz, 3 tavole originali, 7 tabelle e 20 prove orali complessive. Confronto pubblico 2024/25 in 38 righe; recuperati i due articoli assegnati, ulteriori dispense non disponibili."
   ],
   "remainingWork": [
     {
@@ -82,9 +83,7 @@
     {
       "area": "Diritto",
       "tasks": [
-        "Rintracciare gli articoli e le dispense effettivamente indicati dal docente",
-        "Ampliare casi risolti delle tre componenti del corso",
-        "Distinguere copertura dei principi da verifica dei materiali specifici del docente"
+        "Venti lezioni, 160 quiz, 20 prove orali e tre tavole originali. Confrontate tutte le voci esplicite del syllabus 2024/25 e i due articoli assegnati. Restano programma analitico 2026/27, ulteriori dispense del docente e verifica della preparazione orale; il catalogo corrente conferma struttura e orale."
       ]
     },
     {
@@ -8563,13 +8562,667 @@
           "assessment": "Esclusi dall’obiettivo su richiesta dell’utente. Conservato il laboratorio facoltativo esistente."
         }
       ]
+    },
+    {
+      "exam": "scienze-giuridiche",
+      "date": "2026-10-22",
+      "referenceYear": "2024/25",
+      "report": "data/law-audit.json",
+      "status": "public-syllabus-developed-current-materials-unverified",
+      "rows": 38,
+      "summary": "In pausa dopo Scienze giuridiche: 20 lezioni, 80 sezioni, 160 quiz e 20 prove orali. Ampliate le otto lezioni iniziali e aggiunte dodici; confronto delle voci pubbliche 2024/25 e dei due articoli assegnati svolto. Restano dettaglio corrente e ulteriori dispense.",
+      "remaining": [
+        {
+          "item": "Ulteriori materiali del docente distribuiti a lezione o via email",
+          "status": "not-acquired"
+        },
+        {
+          "item": "Dettaglio analitico corrente dei tre moduli",
+          "status": "not-published-in-consulted-catalogue"
+        }
+      ],
+      "id": "giuridiche-analitico-2024",
+      "sourceId": "syllabus-legge",
+      "year": "2024/25",
+      "currentEquivalentConfirmed": false,
+      "checked": "2026-10-22",
+      "method": "DOCX ufficiale e collegamenti assegnati letti; 38 righe di confronto delle voci e obiettivi pubblici. Tre schede correnti controllate: nessun dettaglio analitico.",
+      "requirements": [
+        {
+          "topic": "Ordinamento giuridico; diritto privato e fonti",
+          "refs": [
+            "diritto-soggetti/norme"
+          ],
+          "questionIds": [
+            "y1-diritto-soggetti-norme",
+            "law-diritto-soggetti-norme-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Situazioni giuridiche soggettive",
+          "refs": [
+            "diritto-soggetti/situazioni"
+          ],
+          "questionIds": [
+            "y1-diritto-soggetti-situazioni",
+            "law-diritto-soggetti-situazioni-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Soggetto del rapporto; persona fisica",
+          "refs": [
+            "diritto-soggetti/persone"
+          ],
+          "questionIds": [
+            "y1-diritto-soggetti-persone",
+            "law-diritto-soggetti-persone-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Enti",
+          "refs": [
+            "diritto-soggetti/enti"
+          ],
+          "questionIds": [
+            "y1-diritto-soggetti-enti",
+            "law-diritto-soggetti-enti-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Rapporto obbligatorio ed elementi",
+          "refs": [
+            "diritto-obbligazioni/rapporto"
+          ],
+          "questionIds": [
+            "y1-diritto-obbligazioni-rapporto",
+            "law-diritto-obbligazioni-rapporto-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Adempimento",
+          "refs": [
+            "diritto-obbligazioni/adempimento"
+          ],
+          "questionIds": [
+            "y1-diritto-obbligazioni-adempimento",
+            "law-diritto-obbligazioni-adempimento-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Estinzione e modi diversi dall’adempimento",
+          "refs": [
+            "diritto-estinzione/compensazione",
+            "diritto-estinzione/confusione",
+            "diritto-estinzione/novazione",
+            "diritto-estinzione/impossibilita"
+          ],
+          "questionIds": [
+            "law-diritto-estinzione-compensazione-1",
+            "law-diritto-estinzione-compensazione-2",
+            "law-diritto-estinzione-confusione-1",
+            "law-diritto-estinzione-confusione-2",
+            "law-diritto-estinzione-novazione-1",
+            "law-diritto-estinzione-novazione-2",
+            "law-diritto-estinzione-impossibilita-1",
+            "law-diritto-estinzione-impossibilita-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Inadempimento e mora",
+          "refs": [
+            "diritto-obbligazioni/inadempimento",
+            "diritto-obbligazioni/mora"
+          ],
+          "questionIds": [
+            "y1-diritto-obbligazioni-inadempimento",
+            "y1-diritto-obbligazioni-mora",
+            "law-diritto-obbligazioni-inadempimento-1",
+            "law-diritto-obbligazioni-mora-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Contratto ed elementi essenziali",
+          "refs": [
+            "diritto-contratto/requisiti"
+          ],
+          "questionIds": [
+            "y1-diritto-contratto-requisiti",
+            "law-diritto-contratto-requisiti-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Trattative e conclusione",
+          "refs": [
+            "diritto-contratto/conclusione",
+            "diritto-preliminare/trattative",
+            "diritto-preliminare/vincoli"
+          ],
+          "questionIds": [
+            "y1-diritto-contratto-conclusione",
+            "law-diritto-contratto-conclusione-1",
+            "law-diritto-preliminare-trattative-1",
+            "law-diritto-preliminare-trattative-2",
+            "law-diritto-preliminare-vincoli-1",
+            "law-diritto-preliminare-vincoli-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Contratto preliminare",
+          "refs": [
+            "diritto-preliminare/preliminare"
+          ],
+          "questionIds": [
+            "law-diritto-preliminare-preliminare-1",
+            "law-diritto-preliminare-preliminare-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Interpretazione",
+          "refs": [
+            "diritto-contratto/interpretazione"
+          ],
+          "questionIds": [
+            "y1-diritto-contratto-interpretazione",
+            "law-diritto-contratto-interpretazione-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Effetti",
+          "refs": [
+            "diritto-contratto/interpretazione",
+            "diritto-preliminare/rappresentanza"
+          ],
+          "questionIds": [
+            "y1-diritto-contratto-interpretazione",
+            "law-diritto-contratto-interpretazione-1",
+            "law-diritto-preliminare-rappresentanza-1",
+            "law-diritto-preliminare-rappresentanza-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Elementi accidentali",
+          "refs": [
+            "diritto-contratto/elementi"
+          ],
+          "questionIds": [
+            "y1-diritto-contratto-elementi",
+            "law-diritto-contratto-elementi-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Vizi della volontà",
+          "refs": [
+            "diritto-rimedi/vizi"
+          ],
+          "questionIds": [
+            "y1-diritto-rimedi-vizi",
+            "law-diritto-rimedi-vizi-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Invalidità e inefficacia",
+          "refs": [
+            "diritto-rimedi/nullita",
+            "diritto-casi/validita"
+          ],
+          "questionIds": [
+            "y1-diritto-rimedi-nullita",
+            "law-diritto-rimedi-nullita-1",
+            "law-diritto-casi-validita-1",
+            "law-diritto-casi-validita-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Rescissione",
+          "refs": [
+            "diritto-rimedi/rescissione"
+          ],
+          "questionIds": [
+            "y1-diritto-rimedi-rescissione",
+            "law-diritto-rimedi-rescissione-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Risoluzione",
+          "refs": [
+            "diritto-rimedi/risoluzione",
+            "diritto-casi/esecuzione"
+          ],
+          "questionIds": [
+            "y1-diritto-rimedi-risoluzione",
+            "law-diritto-rimedi-risoluzione-1",
+            "law-diritto-casi-esecuzione-1",
+            "law-diritto-casi-esecuzione-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Lo sport e il diritto",
+          "refs": [
+            "pubblico-fonti/costituzione",
+            "pubblico-fonti/autonomie",
+            "pubblico-organizzazione/sport"
+          ],
+          "questionIds": [
+            "y1-pubblico-fonti-costituzione",
+            "y1-pubblico-fonti-autonomie",
+            "law-pubblico-fonti-costituzione-1",
+            "law-pubblico-fonti-autonomie-1",
+            "law-pubblico-organizzazione-sport-1",
+            "law-pubblico-organizzazione-sport-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Fonti in generale",
+          "refs": [
+            "pubblico-fonti/fonti"
+          ],
+          "questionIds": [
+            "y1-pubblico-fonti-fonti",
+            "law-pubblico-fonti-fonti-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Singole fonti",
+          "refs": [
+            "pubblico-fonti/fonti",
+            "pubblico-fonti/organi",
+            "pubblico-fonti/autonomie"
+          ],
+          "questionIds": [
+            "y1-pubblico-fonti-fonti",
+            "y1-pubblico-fonti-organi",
+            "y1-pubblico-fonti-autonomie",
+            "law-pubblico-fonti-fonti-1",
+            "law-pubblico-fonti-organi-1",
+            "law-pubblico-fonti-autonomie-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Principi",
+          "refs": [
+            "pubblico-principi/legalita",
+            "pubblico-principi/imparzialita",
+            "pubblico-principi/proporzione"
+          ],
+          "questionIds": [
+            "law-pubblico-principi-legalita-1",
+            "law-pubblico-principi-legalita-2",
+            "law-pubblico-principi-imparzialita-1",
+            "law-pubblico-principi-imparzialita-2",
+            "law-pubblico-principi-proporzione-1",
+            "law-pubblico-principi-proporzione-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Posizioni giuridiche",
+          "refs": [
+            "pubblico-principi/posizioni"
+          ],
+          "questionIds": [
+            "law-pubblico-principi-posizioni-1",
+            "law-pubblico-principi-posizioni-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Poteri",
+          "refs": [
+            "pubblico-amministrazione/poteri",
+            "pubblico-provvedimenti/atti"
+          ],
+          "questionIds": [
+            "y1-pubblico-amministrazione-poteri",
+            "law-pubblico-amministrazione-poteri-1",
+            "law-pubblico-provvedimenti-atti-1",
+            "law-pubblico-provvedimenti-atti-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Organizzazione in generale",
+          "refs": [
+            "pubblico-organizzazione/strutture",
+            "pubblico-organizzazione/politica",
+            "pubblico-amministrazione/organizzazione"
+          ],
+          "questionIds": [
+            "law-pubblico-organizzazione-strutture-1",
+            "law-pubblico-organizzazione-strutture-2",
+            "law-pubblico-organizzazione-politica-1",
+            "law-pubblico-organizzazione-politica-2",
+            "y1-pubblico-amministrazione-organizzazione",
+            "law-pubblico-amministrazione-organizzazione-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Singoli assetti organizzativi",
+          "refs": [
+            "pubblico-organizzazione/territorio",
+            "pubblico-organizzazione/sport"
+          ],
+          "questionIds": [
+            "law-pubblico-organizzazione-territorio-1",
+            "law-pubblico-organizzazione-territorio-2",
+            "law-pubblico-organizzazione-sport-1",
+            "law-pubblico-organizzazione-sport-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Impiego presso amministrazioni pubbliche",
+          "refs": [
+            "pubblico-impiego/accesso",
+            "pubblico-impiego/rapporto",
+            "pubblico-impiego/doveri",
+            "pubblico-impiego/responsabilita"
+          ],
+          "questionIds": [
+            "law-pubblico-impiego-accesso-1",
+            "law-pubblico-impiego-accesso-2",
+            "law-pubblico-impiego-rapporto-1",
+            "law-pubblico-impiego-rapporto-2",
+            "law-pubblico-impiego-doveri-1",
+            "law-pubblico-impiego-doveri-2",
+            "law-pubblico-impiego-responsabilita-1",
+            "law-pubblico-impiego-responsabilita-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Attività amministrativa",
+          "refs": [
+            "pubblico-procedimento/fasi",
+            "pubblico-procedimento/partecipazione",
+            "pubblico-procedimento/accesso",
+            "pubblico-procedimento/semplificazione",
+            "pubblico-provvedimenti/atti",
+            "pubblico-provvedimenti/invalidita",
+            "pubblico-provvedimenti/autotutela",
+            "pubblico-provvedimenti/tutela",
+            "pubblico-amministrazione/procedimento"
+          ],
+          "questionIds": [
+            "law-pubblico-procedimento-fasi-1",
+            "law-pubblico-procedimento-fasi-2",
+            "law-pubblico-procedimento-partecipazione-1",
+            "law-pubblico-procedimento-partecipazione-2",
+            "law-pubblico-procedimento-accesso-1",
+            "law-pubblico-procedimento-accesso-2",
+            "law-pubblico-procedimento-semplificazione-1",
+            "law-pubblico-procedimento-semplificazione-2",
+            "law-pubblico-provvedimenti-atti-1",
+            "law-pubblico-provvedimenti-atti-2",
+            "law-pubblico-provvedimenti-invalidita-1",
+            "law-pubblico-provvedimenti-invalidita-2",
+            "law-pubblico-provvedimenti-autotutela-1",
+            "law-pubblico-provvedimenti-autotutela-2",
+            "law-pubblico-provvedimenti-tutela-1",
+            "law-pubblico-provvedimenti-tutela-2",
+            "y1-pubblico-amministrazione-procedimento",
+            "law-pubblico-amministrazione-procedimento-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Mezzi",
+          "refs": [
+            "pubblico-mezzi/beni",
+            "pubblico-mezzi/servizi",
+            "pubblico-mezzi/risorse",
+            "pubblico-mezzi/caso",
+            "pubblico-impiego/rapporto",
+            "pubblico-amministrazione/mezzi"
+          ],
+          "questionIds": [
+            "law-pubblico-impiego-rapporto-1",
+            "law-pubblico-impiego-rapporto-2",
+            "law-pubblico-mezzi-beni-1",
+            "law-pubblico-mezzi-beni-2",
+            "law-pubblico-mezzi-servizi-1",
+            "law-pubblico-mezzi-servizi-2",
+            "law-pubblico-mezzi-risorse-1",
+            "law-pubblico-mezzi-risorse-2",
+            "law-pubblico-mezzi-caso-1",
+            "law-pubblico-mezzi-caso-2",
+            "y1-pubblico-amministrazione-mezzi",
+            "law-pubblico-amministrazione-mezzi-1"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Principali articolazioni della comunità degli Stati",
+          "refs": [
+            "internazionale-istituzioni/comunita",
+            "internazionale-fonti/trattati",
+            "internazionale-fonti/onu",
+            "internazionale-fonti/adattamento",
+            "internazionale-fonti/responsabilita"
+          ],
+          "questionIds": [
+            "y1-internazionale-istituzioni-comunita",
+            "law-internazionale-istituzioni-comunita-1",
+            "law-internazionale-fonti-trattati-1",
+            "law-internazionale-fonti-trattati-2",
+            "law-internazionale-fonti-onu-1",
+            "law-internazionale-fonti-onu-2",
+            "law-internazionale-fonti-adattamento-1",
+            "law-internazionale-fonti-adattamento-2",
+            "law-internazionale-fonti-responsabilita-1",
+            "law-internazionale-fonti-responsabilita-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Appartenenza italiana all’UE e ripercussioni",
+          "refs": [
+            "internazionale-istituzioni/ue",
+            "internazionale-fonti/adattamento"
+          ],
+          "questionIds": [
+            "y1-internazionale-istituzioni-ue",
+            "law-internazionale-istituzioni-ue-1",
+            "law-internazionale-fonti-adattamento-1",
+            "law-internazionale-fonti-adattamento-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Appartenenza ad altre organizzazioni e ripercussioni",
+          "refs": [
+            "internazionale-istituzioni/italia",
+            "internazionale-istituzioni/diritti",
+            "internazionale-fonti/onu"
+          ],
+          "questionIds": [
+            "y1-internazionale-istituzioni-italia",
+            "y1-internazionale-istituzioni-diritti",
+            "law-internazionale-istituzioni-italia-1",
+            "law-internazionale-istituzioni-diritti-1",
+            "law-internazionale-fonti-onu-1",
+            "law-internazionale-fonti-onu-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Regolamentazione internazionale dello sport: profili pubblicistici",
+          "refs": [
+            "internazionale-sport/europa-sport",
+            "internazionale-sport/antidoping",
+            "internazionale-europa/convenzioni",
+            "internazionale-europa/mercato"
+          ],
+          "questionIds": [
+            "y1-internazionale-sport-europa-sport",
+            "y1-internazionale-sport-antidoping",
+            "law-internazionale-sport-europa-sport-1",
+            "law-internazionale-sport-antidoping-1",
+            "law-internazionale-europa-convenzioni-1",
+            "law-internazionale-europa-convenzioni-2",
+            "law-internazionale-europa-mercato-1",
+            "law-internazionale-europa-mercato-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Regolamentazione dalla prospettiva delle federazioni",
+          "refs": [
+            "internazionale-sport/olimpico",
+            "internazionale-sport/arbitrato",
+            "internazionale-europa/simulazione"
+          ],
+          "questionIds": [
+            "y1-internazionale-sport-olimpico",
+            "y1-internazionale-sport-arbitrato",
+            "law-internazionale-sport-olimpico-1",
+            "law-internazionale-sport-arbitrato-1",
+            "law-internazionale-europa-simulazione-1",
+            "law-internazionale-europa-simulazione-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Articolo assegnato: sport e Agenda ONU",
+          "refs": [
+            "internazionale-sostenibilita/lettura",
+            "internazionale-sostenibilita/agenda",
+            "internazionale-sostenibilita/inclusione",
+            "internazionale-sostenibilita/progetto"
+          ],
+          "questionIds": [
+            "law-internazionale-sostenibilita-lettura-1",
+            "law-internazionale-sostenibilita-lettura-2",
+            "law-internazionale-sostenibilita-agenda-1",
+            "law-internazionale-sostenibilita-agenda-2",
+            "law-internazionale-sostenibilita-inclusione-1",
+            "law-internazionale-sostenibilita-inclusione-2",
+            "law-internazionale-sostenibilita-progetto-1",
+            "law-internazionale-sostenibilita-progetto-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Articolo assegnato: dimensione europea dello sport",
+          "refs": [
+            "internazionale-europa/lettura",
+            "internazionale-europa/convenzioni",
+            "internazionale-europa/mercato",
+            "internazionale-europa/simulazione"
+          ],
+          "questionIds": [
+            "law-internazionale-europa-lettura-1",
+            "law-internazionale-europa-lettura-2",
+            "law-internazionale-europa-convenzioni-1",
+            "law-internazionale-europa-convenzioni-2",
+            "law-internazionale-europa-mercato-1",
+            "law-internazionale-europa-mercato-2",
+            "law-internazionale-europa-simulazione-1",
+            "law-internazionale-europa-simulazione-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Applicare nozioni a casi concreti e sviluppare argomentazioni interpretative",
+          "refs": [
+            "diritto-casi/metodo",
+            "pubblico-mezzi/caso",
+            "internazionale-europa/simulazione"
+          ],
+          "questionIds": [
+            "law-diritto-casi-metodo-1",
+            "law-diritto-casi-metodo-2",
+            "law-pubblico-mezzi-caso-1",
+            "law-pubblico-mezzi-caso-2",
+            "law-internazionale-europa-simulazione-1",
+            "law-internazionale-europa-simulazione-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        },
+        {
+          "topic": "Comunicare con linguaggio giuridico e studiare autonomamente",
+          "refs": [
+            "diritto-casi/orale",
+            "internazionale-sostenibilita/lettura",
+            "internazionale-europa/lettura"
+          ],
+          "questionIds": [
+            "law-diritto-casi-orale-1",
+            "law-diritto-casi-orale-2",
+            "law-internazionale-sostenibilita-lettura-1",
+            "law-internazionale-sostenibilita-lettura-2",
+            "law-internazionale-europa-lettura-1",
+            "law-internazionale-europa-lettura-2"
+          ],
+          "status": "introduced",
+          "assessment": "Lezione interna, casi risolti, quiz e prova orale della lezione."
+        }
+      ]
     }
   ],
   "checkpoint": {
     "status": "paused",
     "updated": "2026-10-22",
-    "summary": "Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.",
-    "next": "Riprendere Scienze giuridiche: casi risolti e confronto dei programmi; restano materiali assegnati di diritto internazionale. Poi ulteriori riconoscimenti anatomici e verifiche correnti. Ascolto inglese escluso dall’obiettivo.",
+    "summary": "In pausa dopo Scienze giuridiche: 20 lezioni, 80 sezioni, 160 quiz e 20 prove orali. Ampliate le otto lezioni iniziali e aggiunte dodici; confronto delle voci pubbliche 2024/25 e dei due articoli assegnati svolto. Restano dettaglio corrente e ulteriori dispense.",
+    "next": "Alla prossima ripresa: ampliare il riconoscimento anatomico e completare le verifiche correnti ancora indicate. Per Giuridiche acquisire soltanto il programma analitico corrente e le ulteriori dispense quando disponibili. Ascolto inglese escluso dall’obiettivo.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
@@ -8593,8 +9246,8 @@
       },
       {
         "id": "scienze-giuridiche",
-        "label": "Da ampliare e verificare",
-        "remaining": "Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi."
+        "label": "Confronto pubblico svolto; verifica corrente da terminare",
+        "remaining": "Venti lezioni, 160 quiz, 20 prove orali e tre tavole originali. Confrontate tutte le voci esplicite del syllabus 2024/25 e i due articoli assegnati. Restano programma analitico 2026/27, ulteriori dispense del docente e verifica della preparazione orale; il catalogo corrente conferma struttura e orale."
       },
       {
         "id": "allenamento",
@@ -8982,13 +9635,12 @@
   "lastTechnicalVerification": {
     "date": "2026-10-22",
     "contentCheck": "passed",
-    "unitTests": 44,
+    "unitTests": 48,
     "browser": [
-      "english-browser: 256 feedback errati e aiuti, otto capitoli, mobile, tema scuro, progressi e stampa offline",
-      "english-mock-browser: 15 domande, bozza e correzioni riprese, voto persistente",
-      "browser generale file:// offline superato"
+      "law-browser: 20 lezioni, 320 feedback e aiuti completi, tavole, mobile chiaro/scuro, stampa e progressi preesistenti",
+      "browser generale: file:// offline, salvataggi, riapertura, aggiornamento HTML, backup e stampa"
     ],
-    "limitation": "Controlli tecnici; non certificano copertura curricolare né preparazione individuale."
+    "limitation": "Controlli tecnici e revisione editoriale; non certificano materiali non disponibili né preparazione individuale."
   },
   "openstaxFurtherReading": {
     "checked": "2026-10-22",
@@ -8998,5 +9650,19 @@
     "audit": "openstax-audit.json",
     "scope": "Approfondimenti esterni selezionati: nessuna modifica alla copertura certificata o ai testi delle lezioni.",
     "verification": "46 test, controllo contenuti e browser generale superati; letture verificate in 185 lezioni, aiuti, stampa e scheda separata; tema e progressi conservati, nessuna richiesta automatica."
+  },
+  "lawExpansion": {
+    "date": "2026-10-22",
+    "report": "data/law-audit.json",
+    "counts": {
+      "units": 20,
+      "sections": 80,
+      "questions": 160,
+      "newQuestions": 128,
+      "oral": 20,
+      "diagrams": 3,
+      "tables": 7
+    },
+    "currentSyllabusConfirmed": false
   }
 }

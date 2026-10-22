@@ -1,0 +1,2158 @@
+{
+  "date": "2026-10-22",
+  "exam": "scienze-giuridiche",
+  "referenceYear": "2024/25",
+  "syllabusUrl": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/syllabus-scienze-giuridiche-a-a-2024-2025.docx",
+  "currentCatalogue": {
+    "url": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/7833/2026/9999?schemaid=40224#1",
+    "checked": "2026-10-22",
+    "cfu": 8,
+    "hours": 80,
+    "assessment": "Orale",
+    "modules": [
+      {
+        "id": "diritto-internazionale",
+        "cfu": 2,
+        "hours": 20
+      },
+      {
+        "id": "diritto-privato",
+        "cfu": 2,
+        "hours": 20
+      },
+      {
+        "id": "diritto-pubblico",
+        "cfu": 4,
+        "hours": 40
+      }
+    ],
+    "analyticProgrammeAvailable": false
+  },
+  "status": "public-syllabus-developed-current-materials-unverified",
+  "counts": {
+    "units": 20,
+    "sections": 80,
+    "questions": 160,
+    "newQuestions": 128,
+    "oral": 20,
+    "diagrams": 3,
+    "tables": 7
+  },
+  "crosswalk": [
+    {
+      "module": "diritto-privato",
+      "syllabus": "Ordinamento giuridico; diritto privato e fonti",
+      "refs": [
+        "diritto-soggetti/norme"
+      ],
+      "questionIds": [
+        "y1-diritto-soggetti-norme",
+        "law-diritto-soggetti-norme-1"
+      ],
+      "oralUnitIds": [
+        "diritto-soggetti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Situazioni giuridiche soggettive",
+      "refs": [
+        "diritto-soggetti/situazioni"
+      ],
+      "questionIds": [
+        "y1-diritto-soggetti-situazioni",
+        "law-diritto-soggetti-situazioni-1"
+      ],
+      "oralUnitIds": [
+        "diritto-soggetti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Soggetto del rapporto; persona fisica",
+      "refs": [
+        "diritto-soggetti/persone"
+      ],
+      "questionIds": [
+        "y1-diritto-soggetti-persone",
+        "law-diritto-soggetti-persone-1"
+      ],
+      "oralUnitIds": [
+        "diritto-soggetti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Enti",
+      "refs": [
+        "diritto-soggetti/enti"
+      ],
+      "questionIds": [
+        "y1-diritto-soggetti-enti",
+        "law-diritto-soggetti-enti-1"
+      ],
+      "oralUnitIds": [
+        "diritto-soggetti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Rapporto obbligatorio ed elementi",
+      "refs": [
+        "diritto-obbligazioni/rapporto"
+      ],
+      "questionIds": [
+        "y1-diritto-obbligazioni-rapporto",
+        "law-diritto-obbligazioni-rapporto-1"
+      ],
+      "oralUnitIds": [
+        "diritto-obbligazioni"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Adempimento",
+      "refs": [
+        "diritto-obbligazioni/adempimento"
+      ],
+      "questionIds": [
+        "y1-diritto-obbligazioni-adempimento",
+        "law-diritto-obbligazioni-adempimento-1"
+      ],
+      "oralUnitIds": [
+        "diritto-obbligazioni"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Estinzione e modi diversi dall’adempimento",
+      "refs": [
+        "diritto-estinzione/compensazione",
+        "diritto-estinzione/confusione",
+        "diritto-estinzione/novazione",
+        "diritto-estinzione/impossibilita"
+      ],
+      "questionIds": [
+        "law-diritto-estinzione-compensazione-1",
+        "law-diritto-estinzione-compensazione-2",
+        "law-diritto-estinzione-confusione-1",
+        "law-diritto-estinzione-confusione-2",
+        "law-diritto-estinzione-novazione-1",
+        "law-diritto-estinzione-novazione-2",
+        "law-diritto-estinzione-impossibilita-1",
+        "law-diritto-estinzione-impossibilita-2"
+      ],
+      "oralUnitIds": [
+        "diritto-estinzione"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Inadempimento e mora",
+      "refs": [
+        "diritto-obbligazioni/inadempimento",
+        "diritto-obbligazioni/mora"
+      ],
+      "questionIds": [
+        "y1-diritto-obbligazioni-inadempimento",
+        "y1-diritto-obbligazioni-mora",
+        "law-diritto-obbligazioni-inadempimento-1",
+        "law-diritto-obbligazioni-mora-1"
+      ],
+      "oralUnitIds": [
+        "diritto-obbligazioni"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Contratto ed elementi essenziali",
+      "refs": [
+        "diritto-contratto/requisiti"
+      ],
+      "questionIds": [
+        "y1-diritto-contratto-requisiti",
+        "law-diritto-contratto-requisiti-1"
+      ],
+      "oralUnitIds": [
+        "diritto-contratto"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Trattative e conclusione",
+      "refs": [
+        "diritto-contratto/conclusione",
+        "diritto-preliminare/trattative",
+        "diritto-preliminare/vincoli"
+      ],
+      "questionIds": [
+        "y1-diritto-contratto-conclusione",
+        "law-diritto-contratto-conclusione-1",
+        "law-diritto-preliminare-trattative-1",
+        "law-diritto-preliminare-trattative-2",
+        "law-diritto-preliminare-vincoli-1",
+        "law-diritto-preliminare-vincoli-2"
+      ],
+      "oralUnitIds": [
+        "diritto-contratto",
+        "diritto-preliminare"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Contratto preliminare",
+      "refs": [
+        "diritto-preliminare/preliminare"
+      ],
+      "questionIds": [
+        "law-diritto-preliminare-preliminare-1",
+        "law-diritto-preliminare-preliminare-2"
+      ],
+      "oralUnitIds": [
+        "diritto-preliminare"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Interpretazione",
+      "refs": [
+        "diritto-contratto/interpretazione"
+      ],
+      "questionIds": [
+        "y1-diritto-contratto-interpretazione",
+        "law-diritto-contratto-interpretazione-1"
+      ],
+      "oralUnitIds": [
+        "diritto-contratto"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Effetti",
+      "refs": [
+        "diritto-contratto/interpretazione",
+        "diritto-preliminare/rappresentanza"
+      ],
+      "questionIds": [
+        "y1-diritto-contratto-interpretazione",
+        "law-diritto-contratto-interpretazione-1",
+        "law-diritto-preliminare-rappresentanza-1",
+        "law-diritto-preliminare-rappresentanza-2"
+      ],
+      "oralUnitIds": [
+        "diritto-contratto",
+        "diritto-preliminare"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Elementi accidentali",
+      "refs": [
+        "diritto-contratto/elementi"
+      ],
+      "questionIds": [
+        "y1-diritto-contratto-elementi",
+        "law-diritto-contratto-elementi-1"
+      ],
+      "oralUnitIds": [
+        "diritto-contratto"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Vizi della volontà",
+      "refs": [
+        "diritto-rimedi/vizi"
+      ],
+      "questionIds": [
+        "y1-diritto-rimedi-vizi",
+        "law-diritto-rimedi-vizi-1"
+      ],
+      "oralUnitIds": [
+        "diritto-rimedi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Invalidità e inefficacia",
+      "refs": [
+        "diritto-rimedi/nullita",
+        "diritto-casi/validita"
+      ],
+      "questionIds": [
+        "y1-diritto-rimedi-nullita",
+        "law-diritto-rimedi-nullita-1",
+        "law-diritto-casi-validita-1",
+        "law-diritto-casi-validita-2"
+      ],
+      "oralUnitIds": [
+        "diritto-rimedi",
+        "diritto-casi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Rescissione",
+      "refs": [
+        "diritto-rimedi/rescissione"
+      ],
+      "questionIds": [
+        "y1-diritto-rimedi-rescissione",
+        "law-diritto-rimedi-rescissione-1"
+      ],
+      "oralUnitIds": [
+        "diritto-rimedi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "syllabus": "Risoluzione",
+      "refs": [
+        "diritto-rimedi/risoluzione",
+        "diritto-casi/esecuzione"
+      ],
+      "questionIds": [
+        "y1-diritto-rimedi-risoluzione",
+        "law-diritto-rimedi-risoluzione-1",
+        "law-diritto-casi-esecuzione-1",
+        "law-diritto-casi-esecuzione-2"
+      ],
+      "oralUnitIds": [
+        "diritto-rimedi",
+        "diritto-casi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Lo sport e il diritto",
+      "refs": [
+        "pubblico-fonti/costituzione",
+        "pubblico-fonti/autonomie",
+        "pubblico-organizzazione/sport"
+      ],
+      "questionIds": [
+        "y1-pubblico-fonti-costituzione",
+        "y1-pubblico-fonti-autonomie",
+        "law-pubblico-fonti-costituzione-1",
+        "law-pubblico-fonti-autonomie-1",
+        "law-pubblico-organizzazione-sport-1",
+        "law-pubblico-organizzazione-sport-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-fonti",
+        "pubblico-organizzazione"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Fonti in generale",
+      "refs": [
+        "pubblico-fonti/fonti"
+      ],
+      "questionIds": [
+        "y1-pubblico-fonti-fonti",
+        "law-pubblico-fonti-fonti-1"
+      ],
+      "oralUnitIds": [
+        "pubblico-fonti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Singole fonti",
+      "refs": [
+        "pubblico-fonti/fonti",
+        "pubblico-fonti/organi",
+        "pubblico-fonti/autonomie"
+      ],
+      "questionIds": [
+        "y1-pubblico-fonti-fonti",
+        "y1-pubblico-fonti-organi",
+        "y1-pubblico-fonti-autonomie",
+        "law-pubblico-fonti-fonti-1",
+        "law-pubblico-fonti-organi-1",
+        "law-pubblico-fonti-autonomie-1"
+      ],
+      "oralUnitIds": [
+        "pubblico-fonti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Principi",
+      "refs": [
+        "pubblico-principi/legalita",
+        "pubblico-principi/imparzialita",
+        "pubblico-principi/proporzione"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-legalita-1",
+        "law-pubblico-principi-legalita-2",
+        "law-pubblico-principi-imparzialita-1",
+        "law-pubblico-principi-imparzialita-2",
+        "law-pubblico-principi-proporzione-1",
+        "law-pubblico-principi-proporzione-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-principi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Posizioni giuridiche",
+      "refs": [
+        "pubblico-principi/posizioni"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-posizioni-1",
+        "law-pubblico-principi-posizioni-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-principi"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Poteri",
+      "refs": [
+        "pubblico-amministrazione/poteri",
+        "pubblico-provvedimenti/atti"
+      ],
+      "questionIds": [
+        "y1-pubblico-amministrazione-poteri",
+        "law-pubblico-amministrazione-poteri-1",
+        "law-pubblico-provvedimenti-atti-1",
+        "law-pubblico-provvedimenti-atti-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-amministrazione",
+        "pubblico-provvedimenti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Organizzazione in generale",
+      "refs": [
+        "pubblico-organizzazione/strutture",
+        "pubblico-organizzazione/politica",
+        "pubblico-amministrazione/organizzazione"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-strutture-1",
+        "law-pubblico-organizzazione-strutture-2",
+        "law-pubblico-organizzazione-politica-1",
+        "law-pubblico-organizzazione-politica-2",
+        "y1-pubblico-amministrazione-organizzazione",
+        "law-pubblico-amministrazione-organizzazione-1"
+      ],
+      "oralUnitIds": [
+        "pubblico-organizzazione"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Singoli assetti organizzativi",
+      "refs": [
+        "pubblico-organizzazione/territorio",
+        "pubblico-organizzazione/sport"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-territorio-1",
+        "law-pubblico-organizzazione-territorio-2",
+        "law-pubblico-organizzazione-sport-1",
+        "law-pubblico-organizzazione-sport-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-organizzazione"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Impiego presso amministrazioni pubbliche",
+      "refs": [
+        "pubblico-impiego/accesso",
+        "pubblico-impiego/rapporto",
+        "pubblico-impiego/doveri",
+        "pubblico-impiego/responsabilita"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-accesso-1",
+        "law-pubblico-impiego-accesso-2",
+        "law-pubblico-impiego-rapporto-1",
+        "law-pubblico-impiego-rapporto-2",
+        "law-pubblico-impiego-doveri-1",
+        "law-pubblico-impiego-doveri-2",
+        "law-pubblico-impiego-responsabilita-1",
+        "law-pubblico-impiego-responsabilita-2"
+      ],
+      "oralUnitIds": [
+        "pubblico-impiego"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Attività amministrativa",
+      "refs": [
+        "pubblico-procedimento/fasi",
+        "pubblico-procedimento/partecipazione",
+        "pubblico-procedimento/accesso",
+        "pubblico-procedimento/semplificazione",
+        "pubblico-provvedimenti/atti",
+        "pubblico-provvedimenti/invalidita",
+        "pubblico-provvedimenti/autotutela",
+        "pubblico-provvedimenti/tutela",
+        "pubblico-amministrazione/procedimento"
+      ],
+      "questionIds": [
+        "law-pubblico-procedimento-fasi-1",
+        "law-pubblico-procedimento-fasi-2",
+        "law-pubblico-procedimento-partecipazione-1",
+        "law-pubblico-procedimento-partecipazione-2",
+        "law-pubblico-procedimento-accesso-1",
+        "law-pubblico-procedimento-accesso-2",
+        "law-pubblico-procedimento-semplificazione-1",
+        "law-pubblico-procedimento-semplificazione-2",
+        "law-pubblico-provvedimenti-atti-1",
+        "law-pubblico-provvedimenti-atti-2",
+        "law-pubblico-provvedimenti-invalidita-1",
+        "law-pubblico-provvedimenti-invalidita-2",
+        "law-pubblico-provvedimenti-autotutela-1",
+        "law-pubblico-provvedimenti-autotutela-2",
+        "law-pubblico-provvedimenti-tutela-1",
+        "law-pubblico-provvedimenti-tutela-2",
+        "y1-pubblico-amministrazione-procedimento",
+        "law-pubblico-amministrazione-procedimento-1"
+      ],
+      "oralUnitIds": [
+        "pubblico-procedimento",
+        "pubblico-provvedimenti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "syllabus": "Mezzi",
+      "refs": [
+        "pubblico-mezzi/beni",
+        "pubblico-mezzi/servizi",
+        "pubblico-mezzi/risorse",
+        "pubblico-mezzi/caso",
+        "pubblico-impiego/rapporto",
+        "pubblico-amministrazione/mezzi"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-rapporto-1",
+        "law-pubblico-impiego-rapporto-2",
+        "law-pubblico-mezzi-beni-1",
+        "law-pubblico-mezzi-beni-2",
+        "law-pubblico-mezzi-servizi-1",
+        "law-pubblico-mezzi-servizi-2",
+        "law-pubblico-mezzi-risorse-1",
+        "law-pubblico-mezzi-risorse-2",
+        "law-pubblico-mezzi-caso-1",
+        "law-pubblico-mezzi-caso-2",
+        "y1-pubblico-amministrazione-mezzi",
+        "law-pubblico-amministrazione-mezzi-1"
+      ],
+      "oralUnitIds": [
+        "pubblico-mezzi",
+        "pubblico-impiego"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Principali articolazioni della comunità degli Stati",
+      "refs": [
+        "internazionale-istituzioni/comunita",
+        "internazionale-fonti/trattati",
+        "internazionale-fonti/onu",
+        "internazionale-fonti/adattamento",
+        "internazionale-fonti/responsabilita"
+      ],
+      "questionIds": [
+        "y1-internazionale-istituzioni-comunita",
+        "law-internazionale-istituzioni-comunita-1",
+        "law-internazionale-fonti-trattati-1",
+        "law-internazionale-fonti-trattati-2",
+        "law-internazionale-fonti-onu-1",
+        "law-internazionale-fonti-onu-2",
+        "law-internazionale-fonti-adattamento-1",
+        "law-internazionale-fonti-adattamento-2",
+        "law-internazionale-fonti-responsabilita-1",
+        "law-internazionale-fonti-responsabilita-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-istituzioni",
+        "internazionale-fonti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Appartenenza italiana all’UE e ripercussioni",
+      "refs": [
+        "internazionale-istituzioni/ue",
+        "internazionale-fonti/adattamento"
+      ],
+      "questionIds": [
+        "y1-internazionale-istituzioni-ue",
+        "law-internazionale-istituzioni-ue-1",
+        "law-internazionale-fonti-adattamento-1",
+        "law-internazionale-fonti-adattamento-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-istituzioni",
+        "internazionale-fonti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Appartenenza ad altre organizzazioni e ripercussioni",
+      "refs": [
+        "internazionale-istituzioni/italia",
+        "internazionale-istituzioni/diritti",
+        "internazionale-fonti/onu"
+      ],
+      "questionIds": [
+        "y1-internazionale-istituzioni-italia",
+        "y1-internazionale-istituzioni-diritti",
+        "law-internazionale-istituzioni-italia-1",
+        "law-internazionale-istituzioni-diritti-1",
+        "law-internazionale-fonti-onu-1",
+        "law-internazionale-fonti-onu-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-istituzioni",
+        "internazionale-fonti"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Regolamentazione internazionale dello sport: profili pubblicistici",
+      "refs": [
+        "internazionale-sport/europa-sport",
+        "internazionale-sport/antidoping",
+        "internazionale-europa/convenzioni",
+        "internazionale-europa/mercato"
+      ],
+      "questionIds": [
+        "y1-internazionale-sport-europa-sport",
+        "y1-internazionale-sport-antidoping",
+        "law-internazionale-sport-europa-sport-1",
+        "law-internazionale-sport-antidoping-1",
+        "law-internazionale-europa-convenzioni-1",
+        "law-internazionale-europa-convenzioni-2",
+        "law-internazionale-europa-mercato-1",
+        "law-internazionale-europa-mercato-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-sport",
+        "internazionale-europa"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Regolamentazione dalla prospettiva delle federazioni",
+      "refs": [
+        "internazionale-sport/olimpico",
+        "internazionale-sport/arbitrato",
+        "internazionale-europa/simulazione"
+      ],
+      "questionIds": [
+        "y1-internazionale-sport-olimpico",
+        "y1-internazionale-sport-arbitrato",
+        "law-internazionale-sport-olimpico-1",
+        "law-internazionale-sport-arbitrato-1",
+        "law-internazionale-europa-simulazione-1",
+        "law-internazionale-europa-simulazione-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-sport",
+        "internazionale-europa"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Articolo assegnato: sport e Agenda ONU",
+      "refs": [
+        "internazionale-sostenibilita/lettura",
+        "internazionale-sostenibilita/agenda",
+        "internazionale-sostenibilita/inclusione",
+        "internazionale-sostenibilita/progetto"
+      ],
+      "questionIds": [
+        "law-internazionale-sostenibilita-lettura-1",
+        "law-internazionale-sostenibilita-lettura-2",
+        "law-internazionale-sostenibilita-agenda-1",
+        "law-internazionale-sostenibilita-agenda-2",
+        "law-internazionale-sostenibilita-inclusione-1",
+        "law-internazionale-sostenibilita-inclusione-2",
+        "law-internazionale-sostenibilita-progetto-1",
+        "law-internazionale-sostenibilita-progetto-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-sostenibilita"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "syllabus": "Articolo assegnato: dimensione europea dello sport",
+      "refs": [
+        "internazionale-europa/lettura",
+        "internazionale-europa/convenzioni",
+        "internazionale-europa/mercato",
+        "internazionale-europa/simulazione"
+      ],
+      "questionIds": [
+        "law-internazionale-europa-lettura-1",
+        "law-internazionale-europa-lettura-2",
+        "law-internazionale-europa-convenzioni-1",
+        "law-internazionale-europa-convenzioni-2",
+        "law-internazionale-europa-mercato-1",
+        "law-internazionale-europa-mercato-2",
+        "law-internazionale-europa-simulazione-1",
+        "law-internazionale-europa-simulazione-2"
+      ],
+      "oralUnitIds": [
+        "internazionale-europa"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "trasversale",
+      "syllabus": "Applicare nozioni a casi concreti e sviluppare argomentazioni interpretative",
+      "refs": [
+        "diritto-casi/metodo",
+        "pubblico-mezzi/caso",
+        "internazionale-europa/simulazione"
+      ],
+      "questionIds": [
+        "law-diritto-casi-metodo-1",
+        "law-diritto-casi-metodo-2",
+        "law-pubblico-mezzi-caso-1",
+        "law-pubblico-mezzi-caso-2",
+        "law-internazionale-europa-simulazione-1",
+        "law-internazionale-europa-simulazione-2"
+      ],
+      "oralUnitIds": [
+        "diritto-casi",
+        "pubblico-mezzi",
+        "internazionale-europa"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "trasversale",
+      "syllabus": "Comunicare con linguaggio giuridico e studiare autonomamente",
+      "refs": [
+        "diritto-casi/orale",
+        "internazionale-sostenibilita/lettura",
+        "internazionale-europa/lettura"
+      ],
+      "questionIds": [
+        "law-diritto-casi-orale-1",
+        "law-diritto-casi-orale-2",
+        "law-internazionale-sostenibilita-lettura-1",
+        "law-internazionale-sostenibilita-lettura-2",
+        "law-internazionale-europa-lettura-1",
+        "law-internazionale-europa-lettura-2"
+      ],
+      "oralUnitIds": [
+        "diritto-casi",
+        "internazionale-sostenibilita",
+        "internazionale-europa"
+      ],
+      "status": "developed"
+    }
+  ],
+  "sectionEvidence": [
+    {
+      "module": "diritto-privato",
+      "topic": "Norma, fonte e interpretazione",
+      "refs": [
+        "diritto-soggetti/norme"
+      ],
+      "questionIds": [
+        "law-diritto-soggetti-norme-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Diritti, doveri, poteri e oneri",
+      "refs": [
+        "diritto-soggetti/situazioni"
+      ],
+      "questionIds": [
+        "law-diritto-soggetti-situazioni-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Capacità giuridica e capacità di agire",
+      "refs": [
+        "diritto-soggetti/persone"
+      ],
+      "questionIds": [
+        "law-diritto-soggetti-persone-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Enti e autonomia patrimoniale",
+      "refs": [
+        "diritto-soggetti/enti"
+      ],
+      "questionIds": [
+        "law-diritto-soggetti-enti-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Gli elementi dell’obbligazione",
+      "refs": [
+        "diritto-obbligazioni/rapporto"
+      ],
+      "questionIds": [
+        "law-diritto-obbligazioni-rapporto-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Adempiere ed estinguere",
+      "refs": [
+        "diritto-obbligazioni/adempimento"
+      ],
+      "questionIds": [
+        "law-diritto-obbligazioni-adempimento-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Inadempimento e prova della causa",
+      "refs": [
+        "diritto-obbligazioni/inadempimento"
+      ],
+      "questionIds": [
+        "law-diritto-obbligazioni-inadempimento-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Mora e impossibilità",
+      "refs": [
+        "diritto-obbligazioni/mora"
+      ],
+      "questionIds": [
+        "law-diritto-obbligazioni-mora-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "I requisiti essenziali",
+      "refs": [
+        "diritto-contratto/requisiti"
+      ],
+      "questionIds": [
+        "law-diritto-contratto-requisiti-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Trattative, proposta e accettazione",
+      "refs": [
+        "diritto-contratto/conclusione"
+      ],
+      "questionIds": [
+        "law-diritto-contratto-conclusione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Interpretazione, integrazione ed effetti",
+      "refs": [
+        "diritto-contratto/interpretazione"
+      ],
+      "questionIds": [
+        "law-diritto-contratto-interpretazione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Condizione e termine",
+      "refs": [
+        "diritto-contratto/elementi"
+      ],
+      "questionIds": [
+        "law-diritto-contratto-elementi-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Nullità e annullabilità",
+      "refs": [
+        "diritto-rimedi/nullita"
+      ],
+      "questionIds": [
+        "law-diritto-rimedi-nullita-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Errore, violenza e dolo",
+      "refs": [
+        "diritto-rimedi/vizi"
+      ],
+      "questionIds": [
+        "law-diritto-rimedi-vizi-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Rescissione e squilibrio originario",
+      "refs": [
+        "diritto-rimedi/rescissione"
+      ],
+      "questionIds": [
+        "law-diritto-rimedi-rescissione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Risoluzione per problemi del rapporto",
+      "refs": [
+        "diritto-rimedi/risoluzione"
+      ],
+      "questionIds": [
+        "law-diritto-rimedi-risoluzione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Compensazione: debiti reciproci",
+      "refs": [
+        "diritto-estinzione/compensazione"
+      ],
+      "questionIds": [
+        "law-diritto-estinzione-compensazione-1",
+        "law-diritto-estinzione-compensazione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Confusione e remissione",
+      "refs": [
+        "diritto-estinzione/confusione"
+      ],
+      "questionIds": [
+        "law-diritto-estinzione-confusione-1",
+        "law-diritto-estinzione-confusione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Novazione e prestazione in luogo dell’adempimento",
+      "refs": [
+        "diritto-estinzione/novazione"
+      ],
+      "questionIds": [
+        "law-diritto-estinzione-novazione-1",
+        "law-diritto-estinzione-novazione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Impossibilità definitiva, temporanea e parziale",
+      "refs": [
+        "diritto-estinzione/impossibilita"
+      ],
+      "questionIds": [
+        "law-diritto-estinzione-impossibilita-1",
+        "law-diritto-estinzione-impossibilita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Trattare senza ingannare",
+      "refs": [
+        "diritto-preliminare/trattative"
+      ],
+      "questionIds": [
+        "law-diritto-preliminare-trattative-1",
+        "law-diritto-preliminare-trattative-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Proposta, opzione e prelazione",
+      "refs": [
+        "diritto-preliminare/vincoli"
+      ],
+      "questionIds": [
+        "law-diritto-preliminare-vincoli-1",
+        "law-diritto-preliminare-vincoli-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Preliminare: forma ed esecuzione specifica",
+      "refs": [
+        "diritto-preliminare/preliminare"
+      ],
+      "questionIds": [
+        "law-diritto-preliminare-preliminare-1",
+        "law-diritto-preliminare-preliminare-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Agire in nome altrui",
+      "refs": [
+        "diritto-preliminare/rappresentanza"
+      ],
+      "questionIds": [
+        "law-diritto-preliminare-rappresentanza-1",
+        "law-diritto-preliminare-rappresentanza-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Dal fatto alla soluzione motivata",
+      "refs": [
+        "diritto-casi/metodo"
+      ],
+      "questionIds": [
+        "law-diritto-casi-metodo-1",
+        "law-diritto-casi-metodo-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Caso A: minore, consenso e condizione",
+      "refs": [
+        "diritto-casi/validita"
+      ],
+      "questionIds": [
+        "law-diritto-casi-validita-1",
+        "law-diritto-casi-validita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Caso B: il fornitore non consegna",
+      "refs": [
+        "diritto-casi/esecuzione"
+      ],
+      "questionIds": [
+        "law-diritto-casi-esecuzione-1",
+        "law-diritto-casi-esecuzione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-privato",
+      "topic": "Caso C: prova orale e autoconfronto",
+      "refs": [
+        "diritto-casi/orale"
+      ],
+      "questionIds": [
+        "law-diritto-casi-orale-1",
+        "law-diritto-casi-orale-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Principi costituzionali e sport",
+      "refs": [
+        "pubblico-fonti/costituzione"
+      ],
+      "questionIds": [
+        "law-pubblico-fonti-costituzione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Gerarchia, competenza e successione nel tempo",
+      "refs": [
+        "pubblico-fonti/fonti"
+      ],
+      "questionIds": [
+        "law-pubblico-fonti-fonti-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Parlamento, Governo e garanzie",
+      "refs": [
+        "pubblico-fonti/organi"
+      ],
+      "questionIds": [
+        "law-pubblico-fonti-organi-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Regioni, enti locali e ordinamento sportivo",
+      "refs": [
+        "pubblico-fonti/autonomie"
+      ],
+      "questionIds": [
+        "law-pubblico-fonti-autonomie-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Enti, organi e uffici",
+      "refs": [
+        "pubblico-amministrazione/organizzazione"
+      ],
+      "questionIds": [
+        "law-pubblico-amministrazione-organizzazione-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Istruttoria, partecipazione e motivazione",
+      "refs": [
+        "pubblico-amministrazione/procedimento"
+      ],
+      "questionIds": [
+        "law-pubblico-amministrazione-procedimento-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Discrezionalità, vizi e tutela",
+      "refs": [
+        "pubblico-amministrazione/poteri"
+      ],
+      "questionIds": [
+        "law-pubblico-amministrazione-poteri-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Beni, servizi, contratti e risorse",
+      "refs": [
+        "pubblico-amministrazione/mezzi"
+      ],
+      "questionIds": [
+        "law-pubblico-amministrazione-mezzi-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Legalità e finalità del potere",
+      "refs": [
+        "pubblico-principi/legalita"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-legalita-1",
+        "law-pubblico-principi-legalita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Imparzialità, buon andamento e conflitto",
+      "refs": [
+        "pubblico-principi/imparzialita"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-imparzialita-1",
+        "law-pubblico-principi-imparzialita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Ragionevolezza e proporzionalità",
+      "refs": [
+        "pubblico-principi/proporzione"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-proporzione-1",
+        "law-pubblico-principi-proporzione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Diritto soggettivo e interesse legittimo",
+      "refs": [
+        "pubblico-principi/posizioni"
+      ],
+      "questionIds": [
+        "law-pubblico-principi-posizioni-1",
+        "law-pubblico-principi-posizioni-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Ente, organo, ufficio e competenza",
+      "refs": [
+        "pubblico-organizzazione/strutture"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-strutture-1",
+        "law-pubblico-organizzazione-strutture-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Amministrazioni statali e autonomie",
+      "refs": [
+        "pubblico-organizzazione/territorio"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-territorio-1",
+        "law-pubblico-organizzazione-territorio-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Indirizzo politico e gestione",
+      "refs": [
+        "pubblico-organizzazione/politica"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-politica-1",
+        "law-pubblico-organizzazione-politica-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Enti e soggetti del sistema sportivo",
+      "refs": [
+        "pubblico-organizzazione/sport"
+      ],
+      "questionIds": [
+        "law-pubblico-organizzazione-sport-1",
+        "law-pubblico-organizzazione-sport-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Concorso e imparzialità nell’accesso",
+      "refs": [
+        "pubblico-impiego/accesso"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-accesso-1",
+        "law-pubblico-impiego-accesso-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Contrattualizzazione e organizzazione pubblica",
+      "refs": [
+        "pubblico-impiego/rapporto"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-rapporto-1",
+        "law-pubblico-impiego-rapporto-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Doveri di servizio e incompatibilità",
+      "refs": [
+        "pubblico-impiego/doveri"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-doveri-1",
+        "law-pubblico-impiego-doveri-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Responsabilità e valutazione dei risultati",
+      "refs": [
+        "pubblico-impiego/responsabilita"
+      ],
+      "questionIds": [
+        "law-pubblico-impiego-responsabilita-1",
+        "law-pubblico-impiego-responsabilita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Le fasi e il responsabile",
+      "refs": [
+        "pubblico-procedimento/fasi"
+      ],
+      "questionIds": [
+        "law-pubblico-procedimento-fasi-1",
+        "law-pubblico-procedimento-fasi-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Partecipazione e preavviso di rigetto",
+      "refs": [
+        "pubblico-procedimento/partecipazione"
+      ],
+      "questionIds": [
+        "law-pubblico-procedimento-partecipazione-1",
+        "law-pubblico-procedimento-partecipazione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Tre accessi da non confondere",
+      "refs": [
+        "pubblico-procedimento/accesso"
+      ],
+      "questionIds": [
+        "law-pubblico-procedimento-accesso-1",
+        "law-pubblico-procedimento-accesso-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "SCIA, silenzio e conferenza di servizi",
+      "refs": [
+        "pubblico-procedimento/semplificazione"
+      ],
+      "questionIds": [
+        "law-pubblico-procedimento-semplificazione-1",
+        "law-pubblico-procedimento-semplificazione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Atto, provvedimento ed efficacia",
+      "refs": [
+        "pubblico-provvedimenti/atti"
+      ],
+      "questionIds": [
+        "law-pubblico-provvedimenti-atti-1",
+        "law-pubblico-provvedimenti-atti-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Nullità e annullabilità amministrativa",
+      "refs": [
+        "pubblico-provvedimenti/invalidita"
+      ],
+      "questionIds": [
+        "law-pubblico-provvedimenti-invalidita-1",
+        "law-pubblico-provvedimenti-invalidita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Annullamento d’ufficio e revoca",
+      "refs": [
+        "pubblico-provvedimenti/autotutela"
+      ],
+      "questionIds": [
+        "law-pubblico-provvedimenti-autotutela-1",
+        "law-pubblico-provvedimenti-autotutela-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Giudici e autonomia sportiva",
+      "refs": [
+        "pubblico-provvedimenti/tutela"
+      ],
+      "questionIds": [
+        "law-pubblico-provvedimenti-tutela-1",
+        "law-pubblico-provvedimenti-tutela-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Beni pubblici e destinazione",
+      "refs": [
+        "pubblico-mezzi/beni"
+      ],
+      "questionIds": [
+        "law-pubblico-mezzi-beni-1",
+        "law-pubblico-mezzi-beni-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Servizi, appalti e concessioni",
+      "refs": [
+        "pubblico-mezzi/servizi"
+      ],
+      "questionIds": [
+        "law-pubblico-mezzi-servizi-1",
+        "law-pubblico-mezzi-servizi-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Spesa, affidamenti e controlli",
+      "refs": [
+        "pubblico-mezzi/risorse"
+      ],
+      "questionIds": [
+        "law-pubblico-mezzi-risorse-1",
+        "law-pubblico-mezzi-risorse-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-pubblico",
+      "topic": "Caso integrato: assegnare una palestra",
+      "refs": [
+        "pubblico-mezzi/caso"
+      ],
+      "questionIds": [
+        "law-pubblico-mezzi-caso-1",
+        "law-pubblico-mezzi-caso-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Soggetti e fonti internazionali",
+      "refs": [
+        "internazionale-istituzioni/comunita"
+      ],
+      "questionIds": [
+        "law-internazionale-istituzioni-comunita-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Rapporti con l’ordinamento italiano",
+      "refs": [
+        "internazionale-istituzioni/italia"
+      ],
+      "questionIds": [
+        "law-internazionale-istituzioni-italia-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Istituzioni e atti dell’Unione europea",
+      "refs": [
+        "internazionale-istituzioni/ue"
+      ],
+      "questionIds": [
+        "law-internazionale-istituzioni-ue-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Diritti umani e risoluzione delle controversie",
+      "refs": [
+        "internazionale-istituzioni/diritti"
+      ],
+      "questionIds": [
+        "law-internazionale-istituzioni-diritti-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Movimento olimpico e federazioni",
+      "refs": [
+        "internazionale-sport/olimpico"
+      ],
+      "questionIds": [
+        "law-internazionale-sport-olimpico-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Sport, mercato e diritto europeo",
+      "refs": [
+        "internazionale-sport/europa-sport"
+      ],
+      "questionIds": [
+        "law-internazionale-sport-europa-sport-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Arbitrato sportivo e garanzie",
+      "refs": [
+        "internazionale-sport/arbitrato"
+      ],
+      "questionIds": [
+        "law-internazionale-sport-arbitrato-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Coordinamento pubblico e privato",
+      "refs": [
+        "internazionale-sport/antidoping"
+      ],
+      "questionIds": [
+        "law-internazionale-sport-antidoping-1"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Trattati, consuetudini e norme imperative",
+      "refs": [
+        "internazionale-fonti/trattati"
+      ],
+      "questionIds": [
+        "law-internazionale-fonti-trattati-1",
+        "law-internazionale-fonti-trattati-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "ONU: organi e funzioni",
+      "refs": [
+        "internazionale-fonti/onu"
+      ],
+      "questionIds": [
+        "law-internazionale-fonti-onu-1",
+        "law-internazionale-fonti-onu-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Dal vincolo internazionale alla norma interna",
+      "refs": [
+        "internazionale-fonti/adattamento"
+      ],
+      "questionIds": [
+        "law-internazionale-fonti-adattamento-1",
+        "law-internazionale-fonti-adattamento-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Illecito e soluzione delle controversie",
+      "refs": [
+        "internazionale-fonti/responsabilita"
+      ],
+      "questionIds": [
+        "law-internazionale-fonti-responsabilita-1",
+        "law-internazionale-fonti-responsabilita-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Guida al contributo di Celentano sullo sviluppo",
+      "refs": [
+        "internazionale-sostenibilita/lettura"
+      ],
+      "questionIds": [
+        "law-internazionale-sostenibilita-lettura-1",
+        "law-internazionale-sostenibilita-lettura-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Agenda 2030: obiettivi e forza del documento",
+      "refs": [
+        "internazionale-sostenibilita/agenda"
+      ],
+      "questionIds": [
+        "law-internazionale-sostenibilita-agenda-1",
+        "law-internazionale-sostenibilita-agenda-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Dal diritto di partecipare alle condizioni di accesso",
+      "refs": [
+        "internazionale-sostenibilita/inclusione"
+      ],
+      "questionIds": [
+        "law-internazionale-sostenibilita-inclusione-1",
+        "law-internazionale-sostenibilita-inclusione-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Un progetto sostenibile da discutere all’orale",
+      "refs": [
+        "internazionale-sostenibilita/progetto"
+      ],
+      "questionIds": [
+        "law-internazionale-sostenibilita-progetto-1",
+        "law-internazionale-sostenibilita-progetto-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Guida all’articolo sulla dimensione europea",
+      "refs": [
+        "internazionale-europa/lettura"
+      ],
+      "questionIds": [
+        "law-internazionale-europa-lettura-1",
+        "law-internazionale-europa-lettura-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Consiglio d’Europa: carta e convenzioni",
+      "refs": [
+        "internazionale-europa/convenzioni"
+      ],
+      "questionIds": [
+        "law-internazionale-europa-convenzioni-1",
+        "law-internazionale-europa-convenzioni-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "UE: sostegno allo sport e limiti ai poteri federali",
+      "refs": [
+        "internazionale-europa/mercato"
+      ],
+      "questionIds": [
+        "law-internazionale-europa-mercato-1",
+        "law-internazionale-europa-mercato-2"
+      ],
+      "status": "developed"
+    },
+    {
+      "module": "diritto-internazionale",
+      "topic": "Caso finale: gara inclusiva, manipolazione e ricorso",
+      "refs": [
+        "internazionale-europa/simulazione"
+      ],
+      "questionIds": [
+        "law-internazionale-europa-simulazione-1",
+        "law-internazionale-europa-simulazione-2"
+      ],
+      "status": "developed"
+    }
+  ],
+  "assignedReadings": [
+    {
+      "sourceId": "law-celentano-agenda",
+      "year": 2020,
+      "read": "Testo online consultato; breve guida originale e sviluppo indipendente su documenti primari.",
+      "refs": [
+        "internazionale-sostenibilita/lettura",
+        "internazionale-sostenibilita/agenda",
+        "internazionale-sostenibilita/inclusione",
+        "internazionale-sostenibilita/progetto"
+      ]
+    },
+    {
+      "sourceId": "law-celentano-europa",
+      "year": 2022,
+      "read": "Articolo completo alle pagine 13–14 del fascicolo dell’editore; breve guida originale.",
+      "refs": [
+        "internazionale-europa/lettura",
+        "internazionale-europa/convenzioni",
+        "internazionale-europa/mercato",
+        "internazionale-europa/simulazione"
+      ]
+    }
+  ],
+  "limitations": [
+    "Completato il confronto editoriale delle voci esplicite del syllabus pubblico 2024/25. Le schede 2026/27 confermano struttura 2+2+4 CFU e prova orale, ma non il dettaglio analitico.",
+    "Restano non verificabili ulteriori dispense del docente. I casi sono didattici e semplificati; fonti normative consultate al 22 ottobre 2026.",
+    "I quiz allenano il ragionamento; l’esame è orale. Le risposte aperte hanno modelli e criteri di autoconfronto, senza voto automatico al testo."
+  ],
+  "unavailable": [
+    {
+      "item": "Ulteriori materiali del docente distribuiti a lezione o via email",
+      "status": "not-acquired"
+    },
+    {
+      "item": "Dettaglio analitico corrente dei tre moduli",
+      "status": "not-published-in-consulted-catalogue"
+    }
+  ],
+  "legalChecks": {
+    "date": "2026-10-22",
+    "civilCodeArticles": 63,
+    "procedureArticles": 28,
+    "publicEmploymentArticles": 14,
+    "note": "Testi acquisiti nella banca dati normativa MEF e confronto mirato delle disposizioni richiamate. Catalogo Normattiva e fonti costituzionali/UE/internazionali usati per approfondimenti. Art. 21-nonies: sei mesi dal 18 dicembre 2025; WADA 2027 non ancora in vigore."
+  },
+  "pedagogicalLimits": "Casi semplificati e originali. Nessuna validazione docente o garanzia di superamento. Autoconfronto orale senza voto automatico.",
+  "linkChecks": [
+    {
+      "id": "syllabus-legge",
+      "url": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/syllabus-scienze-giuridiche-a-a-2024-2025.docx",
+      "status": 200,
+      "bytes": 434529,
+      "title": "",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "resolved": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/syllabus-scienze-giuridiche-a-a-2024-2025.docx"
+    },
+    {
+      "id": "codice-civile",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262!vig=",
+      "status": 200,
+      "bytes": 1642153,
+      "title": "REGIO DECRETO 16 marzo 1942, n. 262 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262!vig="
+    },
+    {
+      "id": "legge-procedimento",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241!vig=",
+      "status": 200,
+      "bytes": 89484,
+      "title": "LEGGE 7 agosto 1990, n. 241 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-08-07;241!vig="
+    },
+    {
+      "id": "wada-code",
+      "url": "https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code",
+      "status": 202,
+      "bytes": 0,
+      "title": "",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/world-anti-doping-code"
+    },
+    {
+      "id": "tfue-sport",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12016E165",
+      "status": 202,
+      "bytes": 0,
+      "title": "",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12016E165"
+    },
+    {
+      "id": "olympic-charter",
+      "url": "https://www.olympics.com/ioc/olympic-charter",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "law-costituzione",
+      "url": "https://www.senato.it/istituzione/la-costituzione",
+      "status": 202,
+      "bytes": 0,
+      "title": "",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://www.senato.it/istituzione/la-costituzione"
+    },
+    {
+      "id": "law-impiego",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-30;165!vig=",
+      "status": 200,
+      "bytes": 121894,
+      "title": "DECRETO LEGISLATIVO 30 marzo 2001, n. 165 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-03-30;165!vig="
+    },
+    {
+      "id": "law-enti-locali",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267!vig=",
+      "status": 200,
+      "bytes": 202227,
+      "title": "DECRETO LEGISLATIVO 18 agosto 2000, n. 267 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267!vig="
+    },
+    {
+      "id": "law-coni",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1999-07-23;242!vig=",
+      "status": 200,
+      "bytes": 83229,
+      "title": "DECRETO LEGISLATIVO 23 luglio 1999, n. 242 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1999-07-23;242!vig="
+    },
+    {
+      "id": "law-trasparenza",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig=",
+      "status": 200,
+      "bytes": 102983,
+      "title": "DECRETO LEGISLATIVO 14 marzo 2013, n. 33 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig="
+    },
+    {
+      "id": "law-accesso",
+      "url": "https://politichecoesione.governo.it/it/accesso-civico/",
+      "status": 200,
+      "bytes": 96658,
+      "title": "Accesso civico",
+      "contentType": "text/html; charset=utf-8",
+      "resolved": "https://politichecoesione.governo.it/it/accesso-civico/"
+    },
+    {
+      "id": "law-contratti",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig=",
+      "status": 200,
+      "bytes": 345020,
+      "title": "DECRETO LEGISLATIVO 31 marzo 2023, n. 36 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig="
+    },
+    {
+      "id": "law-giustizia",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-07-02;104!vig=",
+      "status": 200,
+      "bytes": 169313,
+      "title": "DECRETO LEGISLATIVO 2 luglio 2010, n. 104 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-07-02;104!vig="
+    },
+    {
+      "id": "law-sport-autonomia",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2003-08-19;220!vig=",
+      "status": 200,
+      "bytes": 66711,
+      "title": "DECRETO-LEGGE 19 agosto 2003, n. 220 - Normattiva",
+      "contentType": "text/html;charset=UTF-8",
+      "resolved": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2003-08-19;220!vig="
+    },
+    {
+      "id": "law-onu",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "status": 200,
+      "bytes": 150983,
+      "title": "United Nations Charter (full text) | United Nations",
+      "contentType": "text/html; charset=utf-8",
+      "resolved": "https://www.un.org/en/about-us/un-charter/full-text"
+    },
+    {
+      "id": "law-icj",
+      "url": "https://www.icj-cij.org/statute",
+      "status": 200,
+      "bytes": 96274,
+      "title": "Statute of the Court Of Justice | INTERNATIONAL COURT OF JUSTICE",
+      "contentType": "text/html; charset=utf-8",
+      "resolved": "https://www.icj-cij.org/statute"
+    },
+    {
+      "id": "law-vienna",
+      "url": "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf",
+      "status": 200,
+      "bytes": 160283,
+      "title": "",
+      "contentType": "application/pdf",
+      "resolved": "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf"
+    },
+    {
+      "id": "law-ue-atti",
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12016E288",
+      "status": 202,
+      "bytes": 0,
+      "title": "",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:12016E288"
+    },
+    {
+      "id": "law-ue-istituzioni",
+      "url": "https://www.consilium.europa.eu/en/european-council-and-council-of-the-eu/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "law-cedu",
+      "url": "https://www.echr.coe.int/documents/d/echr/convention_ita",
+      "status": 200,
+      "bytes": 1353883,
+      "title": "",
+      "contentType": "application/pdf",
+      "resolved": "https://www.echr.coe.int/documents/d/echr/convention_ita"
+    },
+    {
+      "id": "law-cas",
+      "url": "https://www.tas-cas.org/generated/assets/pages/index/CAS_Human_Rights_in_Sport__November_2023_.pdf",
+      "status": 200,
+      "title": "TAS / CAS",
+      "contentType": "application/pdf",
+      "resolved": "https://www.tas-cas.org/generated/assets/pages/index/CAS_Human_Rights_in_Sport__November_2023_.pdf",
+      "note": "Vecchio percorso restituiva una pagina HTML di errore: sostituito con il PDF ufficiale sulle garanzie recuperato dalla home corrente.",
+      "verification": "PDF aperto tramite strumento web dal collegamento della home corrente; 31 pagine."
+    },
+    {
+      "id": "law-superleague",
+      "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2023-12/cp230203en.pdf",
+      "status": 200,
+      "bytes": 119793,
+      "title": "",
+      "contentType": "application/pdf",
+      "resolved": "https://curia.europa.eu/site/upload/docs/application/pdf/2023-12/cp230203en.pdf"
+    },
+    {
+      "id": "law-agenda2030",
+      "url": "https://sdgs.un.org/2030agenda",
+      "status": 200,
+      "bytes": 133745,
+      "title": "Transforming our world: the 2030 Agenda for Sustainable Development | Department of Economic and Social Affairs",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://sdgs.un.org/2030agenda"
+    },
+    {
+      "id": "law-unesco-carta",
+      "url": "https://www.unesco.org/en/legal-affairs/international-charter-physical-education-physical-activity-and-sport",
+      "status": 200,
+      "bytes": 43719,
+      "title": "",
+      "contentType": "text/html",
+      "resolved": "https://www.unesco.org/en/legal-affairs/international-charter-physical-education-physical-activity-and-sport"
+    },
+    {
+      "id": "law-crpd",
+      "url": "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-30-participation-in-cultural-life-recreation-leisure-and-sport.html",
+      "status": 200,
+      "bytes": 81186,
+      "title": "Article 30 &#8211; Participation in cultural life, recreation, leisure and sport &#124; United Nations Enable",
+      "contentType": "text/html; charset=UTF-8",
+      "resolved": "https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/article-30-participation-in-cultural-life-recreation-leisure-and-sport.html"
+    },
+    {
+      "id": "law-coe-carta",
+      "url": "https://search.coe.int/cm?i=0900001680a42107",
+      "status": 200,
+      "bytes": 12869,
+      "title": "CoE Search - CM",
+      "contentType": "text/html; charset=utf-8",
+      "resolved": "https://search.coe.int/cm?i=0900001680a42107"
+    },
+    {
+      "id": "law-macolin",
+      "url": "https://www.coe.int/en/web/sport/macolin",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "law-saintdenis",
+      "url": "https://www.coe.int/en/web/civil-society/sport-conventions1",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "law-celentano-agenda",
+      "url": "https://www.academia.edu/43189248/Il_contributo_dello_sport_all_attuazione_dell_Agenda_ONU_per_uno_sviluppo_sostenibile",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "law-celentano-europa",
+      "url": "https://www.sudineuropa.it/files/Sud-in-Europa-XXIV-2022.pdf#page=13",
+      "status": 200,
+      "bytes": 1406054,
+      "title": "",
+      "contentType": "application/pdf",
+      "resolved": "https://www.sudineuropa.it/files/Sud-in-Europa-XXIV-2022.pdf"
+    },
+    {
+      "id": "law-cc-38",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+38&codiceOrdinamento=200003800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200321,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+38&codiceOrdinamento=200003800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1218",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1218&codiceOrdinamento=200121800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200316,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1218&codiceOrdinamento=200121800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1230",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1230&codiceOrdinamento=200123000000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200275,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1230&codiceOrdinamento=200123000000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1243",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1243&codiceOrdinamento=200124300000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200620,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1243&codiceOrdinamento=200124300000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1256",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1256&codiceOrdinamento=200125600000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200737,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1256&codiceOrdinamento=200125600000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1351",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1351&codiceOrdinamento=200135100000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200153,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1351&codiceOrdinamento=200135100000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1372",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1372&codiceOrdinamento=200137200000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200267,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1372&codiceOrdinamento=200137200000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1418",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1418&codiceOrdinamento=200141800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200540,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1418&codiceOrdinamento=200141800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1448",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1448&codiceOrdinamento=200144800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200800,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1448&codiceOrdinamento=200144800000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-1453",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1453&codiceOrdinamento=200145300000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200721,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+1453&codiceOrdinamento=200145300000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-cc-2932",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+2932&codiceOrdinamento=200293200000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D",
+      "status": 200,
+      "bytes": 1200802,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+2932&codiceOrdinamento=200293200000000&id=%7B9E93F1BE-06AE-4F24-8E9D-B838F7E0C2E6%7D"
+    },
+    {
+      "id": "law-autotutela",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+21+novies&codiceOrdinamento=0000000000000219999900009000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B00CBF74C-1642-41D9-AE4F-6CD18551724F%7D",
+      "status": 200,
+      "bytes": 41411,
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "contentType": "text/html; charset=ISO-8859-1",
+      "resolved": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+21+novies&codiceOrdinamento=0000000000000219999900009000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B00CBF74C-1642-41D9-AE4F-6CD18551724F%7D"
+    }
+  ],
+  "linkCheckLimit": "I collegamenti hanno riscontri misti HTTP/browser/web: alcuni siti istituzionali rispondono a client automatici con 202/403. Non sono dichiarati tutti scaricabili automaticamente. Nessuna risorsa viene richiesta dall’app prima del clic.",
+  "technicalVerification": {
+    "date": "2026-10-22",
+    "unitTests": 48,
+    "wrongChoicesChecked": 320,
+    "offlineNetworkRequests": 0,
+    "legacyProgressPreserved": true,
+    "mobileLightAndDark": true,
+    "printChecked": true
+  }
+}

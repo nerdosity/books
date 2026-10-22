@@ -1,18 +1,20 @@
 SEGNALIBRO DI LAVORO — 22 ottobre 2026
 STATO: IN PAUSA SU RICHIESTA DELL’UTENTE — NON RIPRENDERE AUTOMATICAMENTE
 
-AGGIORNAMENTO APPROFONDIMENTI — 22 ottobre 2026
-Aggiunti 470 collegamenti OpenStax in 185 lezioni, su 233 pagine distinte raggiungibili e controllate per titolo/argomento. Disponibili sotto chevron nelle lezioni, negli aiuti e nel quaderno stampabile; inglese, Internet solo all’apertura volontaria. Fonti e limiti in data/openstax-audit.json. Nessuna integrazione dei PDF privati nella piattaforma. Questo intervento aggiunge letture, non nuovi capitoli o quiz, e non risolve automaticamente le lacune del programma. Il punto di ripresa rimane Scienze giuridiche.
+In pausa dopo Scienze giuridiche: 20 lezioni, 80 sezioni, 160 quiz e 20 prove orali. Ampliate le otto lezioni iniziali e aggiunte dodici; confronto delle voci pubbliche 2024/25 e dei due articoli assegnati svolto. Restano dettaglio corrente e ulteriori dispense.
 
-Sviluppo in pausa dopo Inglese scritto: sei nuovi capitoli e 96 quiz, letture tradotte, modelli di scrittura e simulazione da 15 domande. Integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Il primo anno resta da completare e verificare.
-Consegna: pronto/index.html, apribile direttamente.
-Totali: 199 lezioni, 780 sezioni, 1695 quiz, 27 famiglie numeriche, 179 prove aperte, 19 immagini anatomiche. Tre prove scritte anatomiche separate (36 consegne).
-Copertura: 125 nuclei, 119 introdotti, 5 parziali, 1 mancante; nessun esame certificato integralmente completato.
+CONSEGNA
+pronto/index.html — doppio clic, nessun server. Fonti facoltative sotto chevron.
+Totali: 211 lezioni, 828 sezioni, 1823 quiz, 27 famiglie numeriche, 191 prove aperte, 19 immagini anatomiche.
+Mappa: 126 nuclei, 120 introdotti, 5 parziali, 1 non disponibile. Copertura dell’intero primo anno ancora incompleta.
+
+GIURIDICHE: LAVORO CONCLUSO IN QUESTA TAPPA
+20 lezioni (7 Privato, 8 Pubblico, 5 Internazionale), 80 sezioni, 160 quiz, 20 prove orali, 3 tavole e 7 tabelle. Confronto del syllabus pubblico 2024/25 in 38 voci: data/law-audit.json. Recuperati i due articoli di Celentano e aggiunte guide originali, fonti e casi. Il catalogo 2026/27 conferma struttura e orale, ma non pubblica il dettaglio analitico. Ulteriori dispense non acquisite: non dichiararle coperte.
 
 PUNTO DI RIPRESA
-Riprendere Scienze giuridiche: casi risolti e confronto dei programmi; restano materiali assegnati di diritto internazionale. Poi ulteriori riconoscimenti anatomici e verifiche correnti. Ascolto inglese escluso dall’obiettivo.
+Alla prossima ripresa: ampliare il riconoscimento anatomico e completare le verifiche correnti ancora indicate. Per Giuridiche acquisire soltanto il programma analitico corrente e le ulteriori dispense quando disponibili. Ascolto inglese escluso dall’obiettivo.
 
-ESAMI ANCORA DA TERMINARE
+ESAMI ANCORA DA TERMINARE O VERIFICARE
 Scienze biologiche — Verifica finale da terminare
 Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione.
 
@@ -25,8 +27,8 @@ Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali d
 Scienze psicologiche e pedagogiche — Da ampliare e verificare
 Ventiquattro lezioni: processi psicologici, motivazione, sviluppo e sei lezioni di Pedagogia. Confrontati nuclei del PDF pedagogico 2017/18, con casi e 48 nuovi quiz. Restano contenuti specifici della monografia di Persano, ulteriori richieste dei docenti e dettaglio/dispense correnti dei quattro moduli, inclusa didattica speciale. Nessuna certificazione della preparazione orale.
 
-Scienze giuridiche — Da ampliare e verificare
-Mancano gli articoli e le dispense specificamente assegnati in diritto internazionale. Ampliare casi risolti di internazionale, privato e pubblico e completare il confronto dei programmi.
+Scienze giuridiche — Confronto pubblico svolto; verifica corrente da terminare
+Venti lezioni, 160 quiz, 20 prove orali e tre tavole originali. Confrontate tutte le voci esplicite del syllabus 2024/25 e i due articoli assegnati. Restano programma analitico 2026/27, ulteriori dispense del docente e verifica della preparazione orale; il catalogo corrente conferma struttura e orale.
 
 Teoria e metodologia dell’allenamento — Confronto storico svolto; verifica corrente da terminare
 Confrontate le 42 voci del syllabus 2024/25, con nove lezioni, casi, quiz, prove aperte e guida alla tesina. Restano dispense e richieste del docente corrente, modalità effettive di esame e verifica della preparazione.
@@ -43,27 +45,8 @@ Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati atte
 Inglese scientifico — Percorso scritto ampliato; verifica corrente da terminare
 Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale.
 
-PDF LOCALI
-Le ricostruzioni sono in dispense/, esclusa dal versionamento insieme ai documenti forniti e agli script di impaginazione. Il volume ricostruito dal MHTML non è integrato né collegato nella piattaforma, come richiesto. Non pubblicare o aggiungere collegamenti automaticamente.
+APPROFONDIMENTI GIÀ PRESENTI
+470 collegamenti OpenStax in 185 lezioni (233 pagine distinte), con chevron nelle lezioni, negli aiuti e nella stampa. Giuridiche usa fonti primarie pertinenti. I PDF privati e il materiale Studocu non vengono collegati o incorporati.
 
-VERIFICHE E FONTI
-Approfondimenti OpenStax: check e 46 test superati; verifica HTTP delle 233 destinazioni; browser sulle 185 lezioni con controlli degli URL, chevron, testo secondario, aiuto completo dopo errore, stampa e apertura in scheda separata con progressi conservati. Browser generale e temi chiaro/scuro/dispositivo superati. Nessuna richiesta automatica di rete. Testi delle 199 lezioni e fonti precedenti preservati.
-Inglese scritto e integrazione PDF: check e 44 test superati. Browser mirato: otto capitoli, 256 feedback errati con recupero interno, tabelle, progressi precedenti, mobile, tema scuro e stampa offline. Simulazione scritta verificata su 15 risposte, ripresa della bozza, correzioni e voto persistente. Browser generale offline superato. Nessuna richiesta di rete durante queste prove. I controlli tecnici non certificano copertura completa del programma o preparazione all’esame.
-Dispense: chimica in 7 pagine, slide di chimica in 20, organelli in 75. Volume separato ricostruito da tutte le 211 tavole del salvataggio in 422 facciate; corrispondenza dei pixel delle immagini verificata. Nessuna integrazione o collegamento al volume nella piattaforma. Completezza riferita al salvataggio fornito, non confrontata con l’edizione editoriale.
-Informatica teorica: check e 41 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, progressi/tema/formule precedenti, mobile e stampa offline. Browser generale offline superato. Build autonoma completata. I controlli non certificano dispense, collaborazione effettiva o superamento dell’esame.
-Informatica, laboratorio dati: 41 test unitari e check superati; browser mirato con 12 operazioni, 32 feedback con aiuti, grafici, backup ripristinato, progressi precedenti, mobile e stampa. Browser dei fogli con formule superato. Browser generale offline superato; consegna autonoma ricompilata.
-Pedagogia: check e 37 test superati; browser mirato con 96 feedback errati e aiuti integrali, tre capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. Controlli tecnici distinti dalla copertura delle monografie e dalla preparazione orale.
-Motivazione e sviluppo: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non certificano copertura completa o preparazione all’orale.
-Psicologia: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non certificano preparazione o copertura integrale.
-Gestione: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non attestano padronanza o completezza del programma corrente.
-Attività motorie: check e 37 test superati; browser mirato con 96 feedback errati e aiuti integrali, tre capitoli nuovi e tre condivisi verificati nella scheda, tabelle, conservazione di appunti/tema, mobile e stampa offline. Browser generale offline superato. I controlli tecnici non attestano padronanza o completezza del programma corrente.
-Allenamento: check e 37 test superati; browser mirato con 128 feedback errati e aiuti integrali, quattro capitoli, tabelle, conservazione di appunti/tema, mobile e stampa offline. Browser generale offline superato. Il controllo tecnico non certifica copertura curriculare o preparazione.
-Il piano 2026/27 è verificato; i programmi analitici disponibili sono precedenti. La corrispondenza al programma corrente non è confermata.
-npm run check e 37 test superati. Browser scritti: tutte le 36 consegne con risposta, modello e aiuti integrali; autovalutazione, invalidazione dopo modifica, riapertura, backup esportato/reimportato, stampa, mobile scuro e zero richieste di rete verificati. Browser generale offline verificato dopo l’integrazione. Laboratorio microscopico verificato: quattro immagini e 32 feedback errati con aiuti completi, persistenza, mobile e stampa offline. I controlli tecnici non attestano la completezza curriculare.
-Audit mirati in data/development-audit.json: cranio/assile/visceri 28 righe, istologia/linfa 19, sistema nervoso 26. I quiz verificano concetti rappresentativi, non ogni dettaglio di ogni classificazione. Le tavole etichettate non certificano riconoscimento su preparati senza nomi.
-Grafica NotebookLM, Google Sans incorporato e temi chiaro/scuro OLED/dispositivo conservati.
-Aggiornamento locale: non pubblicato.
-Per continuare leggere questo file, data/development-audit.json, README.md e MANUTENZIONE.md. Conservare gli ID delle lezioni e i progressi. La ripresa è stata richiesta dall’utente il 21 ottobre 2026.
-
-INTERFACCIA
-Fonti e note secondarie sotto chevron chiusi, testo di 14 px. Programma e riferimenti in fondo alla scheda esame; fonti in fondo alla lezione. Testo da studiare mantenuto grande. Nessun nuovo esame avviato dopo Informatica.
+STOP
+Non avviare un altro esame o ulteriori ampliamenti senza una nuova richiesta dell’utente.

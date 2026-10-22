@@ -234,3 +234,17 @@ body.large{--reading:23px}
 }
 .openstax-reading{margin:24px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);break-inside:avoid}
 .openstax-reading li{margin:12px 0;overflow-wrap:anywhere}.openstax-reading .reading-book{display:block;font-size:12px;line-height:1.5;margin-top:3px;color:var(--muted)}
+
+/* Original legal study plates: readable offline, on narrow screens and in print. */
+.law-diagram{margin:28px 0;padding:22px;border:1px solid var(--line);border-radius:16px;background:var(--soft);break-inside:avoid}
+.law-diagram figcaption{font-size:21px;line-height:1.5}
+.lesson .law-diagram p{font-size:16px;line-height:1.65}
+.law-paths{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:20px 0}
+.law-path{border:1px solid var(--line);border-radius:12px;padding:18px;background:var(--card);min-width:0}
+.law-stage{display:block;font-size:13px;line-height:1.5;color:var(--muted);margin-bottom:10px}
+.lesson .law-path h3{font-size:18px;line-height:1.5;margin:0 0 14px}
+.lesson .law-path .law-result{font-weight:600;color:var(--green)}
+.lesson .law-path p:last-child{margin-bottom:0}
+.lesson .law-diagram .law-note{padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+@media screen and (max-width:650px){.law-paths{grid-template-columns:1fr}.law-diagram{padding:16px;margin:20px 0}.law-path{padding:16px}}
+@media print{.law-diagram,.law-path{background:white;color:black}.law-diagram{border-color:#aaa;padding:14px}.law-paths{gap:10px}.lesson .law-path .law-result,.lesson .law-diagram .law-note,.law-stage{color:#222}}
