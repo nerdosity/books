@@ -74,7 +74,7 @@ test('visual markers reject invalid coordinates, duplicate letters and missing l
 });
 test('new chapters provide internal teaching, worked examples and self-assessed oral answers',()=>{
   const expanded=course.units.filter(u=>u.oral);
-  assert.equal(expanded.length,191);
+  assert.equal(expanded.length,199);
   for(const u of expanded) {
     assert.ok(u.sections.length>=4);
     assert.ok(u.sections.every(s=>s.text.length>=2&&s.example&&s.takeaway));

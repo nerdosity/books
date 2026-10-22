@@ -6,6 +6,7 @@ import { CHEMISTRY_DIAGRAMS } from './chemistry-diagrams.js';
 import { BIOLOGY_DIAGRAMS } from './biology-diagrams.js';
 import { VASCULAR_DIAGRAMS } from './vascular-diagrams.js';
 import { LAW_DIAGRAMS } from './law-diagrams.js';
+import { ANATOMY_DIAGRAMS } from './anatomy-diagrams.js';
 import { isOpenStaxReading } from './readings.js';
 export function validateContent(course, exercises, library) {
   const errors = [];
@@ -88,7 +89,7 @@ export function validateContent(course, exercises, library) {
     if (u.oral) check(u.oral.prompt && u.oral.answer && u.oral.criteria?.length >= 2, `${u.id}: attività orale incompleta`);
     for (const s of u.sections) {
       if(s.demo)check(PHYSICS_DEMOS.includes(s.demo),`${u.id}/${s.id}: schema interattivo inesistente`);
-      if(s.diagram)check([...CHEMISTRY_DIAGRAMS,...BIOLOGY_DIAGRAMS,...VASCULAR_DIAGRAMS,...LAW_DIAGRAMS].includes(s.diagram),`${u.id}/${s.id}: schema didattico inesistente`);
+      if(s.diagram)check([...CHEMISTRY_DIAGRAMS,...BIOLOGY_DIAGRAMS,...VASCULAR_DIAGRAMS,...LAW_DIAGRAMS,...ANATOMY_DIAGRAMS].includes(s.diagram),`${u.id}/${s.id}: schema didattico inesistente`);
       if(s.figureIds) check(Array.isArray(s.figureIds) && s.figureIds.every(id=>figures.has(id)),`${u.id}/${s.id}: tavola inesistente`);
       if (s.audioIds) check(Array.isArray(s.audioIds) && s.audioIds.every(id=>clips.has(id) && course.listening.find(c=>c.id===id).unit===u.id),`${u.id}/${s.id}: brano audio assente o fuori lezione`);
       if (s.flow) check(Array.isArray(s.flow) && s.flow.length >= 2 && s.flow.every(x => typeof x === 'string' && x.trim()), `${u.id}/${s.id}: sequenza incompleta`);

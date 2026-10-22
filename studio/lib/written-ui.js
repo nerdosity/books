@@ -2,7 +2,8 @@ import {WRITTEN_PARTS,WRITTEN_RATINGS,newWrittenRecord,writtenSummary} from './w
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function writtenLinks(course,exam){
  const papers=(course.writtenPapers||[]).filter(p=>p.exam===exam);
- return papers.length?`<section class="callout no-print"><h2>Preparati allo scritto</h2><p>Dieci risposte brevissime e due elaborati per traccia. Scrivi, confronta e individua cosa ripassare.</p><ul>${papers.map(p=>`<li><a href="#written/${p.id}">${esc(p.title)}</a></li>`).join('')}</ul></section>`:'';
+ const current=course.exams.find(e=>e.id===exam)?.assessmentNote;
+ return papers.length?`<section class="callout no-print"><h2>${current?'Preparati all’esame':'Preparati allo scritto'}</h2>${current?`<p>${esc(current)}</p><p><a href="#lesson/anat-esposizione">Allenati all’orale: tracce e criteri →</a></p>`:''}<details><summary>Esercitazioni scritte · formato storico</summary><p>Dieci risposte brevissime e due elaborati per traccia. Scrivi, confronta e individua cosa ripassare.</p><ul>${papers.map(p=>`<li><a href="#written/${p.id}">${esc(p.title)}</a></li>`).join('')}</ul></details></section>`:'';
 }
 export function writtenSummaryHTML(paper,record){
  return `<h2>Il tuo confronto</h2><p>Valutazioni assegnate da te, senza voto automatico. Considera separatamente tutte le parti.</p><ul>${writtenSummary(paper,record).map(s=>`<li><strong>${WRITTEN_PARTS[s.part]}</strong>: ${s.answered}/${s.total} risposte scritte; ${s.reviewed} confrontate, ${s.solid} indicate solide.</li>`).join('')}</ul>`;
@@ -12,7 +13,7 @@ export function writtenPage(course,paper,record,helpHTML){
  const r=record||newWrittenRecord(),source=course.sources.find(s=>s.id===paper.sourceId);
  return `<div id="written-paper" data-paper="${paper.id}"><a class="no-print" href="#exam/${paper.exam}">← Torna all’esame</a>
  <header class="page-heading"><span class="eyebrow">SIMULAZIONE SCRITTA · ${paper.minutes} MINUTI CONSIGLIATI</span><h1>${esc(paper.title)}</h1><p>${esc(paper.instructions)}</p></header>
- <p class="reading-note">Formato ispirato al <a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">syllabus ${esc(paper.referenceYear)}</a>. Le domande sono esercitazioni originali, non prove ufficiali. Le modalità dell’anno corrente non sono confermate.</p>
+ <p class="reading-note">Formato ispirato al <a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer">syllabus ${esc(paper.referenceYear)}</a>. Le domande sono esercitazioni originali, non prove ufficiali. ${esc(course.exams.find(e=>e.id===paper.exam)?.assessmentNote||'Le modalità dell’anno corrente non sono confermate.')}</p>
  <div class="callout"><strong>Come usarla</strong><p>Dedica circa 20 minuti alle risposte brevi, 30 a ciascun elaborato e 10 alla revisione. Il tempo è una guida: puoi interrompere e riprendere. Risposte e autovalutazioni si salvano mentre lavori e sono incluse nel backup.</p><p>Scrivi prima senza consultare gli aiuti. “Confronta” apre modello, criteri e spiegazioni interne: resta annotato che li hai consultati. Modificando una risposta, la sua autovalutazione viene azzerata per invitarti a un nuovo confronto.</p></div>
  <div class="row no-print"><button data-action="print">Stampa questa traccia</button></div>
  <section id="written-summary" class="callout">${writtenSummaryHTML(paper,r)}</section>

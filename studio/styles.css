@@ -248,3 +248,15 @@ body.large{--reading:23px}
 .lesson .law-diagram .law-note{padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
 @media screen and (max-width:650px){.law-paths{grid-template-columns:1fr}.law-diagram{padding:16px;margin:20px 0}.law-path{padding:16px}}
 @media print{.law-diagram,.law-path{background:white;color:black}.law-diagram{border-color:#aaa;padding:14px}.law-paths{gap:10px}.lesson .law-path .law-result,.lesson .law-diagram .law-note,.law-stage{color:#222}}
+.anatomy-diagram{margin:1.6rem 0;padding:1.2rem;border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink)}
+.anatomy-views,.anatomy-compartments{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.anatomy-view,.anatomy-compartments>div{min-width:0;border:1px solid var(--line);border-radius:12px;padding:.8rem}
+.anatomy-view h3,.anatomy-compartments h3{font-size:1.05rem;margin:.3rem 0 .8rem}
+.anatomy-view svg{width:100%;height:auto;display:block;color:var(--ink)}
+.anatomy-view svg path{stroke:currentColor;fill:none;opacity:.5}
+.anatomy-view svg circle{stroke:currentColor;fill:var(--card);stroke-width:2}
+.anatomy-view svg text{fill:currentColor;font:15px "Google Sans",sans-serif}
+.anatomy-view p,.anatomy-compartments p,.anatomy-base{font-size:.95rem;line-height:1.6}
+.anatomy-base{padding-top:.8rem;border-top:1px solid var(--line)}
+@media(max-width:750px){.anatomy-views,.anatomy-compartments{grid-template-columns:1fr}.anatomy-view svg{max-width:360px;margin:auto}}
+@media print{.anatomy-diagram{background:#fff;color:#111;break-inside:auto}.anatomy-view svg circle{fill:#fff}.anatomy-view,.anatomy-compartments>div{break-inside:avoid}.anatomy-views,.anatomy-compartments{grid-template-columns:1fr}.anatomy-view{display:grid;grid-template-columns:220px minmax(0,1fr);column-gap:1rem;align-items:center}.anatomy-view h3{grid-column:1/-1}.anatomy-view svg{width:220px;max-width:100%}.anatomy-view p{font-size:11pt}}

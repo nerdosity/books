@@ -54975,6 +54975,2607 @@
       "hint": "Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
       "explanation": "No: servono accertamenti e procedure pertinenti. Una risposta giuridica completa collega ogni problema al proprio soggetto, fonte e rimedio.",
       "help": "internazionale-europa/simulazione"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-osso-0",
+      "unit": "anat-lab-tessuti",
+      "concept": "osso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 5, che cosa rappresenta l’insieme degli anelli attorno ad A?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un osteone"
+        },
+        {
+          "id": "b",
+          "text": "Un singolo osteocita",
+          "feedback": "L’osteocita occupa una piccola lacuna, non l’intero sistema di lamelle.",
+          "help": "anat-lab-tessuti/osso"
+        },
+        {
+          "id": "c",
+          "text": "Un follicolo ghiandolare",
+          "feedback": "Manca un rivestimento epiteliale attorno a una cavità secretoria.",
+          "help": "anat-lab-tessuti/osso"
+        },
+        {
+          "id": "d",
+          "text": "Una fibra muscolare",
+          "feedback": "Qui le lamelle avvolgono canali; non si osservano fibre con striature trasversali.",
+          "help": "anat-lab-tessuti/osso"
+        }
+      ],
+      "hint": "Osteone = organizzazione di matrice, cellule e canale; osteocita = singola cellula.",
+      "explanation": "Gli anelli sono lamelle di matrice organizzate intorno al canale centrale.",
+      "help": "anat-lab-tessuti/osso",
+      "figureId": "micro-bone"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-osso-1",
+      "unit": "anat-lab-tessuti",
+      "concept": "osso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un osteone appare ovale invece che circolare: quale spiegazione va considerata per prima?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il piano di sezione può essere obliquo"
+        },
+        {
+          "id": "b",
+          "text": "L’osso è certamente malato",
+          "feedback": "La forma del profilo dipende anche dalla direzione del taglio.",
+          "help": "anat-lab-tessuti/osso"
+        },
+        {
+          "id": "c",
+          "text": "Si è trasformato in cartilagine",
+          "feedback": "L’organizzazione lamellare e il canale restano quelli ossei.",
+          "help": "anat-lab-tessuti/osso"
+        },
+        {
+          "id": "d",
+          "text": "Ogni ovale è un osteoclasto",
+          "feedback": "Confondi l’architettura di un tessuto con una cellula.",
+          "help": "anat-lab-tessuti/osso"
+        }
+      ],
+      "hint": "Osteone = organizzazione di matrice, cellule e canale; osteocita = singola cellula.",
+      "explanation": "Un cilindro tagliato obliquamente produce un profilo ellittico; la forma bidimensionale non basta per diagnosticare alterazioni.",
+      "help": "anat-lab-tessuti/osso"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-sangue-0",
+      "unit": "anat-lab-tessuti",
+      "concept": "sangue",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 6, il profilo rosa indicato da A appartiene soprattutto a quale popolazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eritrociti"
+        },
+        {
+          "id": "b",
+          "text": "Osteociti",
+          "feedback": "Gli osteociti sono racchiusi in matrice ossea; qui osservi uno striscio.",
+          "help": "anat-lab-tessuti/sangue"
+        },
+        {
+          "id": "c",
+          "text": "Cellule epiteliali cilindriche",
+          "feedback": "Non c’è un rivestimento continuo con polarità apicale e basale.",
+          "help": "anat-lab-tessuti/sangue"
+        },
+        {
+          "id": "d",
+          "text": "Linfociti",
+          "feedback": "I linfociti presentano un nucleo, diversamente dagli eritrociti maturi.",
+          "help": "anat-lab-tessuti/sangue"
+        }
+      ],
+      "hint": "Prima distingui elementi anucleati e nucleati; poi usa più criteri per il sottotipo.",
+      "explanation": "Forma, abbondanza e assenza del nucleo sono coerenti con eritrociti maturi.",
+      "help": "anat-lab-tessuti/sangue",
+      "figureId": "micro-blood"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-sangue-1",
+      "unit": "anat-lab-tessuti",
+      "concept": "sangue",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel campo sono visibili pochissimi leucociti. Che cosa puoi concludere?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il campo non basta per una formula leucocitaria"
+        },
+        {
+          "id": "b",
+          "text": "Tutti i leucociti sono assenti dal sangue",
+          "feedback": "Non vedere una cellula in un campo non ne dimostra l’assenza nel campione.",
+          "help": "anat-lab-tessuti/sangue"
+        },
+        {
+          "id": "c",
+          "text": "Le piastrine sono eritrociti giovani",
+          "feedback": "Le piastrine derivano da megacariociti, non da eritrociti.",
+          "help": "anat-lab-tessuti/sangue"
+        },
+        {
+          "id": "d",
+          "text": "Lo sfondo bianco è un alveolo",
+          "feedback": "Lo striscio non mostra pareti alveolari.",
+          "help": "anat-lab-tessuti/sangue"
+        }
+      ],
+      "hint": "Prima distingui elementi anucleati e nucleati; poi usa più criteri per il sottotipo.",
+      "explanation": "Una proporzione biologica richiede campionamento e identificazione adeguati, non la lettura di un solo campo.",
+      "help": "anat-lab-tessuti/sangue"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-muscolo-0",
+      "unit": "anat-lab-tessuti",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una sezione trasversa di muscolo non mostra striature longitudinalmente leggibili. È sufficiente per dire che sia liscio?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: il piano di taglio cambia ciò che si vede"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni muscolo striato mostra bande in ogni piano",
+          "feedback": "Le bande si leggono soprattutto lungo l’asse della fibra.",
+          "help": "anat-lab-tessuti/muscolo"
+        },
+        {
+          "id": "c",
+          "text": "Sì, perché tutti i nuclei muscolari sono centrali",
+          "feedback": "Nel muscolo scheletrico sono prevalentemente periferici.",
+          "help": "anat-lab-tessuti/muscolo"
+        },
+        {
+          "id": "d",
+          "text": "No, perché il muscolo liscio non ha nuclei",
+          "feedback": "Anche le cellule muscolari lisce hanno un nucleo.",
+          "help": "anat-lab-tessuti/muscolo"
+        }
+      ],
+      "hint": "Un singolo segno può mancare per il taglio: confronta architettura, nuclei e striature.",
+      "explanation": "Serve una combinazione di indizi e, se necessario, un diverso orientamento del preparato.",
+      "help": "anat-lab-tessuti/muscolo"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-muscolo-1",
+      "unit": "anat-lab-tessuti",
+      "concept": "muscolo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale combinazione orienta verso muscolo cardiaco?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Striature, ramificazioni e nuclei centrali"
+        },
+        {
+          "id": "b",
+          "text": "Assenza di nuclei e disco biconcavo",
+          "feedback": "Questa descrizione richiama un eritrocita maturo.",
+          "help": "anat-lab-tessuti/muscolo"
+        },
+        {
+          "id": "c",
+          "text": "Lacune in matrice mineralizzata",
+          "feedback": "Questi sono rapporti tipici del tessuto osseo.",
+          "help": "anat-lab-tessuti/muscolo"
+        },
+        {
+          "id": "d",
+          "text": "Cellule fusate prive di sarcomeri ordinati",
+          "feedback": "Questa combinazione è propria del muscolo liscio.",
+          "help": "anat-lab-tessuti/muscolo"
+        }
+      ],
+      "hint": "Un singolo segno può mancare per il taglio: confronta architettura, nuclei e striature.",
+      "explanation": "Il cardiaco è striato ma le sue cellule non sono le lunghissime fibre multinucleate scheletriche.",
+      "help": "anat-lab-tessuti/muscolo"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-nervo-0",
+      "unit": "anat-lab-tessuti",
+      "concept": "nervo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Perché un ramo posteriore di nervo spinale non è puramente sensitivo?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deriva da un nervo misto e porta anche fibre motorie"
+        },
+        {
+          "id": "b",
+          "text": "Perché è identico alla radice anteriore",
+          "feedback": "Ramo e radice appartengono a livelli diversi del percorso.",
+          "help": "anat-lab-tessuti/nervo"
+        },
+        {
+          "id": "c",
+          "text": "Perché non contiene assoni",
+          "feedback": "Un ramo nervoso contiene assoni.",
+          "help": "anat-lab-tessuti/nervo"
+        },
+        {
+          "id": "d",
+          "text": "Perché il ganglio spinale genera tutti i comandi motori",
+          "feedback": "Il ganglio spinale contiene corpi di neuroni sensitivi.",
+          "help": "anat-lab-tessuti/nervo"
+        }
+      ],
+      "hint": "Separa sede dei corpi cellulari, fasci di assoni e direzione afferente o efferente.",
+      "explanation": "Le radici si uniscono prima della divisione nei rami: non trasferire al ramo la funzione della radice con nome simile.",
+      "help": "anat-lab-tessuti/nervo"
+    },
+    {
+      "id": "anat-final-anat-lab-tessuti-nervo-1",
+      "unit": "anat-lab-tessuti",
+      "concept": "nervo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale involucro delimita un fascicolo di un nervo periferico?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perinevrio"
+        },
+        {
+          "id": "b",
+          "text": "Endomisio",
+          "feedback": "È connettivo associato alle fibre muscolari.",
+          "help": "anat-lab-tessuti/nervo"
+        },
+        {
+          "id": "c",
+          "text": "Endonevrio",
+          "feedback": "Circonda le singole fibre nervose, non il fascicolo nel suo insieme.",
+          "help": "anat-lab-tessuti/nervo"
+        },
+        {
+          "id": "d",
+          "text": "Pia madre",
+          "feedback": "È una meninge del sistema nervoso centrale.",
+          "help": "anat-lab-tessuti/nervo"
+        }
+      ],
+      "hint": "Separa sede dei corpi cellulari, fasci di assoni e direzione afferente o efferente.",
+      "explanation": "La successione di scala è fibra con endonevrio, fascicolo con perinevrio, nervo con epinevrio.",
+      "help": "anat-lab-tessuti/nervo"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-polmone-0",
+      "unit": "anat-lab-visceri",
+      "concept": "polmone",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 7 quale confronto è corretto fra A e B?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "A è il lume di una via aerea; B è uno spazio alveolare"
+        },
+        {
+          "id": "b",
+          "text": "A è un osteone; B una lacuna ossea",
+          "feedback": "Non ci sono lamelle mineralizzate, ma pareti epiteliali e setti sottili.",
+          "help": "anat-lab-visceri/polmone"
+        },
+        {
+          "id": "c",
+          "text": "A e B sono certamente arterie",
+          "feedback": "Gli spazi alveolari non sono lumi vascolari.",
+          "help": "anat-lab-visceri/polmone"
+        },
+        {
+          "id": "d",
+          "text": "A è un glomerulo; B un tubulo renale",
+          "feedback": "Mancano ciuffi capillari e campi di tubuli compatti.",
+          "help": "anat-lab-visceri/polmone"
+        }
+      ],
+      "hint": "Prima ricostruisci parete e lume; poi collega conduzione e scambio.",
+      "explanation": "La parete centrale organizzata contrasta con i sottili setti periferici.",
+      "help": "anat-lab-visceri/polmone",
+      "figureId": "micro-lung"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-polmone-1",
+      "unit": "anat-lab-visceri",
+      "concept": "polmone",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Dove si trovano i capillari responsabili dello scambio alveolare?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nei setti fra gli spazi alveolari"
+        },
+        {
+          "id": "b",
+          "text": "Liberi nel lume alveolare",
+          "feedback": "Il sangue resta nel compartimento vascolare.",
+          "help": "anat-lab-visceri/polmone"
+        },
+        {
+          "id": "c",
+          "text": "Soltanto negli anelli cartilaginei",
+          "feedback": "I bronchioli non hanno anelli cartilaginei e gli alveoli non li richiedono.",
+          "help": "anat-lab-visceri/polmone"
+        },
+        {
+          "id": "d",
+          "text": "Dentro la pleura e mai nel parenchima",
+          "feedback": "La rete capillare alveolare appartiene al parenchima polmonare.",
+          "help": "anat-lab-visceri/polmone"
+        }
+      ],
+      "hint": "Prima ricostruisci parete e lume; poi collega conduzione e scambio.",
+      "explanation": "Aria e sangue sono separati da una barriera sottile; la superficie di contatto è nei setti.",
+      "help": "anat-lab-visceri/polmone"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-intestino-0",
+      "unit": "anat-lab-visceri",
+      "concept": "intestino",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 8, la proiezione marcata v comprende che cosa?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Epitelio e asse di lamina propria"
+        },
+        {
+          "id": "b",
+          "text": "Una sola cellula con un nucleo enorme",
+          "feedback": "Un villo è una struttura multicellulare.",
+          "help": "anat-lab-visceri/intestino"
+        },
+        {
+          "id": "c",
+          "text": "Solo muscolo scheletrico",
+          "feedback": "La proiezione della mucosa non è una fibra muscolare.",
+          "help": "anat-lab-visceri/intestino"
+        },
+        {
+          "id": "d",
+          "text": "Una lamella ossea",
+          "feedback": "Non ci sono canali e matrice ossea mineralizzata.",
+          "help": "anat-lab-visceri/intestino"
+        }
+      ],
+      "hint": "Villo = proiezione della mucosa; microvillo = parte della superficie cellulare; cripta = invaginazione ghiandolare.",
+      "explanation": "La lettera indica un villo intero, non un microvillo.",
+      "help": "anat-lab-visceri/intestino",
+      "figureId": "micro-intestine"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-intestino-1",
+      "unit": "anat-lab-visceri",
+      "concept": "intestino",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale osservazione orienta verso tenue invece che colon normale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Villi della mucosa"
+        },
+        {
+          "id": "b",
+          "text": "Presenza generica di cellule caliciformi",
+          "feedback": "Sono presenti anche nel colon.",
+          "help": "anat-lab-visceri/intestino"
+        },
+        {
+          "id": "c",
+          "text": "Presenza di un lume",
+          "feedback": "Entrambi i tratti possiedono un lume.",
+          "help": "anat-lab-visceri/intestino"
+        },
+        {
+          "id": "d",
+          "text": "Presenza di connettivo",
+          "feedback": "Il sostegno connettivale non distingue da solo i due tratti.",
+          "help": "anat-lab-visceri/intestino"
+        }
+      ],
+      "hint": "Villo = proiezione della mucosa; microvillo = parte della superficie cellulare; cripta = invaginazione ghiandolare.",
+      "explanation": "I villi sono caratteristici del tenue; bisogna poi cercare ulteriori indizi per attribuire una regione precisa.",
+      "help": "anat-lab-visceri/intestino"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-rene-0",
+      "unit": "anat-lab-visceri",
+      "concept": "rene",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 9, la presenza di corpuscoli come A indica quale regione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corticale renale"
+        },
+        {
+          "id": "b",
+          "text": "Midollare renale priva di corpuscoli",
+          "feedback": "I corpuscoli renali sono corticali.",
+          "help": "anat-lab-visceri/rene"
+        },
+        {
+          "id": "c",
+          "text": "Pelvi renale",
+          "feedback": "La pelvi raccoglie urina, non contiene glomeruli nel suo rivestimento.",
+          "help": "anat-lab-visceri/rene"
+        },
+        {
+          "id": "d",
+          "text": "Uretere",
+          "feedback": "L’uretere presenta una parete con urotelio, non corpuscoli renali.",
+          "help": "anat-lab-visceri/rene"
+        }
+      ],
+      "hint": "I corpuscoli localizzano la corticale; il segnale di una colorazione non misura automaticamente una funzione.",
+      "explanation": "Il ciuffo capillare capsulato è un riferimento della corticale.",
+      "help": "anat-lab-visceri/rene",
+      "figureId": "micro-kidney"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-rene-1",
+      "unit": "anat-lab-visceri",
+      "concept": "rene",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa significa il segnale bruno nella preparazione per CD10?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evidenzia la distribuzione di un antigene con quella tecnica"
+        },
+        {
+          "id": "b",
+          "text": "Misura direttamente la velocità di filtrazione",
+          "feedback": "La misura funzionale richiede altri dati.",
+          "help": "anat-lab-visceri/rene"
+        },
+        {
+          "id": "c",
+          "text": "Dimostra che ogni struttura bruna contiene urina",
+          "feedback": "Anche i glomeruli sono marcati e contengono capillari sanguigni.",
+          "help": "anat-lab-visceri/rene"
+        },
+        {
+          "id": "d",
+          "text": "Colora ogni tessuto sempre come in ematossilina-eosina",
+          "feedback": "Colorazioni diverse evidenziano componenti diverse.",
+          "help": "anat-lab-visceri/rene"
+        }
+      ],
+      "hint": "I corpuscoli localizzano la corticale; il segnale di una colorazione non misura automaticamente una funzione.",
+      "explanation": "L’immunoistochimica mostra una distribuzione molecolare; va interpretata insieme alla morfologia.",
+      "help": "anat-lab-visceri/rene"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-fegato-0",
+      "unit": "anat-lab-visceri",
+      "concept": "fegato",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 10 perché la regione A è diversa dalla venula B?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "A comprende una regione portale con più strutture vicine"
+        },
+        {
+          "id": "b",
+          "text": "A è certamente un alveolo",
+          "feedback": "Il campo mostra parenchima epatico e trama reticolare, non setti polmonari.",
+          "help": "anat-lab-visceri/fegato"
+        },
+        {
+          "id": "c",
+          "text": "B è un dotto che trasporta bile al cuore",
+          "feedback": "La bile non deve essere diretta verso il cuore in una vena.",
+          "help": "anat-lab-visceri/fegato"
+        },
+        {
+          "id": "d",
+          "text": "Il colore verde identifica sempre un nervo",
+          "feedback": "Il colore dipende dalla tecnica e non identifica da solo un organo.",
+          "help": "anat-lab-visceri/fegato"
+        }
+      ],
+      "hint": "Sangue e bile hanno vie distinte e, nel modello lobulare, direzioni opposte.",
+      "explanation": "Si confronta il contesto della regione portale con quello di una venula epatica, senza indovinare dal solo diametro.",
+      "help": "anat-lab-visceri/fegato",
+      "figureId": "micro-liver"
+    },
+    {
+      "id": "anat-final-anat-lab-visceri-fegato-1",
+      "unit": "anat-lab-visceri",
+      "concept": "fegato",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel modello del lobulo epatico, quale percorso è corretto per la bile?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dagli epatociti ai canalicoli e verso i dotti portali"
+        },
+        {
+          "id": "b",
+          "text": "Dalla vena porta ai sinusoidi e alla vena centrale",
+          "feedback": "Questo è il percorso ematico, non biliare.",
+          "help": "anat-lab-visceri/fegato"
+        },
+        {
+          "id": "c",
+          "text": "Dai bronchioli agli alveoli",
+          "feedback": "Sono strutture dell’apparato respiratorio.",
+          "help": "anat-lab-visceri/fegato"
+        },
+        {
+          "id": "d",
+          "text": "Dalla vena centrale direttamente alla cistifellea",
+          "feedback": "Una vena non si continua nel dotto biliare.",
+          "help": "anat-lab-visceri/fegato"
+        }
+      ],
+      "hint": "Sangue e bile hanno vie distinte e, nel modello lobulare, direzioni opposte.",
+      "explanation": "La bile percorre canalicoli e vie biliari; la vena centrale raccoglie sangue.",
+      "help": "anat-lab-visceri/fegato"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-tiroide-0",
+      "unit": "anat-lab-ghiandole",
+      "concept": "tiroide",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella micrografia 11 che cosa contiene il follicolo indicato da A?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colloide"
+        },
+        {
+          "id": "b",
+          "text": "Urina",
+          "feedback": "La tiroide non appartiene alle vie urinarie.",
+          "help": "anat-lab-ghiandole/tiroide"
+        },
+        {
+          "id": "c",
+          "text": "Aria alveolare",
+          "feedback": "Il contenuto omogeneo e il rivestimento follicolare non sono setti alveolari.",
+          "help": "anat-lab-ghiandole/tiroide"
+        },
+        {
+          "id": "d",
+          "text": "Matrice ossea lamellare",
+          "feedback": "Mancano canali osteonici e lamelle mineralizzate.",
+          "help": "anat-lab-ghiandole/tiroide"
+        }
+      ],
+      "hint": "Follicolo chiuso e dotto escretore sono strutture diverse.",
+      "explanation": "Il centro omogeneo rosa è la colloide circondata da epitelio follicolare.",
+      "help": "anat-lab-ghiandole/tiroide",
+      "figureId": "micro-thyroid"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-tiroide-1",
+      "unit": "anat-lab-ghiandole",
+      "concept": "tiroide",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché la tiroide resta endocrina anche se i follicoli possiedono un lume?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gli ormoni raggiungono interstizio e sangue senza un dotto escretore"
+        },
+        {
+          "id": "b",
+          "text": "Perché ogni lume è un capillare",
+          "feedback": "Il lume follicolare e i capillari sono compartimenti diversi.",
+          "help": "anat-lab-ghiandole/tiroide"
+        },
+        {
+          "id": "c",
+          "text": "Perché tutte le ghiandole sono endocrine",
+          "feedback": "Le esocrine riversano il prodotto su superfici tramite dotti o direttamente.",
+          "help": "anat-lab-ghiandole/tiroide"
+        },
+        {
+          "id": "d",
+          "text": "Perché produce bile",
+          "feedback": "La bile è un prodotto del fegato.",
+          "help": "anat-lab-ghiandole/tiroide"
+        }
+      ],
+      "hint": "Follicolo chiuso e dotto escretore sono strutture diverse.",
+      "explanation": "La classificazione dipende dalla destinazione del prodotto e dall’organizzazione delle vie di uscita.",
+      "help": "anat-lab-ghiandole/tiroide"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-esocrine-0",
+      "unit": "anat-lab-ghiandole",
+      "concept": "esocrine",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Molti profili circolari in una sudoripara dimostrano che il sistema dei dotti è ramificato?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: possono essere sezioni di un tubulo convoluto"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni cerchio è un nuovo ramo",
+          "feedback": "Un unico tubo ripiegato può essere intersecato molte volte.",
+          "help": "anat-lab-ghiandole/esocrine"
+        },
+        {
+          "id": "c",
+          "text": "Sì, ogni ghiandola sudoripara è endocrina",
+          "feedback": "Le sudoripare riversano il secreto su una superficie.",
+          "help": "anat-lab-ghiandole/esocrine"
+        },
+        {
+          "id": "d",
+          "text": "No, perché non esistono tubuli ghiandolari",
+          "feedback": "Le ghiandole tubulari sono una categoria reale.",
+          "help": "anat-lab-ghiandole/esocrine"
+        }
+      ],
+      "hint": "Classifica separatamente forma dell’adenomero, ramificazione del dotto e modalità di secrezione.",
+      "explanation": "Una sezione bidimensionale va ricondotta a una possibile forma tridimensionale.",
+      "help": "anat-lab-ghiandole/esocrine"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-esocrine-1",
+      "unit": "anat-lab-ghiandole",
+      "concept": "esocrine",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale accoppiamento è corretto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acino pancreatico → secreto nei dotti verso il duodeno"
+        },
+        {
+          "id": "b",
+          "text": "Isola pancreatica → bile nel coledoco",
+          "feedback": "L’isola è endocrina e non produce bile.",
+          "help": "anat-lab-ghiandole/esocrine"
+        },
+        {
+          "id": "c",
+          "text": "Sebacea → secrezione senza perdita cellulare obbligatoria",
+          "feedback": "Il meccanismo caratteristico è olocrino, con disgregazione cellulare.",
+          "help": "anat-lab-ghiandole/esocrine"
+        },
+        {
+          "id": "d",
+          "text": "Mammella → latte versato nei capillari",
+          "feedback": "Il latte raggiunge i dotti e il capezzolo.",
+          "help": "anat-lab-ghiandole/esocrine"
+        }
+      ],
+      "hint": "Classifica separatamente forma dell’adenomero, ramificazione del dotto e modalità di secrezione.",
+      "explanation": "La destinazione distingue porzione esocrina ed endocrina anche nello stesso organo.",
+      "help": "anat-lab-ghiandole/esocrine"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-linfoidi-0",
+      "unit": "anat-lab-ghiandole",
+      "concept": "linfoidi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale organo controlla direttamente il sangue attraverso polpa rossa e bianca?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Milza"
+        },
+        {
+          "id": "b",
+          "text": "Linfonodo",
+          "feedback": "Il suo percorso caratteristico è quello della linfa nei seni.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        },
+        {
+          "id": "c",
+          "text": "Tiroide",
+          "feedback": "È una ghiandola endocrina follicolare.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        },
+        {
+          "id": "d",
+          "text": "Timo",
+          "feedback": "La sua funzione caratteristica riguarda maturazione e selezione dei T.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        }
+      ],
+      "hint": "La stessa famiglia di cellule può essere organizzata in organi con percorsi e compiti diversi.",
+      "explanation": "Le due polpe e il rapporto con il circolo ematico distinguono la milza.",
+      "help": "anat-lab-ghiandole/linfoidi"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-linfoidi-1",
+      "unit": "anat-lab-ghiandole",
+      "concept": "linfoidi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un centro chiaro in un follicolo linfoide equivale al lume di un follicolo tiroideo?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: il centro germinativo contiene cellule e non colloide"
+        },
+        {
+          "id": "b",
+          "text": "Sì, entrambi sono sempre dotti",
+          "feedback": "Nessuno dei due è definito come dotto escretore.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        },
+        {
+          "id": "c",
+          "text": "Sì, entrambi producono ormoni tiroidei",
+          "feedback": "Il follicolo linfoide partecipa alla risposta immunitaria.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        },
+        {
+          "id": "d",
+          "text": "No, perché i follicoli linfoidi non contengono linfociti",
+          "feedback": "Contengono soprattutto cellule del sistema immunitario.",
+          "help": "anat-lab-ghiandole/linfoidi"
+        }
+      ],
+      "hint": "La stessa famiglia di cellule può essere organizzata in organi con percorsi e compiti diversi.",
+      "explanation": "“Follicolo” descrive organizzazioni diverse: occorre precisare organo e contenuto.",
+      "help": "anat-lab-ghiandole/linfoidi"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-genitali-0",
+      "unit": "anat-lab-ghiandole",
+      "concept": "genitali",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dove si trovano le cellule di Leydig?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nell’interstizio fra i tubuli seminiferi"
+        },
+        {
+          "id": "b",
+          "text": "Nel lume del deferente",
+          "feedback": "Il deferente trasporta spermatozoi e non è la sede delle Leydig.",
+          "help": "anat-lab-ghiandole/genitali"
+        },
+        {
+          "id": "c",
+          "text": "Nell’endometrio",
+          "feedback": "È il rivestimento interno dell’utero.",
+          "help": "anat-lab-ghiandole/genitali"
+        },
+        {
+          "id": "d",
+          "text": "Nella colloide tiroidea",
+          "feedback": "La colloide appartiene ai follicoli della tiroide.",
+          "help": "anat-lab-ghiandole/genitali"
+        }
+      ],
+      "hint": "Gonade, via di trasporto e ghiandola annessa non sono sinonimi.",
+      "explanation": "Il testicolo associa tubuli con spermatogenesi e compartimento interstiziale endocrino.",
+      "help": "anat-lab-ghiandole/genitali"
+    },
+    {
+      "id": "anat-final-anat-lab-ghiandole-genitali-1",
+      "unit": "anat-lab-ghiandole",
+      "concept": "genitali",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale confronto fra utero e tuba è corretto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "L’utero ha endometrio e miometrio; la tuba favorisce il trasporto dell’ovocita"
+        },
+        {
+          "id": "b",
+          "text": "La tuba produce spermatozoi e l’utero testosterone",
+          "feedback": "Sono funzioni attribuite ad altre strutture e cellule.",
+          "help": "anat-lab-ghiandole/genitali"
+        },
+        {
+          "id": "c",
+          "text": "Endometrio e miometrio sono lo stesso strato",
+          "feedback": "Il primo è mucosa, il secondo è prevalentemente muscolo liscio.",
+          "help": "anat-lab-ghiandole/genitali"
+        },
+        {
+          "id": "d",
+          "text": "Il corpo luteo è un dotto uterino",
+          "feedback": "È una struttura endocrina ovarica successiva all’ovulazione.",
+          "help": "anat-lab-ghiandole/genitali"
+        }
+      ],
+      "hint": "Gonade, via di trasporto e ghiandola annessa non sono sinonimi.",
+      "explanation": "Distingui sede, composizione della parete e percorso del contenuto.",
+      "help": "anat-lab-ghiandole/genitali"
+    },
+    {
+      "id": "anat-final-anat-spazio-orientare-0",
+      "unit": "anat-spazio",
+      "concept": "orientare",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Due strutture si sovrappongono nella vista anteriore: che cosa resta da conoscere?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "La loro profondità anteroposteriore"
+        },
+        {
+          "id": "b",
+          "text": "Devono essere lo stesso organo",
+          "feedback": "Una proiezione può sovrapporre strutture distinte.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "c",
+          "text": "Devono trovarsi entrambe a destra",
+          "feedback": "La sovrapposizione non determina il lato.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "d",
+          "text": "Non possono essere mostrate in una vista laterale",
+          "feedback": "Una seconda vista può separare la profondità nascosta.",
+          "help": "anat-spazio/orientare"
+        }
+      ],
+      "hint": "Ruota il punto di osservazione, non i significati di destra, anteriore e superiore.",
+      "explanation": "Una proiezione riduce tre coordinate a due: una relazione può essere nascosta.",
+      "help": "anat-spazio/orientare"
+    },
+    {
+      "id": "anat-final-anat-spazio-orientare-1",
+      "unit": "anat-spazio",
+      "concept": "orientare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "In una sezione assiale dichiarata “vista dai piedi”, dove compare la destra del soggetto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "A sinistra dell’osservatore"
+        },
+        {
+          "id": "b",
+          "text": "Sempre in alto",
+          "feedback": "In alto si rappresenta generalmente l’anteriore in questa convenzione.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "c",
+          "text": "Sempre a destra dell’osservatore",
+          "feedback": "Questa risposta scambia soggetto e osservatore.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "d",
+          "text": "Non esiste più una destra anatomica",
+          "feedback": "Il cambio di vista non elimina il riferimento corporeo.",
+          "help": "anat-spazio/orientare"
+        }
+      ],
+      "hint": "Ruota il punto di osservazione, non i significati di destra, anteriore e superiore.",
+      "explanation": "La convenzione di osservazione va dichiarata prima di assegnare il lato.",
+      "help": "anat-spazio/orientare"
+    },
+    {
+      "id": "anat-final-anat-spazio-torace-0",
+      "unit": "anat-spazio",
+      "concept": "torace",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale descrizione della posizione del cuore è corretta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nel mediastino, entro il pericardio, fra le regioni pleuropolmonari"
+        },
+        {
+          "id": "b",
+          "text": "Dentro il lume di un bronco",
+          "feedback": "Il bronco conduce aria.",
+          "help": "anat-spazio/torace"
+        },
+        {
+          "id": "c",
+          "text": "Nella cavità pleurica sinistra",
+          "feedback": "Pleura e pericardio delimitano compartimenti distinti.",
+          "help": "anat-spazio/torace"
+        },
+        {
+          "id": "d",
+          "text": "Dietro la colonna vertebrale",
+          "feedback": "Il cuore è anteriore alla colonna.",
+          "help": "anat-spazio/torace"
+        }
+      ],
+      "hint": "Un rapporto topografico contiene una direzione e una struttura di confronto.",
+      "explanation": "Il cuore può proiettarsi a sinistra senza appartenere alla cavità pleurica.",
+      "help": "anat-spazio/torace"
+    },
+    {
+      "id": "anat-final-anat-spazio-torace-1",
+      "unit": "anat-spazio",
+      "concept": "torace",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa descrive la cavità pleurica normale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uno spazio potenziale con un sottile film liquido"
+        },
+        {
+          "id": "b",
+          "text": "Un grande sacco normalmente pieno d’aria",
+          "feedback": "L’aria nello spazio pleurico non è la condizione anatomica normale.",
+          "help": "anat-spazio/torace"
+        },
+        {
+          "id": "c",
+          "text": "Il lume degli alveoli",
+          "feedback": "Gli alveoli appartengono al parenchima polmonare.",
+          "help": "anat-spazio/torace"
+        },
+        {
+          "id": "d",
+          "text": "Il lume dell’arteria polmonare",
+          "feedback": "Il lume vascolare è un altro compartimento.",
+          "help": "anat-spazio/torace"
+        }
+      ],
+      "hint": "Un rapporto topografico contiene una direzione e una struttura di confronto.",
+      "explanation": "Il polmone è rivestito dalla pleura viscerale; lo spazio fra foglietti consente scorrimento.",
+      "help": "anat-spazio/torace"
+    },
+    {
+      "id": "anat-final-anat-spazio-addome-0",
+      "unit": "anat-spazio",
+      "concept": "addome",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa significa “rene retroperitoneale”?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Si trova posteriormente al peritoneo parietale posteriore"
+        },
+        {
+          "id": "b",
+          "text": "È nel lume intestinale",
+          "feedback": "Il rapporto con il peritoneo non è una comunicazione col tubo digerente.",
+          "help": "anat-spazio/addome"
+        },
+        {
+          "id": "c",
+          "text": "È dentro la cavità pleurica",
+          "feedback": "Il rene è un organo addominale retroperitoneale.",
+          "help": "anat-spazio/addome"
+        },
+        {
+          "id": "d",
+          "text": "È privo di vasi sanguigni",
+          "feedback": "La sede retroperitoneale non implica assenza di vascolarizzazione.",
+          "help": "anat-spazio/addome"
+        }
+      ],
+      "hint": "Proiezione superficiale e rapporto peritoneale rispondono a domande diverse.",
+      "explanation": "Il termine specifica un rapporto topografico, non funzione o rivestimento epiteliale interno.",
+      "help": "anat-spazio/addome"
+    },
+    {
+      "id": "anat-final-anat-spazio-addome-1",
+      "unit": "anat-spazio",
+      "concept": "addome",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Uno stomaco proiettato in più regioni addominali contraddice la mappa a nove regioni?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: le regioni sono riferimenti e non compartimenti chiusi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni organo deve occupare una sola regione",
+          "feedback": "Un organo può attraversare confini convenzionali.",
+          "help": "anat-spazio/addome"
+        },
+        {
+          "id": "c",
+          "text": "Sì, le regioni sono nove sacchi peritoneali",
+          "feedback": "Sono una suddivisione topografica superficiale.",
+          "help": "anat-spazio/addome"
+        },
+        {
+          "id": "d",
+          "text": "No, perché lo stomaco non possiede parete",
+          "feedback": "Lo stomaco possiede una parete organizzata in tonache.",
+          "help": "anat-spazio/addome"
+        }
+      ],
+      "hint": "Proiezione superficiale e rapporto peritoneale rispondono a domande diverse.",
+      "explanation": "Dimensione, riempimento e disposizione degli organi non coincidono con i confini tracciati sulla superficie.",
+      "help": "anat-spazio/addome"
+    },
+    {
+      "id": "anat-final-anat-spazio-pelvi-0",
+      "unit": "anat-spazio",
+      "concept": "pelvi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella configurazione femminile, quale ordine generale è corretto da anteriore a posteriore?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vescica/uretra → utero/vagina → retto"
+        },
+        {
+          "id": "b",
+          "text": "Retto → vescica → pube",
+          "feedback": "Il retto non è normalmente anteriore alla vescica.",
+          "help": "anat-spazio/pelvi"
+        },
+        {
+          "id": "c",
+          "text": "Utero → sacro → vescica",
+          "feedback": "Il sacro è un riferimento osseo posteriore.",
+          "help": "anat-spazio/pelvi"
+        },
+        {
+          "id": "d",
+          "text": "Vagina → pube → retto",
+          "feedback": "Il pube è anteriore ai visceri pelvici.",
+          "help": "anat-spazio/pelvi"
+        }
+      ],
+      "hint": "Prima orienta pube e sacro; poi distingue sostegno muscolare e condotti.",
+      "explanation": "La ricostruzione usa una direzione dichiarata e i rapporti sagittali.",
+      "help": "anat-spazio/pelvi"
+    },
+    {
+      "id": "anat-final-anat-spazio-pelvi-1",
+      "unit": "anat-spazio",
+      "concept": "pelvi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il diaframma pelvico coincide con ogni muscolo del perineo?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: comprende elevatore dell’ano e coccigeo"
+        },
+        {
+          "id": "b",
+          "text": "Sì, anche il quadricipite ne fa parte",
+          "feedback": "Il quadricipite è un muscolo della coscia.",
+          "help": "anat-spazio/pelvi"
+        },
+        {
+          "id": "c",
+          "text": "Sì, e riveste il lume vescicale",
+          "feedback": "Il pavimento sostiene i visceri ma non è il loro epitelio interno.",
+          "help": "anat-spazio/pelvi"
+        },
+        {
+          "id": "d",
+          "text": "No, perché è formato soltanto da osso",
+          "feedback": "È una struttura muscolare con le sue fasce.",
+          "help": "anat-spazio/pelvi"
+        }
+      ],
+      "hint": "Prima orienta pube e sacro; poi distingue sostegno muscolare e condotti.",
+      "explanation": "Pareti, pavimento e piani perineali devono essere distinti pur cooperando nel sostegno.",
+      "help": "anat-spazio/pelvi"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-scapola-0",
+      "unit": "anat-regioni-superiori",
+      "concept": "scapola",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella tavola, perché il sottoscapolare si osserva meglio nel pannello profondo anteriore?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Occupa la faccia costale della scapola"
+        },
+        {
+          "id": "b",
+          "text": "È un muscolo della mano",
+          "feedback": "La sua sede è nella regione scapolare.",
+          "help": "anat-regioni-superiori/scapola"
+        },
+        {
+          "id": "c",
+          "text": "Compare solo quando il deltoide si contrae",
+          "feedback": "La tavola espone un piano anatomico, non una fase di contrazione.",
+          "help": "anat-regioni-superiori/scapola"
+        },
+        {
+          "id": "d",
+          "text": "È sulla faccia posteriore sotto la spina",
+          "feedback": "Questa è la regione dell’infraspinato.",
+          "help": "anat-regioni-superiori/scapola"
+        }
+      ],
+      "hint": "La cuffia avvolge l’articolazione da più lati; una vista non mostra tutte le sue componenti.",
+      "explanation": "Orientamento e rimozione dei piani superficiali rendono visibile una struttura altrimenti nascosta.",
+      "help": "anat-regioni-superiori/scapola",
+      "figureId": "regional-shoulder"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-scapola-1",
+      "unit": "anat-regioni-superiori",
+      "concept": "scapola",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale muscolo vicino alla cuffia non ne fa parte?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grande rotondo"
+        },
+        {
+          "id": "b",
+          "text": "Sottoscapolare",
+          "feedback": "È una delle quattro componenti della cuffia.",
+          "help": "anat-regioni-superiori/scapola"
+        },
+        {
+          "id": "c",
+          "text": "Infraspinato",
+          "feedback": "È una delle quattro componenti della cuffia.",
+          "help": "anat-regioni-superiori/scapola"
+        },
+        {
+          "id": "d",
+          "text": "Piccolo rotondo",
+          "feedback": "È una delle quattro componenti della cuffia.",
+          "help": "anat-regioni-superiori/scapola"
+        }
+      ],
+      "hint": "La cuffia avvolge l’articolazione da più lati; una vista non mostra tutte le sue componenti.",
+      "explanation": "La vicinanza topografica non basta: la cuffia comprende sovraspinato, infraspinato, piccolo rotondo e sottoscapolare.",
+      "help": "anat-regioni-superiori/scapola"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-gomito-0",
+      "unit": "anat-regioni-superiori",
+      "concept": "gomito",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Perché il bicipite può contribuire alla supinazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il suo tendine si inserisce sul radio"
+        },
+        {
+          "id": "b",
+          "text": "Perché termina sulla patella",
+          "feedback": "La patella appartiene al ginocchio.",
+          "help": "anat-regioni-superiori/gomito"
+        },
+        {
+          "id": "c",
+          "text": "Perché ogni flessore è automaticamente un supinatore",
+          "feedback": "Il brachiale dimostra che flessione e supinazione non coincidono.",
+          "help": "anat-regioni-superiori/gomito"
+        },
+        {
+          "id": "d",
+          "text": "Perché l’ulna incrocia il radio in ogni supinazione",
+          "feedback": "Il rapporto è descritto al contrario: in pronazione è il radio a incrociare.",
+          "help": "anat-regioni-superiori/gomito"
+        }
+      ],
+      "hint": "Movimento, articolazione e inserzione devono essere coerenti nella stessa descrizione.",
+      "explanation": "Il sito di inserzione permette di collegare il tiro al movimento del radio.",
+      "help": "anat-regioni-superiori/gomito"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-gomito-1",
+      "unit": "anat-regioni-superiori",
+      "concept": "gomito",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Dove passa il nervo ulnare nella regione del gomito?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Posteriormente all’epicondilo mediale"
+        },
+        {
+          "id": "b",
+          "text": "Dentro il tendine del bicipite",
+          "feedback": "Non è contenuto nel tendine.",
+          "help": "anat-regioni-superiori/gomito"
+        },
+        {
+          "id": "c",
+          "text": "Anteriormente al carpo nel tunnel carpale",
+          "feedback": "Quella è un’altra regione, e il nervo ulnare non passa nel tunnel carpale.",
+          "help": "anat-regioni-superiori/gomito"
+        },
+        {
+          "id": "d",
+          "text": "Nel canale vertebrale",
+          "feedback": "A quel livello il nervo è già periferico nell’arto.",
+          "help": "anat-regioni-superiori/gomito"
+        }
+      ],
+      "hint": "Movimento, articolazione e inserzione devono essere coerenti nella stessa descrizione.",
+      "explanation": "I rapporti del gomito vanno distinti da quelli del polso e dalle radici spinali.",
+      "help": "anat-regioni-superiori/gomito"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-polso-0",
+      "unit": "anat-regioni-superiori",
+      "concept": "polso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale struttura attraversa il tunnel carpale propriamente detto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nervo mediano"
+        },
+        {
+          "id": "b",
+          "text": "Nervo ulnare nel canale di Guyon",
+          "feedback": "Il canale di Guyon è un passaggio distinto.",
+          "help": "anat-regioni-superiori/polso"
+        },
+        {
+          "id": "c",
+          "text": "Tendine del tricipite",
+          "feedback": "Il tricipite termina sull’olecrano.",
+          "help": "anat-regioni-superiori/polso"
+        },
+        {
+          "id": "d",
+          "text": "Arteria femorale",
+          "feedback": "È una struttura dell’arto inferiore.",
+          "help": "anat-regioni-superiori/polso"
+        }
+      ],
+      "hint": "Il percorso del tendine e l’apparato estensore spiegano azioni combinate.",
+      "explanation": "Il tunnel contiene il mediano e nove tendini flessori lunghi.",
+      "help": "anat-regioni-superiori/polso"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-polso-1",
+      "unit": "anat-regioni-superiori",
+      "concept": "polso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché gli estensori del polso possono attivarsi durante una presa?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stabilizzano il polso contro il momento dei flessori lunghi"
+        },
+        {
+          "id": "b",
+          "text": "Perché tutti i muscoli devono sempre accorciarsi",
+          "feedback": "L’attivazione può anche essere isometrica o eccentrica.",
+          "help": "anat-regioni-superiori/polso"
+        },
+        {
+          "id": "c",
+          "text": "Perché il polso non ha articolazioni",
+          "feedback": "Il polso è un complesso articolare.",
+          "help": "anat-regioni-superiori/polso"
+        },
+        {
+          "id": "d",
+          "text": "Perché i flessori non attraversano il polso",
+          "feedback": "Molti tendini flessori lunghi lo attraversano.",
+          "help": "anat-regioni-superiori/polso"
+        }
+      ],
+      "hint": "Il percorso del tendine e l’apparato estensore spiegano azioni combinate.",
+      "explanation": "Il controllo di un segmento rende efficace l’azione dei tendini su un altro segmento.",
+      "help": "anat-regioni-superiori/polso"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-gesto-0",
+      "unit": "anat-regioni-superiori",
+      "concept": "gesto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Durante l’abbassamento lento di un carico, i flessori del gomito attivi si allungano. Qual è la descrizione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Azione eccentrica"
+        },
+        {
+          "id": "b",
+          "text": "Muscoli necessariamente inattivi",
+          "feedback": "L’allungamento sotto controllo può avvenire durante attivazione.",
+          "help": "anat-regioni-superiori/gesto"
+        },
+        {
+          "id": "c",
+          "text": "Azione concentrica",
+          "feedback": "Nella concentrica il muscolo attivo si accorcia.",
+          "help": "anat-regioni-superiori/gesto"
+        },
+        {
+          "id": "d",
+          "text": "Assenza di forza perché il movimento è lento",
+          "feedback": "Velocità bassa non implica forza nulla.",
+          "help": "anat-regioni-superiori/gesto"
+        }
+      ],
+      "hint": "Descrivere una fase del movimento è più preciso che attribuire un gesto intero a un solo muscolo.",
+      "explanation": "Contrazione descrive sviluppo di forza, non soltanto accorciamento.",
+      "help": "anat-regioni-superiori/gesto"
+    },
+    {
+      "id": "anat-final-anat-regioni-superiori-gesto-1",
+      "unit": "anat-regioni-superiori",
+      "concept": "gesto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il brachioradiale flette il gomito: quale conclusione sulla sua innervazione è corretta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Riceve il nervo radiale, anche se partecipa alla flessione"
+        },
+        {
+          "id": "b",
+          "text": "Deve ricevere il muscolocutaneo come ogni flessore",
+          "feedback": "Non tutti i flessori del gomito condividono lo stesso nervo.",
+          "help": "anat-regioni-superiori/gesto"
+        },
+        {
+          "id": "c",
+          "text": "Non può ricevere un nervo motorio",
+          "feedback": "È un muscolo scheletrico innervato.",
+          "help": "anat-regioni-superiori/gesto"
+        },
+        {
+          "id": "d",
+          "text": "Riceve direttamente il nervo femorale",
+          "feedback": "Il femorale appartiene al plesso lombare e all’arto inferiore.",
+          "help": "anat-regioni-superiori/gesto"
+        }
+      ],
+      "hint": "Descrivere una fase del movimento è più preciso che attribuire un gesto intero a un solo muscolo.",
+      "explanation": "La funzione deve essere verificata insieme al territorio anatomico, non usata come unica regola per indovinare il nervo.",
+      "help": "anat-regioni-superiori/gesto"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-anca-0",
+      "unit": "anat-regioni-inferiori",
+      "concept": "anca",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella tavola posteriore, perché si vedono i muscoli glutei profondi?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parte dei muscoli superficiali è stata sezionata"
+        },
+        {
+          "id": "b",
+          "text": "Sono diventati superficiali per contrazione",
+          "feedback": "La tavola rappresenta una dissezione illustrata.",
+          "help": "anat-regioni-inferiori/anca"
+        },
+        {
+          "id": "c",
+          "text": "Sono tutti lo stesso muscolo ripetuto",
+          "feedback": "I diversi glutei hanno attacchi e innervazioni distinti.",
+          "help": "anat-regioni-inferiori/anca"
+        },
+        {
+          "id": "d",
+          "text": "L’anca non possiede piani muscolari",
+          "feedback": "I piani sovrapposti sono un carattere della regione.",
+          "help": "anat-regioni-inferiori/anca"
+        }
+      ],
+      "hint": "Il muscolo può muovere il femore sul bacino oppure controllare il bacino sul femore.",
+      "explanation": "La parola “cut” segnala l’apertura del piano superficiale.",
+      "help": "anat-regioni-inferiori/anca",
+      "figureId": "regional-hip"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-anca-1",
+      "unit": "anat-regioni-inferiori",
+      "concept": "anca",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "In appoggio monopodalico destro, quali muscoli aiutano a evitare la caduta del lato sinistro del bacino?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abduttori dell’anca destra"
+        },
+        {
+          "id": "b",
+          "text": "Solo i flessori del gomito sinistro",
+          "feedback": "Non producono direttamente il momento necessario all’anca destra.",
+          "help": "anat-regioni-inferiori/anca"
+        },
+        {
+          "id": "c",
+          "text": "Solo gli estensori delle dita della mano",
+          "feedback": "Non controllano quel rapporto pelvi-femore.",
+          "help": "anat-regioni-inferiori/anca"
+        },
+        {
+          "id": "d",
+          "text": "Nessuno, perché il bacino è immobile per definizione",
+          "feedback": "L’equilibrio richiede momenti muscolari e altri vincoli.",
+          "help": "anat-regioni-inferiori/anca"
+        }
+      ],
+      "hint": "Il muscolo può muovere il femore sul bacino oppure controllare il bacino sul femore.",
+      "explanation": "Il femore in appoggio diventa il riferimento rispetto al quale gli abduttori controllano il bacino.",
+      "help": "anat-regioni-inferiori/anca"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-ginocchio-0",
+      "unit": "anat-regioni-inferiori",
+      "concept": "ginocchio",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale sequenza trasmette correttamente il tiro del quadricipite alla tibia?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tendine quadricipitale → patella → legamento patellare → tuberosità tibiale"
+        },
+        {
+          "id": "b",
+          "text": "Quadricipite → fibula → astragalo",
+          "feedback": "Salta il meccanismo estensore del ginocchio.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        },
+        {
+          "id": "c",
+          "text": "Quadricipite → menisco → falangi",
+          "feedback": "Il menisco non è un tendine di trasmissione verso le dita.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        },
+        {
+          "id": "d",
+          "text": "Quadricipite → legamento crociato anteriore → patella",
+          "feedback": "Il crociato non appartiene alla catena tendinea del quadricipite.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        }
+      ],
+      "hint": "Distingui superfici, stabilizzatori passivi e catena estensoria.",
+      "explanation": "La patella è interposta nell’apparato estensore anteriore.",
+      "help": "anat-regioni-inferiori/ginocchio"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-ginocchio-1",
+      "unit": "anat-regioni-inferiori",
+      "concept": "ginocchio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il crociato anteriore limita soprattutto quale traslazione, nel riferimento tibia rispetto a femore?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anteriore della tibia"
+        },
+        {
+          "id": "b",
+          "text": "Posteriore della tibia come compito caratteristico",
+          "feedback": "Questo è il riferimento classico per il crociato posteriore.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        },
+        {
+          "id": "c",
+          "text": "Laterale del radio",
+          "feedback": "Il radio appartiene all’arto superiore.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        },
+        {
+          "id": "d",
+          "text": "Superiore della scapola",
+          "feedback": "La scapola è estranea al ginocchio.",
+          "help": "anat-regioni-inferiori/ginocchio"
+        }
+      ],
+      "hint": "Distingui superfici, stabilizzatori passivi e catena estensoria.",
+      "explanation": "Specificare il segmento di riferimento evita di invertire le direzioni.",
+      "help": "anat-regioni-inferiori/ginocchio"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-caviglia-0",
+      "unit": "anat-regioni-inferiori",
+      "concept": "caviglia",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale movimento avviene soprattutto alla talocrurale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dorsiflessione e flessione plantare"
+        },
+        {
+          "id": "b",
+          "text": "Pronosupinazione dell’avambraccio",
+          "feedback": "È un movimento delle articolazioni radioulnari.",
+          "help": "anat-regioni-inferiori/caviglia"
+        },
+        {
+          "id": "c",
+          "text": "Apertura delle suture craniche",
+          "feedback": "Le suture non appartengono alla caviglia.",
+          "help": "anat-regioni-inferiori/caviglia"
+        },
+        {
+          "id": "d",
+          "text": "Solo abduzione delle dita",
+          "feedback": "Le articolazioni digitali sono distinte dalla talocrurale.",
+          "help": "anat-regioni-inferiori/caviglia"
+        }
+      ],
+      "hint": "Seguire il tendine fino all’inserzione aiuta a dedurre la componente del movimento.",
+      "explanation": "Il rapporto fra troclea del talo e pinza tibiofibulare orienta il movimento principale.",
+      "help": "anat-regioni-inferiori/caviglia"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-caviglia-1",
+      "unit": "anat-regioni-inferiori",
+      "concept": "caviglia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Dove decorrono i tendini dei fibulari lungo e breve?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dietro il malleolo laterale"
+        },
+        {
+          "id": "b",
+          "text": "Dentro il tunnel carpale",
+          "feedback": "È un passaggio del polso.",
+          "help": "anat-regioni-inferiori/caviglia"
+        },
+        {
+          "id": "c",
+          "text": "Dietro il malleolo mediale insieme al nervo mediano",
+          "feedback": "Lì decorre il fascio tibiale; il mediano è nell’arto superiore.",
+          "help": "anat-regioni-inferiori/caviglia"
+        },
+        {
+          "id": "d",
+          "text": "Dentro il tendine quadricipitale",
+          "feedback": "È una struttura della regione del ginocchio.",
+          "help": "anat-regioni-inferiori/caviglia"
+        }
+      ],
+      "hint": "Seguire il tendine fino all’inserzione aiuta a dedurre la componente del movimento.",
+      "explanation": "Il corridoio posterolaterale va distinto da quello posteromediale.",
+      "help": "anat-regioni-inferiori/caviglia"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-passo-0",
+      "unit": "anat-regioni-inferiori",
+      "concept": "passo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale coppia è coerente con il sollevamento dell’avampiede durante l’oscillazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Compartimento anteriore della gamba e nervo fibulare profondo"
+        },
+        {
+          "id": "b",
+          "text": "Compartimento laterale e nervo mediano",
+          "feedback": "Il mediano non innerva la gamba.",
+          "help": "anat-regioni-inferiori/passo"
+        },
+        {
+          "id": "c",
+          "text": "Quadricipite e nervo ulnare",
+          "feedback": "Il quadricipite riceve il femorale e agisce principalmente sul ginocchio.",
+          "help": "anat-regioni-inferiori/passo"
+        },
+        {
+          "id": "d",
+          "text": "Tricipite surale e nervo muscolocutaneo",
+          "feedback": "Il tricipite surale riceve il tibiale e contribuisce alla flessione plantare.",
+          "help": "anat-regioni-inferiori/passo"
+        }
+      ],
+      "hint": "La stessa persona usa molti gruppi e tipi di azione nello stesso passo.",
+      "explanation": "La dorsiflessione richiede i muscoli anteriori della gamba e la loro innervazione.",
+      "help": "anat-regioni-inferiori/passo"
+    },
+    {
+      "id": "anat-final-anat-regioni-inferiori-passo-1",
+      "unit": "anat-regioni-inferiori",
+      "concept": "passo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché una descrizione anatomica del passo deve indicare la fase?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lo stesso muscolo può svolgere compiti e azioni meccaniche diversi"
+        },
+        {
+          "id": "b",
+          "text": "Perché i nervi cambiano nome a ogni passo",
+          "feedback": "I nomi e i territori anatomici non cambiano con la fase.",
+          "help": "anat-regioni-inferiori/passo"
+        },
+        {
+          "id": "c",
+          "text": "Perché le ossa diventano cartilagine durante l’oscillazione",
+          "feedback": "La fase non trasforma il tipo di tessuto.",
+          "help": "anat-regioni-inferiori/passo"
+        },
+        {
+          "id": "d",
+          "text": "Perché ogni fase usa un solo muscolo",
+          "feedback": "Il movimento dipende da cooperazione di più strutture.",
+          "help": "anat-regioni-inferiori/passo"
+        }
+      ],
+      "hint": "La stessa persona usa molti gruppi e tipi di azione nello stesso passo.",
+      "explanation": "Il contesto meccanico chiarisce se un gruppo muove, frena o stabilizza.",
+      "help": "anat-regioni-inferiori/passo"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-epiteli-0",
+      "unit": "anat-struttura-tempo",
+      "concept": "epiteli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Un dotto presenta due strati di cellule e cellule superficiali cubiche. Qual è la classificazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cubico pluristratificato"
+        },
+        {
+          "id": "b",
+          "text": "Cubico semplice",
+          "feedback": "Semplice richiede un unico strato.",
+          "help": "anat-struttura-tempo/epiteli"
+        },
+        {
+          "id": "c",
+          "text": "Pavimentoso perché le cellule basali sono diverse",
+          "feedback": "Conta la forma superficiale, qui cubica.",
+          "help": "anat-struttura-tempo/epiteli"
+        },
+        {
+          "id": "d",
+          "text": "Tessuto osseo",
+          "feedback": "Mancano matrice mineralizzata e lacune.",
+          "help": "anat-struttura-tempo/epiteli"
+        }
+      ],
+      "hint": "Il nome di un rivestimento combina strati, forma superficiale ed eventuale specializzazione.",
+      "explanation": "Il numero di strati distingue un dotto stratificato da un tubulo semplice.",
+      "help": "anat-struttura-tempo/epiteli"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-epiteli-1",
+      "unit": "anat-struttura-tempo",
+      "concept": "epiteli",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale criterio distingue pseudostratificato e pluristratificato?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nel pseudostratificato tutte le cellule raggiungono la lamina basale"
+        },
+        {
+          "id": "b",
+          "text": "Il pseudostratificato non ha nuclei",
+          "feedback": "Le sue cellule hanno nuclei spesso a diverse altezze.",
+          "help": "anat-struttura-tempo/epiteli"
+        },
+        {
+          "id": "c",
+          "text": "Il pluristratificato è sempre endocrino",
+          "feedback": "Stratificazione e destinazione del secreto sono classificazioni diverse.",
+          "help": "anat-struttura-tempo/epiteli"
+        },
+        {
+          "id": "d",
+          "text": "Il pseudostratificato è composto solo da connettivo",
+          "feedback": "È un epitelio, non una matrice con cellule disperse.",
+          "help": "anat-struttura-tempo/epiteli"
+        }
+      ],
+      "hint": "Il nome di un rivestimento combina strati, forma superficiale ed eventuale specializzazione.",
+      "explanation": "Le altezze nucleari possono simulare più strati, ma conta il rapporto delle cellule con la base.",
+      "help": "anat-struttura-tempo/epiteli"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-organi-0",
+      "unit": "anat-struttura-tempo",
+      "concept": "organi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Perché il rene resta un organo pieno pur contenendo tubuli?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "La sua organizzazione generale è un parenchima, non una parete attorno a un unico lume principale"
+        },
+        {
+          "id": "b",
+          "text": "Perché i tubuli non hanno un lume",
+          "feedback": "I tubuli possiedono lumi.",
+          "help": "anat-struttura-tempo/organi"
+        },
+        {
+          "id": "c",
+          "text": "Perché è fatto soltanto di muscolo",
+          "feedback": "Il rene contiene parenchima epiteliale, vasi e stroma.",
+          "help": "anat-struttura-tempo/organi"
+        },
+        {
+          "id": "d",
+          "text": "Perché non contiene vasi",
+          "feedback": "La vascolarizzazione renale è molto sviluppata.",
+          "help": "anat-struttura-tempo/organi"
+        }
+      ],
+      "hint": "Classificazioni diverse rispondono a domande diverse: architettura, tessuto e ruolo funzionale.",
+      "explanation": "Il criterio riguarda l’organizzazione d’insieme e non l’assenza assoluta di spazi.",
+      "help": "anat-struttura-tempo/organi"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-organi-1",
+      "unit": "anat-struttura-tempo",
+      "concept": "organi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa descrive il termine “pennato” riferito a un muscolo?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "L’orientamento obliquo delle fibre rispetto al tendine"
+        },
+        {
+          "id": "b",
+          "text": "La sua innervazione sempre autonoma",
+          "feedback": "La pennazione non definisce il sistema di controllo nervoso.",
+          "help": "anat-struttura-tempo/organi"
+        },
+        {
+          "id": "c",
+          "text": "La presenza obbligatoria di un solo nucleo centrale",
+          "feedback": "Questa non è una classificazione della disposizione dei fascicoli.",
+          "help": "anat-struttura-tempo/organi"
+        },
+        {
+          "id": "d",
+          "text": "La funzione di antagonista in ogni gesto",
+          "feedback": "Il ruolo cambia con il compito.",
+          "help": "anat-struttura-tempo/organi"
+        }
+      ],
+      "hint": "Classificazioni diverse rispondono a domande diverse: architettura, tessuto e ruolo funzionale.",
+      "explanation": "La disposizione dei fascicoli va distinta da tipo cellulare e funzione nel movimento.",
+      "help": "anat-struttura-tempo/organi"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-crescita-0",
+      "unit": "anat-struttura-tempo",
+      "concept": "crescita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dopo la chiusura della cartilagine di accrescimento, quale processo continua normalmente?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rimodellamento del tessuto osseo"
+        },
+        {
+          "id": "b",
+          "text": "La stessa crescita longitudinale tramite cartilagine ancora aperta",
+          "feedback": "La premessa specifica che la cartilagine è chiusa.",
+          "help": "anat-struttura-tempo/crescita"
+        },
+        {
+          "id": "c",
+          "text": "Trasformazione di tutte le ossa in cartilagine",
+          "feedback": "Non è il normale sviluppo adulto.",
+          "help": "anat-struttura-tempo/crescita"
+        },
+        {
+          "id": "d",
+          "text": "Scomparsa di ogni osteocita",
+          "feedback": "Gli osteociti rimangono parte del tessuto osseo vivo.",
+          "help": "anat-struttura-tempo/crescita"
+        }
+      ],
+      "hint": "Crescita, modellamento e rimodellamento sono processi collegati ma distinti.",
+      "explanation": "L’osso adulto resta metabolicamente attivo e si rinnova.",
+      "help": "anat-struttura-tempo/crescita"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-crescita-1",
+      "unit": "anat-struttura-tempo",
+      "concept": "crescita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nell’ossificazione endocondrale, calcificare cartilagine equivale già a produrre tessuto osseo completo?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: occorre la sostituzione con deposizione di matrice ossea"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni matrice calcificata è osso",
+          "feedback": "Tipo di cellule e organizzazione della matrice distinguono i tessuti.",
+          "help": "anat-struttura-tempo/crescita"
+        },
+        {
+          "id": "c",
+          "text": "Sì, perché la cartilagine ha sempre osteoni",
+          "feedback": "Gli osteoni sono organizzazioni ossee, non cartilaginee.",
+          "help": "anat-struttura-tempo/crescita"
+        },
+        {
+          "id": "d",
+          "text": "No, perché l’osso non contiene minerali",
+          "feedback": "La componente minerale è essenziale nell’osso.",
+          "help": "anat-struttura-tempo/crescita"
+        }
+      ],
+      "hint": "Crescita, modellamento e rimodellamento sono processi collegati ma distinti.",
+      "explanation": "La mineralizzazione da sola non definisce identità e organizzazione del tessuto.",
+      "help": "anat-struttura-tempo/crescita"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-invecchiamento-0",
+      "unit": "anat-struttura-tempo",
+      "concept": "invecchiamento",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Una cicatrice ristabilisce continuità: questo prova che l’architettura originale sia completamente rigenerata?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: la riparazione fibrosa può sostituire tessuto specializzato"
+        },
+        {
+          "id": "b",
+          "text": "Sì, cicatrice e rigenerazione sono sinonimi",
+          "feedback": "I due processi possono avere esiti strutturali differenti.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        },
+        {
+          "id": "c",
+          "text": "Sì, il collagene svolge ogni funzione neuronale",
+          "feedback": "Il connettivo non sostituisce automaticamente tutte le funzioni specifiche.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        },
+        {
+          "id": "d",
+          "text": "No, perché le cicatrici non contengono matrice",
+          "feedback": "La matrice connettivale è una loro componente essenziale.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        }
+      ],
+      "hint": "Cambiare con l’età non significa perdere tutta la funzione; riparare non significa sempre rigenerare.",
+      "explanation": "Continuità meccanica e recupero integrale di struttura e funzione sono criteri diversi.",
+      "help": "anat-struttura-tempo/invecchiamento"
+    },
+    {
+      "id": "anat-final-anat-struttura-tempo-invecchiamento-1",
+      "unit": "anat-struttura-tempo",
+      "concept": "invecchiamento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase descrive correttamente il rapporto tra età e anatomia?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esistono tendenze dei tessuti, con variabilità individuale"
+        },
+        {
+          "id": "b",
+          "text": "Tutte le persone della stessa età hanno tessuti identici",
+          "feedback": "Storia, uso e condizioni individuali influenzano le strutture.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        },
+        {
+          "id": "c",
+          "text": "Il rimodellamento osseo cessa alla maggiore età",
+          "feedback": "Continua nell’adulto.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        },
+        {
+          "id": "d",
+          "text": "L’età da sola stabilisce qualsiasi diagnosi",
+          "feedback": "La diagnosi non deriva da un dato anagrafico isolato.",
+          "help": "anat-struttura-tempo/invecchiamento"
+        }
+      ],
+      "hint": "Cambiare con l’età non significa perdere tutta la funzione; riparare non significa sempre rigenerare.",
+      "explanation": "Le tendenze morfologiche vanno distinte dalle condizioni cliniche della singola persona.",
+      "help": "anat-struttura-tempo/invecchiamento"
+    },
+    {
+      "id": "anat-final-anat-esposizione-locomotore-0",
+      "unit": "anat-esposizione",
+      "concept": "locomotore",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale ordine rende più comprensibile una descrizione regionale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Riferimenti ossei → articolazioni e vincoli → muscoli, nervi e gesto"
+        },
+        {
+          "id": "b",
+          "text": "Nomi casuali senza indicare la regione",
+          "feedback": "Manca la struttura che permette di collegare i termini.",
+          "help": "anat-esposizione/locomotore"
+        },
+        {
+          "id": "c",
+          "text": "Solo il nome del muscolo più grande",
+          "feedback": "Il movimento dipende da più componenti.",
+          "help": "anat-esposizione/locomotore"
+        },
+        {
+          "id": "d",
+          "text": "Solo una diagnosi immaginata",
+          "feedback": "Il compito riguarda morfologia e funzione normali.",
+          "help": "anat-esposizione/locomotore"
+        }
+      ],
+      "hint": "Una risposta buona connette strutture e funzione; un elenco lungo non basta.",
+      "explanation": "L’ordine rende controllabili i rapporti anatomici e le conseguenze funzionali.",
+      "help": "anat-esposizione/locomotore"
+    },
+    {
+      "id": "anat-final-anat-esposizione-locomotore-1",
+      "unit": "anat-esposizione",
+      "concept": "locomotore",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché non basta descrivere la sola gleno-omerale per spiegare l’elevazione del braccio?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Contribuisce anche il movimento del cingolo scapolare"
+        },
+        {
+          "id": "b",
+          "text": "Perché il gomito è l’unica articolazione del gesto",
+          "feedback": "Il gomito non sostituisce spalla e scapola.",
+          "help": "anat-esposizione/locomotore"
+        },
+        {
+          "id": "c",
+          "text": "Perché la cuffia è un organo respiratorio",
+          "feedback": "La cuffia appartiene al controllo della spalla.",
+          "help": "anat-esposizione/locomotore"
+        },
+        {
+          "id": "d",
+          "text": "Perché la scapola è sempre immobile",
+          "feedback": "La scapola si orienta rispetto al torace.",
+          "help": "anat-esposizione/locomotore"
+        }
+      ],
+      "hint": "Una risposta buona connette strutture e funzione; un elenco lungo non basta.",
+      "explanation": "La descrizione deve integrare articolazione gleno-omerale e cingolo scapolare.",
+      "help": "anat-esposizione/locomotore"
+    },
+    {
+      "id": "anat-final-anat-esposizione-viscere-0",
+      "unit": "anat-esposizione",
+      "concept": "viscere",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale frase mantiene correttamente separati i compartimenti renali?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il filtrato entra nello spazio urinario, mentre il sangue continua nell’arteriola efferente"
+        },
+        {
+          "id": "b",
+          "text": "Il sangue intero passa normalmente nell’uretere",
+          "feedback": "La barriera non è una connessione libera fra vaso e tubulo.",
+          "help": "anat-esposizione/viscere"
+        },
+        {
+          "id": "c",
+          "text": "L’arteriola efferente è un dotto urinario",
+          "feedback": "È un vaso sanguigno.",
+          "help": "anat-esposizione/viscere"
+        },
+        {
+          "id": "d",
+          "text": "La vescica contiene i glomeruli",
+          "feedback": "I glomeruli si trovano nella corticale renale.",
+          "help": "anat-esposizione/viscere"
+        }
+      ],
+      "hint": "La prova di comprensione è mantenere distinti i due percorsi mentre colleghi macro e microanatomia.",
+      "explanation": "Filtrazione e flusso ematico sono processi collegati ma distinti.",
+      "help": "anat-esposizione/viscere"
+    },
+    {
+      "id": "anat-final-anat-esposizione-viscere-1",
+      "unit": "anat-esposizione",
+      "concept": "viscere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un piccolo campo renale non mostra corpuscoli: basta per dichiarare che sia midollare?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: l’assenza nel campo richiede confronto con altri indizi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni campo corticale deve contenerne uno",
+          "feedback": "Un taglio può non intercettare corpuscoli in una piccola area.",
+          "help": "anat-esposizione/viscere"
+        },
+        {
+          "id": "c",
+          "text": "Sì, perché la corticale non ha tubuli",
+          "feedback": "La corticale contiene molti tubuli.",
+          "help": "anat-esposizione/viscere"
+        },
+        {
+          "id": "d",
+          "text": "No, perché il rene non ha midollare",
+          "feedback": "Il rene possiede corticale e midollare.",
+          "help": "anat-esposizione/viscere"
+        }
+      ],
+      "hint": "La prova di comprensione è mantenere distinti i due percorsi mentre colleghi macro e microanatomia.",
+      "explanation": "La presenza è un forte indizio di sede; l’assenza in un campione limitato è meno conclusiva.",
+      "help": "anat-esposizione/viscere"
+    },
+    {
+      "id": "anat-final-anat-esposizione-nervoso-0",
+      "unit": "anat-esposizione",
+      "concept": "nervoso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dove si trova il corpo del neurone sensitivo primario di un’afferenza spinale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nel ganglio della radice posteriore"
+        },
+        {
+          "id": "b",
+          "text": "Nel tendine del muscolo",
+          "feedback": "Il tendine non contiene il corpo di quel neurone.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "c",
+          "text": "Nel lume del ventricolo cerebrale",
+          "feedback": "I ventricoli contengono liquor, non quel ganglio.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "d",
+          "text": "Nella radice anteriore come regola generale",
+          "feedback": "La radice anteriore trasporta efferenze.",
+          "help": "anat-esposizione/nervoso"
+        }
+      ],
+      "hint": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
+      "explanation": "Il ganglio spinale ospita i corpi delle afferenze primarie.",
+      "help": "anat-esposizione/nervoso"
+    },
+    {
+      "id": "anat-final-anat-esposizione-nervoso-1",
+      "unit": "anat-esposizione",
+      "concept": "nervoso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale confronto fra vie sensitive è corretto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Colonne dorsali e sistema anterolaterale hanno modalità e sedi di incrocio differenti"
+        },
+        {
+          "id": "b",
+          "text": "Tutte le vie incrociano esclusivamente nella mano",
+          "feedback": "L’incrocio avviene nel sistema nervoso centrale secondo la via.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "c",
+          "text": "Dolore e propriocezione cosciente seguono sempre la stessa via",
+          "feedback": "Le modalità hanno percorsi principali differenti.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "d",
+          "text": "Le vie sensitive non raggiungono mai il cervello",
+          "feedback": "Molte portano informazione a strutture encefaliche.",
+          "help": "anat-esposizione/nervoso"
+        }
+      ],
+      "hint": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
+      "explanation": "Prima nomina la sensibilità, poi ricostruisci stazioni e incrocio.",
+      "help": "anat-esposizione/nervoso"
+    },
+    {
+      "id": "anat-final-anat-esposizione-confronto-0",
+      "unit": "anat-esposizione",
+      "concept": "confronto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale risposta a una micrografia è meglio motivata?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Descrive due indizi, propone un’identificazione e dichiara un limite"
+        },
+        {
+          "id": "b",
+          "text": "Ripete soltanto il colore dominante",
+          "feedback": "Il colore varia con preparazione e tecnica.",
+          "help": "anat-esposizione/confronto"
+        },
+        {
+          "id": "c",
+          "text": "Dà un nome senza spiegare perché",
+          "feedback": "Il nome da solo non dimostra riconoscimento ragionato.",
+          "help": "anat-esposizione/confronto"
+        },
+        {
+          "id": "d",
+          "text": "Afferma che ogni preparato futuro sarà identico",
+          "feedback": "Sezione, scala e colorazione variano.",
+          "help": "anat-esposizione/confronto"
+        }
+      ],
+      "hint": "L’autocorrezione efficace identifica un errore preciso e lo collega a un paragrafo da ricostruire.",
+      "explanation": "Osservazione e interpretazione devono poter essere confrontate con ciò che è visibile.",
+      "help": "anat-esposizione/confronto"
+    },
+    {
+      "id": "anat-final-anat-esposizione-confronto-1",
+      "unit": "anat-esposizione",
+      "concept": "confronto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Se confondi sangue e bile nella descrizione del fegato, qual è il recupero più mirato?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ridisegnare separatamente i due percorsi e confrontarli con la lezione"
+        },
+        {
+          "id": "b",
+          "text": "Ripetere soltanto il nome del fegato",
+          "feedback": "Non affronta la confusione di percorsi.",
+          "help": "anat-esposizione/confronto"
+        },
+        {
+          "id": "c",
+          "text": "Cambiare il colore dello sfondo",
+          "feedback": "Non modifica il rapporto anatomico da apprendere.",
+          "help": "anat-esposizione/confronto"
+        },
+        {
+          "id": "d",
+          "text": "Dichiarare errata ogni domanda sull’organo",
+          "feedback": "Occorre correggere una relazione specifica, non rinunciare al tema.",
+          "help": "anat-esposizione/confronto"
+        }
+      ],
+      "hint": "L’autocorrezione efficace identifica un errore preciso e lo collega a un paragrafo da ricostruire.",
+      "explanation": "L’aiuto utile è quello collegato all’errore anatomico concreto, seguito da un nuovo tentativo.",
+      "help": "anat-esposizione/confronto"
+    },
+    {
+      "id": "anat-final-extra-bone-shape",
+      "unit": "anat-struttura-tempo",
+      "concept": "ossa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una falange è piccola: come si classifica morfologicamente?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osso lungo"
+        },
+        {
+          "id": "b",
+          "text": "Osso breve per il solo fatto di essere piccola",
+          "feedback": "La classificazione usa proporzioni e forma, non una misura assoluta.",
+          "help": "anat-struttura-tempo/ossa"
+        },
+        {
+          "id": "c",
+          "text": "Osso piatto come ogni osso della mano",
+          "feedback": "Nella mano sono presenti categorie morfologiche diverse.",
+          "help": "anat-struttura-tempo/ossa"
+        },
+        {
+          "id": "d",
+          "text": "Cartilagine perché non è un femore",
+          "feedback": "La dimensione non cambia l’identità del tessuto.",
+          "help": "anat-struttura-tempo/ossa"
+        }
+      ],
+      "hint": "Lungo non significa grande; piatto non significa perfettamente diritto.",
+      "explanation": "La falange ha una dimensione prevalente, un corpo e due estremità.",
+      "help": "anat-struttura-tempo/ossa"
+    },
+    {
+      "id": "anat-final-extra-bone-flat",
+      "unit": "anat-struttura-tempo",
+      "concept": "ossa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una scapola curva può essere classificata come osso piatto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sì: lo spessore è ridotto rispetto alla superficie"
+        },
+        {
+          "id": "b",
+          "text": "No, piatto significa senza alcuna curvatura",
+          "feedback": "La categoria non richiede una superficie geometrica perfettamente piana.",
+          "help": "anat-struttura-tempo/ossa"
+        },
+        {
+          "id": "c",
+          "text": "No, tutte le ossa della spalla sono lunghe",
+          "feedback": "La regione non impone una sola forma a tutte le ossa.",
+          "help": "anat-struttura-tempo/ossa"
+        },
+        {
+          "id": "d",
+          "text": "Sì, perché non contiene tessuto osseo",
+          "feedback": "La scapola è un osso.",
+          "help": "anat-struttura-tempo/ossa"
+        }
+      ],
+      "hint": "Lungo non significa grande; piatto non significa perfettamente diritto.",
+      "explanation": "La forma generale e le proporzioni guidano la classificazione.",
+      "help": "anat-struttura-tempo/ossa"
+    },
+    {
+      "id": "anat-final-extra-joint-function",
+      "unit": "articolazioni",
+      "concept": "classi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel criterio funzionale, quale termine indica ampia libertà di movimento?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diartrosi"
+        },
+        {
+          "id": "b",
+          "text": "Sinartrosi",
+          "feedback": "Nel criterio funzionale indica immobilità o quasi immobilità.",
+          "help": "articolazioni/classi"
+        },
+        {
+          "id": "c",
+          "text": "Osteone",
+          "feedback": "È un’organizzazione microscopica dell’osso.",
+          "help": "articolazioni/classi"
+        },
+        {
+          "id": "d",
+          "text": "Epifisi",
+          "feedback": "È una regione di un osso lungo, non una classe articolare.",
+          "help": "articolazioni/classi"
+        }
+      ],
+      "hint": "Struttura e mobilità sono criteri diversi.",
+      "explanation": "Le articolazioni sinoviali sono classificate funzionalmente come diartrosi.",
+      "help": "articolazioni/classi"
+    },
+    {
+      "id": "anat-final-extra-joint-criteria",
+      "unit": "articolazioni",
+      "concept": "classi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Fibrosa e anfiartrosi possono descrivere la stessa articolazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sì: un termine è strutturale, l’altro funzionale"
+        },
+        {
+          "id": "b",
+          "text": "No, descrivono entrambe sempre solo il movimento",
+          "feedback": "Fibrosa indica il tessuto della connessione.",
+          "help": "articolazioni/classi"
+        },
+        {
+          "id": "c",
+          "text": "No, ogni fibrosa è una sinoviale",
+          "feedback": "Le due organizzazioni strutturali sono distinte.",
+          "help": "articolazioni/classi"
+        },
+        {
+          "id": "d",
+          "text": "Sì, perché sono sinonimi in ogni contesto",
+          "feedback": "Non sono sinonimi: rispondono a criteri differenti.",
+          "help": "articolazioni/classi"
+        }
+      ],
+      "hint": "Struttura e mobilità sono criteri diversi.",
+      "explanation": "Dichiarare il criterio evita di confondere struttura e mobilità.",
+      "help": "articolazioni/classi"
+    },
+    {
+      "id": "anat-final-extra-cavities-dorsal",
+      "unit": "anat-spazio",
+      "concept": "orientare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quali componenti formano la cavità dorsale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cavità cranica e canale vertebrale"
+        },
+        {
+          "id": "b",
+          "text": "Torace e addome",
+          "feedback": "Sono grandi componenti della cavità ventrale.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "c",
+          "text": "Vescica e uretere",
+          "feedback": "Sono strutture urinarie, non la suddivisione della cavità dorsale.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "d",
+          "text": "Due cavità pleuriche",
+          "feedback": "Appartengono al torace.",
+          "help": "anat-spazio/orientare"
+        }
+      ],
+      "hint": "Ruota il punto di osservazione, non i significati di destra, anteriore e superiore.",
+      "explanation": "Il compartimento dorsale contiene e protegge il sistema nervoso centrale.",
+      "help": "anat-spazio/orientare"
+    },
+    {
+      "id": "anat-final-extra-cavities-kidney",
+      "unit": "anat-spazio",
+      "concept": "orientare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un rene è posteriore nell’addome: appartiene per questo alla cavità dorsale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: resta nel compartimento addominale retroperitoneale"
+        },
+        {
+          "id": "b",
+          "text": "Sì, ogni struttura posteriore è nel canale vertebrale",
+          "feedback": "Posteriorità relativa e cavità dorsale non sono lo stesso concetto.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "c",
+          "text": "Sì, è contenuto nella scatola cranica",
+          "feedback": "Il rene è addominale.",
+          "help": "anat-spazio/orientare"
+        },
+        {
+          "id": "d",
+          "text": "No, perché è nel lume del cuore",
+          "feedback": "Non appartiene alle cavità cardiache.",
+          "help": "anat-spazio/orientare"
+        }
+      ],
+      "hint": "Ruota il punto di osservazione, non i significati di destra, anteriore e superiore.",
+      "explanation": "La sede di un organo va riferita ai compartimenti anatomici, non a una parola isolata.",
+      "help": "anat-spazio/orientare"
+    },
+    {
+      "id": "anat-final-extra-chain",
+      "unit": "anat-esposizione",
+      "concept": "nervoso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una catena neuronale è un unico assone continuo senza sinapsi?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "No: collega neuroni distinti mediante sinapsi"
+        },
+        {
+          "id": "b",
+          "text": "Sì, tutti i neuroni sono una singola cellula",
+          "feedback": "Il sistema è costituito da cellule distinte.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "c",
+          "text": "Sì, i gangli sono soltanto tendini",
+          "feedback": "I gangli contengono corpi neuronali periferici.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "d",
+          "text": "No, perché non trasmette informazione",
+          "feedback": "Le connessioni neuronali trasmettono ed elaborano informazione.",
+          "help": "anat-esposizione/nervoso"
+        }
+      ],
+      "hint": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
+      "explanation": "Stazioni e sinapsi sono parte della descrizione della via.",
+      "help": "anat-esposizione/nervoso"
+    },
+    {
+      "id": "anat-final-extra-convergence",
+      "unit": "anat-esposizione",
+      "concept": "nervoso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Più afferenze raggiungono lo stesso neurone: quale organizzazione descrivi?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Convergenza"
+        },
+        {
+          "id": "b",
+          "text": "Divergenza da un neurone a molti bersagli",
+          "feedback": "È la distribuzione in senso opposto.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "c",
+          "text": "Ossificazione intramembranosa",
+          "feedback": "È un processo di formazione ossea.",
+          "help": "anat-esposizione/nervoso"
+        },
+        {
+          "id": "d",
+          "text": "Filtrazione glomerulare",
+          "feedback": "Riguarda compartimenti renali, non connessioni sinaptiche.",
+          "help": "anat-esposizione/nervoso"
+        }
+      ],
+      "hint": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
+      "explanation": "La convergenza permette di integrare segnali provenienti da più ingressi.",
+      "help": "anat-esposizione/nervoso"
     }
   ],
   "templates": [

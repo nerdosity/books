@@ -10,6 +10,7 @@ import { chemistryDiagramHTML } from './lib/chemistry-diagrams.js';
 import { biologyDiagramHTML } from './lib/biology-diagrams.js';
 import { vascularDiagramHTML } from './lib/vascular-diagrams.js';
 import { lawDiagramHTML } from './lib/law-diagrams.js';
+import { anatomyDiagramHTML } from './lib/anatomy-diagrams.js';
 import { newWrittenRecord, writeDraft, revealWritten, rateWritten } from './lib/written.js';
 import { writtenLinks, writtenPage, writtenSummaryHTML, writtenPrintSolutions } from './lib/written-ui.js';
 import { openstaxReadingHTML } from './lib/readings.js';
@@ -83,7 +84,7 @@ function sectionHTML(s) {
     ${(s.figureIds || []).map(id=>figureHTML(id)).join('')}
     ${(s.audioIds || []).map(id=>audioPanelHTML(course.listening.find(c=>c.id===id))).join('')}
     ${s.demo?physicsDemoHTML(s.demo):''}
-    ${s.diagram?(chemistryDiagramHTML(s.diagram)||biologyDiagramHTML(s.diagram)||vascularDiagramHTML(s.diagram)||lawDiagramHTML(s.diagram)):''}
+    ${s.diagram?(chemistryDiagramHTML(s.diagram)||biologyDiagramHTML(s.diagram)||vascularDiagramHTML(s.diagram)||lawDiagramHTML(s.diagram)||anatomyDiagramHTML(s.diagram)):''}
     <div class="example"><span class="eyebrow">Un esempio concreto</span><p>${esc(s.example)}</p></div>
     <div class="callout"><strong>Da ricordare.</strong> ${esc(s.takeaway)}</div>`;
 }

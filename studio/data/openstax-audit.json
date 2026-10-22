@@ -1,9 +1,9 @@
 {
   "checked": "2026-10-22",
   "scope": "Collegamenti facoltativi a sezioni OpenStax. Controllati HTTP, titolo e argomenti per gli abbinamenti. Non è una certificazione di copertura del syllabus.",
-  "units": 185,
-  "placements": 470,
-  "distinctPages": 233,
+  "units": 193,
+  "placements": 503,
+  "distinctPages": 236,
   "excluded": [
     {
       "unit": "diritto-soggetti",
@@ -1275,6 +1275,24 @@
       "url": "https://openstax.org/books/principles-management/pages/17-2-the-planning-process",
       "status": 200,
       "title": "17.2 The Planning Process - Principles of Management | OpenStax"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging",
+      "status": 200,
+      "title": "4.6 Tissue Injury and Aging - Anatomy and Physiology 2e | OpenStax",
+      "checked": "2026-10-22"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-2-bone-classification",
+      "status": 200,
+      "title": "6.2 Bone Classification - Anatomy and Physiology 2e | OpenStax",
+      "checked": "2026-10-22"
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+      "status": 200,
+      "title": "9.1 Classification of Joints - Anatomy and Physiology 2e | OpenStax",
+      "checked": "2026-10-22"
     }
   ]
 }

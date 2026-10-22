@@ -29,7 +29,7 @@ try{
    assert.ok((await article.textContent()).includes(q.answer));
    await article.locator('[data-written-rating]').selectOption('parziale');
    // Open every internal help: it must contain the full teaching, not a detached link.
-   for(const d of await article.locator('.written-solution > details').all())await d.locator('summary').click();
+   for(const d of await article.locator('.written-solution > details').all())await d.locator(':scope > summary').click();
    const help=await article.locator('.inline-lesson').allTextContents();
    for(const [k,ref]of q.refs.entries()){
     const [uid,sid]=ref.split('/'),s=c.units.find(u=>u.id===uid).sections.find(s=>s.id===sid);

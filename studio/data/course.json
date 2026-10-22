@@ -1928,7 +1928,8 @@
           "title": "Distinguere tre organizzazioni strutturali",
           "text": [
             "Le articolazioni fibrose uniscono ossa mediante connettivo fibroso; quelle cartilaginee mediante cartilagine; le sinoviali presentano una cavità articolare. Questa classificazione strutturale va distinta da quella funzionale basata sulla mobilità. Una sutura cranica e una sindesmosi tibiofibulare sono entrambe fibrose ma non identiche per geometria e comportamento.",
-            "Le sincondrosi utilizzano cartilagine ialina; le sinfisi includono fibrocartilagine fra le superfici. I dischi fra corpi vertebrali e la sinfisi pubica illustrano connessioni che consentono movimenti limitati e distribuiscono carico. Per descrivere un’articolazione devi indicare le superfici collegate e il tessuto che le unisce, prima di assegnarle un movimento."
+            "Le sincondrosi utilizzano cartilagine ialina; le sinfisi includono fibrocartilagine fra le superfici. I dischi fra corpi vertebrali e la sinfisi pubica illustrano connessioni che consentono movimenti limitati e distribuiscono carico. Per descrivere un’articolazione devi indicare le superfici collegate e il tessuto che le unisce, prima di assegnarle un movimento.",
+            "Nella classificazione funzionale, sinartrosi indica un’articolazione immobile o quasi, anfiartrosi una mobilità limitata e diartrosi una mobilità libera. Le sinoviali sono diartrosi; le fibrose e cartilaginee possono avere mobilità diversa secondo sede e organizzazione. Alcuni testi italiani usano sinartrosi anche in senso strutturale più ampio per le unioni per continuità: quando confronti classificazioni dichiara il criterio. Una sutura e una sinfisi non vanno rese identiche solo per contrapporle a una sinoviale."
           ],
           "example": "“Fibrosa” non vuol dire automaticamente “nessun micromovimento”: la funzione dipende dall’organizzazione della connessione.",
           "takeaway": "Struttura e mobilità sono criteri diversi."
@@ -1989,12 +1990,14 @@
         ]
       },
       "sources": [
-        "anatomy-joints"
+        "anatomy-joints",
+        "an-joint-classes"
       ],
       "openstax": [
         "an-bones-joints",
         "an-selected-joints",
-        "en-movements"
+        "en-movements",
+        "an-joint-classes"
       ]
     },
     {
@@ -21972,6 +21975,865 @@
           "Inclusione applicata a fatti concreti"
         ]
       }
+    },
+    {
+      "id": "anat-lab-tessuti",
+      "subject": "anatomia",
+      "title": "Laboratorio · riconoscere i tessuti",
+      "description": "Dalla micrografia all’argomento: forma, disposizione, scala e limiti del preparato.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anatomia-micrografie",
+        "anatomia-connettivi-osso",
+        "anatomia-sangue-difese"
+      ],
+      "sources": [
+        "hi-connective",
+        "hi-leukocytes",
+        "anatomy-cardiac",
+        "anatomy-glia",
+        "an-final-source-micro-bone",
+        "an-final-source-micro-blood",
+        "an-final-source-histology-muscle",
+        "an-final-source-spinal-cord"
+      ],
+      "openstax": [
+        "hi-connective",
+        "hi-leukocytes",
+        "anatomy-cardiac",
+        "anatomy-glia"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Osso: riconoscere un osteone senza scambiarlo per una cellula",
+        "Sangue: partire dalla popolazione dominante",
+        "Muscolo: orientamento e indizi concordanti",
+        "Nervoso: dalla sezione alla direzione del segnale"
+      ],
+      "sections": [
+        {
+          "id": "osso",
+          "title": "Osso: riconoscere un osteone senza scambiarlo per una cellula",
+          "text": [
+            "Guarda la micrografia 5 a campo intero: trovi unità rotonde o ovali con un’apertura centrale e anelli concentrici. L’unità è un osteone, non una grande cellula. Il punto A cade nel canale centrale; la regione B attraversa le lamelle che lo circondano. Le piccole lacune scure sono distribuite nelle lamelle e collegate da canalicoli molto fini. Non tutti i sistemi di lamelle formano un osteone completo: fra osteoni si trovano residui interstiziali prodotti dal rimodellamento.",
+            "Il preparato è osso umano per usura: si assottiglia tessuto mineralizzato. Mette in evidenza l’architettura della matrice e degli spazi, ma non conserva una popolazione di cellule vive da classificare contando nuclei. Nel corpo il canale centrale ospita vasi e nervi; non puoi identificarli singolarmente solo perché vedi l’apertura. Le lacune contenevano osteociti: non chiamare osteoclasti tutti i punti neri.",
+            "Un taglio perpendicolare all’asse dell’osteone tende a produrre anelli; un taglio obliquo li allunga. Il riconoscimento non dipende quindi dall’avere cerchi perfetti. Compatto e spugnoso sono architetture; lamellare e non lamellare descrivono ordine della matrice. Le trabecole dello spugnoso possono essere lamellari senza avere osteoni cilindrici completi."
+          ],
+          "example": "Descrizione possibile: “Vedo lamelle concentriche intorno a canali e piccole lacune nella matrice. È osso compatto lamellare; la preparazione per usura mostra soprattutto gli spazi e la matrice mineralizzata”.",
+          "takeaway": "Osteone = organizzazione di matrice, cellule e canale; osteocita = singola cellula.",
+          "figureIds": [
+            "micro-bone"
+          ]
+        },
+        {
+          "id": "sangue",
+          "title": "Sangue: partire dalla popolazione dominante",
+          "text": [
+            "La micrografia 6 è uno striscio, una distribuzione di cellule su un vetrino, non una sezione di un vaso. La maggior parte dei profili è rosa e priva di un nucleo evidente: sono eritrociti maturi. Il punto A ne indica uno. Le rare cellule con nuclei scuri e citoplasma riconoscibile appartengono alla popolazione leucocitaria; B individua una cellula nucleata. Gli spazi bianchi non sono alveoli: qui manca una rete di pareti tissutali che li delimiti.",
+            "Neutrofili, eosinofili e basofili sono granulociti; linfociti e monociti si distinguono anche per forma del nucleo e quantità di citoplasma. Un nucleo segmentato orienta verso un neutrofilo, uno bilobato con granuli evidenti verso un eosinofilo, grandi granuli che coprono il nucleo verso un basofilo. Un piccolo linfocito ha poco citoplasma attorno a un nucleo rotondo; un monocito tende ad avere più citoplasma e nucleo ripiegato. Sono criteri combinati, non etichette assegnabili dal colore isolato.",
+            "A questo ingrandimento non tutti i dettagli sono risolti bene: l’esercizio principale distingue eritrociti da leucociti. Non stimare la formula leucocitaria da due cellule, né dichiarare assenti piastrine o un sottotipo perché non lo trovi nel campo. Le piastrine sono frammenti citoplasmatici dei megacariociti e non piccoli eritrociti; il plasma, matrice liquida del sangue, non si identifica come un tessuto solido nello sfondo dello striscio."
+          ],
+          "example": "Se ti chiedono “quale cellula trasporta soprattutto ossigeno?”, collega A a emoglobina ed eritrocita. Se chiedono il sottotipo esatto di B, separa l’ipotesi morfologica dalla certezza: servono dettagli e colorazione adeguati.",
+          "takeaway": "Prima distingui elementi anucleati e nucleati; poi usa più criteri per il sottotipo.",
+          "figureIds": [
+            "micro-blood"
+          ]
+        },
+        {
+          "id": "muscolo",
+          "title": "Muscolo: orientamento e indizi concordanti",
+          "text": [
+            "Riprendi la micrografia delle fibre scheletriche: le bande attraversano elementi lunghi, non delimitano una successione di cellule. Una fibra scheletrica deriva dalla fusione di mioblasti ed è multinucleata; i nuclei sono prevalentemente periferici. In sezione trasversa la stessa fibra ha un profilo poligonale e può non mostrare un nucleo nel piano di taglio. Una sezione priva di bande non prova quindi, da sola, che il tessuto sia liscio.",
+            "Per distinguere i tre tessuti combina striature, forma, nuclei e rapporti. Il cardiaco è striato ma composto da cellule più corte, ramificate, con nucleo centrale e giunzioni specializzate nei dischi intercalari. Nel liscio le cellule sono fusate, con nucleo centrale, organizzate in fasci o strati; non hanno sarcomeri ordinati in bande. In una colorazione ordinaria ogni disco o ogni nucleo non è necessariamente visibile.",
+            "La funzione va dedotta dopo l’identificazione. Il muscolo cardiaco coordina cellule mediante giunzioni comunicanti; quello scheletrico riceve comandi da motoneuroni somatici; il liscio può essere regolato da autonomo, ormoni e segnali locali. “Involontario” non è una forma cellulare. Endomisio, perimisio ed epimisio sono connettivo di sostegno a scale diverse, non altri tipi di miofilamenti."
+          ],
+          "example": "Per un campo striato con nuclei centrali e ramificazioni proponi cardiaco e spiega quali indizi lo separano dallo scheletrico. Se il campo mostra solo profili trasversi, chiedi una seconda vista prima di usare l’assenza di bande come prova.",
+          "takeaway": "Un singolo segno può mancare per il taglio: confronta architettura, nuclei e striature.",
+          "figureIds": [
+            "histology-muscle"
+          ]
+        },
+        {
+          "id": "nervo",
+          "title": "Nervoso: dalla sezione alla direzione del segnale",
+          "text": [
+            "Nella tavola del midollo la sostanza grigia occupa la regione centrale a farfalla, circondata da sostanza bianca. Le corna anteriori sono più voluminose; la fessura mediana anteriore è un riferimento di orientamento. Non assegnare “anteriore” al bordo basso del telefono per abitudine: devi usare i riferimenti dichiarati nella tavola. Il canale centrale è un piccolo lume nella regione commissurale, non uno dei grandi spazi attorno al midollo.",
+            "La sostanza grigia contiene corpi neuronali, dendriti, sinapsi e glia; la bianca è ricca di assoni, molti mielinizzati, oltre alla glia. Grigio e bianco non significano neuroni contro assenza di neuroni. In un nervo periferico gli assoni sono raccolti in fascicoli: endonevrio intorno alle singole fibre, perinevrio intorno al fascicolo, epinevrio intorno al nervo. Un ganglio è invece una raccolta di corpi neuronali periferici.",
+            "Una radice posteriore conduce afferenze e possiede il ganglio spinale; una radice anteriore porta efferenze. Dopo la loro unione il nervo spinale è misto, come i suoi rami anteriori e posteriori. “Ramo posteriore” non è sinonimo di “radice posteriore”: il primo innerva anche muscoli profondi del dorso. La fotografia del midollo non risolve da sola tutti i neuroni di una via; il percorso funzionale si ricostruisce collegando sezione e anatomia generale."
+          ],
+          "example": "Disegna una freccia da un recettore cutaneo alla radice posteriore e una dal corno anteriore al muscolo attraverso la radice anteriore. Poi circonda il tratto comune: è il nervo misto.",
+          "takeaway": "Separa sede dei corpi cellulari, fasci di assoni e direzione afferente o efferente.",
+          "figureIds": [
+            "spinal-cord"
+          ]
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta osso, sangue, muscolo e tessuto nervoso usando prima ciò che osserveresti e poi la funzione.",
+        "answer": "Nell’osso cerco matrice mineralizzata, lacune e organizzazione lamellare; nello striscio ematico elementi separati e differenze nucleari. Nel muscolo confronto striature, forma delle cellule e posizione dei nuclei. Nel nervoso distinguo aggregati di corpi cellulari e fasci di assoni. Specifico per ciascuno preparazione e piano di taglio: uno spazio vuoto o una banda non hanno significato universale.",
+        "criteria": [
+          "Descrivere almeno due indizi per tessuto",
+          "Non confondere osteone con cellula o striscio con sezione",
+          "Esplicitare il limite del piano e della risoluzione"
+        ]
+      }
+    },
+    {
+      "id": "anat-lab-visceri",
+      "subject": "anatomia",
+      "title": "Laboratorio · leggere i visceri al microscopio",
+      "description": "Quattro organi, quattro architetture: dai profili alla funzione senza imparare il colore a memoria.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anat-lab-tessuti",
+        "anatomia-tubo-digerente",
+        "anatomia-rene-vie"
+      ],
+      "sources": [
+        "anatomy-respiratory",
+        "an-digest-intestine",
+        "an-renal-micro",
+        "an-digest-accessory",
+        "an-final-source-micro-lung",
+        "an-final-source-micro-intestine",
+        "an-final-source-micro-kidney",
+        "an-final-source-micro-liver"
+      ],
+      "openstax": [
+        "anatomy-respiratory",
+        "an-digest-intestine",
+        "an-renal-micro",
+        "an-digest-accessory"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Polmone: distinguere via di conduzione e superficie di scambio",
+        "Intestino: villo, cripta e singola cellula non sono la stessa scala",
+        "Rene: separare glomerulo, spazio urinario e tubulo",
+        "Fegato: ricostruire i percorsi da una trama"
+      ],
+      "sections": [
+        {
+          "id": "polmone",
+          "title": "Polmone: distinguere via di conduzione e superficie di scambio",
+          "text": [
+            "Nella micrografia 7 il centro mostra un lume stellato con una parete relativamente spessa e ripiegata. Attorno trovi numerosi spazi delimitati da setti molto sottili. La fonte identifica al centro un bronchiolo: il punto A ne indica il lume. B cade in uno spazio alveolare circostante. La pieghettatura della mucosa modifica il contorno del lume e non richiede una forma perfettamente rotonda.",
+            "La parete di un bronchiolo contiene epitelio e muscolo liscio; manca lo scheletro cartilagineo dei bronchi e non vi sono le loro ghiandole sottomucose. Il campo permette di confrontare la parete più consistente della via aerea con i sottili setti della regione respiratoria. Non basta una macchia scura per identificare con certezza un pneumocita di tipo II. I dettagli della barriera aria-sangue richiedono scala e preparazione adeguate.",
+            "La barriera di scambio comprende il sottile rivestimento alveolare, le lamine basali e l’endotelio dei capillari. I pneumociti di tipo I coprono gran parte della superficie; quelli di tipo II producono surfattante e partecipano al rinnovo epiteliale. Un alveolo non è un vaso: il suo lume comunica con le vie respiratorie. I capillari si trovano nei setti. Gli spazi possono apparire di dimensioni diverse per taglio e distensione; il solo diametro nella foto non definisce una malattia."
+          ],
+          "example": "Risposta guidata: “Distinguo una via aerea con parete organizzata da numerosi spazi di scambio separati da setti. La parete centrale senza cartilagine visibile, insieme al contesto e alla scheda, è coerente con bronchiolo”.",
+          "takeaway": "Prima ricostruisci parete e lume; poi collega conduzione e scambio.",
+          "figureIds": [
+            "micro-lung"
+          ]
+        },
+        {
+          "id": "intestino",
+          "title": "Intestino: villo, cripta e singola cellula non sono la stessa scala",
+          "text": [
+            "La micrografia 8 mostra proiezioni della mucosa verso il lume: i villi. Ogni proiezione ha un rivestimento epiteliale e un asse connettivale, la lamina propria. Non è una singola cellula gigante. In basso si vedono profili di ghiandole tubulari, le cripte, tagliati in direzioni diverse. La tavola conserva annotazioni originali: v indica un villo, le frecce evidenziano cellule caliciformi e gli asterischi alcuni profili ghiandolari.",
+            "L’epitelio è cilindrico semplice con enterociti e cellule caliciformi che producono mucine. I microvilli sono specializzazioni apicali dei singoli enterociti: a questa scala non si contano come i villi interi. Un profilo circolare nella mucosa può essere una cripta tagliata trasversalmente o un villo tagliato fuori asse; conta il rapporto fra lume, epitelio e asse connettivale. Non assegnare il tratto intestinale esatto se mancano ghiandole sottomucose, aggregati linfoidi o altri riferimenti.",
+            "Nel tenue i villi ampliano la superficie; nel colon normale i villi mancano e le cripte sono numerose, con molte cellule caliciformi. La mucosa comprende epitelio, lamina propria e muscularis mucosae; la tonaca muscolare esterna è un altro strato, più profondo, implicato nella motilità. La foto mostra soprattutto mucosa, quindi non autorizza a descrivere come visibile tutta la parete."
+          ],
+          "example": "Se un esaminatore indica v, rispondi “villo con epitelio e asse connettivale”; se indica il bordo apicale di una cellula, parla di microvilli. Spiega perché due parole simili corrispondono a ordini di grandezza diversi.",
+          "takeaway": "Villo = proiezione della mucosa; microvillo = parte della superficie cellulare; cripta = invaginazione ghiandolare.",
+          "figureIds": [
+            "micro-intestine"
+          ]
+        },
+        {
+          "id": "rene",
+          "title": "Rene: separare glomerulo, spazio urinario e tubulo",
+          "text": [
+            "La micrografia 9 è una preparazione immunoistochimica per CD10, non la comune ematossilina-eosina. Il segnale bruno mette in risalto glomeruli e parte dell’epitelio tubulare. A indica un ciuffo glomerulare racchiuso in una capsula; B un profilo tubulare. La presenza di corpuscoli renali permette di collocare il campo nella corticale. La midollare contiene tubuli e dotti, ma non corpuscoli renali.",
+            "Il glomerulo è un gomitolo di capillari. Fra il foglietto viscerale della capsula, formato da podociti, e quello parietale si trova lo spazio urinario. Il filtrato raccolto qui entra nel tubulo prossimale al polo urinario; sangue afferente ed efferente entrano ed escono al polo vascolare. Non è una vena che si continua direttamente nel tubulo. Il filtro mantiene distinti compartimento ematico e urinario.",
+            "La fonte indica positività CD10 in glomeruli e tubuli prossimali: il colore aiuta nel contesto, ma non equivale a una misura della filtrazione e non identifica da solo ogni segmento negativo. Le anse, i tubuli distali e i dotti collettori si distinguono anche per sede e morfologia. La macula densa appartiene al tratto distale presso il polo vascolare; le cellule granulari della parete arteriolare rilasciano renina. Questo campo non consente di indicare con sicurezza tutte le componenti iuxtaglomerulari."
+          ],
+          "example": "Per descrivere il percorso, tieni due linee: arteriole → capillari glomerulari → arteriole efferenti; spazio urinario → tubulo prossimale → ansa → distale → sistema collettore. Una freccia di filtrazione collega i compartimenti senza confonderli.",
+          "takeaway": "I corpuscoli localizzano la corticale; il segnale di una colorazione non misura automaticamente una funzione.",
+          "figureIds": [
+            "micro-kidney"
+          ]
+        },
+        {
+          "id": "fegato",
+          "title": "Fegato: ricostruire i percorsi da una trama",
+          "text": [
+            "La micrografia 10 usa una colorazione per reticolina: la trama scura evidenzia il sostegno delle lamine epatocitarie e i rapporti fra cellule e spazi sinusoidali. Non usare la regola “fegato uguale rosa”: la tecnica cambia il contrasto. A indica una regione portale con più profili; B una venula epatica con una singola ampia apertura. La fonte identifica questi riferimenti. Non tutti i rami della triade sono isolabili con la stessa chiarezza a questa scala.",
+            "Nel modello del lobulo classico, rami di vena porta e arteria epatica portano sangue verso i sinusoidi e quindi verso la vena centrale. L’epatocita riceve sostanze dal sangue attraverso il rapporto con il compartimento sinusoidale e lo spazio perisinusoidale. La bile segue un’altra via: canalicoli fra epatociti, duttuli e dotti in direzione delle regioni portali. Un canalicolo biliare non è un capillare sanguigno.",
+            "Il lobulo disegnato come esagono regolare è una convenzione utile a descrivere i rapporti. Il preparato reale non deve contenere un esagono perfetto con sei triadi contemporaneamente visibili. Una vena più ampia non è necessariamente la porta: osserva parete, strutture vicine e contesto. Non applicare a questa esercitazione criteri diagnostici su spessore delle lamine o malattie; qui si impara l’architettura normale."
+          ],
+          "example": "Ricostruisci sul foglio due frecce di colore diverso: sangue dalla regione portale verso la vena centrale; bile dagli epatociti verso le vie biliari portali. Poi verifica che nessuna freccia faccia sfociare la bile in una vena.",
+          "takeaway": "Sangue e bile hanno vie distinte e, nel modello lobulare, direzioni opposte.",
+          "figureIds": [
+            "micro-liver"
+          ]
+        }
+      ],
+      "oral": {
+        "prompt": "Descrivi una delle quattro micrografie, poi confrontala con un organo che potrebbe essere confuso con essa.",
+        "answer": "Nel polmone distinguo via aerea e setti alveolari; nel tenue villi e cripte della mucosa. Nel rene riconosco corpuscoli corticali e tubuli, separando sangue e filtrato. Nel fegato distinguo regioni portali e drenaggio venoso e ricostruisco il percorso opposto della bile. Esplicito la colorazione e ciò che il campo non risolve. Una sequenza di cerchi può rappresentare tubuli o follicoli: è il contenuto e il contesto a guidare.",
+        "criteria": [
+          "Almeno due indizi osservabili",
+          "Un confronto ragionato con un’alternativa",
+          "Percorso funzionale senza mescolare lumi",
+          "Limiti della preparazione"
+        ]
+      }
+    },
+    {
+      "id": "anat-lab-ghiandole",
+      "subject": "anatomia",
+      "title": "Laboratorio · ghiandole e organi cellulari",
+      "description": "Confrontare follicoli, acini, tessuto linfoide e gonadi senza confondere una forma simile con la stessa funzione.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anatomia-endocrino",
+        "anatomia-organi-linfoidi",
+        "anatomia-genitale"
+      ],
+      "sources": [
+        "an-endocrine-thyroid",
+        "hi-epithelia",
+        "hi-lymph",
+        "an-reproductive-testes",
+        "an-reproductive-ovaries",
+        "an-final-source-micro-thyroid"
+      ],
+      "openstax": [
+        "an-endocrine-thyroid",
+        "hi-epithelia",
+        "hi-lymph",
+        "an-reproductive-testes",
+        "an-reproductive-ovaries"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Tiroide: un deposito extracellulare dentro un organo endocrino",
+        "Ghiandole esocrine: leggere il percorso del secreto",
+        "Linfonodo, milza e timo: distinguere ciò che attraversa l’organo",
+        "Gonadi e vie genitali: produzione, maturazione e trasporto"
+      ],
+      "sections": [
+        {
+          "id": "tiroide",
+          "title": "Tiroide: un deposito extracellulare dentro un organo endocrino",
+          "text": [
+            "La micrografia 11 presenta numerosi profili tondeggianti con materiale rosa omogeneo al centro e un bordo di cellule con nuclei scuri. Sono sezioni di follicoli tiroidei; A indica la colloide e B il rivestimento follicolare. Gli ampi spazi bianchi verticali fra frammenti non vanno scambiati per dotti escretori: possono derivare dal taglio e dalla preparazione.",
+            "Un follicolo è una struttura tridimensionale chiusa; il taglio ne mostra un anello. La colloide contiene tireoglobulina, legata alla sintesi e al deposito dei precursori degli ormoni tiroidei. Le cellule follicolari interagiscono con il contenuto apicale e rilasciano ormoni dal versante basale verso interstizio e capillari. Il lume del follicolo non comunica con una superficie esterna mediante un dotto.",
+            "Questo distingue la tiroide da una ghiandola esocrina, pur in presenza di un lume. La paratiroide non è costituita da follicoli pieni di colloide; il pancreas endocrino forma isole fra gli acini esocrini. Le cellule C tiroidee non si identificano con sicurezza scegliendo a caso una cellula più chiara nella foto: occorrono posizione, morfologia e talvolta tecniche specifiche."
+          ],
+          "example": "“C’è un lume, dunque è esocrina” è una deduzione errata. Correggila chiedendo dove va il prodotto finale: gli ormoni tiroidei raggiungono il sangue, non un dotto verso il tubo digerente.",
+          "takeaway": "Follicolo chiuso e dotto escretore sono strutture diverse.",
+          "figureIds": [
+            "micro-thyroid"
+          ]
+        },
+        {
+          "id": "esocrine",
+          "title": "Ghiandole esocrine: leggere il percorso del secreto",
+          "text": [
+            "Per descrivere una ghiandola segui il prodotto dalla cellula alla superficie. L’adenomero produce; il dotto conduce. Nella sudoripara eccrina il tratto secernente è un tubulo avvolto a gomitolo e il dotto raggiunge la cute. Se lo tagli, vedi molti profili circolari vicini: non significa necessariamente che vi siano molti dotti ramificati. La struttura tridimensionale spiega la molteplicità dei profili.",
+            "Nella sebacea le cellule accumulano lipidi e si disgregano contribuendo al secreto olocrino, generalmente diretto nel follicolo pilifero. Nel pancreas esocrino gli acini producono componenti del succo pancreatico e i dotti le convogliano al duodeno. Gli acini non sono isole endocrine; le isole hanno cellule che rilasciano ormoni al sangue e non si svuotano nei dotti pancreatici.",
+            "Le ghiandole gastriche e le cripte intestinali si trovano nella mucosa; le salivari maggiori sono organi esterni alla parete collegati da dotti. Nella mammella funzionante distinguere produzione e contrazione mioepiteliale permette di spiegare perché secrezione lattea ed espulsione non siano lo stesso evento. Il criterio unico “chiaro uguale muco” è insufficiente: secreto e tecnica di preparazione cambiano l’aspetto."
+          ],
+          "example": "Disegna un filo arrotolato e taglialo idealmente con un piano: i tanti cerchi appartengono allo stesso filo. Usa questa analogia per spiegare i profili di una ghiandola tubulare convoluta.",
+          "takeaway": "Classifica separatamente forma dell’adenomero, ramificazione del dotto e modalità di secrezione."
+        },
+        {
+          "id": "linfoidi",
+          "title": "Linfonodo, milza e timo: distinguere ciò che attraversa l’organo",
+          "text": [
+            "Un campo pieno di piccoli nuclei non basta per distinguere gli organi linfoidi: cerca l’organizzazione a basso ingrandimento e il percorso del fluido. Nel linfonodo la linfa arriva da vasi afferenti, attraversa seni e raggiunge l’efferente all’ilo. La corticale presenta follicoli B; la paracorticale è ricca di T; nella midollare si distinguono cordoni e seni. Il centro germinativo compare in follicoli attivati, non in ogni follicolo.",
+            "La milza controlla il sangue. La polpa bianca comprende guaine linfatiche attorno ad arteriole e follicoli; la polpa rossa comprende cordoni e sinusoidi e partecipa alla rimozione degli eritrociti alterati. Non trasferire alla milza la sequenza afferente linfatico → seno sottocapsulare tipica del linfonodo. Il timo è lobulato, con corticale più densamente cellulare e midollare più chiara; i corpuscoli di Hassall sono un riferimento midollare.",
+            "Nel timo maturano e vengono selezionati linfociti T; nel midollo osseo si producono le cellule ematiche e maturano i B. I follicoli linfoidi non sono follicoli tiroidei: non hanno una cavità piena di colloide circondata da epitelio cubico. Il loro centro più chiaro contiene cellule e non rappresenta necessariamente un lume."
+          ],
+          "example": "Per una risposta comparativa usa quattro parole guida: linfonodo–linfa, milza–sangue, timo–T, midollo–emopoiesi. Poi aggiungi almeno una struttura caratteristica per ciascuno, senza fermarti allo slogan.",
+          "takeaway": "La stessa famiglia di cellule può essere organizzata in organi con percorsi e compiti diversi."
+        },
+        {
+          "id": "genitali",
+          "title": "Gonadi e vie genitali: produzione, maturazione e trasporto",
+          "text": [
+            "Nel testicolo i tubuli seminiferi ospitano cellule germinali a stadi diversi e cellule di Sertoli. Le cellule di Leydig si trovano nell’interstizio fra tubuli e producono testosterone. Una sezione attraversa molti tubuli convoluti: i profili rotondi non sono altrettanti testicoli. La barriera emato-testicolare dipende soprattutto da giunzioni fra Sertoli e divide compartimenti del loro epitelio, non è la parete di una grande arteria.",
+            "Il percorso spermatico passa da tubuli retti e rete testis ai condottini efferenti, al dotto dell’epididimo e al deferente. L’epididimo contribuisce alla maturazione e alla conservazione degli spermatozoi; il deferente possiede una robusta parete muscolare per il trasporto. Vescicole seminali e prostata aggiungono secrezioni: non sono la sede della spermatogenesi.",
+            "Nell’ovaio un follicolo contiene un ovocita e cellule di sostegno; l’antro compare durante la crescita follicolare. Dopo ovulazione il corpo luteo ha funzione endocrina. La tuba raccoglie l’ovocita e ne favorisce il trasporto; l’utero possiede endometrio e miometrio, diversi per composizione e funzione. L’endometrio cambia durante il ciclo: una singola immagine non rappresenta tutte le fasi."
+          ],
+          "example": "Segui due percorsi separati: produzione di cellule germinali e rilascio di ormoni. Una gonade svolge entrambi, ma le cellule e le vie di uscita non coincidono.",
+          "takeaway": "Gonade, via di trasporto e ghiandola annessa non sono sinonimi."
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta follicolo tiroideo, follicolo linfoide e follicolo ovarico.",
+        "answer": "Il tiroideo è una struttura epiteliale chiusa con colloide e funzione endocrina. Il linfoide è un aggregato cellulare, principalmente B, che può sviluppare un centro germinativo. L’ovarico comprende ovocita e cellule follicolari, con strutture che cambiano durante la maturazione. Il termine condiviso non implica identico lume, contenuto o compito.",
+        "criteria": [
+          "Identificare contenuto e cellule dei tre follicoli",
+          "Distinguere centro germinativo, colloide e antro",
+          "Collegare ciascuno alla sua funzione"
+        ]
+      }
+    },
+    {
+      "id": "anat-spazio",
+      "subject": "anatomia",
+      "title": "Laboratorio · ricostruire il corpo nello spazio",
+      "description": "Passare fra viste e sezioni, localizzare cavità e ricostruire i rapporti su carta.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "piani",
+        "anatomia-cuore",
+        "anatomia-annessi-peritoneo",
+        "anatomia-pelvi-perineo"
+      ],
+      "sources": [
+        "os-an-terms",
+        "an-coronary-anatomy",
+        "an-digest-accessory",
+        "an-renal-gross",
+        "an-final-source-pelvic-floor"
+      ],
+      "openstax": [
+        "os-an-terms",
+        "an-coronary-anatomy",
+        "an-digest-accessory",
+        "an-renal-gross"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Tre coordinate prima di nominare una struttura",
+        "Torace: tre compartimenti, non un unico sacco",
+        "Addome: superficie, peritoneo e retroperitoneo",
+        "Pelvi: una sequenza sagittale e un pavimento"
+      ],
+      "sections": [
+        {
+          "id": "orientare",
+          "title": "Tre coordinate prima di nominare una struttura",
+          "text": [
+            "Una figura è una vista, una sezione oppure una ricostruzione con parti rimosse. Prima di usarla dichiara quale sia. Nella vista anteriore la destra del soggetto compare a sinistra di chi guarda. In una sezione assiale presentata secondo la convenzione radiologica si osserva dai piedi: la destra del soggetto è ancora a sinistra del foglio, ma devi verificarlo con le indicazioni dell’immagine. Una sezione anatomica dall’alto può seguire un’altra convenzione.",
+            "Usa tre direzioni indipendenti: destra/sinistra, anteriore/posteriore, superiore/inferiore. Il piano sagittale conserva le direzioni anteroposteriore e superoinferiore ma attraversa un solo livello laterale; il frontale conserva laterale e superoinferiore; il trasversale conserva laterale e anteroposteriore. Non dedurre “anteriore” dal fatto che un oggetto sia più in alto sullo schermo.",
+            "La tavola delle tre viste mostra gli stessi punti ideali di riferimento proiettati da direzioni diverse. È uno schema geometrico, non una sezione diagnostica: sovrapporre due punti in una vista non significa che occupino lo stesso luogo nello spazio. Per ricostruire un rapporto servono almeno una seconda vista o un’informazione di profondità.",
+            "La cavità dorsale comprende cavità cranica e canale vertebrale, che proteggono encefalo e midollo. La cavità ventrale comprende torace e compartimento addominopelvico, separati dal diaframma; addome e pelvi sono continui. “Dorsale” e “ventrale” qui identificano grandi compartimenti: il fatto che un organo sia posteriore nell’addome, come un rene, non lo colloca nel canale vertebrale."
+          ],
+          "example": "Disegna sterno davanti a vertebra e cuore fra i due, spostato in parte a sinistra. In vista anteriore sterno e cuore possono sovrapporsi; in vista laterale la profondità diventa visibile. Spiega il cambiamento senza spostare gli organi.",
+          "takeaway": "Ruota il punto di osservazione, non i significati di destra, anteriore e superiore.",
+          "diagram": "anatomy-projections"
+        },
+        {
+          "id": "torace",
+          "title": "Torace: tre compartimenti, non un unico sacco",
+          "text": [
+            "La cavità toracica contiene due regioni pleuropolmonari laterali e il mediastino centrale. Il cuore è nel mediastino, contenuto nel sacco pericardico; non è dentro la cavità pleurica sinistra. La pleura viscerale aderisce al polmone e quella parietale riveste la parete. Fra esse la cavità pleurica è uno spazio potenziale con un sottile film liquido, non un grande vuoto pieno d’aria in condizioni normali.",
+            "Dietro lo sterno si trovano strutture mediastiniche; l’esofago passa posteriormente alla trachea nel mediastino superiore e posteriormente al cuore più in basso. Il diaframma separa torace e addome, ma permette passaggi organizzati per vasi, esofago e altri elementi. La base del cuore è prevalentemente posteriore; l’apice si dirige anteriormente, inferiormente e a sinistra: “base” non significa il punto più basso.",
+            "Per un disegno trasversale semplificato traccia parete anteriore, vertebra posteriore e due polmoni laterali; poi colloca mediastino e cuore fra essi. Non trasportare sul piano della figura tutte le strutture di livelli diversi come se una sola sezione le intersecasse contemporaneamente. I rapporti variano procedendo in senso cranio-caudale."
+          ],
+          "example": "Descrivi il cuore con quattro relazioni: tra i polmoni, sopra il diaframma, dietro parte dello sterno, davanti all’esofago. Poi aggiungi pericardio e orientamento dell’apice.",
+          "takeaway": "Un rapporto topografico contiene una direzione e una struttura di confronto.",
+          "diagram": "anatomy-compartments"
+        },
+        {
+          "id": "addome",
+          "title": "Addome: superficie, peritoneo e retroperitoneo",
+          "text": [
+            "Per localizzare un organo usa quadranti o regioni, poi profondità e rapporti. I quattro quadranti derivano da un piano mediano e uno trasversale passante per l’ombelico. Le nove regioni usano due linee medioclavicolari e due piani trasversali, comunemente sottocostale e intertubercolare. Le proiezioni sono riferimenti, non scatole che contengono un solo organo.",
+            "Il peritoneo parietale riveste la parete; quello viscerale ricopre superfici degli organi. Un viscere intraperitoneale è rivestito e spesso sospeso da mesenteri, ma non galleggia dentro lo spazio potenziale fra i foglietti. I reni sono retroperitoneali; la maggior parte del pancreas e del duodeno è secondariamente retroperitoneale. La coda pancreatica raggiunge l’ilo splenico nel legamento splenorenale: evita la regola senza eccezioni “tutto il pancreas è retroperitoneale”.",
+            "Nel piano anteroposteriore lo stomaco è davanti a gran parte del pancreas; posteriormente si trovano grandi vasi, colonna e muscoli della parete. Le anse mobili possono cambiare proiezione. Un rapporto è più stabile di una coordinata misurata sulla pagina: descrivere il rene come posteriore al peritoneo parietale è più utile che dire “si trova in basso a destra nel disegno”."
+          ],
+          "example": "Disegna un mesentere come doppio foglietto che accompagna vasi verso un’ansa; lascia la cavità peritoneale come spazio fra superfici, non come contenitore dell’ansa. Colloca il rene dietro il rivestimento parietale posteriore.",
+          "takeaway": "Proiezione superficiale e rapporto peritoneale rispondono a domande diverse."
+        },
+        {
+          "id": "pelvi",
+          "title": "Pelvi: una sequenza sagittale e un pavimento",
+          "text": [
+            "La pelvi ossea delimita uno spazio che prosegue superiormente nell’addome e inferiormente è sostenuto dal pavimento pelvico. Nella configurazione femminile, una sezione sagittale mediana mostra anteriormente vescica e uretra, centralmente utero e vagina e posteriormente retto. Nella configurazione maschile trovi vescica e uretra con prostata inferiormente alla vescica, e retto posteriormente. Sono rapporti generali: riempimento e posizione uterina possono modificarne l’aspetto.",
+            "Il diaframma pelvico comprende elevatore dell’ano e coccigeo; non coincide con tutti i muscoli del perineo. La tavola in vista superiore permette di seguire i passaggi uretrale, vaginale e rettale dalla parte anteriore a quella posteriore. La presenza di un passaggio non significa che il muscolo corrispondente sia uno sfintere volontario isolato: l’elevatore sostiene e coordina anche i rapporti dei visceri.",
+            "Per ricostruire il volume disegna prima anello osseo, poi una superficie di sostegno e infine i condotti che l’attraversano. Il peritoneo ricopre solo parte delle superfici pelviche e forma recessi; non riveste internamente uretra e vagina come fosse la loro mucosa. Separare parete, pavimento e visceri evita di mettere tutti i muscoli “dentro la vescica”."
+          ],
+          "example": "Dalla vista superiore passa a quella laterale: il passaggio più anteriore rimane anteriore anche quando cambia posto sul foglio. Controlla il risultato usando pube e sacro, non la memoria del colore.",
+          "takeaway": "Prima orienta pube e sacro; poi distingue sostegno muscolare e condotti.",
+          "figureIds": [
+            "pelvic-floor"
+          ]
+        }
+      ],
+      "oral": {
+        "prompt": "Ricostruisci torace, addome e pelvi su tre piccoli disegni orientati.",
+        "answer": "Indico sempre anteriore, posteriore e lato del soggetto. Nel torace separo le due regioni pleuriche dal mediastino e dal pericardio. Nell’addome distinguo superficie topografica, organi e foglietti peritoneali, collocando i reni posteriormente. In pelvi uso pube e sacro per ordinare i visceri e aggiungo il pavimento. Una vista laterale completa ciò che si sovrappone in vista frontale.",
+        "criteria": [
+          "Tre direzioni esplicite",
+          "Compartimenti distinti",
+          "Almeno quattro rapporti corretti",
+          "Seconda vista coerente con la prima"
+        ]
+      }
+    },
+    {
+      "id": "anat-regioni-superiori",
+      "subject": "anatomia",
+      "title": "Anatomia applicata · spalla, gomito e presa",
+      "description": "Seguire attacchi, nervi e direzione del tiro nelle diverse viste dell’arto superiore.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anatomia-spalla-braccio",
+        "anatomia-avambraccio",
+        "anatomia-mano"
+      ],
+      "sources": [
+        "anatomy-upper",
+        "an-selected-joints",
+        "anatomy-pns",
+        "an-final-source-regional-shoulder"
+      ],
+      "openstax": [
+        "anatomy-upper",
+        "an-selected-joints",
+        "anatomy-pns"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Cambiare vista senza perdere la cuffia",
+        "Gomito e pronosupinazione: quale osso riceve il tiro?",
+        "Presa: lunghi tendini e piccoli muscoli",
+        "Dal sollevamento alla descrizione anatomica"
+      ],
+      "sections": [
+        {
+          "id": "scapola",
+          "title": "Cambiare vista senza perdere la cuffia",
+          "text": [
+            "La tavola regionale mostra la spalla sinistra superficialmente e dopo rimozione di parte di deltoide e grande pettorale. “Cut” indica un muscolo sezionato per esporre il piano profondo: una struttura non visibile nella vista superficiale non è assente dal corpo. La spina scapolare è un riferimento posteriore che separa fosse sovraspinata e infraspinata. La faccia costale, anteriore, accoglie il sottoscapolare.",
+            "Sovraspinato, infraspinato, piccolo rotondo e sottoscapolare costituiscono la cuffia. I primi tre raggiungono il tubercolo maggiore dell’omero; il sottoscapolare il minore. I tendini partecipano alla stabilizzazione della testa omerale rispetto alla glena mentre i muscoli generano momenti articolari. Grande rotondo e deltoide non diventano parte della cuffia perché sono vicini.",
+            "Per ricostruire l’azione confronta attacco e posizione rispetto all’articolazione: infraspinato e piccolo rotondo contribuiscono alla rotazione esterna; sottoscapolare alla interna. Il sovraspinato contribuisce all’abduzione e alla stabilità, ma l’elevazione del braccio richiede anche deltoide e movimento scapolare. Trapezio e dentato anteriore cooperano nella rotazione superiore della scapola: non si deve attribuire tutta l’elevazione a una sola cerniera."
+          ],
+          "example": "Copri le etichette e usa la spina scapolare per separare i due muscoli posteriori principali. Poi ruota idealmente la scapola verso la gabbia toracica e colloca il sottoscapolare sulla faccia nascosta.",
+          "takeaway": "La cuffia avvolge l’articolazione da più lati; una vista non mostra tutte le sue componenti.",
+          "figureIds": [
+            "regional-shoulder"
+          ]
+        },
+        {
+          "id": "gomito",
+          "title": "Gomito e pronosupinazione: quale osso riceve il tiro?",
+          "text": [
+            "Il complesso del gomito comprende articolazioni omeroulnare, omeroradiale e radioulnare prossimale. La flessoestensione e la pronosupinazione non sono lo stesso movimento. Nella seconda il radio ruota rispetto all’ulna e distalmente la mano segue il radio. In supinazione le ossa sono approssimativamente parallele; in pronazione il radio incrocia anteriormente l’ulna.",
+            "Il bicipite si inserisce sulla tuberosità radiale: contribuisce a flessione e supinazione, soprattutto con gomito flesso. Il brachiale raggiunge l’ulna e flette anche quando cambia l’orientamento dell’avambraccio. Il tricipite raggiunge l’olecrano ed estende il gomito. Se confondi radio e ulna perdi la spiegazione dell’azione, anche ricordando perfettamente il nome del muscolo.",
+            "Nella fossa cubitale, una guida lateromediale per i principali elementi profondi è tendine del bicipite, arteria brachiale e nervo mediano. Il nervo radiale decorre più lateralmente; l’ulnare passa posteriormente all’epicondilo mediale. Questa disposizione non va trasferita identica al polso: nervi e vasi cambiano rapporti lungo il decorso."
+          ],
+          "example": "Per spiegare perché il brachiale resta un flessore durante la pronazione, parti dall’inserzione sull’ulna; per il bicipite collega inserzione radiale e supinazione.",
+          "takeaway": "Movimento, articolazione e inserzione devono essere coerenti nella stessa descrizione."
+        },
+        {
+          "id": "polso",
+          "title": "Presa: lunghi tendini e piccoli muscoli",
+          "text": [
+            "Il tunnel carpale ha un pavimento e pareti ossee e un tetto formato dal retinacolo dei flessori. Contiene nervo mediano e nove tendini: quattro del flessore superficiale, quattro del profondo e uno del lungo del pollice. Il tendine del flessore radiale del carpo percorre un canale distinto nel retinacolo; nervo e arteria ulnare passano nel canale di Guyon, superficialmente al retinacolo.",
+            "I flessori lunghi provengono dall’avambraccio e possono agire su più articolazioni. Il superficiale raggiunge la falange media; il profondo la distale. I muscoli intrinseci nascono nella mano. Lombricali e interossei possono flettere le metacarpofalangee ed estendere le interfalangee attraverso l’apparato estensore: “estensore delle dita” non identifica l’unico responsabile di ogni estensione.",
+            "La presa richiede anche stabilità del polso. Gli estensori possono opporsi al momento flessorio prodotto dai tendini lunghi, mantenendo una posizione favorevole. La distinzione fra agonista, antagonista e stabilizzatore dipende dal compito e dalla fase, non è un’etichetta immutabile del muscolo."
+          ],
+          "example": "Con la mano aperta, immagina di flettere le nocche lasciando dritte le articolazioni delle dita: questa combinazione aiuta a capire il ruolo degli intrinseci. Non richiede di trattare le dita come aste con una sola cerniera.",
+          "takeaway": "Il percorso del tendine e l’apparato estensore spiegano azioni combinate."
+        },
+        {
+          "id": "gesto",
+          "title": "Dal sollevamento alla descrizione anatomica",
+          "text": [
+            "Considera un oggetto sollevato davanti al corpo, poi mantenuto e abbassato lentamente. Distingui innanzitutto segmento mobile, articolazione e direzione. La flessione del gomito non comporta automaticamente flessione della spalla; puoi mantenere il braccio vicino al tronco e muovere soprattutto l’avambraccio. Il piano sagittale è un modello utile se il gesto resta vicino a quel piano.",
+            "Durante il sollevamento, flessori del gomito generano un momento opposto al peso. Durante la discesa controllata possono restare attivi mentre si allungano: l’azione è eccentrica. Se mantieni fermo l’oggetto, la risultante dei momenti è bilanciata e i muscoli possono lavorare quasi isometricamente. Non inferire inattività dall’assenza di movimento.",
+            "Una risposta anatomica completa collega ossa, superfici articolari, muscoli, tendini e nervi. Per il braccio anteriore ricorda il muscolocutaneo; il brachioradiale, pur contribuendo alla flessione, riceve il radiale. Funzione comune non significa innervazione comune. Un caso di debolezza descritto in un quiz permette di ragionare sui territori, ma da un gesto non si formula una diagnosi personale."
+          ],
+          "example": "Esponi in ordine: gomito → omero/radio/ulna → flessori → inserzioni → innervazione → fase del gesto. Chiudi spiegando la discesa eccentrica e il ruolo della stabilizzazione.",
+          "takeaway": "Descrivere una fase del movimento è più preciso che attribuire un gesto intero a un solo muscolo."
+        }
+      ],
+      "oral": {
+        "prompt": "Descrivi una presa con gomito flesso, includendo spalla, gomito, polso e dita.",
+        "answer": "La scapola fornisce una base mobile e la cuffia contribuisce al centraggio omerale. Al gomito flessori con inserzioni diverse producono flessione e, per il bicipite, supinazione. I flessori lunghi raggiungono le falangi mentre gli intrinseci coordinano le articolazioni digitali; gli estensori possono stabilizzare il polso. Distinguo muscolocutaneo, radiale, mediano e ulnare per territori, evitando un solo nervo per tutto il gesto.",
+        "criteria": [
+          "Rapporti superficiali e profondi della spalla",
+          "Inserzioni radiale e ulnare coerenti",
+          "Tunnel carpale distinto da Guyon",
+          "Fasi meccaniche e innervazioni corrette"
+        ]
+      }
+    },
+    {
+      "id": "anat-regioni-inferiori",
+      "subject": "anatomia",
+      "title": "Anatomia applicata · appoggio, passo e spinta",
+      "description": "Collegare bacino, ginocchio e piede attraverso muscoli, fasce e passaggi.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anatomia-anca-coscia",
+        "anatomia-gamba",
+        "anatomia-piede"
+      ],
+      "sources": [
+        "anatomy-lower",
+        "an-selected-joints",
+        "anatomy-pns",
+        "an-final-source-regional-hip"
+      ],
+      "openstax": [
+        "anatomy-lower",
+        "an-selected-joints",
+        "anatomy-pns"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Anca: piani profondi e bacino in appoggio",
+        "Ginocchio: superfici, menischi e trasmissione della forza",
+        "Caviglia e piede: un movimento non indica una sola articolazione",
+        "Un passo: ricostruire compiti diversi lungo l’arto"
+      ],
+      "sections": [
+        {
+          "id": "anca",
+          "title": "Anca: piani profondi e bacino in appoggio",
+          "text": [
+            "La tavola dell’anca destra presenta piani anteriori e posteriori. Nel pannello posteriore grande e medio gluteo sono parzialmente sezionati, lasciando visibili piccolo gluteo e rotatori profondi. La rimozione cambia l’accessibilità della struttura, non la sua posizione. Grande gluteo superficiale, medio e piccolo più profondi non formano tre copie con la stessa azione.",
+            "Medio e piccolo gluteo contribuiscono all’abduzione dell’anca e, in appoggio su una gamba, al controllo del bacino rispetto al femore. Il loro nervo è il gluteo superiore; il grande gluteo riceve il gluteo inferiore e contribuisce soprattutto all’estensione e alla rotazione esterna. Con il femore fermo il tiro può stabilizzare o muovere il bacino: origine e inserzione non impongono quale segmento debba restare immobile.",
+            "Il piriforme è un riferimento della regione glutea: il nervo sciatico emerge generalmente inferiormente a esso. Le varianti esistono, ma la descrizione di base deve prima costruire il decorso tipico. Ileopsoas passa anteriormente all’anca e raggiunge il piccolo trocantere; non è un muscolo del compartimento posteriore solo perché lo psoas nasce vicino alla colonna."
+          ],
+          "example": "In appoggio sulla gamba destra, considera il peso del tronco e dell’arto sinistro: tende a far scendere il lato sinistro del bacino. Gli abduttori dell’anca destra contribuiscono a contrastare quel momento.",
+          "takeaway": "Il muscolo può muovere il femore sul bacino oppure controllare il bacino sul femore.",
+          "figureIds": [
+            "regional-hip"
+          ]
+        },
+        {
+          "id": "ginocchio",
+          "title": "Ginocchio: superfici, menischi e trasmissione della forza",
+          "text": [
+            "Il ginocchio comprende rapporti femorotibiali e femoropatellari. I condili femorali si articolano con i piatti tibiali e i menischi migliorano congruenza e distribuzione del carico. La fibula non forma la principale superficie che riceve il carico femorale: l’articolazione tibiofibulare prossimale è distinta. I menischi sono fibrocartilagine, non la stessa cartilagine ialina che riveste le superfici articolari.",
+            "I crociati guidano e limitano traslazioni e rotazioni: l’anteriore limita lo scivolamento anteriore della tibia rispetto al femore e il posteriore quello posteriore, nel riferimento dichiarato. I collaterali contribuiscono alla stabilità laterale e mediale. “Intracapsulare” non significa necessariamente libero dentro la cavità sinoviale: i crociati sono esclusi dal rivestimento della cavità propriamente detta.",
+            "Il quadricipite trasmette forza alla patella mediante il tendine quadricipitale e da questa alla tuberosità tibiale attraverso il legamento patellare. La patella è un osso sesamoide che modifica il braccio di leva del meccanismo estensore. Le etichette inglesi della tavola possono usare “patellar tendon” in modo clinico: mantieni chiari i tratti sopra e sotto la patella."
+          ],
+          "example": "Quando descrivi una traslazione, specifica “tibia rispetto al femore”. Se inverti il segmento di riferimento devi invertire la direzione relativa; il legamento non cambia funzione perché cambia l’osservatore.",
+          "takeaway": "Distingui superfici, stabilizzatori passivi e catena estensoria."
+        },
+        {
+          "id": "caviglia",
+          "title": "Caviglia e piede: un movimento non indica una sola articolazione",
+          "text": [
+            "La talocrurale articola la troclea del talo con la pinza tibiofibulare e consente soprattutto dorsiflessione e flessione plantare. Inversione ed eversione coinvolgono soprattutto articolazioni sottoastragalica e trasversa del tarso, con movimenti combinati. “Ruotare il piede” senza nominare direzione e complesso articolare è una descrizione troppo vaga.",
+            "Dietro il malleolo mediale, il retinacolo dei flessori trattiene tendini del tibiale posteriore, flessore lungo delle dita e lungo dell’alluce, insieme a vasi tibiali posteriori e nervo tibiale. Dietro il malleolo laterale decorrono i tendini dei fibulari lungo e breve; anteriormente passano i tendini dorsiflessori e il fascio vascolonervoso anteriore. Non scambiare i passaggi mediale e laterale perché guardi il piede da una nuova vista.",
+            "Il tricipite surale raggiunge il calcagno attraverso il tendine calcaneale. Il tibiale anteriore dorsiflette e contribuisce all’inversione; i fibulari contribuiscono all’eversione. La linea del tendine rispetto agli assi articolari conta più della posizione del ventre muscolare nella fotografia."
+          ],
+          "example": "Disegna i due malleoli e tre corridoi: anteriore, posteromediale, posterolaterale. Inserisci un tendine e un nervo appropriati senza pretendere che tutti attraversino lo stesso tunnel.",
+          "takeaway": "Seguire il tendine fino all’inserzione aiuta a dedurre la componente del movimento."
+        },
+        {
+          "id": "passo",
+          "title": "Un passo: ricostruire compiti diversi lungo l’arto",
+          "text": [
+            "Nel cammino una gamba attraversa fasi di appoggio e oscillazione. Per analizzare l’anatomia non basta elencare tutti i muscoli dell’arto: scegli la fase e il compito. In appoggio il piede interagisce col suolo e il bacino deve essere controllato; durante l’oscillazione l’arto viene portato avanti e il piede deve evitare il contatto prematuro col terreno.",
+            "I dorsiflessori aiutano a sollevare l’avampiede in oscillazione; i plantarflessori contribuiscono al controllo della progressione e alla spinta nelle fasi appropriate. Gli abduttori dell’anca stabilizzano il bacino. Il quadricipite e gli ischiocrurali contribuiscono al controllo del ginocchio con ruoli che cambiano lungo il ciclo. Attivo non significa sempre concentrico: un muscolo può assorbire energia allungandosi.",
+            "Collega i territori nervosi: femorale per il quadricipite, gluteo superiore per medio e piccolo gluteo, tibiale per il compartimento posteriore della gamba, fibulare profondo per l’anteriore e superficiale per il laterale. Una difficoltà di dorsiflessione orienta una domanda su muscoli e percorsi, ma non basta per stabilire una causa clinica. Il compito è costruire una spiegazione anatomica verificabile."
+          ],
+          "example": "Racconta tre momenti: bacino stabile sull’arto in appoggio; piede che supera il terreno nell’oscillazione; flessione plantare nella spinta. Per ciascuno nomina un gruppo e il suo nervo.",
+          "takeaway": "La stessa persona usa molti gruppi e tipi di azione nello stesso passo."
+        }
+      ],
+      "oral": {
+        "prompt": "Collega anca, ginocchio e caviglia in una spiegazione del cammino.",
+        "answer": "Parto dalle fasi: in appoggio gli abduttori controllano il bacino, il ginocchio gestisce carico e orientamento e il piede trasferisce forze. In oscillazione i dorsiflessori favoriscono il distacco dell’avampiede dal terreno. Distinguo femorale, glutei, tibiale e fibulari; descrivo quadricipite-patella-tibia e tricipite surale-calcagno. Non confondo inversione con semplice dorsiflessione.",
+        "criteria": [
+          "Fase dichiarata",
+          "Almeno tre coppie muscolo-nervo corrette",
+          "Catena estensoria e passaggi malleolari",
+          "Distinzione tra controllo e produzione del movimento"
+        ]
+      }
+    },
+    {
+      "id": "anat-struttura-tempo",
+      "subject": "anatomia",
+      "title": "Anatomia generale · struttura, crescita e invecchiamento",
+      "description": "Completare le classificazioni e capire come cambia una struttura durante la vita.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anatomia-epiteli-ghiandole",
+        "anatomia-connettivi-osso",
+        "muscolo"
+      ],
+      "sources": [
+        "hi-epithelia",
+        "hi-ossification",
+        "an-tissue-aging",
+        "os-an-terms",
+        "an-bone-shape"
+      ],
+      "openstax": [
+        "hi-epithelia",
+        "hi-ossification",
+        "an-tissue-aging",
+        "os-an-terms",
+        "an-bone-shape"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Una classificazione completa dei rivestimenti",
+        "Organi cavi e pieni; muscoli paralleli e pennati",
+        "Crescere: sostituire un modello non significa allungare ogni cellula",
+        "Invecchiamento: distinguere tendenza, variabilità e malattia"
+      ],
+      "sections": [
+        {
+          "id": "epiteli",
+          "title": "Una classificazione completa dei rivestimenti",
+          "text": [
+            "Classifica un epitelio con numero di strati e forma delle cellule superficiali. Il pavimentoso semplice è sottile e adatto a scambi o superfici di scorrimento: endotelio e mesotelio sono esempi con sedi diverse. Il cubico semplice riveste molti tubuli renali e follicoli tiroidei; il cilindrico semplice compare in stomaco e intestino. La funzione non dipende solo dalla forma: secrezione, assorbimento e barriera richiedono specializzazioni diverse.",
+            "Gli epiteli pluristratificati proteggono superfici soggette a sollecitazioni. Il pavimentoso può essere cheratinizzato nell’epidermide o non cheratinizzato nell’esofago. Il cubico pluristratificato è tipico di alcuni dotti, come quelli delle sudoripare; il cilindrico pluristratificato è raro e si incontra in porzioni di grandi dotti e dell’uretra. La forma delle cellule profonde non cambia il nome assegnato in base alla superficie.",
+            "Nel pseudostratificato tutte le cellule raggiungono la lamina basale, ma non tutte la superficie: i nuclei a quote diverse possono ingannare. Nell’urotelio vi sono realmente più strati; le cellule superficiali a ombrello cambiano forma con distensione. Non chiamarlo “semplice” quando la vescica è piena. Per identificare una sede, completa sempre la classificazione con contesto e specializzazioni."
+          ],
+          "example": "Confronta un dotto sudoriparo e un tubulo renale: entrambi possono mostrare cellule cubiche, ma differiscono per numero di strati e contesto. “Cubico” da solo non conclude la descrizione.",
+          "takeaway": "Il nome di un rivestimento combina strati, forma superficiale ed eventuale specializzazione.",
+          "table": {
+            "headers": [
+              "Rivestimento",
+              "Criterio",
+              "Una sede"
+            ],
+            "rows": [
+              [
+                "Pavimentoso semplice",
+                "Uno strato appiattito",
+                "Endotelio dei vasi"
+              ],
+              [
+                "Cubico semplice",
+                "Uno strato cubico",
+                "Follicolo tiroideo"
+              ],
+              [
+                "Cilindrico semplice",
+                "Uno strato alto",
+                "Intestino"
+              ],
+              [
+                "Pseudostratificato",
+                "Tutte le cellule alla base",
+                "Vie respiratorie maggiori"
+              ],
+              [
+                "Pavimentoso pluristratificato",
+                "Superficie appiattita",
+                "Esofago / epidermide"
+              ],
+              [
+                "Cubico pluristratificato",
+                "Superficie cubica, più strati",
+                "Dotto sudoriparo"
+              ],
+              [
+                "Cilindrico pluristratificato",
+                "Superficie alta, più strati",
+                "Porzioni di grandi dotti"
+              ],
+              [
+                "Urotelio",
+                "Strati con cellule a ombrello",
+                "Vie urinarie"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "organi",
+          "title": "Organi cavi e pieni; muscoli paralleli e pennati",
+          "text": [
+            "Un organo cavo possiede un lume e una parete organizzata. Nel tubo digerente distingui mucosa, sottomucosa, muscolare esterna e rivestimento esterno sieroso o avventiziale secondo la sede. Non applicare automaticamente gli stessi nomi a un vaso: la parete vascolare viene descritta come intima, media e avventizia. La forma a tubo non rende identica l’organizzazione.",
+            "In un organo pieno, parenchima indica la componente funzionale caratteristica e stroma il sostegno connettivale con vasi e nervi. Capsula, setti, lobi e lobuli possono organizzare il volume, ma non ogni organo presenta una capsula completa o lobuli delimitati in modo evidente. Un organo pieno può contenere lumi microscopici: il rene non diventa un organo cavo soltanto perché possiede tubuli.",
+            "Anche nel muscolo la forma interna conta: fasci paralleli o fusiformi hanno fibre orientate vicino all’asse del tiro; nei pennati le fibre sono oblique rispetto al tendine, su uno o più lati. La disposizione influenza numero di fibre in parallelo, escursione e trasmissione della forza. Non si deduce la forza reale dalla sola lunghezza apparente del muscolo: attivazione, sezione fisiologica, angolo di pennazione e stato meccanico contano. Agonista, antagonista e sinergista descrivono il ruolo in un compito, non la forma."
+          ],
+          "example": "Descrivi un rene: organo pieno con parenchima e stroma, contenente molti tubuli e una via di raccolta. Descrivi un muscolo pennato: fibre oblique che convergono sul tendine, senza chiamarle fibre collagene.",
+          "takeaway": "Classificazioni diverse rispondono a domande diverse: architettura, tessuto e ruolo funzionale."
+        },
+        {
+          "id": "crescita",
+          "title": "Crescere: sostituire un modello non significa allungare ogni cellula",
+          "text": [
+            "Nella crescita longitudinale di un osso lungo la cartilagine di accrescimento organizza proliferazione e maturazione dei condrociti. Sul versante verso la diafisi la cartilagine viene calcificata e progressivamente sostituita da osso con ingresso di vasi e cellule. I condrociti non diventano automaticamente tutti osteoblasti; descrivi la sostituzione del tessuto, evitando una semplice trasformazione di matrice cartilaginea in ossea.",
+            "La crescita in spessore avviene soprattutto per deposizione periostale con rimodellamento delle superfici. Modellamento e rimodellamento non coincidono: il primo cambia forma e dimensioni; il secondo rinnova tessuto attraverso riassorbimento e deposizione coordinati e continua nell’adulto. Quando la cartilagine di accrescimento si chiude, l’osso può ancora rimodellarsi ma non continua la stessa crescita longitudinale.",
+            "La crescita modifica rapporti e proporzioni corporee. La cavità cranica, le ossa degli arti e le curvature vertebrali non si sviluppano come una fotografia semplicemente ingrandita. Anche il circolo cambia alla nascita: la cessazione della circolazione placentare e l’avvio della respirazione modificano pressioni e flussi, favorendo chiusura dei collegamenti fetali. Distingui cambiamento funzionale iniziale e trasformazione anatomica progressiva."
+          ],
+          "example": "Se un adulto rinnova matrice ossea, non significa che stia diventando più alto grazie a nuove cartilagini di accrescimento. Spiega la differenza fra crescita longitudinale e turnover dell’osso.",
+          "takeaway": "Crescita, modellamento e rimodellamento sono processi collegati ma distinti.",
+          "flow": [
+            "Cartilagine di accrescimento: proliferazione",
+            "Maturazione e ipertrofia dei condrociti",
+            "Calcificazione e invasione vascolare",
+            "Deposizione e rimodellamento osseo"
+          ]
+        },
+        {
+          "id": "invecchiamento",
+          "title": "Invecchiamento: distinguere tendenza, variabilità e malattia",
+          "text": [
+            "L’anatomia studia anche il tempo. Con l’età cambiano composizione dei tessuti, capacità di riparazione e rapporto fra cellule e matrice. La cute tende a essere più sottile e meno elastica; nel sistema muscolare possono ridursi massa e funzione; nell’osso il bilancio fra riassorbimento e deposizione può diventare sfavorevole. Queste tendenze non descrivono allo stesso modo ogni persona né equivalgono a una diagnosi.",
+            "La risposta a uso, disuso e lesione dipende dal tessuto. Un epitelio con cellule proliferanti può rinnovarsi; il muscolo scheletrico dispone di cellule satelliti ma non ricostruisce senza limite ogni perdita; cartilagine articolare e tessuto nervoso centrale hanno capacità riparative differenti e spesso limitate. Fibrosi e rigenerazione non sono sinonimi: una cicatrice può ristabilire continuità senza riprodurre l’architettura e la funzione iniziali.",
+            "Per collegare anatomia e attività motoria, descrivi quali strutture sopportano carico e quali devono coordinare il movimento. Evita di dedurre da età anagrafica un divieto o un programma di esercizio personale. In sede d’esame è più corretto spiegare variabilità, adattamento e limiti di riparazione che affermare “a una certa età tutti i tessuti non funzionano più”."
+          ],
+          "example": "Confronta una ferita superficiale riepitelizzata e una cicatrice fibrosa profonda: entrambe sono esiti di riparazione, ma la seconda può non recuperare la struttura specializzata originale.",
+          "takeaway": "Cambiare con l’età non significa perdere tutta la funzione; riparare non significa sempre rigenerare."
+        },
+        {
+          "id": "ossa",
+          "title": "Classificare un osso dalla forma, non dai centimetri",
+          "text": [
+            "Ossa lunghe, brevi, piatte e irregolari sono categorie morfologiche. In un osso lungo prevale una dimensione e si riconoscono diafisi ed estremità: femore e falangi sono esempi molto diversi per grandezza. Le falangi non diventano ossa brevi perché sono piccole. Le ossa brevi, come molte ossa del carpo e del tarso, hanno dimensioni più simili fra loro.",
+            "Le ossa piatte sono sottili rispetto all’estensione e possono essere curve: scapola, sterno e molte ossa della volta cranica offrono protezione e ampie superfici di attacco. Le irregolari, come le vertebre, hanno una forma complessa non riconducibile alle categorie precedenti. I sesamoidi si sviluppano in rapporto ai tendini; la patella è il principale esempio. Una categoria di forma non specifica da sola se l’osso sia tutto compatto o tutto spugnoso: entrambi possono cooperare nello stesso elemento.",
+            "La diafisi di molte ossa lunghe contiene una cavità midollare delimitata da una parete compatta; alle estremità è importante l’architettura trabecolare. Periostio esterno ed endostio interno rivestono superfici diverse. Non confondere il periostio con la cartilagine articolare che riveste le superfici di una sinoviale. Quando descrivi la forma, collega un esempio e una funzione, poi aggiungi l’organizzazione interna."
+          ],
+          "example": "Confronta una falange e una vertebra: la prima è un osso lungo piccolo, la seconda irregolare. Il criterio è il rapporto fra dimensioni e l’architettura della forma, non una soglia in centimetri.",
+          "takeaway": "Lungo non significa grande; piatto non significa perfettamente diritto.",
+          "table": {
+            "headers": [
+              "Tipo",
+              "Esempio",
+              "Criterio"
+            ],
+            "rows": [
+              [
+                "Lungo",
+                "Femore, falange",
+                "Una dimensione prevalente"
+              ],
+              [
+                "Breve",
+                "Molte ossa carpali",
+                "Dimensioni relativamente simili"
+              ],
+              [
+                "Piatto",
+                "Scapola, sterno",
+                "Spessore ridotto rispetto alla superficie"
+              ],
+              [
+                "Irregolare",
+                "Vertebra",
+                "Forma complessa"
+              ],
+              [
+                "Sesamoide",
+                "Patella",
+                "Rapporto con un tendine"
+              ]
+            ]
+          }
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta organizzazione di un organo, sviluppo e capacità di riparazione.",
+        "answer": "Distinguo il modello a parete e lume degli organi cavi dall’organizzazione in parenchima e stroma di quelli pieni. Nella crescita ossea separo sostituzione endocondrale e deposizione periostale; nell’adulto resta il rimodellamento. Con l’età cambiano tessuti e capacità di riparazione in modo variabile. Una cicatrice può ristabilire continuità senza rigenerare tutte le strutture specializzate.",
+        "criteria": [
+          "Architettura d’organo corretta",
+          "Crescita distinta da rimodellamento",
+          "Rigenerazione distinta da fibrosi",
+          "Nessuna diagnosi fondata solo sull’età"
+        ]
+      }
+    },
+    {
+      "id": "anat-esposizione",
+      "subject": "anatomia",
+      "title": "Preparazione all’orale · quattro percorsi ragionati",
+      "description": "Allenare una risposta completa, con collegamenti, disegno e confronto dopo il tentativo.",
+      "minutes": 35,
+      "bookIds": [],
+      "prerequisites": [
+        "anat-lab-visceri",
+        "anat-spazio",
+        "anat-regioni-superiori",
+        "anat-regioni-inferiori",
+        "anatomia-encefalo-protezioni"
+      ],
+      "sources": [
+        "an-selected-joints",
+        "an-renal-micro",
+        "anatomy-cns",
+        "hi-lymph"
+      ],
+      "openstax": [
+        "an-selected-joints",
+        "an-renal-micro",
+        "anatomy-cns",
+        "hi-lymph"
+      ],
+      "openstaxNote": "Letture facoltative per confrontare descrizioni e figure; il percorso italiano e le correzioni sono qui nella pagina.",
+      "objectives": [
+        "Traccia: descrivi una regione e giustifica il movimento",
+        "Traccia: dal rene intero a due percorsi separati",
+        "Traccia: dal recettore alla risposta e al controllo superiore",
+        "Traccia finale: osservare, confrontare, disegnare e correggersi"
+      ],
+      "sections": [
+        {
+          "id": "locomotore",
+          "title": "Traccia: descrivi una regione e giustifica il movimento",
+          "text": [
+            "Prova a parlare per quattro minuti della spalla e poi disegnala in due viste. I quattro minuti sono una consegna di esercitazione, non una durata ufficiale. Parti da clavicola, scapola e omero; indica i rapporti articolari, poi capsule e legamenti, infine muscoli e nervi. L’appoggio scapolotoracico è un rapporto funzionale di scorrimento e non una sinoviale con la stessa organizzazione della gleno-omerale.",
+            "Una risposta possibile collega glena e testa omerale, labbro glenoideo, capsula e cuffia. Il deltoide produce un importante momento di abduzione; la cuffia contribuisce al controllo della testa; trapezio e dentato anteriore orientano la scapola. L’elevazione completa non avviene tutta nella sola gleno-omerale. Per innervazione puoi citare ascellare per deltoide e piccolo rotondo, sovrascapolare per sovraspinato e infraspinato, nervi sottoscapolari per sottoscapolare.",
+            "Alla richiesta “perché una vista posteriore non mostra bene il sottoscapolare?” rispondi col rapporto della faccia costale. Per autocorreggerti cerca quattro errori: confusione di lato, inserzioni impossibili, nervi attribuiti solo per somiglianza del nome e movimenti spiegati con un solo muscolo. Ripeti il percorso su anca o ginocchio cambiando davvero superfici e vincoli."
+          ],
+          "example": "Struttura il foglio in cinque righe: ossa; articolazioni; vincoli; muscoli e attacchi; nervi e gesto. Dopo l’esposizione segna una lacuna concreta per riga, invece di un voto generico.",
+          "takeaway": "Una risposta buona connette strutture e funzione; un elenco lungo non basta."
+        },
+        {
+          "id": "viscere",
+          "title": "Traccia: dal rene intero a due percorsi separati",
+          "text": [
+            "Descrivi il rene iniziando da sede retroperitoneale, rivestimenti, ilo, corticale e midollare. Prosegui con piramidi, papille, calici e pelvi; soltanto dopo passa al nefrone. Questo ordine collega livelli di scala. Se inizi con una lista di canali ionici senza localizzare l’organo, non stai rispondendo alla domanda anatomica.",
+            "Traccia due percorsi distinti. Il sangue segue arteria renale, rami intrarenali, arteriola afferente, glomerulo, efferente e rete peritubulare o vasa recta secondo il tipo di nefrone, poi ritorno venoso. Il filtrato segue spazio della capsula, prossimale, ansa e distale; raggiunge il sistema collettore e, attraverso i dotti papillari, calici e pelvi. La filtrazione collega i compartimenti attraverso una barriera, non una comunicazione libera che faccia passare il sangue intero.",
+            "Integra la micrografia: corpuscoli indicano corticale; un campo privo di corpuscoli non dimostra automaticamente midollare, perché potresti aver campionato una zona corticale senza intersecarli. Per concludere descrivi l’apparato iuxtaglomerulare e una funzione delle vie urinarie, senza attribuire al glomerulo la produzione della bile o alla vescica la filtrazione."
+          ],
+          "example": "Disegna una freccia rossa per sangue e una blu per filtrato e urina, specificando che i colori sono didattici e non quelli reali. Il solo punto di collegamento deve rappresentare il processo di filtrazione attraverso la barriera.",
+          "takeaway": "La prova di comprensione è mantenere distinti i due percorsi mentre colleghi macro e microanatomia."
+        },
+        {
+          "id": "nervoso",
+          "title": "Traccia: dal recettore alla risposta e al controllo superiore",
+          "text": [
+            "Scegli il riflesso da stiramento come percorso iniziale. Il fuso neuromuscolare rileva cambiamenti di lunghezza e velocità di stiramento; l’afferenza raggiunge il midollo attraverso radice posteriore, con corpo cellulare nel ganglio spinale. L’attivazione del motoneurone del muscolo omonimo contribuisce alla risposta attraverso radice anteriore e nervo periferico. L’inibizione degli antagonisti richiede circuiti interneuronali.",
+            "Il circuito spinale non esaurisce il controllo del movimento. Vie discendenti modulano l’attività; cervelletto e nuclei della base partecipano a circuiti differenti. Il cervelletto contribuisce a coordinazione e correzione, ma non va disegnato come l’unico motoneurone che raggiunge il muscolo. La corteccia motoria agisce attraverso vie con stazioni e incroci: non è direttamente continua con ogni fibra muscolare.",
+            "Se la domanda cambia da riflesso a sensibilità cosciente, devi cambiare percorso. Tatto discriminativo e propriocezione cosciente risalgono principalmente nelle colonne dorsali e incrociano nel bulbo; dolore e temperatura seguono in gran parte il sistema anterolaterale, con incrocio spinale. Non esiste un unico “punto in cui tutti i nervi si incrociano”. Specifica sempre la modalità prima della via.",
+            "Una catena neuronale è una successione di neuroni collegati da sinapsi, non un unico neurone lunghissimo. Un neurone può distribuire il segnale a più bersagli, dando divergenza; più afferenze possono raggiungere una stessa cellula, dando convergenza. Interneuroni e connessioni ricorrenti trasformano la sequenza in una rete. Per descrivere una via devi perciò indicare sia le stazioni sia le connessioni, senza assumere che ogni informazione percorra un filo isolato."
+          ],
+          "example": "Usa cinque caselle: recettore, afferente, integrazione, efferente, effettore. Poi aggiungi una freccia discendente di modulazione, senza cancellare il circuito spinale.",
+          "takeaway": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
+          "diagram": "anatomy-reflex"
+        },
+        {
+          "id": "confronto",
+          "title": "Traccia finale: osservare, confrontare, disegnare e correggersi",
+          "text": [
+            "Usa una prova in quattro stazioni: descrivi una micrografia senza leggere la guida; confronta due organi; ricostruisci una regione in due viste; esponi un percorso di sangue, urina o impulso nervoso. Le stazioni sono un metodo di studio, non il formato ufficiale dell’esame. Il catalogo corrente indica orale; le tre prove scritte conservate nell’app riprendono invece il formato storico e servono ad allenare recupero e organizzazione.",
+            "Una risposta sulle immagini deve contenere osservazioni, interpretazione e limite. Esempio: “Vedo proiezioni con epitelio e asse connettivale; le interpreto come villi del tenue; da questo campo non assegno un tratto specifico”. Il confronto deve usare gli stessi criteri per entrambi gli oggetti: linfonodo e milza, per esempio, per fluido filtrato, organizzazione e funzione.",
+            "Dopo il tentativo apri il modello e assegna a ciascun criterio presente, incompleto o errato. Trasforma l’errore in un compito: se confondi arteria e dotto, ridisegna i percorsi; se perdi il lato, aggiungi assi e riferimenti; se ricordi nomi senza rapporti, ripeti una seconda vista. I quiz con voto verificano risposte selezionate; una buona percentuale non sostituisce la capacità di esporre e riconoscere immagini nuove."
+          ],
+          "example": "Oggi scegli un organo e una regione; domani ripeti con un’immagine diversa e senza leggere. Considera pronta la risposta solo se sai giustificare anche perché un’alternativa è sbagliata.",
+          "takeaway": "L’autocorrezione efficace identifica un errore preciso e lo collega a un paragrafo da ricostruire."
+        }
+      ],
+      "oral": {
+        "prompt": "Simula un colloquio: una regione, un organo, una micrografia e un circuito nervoso.",
+        "answer": "Organizzo ogni risposta per sede, struttura, rapporti e funzione. Per la regione scelgo ossa e articolazioni prima dei muscoli; per l’organo collego macro e micro e separo i percorsi; per l’immagine distinguo osservazione e inferenza; per il circuito nomino recettore, afferente, integrazione, efferente ed effettore. Dopo il tentativo confronto ogni criterio e ripasso il paragrafo pertinente.",
+        "criteria": [
+          "Quattro risposte senza consultazione iniziale",
+          "Rapporti coerenti in due viste",
+          "Indizi osservabili nelle immagini",
+          "Percorsi senza salti di compartimento",
+          "Errori annotati e seconda esposizione"
+        ]
+      }
     }
   ],
   "sources": [
@@ -27398,6 +28260,133 @@
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+21+novies&codiceOrdinamento=0000000000000219999900009000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B00CBF74C-1642-41D9-AE4F-6CD18551724F%7D",
       "scope": "Testo vigente dal 18 dicembre 2025, verificato il 22 ottobre 2026: limite ordinario massimo di sei mesi per autorizzazioni e vantaggi economici, con altri presupposti ed eccezioni.",
       "checked": "2026-10-22"
+    },
+    {
+      "id": "an-tissue-aging",
+      "title": "OpenStax · 4.6 Tissue Injury and Aging",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-6-tissue-injury-and-aging",
+      "scope": "Confronto di riparazione, rigenerazione e cambiamenti tissutali con l’età; non una guida clinica individuale.",
+      "checked": "2026-10-22",
+      "reading": {
+        "section": "4.6 Tissue Injury and Aging",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-22"
+      }
+    },
+    {
+      "id": "an-catalogue-2026",
+      "title": "UniBa · Anatomia umana e applicata 2026/27",
+      "url": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/41617/2026/9999?schemaid=40224#1",
+      "scope": "Scheda renderizzata consultata il 22 ottobre: 5 CFU, 50 ore, primo semestre, Francesco Girolamo, tipo esame Orale. Nessun elenco analitico dei contenuti pubblicato nella pagina.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-bone",
+      "title": "Provenienza della tavola · Micrografia 5 · Anelli e piccoli spazi",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Compact_Bone_%2841068141944%29.jpg",
+      "scope": "CC0 1.0 · Berkshire Community College Bioscience Image Library. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-blood",
+      "title": "Provenienza della tavola · Micrografia 6 · Popolazioni cellulari",
+      "url": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Human_Blood_Leukocyte_Survey_%2839982279720%29.jpg",
+      "scope": "CC0 1.0 · Berkshire Community College Bioscience Image Library. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-histology-muscle",
+      "title": "Provenienza della tavola · Micrografia 3 · Fibre e periodicità",
+      "url": "https://commons.wikimedia.org/wiki/File:Muscle_Tissue_Skeletal_Muscle_Fibers_(40153600100).jpg",
+      "scope": "CC0 1.0 · Berkshire Community College Bioscience Image Library. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-spinal-cord",
+      "title": "Provenienza della tavola · Midollo spinale: schema e micrografia",
+      "url": "https://commons.wikimedia.org/wiki/File:1313_Spinal_Cord_Cross_Section.jpg",
+      "scope": "CC BY 4.0 · OpenStax. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-lung",
+      "title": "Provenienza della tavola · Micrografia 7 · Pareti di spessore diverso",
+      "url": "https://commons.wikimedia.org/wiki/File:Normal_lung_%285414785258%29.jpg",
+      "scope": "CC BY-SA 2.0 · Yale Rosen. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-intestine",
+      "title": "Provenienza della tavola · Micrografia 8 · Proiezioni e invaginazioni",
+      "url": "https://commons.wikimedia.org/wiki/File:Normal_Small_Intestine_Mucosa_%285916217283%29.jpg",
+      "scope": "CC BY 2.0 · Ed Uthman; annotazioni della versione Commons: Sonabi. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-kidney",
+      "title": "Provenienza della tavola · Micrografia 9 · Aggregati e tubuli",
+      "url": "https://commons.wikimedia.org/wiki/File:Kidney_cd10_ihc.jpg",
+      "scope": "CC BY-SA 3.0 · Nephron. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-liver",
+      "title": "Provenienza della tavola · Micrografia 10 · Una trama e due regioni",
+      "url": "https://commons.wikimedia.org/wiki/File:Liver_reticulin.jpg",
+      "scope": "CC BY-SA 3.0 · Nephron. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-micro-thyroid",
+      "title": "Provenienza della tavola · Micrografia 11 · Profili chiusi e contenuto omogeneo",
+      "url": "https://commons.wikimedia.org/wiki/File:Thyroid_gland_-_high_mag.jpg",
+      "scope": "CC BY-SA 3.0 · Nephron. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-pelvic-floor",
+      "title": "Provenienza della tavola · Pavimento pelvico · vista superiore schematica",
+      "url": "https://commons.wikimedia.org/wiki/File:1115_Muscles_of_the_Pelvic_Floor.jpg",
+      "scope": "CC BY 4.0 · OpenStax. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-regional-shoulder",
+      "title": "Provenienza della tavola · Spalla sinistra · superficie e piani profondi",
+      "url": "https://commons.wikimedia.org/wiki/File:1119_Muscles_that_Move_the_Humerus.jpg",
+      "scope": "CC BY 4.0 · OpenStax · Anatomy and Physiology 2e. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-final-source-regional-hip",
+      "title": "Provenienza della tavola · Anca destra · viste anteriori e posteriori",
+      "url": "https://commons.wikimedia.org/wiki/File:1122_Gluteal_Muscles_that_Move_the_Femur.jpg",
+      "scope": "CC BY 4.0 · OpenStax · Anatomy and Physiology 2e. Preparato e limiti descritti nella guida.",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "an-bone-shape",
+      "title": "OpenStax · 6.2 Bone Classification",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/6-2-bone-classification",
+      "scope": "Classificazioni morfologiche e criteri di confronto, verificati sul manuale aperto.",
+      "checked": "2026-10-22",
+      "reading": {
+        "section": "6.2 Bone Classification",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-22"
+      }
+    },
+    {
+      "id": "an-joint-classes",
+      "title": "OpenStax · 9.1 Classification of Joints",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+      "scope": "Classificazioni morfologiche e criteri di confronto, verificati sul manuale aperto.",
+      "checked": "2026-10-22",
+      "reading": {
+        "section": "9.1 Classification of Joints",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-22"
+      }
     }
   ],
   "curriculum": {
@@ -28273,7 +29262,7 @@
       "cfu": 5,
       "semester": 1,
       "sourceUrl": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/41617/2026/9999?schemaid=40224#1",
-      "syllabusStatus": "Piano 2026/27 verificato. Confronto analitico con 2024/25; corrispondenza con il programma 2026/27 non certificata",
+      "syllabusStatus": "5 CFU, 50 ore e orale verificati nel catalogo 2026/27. Contenuti confrontati con la scheda analitica pubblica 2024/25; dettaglio corrente non pubblicato nella pagina consultata",
       "modules": [
         {
           "id": "anatomia",
@@ -28327,7 +29316,15 @@
             "anatomia-sensibilita-midollo",
             "anatomia-encefalo-protezioni",
             "anatomia-nervi-autonomo",
-            "anatomia-micrografie"
+            "anatomia-micrografie",
+            "anat-lab-tessuti",
+            "anat-lab-visceri",
+            "anat-lab-ghiandole",
+            "anat-spazio",
+            "anat-regioni-superiori",
+            "anat-regioni-inferiori",
+            "anat-struttura-tempo",
+            "anat-esposizione"
           ],
           "coverage": "Lezioni, casi svolti, domande con correzione e attività aperte disponibili. Il confronto con il programma è descritto nella mappa qui sotto."
         }
@@ -28335,13 +29332,15 @@
       "programme": {
         "referenceYear": "2024/25",
         "sourceIds": [
-          "syllabus-anatomy"
+          "syllabus-anatomy",
+          "an-catalogue-2026"
         ],
-        "checked": "2026-10-21",
+        "checked": "2026-10-22",
         "currentSyllabusConfirmed": false,
         "limitations": [
-          "Il docente del catalogo 2026/27 è diverso da quello della scheda 2024/25.",
-          "Le sezioni disponibili sono testi di studio introduttivi; la preparazione morfologica e iconografica non è completa."
+          "La scheda analitica disponibile è del 2024/25 (Roberto Tamma); il catalogo 2026/27 indica Francesco Girolamo e prova orale. Non è pubblicato il dettaglio analitico corrente.",
+          "Il percorso sviluppa tutte le voci esplicite del programma pubblico confrontato. Le immagini sono un campione ragionato, non ogni possibile preparato; il riconoscimento di immagini nuove e l’esposizione richiedono esercizio.",
+          "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale."
         ],
         "topics": [
           {
@@ -28349,15 +29348,32 @@
             "refs": [
               "piani/posizione",
               "piani/piani",
-              "tessuti/architettura"
+              "tessuti/architettura",
+              "anat-spazio/orientare",
+              "anat-spazio/torace",
+              "anat-spazio/addome",
+              "anat-spazio/pelvi",
+              "anat-struttura-tempo/organi"
             ],
             "status": "introduced",
-            "note": "",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-1",
             "questionIds": [
               "an-piani-1",
               "an-piani-3",
-              "base-tessuti-architettura"
+              "base-tessuti-architettura",
+              "anat-final-anat-spazio-orientare-0",
+              "anat-final-anat-spazio-orientare-1",
+              "anat-final-anat-spazio-torace-0",
+              "anat-final-anat-spazio-torace-1",
+              "anat-final-anat-spazio-addome-0",
+              "anat-final-anat-spazio-addome-1",
+              "anat-final-anat-spazio-pelvi-0",
+              "anat-final-anat-spazio-pelvi-1",
+              "anat-final-anat-struttura-tempo-organi-0",
+              "anat-final-anat-struttura-tempo-organi-1",
+              "anat-final-extra-cavities-dorsal",
+              "anat-final-extra-cavities-kidney"
             ]
           },
           {
@@ -28368,10 +29384,12 @@
               "anatomia-epiteli-ghiandole/rivestimento",
               "anatomia-epiteli-ghiandole/giunzioni",
               "anatomia-epiteli-ghiandole/classificare",
-              "anatomia-epiteli-ghiandole/secrezione"
+              "anatomia-epiteli-ghiandole/secrezione",
+              "anat-struttura-tempo/epiteli",
+              "anat-lab-ghiandole/esocrine"
             ],
             "status": "introduced",
-            "note": "Ampliamento mirato del 21 ottobre: classificazioni e strutture spiegate, confronti, esempi, otto quiz e prova scritta di autoconfronto nel capitolo. Il riconoscimento su micrografie e il confronto con il programma corrente restano da completare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-2",
             "questionIds": [
               "y1-anatomia-istologia-epiteli",
@@ -28383,7 +29401,11 @@
               "hi-anatomia-epiteli-ghiandole-classificare-0",
               "hi-anatomia-epiteli-ghiandole-classificare-1",
               "hi-anatomia-epiteli-ghiandole-secrezione-0",
-              "hi-anatomia-epiteli-ghiandole-secrezione-1"
+              "hi-anatomia-epiteli-ghiandole-secrezione-1",
+              "anat-final-anat-lab-ghiandole-esocrine-0",
+              "anat-final-anat-lab-ghiandole-esocrine-1",
+              "anat-final-anat-struttura-tempo-epiteli-0",
+              "anat-final-anat-struttura-tempo-epiteli-1"
             ]
           },
           {
@@ -28394,10 +29416,13 @@
               "anatomia-connettivi-osso/matrice",
               "anatomia-connettivi-osso/tipi",
               "anatomia-connettivi-osso/cartilagine",
-              "anatomia-connettivi-osso/osso"
+              "anatomia-connettivi-osso/osso",
+              "anat-lab-tessuti/osso",
+              "anat-struttura-tempo/crescita",
+              "anat-struttura-tempo/invecchiamento"
             ],
             "status": "introduced",
-            "note": "Ampliamento mirato del 21 ottobre: classificazioni e strutture spiegate, confronti, esempi, otto quiz e prova scritta di autoconfronto nel capitolo. Il riconoscimento su micrografie e il confronto con il programma corrente restano da completare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-3",
             "questionIds": [
               "scheletro-osso-verifica",
@@ -28409,7 +29434,13 @@
               "hi-anatomia-connettivi-osso-cartilagine-0",
               "hi-anatomia-connettivi-osso-cartilagine-1",
               "hi-anatomia-connettivi-osso-osso-0",
-              "hi-anatomia-connettivi-osso-osso-1"
+              "hi-anatomia-connettivi-osso-osso-1",
+              "anat-final-anat-lab-tessuti-osso-0",
+              "anat-final-anat-lab-tessuti-osso-1",
+              "anat-final-anat-struttura-tempo-crescita-0",
+              "anat-final-anat-struttura-tempo-crescita-1",
+              "anat-final-anat-struttura-tempo-invecchiamento-0",
+              "anat-final-anat-struttura-tempo-invecchiamento-1"
             ]
           },
           {
@@ -28419,10 +29450,11 @@
               "anatomia-sangue-difese/plasma",
               "anatomia-sangue-difese/leucociti",
               "anatomia-sangue-difese/emopoiesi",
-              "anatomia-sangue-difese/immunita"
+              "anatomia-sangue-difese/immunita",
+              "anat-lab-tessuti/sangue"
             ],
             "status": "introduced",
-            "note": "Ampliamento mirato del 21 ottobre: classificazioni e strutture spiegate, confronti, esempi, otto quiz e prova scritta di autoconfronto nel capitolo. Il riconoscimento su micrografie e il confronto con il programma corrente restano da completare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-4",
             "questionIds": [
               "y1-anatomia-istologia-sangue",
@@ -28433,7 +29465,9 @@
               "hi-anatomia-sangue-difese-emopoiesi-0",
               "hi-anatomia-sangue-difese-emopoiesi-1",
               "hi-anatomia-sangue-difese-immunita-0",
-              "hi-anatomia-sangue-difese-immunita-1"
+              "hi-anatomia-sangue-difese-immunita-1",
+              "anat-final-anat-lab-tessuti-sangue-0",
+              "anat-final-anat-lab-tessuti-sangue-1"
             ]
           },
           {
@@ -28445,10 +29479,12 @@
               "anatomia-micro-muscolo/cardiaco",
               "anatomia-micro-muscolo/liscio",
               "anatomia-micro-muscolo/glia",
-              "anatomia-cuore/parete"
+              "anatomia-cuore/parete",
+              "anat-lab-tessuti/muscolo",
+              "anat-lab-tessuti/nervo"
             ],
             "status": "introduced",
-            "note": "Confronto di morfologia, organizzazione e meccanismo dei tre tessuti muscolari; tipi gliali centrali e periferici, con verifiche.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-5",
             "questionIds": [
               "an-musc-2",
@@ -28459,7 +29495,11 @@
               "depth-anatomia-micro-muscolo-glia",
               "heart-anatomia-cuore-parete-0",
               "heart-anatomia-cuore-parete-1",
-              "heart-anatomia-cuore-parete-2"
+              "heart-anatomia-cuore-parete-2",
+              "anat-final-anat-lab-tessuti-muscolo-0",
+              "anat-final-anat-lab-tessuti-muscolo-1",
+              "anat-final-anat-lab-tessuti-nervo-0",
+              "anat-final-anat-lab-tessuti-nervo-1"
             ]
           },
           {
@@ -28478,10 +29518,13 @@
               "anatomia-colonna-torace/vertebra",
               "anatomia-colonna-torace/regioni",
               "anatomia-colonna-torace/dischi",
-              "anatomia-colonna-torace/coste"
+              "anatomia-colonna-torace/coste",
+              "anat-regioni-inferiori/ginocchio",
+              "anat-struttura-tempo/organi",
+              "anat-struttura-tempo/ossa"
             ],
             "status": "introduced",
-            "note": "Ampliamento del 21 ottobre: capitoli dedicati, confronti strutturali, esempi, quiz con diagnosi degli errori e risposta scritta guidata. Il livello corrente del docente e la copertura iconografica completa restano da verificare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-6",
             "questionIds": [
               "scheletro-colonna-verifica",
@@ -28512,7 +29555,15 @@
               "av-anatomia-colonna-torace-coste-1",
               "av-anatomia-cranio-ossa-2",
               "av-anatomia-cranio-cavita-2",
-              "av-anatomia-colonna-torace-vertebra-2"
+              "av-anatomia-colonna-torace-vertebra-2",
+              "anat-final-anat-regioni-inferiori-ginocchio-0",
+              "anat-final-anat-regioni-inferiori-ginocchio-1",
+              "anat-final-anat-struttura-tempo-organi-0",
+              "anat-final-anat-struttura-tempo-organi-1",
+              "anat-final-extra-bone-shape",
+              "anat-final-extra-bone-flat",
+              "anat-final-extra-joint-function",
+              "anat-final-extra-joint-criteria"
             ]
           },
           {
@@ -28532,10 +29583,11 @@
               "anatomia-pareti-tronco/posteriore",
               "anatomia-pelvi-perineo/pavimento",
               "anatomia-pelvi-perineo/perineo",
-              "anatomia-pelvi-perineo/integrazione"
+              "anatomia-pelvi-perineo/integrazione",
+              "anat-spazio/pelvi"
             ],
             "status": "introduced",
-            "note": "Trattati collo e ioidei, muscoli dorsali, suboccipitali, respiratori, pareti addominali anteriori/posteriori, fasce, guaina del retto e perineo: attacchi principali, innervazione, rapporti e casi. Introdotto non certifica ogni variante o il livello del programma corrente.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-7",
             "questionIds": [
               "y1-anatomia-tronco-testa-collo",
@@ -28574,7 +29626,9 @@
               "trunk-anatomia-pelvi-perineo-perineo-2",
               "trunk-anatomia-pelvi-perineo-integrazione-0",
               "trunk-anatomia-pelvi-perineo-integrazione-1",
-              "trunk-anatomia-pelvi-perineo-integrazione-2"
+              "trunk-anatomia-pelvi-perineo-integrazione-2",
+              "anat-final-anat-spazio-pelvi-0",
+              "anat-final-anat-spazio-pelvi-1"
             ]
           },
           {
@@ -28614,10 +29668,19 @@
               "anatomia-gamba/superficiale",
               "anatomia-gamba/profondo",
               "anatomia-gamba/passaggi",
-              "anatomia-pelvi-perineo/rotatori"
+              "anatomia-pelvi-perineo/rotatori",
+              "anat-regioni-superiori/scapola",
+              "anat-regioni-superiori/gomito",
+              "anat-regioni-superiori/polso",
+              "anat-regioni-superiori/gesto",
+              "anat-regioni-inferiori/anca",
+              "anat-regioni-inferiori/ginocchio",
+              "anat-regioni-inferiori/caviglia",
+              "anat-regioni-inferiori/passo",
+              "anat-esposizione/locomotore"
             ],
             "status": "introduced",
-            "note": "Capitoli regionali per spalla/braccio, avambraccio/mano, anca/coscia e gamba/piede, con i sei rotatori profondi dell’anca: attacchi, nervi, passaggi e casi. Il riconoscimento su ulteriori viste resta parziale nella voce dedicata alle immagini; non sono elencati ogni fascio e variante.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-8",
             "questionIds": [
               "arto-superiore-spalla-verifica",
@@ -28716,7 +29779,25 @@
               "regional-anatomia-gamba-passaggi-2",
               "trunk-anatomia-pelvi-perineo-rotatori-0",
               "trunk-anatomia-pelvi-perineo-rotatori-1",
-              "trunk-anatomia-pelvi-perineo-rotatori-2"
+              "trunk-anatomia-pelvi-perineo-rotatori-2",
+              "anat-final-anat-regioni-superiori-scapola-0",
+              "anat-final-anat-regioni-superiori-scapola-1",
+              "anat-final-anat-regioni-superiori-gomito-0",
+              "anat-final-anat-regioni-superiori-gomito-1",
+              "anat-final-anat-regioni-superiori-polso-0",
+              "anat-final-anat-regioni-superiori-polso-1",
+              "anat-final-anat-regioni-superiori-gesto-0",
+              "anat-final-anat-regioni-superiori-gesto-1",
+              "anat-final-anat-regioni-inferiori-anca-0",
+              "anat-final-anat-regioni-inferiori-anca-1",
+              "anat-final-anat-regioni-inferiori-ginocchio-0",
+              "anat-final-anat-regioni-inferiori-ginocchio-1",
+              "anat-final-anat-regioni-inferiori-caviglia-0",
+              "anat-final-anat-regioni-inferiori-caviglia-1",
+              "anat-final-anat-regioni-inferiori-passo-0",
+              "anat-final-anat-regioni-inferiori-passo-1",
+              "anat-final-anat-esposizione-locomotore-0",
+              "anat-final-anat-esposizione-locomotore-1"
             ]
           },
           {
@@ -28741,10 +29822,11 @@
               "anatomia-ciclo-vasi/conduzione",
               "anatomia-ciclo-vasi/ciclo",
               "anatomia-ciclo-vasi/pareti-vascolari",
-              "anatomia-ciclo-vasi/microcircolo"
+              "anatomia-ciclo-vasi/microcircolo",
+              "anat-spazio/torace"
             ],
             "status": "introduced",
-            "note": "La voce del syllabus 2024/25 ha ora lezioni e verifiche su cuore macro/microscopico, conduzione, scheletro fibroso, valvole, ciclo, pericardio, circoli, rami principali, Willis e pareti vascolari. La nuova tavola verifica lettura e rapporti con etichette visibili; non certifica riconoscimento su preparati né corrispondenza al syllabus 2026/27.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-9",
             "questionIds": [
               "base-circolazione-percorso",
@@ -28800,7 +29882,9 @@
               "heart-anatomia-ciclo-vasi-pareti-vascolari-2",
               "heart-anatomia-ciclo-vasi-microcircolo-0",
               "heart-anatomia-ciclo-vasi-microcircolo-1",
-              "heart-anatomia-ciclo-vasi-microcircolo-2"
+              "heart-anatomia-ciclo-vasi-microcircolo-2",
+              "anat-final-anat-spazio-torace-0",
+              "anat-final-anat-spazio-torace-1"
             ]
           },
           {
@@ -28810,10 +29894,11 @@
               "anatomia-organi-linfoidi/drenaggio",
               "anatomia-organi-linfoidi/linfonodo",
               "anatomia-organi-linfoidi/primari",
-              "anatomia-organi-linfoidi/milza"
+              "anatomia-organi-linfoidi/milza",
+              "anat-lab-ghiandole/linfoidi"
             ],
             "status": "introduced",
-            "note": "Ampliamento mirato del 21 ottobre: classificazioni e strutture spiegate, confronti, esempi, otto quiz e prova scritta di autoconfronto nel capitolo. Il riconoscimento su micrografie e il confronto con il programma corrente restano da completare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-10",
             "questionIds": [
               "y1-anatomia-vasi-neuro-linfa",
@@ -28824,7 +29909,9 @@
               "hi-anatomia-organi-linfoidi-primari-0",
               "hi-anatomia-organi-linfoidi-primari-1",
               "hi-anatomia-organi-linfoidi-milza-0",
-              "hi-anatomia-organi-linfoidi-milza-1"
+              "hi-anatomia-organi-linfoidi-milza-1",
+              "anat-final-anat-lab-ghiandole-linfoidi-0",
+              "anat-final-anat-lab-ghiandole-linfoidi-1"
             ]
           },
           {
@@ -28835,10 +29922,11 @@
               "anatomia-respiratorio/superiori",
               "anatomia-respiratorio/conduzione",
               "anatomia-respiratorio/parete",
-              "anatomia-respiratorio/polmoni"
+              "anatomia-respiratorio/polmoni",
+              "anat-lab-visceri/polmone"
             ],
             "status": "introduced",
-            "note": "Anatomia regionale, cartilagini e pliche laringee, epitelio lungo le vie aeree, barriera alveolare, lobi e pleure con tavole e verifiche.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-11",
             "questionIds": [
               "base-respirazione-ventilazione",
@@ -28846,7 +29934,9 @@
               "depth-anatomia-respiratorio-superiori",
               "depth-anatomia-respiratorio-conduzione",
               "depth-anatomia-respiratorio-parete",
-              "depth-anatomia-respiratorio-polmoni"
+              "depth-anatomia-respiratorio-polmoni",
+              "anat-final-anat-lab-visceri-polmone-0",
+              "anat-final-anat-lab-visceri-polmone-1"
             ]
           },
           {
@@ -28860,10 +29950,13 @@
               "anatomia-annessi-peritoneo/peritoneo",
               "anatomia-annessi-peritoneo/fegato",
               "anatomia-annessi-peritoneo/lobulo",
-              "anatomia-annessi-peritoneo/pancreas"
+              "anatomia-annessi-peritoneo/pancreas",
+              "anat-lab-visceri/intestino",
+              "anat-lab-visceri/fegato",
+              "anat-spazio/addome"
             ],
             "status": "introduced",
-            "note": "Ampliamento del 21 ottobre: capitoli dedicati, confronti strutturali, esempi, quiz con diagnosi degli errori e risposta scritta guidata. Il livello corrente del docente e la copertura iconografica completa restano da verificare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-12",
             "questionIds": [
               "y1-anatomia-visceri-digerente",
@@ -28882,7 +29975,13 @@
               "av-anatomia-annessi-peritoneo-lobulo-0",
               "av-anatomia-annessi-peritoneo-lobulo-1",
               "av-anatomia-annessi-peritoneo-pancreas-0",
-              "av-anatomia-annessi-peritoneo-pancreas-1"
+              "av-anatomia-annessi-peritoneo-pancreas-1",
+              "anat-final-anat-lab-visceri-intestino-0",
+              "anat-final-anat-lab-visceri-intestino-1",
+              "anat-final-anat-lab-visceri-fegato-0",
+              "anat-final-anat-lab-visceri-fegato-1",
+              "anat-final-anat-spazio-addome-0",
+              "anat-final-anat-spazio-addome-1"
             ]
           },
           {
@@ -28892,10 +29991,12 @@
               "anatomia-rene-vie/rene",
               "anatomia-rene-vie/circolo",
               "anatomia-rene-vie/nefrone",
-              "anatomia-rene-vie/vie"
+              "anatomia-rene-vie/vie",
+              "anat-lab-visceri/rene",
+              "anat-esposizione/viscere"
             ],
             "status": "introduced",
-            "note": "Ampliamento del 21 ottobre: capitoli dedicati, confronti strutturali, esempi, quiz con diagnosi degli errori e risposta scritta guidata. Il livello corrente del docente e la copertura iconografica completa restano da verificare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-13",
             "questionIds": [
               "y1-anatomia-visceri-rene",
@@ -28908,7 +30009,11 @@
               "av-anatomia-rene-vie-vie-0",
               "av-anatomia-rene-vie-vie-1",
               "av-anatomia-rene-vie-rene-2",
-              "av-anatomia-rene-vie-circolo-2"
+              "av-anatomia-rene-vie-circolo-2",
+              "anat-final-anat-lab-visceri-rene-0",
+              "anat-final-anat-lab-visceri-rene-1",
+              "anat-final-anat-esposizione-viscere-0",
+              "anat-final-anat-esposizione-viscere-1"
             ]
           },
           {
@@ -28923,10 +30028,12 @@
               "anatomia-endocrino/ipofisi",
               "anatomia-endocrino/tiroide",
               "anatomia-endocrino/surrene",
-              "anatomia-endocrino/isole-feedback"
+              "anatomia-endocrino/isole-feedback",
+              "anat-lab-ghiandole/tiroide",
+              "anat-lab-ghiandole/genitali"
             ],
             "status": "introduced",
-            "note": "Ampliamento del 21 ottobre: capitoli dedicati, confronti strutturali, esempi, quiz con diagnosi degli errori e risposta scritta guidata. Il livello corrente del docente e la copertura iconografica completa restano da verificare.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-14",
             "questionIds": [
               "y1-anatomia-visceri-genitale",
@@ -28946,7 +30053,11 @@
               "av-anatomia-endocrino-surrene-0",
               "av-anatomia-endocrino-surrene-1",
               "av-anatomia-endocrino-isole-feedback-0",
-              "av-anatomia-endocrino-isole-feedback-1"
+              "av-anatomia-endocrino-isole-feedback-1",
+              "anat-final-anat-lab-ghiandole-tiroide-0",
+              "anat-final-anat-lab-ghiandole-tiroide-1",
+              "anat-final-anat-lab-ghiandole-genitali-0",
+              "anat-final-anat-lab-ghiandole-genitali-1"
             ]
           },
           {
@@ -28971,10 +30082,12 @@
               "anatomia-nervi-autonomo/nervo",
               "anatomia-nervi-autonomo/plessi",
               "anatomia-nervi-autonomo/simpatico",
-              "anatomia-nervi-autonomo/parasimpatico"
+              "anatomia-nervi-autonomo/parasimpatico",
+              "anat-lab-tessuti/nervo",
+              "anat-esposizione/nervoso"
             ],
             "status": "introduced",
-            "note": "Confrontate le voci neuroanatomiche del programma 2024/25. Tre capitoli aggiuntivi, 12 sezioni, 28 quiz nuovi (compresi quattro su tronco/cervelletto) e tre prove aperte. Il confronto storico non certifica il programma attuale né il riconoscimento su preparati.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
             "id": "anatomia-umana-15",
             "questionIds": [
               "neuroanatomia-centrale-verifica",
@@ -29014,7 +30127,13 @@
               "ns-anatomia-neuro-dettagli-tronco-0",
               "ns-anatomia-neuro-dettagli-tronco-1",
               "ns-anatomia-neuro-dettagli-cervelletto-0",
-              "ns-anatomia-neuro-dettagli-cervelletto-1"
+              "ns-anatomia-neuro-dettagli-cervelletto-1",
+              "anat-final-anat-lab-tessuti-nervo-0",
+              "anat-final-anat-lab-tessuti-nervo-1",
+              "anat-final-anat-esposizione-nervoso-0",
+              "anat-final-anat-esposizione-nervoso-1",
+              "anat-final-extra-chain",
+              "anat-final-extra-convergence"
             ]
           },
           {
@@ -29042,10 +30161,42 @@
               "anatomia-micrografie/superficie",
               "anatomia-micrografie/matrice",
               "anatomia-micrografie/fibre",
-              "anatomia-micrografie/ultrastruttura"
+              "anatomia-micrografie/ultrastruttura",
+              "anat-lab-tessuti/osso",
+              "anat-lab-tessuti/sangue",
+              "anat-lab-tessuti/muscolo",
+              "anat-lab-tessuti/nervo",
+              "anat-lab-visceri/polmone",
+              "anat-lab-visceri/intestino",
+              "anat-lab-visceri/rene",
+              "anat-lab-visceri/fegato",
+              "anat-lab-ghiandole/tiroide",
+              "anat-lab-ghiandole/esocrine",
+              "anat-lab-ghiandole/linfoidi",
+              "anat-lab-ghiandole/genitali",
+              "anat-spazio/orientare",
+              "anat-spazio/torace",
+              "anat-spazio/addome",
+              "anat-spazio/pelvi",
+              "anat-regioni-superiori/scapola",
+              "anat-regioni-superiori/gomito",
+              "anat-regioni-superiori/polso",
+              "anat-regioni-superiori/gesto",
+              "anat-regioni-inferiori/anca",
+              "anat-regioni-inferiori/ginocchio",
+              "anat-regioni-inferiori/caviglia",
+              "anat-regioni-inferiori/passo",
+              "anat-struttura-tempo/epiteli",
+              "anat-struttura-tempo/organi",
+              "anat-struttura-tempo/crescita",
+              "anat-struttura-tempo/invecchiamento",
+              "anat-esposizione/locomotore",
+              "anat-esposizione/viscere",
+              "anat-esposizione/nervoso",
+              "anat-esposizione/confronto"
             ],
-            "status": "partial",
-            "note": "Aggiunte quattro micrografie reali senza nomi anatomici impressi sui bersagli, guide e 16 domande su osservazione, orientamento e scala. Restano ulteriori tessuti e viste regionali, confronto di preparati variabili e ricostruzione tridimensionale: il laboratorio è un campione, non un atlante esaustivo.",
+            "status": "introduced",
+            "note": "Laboratorio ampliato: 11 micrografie, viste regionali, tre schemi e ricostruzioni guidate su carta; domande di interpretazione, limiti del campo e prove di esposizione. Campione didattico: non dimostra riconoscimento su ogni preparato o padronanza di un atlante 3D.",
             "id": "anatomia-umana-16",
             "questionIds": [
               "depth-anatomia-atlante-muscoli",
@@ -29109,11 +30260,90 @@
               "micro-ultrastruttura-0",
               "micro-ultrastruttura-1",
               "micro-ultrastruttura-2",
-              "micro-ultrastruttura-3"
+              "micro-ultrastruttura-3",
+              "anat-final-anat-lab-tessuti-osso-0",
+              "anat-final-anat-lab-tessuti-osso-1",
+              "anat-final-anat-lab-tessuti-sangue-0",
+              "anat-final-anat-lab-tessuti-sangue-1",
+              "anat-final-anat-lab-tessuti-muscolo-0",
+              "anat-final-anat-lab-tessuti-muscolo-1",
+              "anat-final-anat-lab-tessuti-nervo-0",
+              "anat-final-anat-lab-tessuti-nervo-1",
+              "anat-final-anat-lab-visceri-polmone-0",
+              "anat-final-anat-lab-visceri-polmone-1",
+              "anat-final-anat-lab-visceri-intestino-0",
+              "anat-final-anat-lab-visceri-intestino-1",
+              "anat-final-anat-lab-visceri-rene-0",
+              "anat-final-anat-lab-visceri-rene-1",
+              "anat-final-anat-lab-visceri-fegato-0",
+              "anat-final-anat-lab-visceri-fegato-1",
+              "anat-final-anat-lab-ghiandole-tiroide-0",
+              "anat-final-anat-lab-ghiandole-tiroide-1",
+              "anat-final-anat-lab-ghiandole-esocrine-0",
+              "anat-final-anat-lab-ghiandole-esocrine-1",
+              "anat-final-anat-lab-ghiandole-linfoidi-0",
+              "anat-final-anat-lab-ghiandole-linfoidi-1",
+              "anat-final-anat-lab-ghiandole-genitali-0",
+              "anat-final-anat-lab-ghiandole-genitali-1",
+              "anat-final-anat-spazio-orientare-0",
+              "anat-final-anat-spazio-orientare-1",
+              "anat-final-anat-spazio-torace-0",
+              "anat-final-anat-spazio-torace-1",
+              "anat-final-anat-spazio-addome-0",
+              "anat-final-anat-spazio-addome-1",
+              "anat-final-anat-spazio-pelvi-0",
+              "anat-final-anat-spazio-pelvi-1",
+              "anat-final-anat-regioni-superiori-scapola-0",
+              "anat-final-anat-regioni-superiori-scapola-1",
+              "anat-final-anat-regioni-superiori-gomito-0",
+              "anat-final-anat-regioni-superiori-gomito-1",
+              "anat-final-anat-regioni-superiori-polso-0",
+              "anat-final-anat-regioni-superiori-polso-1",
+              "anat-final-anat-regioni-superiori-gesto-0",
+              "anat-final-anat-regioni-superiori-gesto-1",
+              "anat-final-anat-regioni-inferiori-anca-0",
+              "anat-final-anat-regioni-inferiori-anca-1",
+              "anat-final-anat-regioni-inferiori-ginocchio-0",
+              "anat-final-anat-regioni-inferiori-ginocchio-1",
+              "anat-final-anat-regioni-inferiori-caviglia-0",
+              "anat-final-anat-regioni-inferiori-caviglia-1",
+              "anat-final-anat-regioni-inferiori-passo-0",
+              "anat-final-anat-regioni-inferiori-passo-1",
+              "anat-final-anat-struttura-tempo-epiteli-0",
+              "anat-final-anat-struttura-tempo-epiteli-1",
+              "anat-final-anat-struttura-tempo-organi-0",
+              "anat-final-anat-struttura-tempo-organi-1",
+              "anat-final-anat-struttura-tempo-crescita-0",
+              "anat-final-anat-struttura-tempo-crescita-1",
+              "anat-final-anat-struttura-tempo-invecchiamento-0",
+              "anat-final-anat-struttura-tempo-invecchiamento-1",
+              "anat-final-anat-esposizione-locomotore-0",
+              "anat-final-anat-esposizione-locomotore-1",
+              "anat-final-anat-esposizione-viscere-0",
+              "anat-final-anat-esposizione-viscere-1",
+              "anat-final-anat-esposizione-nervoso-0",
+              "anat-final-anat-esposizione-nervoso-1",
+              "anat-final-anat-esposizione-confronto-0",
+              "anat-final-anat-esposizione-confronto-1",
+              "av-anatomia-cranio-ossa-0",
+              "av-anatomia-cranio-ossa-1",
+              "av-anatomia-cranio-cavita-0",
+              "av-anatomia-cranio-cavita-1",
+              "av-anatomia-colonna-torace-vertebra-0",
+              "av-anatomia-colonna-torace-vertebra-1",
+              "av-anatomia-rene-vie-rene-0",
+              "av-anatomia-rene-vie-rene-1",
+              "av-anatomia-rene-vie-circolo-0",
+              "av-anatomia-rene-vie-circolo-1",
+              "anat-final-extra-cavities-dorsal",
+              "anat-final-extra-cavities-kidney",
+              "anat-final-extra-chain",
+              "anat-final-extra-convergence"
             ]
           }
         ]
-      }
+      },
+      "assessmentNote": "Il catalogo UniBa 2026/27 indica una prova orale (verificato il 22 ottobre 2026). Allenati con esposizioni, confronti e disegni. Le tracce scritte qui sotto riprendono il formato 2024/25 e restano esercitazioni di ripasso."
     },
     {
       "id": "scienze-base",
@@ -32629,6 +33859,231 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skeletal_muscle_tissue_1_-_TEM.jpg",
       "guide": "TEM di muscolo scheletrico umano, sezione longitudinale. Le sottili linee Z scure interrompono regioni più chiare e delimitano sarcomeri successivi; le bande A sono più ampie. Le linee sono oblique sullo schermo, ma attraversano le miofibrille. La barra originale in basso a sinistra vale 2 µm. La fotografia documenta struttura, non una contrazione filmata.",
       "changes": "Immagine originale della versione indicata su Commons, senza ritagli o alterazioni. Guida italiana separata."
+    },
+    {
+      "id": "micro-bone",
+      "file": "assets/anatomy/micro-bone.jpg",
+      "title": "Micrografia 5 · Anelli e piccoli spazi",
+      "alt": "Campo di matrice con sistemi concentrici e aperture, con punti A e B.",
+      "guide": "A: canale centrale di un osteone; B: lamelle circostanti. Osso umano per usura: la fotografia evidenzia matrice e spazi, non cellule vive. Il dato originale di ingrandimento non è una scala sullo schermo.",
+      "author": "Berkshire Community College Bioscience Image Library",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Compact_Bone_%2841068141944%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Connective_Tissue_Compact_Bone_%2841068141944%29.jpg/1280px-Connective_Tissue_Compact_Bone_%2841068141944%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. ",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 27.5,
+          "y": 50.5,
+          "lx": 12,
+          "ly": 53,
+          "label": "Canale centrale dell’osteone."
+        },
+        {
+          "letter": "B",
+          "x": 30,
+          "y": 42,
+          "lx": 41,
+          "ly": 27,
+          "label": "Regione di lamelle concentriche."
+        }
+      ]
+    },
+    {
+      "id": "micro-blood",
+      "file": "assets/anatomy/micro-blood.jpg",
+      "title": "Micrografia 6 · Popolazioni cellulari",
+      "alt": "Campo di elementi separati rosa e rare cellule con nuclei scuri, punti A e B.",
+      "guide": "Striscio di sangue umano; la scheda indica ematossilina-eosina. A: eritrocita; B: leucocita nucleato. Il campo non consente una formula leucocitaria e non risolve tutti i sottotipi con uguale chiarezza.",
+      "author": "Berkshire Community College Bioscience Image Library",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Human_Blood_Leukocyte_Survey_%2839982279720%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Connective_Tissue_Human_Blood_Leukocyte_Survey_%2839982279720%29.jpg/1280px-Connective_Tissue_Human_Blood_Leukocyte_Survey_%2839982279720%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. ",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 33,
+          "y": 52,
+          "lx": 20,
+          "ly": 45,
+          "label": "Eritrocita maturo privo di nucleo."
+        },
+        {
+          "letter": "B",
+          "x": 53.4,
+          "y": 72.5,
+          "lx": 65,
+          "ly": 84,
+          "label": "Cellula leucocitaria nucleata; non assegnata qui a un sottotipo."
+        }
+      ]
+    },
+    {
+      "id": "micro-lung",
+      "file": "assets/anatomy/micro-lung.jpg",
+      "title": "Micrografia 7 · Pareti di spessore diverso",
+      "alt": "Campo con una struttura centrale ripiegata e numerosi spazi delimitati da pareti sottili.",
+      "guide": "A: lume bronchiolare; B: spazio alveolare. I setti circostanti contengono la rete di scambio. La scheda identifica bronchiolo e alveoli; la fotografia non risolve tutte le componenti ultrastrutturali della barriera.",
+      "author": "Yale Rosen",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_lung_%285414785258%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Normal_lung_%285414785258%29.jpg/1280px-Normal_lung_%285414785258%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. Immagine e annotazioni distribuite con CC BY-SA 2.0.",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 46,
+          "y": 51,
+          "lx": 25,
+          "ly": 43,
+          "label": "Lume del bronchiolo, con parete ripiegata."
+        },
+        {
+          "letter": "B",
+          "x": 21,
+          "y": 64,
+          "lx": 10,
+          "ly": 77,
+          "label": "Spazio alveolare delimitato da setti sottili."
+        }
+      ]
+    },
+    {
+      "id": "micro-intestine",
+      "file": "assets/anatomy/micro-intestine.jpg",
+      "title": "Micrografia 8 · Proiezioni e invaginazioni",
+      "alt": "Micrografia con proiezioni rivestite da cellule, annotazioni originali v, e, p, frecce e asterischi.",
+      "guide": "Mucosa normale del tenue. Le annotazioni aggiunte nella versione Commons restano visibili: v = villo, e = epitelio, p = lamina propria; frecce su cellule caliciformi e asterischi su profili di cripte. I quiz verificano interpretazione e scala, non riconoscimento cieco di una tavola priva di etichette. Non si attribuisce un tratto preciso da questo campo.",
+      "author": "Ed Uthman; annotazioni della versione Commons: Sonabi",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_Small_Intestine_Mucosa_%285916217283%29.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Normal_Small_Intestine_Mucosa_%285916217283%29.jpg/1280px-Normal_Small_Intestine_Mucosa_%285916217283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata. "
+    },
+    {
+      "id": "micro-thyroid",
+      "file": "assets/anatomy/micro-thyroid.jpg",
+      "title": "Micrografia 11 · Profili chiusi e contenuto omogeneo",
+      "alt": "Campo di profili tondeggianti con contenuto rosa e rivestimento cellulare; punti A e B.",
+      "guide": "Tiroide in ematossilina-eosina. A: colloide; B: epitelio follicolare. I larghi spazi fra frammenti non sono automaticamente dotti; non si identificano cellule C dalla sola chiarezza del citoplasma.",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thyroid_gland_-_high_mag.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Thyroid_gland_-_high_mag.jpg/1280px-Thyroid_gland_-_high_mag.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. Immagine e annotazioni distribuite con CC BY-SA 3.0.",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 59,
+          "y": 49,
+          "lx": 45,
+          "ly": 38,
+          "label": "Colloide nel lume follicolare."
+        },
+        {
+          "letter": "B",
+          "x": 62.7,
+          "y": 49,
+          "lx": 79,
+          "ly": 42,
+          "label": "Rivestimento follicolare."
+        }
+      ]
+    },
+    {
+      "id": "micro-kidney",
+      "file": "assets/anatomy/micro-kidney.jpg",
+      "title": "Micrografia 9 · Aggregati e tubuli",
+      "alt": "Preparazione con aggregati capsulati e numerosi profili tubulari, segnale bruno su fondo azzurro.",
+      "guide": "Rene non neoplastico, immunoistochimica CD10 secondo la scheda. A: ciuffo glomerulare nel corpuscolo; B: profilo tubulare. Il segnale marca glomeruli e tubuli prossimali, non misura filtrazione né risolve da solo ogni segmento. La linea nera presso il bordo inferiore appartiene all’immagine originale.",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kidney_cd10_ihc.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Kidney_cd10_ihc.jpg/1280px-Kidney_cd10_ihc.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. Immagine e annotazioni distribuite con CC BY-SA 3.0.",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 44,
+          "y": 32,
+          "lx": 55,
+          "ly": 21,
+          "label": "Ciuffo glomerulare nel corpuscolo renale."
+        },
+        {
+          "letter": "B",
+          "x": 33,
+          "y": 43,
+          "lx": 19,
+          "ly": 53,
+          "label": "Profilo tubulare corticale."
+        }
+      ]
+    },
+    {
+      "id": "micro-liver",
+      "file": "assets/anatomy/micro-liver.jpg",
+      "title": "Micrografia 10 · Una trama e due regioni",
+      "alt": "Preparazione verde con trama scura, più profili vicini in alto a sinistra e un’apertura ampia in basso a destra.",
+      "guide": "Fegato, colorazione per reticolina. A: regione portale; B: venula epatica, riferimenti identificati nella scheda. La trama evidenzia l’architettura delle lamine epatocitarie; non tutti i componenti della triade o i canalicoli sono distinguibili individualmente. Non usare questo esercizio per diagnosi.",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liver_reticulin.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Liver_reticulin.jpg/1280px-Liver_reticulin.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "changes": "Anteprima 1280 px fornita da Wikimedia, senza altri ritagli o alterazioni. Guida italiana separata e riferimenti sovrapposti nell’app. Immagine e annotazioni distribuite con CC BY-SA 3.0.",
+      "markers": [
+        {
+          "letter": "A",
+          "x": 29,
+          "y": 28,
+          "lx": 15,
+          "ly": 14,
+          "label": "Regione portale con più strutture vicine."
+        },
+        {
+          "letter": "B",
+          "x": 74,
+          "y": 70,
+          "lx": 87,
+          "ly": 85,
+          "label": "Venula epatica che raccoglie il sangue."
+        }
+      ]
+    },
+    {
+      "id": "regional-shoulder",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/1119_Muscles_that_Move_the_Humerus.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1119_Muscles_that_Move_the_Humerus.jpg",
+      "file": "assets/anatomy/regional-shoulder.jpg",
+      "title": "Spalla sinistra · superficie e piani profondi",
+      "alt": "Quattro viste regionali della spalla, con muscoli superficiali e profondi ed etichette inglesi.",
+      "guide": "OpenStax, figura 11.23. In alto viste superficiali; in basso piani profondi anterolaterale e posteriore. Cut = sezionato. Subscapularis = sottoscapolare, supraspinatus = sovraspinato, infraspinatus = infraspinato, teres minor = piccolo rotondo, teres major = grande rotondo. I quattro pannelli mostrano la spalla sinistra; la didascalia inglese incorporata è il riferimento per il lato. Le etichette rimangono visibili: gli esercizi verificano rapporti e azioni.",
+      "author": "OpenStax · tavola 2016 da Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Immagine originale della versione Commons 2016, CC BY 4.0, senza modifiche; guida italiana separata. Identità dei byte verificata rispetto alla figura del manuale."
+    },
+    {
+      "id": "regional-hip",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/1122_Gluteal_Muscles_that_Move_the_Femur.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1122_Gluteal_Muscles_that_Move_the_Femur.jpg",
+      "file": "assets/anatomy/regional-hip.jpg",
+      "title": "Anca destra · viste anteriori e posteriori",
+      "alt": "Tre viste della regione pelvica e della coscia, con piani superficiali e profondi ed etichette inglesi.",
+      "guide": "OpenStax, figura 11.29. Anca destra: in alto piano anteriore superficiale, in basso anteriore profondo e posteriore. Cut = sezionato. Gluteus maximus/medius/minimus = grande/medio/piccolo gluteo; iliacus = iliaco; psoas major = grande psoas. Riconosci i piani glutei dalla rimozione delle parti superficiali. Distingui tendine quadricipitale sopra la patella e legamento patellare sotto: la terminologia inglese della tavola usa anche “patellar tendon”. Non usare ogni freccia come prova dell’intero decorso di un muscolo. Etichette visibili nei quiz.",
+      "author": "OpenStax · tavola 2016 da Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Immagine originale della versione Commons 2016, CC BY 4.0, senza modifiche; guida italiana separata. Identità dei byte verificata rispetto alla figura del manuale."
     }
   ],
   "workbooks": [
@@ -33458,8 +34913,8 @@
   "checkpoint": {
     "status": "paused",
     "updated": "2026-10-22",
-    "summary": "In pausa dopo Scienze giuridiche: 20 lezioni, 80 sezioni, 160 quiz e 20 prove orali. Ampliate le otto lezioni iniziali e aggiunte dodici; confronto delle voci pubbliche 2024/25 e dei due articoli assegnati svolto. Restano dettaglio corrente e ulteriori dispense.",
-    "next": "Alla prossima ripresa: ampliare il riconoscimento anatomico e completare le verifiche correnti ancora indicate. Per Giuridiche acquisire soltanto il programma analitico corrente e le ulteriori dispense quando disponibili. Ascolto inglese escluso dall’obiettivo.",
+    "summary": "In pausa dopo Anatomia: 57 lezioni, 471 quiz, 28 immagini e tre schemi. Aggiunte otto lezioni con laboratorio morfologico, rapporti spaziali e preparazione all’orale; confrontate 75 voci del programma pubblico e degli obiettivi. Il catalogo 2026/27 indica orale; dettaglio analitico corrente e materiali del docente restano da acquisire.",
+    "next": "Alla prossima richiesta: completare Scienze psicologiche e pedagogiche a partire dal confronto dei quattro moduli e delle letture assegnate. Per Anatomia resta il confronto con il programma analitico corrente quando disponibile e con i materiali del docente. Non avviare altri esami automaticamente.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
@@ -33468,8 +34923,8 @@
       },
       {
         "id": "anatomia-umana",
-        "label": "Da ampliare e verificare",
-        "remaining": "Disponibili tre simulazioni scritte e quattro micrografie guidate. Restano altri tessuti/visceri e viste regionali, ricostruzione spaziale e verifica del programma attuale. Un campione di immagini non dimostra riconoscimento su qualsiasi preparato."
+        "label": "Percorso pubblico sviluppato; verifica corrente da terminare",
+        "remaining": "Confrontate 75 voci 2024/25 e obiettivi. Disponibili laboratorio con 11 micrografie, viste regionali, ricostruzioni guidate e prove orali. Catalogo 2026/27: orale. Restano dettaglio analitico e materiali correnti; il campione di immagini non certifica riconoscimento su ogni preparato o preparazione individuale."
       },
       {
         "id": "scienze-base",

@@ -1,0 +1,3930 @@
+{
+  "checked": "2026-10-22",
+  "exam": "anatomia-umana",
+  "referenceYear": "2024/25",
+  "currentSyllabusConfirmed": false,
+  "currentCatalogue": {
+    "url": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/41617/2026/9999?schemaid=40224#1",
+    "checked": "2026-10-22",
+    "method": "Pagina renderizzata nel browser; espanse le sezioni disponibili",
+    "cfu": 5,
+    "hours": 50,
+    "semester": 1,
+    "teacher": "Francesco Girolamo",
+    "assessment": "Orale",
+    "analyticalProgrammeAvailable": false,
+    "snapshot": ".local/anatomy-catalogue-2026.txt"
+  },
+  "historicalSource": {
+    "id": "syllabus-anatomy",
+    "url": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/anatomia-umana-24-25.pdf",
+    "programmePages": "3–5",
+    "learningOutcomesPage": 2,
+    "assessmentPage": 6,
+    "assessment": "10 risposte brevissime di istologia + due risposte aperte, 90 minuti. Formato storico, distinto dall’orale corrente."
+  },
+  "method": "Confronto delle voci esplicite del syllabus e degli obiettivi con sezioni realmente presenti. Le nove verifiche parziali precedenti sono conservate; questa tabella riunisce il programma e include classificazioni, cavità, catene neuronali, crescita e riconoscimento. Nessun materiale privato incorporato.",
+  "crosswalk": [
+    {
+      "topic": "Livelli di organizzazione; cavità; terminologia, piani e movimenti",
+      "refs": [
+        "tessuti/famiglie",
+        "piani/posizione",
+        "piani/piani",
+        "piani/movimenti",
+        "anat-spazio/orientare"
+      ],
+      "questionIds": [
+        "an-piani-1",
+        "an-piani-2",
+        "an-piani-3",
+        "base-tessuti-famiglie",
+        "anat-final-anat-spazio-orientare-0",
+        "anat-final-anat-spazio-orientare-1",
+        "anat-final-extra-cavities-dorsal",
+        "anat-final-extra-cavities-kidney"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Organi cavi, pieni, stroma e parenchima",
+      "refs": [
+        "anat-struttura-tempo/organi"
+      ],
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-organi-0",
+        "anat-final-anat-struttura-tempo-organi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Classi di epitelio semplice e pluristratificato, pseudostratificato e urotelio",
+      "refs": [
+        "anat-struttura-tempo/epiteli",
+        "anatomia-epiteli-ghiandole/rivestimento"
+      ],
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-rivestimento-0",
+        "hi-anatomia-epiteli-ghiandole-rivestimento-1",
+        "anat-final-anat-struttura-tempo-epiteli-0",
+        "anat-final-anat-struttura-tempo-epiteli-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Polarità epiteliale, superficie apicale e giunzioni",
+      "refs": [
+        "anatomia-epiteli-ghiandole/giunzioni"
+      ],
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-giunzioni-0",
+        "hi-anatomia-epiteli-ghiandole-giunzioni-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Classificazione degli adenomeri e dei dotti; sedi e tipi di secreto",
+      "refs": [
+        "anatomia-epiteli-ghiandole/classificare"
+      ],
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-classificare-0",
+        "hi-anatomia-epiteli-ghiandole-classificare-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Esempi gastrici, intestinali, sudoripari, sebacei, pancreatici e mammari",
+      "refs": [
+        "anatomia-epiteli-ghiandole/secrezione",
+        "anat-lab-ghiandole/esocrine",
+        "anatomia-tubo-digerente/stomaco",
+        "anat-lab-visceri/intestino"
+      ],
+      "questionIds": [
+        "av-anatomia-tubo-digerente-stomaco-0",
+        "av-anatomia-tubo-digerente-stomaco-1",
+        "hi-anatomia-epiteli-ghiandole-secrezione-0",
+        "hi-anatomia-epiteli-ghiandole-secrezione-1",
+        "anat-final-anat-lab-visceri-intestino-0",
+        "anat-final-anat-lab-visceri-intestino-1",
+        "anat-final-anat-lab-ghiandole-esocrine-0",
+        "anat-final-anat-lab-ghiandole-esocrine-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Organizzazione endocrina e ipofisi",
+      "refs": [
+        "anatomia-endocrino/ipofisi"
+      ],
+      "questionIds": [
+        "av-anatomia-endocrino-ipofisi-0",
+        "av-anatomia-endocrino-ipofisi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Tiroide e paratiroidi",
+      "refs": [
+        "anatomia-endocrino/tiroide",
+        "anat-lab-ghiandole/tiroide"
+      ],
+      "questionIds": [
+        "av-anatomia-endocrino-tiroide-0",
+        "av-anatomia-endocrino-tiroide-1",
+        "anat-final-anat-lab-ghiandole-tiroide-0",
+        "anat-final-anat-lab-ghiandole-tiroide-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Surrenali e pancreas endocrino",
+      "refs": [
+        "anatomia-endocrino/surrene",
+        "anatomia-endocrino/isole-feedback"
+      ],
+      "questionIds": [
+        "av-anatomia-endocrino-surrene-0",
+        "av-anatomia-endocrino-surrene-1",
+        "av-anatomia-endocrino-isole-feedback-0",
+        "av-anatomia-endocrino-isole-feedback-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cellule dei connettivi: fibroblasti, fibrociti, macrofagi, mastociti, adipociti, plasmacellule; matrice",
+      "refs": [
+        "anatomia-connettivi-osso/matrice"
+      ],
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-matrice-0",
+        "hi-anatomia-connettivi-osso-matrice-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Connettivo lasso, denso, reticolare, elastico, mucoso e adiposo",
+      "refs": [
+        "anatomia-connettivi-osso/tipi"
+      ],
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-tipi-0",
+        "hi-anatomia-connettivi-osso-tipi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Istogenesi cartilaginea, ialina, elastica e fibrocartilagine",
+      "refs": [
+        "anatomia-connettivi-osso/cartilagine",
+        "anatomia-micrografie/matrice"
+      ],
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-cartilagine-0",
+        "hi-anatomia-connettivi-osso-cartilagine-1",
+        "micro-matrice-0",
+        "micro-matrice-1",
+        "micro-matrice-2",
+        "micro-matrice-3"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cellule ossee, matrice, lamellare/non lamellare, compatto/spugnoso",
+      "refs": [
+        "anatomia-connettivi-osso/osso",
+        "anat-lab-tessuti/osso"
+      ],
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-osso-0",
+        "hi-anatomia-connettivi-osso-osso-1",
+        "anat-final-anat-lab-tessuti-osso-0",
+        "anat-final-anat-lab-tessuti-osso-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Ossificazione intramembranosa, endocondrale e crescita",
+      "refs": [
+        "anatomia-connettivi-osso/osso",
+        "anat-struttura-tempo/crescita"
+      ],
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-osso-0",
+        "hi-anatomia-connettivi-osso-osso-1",
+        "anat-final-anat-struttura-tempo-crescita-0",
+        "anat-final-anat-struttura-tempo-crescita-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Sangue: elementi figurati e plasma, proteine e piastrine",
+      "refs": [
+        "anatomia-sangue-difese/plasma",
+        "anat-lab-tessuti/sangue"
+      ],
+      "questionIds": [
+        "hi-anatomia-sangue-difese-plasma-0",
+        "hi-anatomia-sangue-difese-plasma-1",
+        "anat-final-anat-lab-tessuti-sangue-0",
+        "anat-final-anat-lab-tessuti-sangue-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cinque famiglie leucocitarie e cenni di emopoiesi",
+      "refs": [
+        "anatomia-sangue-difese/leucociti",
+        "anatomia-sangue-difese/emopoiesi"
+      ],
+      "questionIds": [
+        "hi-anatomia-sangue-difese-leucociti-0",
+        "hi-anatomia-sangue-difese-leucociti-1",
+        "hi-anatomia-sangue-difese-emopoiesi-0",
+        "hi-anatomia-sangue-difese-emopoiesi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Immunoglobuline, complemento, immunità innata e adattativa",
+      "refs": [
+        "anatomia-sangue-difese/immunita"
+      ],
+      "questionIds": [
+        "hi-anatomia-sangue-difese-immunita-0",
+        "hi-anatomia-sangue-difese-immunita-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscolo scheletrico, fibra e sarcomero, contrazione",
+      "refs": [
+        "muscolo/sarcomero",
+        "anatomia-micro-muscolo/scheletrico",
+        "anatomia-micrografie/ultrastruttura"
+      ],
+      "questionIds": [
+        "an-musc-2",
+        "depth-anatomia-micro-muscolo-scheletrico",
+        "micro-ultrastruttura-0",
+        "micro-ultrastruttura-1",
+        "micro-ultrastruttura-2",
+        "micro-ultrastruttura-3"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cardiomiocita e muscolo liscio",
+      "refs": [
+        "anatomia-micro-muscolo/cardiaco",
+        "anatomia-micro-muscolo/liscio",
+        "anat-lab-tessuti/muscolo"
+      ],
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-cardiaco",
+        "depth-anatomia-micro-muscolo-liscio",
+        "anat-final-anat-lab-tessuti-muscolo-0",
+        "anat-final-anat-lab-tessuti-muscolo-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Neurone e glia centrale/periferica: oligodendrociti, Schwann e satelliti",
+      "refs": [
+        "anatomia-micro-muscolo/glia",
+        "anat-lab-tessuti/nervo",
+        "anatomia-nervi-autonomo/nervo"
+      ],
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-glia",
+        "ns-anatomia-nervi-autonomo-nervo-0",
+        "ns-anatomia-nervi-autonomo-nervo-1",
+        "anat-final-anat-lab-tessuti-nervo-0",
+        "anat-final-anat-lab-tessuti-nervo-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Classificazione morfologica delle ossa",
+      "refs": [
+        "anat-struttura-tempo/ossa"
+      ],
+      "questionIds": [
+        "anat-final-extra-bone-shape",
+        "anat-final-extra-bone-flat"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Articolazioni: classificazione, capsula, legamenti e sinovia",
+      "refs": [
+        "articolazioni/classi",
+        "articolazioni/capsula",
+        "anatomia-scheletro-visivo/sinoviale"
+      ],
+      "questionIds": [
+        "articolazioni-classi-verifica",
+        "articolazioni-capsula-verifica",
+        "bones-visual-10",
+        "bones-visual-11",
+        "bones-visual-12",
+        "anat-final-extra-joint-function",
+        "anat-final-extra-joint-criteria"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Neurocranio, splancnocranio e cavità della testa",
+      "refs": [
+        "anatomia-cranio/ossa",
+        "anatomia-cranio/suture",
+        "anatomia-cranio/cavita",
+        "anatomia-cranio/passaggi"
+      ],
+      "questionIds": [
+        "av-anatomia-cranio-ossa-0",
+        "av-anatomia-cranio-ossa-1",
+        "av-anatomia-cranio-suture-0",
+        "av-anatomia-cranio-suture-1",
+        "av-anatomia-cranio-cavita-0",
+        "av-anatomia-cranio-cavita-1",
+        "av-anatomia-cranio-passaggi-0",
+        "av-anatomia-cranio-passaggi-1",
+        "av-anatomia-cranio-ossa-2",
+        "av-anatomia-cranio-cavita-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Colonna vertebrale, dischi e legamenti",
+      "refs": [
+        "anatomia-colonna-torace/vertebra",
+        "anatomia-colonna-torace/regioni",
+        "anatomia-colonna-torace/dischi"
+      ],
+      "questionIds": [
+        "av-anatomia-colonna-torace-vertebra-0",
+        "av-anatomia-colonna-torace-vertebra-1",
+        "av-anatomia-colonna-torace-regioni-0",
+        "av-anatomia-colonna-torace-regioni-1",
+        "av-anatomia-colonna-torace-dischi-0",
+        "av-anatomia-colonna-torace-dischi-1",
+        "av-anatomia-colonna-torace-vertebra-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Scheletro del torace",
+      "refs": [
+        "anatomia-colonna-torace/coste"
+      ],
+      "questionIds": [
+        "av-anatomia-colonna-torace-coste-0",
+        "av-anatomia-colonna-torace-coste-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cingolo scapolare, braccio, avambraccio e mano",
+      "refs": [
+        "arto-superiore/ossa",
+        "anatomia-scheletro-visivo/superiore",
+        "anatomia-avambraccio/ossa",
+        "anatomia-mano/scheletro"
+      ],
+      "questionIds": [
+        "arto-superiore-ossa-verifica",
+        "bones-visual-4",
+        "bones-visual-5",
+        "bones-visual-6",
+        "distal-anatomia-mano-scheletro-0",
+        "distal-anatomia-mano-scheletro-1",
+        "distal-anatomia-mano-scheletro-2",
+        "regional-anatomia-avambraccio-ossa-0",
+        "regional-anatomia-avambraccio-ossa-1",
+        "regional-anatomia-avambraccio-ossa-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cingolo pelvico, coscia, gamba e piede",
+      "refs": [
+        "arto-inferiore/ossa",
+        "anatomia-scheletro-visivo/inferiore",
+        "anatomia-gamba/compartimenti",
+        "anatomia-piede/scheletro"
+      ],
+      "questionIds": [
+        "arto-inferiore-ossa-verifica",
+        "bones-visual-7",
+        "bones-visual-8",
+        "bones-visual-9",
+        "distal-anatomia-piede-scheletro-0",
+        "distal-anatomia-piede-scheletro-1",
+        "distal-anatomia-piede-scheletro-2",
+        "regional-anatomia-gamba-compartimenti-0",
+        "regional-anatomia-gamba-compartimenti-1",
+        "regional-anatomia-gamba-compartimenti-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Principali articolazioni degli arti superiore e inferiore",
+      "refs": [
+        "anatomia-spalla-braccio/scapola",
+        "anatomia-spalla-braccio/cuffia",
+        "anatomia-spalla-braccio/gomito",
+        "anatomia-spalla-braccio/rapporti",
+        "anatomia-anca-coscia/articolazioni",
+        "anatomia-mano/scheletro",
+        "anatomia-piede/scheletro",
+        "anat-regioni-inferiori/ginocchio"
+      ],
+      "questionIds": [
+        "distal-anatomia-mano-scheletro-0",
+        "distal-anatomia-mano-scheletro-1",
+        "distal-anatomia-mano-scheletro-2",
+        "distal-anatomia-piede-scheletro-0",
+        "distal-anatomia-piede-scheletro-1",
+        "distal-anatomia-piede-scheletro-2",
+        "proximal-anatomia-spalla-braccio-scapola-0",
+        "proximal-anatomia-spalla-braccio-scapola-1",
+        "proximal-anatomia-spalla-braccio-scapola-2",
+        "proximal-anatomia-spalla-braccio-cuffia-0",
+        "proximal-anatomia-spalla-braccio-cuffia-1",
+        "proximal-anatomia-spalla-braccio-cuffia-2",
+        "proximal-anatomia-spalla-braccio-gomito-0",
+        "proximal-anatomia-spalla-braccio-gomito-1",
+        "proximal-anatomia-spalla-braccio-gomito-2",
+        "proximal-anatomia-spalla-braccio-rapporti-0",
+        "proximal-anatomia-spalla-braccio-rapporti-1",
+        "proximal-anatomia-spalla-braccio-rapporti-2",
+        "proximal-anatomia-anca-coscia-articolazioni-0",
+        "proximal-anatomia-anca-coscia-articolazioni-1",
+        "proximal-anatomia-anca-coscia-articolazioni-2",
+        "anat-final-anat-regioni-inferiori-ginocchio-0",
+        "anat-final-anat-regioni-inferiori-ginocchio-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Organizzazione muscolare, attacchi, forma e ruolo funzionale",
+      "refs": [
+        "muscolo/connessioni",
+        "muscolo/contrazioni",
+        "anat-struttura-tempo/organi"
+      ],
+      "questionIds": [
+        "an-musc-1",
+        "an-musc-3",
+        "anat-final-anat-struttura-tempo-organi-0",
+        "anat-final-anat-struttura-tempo-organi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli anterolaterali del collo, ioidei e dorso",
+      "refs": [
+        "anatomia-collo-dorso/collo",
+        "anatomia-collo-dorso/ioide",
+        "anatomia-collo-dorso/dorso",
+        "anatomia-collo-dorso/nuca-fascia"
+      ],
+      "questionIds": [
+        "trunk-anatomia-collo-dorso-collo-0",
+        "trunk-anatomia-collo-dorso-collo-1",
+        "trunk-anatomia-collo-dorso-collo-2",
+        "trunk-anatomia-collo-dorso-ioide-0",
+        "trunk-anatomia-collo-dorso-ioide-1",
+        "trunk-anatomia-collo-dorso-ioide-2",
+        "trunk-anatomia-collo-dorso-dorso-0",
+        "trunk-anatomia-collo-dorso-dorso-1",
+        "trunk-anatomia-collo-dorso-dorso-2",
+        "trunk-anatomia-collo-dorso-nuca-fascia-0",
+        "trunk-anatomia-collo-dorso-nuca-fascia-1",
+        "trunk-anatomia-collo-dorso-nuca-fascia-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli respiratori e parete addominale anterolaterale, aponeurosi e fasce",
+      "refs": [
+        "anatomia-pareti-tronco/respiratori",
+        "anatomia-pareti-tronco/addominali",
+        "anatomia-pareti-tronco/guaine"
+      ],
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-respiratori-0",
+        "trunk-anatomia-pareti-tronco-respiratori-1",
+        "trunk-anatomia-pareti-tronco-respiratori-2",
+        "trunk-anatomia-pareti-tronco-addominali-0",
+        "trunk-anatomia-pareti-tronco-addominali-1",
+        "trunk-anatomia-pareti-tronco-addominali-2",
+        "trunk-anatomia-pareti-tronco-guaine-0",
+        "trunk-anatomia-pareti-tronco-guaine-1",
+        "trunk-anatomia-pareti-tronco-guaine-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Parete addominale posteriore",
+      "refs": [
+        "anatomia-pareti-tronco/posteriore"
+      ],
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-posteriore-0",
+        "trunk-anatomia-pareti-tronco-posteriore-1",
+        "trunk-anatomia-pareti-tronco-posteriore-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Piccola pelvi, perineo e fasce",
+      "refs": [
+        "anatomia-pelvi-perineo/pavimento",
+        "anatomia-pelvi-perineo/perineo",
+        "anatomia-pelvi-perineo/rotatori",
+        "anatomia-pelvi-perineo/integrazione",
+        "anat-spazio/pelvi"
+      ],
+      "questionIds": [
+        "trunk-anatomia-pelvi-perineo-pavimento-0",
+        "trunk-anatomia-pelvi-perineo-pavimento-1",
+        "trunk-anatomia-pelvi-perineo-pavimento-2",
+        "trunk-anatomia-pelvi-perineo-perineo-0",
+        "trunk-anatomia-pelvi-perineo-perineo-1",
+        "trunk-anatomia-pelvi-perineo-perineo-2",
+        "trunk-anatomia-pelvi-perineo-rotatori-0",
+        "trunk-anatomia-pelvi-perineo-rotatori-1",
+        "trunk-anatomia-pelvi-perineo-rotatori-2",
+        "trunk-anatomia-pelvi-perineo-integrazione-0",
+        "trunk-anatomia-pelvi-perineo-integrazione-1",
+        "trunk-anatomia-pelvi-perineo-integrazione-2",
+        "anat-final-anat-spazio-pelvi-0",
+        "anat-final-anat-spazio-pelvi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli dell’arto superiore: spalla e braccio",
+      "refs": [
+        "anatomia-spalla-braccio/scapola",
+        "anatomia-spalla-braccio/cuffia",
+        "anatomia-spalla-braccio/gomito",
+        "anatomia-spalla-braccio/rapporti",
+        "anat-regioni-superiori/scapola"
+      ],
+      "questionIds": [
+        "proximal-anatomia-spalla-braccio-scapola-0",
+        "proximal-anatomia-spalla-braccio-scapola-1",
+        "proximal-anatomia-spalla-braccio-scapola-2",
+        "proximal-anatomia-spalla-braccio-cuffia-0",
+        "proximal-anatomia-spalla-braccio-cuffia-1",
+        "proximal-anatomia-spalla-braccio-cuffia-2",
+        "proximal-anatomia-spalla-braccio-gomito-0",
+        "proximal-anatomia-spalla-braccio-gomito-1",
+        "proximal-anatomia-spalla-braccio-gomito-2",
+        "proximal-anatomia-spalla-braccio-rapporti-0",
+        "proximal-anatomia-spalla-braccio-rapporti-1",
+        "proximal-anatomia-spalla-braccio-rapporti-2",
+        "anat-final-anat-regioni-superiori-scapola-0",
+        "anat-final-anat-regioni-superiori-scapola-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli dell’arto superiore: avambraccio e mano",
+      "refs": [
+        "anatomia-avambraccio/ossa",
+        "anatomia-avambraccio/anteriori",
+        "anatomia-avambraccio/profondi",
+        "anatomia-avambraccio/posteriori",
+        "anatomia-avambraccio/pollice",
+        "anatomia-avambraccio/passaggi",
+        "anatomia-mano/scheletro",
+        "anatomia-mano/estrinseci",
+        "anatomia-mano/intrinseci",
+        "anatomia-mano/passaggi",
+        "anat-regioni-superiori/gomito",
+        "anat-regioni-superiori/polso"
+      ],
+      "questionIds": [
+        "distal-anatomia-mano-scheletro-0",
+        "distal-anatomia-mano-scheletro-1",
+        "distal-anatomia-mano-scheletro-2",
+        "distal-anatomia-mano-estrinseci-0",
+        "distal-anatomia-mano-estrinseci-1",
+        "distal-anatomia-mano-estrinseci-2",
+        "distal-anatomia-mano-intrinseci-0",
+        "distal-anatomia-mano-intrinseci-1",
+        "distal-anatomia-mano-intrinseci-2",
+        "distal-anatomia-mano-passaggi-0",
+        "distal-anatomia-mano-passaggi-1",
+        "distal-anatomia-mano-passaggi-2",
+        "regional-anatomia-avambraccio-ossa-0",
+        "regional-anatomia-avambraccio-ossa-1",
+        "regional-anatomia-avambraccio-ossa-2",
+        "regional-anatomia-avambraccio-anteriori-0",
+        "regional-anatomia-avambraccio-anteriori-1",
+        "regional-anatomia-avambraccio-anteriori-2",
+        "regional-anatomia-avambraccio-profondi-0",
+        "regional-anatomia-avambraccio-profondi-1",
+        "regional-anatomia-avambraccio-profondi-2",
+        "regional-anatomia-avambraccio-posteriori-0",
+        "regional-anatomia-avambraccio-posteriori-1",
+        "regional-anatomia-avambraccio-posteriori-2",
+        "regional-anatomia-avambraccio-pollice-0",
+        "regional-anatomia-avambraccio-pollice-1",
+        "regional-anatomia-avambraccio-pollice-2",
+        "regional-anatomia-avambraccio-passaggi-0",
+        "regional-anatomia-avambraccio-passaggi-1",
+        "regional-anatomia-avambraccio-passaggi-2",
+        "anat-final-anat-regioni-superiori-gomito-0",
+        "anat-final-anat-regioni-superiori-gomito-1",
+        "anat-final-anat-regioni-superiori-polso-0",
+        "anat-final-anat-regioni-superiori-polso-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli dell’arto inferiore: anca e coscia",
+      "refs": [
+        "anatomia-anca-coscia/articolazioni",
+        "anatomia-anca-coscia/glutei",
+        "anatomia-anca-coscia/anteromediale",
+        "anatomia-anca-coscia/posteriore",
+        "anat-regioni-inferiori/anca"
+      ],
+      "questionIds": [
+        "proximal-anatomia-anca-coscia-articolazioni-0",
+        "proximal-anatomia-anca-coscia-articolazioni-1",
+        "proximal-anatomia-anca-coscia-articolazioni-2",
+        "proximal-anatomia-anca-coscia-glutei-0",
+        "proximal-anatomia-anca-coscia-glutei-1",
+        "proximal-anatomia-anca-coscia-glutei-2",
+        "proximal-anatomia-anca-coscia-anteromediale-0",
+        "proximal-anatomia-anca-coscia-anteromediale-1",
+        "proximal-anatomia-anca-coscia-anteromediale-2",
+        "proximal-anatomia-anca-coscia-posteriore-0",
+        "proximal-anatomia-anca-coscia-posteriore-1",
+        "proximal-anatomia-anca-coscia-posteriore-2",
+        "anat-final-anat-regioni-inferiori-anca-0",
+        "anat-final-anat-regioni-inferiori-anca-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Muscoli dell’arto inferiore: gamba e piede",
+      "refs": [
+        "anatomia-gamba/compartimenti",
+        "anatomia-gamba/anteriore",
+        "anatomia-gamba/laterale",
+        "anatomia-gamba/superficiale",
+        "anatomia-gamba/profondo",
+        "anatomia-gamba/passaggi",
+        "anatomia-piede/scheletro",
+        "anatomia-piede/estrinseci",
+        "anatomia-piede/intrinseci",
+        "anatomia-piede/integrare",
+        "anat-regioni-inferiori/caviglia"
+      ],
+      "questionIds": [
+        "distal-anatomia-piede-scheletro-0",
+        "distal-anatomia-piede-scheletro-1",
+        "distal-anatomia-piede-scheletro-2",
+        "distal-anatomia-piede-estrinseci-0",
+        "distal-anatomia-piede-estrinseci-1",
+        "distal-anatomia-piede-estrinseci-2",
+        "distal-anatomia-piede-intrinseci-0",
+        "distal-anatomia-piede-intrinseci-1",
+        "distal-anatomia-piede-intrinseci-2",
+        "distal-anatomia-piede-integrare-0",
+        "distal-anatomia-piede-integrare-1",
+        "distal-anatomia-piede-integrare-2",
+        "regional-anatomia-gamba-compartimenti-0",
+        "regional-anatomia-gamba-compartimenti-1",
+        "regional-anatomia-gamba-compartimenti-2",
+        "regional-anatomia-gamba-anteriore-0",
+        "regional-anatomia-gamba-anteriore-1",
+        "regional-anatomia-gamba-anteriore-2",
+        "regional-anatomia-gamba-laterale-0",
+        "regional-anatomia-gamba-laterale-1",
+        "regional-anatomia-gamba-laterale-2",
+        "regional-anatomia-gamba-superficiale-0",
+        "regional-anatomia-gamba-superficiale-1",
+        "regional-anatomia-gamba-superficiale-2",
+        "regional-anatomia-gamba-profondo-0",
+        "regional-anatomia-gamba-profondo-1",
+        "regional-anatomia-gamba-profondo-2",
+        "regional-anatomia-gamba-passaggi-0",
+        "regional-anatomia-gamba-passaggi-1",
+        "regional-anatomia-gamba-passaggi-2",
+        "anat-final-anat-regioni-inferiori-caviglia-0",
+        "anat-final-anat-regioni-inferiori-caviglia-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cuore macroscopico e microscopico, valvole, scheletro fibroso e pericardio",
+      "refs": [
+        "anatomia-cuore/topografia",
+        "anatomia-cuore/cavita",
+        "anatomia-cuore/valvole",
+        "anatomia-cuore/parete"
+      ],
+      "questionIds": [
+        "heart-anatomia-cuore-topografia-0",
+        "heart-anatomia-cuore-topografia-1",
+        "heart-anatomia-cuore-topografia-2",
+        "heart-anatomia-cuore-cavita-0",
+        "heart-anatomia-cuore-cavita-1",
+        "heart-anatomia-cuore-cavita-2",
+        "heart-anatomia-cuore-valvole-0",
+        "heart-anatomia-cuore-valvole-1",
+        "heart-anatomia-cuore-valvole-2",
+        "heart-anatomia-cuore-parete-0",
+        "heart-anatomia-cuore-parete-1",
+        "heart-anatomia-cuore-parete-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Conduzione e ciclo cardiaco",
+      "refs": [
+        "anatomia-ciclo-vasi/conduzione",
+        "anatomia-ciclo-vasi/ciclo"
+      ],
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-conduzione-0",
+        "heart-anatomia-ciclo-vasi-conduzione-1",
+        "heart-anatomia-ciclo-vasi-conduzione-2",
+        "heart-anatomia-ciclo-vasi-ciclo-0",
+        "heart-anatomia-ciclo-vasi-ciclo-1",
+        "heart-anatomia-ciclo-vasi-ciclo-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Circolo sistemico e polmonare",
+      "refs": [
+        "circolazione/percorso",
+        "anatomia-vasi-neuro/vasi"
+      ],
+      "questionIds": [
+        "base-circolazione-percorso",
+        "y1-anatomia-vasi-neuro-vasi"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Aorta, origine, decorso, collaterali e terminali",
+      "refs": [
+        "anatomia-arterie/aorta",
+        "anatomia-arterie/superiore",
+        "anatomia-arterie/viscerali",
+        "anatomia-arterie/inferiore"
+      ],
+      "questionIds": [
+        "vascular-anatomia-arterie-aorta-0",
+        "vascular-anatomia-arterie-aorta-1",
+        "vascular-anatomia-arterie-aorta-2",
+        "vascular-anatomia-arterie-superiore-0",
+        "vascular-anatomia-arterie-superiore-1",
+        "vascular-anatomia-arterie-superiore-2",
+        "vascular-anatomia-arterie-viscerali-0",
+        "vascular-anatomia-arterie-viscerali-1",
+        "vascular-anatomia-arterie-viscerali-2",
+        "vascular-anatomia-arterie-inferiore-0",
+        "vascular-anatomia-arterie-inferiore-1",
+        "vascular-anatomia-arterie-inferiore-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Poligono di Willis",
+      "refs": [
+        "anatomia-atlante/willis"
+      ],
+      "questionIds": [
+        "depth-anatomia-atlante-willis",
+        "atlas-basilare",
+        "atlas-media"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Principali vene e circolo portale",
+      "refs": [
+        "anatomia-vene-circoli/superiori",
+        "anatomia-vene-circoli/inferiori",
+        "anatomia-vene-circoli/portale"
+      ],
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-superiori-0",
+        "vascular-anatomia-vene-circoli-superiori-1",
+        "vascular-anatomia-vene-circoli-superiori-2",
+        "vascular-anatomia-vene-circoli-inferiori-0",
+        "vascular-anatomia-vene-circoli-inferiori-1",
+        "vascular-anatomia-vene-circoli-inferiori-2",
+        "vascular-anatomia-vene-circoli-portale-0",
+        "vascular-anatomia-vene-circoli-portale-1",
+        "vascular-anatomia-vene-circoli-portale-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Pareti di arterie, vene, capillari e sinusoidi",
+      "refs": [
+        "anatomia-ciclo-vasi/pareti-vascolari",
+        "anatomia-ciclo-vasi/microcircolo"
+      ],
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-0",
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-1",
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-2",
+        "heart-anatomia-ciclo-vasi-microcircolo-0",
+        "heart-anatomia-ciclo-vasi-microcircolo-1",
+        "heart-anatomia-ciclo-vasi-microcircolo-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Circolazione fetale e transizione alla nascita",
+      "refs": [
+        "anatomia-vene-circoli/fetale",
+        "anat-struttura-tempo/crescita"
+      ],
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-fetale-0",
+        "vascular-anatomia-vene-circoli-fetale-1",
+        "vascular-anatomia-vene-circoli-fetale-2",
+        "anat-final-anat-struttura-tempo-crescita-0",
+        "anat-final-anat-struttura-tempo-crescita-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Linfa, vasi, drenaggio e difesa",
+      "refs": [
+        "anatomia-organi-linfoidi/drenaggio"
+      ],
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-drenaggio-0",
+        "hi-anatomia-organi-linfoidi-drenaggio-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Midollo osseo, timo, linfonodi e milza",
+      "refs": [
+        "anatomia-organi-linfoidi/linfonodo",
+        "anatomia-organi-linfoidi/primari",
+        "anatomia-organi-linfoidi/milza",
+        "anat-lab-ghiandole/linfoidi"
+      ],
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-linfonodo-0",
+        "hi-anatomia-organi-linfoidi-linfonodo-1",
+        "hi-anatomia-organi-linfoidi-primari-0",
+        "hi-anatomia-organi-linfoidi-primari-1",
+        "hi-anatomia-organi-linfoidi-milza-0",
+        "hi-anatomia-organi-linfoidi-milza-1",
+        "anat-final-anat-lab-ghiandole-linfoidi-0",
+        "anat-final-anat-lab-ghiandole-linfoidi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Naso, laringe, trachea e bronchi",
+      "refs": [
+        "anatomia-respiratorio/superiori",
+        "anatomia-respiratorio/conduzione"
+      ],
+      "questionIds": [
+        "depth-anatomia-respiratorio-superiori",
+        "depth-anatomia-respiratorio-conduzione"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Albero bronchiale, polmoni, barriera alveolare e pleure",
+      "refs": [
+        "anatomia-respiratorio/parete",
+        "anatomia-respiratorio/polmoni",
+        "anat-lab-visceri/polmone"
+      ],
+      "questionIds": [
+        "depth-anatomia-respiratorio-parete",
+        "depth-anatomia-respiratorio-polmoni",
+        "anat-final-anat-lab-visceri-polmone-0",
+        "anat-final-anat-lab-visceri-polmone-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Bocca, lingua, denti e salivari maggiori",
+      "refs": [
+        "anatomia-tubo-digerente/bocca"
+      ],
+      "questionIds": [
+        "av-anatomia-tubo-digerente-bocca-0",
+        "av-anatomia-tubo-digerente-bocca-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Faringe, esofago, stomaco e intestino",
+      "refs": [
+        "anatomia-tubo-digerente/esofago",
+        "anatomia-tubo-digerente/stomaco",
+        "anatomia-tubo-digerente/intestino",
+        "anat-lab-visceri/intestino"
+      ],
+      "questionIds": [
+        "av-anatomia-tubo-digerente-esofago-0",
+        "av-anatomia-tubo-digerente-esofago-1",
+        "av-anatomia-tubo-digerente-stomaco-0",
+        "av-anatomia-tubo-digerente-stomaco-1",
+        "av-anatomia-tubo-digerente-intestino-0",
+        "av-anatomia-tubo-digerente-intestino-1",
+        "anat-final-anat-lab-visceri-intestino-0",
+        "anat-final-anat-lab-visceri-intestino-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Fegato, vie biliari, cistifellea e pancreas",
+      "refs": [
+        "anatomia-annessi-peritoneo/fegato",
+        "anatomia-annessi-peritoneo/lobulo",
+        "anatomia-annessi-peritoneo/pancreas",
+        "anat-lab-visceri/fegato"
+      ],
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-fegato-0",
+        "av-anatomia-annessi-peritoneo-fegato-1",
+        "av-anatomia-annessi-peritoneo-lobulo-0",
+        "av-anatomia-annessi-peritoneo-lobulo-1",
+        "av-anatomia-annessi-peritoneo-pancreas-0",
+        "av-anatomia-annessi-peritoneo-pancreas-1",
+        "anat-final-anat-lab-visceri-fegato-0",
+        "anat-final-anat-lab-visceri-fegato-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Peritoneo e formazioni peritoneali",
+      "refs": [
+        "anatomia-annessi-peritoneo/peritoneo",
+        "anat-spazio/addome"
+      ],
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-peritoneo-0",
+        "av-anatomia-annessi-peritoneo-peritoneo-1",
+        "anat-final-anat-spazio-addome-0",
+        "anat-final-anat-spazio-addome-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Rene macroscopico e vascolarizzazione",
+      "refs": [
+        "anatomia-rene-vie/rene",
+        "anatomia-rene-vie/circolo"
+      ],
+      "questionIds": [
+        "av-anatomia-rene-vie-rene-0",
+        "av-anatomia-rene-vie-rene-1",
+        "av-anatomia-rene-vie-circolo-0",
+        "av-anatomia-rene-vie-circolo-1",
+        "av-anatomia-rene-vie-rene-2",
+        "av-anatomia-rene-vie-circolo-2"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Nefrone e apparato iuxtaglomerulare",
+      "refs": [
+        "anatomia-rene-vie/nefrone",
+        "anat-lab-visceri/rene",
+        "anat-esposizione/viscere"
+      ],
+      "questionIds": [
+        "av-anatomia-rene-vie-nefrone-0",
+        "av-anatomia-rene-vie-nefrone-1",
+        "anat-final-anat-lab-visceri-rene-0",
+        "anat-final-anat-lab-visceri-rene-1",
+        "anat-final-anat-esposizione-viscere-0",
+        "anat-final-anat-esposizione-viscere-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Calici, pelvi, ureteri, vescica, uretra maschile e femminile",
+      "refs": [
+        "anatomia-rene-vie/vie"
+      ],
+      "questionIds": [
+        "av-anatomia-rene-vie-vie-0",
+        "av-anatomia-rene-vie-vie-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Testicolo, vie spermatiche, ghiandole annesse e genitali esterni maschili",
+      "refs": [
+        "anatomia-genitale/testicolo",
+        "anatomia-genitale/vie-maschili",
+        "anat-lab-ghiandole/genitali"
+      ],
+      "questionIds": [
+        "av-anatomia-genitale-testicolo-0",
+        "av-anatomia-genitale-testicolo-1",
+        "av-anatomia-genitale-vie-maschili-0",
+        "av-anatomia-genitale-vie-maschili-1",
+        "anat-final-anat-lab-ghiandole-genitali-0",
+        "anat-final-anat-lab-ghiandole-genitali-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Ovaio, vie e genitali esterni femminili",
+      "refs": [
+        "anatomia-genitale/ovaio-tuba",
+        "anatomia-genitale/utero-esterni"
+      ],
+      "questionIds": [
+        "av-anatomia-genitale-ovaio-tuba-0",
+        "av-anatomia-genitale-ovaio-tuba-1",
+        "av-anatomia-genitale-utero-esterni-0",
+        "av-anatomia-genitale-utero-esterni-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Organizzazione nervosa e catene neuronali",
+      "refs": [
+        "nervoso/organizzazione",
+        "nervoso/direzioni",
+        "anat-esposizione/nervoso"
+      ],
+      "questionIds": [
+        "an-neuro-1",
+        "an-neuro-2",
+        "anat-final-anat-esposizione-nervoso-0",
+        "anat-final-anat-esposizione-nervoso-1",
+        "anat-final-extra-chain",
+        "anat-final-extra-convergence"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Sensibilità generale/speciale e recettori cutanei",
+      "refs": [
+        "anatomia-sensibilita-midollo/recettori"
+      ],
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-recettori-0",
+        "ns-anatomia-sensibilita-midollo-recettori-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Fusi, organi del Golgi, arco riflesso e riflessi spinali",
+      "refs": [
+        "anatomia-sensibilita-midollo/riflessi",
+        "anat-esposizione/nervoso"
+      ],
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-riflessi-0",
+        "ns-anatomia-sensibilita-midollo-riflessi-1",
+        "anat-final-anat-esposizione-nervoso-0",
+        "anat-final-anat-esposizione-nervoso-1",
+        "anat-final-extra-chain",
+        "anat-final-extra-convergence"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Midollo: forma esterna, grigia, bianca e funzione",
+      "refs": [
+        "anatomia-sensibilita-midollo/midollo",
+        "anatomia-atlante/midollo",
+        "anat-lab-tessuti/nervo"
+      ],
+      "questionIds": [
+        "depth-anatomia-atlante-midollo",
+        "atlas-cordoni",
+        "atlas-fuso",
+        "ns-anatomia-sensibilita-midollo-midollo-0",
+        "ns-anatomia-sensibilita-midollo-midollo-1",
+        "anat-final-anat-lab-tessuti-nervo-0",
+        "anat-final-anat-lab-tessuti-nervo-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Vie sensitive e motrici principali",
+      "refs": [
+        "anatomia-sensibilita-midollo/vie"
+      ],
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-vie-0",
+        "ns-anatomia-sensibilita-midollo-vie-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Bulbo, ponte e mesencefalo",
+      "refs": [
+        "anatomia-neuro-dettagli/tronco"
+      ],
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-tronco",
+        "ns-anatomia-neuro-dettagli-tronco-0",
+        "ns-anatomia-neuro-dettagli-tronco-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Cervelletto: configurazione, corteccia e funzione",
+      "refs": [
+        "anatomia-neuro-dettagli/cervelletto"
+      ],
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-cervelletto",
+        "ns-anatomia-neuro-dettagli-cervelletto-0",
+        "ns-anatomia-neuro-dettagli-cervelletto-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Diencefalo",
+      "refs": [
+        "anatomia-encefalo-protezioni/diencefalo"
+      ],
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-diencefalo-0",
+        "ns-anatomia-encefalo-protezioni-diencefalo-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Telencefalo, commissure, capsule, nuclei e aree corticali",
+      "refs": [
+        "anatomia-encefalo-protezioni/corteccia",
+        "anatomia-neuro-dettagli/nuclei"
+      ],
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-nuclei",
+        "ns-anatomia-encefalo-protezioni-corteccia-0",
+        "ns-anatomia-encefalo-protezioni-corteccia-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Ventricoli, liquor, meningi e barriera ematoencefalica",
+      "refs": [
+        "anatomia-encefalo-protezioni/meningi",
+        "anatomia-encefalo-protezioni/liquor"
+      ],
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-meningi-0",
+        "ns-anatomia-encefalo-protezioni-meningi-1",
+        "ns-anatomia-encefalo-protezioni-liquor-0",
+        "ns-anatomia-encefalo-protezioni-liquor-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Nervo spinale, gangli e plessi",
+      "refs": [
+        "anatomia-nervi-autonomo/nervo",
+        "anatomia-nervi-autonomo/plessi"
+      ],
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-nervo-0",
+        "ns-anatomia-nervi-autonomo-nervo-1",
+        "ns-anatomia-nervi-autonomo-plessi-0",
+        "ns-anatomia-nervi-autonomo-plessi-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Nervi cranici",
+      "refs": [
+        "anatomia-neuro-dettagli/cranici"
+      ],
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-cranici"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Ortosimpatico e parasimpatico",
+      "refs": [
+        "anatomia-nervi-autonomo/simpatico",
+        "anatomia-nervi-autonomo/parasimpatico"
+      ],
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-simpatico-0",
+        "ns-anatomia-nervi-autonomo-simpatico-1",
+        "ns-anatomia-nervi-autonomo-parasimpatico-0",
+        "ns-anatomia-nervi-autonomo-parasimpatico-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Obiettivo: caratterizzazione nel tempo, dalla crescita all’invecchiamento",
+      "refs": [
+        "anat-struttura-tempo/crescita",
+        "anat-struttura-tempo/invecchiamento"
+      ],
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-crescita-0",
+        "anat-final-anat-struttura-tempo-crescita-1",
+        "anat-final-anat-struttura-tempo-invecchiamento-0",
+        "anat-final-anat-struttura-tempo-invecchiamento-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Obiettivo: localizzazione, lettura delle immagini e ricostruzione tridimensionale su carta",
+      "refs": [
+        "anat-spazio/orientare",
+        "anat-spazio/torace",
+        "anat-spazio/addome",
+        "anat-spazio/pelvi",
+        "anat-lab-tessuti/osso",
+        "anat-lab-tessuti/sangue",
+        "anat-lab-tessuti/muscolo",
+        "anat-lab-tessuti/nervo",
+        "anat-lab-visceri/polmone",
+        "anat-lab-visceri/intestino",
+        "anat-lab-visceri/rene",
+        "anat-lab-visceri/fegato",
+        "anat-lab-ghiandole/tiroide",
+        "anat-lab-ghiandole/esocrine",
+        "anat-lab-ghiandole/linfoidi",
+        "anat-lab-ghiandole/genitali"
+      ],
+      "questionIds": [
+        "anat-final-anat-lab-tessuti-osso-0",
+        "anat-final-anat-lab-tessuti-osso-1",
+        "anat-final-anat-lab-tessuti-sangue-0",
+        "anat-final-anat-lab-tessuti-sangue-1",
+        "anat-final-anat-lab-tessuti-muscolo-0",
+        "anat-final-anat-lab-tessuti-muscolo-1",
+        "anat-final-anat-lab-tessuti-nervo-0",
+        "anat-final-anat-lab-tessuti-nervo-1",
+        "anat-final-anat-lab-visceri-polmone-0",
+        "anat-final-anat-lab-visceri-polmone-1",
+        "anat-final-anat-lab-visceri-intestino-0",
+        "anat-final-anat-lab-visceri-intestino-1",
+        "anat-final-anat-lab-visceri-rene-0",
+        "anat-final-anat-lab-visceri-rene-1",
+        "anat-final-anat-lab-visceri-fegato-0",
+        "anat-final-anat-lab-visceri-fegato-1",
+        "anat-final-anat-lab-ghiandole-tiroide-0",
+        "anat-final-anat-lab-ghiandole-tiroide-1",
+        "anat-final-anat-lab-ghiandole-esocrine-0",
+        "anat-final-anat-lab-ghiandole-esocrine-1",
+        "anat-final-anat-lab-ghiandole-linfoidi-0",
+        "anat-final-anat-lab-ghiandole-linfoidi-1",
+        "anat-final-anat-lab-ghiandole-genitali-0",
+        "anat-final-anat-lab-ghiandole-genitali-1",
+        "anat-final-anat-spazio-orientare-0",
+        "anat-final-anat-spazio-orientare-1",
+        "anat-final-anat-spazio-torace-0",
+        "anat-final-anat-spazio-torace-1",
+        "anat-final-anat-spazio-addome-0",
+        "anat-final-anat-spazio-addome-1",
+        "anat-final-anat-spazio-pelvi-0",
+        "anat-final-anat-spazio-pelvi-1",
+        "anat-final-extra-cavities-dorsal",
+        "anat-final-extra-cavities-kidney"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Obiettivo: correlazioni morfofunzionali e movimento",
+      "refs": [
+        "anat-regioni-superiori/gesto",
+        "anat-regioni-inferiori/passo",
+        "anat-esposizione/locomotore"
+      ],
+      "questionIds": [
+        "anat-final-anat-regioni-superiori-gesto-0",
+        "anat-final-anat-regioni-superiori-gesto-1",
+        "anat-final-anat-regioni-inferiori-passo-0",
+        "anat-final-anat-regioni-inferiori-passo-1",
+        "anat-final-anat-esposizione-locomotore-0",
+        "anat-final-anat-esposizione-locomotore-1"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    },
+    {
+      "topic": "Obiettivo: terminologia, comunicazione, confronto e studio autonomo",
+      "refs": [
+        "anat-esposizione/locomotore",
+        "anat-esposizione/viscere",
+        "anat-esposizione/nervoso",
+        "anat-esposizione/confronto"
+      ],
+      "questionIds": [
+        "anat-final-anat-esposizione-locomotore-0",
+        "anat-final-anat-esposizione-locomotore-1",
+        "anat-final-anat-esposizione-viscere-0",
+        "anat-final-anat-esposizione-viscere-1",
+        "anat-final-anat-esposizione-nervoso-0",
+        "anat-final-anat-esposizione-nervoso-1",
+        "anat-final-anat-esposizione-confronto-0",
+        "anat-final-anat-esposizione-confronto-1",
+        "anat-final-extra-chain",
+        "anat-final-extra-convergence"
+      ],
+      "status": "introduced",
+      "assessment": "Spiegazione, esempio e quiz con aiuto interno; quesiti campionari, non una domanda per ogni dettaglio nominato."
+    }
+  ],
+  "sectionEvidence": [
+    {
+      "ref": "piani/posizione",
+      "words": 98,
+      "questionIds": [
+        "an-piani-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "piani/piani",
+      "words": 88,
+      "questionIds": [
+        "an-piani-3"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "piani/movimenti",
+      "words": 105,
+      "questionIds": [
+        "an-piani-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "tessuti/famiglie",
+      "words": 114,
+      "questionIds": [
+        "base-tessuti-famiglie"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "tessuti/matrice",
+      "words": 96,
+      "questionIds": [
+        "base-tessuti-matrice"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "tessuti/architettura",
+      "words": 102,
+      "questionIds": [
+        "base-tessuti-architettura"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "scheletro/osso",
+      "words": 129,
+      "questionIds": [
+        "scheletro-osso-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "scheletro/colonna",
+      "words": 129,
+      "questionIds": [
+        "scheletro-colonna-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "scheletro/torace",
+      "words": 137,
+      "questionIds": [
+        "scheletro-torace-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "scheletro/postura",
+      "words": 131,
+      "questionIds": [
+        "scheletro-postura-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "articolazioni/classi",
+      "words": 185,
+      "questionIds": [
+        "articolazioni-classi-verifica",
+        "anat-final-extra-joint-function",
+        "anat-final-extra-joint-criteria"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "articolazioni/capsula",
+      "words": 128,
+      "questionIds": [
+        "articolazioni-capsula-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "articolazioni/assi",
+      "words": 129,
+      "questionIds": [
+        "articolazioni-assi-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "articolazioni/ginocchio",
+      "words": 133,
+      "questionIds": [
+        "articolazioni-ginocchio-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "muscolo/connessioni",
+      "words": 93,
+      "questionIds": [
+        "an-musc-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "muscolo/sarcomero",
+      "words": 103,
+      "questionIds": [
+        "an-musc-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "muscolo/contrazioni",
+      "words": 106,
+      "questionIds": [
+        "an-musc-3"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-superiore/ossa",
+      "words": 130,
+      "questionIds": [
+        "arto-superiore-ossa-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-superiore/spalla",
+      "words": 126,
+      "questionIds": [
+        "arto-superiore-spalla-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-superiore/gomito",
+      "words": 136,
+      "questionIds": [
+        "arto-superiore-gomito-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-superiore/nervi",
+      "words": 140,
+      "questionIds": [
+        "arto-superiore-nervi-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-inferiore/ossa",
+      "words": 135,
+      "questionIds": [
+        "arto-inferiore-ossa-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-inferiore/anca",
+      "words": 127,
+      "questionIds": [
+        "arto-inferiore-anca-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-inferiore/coscia",
+      "words": 135,
+      "questionIds": [
+        "arto-inferiore-coscia-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "arto-inferiore/caviglia",
+      "words": 132,
+      "questionIds": [
+        "arto-inferiore-caviglia-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "nervoso/organizzazione",
+      "words": 92,
+      "questionIds": [
+        "an-neuro-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "nervoso/direzioni",
+      "words": 99,
+      "questionIds": [
+        "an-neuro-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "nervoso/unita-motoria",
+      "words": 95,
+      "questionIds": [
+        "an-neuro-3"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "neuroanatomia/centrale",
+      "words": 135,
+      "questionIds": [
+        "neuroanatomia-centrale-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "neuroanatomia/radici",
+      "words": 125,
+      "questionIds": [
+        "neuroanatomia-radici-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "neuroanatomia/vie",
+      "words": 128,
+      "questionIds": [
+        "neuroanatomia-vie-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "neuroanatomia/controllo",
+      "words": 133,
+      "questionIds": [
+        "neuroanatomia-controllo-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "circolazione/percorso",
+      "words": 119,
+      "questionIds": [
+        "base-circolazione-percorso"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "circolazione/vasi",
+      "words": 106,
+      "questionIds": [
+        "base-circolazione-vasi"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "circolazione/portata",
+      "words": 106,
+      "questionIds": [
+        "base-circolazione-portata"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "respirazione/ventilazione",
+      "words": 97,
+      "questionIds": [
+        "base-respirazione-ventilazione"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "respirazione/scambi",
+      "words": 101,
+      "questionIds": [
+        "base-respirazione-scambi"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "respirazione/volume",
+      "words": 123,
+      "questionIds": [
+        "base-respirazione-volume"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "apparati/digerente",
+      "words": 135,
+      "questionIds": [
+        "apparati-digerente-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "apparati/rene",
+      "words": 123,
+      "questionIds": [
+        "apparati-rene-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "apparati/endocrino",
+      "words": 128,
+      "questionIds": [
+        "apparati-endocrino-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "apparati/linfa",
+      "words": 141,
+      "questionIds": [
+        "apparati-linfa-verifica"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-istologia/epiteli",
+      "words": 126,
+      "questionIds": [
+        "y1-anatomia-istologia-epiteli"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-istologia/ghiandole",
+      "words": 121,
+      "questionIds": [
+        "y1-anatomia-istologia-ghiandole"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-istologia/connettivi",
+      "words": 127,
+      "questionIds": [
+        "y1-anatomia-istologia-connettivi"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-istologia/sangue",
+      "words": 132,
+      "questionIds": [
+        "y1-anatomia-istologia-sangue"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tronco/testa-collo",
+      "words": 126,
+      "questionIds": [
+        "y1-anatomia-tronco-testa-collo"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tronco/dorso",
+      "words": 131,
+      "questionIds": [
+        "y1-anatomia-tronco-dorso"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tronco/addome",
+      "words": 124,
+      "questionIds": [
+        "y1-anatomia-tronco-addome"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tronco/pelvi",
+      "words": 124,
+      "questionIds": [
+        "y1-anatomia-tronco-pelvi"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-visceri/digerente",
+      "words": 139,
+      "questionIds": [
+        "y1-anatomia-visceri-digerente"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-visceri/rene",
+      "words": 121,
+      "questionIds": [
+        "y1-anatomia-visceri-rene"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-visceri/genitale",
+      "words": 135,
+      "questionIds": [
+        "y1-anatomia-visceri-genitale"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-visceri/endocrino",
+      "words": 121,
+      "questionIds": [
+        "y1-anatomia-visceri-endocrino"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vasi-neuro/vasi",
+      "words": 127,
+      "questionIds": [
+        "y1-anatomia-vasi-neuro-vasi"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vasi-neuro/speciali",
+      "words": 129,
+      "questionIds": [
+        "y1-anatomia-vasi-neuro-speciali"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vasi-neuro/linfa",
+      "words": 120,
+      "questionIds": [
+        "y1-anatomia-vasi-neuro-linfa"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vasi-neuro/neuro-rapporti",
+      "words": 145,
+      "questionIds": [
+        "y1-anatomia-vasi-neuro-neuro-rapporti"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micro-muscolo/scheletrico",
+      "words": 273,
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-scheletrico"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micro-muscolo/cardiaco",
+      "words": 234,
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-cardiaco"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micro-muscolo/liscio",
+      "words": 251,
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-liscio"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micro-muscolo/glia",
+      "words": 255,
+      "questionIds": [
+        "depth-anatomia-micro-muscolo-glia"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-neuro-dettagli/nuclei",
+      "words": 273,
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-nuclei"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-neuro-dettagli/tronco",
+      "words": 281,
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-tronco",
+        "ns-anatomia-neuro-dettagli-tronco-0",
+        "ns-anatomia-neuro-dettagli-tronco-1"
+      ],
+      "figureIds": [
+        "brainstem"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-neuro-dettagli/cervelletto",
+      "words": 275,
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-cervelletto",
+        "ns-anatomia-neuro-dettagli-cervelletto-0",
+        "ns-anatomia-neuro-dettagli-cervelletto-1"
+      ],
+      "figureIds": [
+        "cerebellum"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-neuro-dettagli/cranici",
+      "words": 252,
+      "questionIds": [
+        "depth-anatomia-neuro-dettagli-cranici"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-respiratorio/superiori",
+      "words": 252,
+      "questionIds": [
+        "depth-anatomia-respiratorio-superiori"
+      ],
+      "figureIds": [
+        "larynx"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-respiratorio/conduzione",
+      "words": 249,
+      "questionIds": [
+        "depth-anatomia-respiratorio-conduzione"
+      ],
+      "figureIds": [
+        "trachea"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-respiratorio/parete",
+      "words": 270,
+      "questionIds": [
+        "depth-anatomia-respiratorio-parete"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-respiratorio/polmoni",
+      "words": 246,
+      "questionIds": [
+        "depth-anatomia-respiratorio-polmoni"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-atlante/muscoli",
+      "words": 277,
+      "questionIds": [
+        "depth-anatomia-atlante-muscoli",
+        "atlas-cuffia",
+        "atlas-piani"
+      ],
+      "figureIds": [
+        "muscles-overview"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-atlante/midollo",
+      "words": 318,
+      "questionIds": [
+        "depth-anatomia-atlante-midollo",
+        "atlas-cordoni",
+        "atlas-fuso"
+      ],
+      "figureIds": [
+        "spinal-cord"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-atlante/willis",
+      "words": 261,
+      "questionIds": [
+        "depth-anatomia-atlante-willis",
+        "atlas-basilare",
+        "atlas-media"
+      ],
+      "figureIds": [
+        "willis"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-atlante/centrale-periferico",
+      "words": 254,
+      "questionIds": [
+        "depth-anatomia-atlante-centrale-periferico",
+        "atlas-ganglio",
+        "atlas-rami"
+      ],
+      "figureIds": [
+        "nervous-system"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-scheletro-visivo/orientamento",
+      "words": 292,
+      "questionIds": [
+        "bones-visual-1",
+        "bones-visual-2",
+        "bones-visual-3"
+      ],
+      "figureIds": [
+        "skeleton-unlabelled"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-scheletro-visivo/superiore",
+      "words": 265,
+      "questionIds": [
+        "bones-visual-4",
+        "bones-visual-5",
+        "bones-visual-6"
+      ],
+      "figureIds": [
+        "skeleton-unlabelled"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-scheletro-visivo/inferiore",
+      "words": 282,
+      "questionIds": [
+        "bones-visual-7",
+        "bones-visual-8",
+        "bones-visual-9"
+      ],
+      "figureIds": [
+        "skeleton-unlabelled"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-scheletro-visivo/sinoviale",
+      "words": 269,
+      "questionIds": [
+        "bones-visual-10",
+        "bones-visual-11",
+        "bones-visual-12"
+      ],
+      "figureIds": [
+        "synovial-joint"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-mano/scheletro",
+      "words": 275,
+      "questionIds": [
+        "distal-anatomia-mano-scheletro-0",
+        "distal-anatomia-mano-scheletro-1",
+        "distal-anatomia-mano-scheletro-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-mano/estrinseci",
+      "words": 270,
+      "questionIds": [
+        "distal-anatomia-mano-estrinseci-0",
+        "distal-anatomia-mano-estrinseci-1",
+        "distal-anatomia-mano-estrinseci-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-mano/intrinseci",
+      "words": 282,
+      "questionIds": [
+        "distal-anatomia-mano-intrinseci-0",
+        "distal-anatomia-mano-intrinseci-1",
+        "distal-anatomia-mano-intrinseci-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-mano/passaggi",
+      "words": 276,
+      "questionIds": [
+        "distal-anatomia-mano-passaggi-0",
+        "distal-anatomia-mano-passaggi-1",
+        "distal-anatomia-mano-passaggi-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-piede/scheletro",
+      "words": 258,
+      "questionIds": [
+        "distal-anatomia-piede-scheletro-0",
+        "distal-anatomia-piede-scheletro-1",
+        "distal-anatomia-piede-scheletro-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-piede/estrinseci",
+      "words": 257,
+      "questionIds": [
+        "distal-anatomia-piede-estrinseci-0",
+        "distal-anatomia-piede-estrinseci-1",
+        "distal-anatomia-piede-estrinseci-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-piede/intrinseci",
+      "words": 274,
+      "questionIds": [
+        "distal-anatomia-piede-intrinseci-0",
+        "distal-anatomia-piede-intrinseci-1",
+        "distal-anatomia-piede-intrinseci-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-piede/integrare",
+      "words": 290,
+      "questionIds": [
+        "distal-anatomia-piede-integrare-0",
+        "distal-anatomia-piede-integrare-1",
+        "distal-anatomia-piede-integrare-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-arterie/aorta",
+      "words": 302,
+      "questionIds": [
+        "vascular-anatomia-arterie-aorta-0",
+        "vascular-anatomia-arterie-aorta-1",
+        "vascular-anatomia-arterie-aorta-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-arterie/superiore",
+      "words": 312,
+      "questionIds": [
+        "vascular-anatomia-arterie-superiore-0",
+        "vascular-anatomia-arterie-superiore-1",
+        "vascular-anatomia-arterie-superiore-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-arterie/viscerali",
+      "words": 306,
+      "questionIds": [
+        "vascular-anatomia-arterie-viscerali-0",
+        "vascular-anatomia-arterie-viscerali-1",
+        "vascular-anatomia-arterie-viscerali-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-arterie/inferiore",
+      "words": 314,
+      "questionIds": [
+        "vascular-anatomia-arterie-inferiore-0",
+        "vascular-anatomia-arterie-inferiore-1",
+        "vascular-anatomia-arterie-inferiore-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vene-circoli/superiori",
+      "words": 318,
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-superiori-0",
+        "vascular-anatomia-vene-circoli-superiori-1",
+        "vascular-anatomia-vene-circoli-superiori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vene-circoli/inferiori",
+      "words": 334,
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-inferiori-0",
+        "vascular-anatomia-vene-circoli-inferiori-1",
+        "vascular-anatomia-vene-circoli-inferiori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vene-circoli/portale",
+      "words": 350,
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-portale-0",
+        "vascular-anatomia-vene-circoli-portale-1",
+        "vascular-anatomia-vene-circoli-portale-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-vene-circoli/fetale",
+      "words": 369,
+      "questionIds": [
+        "vascular-anatomia-vene-circoli-fetale-0",
+        "vascular-anatomia-vene-circoli-fetale-1",
+        "vascular-anatomia-vene-circoli-fetale-2"
+      ],
+      "figureIds": [],
+      "diagram": "fetal-shunts"
+    },
+    {
+      "ref": "anatomia-cuore/topografia",
+      "words": 322,
+      "questionIds": [
+        "heart-anatomia-cuore-topografia-0",
+        "heart-anatomia-cuore-topografia-1",
+        "heart-anatomia-cuore-topografia-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cuore/cavita",
+      "words": 331,
+      "questionIds": [
+        "heart-anatomia-cuore-cavita-0",
+        "heart-anatomia-cuore-cavita-1",
+        "heart-anatomia-cuore-cavita-2"
+      ],
+      "figureIds": [
+        "heart-internal"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cuore/valvole",
+      "words": 313,
+      "questionIds": [
+        "heart-anatomia-cuore-valvole-0",
+        "heart-anatomia-cuore-valvole-1",
+        "heart-anatomia-cuore-valvole-2"
+      ],
+      "figureIds": [
+        "heart-internal"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cuore/parete",
+      "words": 328,
+      "questionIds": [
+        "heart-anatomia-cuore-parete-0",
+        "heart-anatomia-cuore-parete-1",
+        "heart-anatomia-cuore-parete-2"
+      ],
+      "figureIds": [
+        "heart-internal"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-ciclo-vasi/conduzione",
+      "words": 326,
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-conduzione-0",
+        "heart-anatomia-ciclo-vasi-conduzione-1",
+        "heart-anatomia-ciclo-vasi-conduzione-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-ciclo-vasi/ciclo",
+      "words": 348,
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-ciclo-0",
+        "heart-anatomia-ciclo-vasi-ciclo-1",
+        "heart-anatomia-ciclo-vasi-ciclo-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-ciclo-vasi/pareti-vascolari",
+      "words": 350,
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-0",
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-1",
+        "heart-anatomia-ciclo-vasi-pareti-vascolari-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-ciclo-vasi/microcircolo",
+      "words": 339,
+      "questionIds": [
+        "heart-anatomia-ciclo-vasi-microcircolo-0",
+        "heart-anatomia-ciclo-vasi-microcircolo-1",
+        "heart-anatomia-ciclo-vasi-microcircolo-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-spalla-braccio/scapola",
+      "words": 324,
+      "questionIds": [
+        "proximal-anatomia-spalla-braccio-scapola-0",
+        "proximal-anatomia-spalla-braccio-scapola-1",
+        "proximal-anatomia-spalla-braccio-scapola-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-spalla-braccio/cuffia",
+      "words": 320,
+      "questionIds": [
+        "proximal-anatomia-spalla-braccio-cuffia-0",
+        "proximal-anatomia-spalla-braccio-cuffia-1",
+        "proximal-anatomia-spalla-braccio-cuffia-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-spalla-braccio/gomito",
+      "words": 336,
+      "questionIds": [
+        "proximal-anatomia-spalla-braccio-gomito-0",
+        "proximal-anatomia-spalla-braccio-gomito-1",
+        "proximal-anatomia-spalla-braccio-gomito-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-spalla-braccio/rapporti",
+      "words": 321,
+      "questionIds": [
+        "proximal-anatomia-spalla-braccio-rapporti-0",
+        "proximal-anatomia-spalla-braccio-rapporti-1",
+        "proximal-anatomia-spalla-braccio-rapporti-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-anca-coscia/articolazioni",
+      "words": 334,
+      "questionIds": [
+        "proximal-anatomia-anca-coscia-articolazioni-0",
+        "proximal-anatomia-anca-coscia-articolazioni-1",
+        "proximal-anatomia-anca-coscia-articolazioni-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-anca-coscia/glutei",
+      "words": 342,
+      "questionIds": [
+        "proximal-anatomia-anca-coscia-glutei-0",
+        "proximal-anatomia-anca-coscia-glutei-1",
+        "proximal-anatomia-anca-coscia-glutei-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-anca-coscia/anteromediale",
+      "words": 325,
+      "questionIds": [
+        "proximal-anatomia-anca-coscia-anteromediale-0",
+        "proximal-anatomia-anca-coscia-anteromediale-1",
+        "proximal-anatomia-anca-coscia-anteromediale-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-anca-coscia/posteriore",
+      "words": 336,
+      "questionIds": [
+        "proximal-anatomia-anca-coscia-posteriore-0",
+        "proximal-anatomia-anca-coscia-posteriore-1",
+        "proximal-anatomia-anca-coscia-posteriore-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/ossa",
+      "words": 309,
+      "questionIds": [
+        "regional-anatomia-avambraccio-ossa-0",
+        "regional-anatomia-avambraccio-ossa-1",
+        "regional-anatomia-avambraccio-ossa-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/anteriori",
+      "words": 311,
+      "questionIds": [
+        "regional-anatomia-avambraccio-anteriori-0",
+        "regional-anatomia-avambraccio-anteriori-1",
+        "regional-anatomia-avambraccio-anteriori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/profondi",
+      "words": 307,
+      "questionIds": [
+        "regional-anatomia-avambraccio-profondi-0",
+        "regional-anatomia-avambraccio-profondi-1",
+        "regional-anatomia-avambraccio-profondi-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/posteriori",
+      "words": 306,
+      "questionIds": [
+        "regional-anatomia-avambraccio-posteriori-0",
+        "regional-anatomia-avambraccio-posteriori-1",
+        "regional-anatomia-avambraccio-posteriori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/pollice",
+      "words": 338,
+      "questionIds": [
+        "regional-anatomia-avambraccio-pollice-0",
+        "regional-anatomia-avambraccio-pollice-1",
+        "regional-anatomia-avambraccio-pollice-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-avambraccio/passaggi",
+      "words": 349,
+      "questionIds": [
+        "regional-anatomia-avambraccio-passaggi-0",
+        "regional-anatomia-avambraccio-passaggi-1",
+        "regional-anatomia-avambraccio-passaggi-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/compartimenti",
+      "words": 285,
+      "questionIds": [
+        "regional-anatomia-gamba-compartimenti-0",
+        "regional-anatomia-gamba-compartimenti-1",
+        "regional-anatomia-gamba-compartimenti-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/anteriore",
+      "words": 295,
+      "questionIds": [
+        "regional-anatomia-gamba-anteriore-0",
+        "regional-anatomia-gamba-anteriore-1",
+        "regional-anatomia-gamba-anteriore-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/laterale",
+      "words": 301,
+      "questionIds": [
+        "regional-anatomia-gamba-laterale-0",
+        "regional-anatomia-gamba-laterale-1",
+        "regional-anatomia-gamba-laterale-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/superficiale",
+      "words": 314,
+      "questionIds": [
+        "regional-anatomia-gamba-superficiale-0",
+        "regional-anatomia-gamba-superficiale-1",
+        "regional-anatomia-gamba-superficiale-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/profondo",
+      "words": 307,
+      "questionIds": [
+        "regional-anatomia-gamba-profondo-0",
+        "regional-anatomia-gamba-profondo-1",
+        "regional-anatomia-gamba-profondo-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-gamba/passaggi",
+      "words": 343,
+      "questionIds": [
+        "regional-anatomia-gamba-passaggi-0",
+        "regional-anatomia-gamba-passaggi-1",
+        "regional-anatomia-gamba-passaggi-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-collo-dorso/collo",
+      "words": 323,
+      "questionIds": [
+        "trunk-anatomia-collo-dorso-collo-0",
+        "trunk-anatomia-collo-dorso-collo-1",
+        "trunk-anatomia-collo-dorso-collo-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-collo-dorso/ioide",
+      "words": 287,
+      "questionIds": [
+        "trunk-anatomia-collo-dorso-ioide-0",
+        "trunk-anatomia-collo-dorso-ioide-1",
+        "trunk-anatomia-collo-dorso-ioide-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-collo-dorso/dorso",
+      "words": 298,
+      "questionIds": [
+        "trunk-anatomia-collo-dorso-dorso-0",
+        "trunk-anatomia-collo-dorso-dorso-1",
+        "trunk-anatomia-collo-dorso-dorso-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-collo-dorso/nuca-fascia",
+      "words": 297,
+      "questionIds": [
+        "trunk-anatomia-collo-dorso-nuca-fascia-0",
+        "trunk-anatomia-collo-dorso-nuca-fascia-1",
+        "trunk-anatomia-collo-dorso-nuca-fascia-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pareti-tronco/respiratori",
+      "words": 323,
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-respiratori-0",
+        "trunk-anatomia-pareti-tronco-respiratori-1",
+        "trunk-anatomia-pareti-tronco-respiratori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pareti-tronco/addominali",
+      "words": 292,
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-addominali-0",
+        "trunk-anatomia-pareti-tronco-addominali-1",
+        "trunk-anatomia-pareti-tronco-addominali-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pareti-tronco/guaine",
+      "words": 297,
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-guaine-0",
+        "trunk-anatomia-pareti-tronco-guaine-1",
+        "trunk-anatomia-pareti-tronco-guaine-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pareti-tronco/posteriore",
+      "words": 299,
+      "questionIds": [
+        "trunk-anatomia-pareti-tronco-posteriore-0",
+        "trunk-anatomia-pareti-tronco-posteriore-1",
+        "trunk-anatomia-pareti-tronco-posteriore-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pelvi-perineo/pavimento",
+      "words": 300,
+      "questionIds": [
+        "trunk-anatomia-pelvi-perineo-pavimento-0",
+        "trunk-anatomia-pelvi-perineo-pavimento-1",
+        "trunk-anatomia-pelvi-perineo-pavimento-2"
+      ],
+      "figureIds": [
+        "pelvic-floor"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pelvi-perineo/perineo",
+      "words": 316,
+      "questionIds": [
+        "trunk-anatomia-pelvi-perineo-perineo-0",
+        "trunk-anatomia-pelvi-perineo-perineo-1",
+        "trunk-anatomia-pelvi-perineo-perineo-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pelvi-perineo/rotatori",
+      "words": 314,
+      "questionIds": [
+        "trunk-anatomia-pelvi-perineo-rotatori-0",
+        "trunk-anatomia-pelvi-perineo-rotatori-1",
+        "trunk-anatomia-pelvi-perineo-rotatori-2"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-pelvi-perineo/integrazione",
+      "words": 312,
+      "questionIds": [
+        "trunk-anatomia-pelvi-perineo-integrazione-0",
+        "trunk-anatomia-pelvi-perineo-integrazione-1",
+        "trunk-anatomia-pelvi-perineo-integrazione-2"
+      ],
+      "figureIds": [
+        "pelvic-floor"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cranio/ossa",
+      "words": 250,
+      "questionIds": [
+        "av-anatomia-cranio-ossa-0",
+        "av-anatomia-cranio-ossa-1",
+        "av-anatomia-cranio-ossa-2"
+      ],
+      "figureIds": [
+        "skull-anterior"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cranio/suture",
+      "words": 229,
+      "questionIds": [
+        "av-anatomia-cranio-suture-0",
+        "av-anatomia-cranio-suture-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cranio/cavita",
+      "words": 224,
+      "questionIds": [
+        "av-anatomia-cranio-cavita-0",
+        "av-anatomia-cranio-cavita-1",
+        "av-anatomia-cranio-cavita-2"
+      ],
+      "figureIds": [
+        "skull-anterior"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-cranio/passaggi",
+      "words": 232,
+      "questionIds": [
+        "av-anatomia-cranio-passaggi-0",
+        "av-anatomia-cranio-passaggi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-colonna-torace/vertebra",
+      "words": 221,
+      "questionIds": [
+        "av-anatomia-colonna-torace-vertebra-0",
+        "av-anatomia-colonna-torace-vertebra-1",
+        "av-anatomia-colonna-torace-vertebra-2"
+      ],
+      "figureIds": [
+        "vertebra-views"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-colonna-torace/regioni",
+      "words": 236,
+      "questionIds": [
+        "av-anatomia-colonna-torace-regioni-0",
+        "av-anatomia-colonna-torace-regioni-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-colonna-torace/dischi",
+      "words": 228,
+      "questionIds": [
+        "av-anatomia-colonna-torace-dischi-0",
+        "av-anatomia-colonna-torace-dischi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-colonna-torace/coste",
+      "words": 227,
+      "questionIds": [
+        "av-anatomia-colonna-torace-coste-0",
+        "av-anatomia-colonna-torace-coste-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tubo-digerente/bocca",
+      "words": 263,
+      "questionIds": [
+        "av-anatomia-tubo-digerente-bocca-0",
+        "av-anatomia-tubo-digerente-bocca-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tubo-digerente/esofago",
+      "words": 228,
+      "questionIds": [
+        "av-anatomia-tubo-digerente-esofago-0",
+        "av-anatomia-tubo-digerente-esofago-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tubo-digerente/stomaco",
+      "words": 243,
+      "questionIds": [
+        "av-anatomia-tubo-digerente-stomaco-0",
+        "av-anatomia-tubo-digerente-stomaco-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-tubo-digerente/intestino",
+      "words": 246,
+      "questionIds": [
+        "av-anatomia-tubo-digerente-intestino-0",
+        "av-anatomia-tubo-digerente-intestino-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-annessi-peritoneo/peritoneo",
+      "words": 241,
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-peritoneo-0",
+        "av-anatomia-annessi-peritoneo-peritoneo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-annessi-peritoneo/fegato",
+      "words": 240,
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-fegato-0",
+        "av-anatomia-annessi-peritoneo-fegato-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-annessi-peritoneo/lobulo",
+      "words": 250,
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-lobulo-0",
+        "av-anatomia-annessi-peritoneo-lobulo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-annessi-peritoneo/pancreas",
+      "words": 237,
+      "questionIds": [
+        "av-anatomia-annessi-peritoneo-pancreas-0",
+        "av-anatomia-annessi-peritoneo-pancreas-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-rene-vie/rene",
+      "words": 238,
+      "questionIds": [
+        "av-anatomia-rene-vie-rene-0",
+        "av-anatomia-rene-vie-rene-1",
+        "av-anatomia-rene-vie-rene-2"
+      ],
+      "figureIds": [
+        "kidney-section"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-rene-vie/circolo",
+      "words": 225,
+      "questionIds": [
+        "av-anatomia-rene-vie-circolo-0",
+        "av-anatomia-rene-vie-circolo-1",
+        "av-anatomia-rene-vie-circolo-2"
+      ],
+      "figureIds": [
+        "kidney-section"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-rene-vie/nefrone",
+      "words": 244,
+      "questionIds": [
+        "av-anatomia-rene-vie-nefrone-0",
+        "av-anatomia-rene-vie-nefrone-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-rene-vie/vie",
+      "words": 233,
+      "questionIds": [
+        "av-anatomia-rene-vie-vie-0",
+        "av-anatomia-rene-vie-vie-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-genitale/testicolo",
+      "words": 222,
+      "questionIds": [
+        "av-anatomia-genitale-testicolo-0",
+        "av-anatomia-genitale-testicolo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-genitale/vie-maschili",
+      "words": 226,
+      "questionIds": [
+        "av-anatomia-genitale-vie-maschili-0",
+        "av-anatomia-genitale-vie-maschili-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-genitale/ovaio-tuba",
+      "words": 227,
+      "questionIds": [
+        "av-anatomia-genitale-ovaio-tuba-0",
+        "av-anatomia-genitale-ovaio-tuba-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-genitale/utero-esterni",
+      "words": 232,
+      "questionIds": [
+        "av-anatomia-genitale-utero-esterni-0",
+        "av-anatomia-genitale-utero-esterni-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-endocrino/ipofisi",
+      "words": 220,
+      "questionIds": [
+        "av-anatomia-endocrino-ipofisi-0",
+        "av-anatomia-endocrino-ipofisi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-endocrino/tiroide",
+      "words": 218,
+      "questionIds": [
+        "av-anatomia-endocrino-tiroide-0",
+        "av-anatomia-endocrino-tiroide-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-endocrino/surrene",
+      "words": 199,
+      "questionIds": [
+        "av-anatomia-endocrino-surrene-0",
+        "av-anatomia-endocrino-surrene-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-endocrino/isole-feedback",
+      "words": 242,
+      "questionIds": [
+        "av-anatomia-endocrino-isole-feedback-0",
+        "av-anatomia-endocrino-isole-feedback-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-epiteli-ghiandole/rivestimento",
+      "words": 193,
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-rivestimento-0",
+        "hi-anatomia-epiteli-ghiandole-rivestimento-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-epiteli-ghiandole/giunzioni",
+      "words": 189,
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-giunzioni-0",
+        "hi-anatomia-epiteli-ghiandole-giunzioni-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-epiteli-ghiandole/classificare",
+      "words": 234,
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-classificare-0",
+        "hi-anatomia-epiteli-ghiandole-classificare-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-epiteli-ghiandole/secrezione",
+      "words": 201,
+      "questionIds": [
+        "hi-anatomia-epiteli-ghiandole-secrezione-0",
+        "hi-anatomia-epiteli-ghiandole-secrezione-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-connettivi-osso/matrice",
+      "words": 194,
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-matrice-0",
+        "hi-anatomia-connettivi-osso-matrice-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-connettivi-osso/tipi",
+      "words": 200,
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-tipi-0",
+        "hi-anatomia-connettivi-osso-tipi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-connettivi-osso/cartilagine",
+      "words": 202,
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-cartilagine-0",
+        "hi-anatomia-connettivi-osso-cartilagine-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-connettivi-osso/osso",
+      "words": 198,
+      "questionIds": [
+        "hi-anatomia-connettivi-osso-osso-0",
+        "hi-anatomia-connettivi-osso-osso-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sangue-difese/plasma",
+      "words": 192,
+      "questionIds": [
+        "hi-anatomia-sangue-difese-plasma-0",
+        "hi-anatomia-sangue-difese-plasma-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sangue-difese/leucociti",
+      "words": 186,
+      "questionIds": [
+        "hi-anatomia-sangue-difese-leucociti-0",
+        "hi-anatomia-sangue-difese-leucociti-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sangue-difese/emopoiesi",
+      "words": 204,
+      "questionIds": [
+        "hi-anatomia-sangue-difese-emopoiesi-0",
+        "hi-anatomia-sangue-difese-emopoiesi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sangue-difese/immunita",
+      "words": 215,
+      "questionIds": [
+        "hi-anatomia-sangue-difese-immunita-0",
+        "hi-anatomia-sangue-difese-immunita-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-organi-linfoidi/drenaggio",
+      "words": 192,
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-drenaggio-0",
+        "hi-anatomia-organi-linfoidi-drenaggio-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-organi-linfoidi/linfonodo",
+      "words": 185,
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-linfonodo-0",
+        "hi-anatomia-organi-linfoidi-linfonodo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-organi-linfoidi/primari",
+      "words": 198,
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-primari-0",
+        "hi-anatomia-organi-linfoidi-primari-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-organi-linfoidi/milza",
+      "words": 197,
+      "questionIds": [
+        "hi-anatomia-organi-linfoidi-milza-0",
+        "hi-anatomia-organi-linfoidi-milza-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sensibilita-midollo/recettori",
+      "words": 216,
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-recettori-0",
+        "ns-anatomia-sensibilita-midollo-recettori-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sensibilita-midollo/midollo",
+      "words": 228,
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-midollo-0",
+        "ns-anatomia-sensibilita-midollo-midollo-1"
+      ],
+      "figureIds": [
+        "spinal-cord"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sensibilita-midollo/vie",
+      "words": 240,
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-vie-0",
+        "ns-anatomia-sensibilita-midollo-vie-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-sensibilita-midollo/riflessi",
+      "words": 209,
+      "questionIds": [
+        "ns-anatomia-sensibilita-midollo-riflessi-0",
+        "ns-anatomia-sensibilita-midollo-riflessi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-encefalo-protezioni/corteccia",
+      "words": 206,
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-corteccia-0",
+        "ns-anatomia-encefalo-protezioni-corteccia-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-encefalo-protezioni/diencefalo",
+      "words": 202,
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-diencefalo-0",
+        "ns-anatomia-encefalo-protezioni-diencefalo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-encefalo-protezioni/meningi",
+      "words": 201,
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-meningi-0",
+        "ns-anatomia-encefalo-protezioni-meningi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-encefalo-protezioni/liquor",
+      "words": 214,
+      "questionIds": [
+        "ns-anatomia-encefalo-protezioni-liquor-0",
+        "ns-anatomia-encefalo-protezioni-liquor-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-nervi-autonomo/nervo",
+      "words": 205,
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-nervo-0",
+        "ns-anatomia-nervi-autonomo-nervo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-nervi-autonomo/plessi",
+      "words": 223,
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-plessi-0",
+        "ns-anatomia-nervi-autonomo-plessi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-nervi-autonomo/simpatico",
+      "words": 199,
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-simpatico-0",
+        "ns-anatomia-nervi-autonomo-simpatico-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-nervi-autonomo/parasimpatico",
+      "words": 220,
+      "questionIds": [
+        "ns-anatomia-nervi-autonomo-parasimpatico-0",
+        "ns-anatomia-nervi-autonomo-parasimpatico-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micrografie/superficie",
+      "words": 262,
+      "questionIds": [
+        "micro-superficie-0",
+        "micro-superficie-1",
+        "micro-superficie-2",
+        "micro-superficie-3"
+      ],
+      "figureIds": [
+        "histology-epithelium"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micrografie/matrice",
+      "words": 256,
+      "questionIds": [
+        "micro-matrice-0",
+        "micro-matrice-1",
+        "micro-matrice-2",
+        "micro-matrice-3"
+      ],
+      "figureIds": [
+        "histology-cartilage"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micrografie/fibre",
+      "words": 248,
+      "questionIds": [
+        "micro-fibre-0",
+        "micro-fibre-1",
+        "micro-fibre-2",
+        "micro-fibre-3"
+      ],
+      "figureIds": [
+        "histology-muscle"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anatomia-micrografie/ultrastruttura",
+      "words": 250,
+      "questionIds": [
+        "micro-ultrastruttura-0",
+        "micro-ultrastruttura-1",
+        "micro-ultrastruttura-2",
+        "micro-ultrastruttura-3"
+      ],
+      "figureIds": [
+        "histology-sarcomeres"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-tessuti/osso",
+      "words": 223,
+      "questionIds": [
+        "anat-final-anat-lab-tessuti-osso-0",
+        "anat-final-anat-lab-tessuti-osso-1"
+      ],
+      "figureIds": [
+        "micro-bone"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-tessuti/sangue",
+      "words": 258,
+      "questionIds": [
+        "anat-final-anat-lab-tessuti-sangue-0",
+        "anat-final-anat-lab-tessuti-sangue-1"
+      ],
+      "figureIds": [
+        "micro-blood"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-tessuti/muscolo",
+      "words": 237,
+      "questionIds": [
+        "anat-final-anat-lab-tessuti-muscolo-0",
+        "anat-final-anat-lab-tessuti-muscolo-1"
+      ],
+      "figureIds": [
+        "histology-muscle"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-tessuti/nervo",
+      "words": 245,
+      "questionIds": [
+        "anat-final-anat-lab-tessuti-nervo-0",
+        "anat-final-anat-lab-tessuti-nervo-1"
+      ],
+      "figureIds": [
+        "spinal-cord"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-visceri/polmone",
+      "words": 249,
+      "questionIds": [
+        "anat-final-anat-lab-visceri-polmone-0",
+        "anat-final-anat-lab-visceri-polmone-1"
+      ],
+      "figureIds": [
+        "micro-lung"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-visceri/intestino",
+      "words": 244,
+      "questionIds": [
+        "anat-final-anat-lab-visceri-intestino-0",
+        "anat-final-anat-lab-visceri-intestino-1"
+      ],
+      "figureIds": [
+        "micro-intestine"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-visceri/rene",
+      "words": 250,
+      "questionIds": [
+        "anat-final-anat-lab-visceri-rene-0",
+        "anat-final-anat-lab-visceri-rene-1"
+      ],
+      "figureIds": [
+        "micro-kidney"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-visceri/fegato",
+      "words": 246,
+      "questionIds": [
+        "anat-final-anat-lab-visceri-fegato-0",
+        "anat-final-anat-lab-visceri-fegato-1"
+      ],
+      "figureIds": [
+        "micro-liver"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-ghiandole/tiroide",
+      "words": 210,
+      "questionIds": [
+        "anat-final-anat-lab-ghiandole-tiroide-0",
+        "anat-final-anat-lab-ghiandole-tiroide-1"
+      ],
+      "figureIds": [
+        "micro-thyroid"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-ghiandole/esocrine",
+      "words": 214,
+      "questionIds": [
+        "anat-final-anat-lab-ghiandole-esocrine-0",
+        "anat-final-anat-lab-ghiandole-esocrine-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-ghiandole/linfoidi",
+      "words": 221,
+      "questionIds": [
+        "anat-final-anat-lab-ghiandole-linfoidi-0",
+        "anat-final-anat-lab-ghiandole-linfoidi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-lab-ghiandole/genitali",
+      "words": 205,
+      "questionIds": [
+        "anat-final-anat-lab-ghiandole-genitali-0",
+        "anat-final-anat-lab-ghiandole-genitali-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-spazio/orientare",
+      "words": 274,
+      "questionIds": [
+        "anat-final-anat-spazio-orientare-0",
+        "anat-final-anat-spazio-orientare-1",
+        "anat-final-extra-cavities-dorsal",
+        "anat-final-extra-cavities-kidney"
+      ],
+      "figureIds": [],
+      "diagram": "anatomy-projections"
+    },
+    {
+      "ref": "anat-spazio/torace",
+      "words": 206,
+      "questionIds": [
+        "anat-final-anat-spazio-torace-0",
+        "anat-final-anat-spazio-torace-1"
+      ],
+      "figureIds": [],
+      "diagram": "anatomy-compartments"
+    },
+    {
+      "ref": "anat-spazio/addome",
+      "words": 218,
+      "questionIds": [
+        "anat-final-anat-spazio-addome-0",
+        "anat-final-anat-spazio-addome-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-spazio/pelvi",
+      "words": 219,
+      "questionIds": [
+        "anat-final-anat-spazio-pelvi-0",
+        "anat-final-anat-spazio-pelvi-1"
+      ],
+      "figureIds": [
+        "pelvic-floor"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-superiori/scapola",
+      "words": 213,
+      "questionIds": [
+        "anat-final-anat-regioni-superiori-scapola-0",
+        "anat-final-anat-regioni-superiori-scapola-1"
+      ],
+      "figureIds": [
+        "regional-shoulder"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-superiori/gomito",
+      "words": 179,
+      "questionIds": [
+        "anat-final-anat-regioni-superiori-gomito-0",
+        "anat-final-anat-regioni-superiori-gomito-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-superiori/polso",
+      "words": 199,
+      "questionIds": [
+        "anat-final-anat-regioni-superiori-polso-0",
+        "anat-final-anat-regioni-superiori-polso-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-superiori/gesto",
+      "words": 203,
+      "questionIds": [
+        "anat-final-anat-regioni-superiori-gesto-0",
+        "anat-final-anat-regioni-superiori-gesto-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-inferiori/anca",
+      "words": 215,
+      "questionIds": [
+        "anat-final-anat-regioni-inferiori-anca-0",
+        "anat-final-anat-regioni-inferiori-anca-1"
+      ],
+      "figureIds": [
+        "regional-hip"
+      ],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-inferiori/ginocchio",
+      "words": 200,
+      "questionIds": [
+        "anat-final-anat-regioni-inferiori-ginocchio-0",
+        "anat-final-anat-regioni-inferiori-ginocchio-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-inferiori/caviglia",
+      "words": 186,
+      "questionIds": [
+        "anat-final-anat-regioni-inferiori-caviglia-0",
+        "anat-final-anat-regioni-inferiori-caviglia-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-regioni-inferiori/passo",
+      "words": 208,
+      "questionIds": [
+        "anat-final-anat-regioni-inferiori-passo-0",
+        "anat-final-anat-regioni-inferiori-passo-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-struttura-tempo/epiteli",
+      "words": 220,
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-epiteli-0",
+        "anat-final-anat-struttura-tempo-epiteli-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-struttura-tempo/organi",
+      "words": 236,
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-organi-0",
+        "anat-final-anat-struttura-tempo-organi-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-struttura-tempo/crescita",
+      "words": 207,
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-crescita-0",
+        "anat-final-anat-struttura-tempo-crescita-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-struttura-tempo/invecchiamento",
+      "words": 219,
+      "questionIds": [
+        "anat-final-anat-struttura-tempo-invecchiamento-0",
+        "anat-final-anat-struttura-tempo-invecchiamento-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-struttura-tempo/ossa",
+      "words": 232,
+      "questionIds": [
+        "anat-final-extra-bone-shape",
+        "anat-final-extra-bone-flat"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-esposizione/locomotore",
+      "words": 217,
+      "questionIds": [
+        "anat-final-anat-esposizione-locomotore-0",
+        "anat-final-anat-esposizione-locomotore-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-esposizione/viscere",
+      "words": 216,
+      "questionIds": [
+        "anat-final-anat-esposizione-viscere-0",
+        "anat-final-anat-esposizione-viscere-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    },
+    {
+      "ref": "anat-esposizione/nervoso",
+      "words": 270,
+      "questionIds": [
+        "anat-final-anat-esposizione-nervoso-0",
+        "anat-final-anat-esposizione-nervoso-1",
+        "anat-final-extra-chain",
+        "anat-final-extra-convergence"
+      ],
+      "figureIds": [],
+      "diagram": "anatomy-reflex"
+    },
+    {
+      "ref": "anat-esposizione/confronto",
+      "words": 227,
+      "questionIds": [
+        "anat-final-anat-esposizione-confronto-0",
+        "anat-final-anat-esposizione-confronto-1"
+      ],
+      "figureIds": [],
+      "diagram": null
+    }
+  ],
+  "additions": {
+    "unitIds": [
+      "anat-lab-tessuti",
+      "anat-lab-visceri",
+      "anat-lab-ghiandole",
+      "anat-spazio",
+      "anat-regioni-superiori",
+      "anat-regioni-inferiori",
+      "anat-struttura-tempo",
+      "anat-esposizione"
+    ],
+    "lessons": 8,
+    "sections": 33,
+    "questions": 72,
+    "oral": 8,
+    "images": 9,
+    "schemes": 3
+  },
+  "totals": {
+    "lessons": 57,
+    "sections": 227,
+    "questions": 471,
+    "oral": 51,
+    "images": 28,
+    "micrographs": 11,
+    "writtenPapers": 3
+  },
+  "figures": [
+    {
+      "id": "micro-bone",
+      "file": "assets/anatomy/micro-bone.jpg",
+      "author": "Berkshire Community College Bioscience Image Library",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Compact_Bone_%2841068141944%29.jpg",
+      "sha256": "f23ad352281b634b2c55afd6368699fe6381d39b78774ffd40532b2a625af3be",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-blood",
+      "file": "assets/anatomy/micro-blood.jpg",
+      "author": "Berkshire Community College Bioscience Image Library",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connective_Tissue_Human_Blood_Leukocyte_Survey_%2839982279720%29.jpg",
+      "sha256": "7b19cd7ec3131b5301de44bbfa6f0dd4dd8d23c24cb493bce7773fc529b54858",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-lung",
+      "file": "assets/anatomy/micro-lung.jpg",
+      "author": "Yale Rosen",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_lung_%285414785258%29.jpg",
+      "sha256": "f5687a925ee8676d2b4393c7dc1f8ab5f89cff21717f9d261d874de0841c8de8",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-intestine",
+      "file": "assets/anatomy/micro-intestine.jpg",
+      "author": "Ed Uthman; annotazioni della versione Commons: Sonabi",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_Small_Intestine_Mucosa_%285916217283%29.jpg",
+      "sha256": "4c1ce1a7f922c7ff03a5ae57f538c183256e5baca4cad45a9d7c5ede486de70b",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-thyroid",
+      "file": "assets/anatomy/micro-thyroid.jpg",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thyroid_gland_-_high_mag.jpg",
+      "sha256": "4dba765991c313181968a6867c0ec2a1639aaef2458724f0c642773f94a3cd09",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-kidney",
+      "file": "assets/anatomy/micro-kidney.jpg",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kidney_cd10_ihc.jpg",
+      "sha256": "d416cdde54f5f0bea3278d163f2d74afb60e00949537779bd767a9e9f6b1f985",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "micro-liver",
+      "file": "assets/anatomy/micro-liver.jpg",
+      "author": "Nephron",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liver_reticulin.jpg",
+      "sha256": "abb109433ef200f39980b00a3c6a617043b7a745f1036aed1317983e63a2ef6f",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "regional-shoulder",
+      "file": "assets/anatomy/regional-shoulder.jpg",
+      "author": "OpenStax · tavola 2016 da Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1119_Muscles_that_Move_the_Humerus.jpg",
+      "sha256": "22f8d9e34a35c2819f3cf9fe7244f81136c5d8b20c6f6210248a1209b0d8318d",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    },
+    {
+      "id": "regional-hip",
+      "file": "assets/anatomy/regional-hip.jpg",
+      "author": "OpenStax · tavola 2016 da Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1122_Gluteal_Muscles_that_Move_the_Femur.jpg",
+      "sha256": "e2078005e84ef9e103ac38237ceff1b3385b1174279bedee09fc261b76b5240a",
+      "observation": "Immagine aperta e ispezionata; riferimenti e limiti descritti nella guida. Tavole regionali e intestino conservano etichette."
+    }
+  ],
+  "limitations": [
+    "La scheda analitica disponibile è del 2024/25 (Roberto Tamma); il catalogo 2026/27 indica Francesco Girolamo e prova orale. Non è pubblicato il dettaglio analitico corrente.",
+    "Il percorso sviluppa tutte le voci esplicite del programma pubblico confrontato. Le immagini sono un campione ragionato, non ogni possibile preparato; il riconoscimento di immagini nuove e l’esposizione richiedono esercizio.",
+    "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale."
+  ],
+  "validation": {
+    "status": "passed",
+    "date": "2026-10-22",
+    "contentCheck": "passed",
+    "unitTests": 50,
+    "browser": [
+      "anatomy-final-browser: 8 lezioni nuove, 216 feedback con aiuti integrali; 9 immagini, ingrandimenti senza legenda prima della correzione, 3 schemi, mobile chiaro/scuro, stampa e progressi preesistenti",
+      "readings-browser: 193 lezioni, link esatti, pannelli chiusi, aiuti e stampa, scheda separata, zero richieste automatiche",
+      "written-browser: tre tracce, 36 risposte, aiuti, modifica/autovalutazione, backup e stampa",
+      "browser generale: file:// offline, salvataggi, riapertura, aggiornamento HTML, backup, stampa e mobile"
+    ],
+    "visualReview": "Schemi delle proiezioni controllati in screenshot chiaro/scuro; nove immagini sorgente aperte e ispezionate; quaderno spaziale stampato in PDF.",
+    "limitation": "Controlli tecnici e revisione editoriale; non certificano dettaglio corrente non pubblicato, materiali non disponibili o preparazione individuale."
+  }
+}

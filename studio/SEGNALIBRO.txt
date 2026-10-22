@@ -1,25 +1,25 @@
 SEGNALIBRO DI LAVORO — 22 ottobre 2026
 STATO: IN PAUSA SU RICHIESTA DELL’UTENTE — NON RIPRENDERE AUTOMATICAMENTE
 
-In pausa dopo Scienze giuridiche: 20 lezioni, 80 sezioni, 160 quiz e 20 prove orali. Ampliate le otto lezioni iniziali e aggiunte dodici; confronto delle voci pubbliche 2024/25 e dei due articoli assegnati svolto. Restano dettaglio corrente e ulteriori dispense.
+In pausa dopo Anatomia: 57 lezioni, 471 quiz, 28 immagini e tre schemi. Aggiunte otto lezioni con laboratorio morfologico, rapporti spaziali e preparazione all’orale; confrontate 75 voci del programma pubblico e degli obiettivi. Il catalogo 2026/27 indica orale; dettaglio analitico corrente e materiali del docente restano da acquisire.
 
 CONSEGNA
-pronto/index.html — doppio clic, nessun server. Fonti facoltative sotto chevron.
-Totali: 211 lezioni, 828 sezioni, 1823 quiz, 27 famiglie numeriche, 191 prove aperte, 19 immagini anatomiche.
-Mappa: 126 nuclei, 120 introdotti, 5 parziali, 1 non disponibile. Copertura dell’intero primo anno ancora incompleta.
+pronto/index.html — doppio clic, nessun server. Fonti e approfondimenti facoltativi sotto chevron.
+Totali: 219 lezioni, 861 sezioni, 1895 quiz, 27 famiglie numeriche, 199 prove aperte, 28 immagini anatomiche.
+Mappa: 126 nuclei, 121 introdotti, 4 parziali, 1 non disponibile. Primo anno ancora incompleto.
 
-GIURIDICHE: LAVORO CONCLUSO IN QUESTA TAPPA
-20 lezioni (7 Privato, 8 Pubblico, 5 Internazionale), 80 sezioni, 160 quiz, 20 prove orali, 3 tavole e 7 tabelle. Confronto del syllabus pubblico 2024/25 in 38 voci: data/law-audit.json. Recuperati i due articoli di Celentano e aggiunte guide originali, fonti e casi. Il catalogo 2026/27 conferma struttura e orale, ma non pubblica il dettaglio analitico. Ulteriori dispense non acquisite: non dichiararle coperte.
+ANATOMIA: LAVORO CONCLUSO IN QUESTA TAPPA
+57 lezioni, 227 sezioni, 471 quiz e 51 prove aperte. Nove immagini aggiunte (sette micrografie e due tavole), tre schemi e ricostruzioni guidate. Confronto pubblico in 75 voci: data/anatomy-audit.json. Il catalogo 2026/27 indica orale, 5 CFU, 50 ore e Francesco Girolamo; la scheda analitica disponibile resta 2024/25. Conservate le tre tracce scritte come ripasso storico. Non presentare dettaglio corrente, materiali del docente o riconoscimento di ogni preparato come certificati.
 
 PUNTO DI RIPRESA
-Alla prossima ripresa: ampliare il riconoscimento anatomico e completare le verifiche correnti ancora indicate. Per Giuridiche acquisire soltanto il programma analitico corrente e le ulteriori dispense quando disponibili. Ascolto inglese escluso dall’obiettivo.
+Alla prossima richiesta: completare Scienze psicologiche e pedagogiche a partire dal confronto dei quattro moduli e delle letture assegnate. Per Anatomia resta il confronto con il programma analitico corrente quando disponibile e con i materiali del docente. Non avviare altri esami automaticamente.
 
 ESAMI ANCORA DA TERMINARE O VERIFICARE
 Scienze biologiche — Verifica finale da terminare
 Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione.
 
-Anatomia umana e applicata — Da ampliare e verificare
-Disponibili tre simulazioni scritte e quattro micrografie guidate. Restano altri tessuti/visceri e viste regionali, ricostruzione spaziale e verifica del programma attuale. Un campione di immagini non dimostra riconoscimento su qualsiasi preparato.
+Anatomia umana e applicata — Percorso pubblico sviluppato; verifica corrente da terminare
+Confrontate 75 voci 2024/25 e obiettivi. Disponibili laboratorio con 11 micrografie, viste regionali, ricostruzioni guidate e prove orali. Catalogo 2026/27: orale. Restano dettaglio analitico e materiali correnti; il campione di immagini non certifica riconoscimento su ogni preparato o preparazione individuale.
 
 Scienze di base — Verifica finale da terminare
 Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso.
@@ -45,8 +45,8 @@ Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati atte
 Inglese scientifico — Percorso scritto ampliato; verifica corrente da terminare
 Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale.
 
-APPROFONDIMENTI GIÀ PRESENTI
-470 collegamenti OpenStax in 185 lezioni (233 pagine distinte), con chevron nelle lezioni, negli aiuti e nella stampa. Giuridiche usa fonti primarie pertinenti. I PDF privati e il materiale Studocu non vengono collegati o incorporati.
+APPROFONDIMENTI
+503 collegamenti OpenStax in 193 lezioni, 236 pagine distinte. I PDF privati e il materiale Studocu non vengono collegati o incorporati.
 
 STOP
-Non avviare un altro esame o ulteriori ampliamenti senza una nuova richiesta dell’utente.
+Non avviare un altro esame senza una nuova richiesta. Ascolto inglese escluso dall’obiettivo.
