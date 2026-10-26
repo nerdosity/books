@@ -1,9 +1,9 @@
 {
   "checked": "2026-10-22",
-  "scope": "Collegamenti facoltativi a sezioni OpenStax. Controllati HTTP, titolo e argomenti per gli abbinamenti. Non è una certificazione di copertura del syllabus.",
-  "units": 193,
-  "placements": 503,
-  "distinctPages": 236,
+  "scope": "Pagine pregresse controllate il 22 ottobre; nove nuove pagine aperte e verificate il 26 ottobre. Aggiornati abbinamenti e totali. Non certificazione di copertura del syllabus.",
+  "units": 198,
+  "placements": 519,
+  "distinctPages": 245,
   "excluded": [
     {
       "unit": "diritto-soggetti",
@@ -1293,6 +1293,61 @@
       "status": 200,
       "title": "9.1 Classification of Joints - Anatomy and Physiology 2e | OpenStax",
       "checked": "2026-10-22"
+    },
+    {
+      "url": "https://openstax.org/books/microbiology/pages/6-4-viroids-virusoids-and-prions",
+      "title": "OpenStax · 6.4 · Prioni: confronto con agenti a RNA",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland",
+      "title": "OpenStax · 17.7 · Ghiandola pineale",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-6-blood-typing",
+      "title": "OpenStax · 18.6 · Gruppi sanguigni",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+      "title": "OpenStax · 22.2 · Batteri e archei",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+      "title": "OpenStax · 3.5 · Acidi nucleici",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+      "title": "OpenStax · 5.1 · Strati della cute",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+      "title": "OpenStax · 5.2 · Annessi cutanei",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+      "title": "OpenStax · 12.4 · Potenziale d’azione",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons",
+      "title": "OpenStax · 12.5 · Comunicazione fra neuroni",
+      "checked": "2026-10-26",
+      "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
     }
-  ]
+  ],
+  "updated": "2026-10-26"
 }

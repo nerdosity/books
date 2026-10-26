@@ -69,8 +69,8 @@ try{
  assert.equal(await page.locator('a[href^="#written/"]').count(),3);
  for(const p of c.writtenPapers){await page.goto(url+'#written/'+p.id);await page.locator('#written-paper').waitFor();assert.ok((await page.locator('#main').textContent()).includes('2026/27 indica una prova orale'));}
  await page.goto(url+'#print/anatomia-umana');await page.getByRole('heading',{name:'Soluzioni ragionate',exact:true}).waitFor();
- assert.equal(await page.locator('.print-solutions .question').count(),471);
- assert.equal(await page.locator('.print-solutions .oral').count(),51);
+ assert.equal(await page.locator('.print-solutions .question').count(),493);
+ assert.equal(await page.locator('.print-solutions .oral').count(),53);
  assert.equal(await page.locator('[data-anatomy-diagram]').count(),3);
  await page.goto(url+'#print/anat-spazio');await page.getByRole('heading',{name:'Soluzioni ragionate',exact:true}).waitFor();
  await page.emulateMedia({media:'print'});await page.pdf({path:artifacts+'/anatomy-spatial-print.pdf',format:'A4',printBackground:true});

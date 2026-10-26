@@ -13,6 +13,9 @@ progressi*.json
 
 # Materiali forniti e ricostruzioni PDF: solo locali, esclusi dalla pubblicazione.
 /studio/*.pdf
+/studio/*.ppt
+/studio/*.pptx
+/studio/*.ppx
 /studio/*.mhtml
 /studio/*.mht
 /studio/dispense/
@@ -25,3 +28,5 @@ progressi*.json
 /studio/Biologia e Genetica_ Studio di Bonaldo, Duga, Pierantoni, Riva, Romanelli - Studocu.mhtml
 /studio/unidocs-13101.pdf
 /studio/unidocs-19289.pdf
+/studio/Lezione 01_Introduzione al corso_la cellula.pptx
+/studio/Lezione 03_le pincipali molecole della cellula.pptx

@@ -57576,6 +57576,1446 @@
       "hint": "Circuito riflesso, via sensitiva cosciente e comando discendente sono collegati ma non identici.",
       "explanation": "La convergenza permette di integrare segnali provenienti da più ingressi.",
       "help": "anat-esposizione/nervoso"
+    },
+    {
+      "id": "mat26-cellule-confronto-scala-1",
+      "unit": "cellule-confronto",
+      "concept": "scala",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un oggetto è lungo tre volte la barra da 2 µm. Quanto misura?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "6 µm"
+        },
+        {
+          "id": "b",
+          "text": "1,5 µm",
+          "feedback": "La lunghezza è tre barre: moltiplica 3 × 2, non dividere.",
+          "help": "cellule-confronto/scala"
+        },
+        {
+          "id": "c",
+          "text": "6 mm",
+          "feedback": "La barra è in micrometri; lo zoom non cambia l’unità fisica.",
+          "help": "cellule-confronto/scala"
+        }
+      ],
+      "hint": "Scala, risoluzione e ingrandimento rispondono a tre domande diverse.",
+      "explanation": "6 µm Una barra di 2 µm è lunga metà di un batterio nella fotografia: la sua lunghezza stimata è 4 µm, indipendentemente dallo zoom.",
+      "help": "cellule-confronto/scala"
+    },
+    {
+      "id": "mat26-cellule-confronto-scala-2",
+      "unit": "cellule-confronto",
+      "concept": "scala",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale osservazione è compatibile con la teoria cellulare?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un eritrocita maturo è una cellula specializzata anche se non si divide"
+        },
+        {
+          "id": "b",
+          "text": "Ogni cellula vivente deve dividersi ogni giorno",
+          "feedback": "La capacità proliferativa varia con il differenziamento.",
+          "help": "cellule-confronto/scala"
+        },
+        {
+          "id": "c",
+          "text": "Solo le cellule visibili a occhio nudo sono viventi",
+          "feedback": "La visibilità dipende dalla scala, non dallo stato vivente.",
+          "help": "cellule-confronto/scala"
+        }
+      ],
+      "hint": "Scala, risoluzione e ingrandimento rispondono a tre domande diverse.",
+      "explanation": "Un eritrocita maturo è una cellula specializzata anche se non si divide Una barra di 2 µm è lunga metà di un batterio nella fotografia: la sua lunghezza stimata è 4 µm, indipendentemente dallo zoom.",
+      "help": "cellule-confronto/scala"
+    },
+    {
+      "id": "mat26-cellule-confronto-domini-1",
+      "unit": "cellule-confronto",
+      "concept": "domini",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un lievito è unicellulare e possiede un nucleo. Come lo classifichi?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eucariote unicellulare"
+        },
+        {
+          "id": "b",
+          "text": "Procariote perché unicellulare",
+          "feedback": "Unicellulare indica quante cellule, non l’organizzazione del DNA.",
+          "help": "cellule-confronto/domini"
+        },
+        {
+          "id": "c",
+          "text": "Virus perché non forma un tessuto",
+          "feedback": "Il lievito possiede organizzazione cellulare e ribosomi.",
+          "help": "cellule-confronto/domini"
+        }
+      ],
+      "hint": "Numero di cellule e presenza del nucleo sono criteri indipendenti.",
+      "explanation": "Eucariote unicellulare Un campione di lievito contiene cellule singole con nucleo: la conclusione è “eucariote unicellulare”, non “batterio”.",
+      "help": "cellule-confronto/domini"
+    },
+    {
+      "id": "mat26-cellule-confronto-domini-2",
+      "unit": "cellule-confronto",
+      "concept": "domini",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale confronto è corretto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Batteri e archei sono procariotici, ma appartengono a domini distinti"
+        },
+        {
+          "id": "b",
+          "text": "Gli archei sono eucarioti privi di organelli",
+          "feedback": "La loro organizzazione è procariotica; non sono eucarioti incompleti.",
+          "help": "cellule-confronto/domini"
+        },
+        {
+          "id": "c",
+          "text": "Le cellule vegetali non possiedono mitocondri",
+          "feedback": "Anche le cellule vegetali svolgono respirazione mitocondriale.",
+          "help": "cellule-confronto/domini"
+        }
+      ],
+      "hint": "Numero di cellule e presenza del nucleo sono criteri indipendenti.",
+      "explanation": "Batteri e archei sono procariotici, ma appartengono a domini distinti Un campione di lievito contiene cellule singole con nucleo: la conclusione è “eucariote unicellulare”, non “batterio”.",
+      "help": "cellule-confronto/domini"
+    },
+    {
+      "id": "mat26-cellule-confronto-batteri-1",
+      "unit": "cellule-confronto",
+      "concept": "batteri",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quattro batteri raddoppiano ogni 30 minuti, senza morti o limiti. Quanti dopo 90 minuti?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "32"
+        },
+        {
+          "id": "b",
+          "text": "12",
+          "feedback": "Tre generazioni non significano moltiplicare per tre: ogni generazione raddoppia.",
+          "help": "cellule-confronto/batteri"
+        },
+        {
+          "id": "c",
+          "text": "16",
+          "feedback": "Sono tre raddoppi: 4 → 8 → 16 → 32.",
+          "help": "cellule-confronto/batteri"
+        }
+      ],
+      "hint": "Conta le generazioni, poi applica il raddoppio; dichiara le ipotesi.",
+      "explanation": "32 Da una cellula, 60 minuti con duplicazione ogni 20 minuti danno tre generazioni e 2³ = 8 cellule. In 11 ore sarebbero 33 generazioni: 2³³ = 8.589.934.592 nel modello ideale, non una previsione per ogni coltura.",
+      "help": "cellule-confronto/batteri"
+    },
+    {
+      "id": "mat26-cellule-confronto-batteri-2",
+      "unit": "cellule-confronto",
+      "concept": "batteri",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale organizzazione descrive un batterio Gram negativo tipico?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peptidoglicano sottile e membrana esterna"
+        },
+        {
+          "id": "b",
+          "text": "Nessuna membrana plasmatica",
+          "feedback": "La membrana plasmatica è presente anche sotto la parete.",
+          "help": "cellule-confronto/batteri"
+        },
+        {
+          "id": "c",
+          "text": "Nucleo delimitato e parete di cellulosa",
+          "feedback": "Queste caratteristiche non definiscono il modello batterico Gram negativo.",
+          "help": "cellule-confronto/batteri"
+        }
+      ],
+      "hint": "Conta le generazioni, poi applica il raddoppio; dichiara le ipotesi.",
+      "explanation": "Peptidoglicano sottile e membrana esterna Da una cellula, 60 minuti con duplicazione ogni 20 minuti danno tre generazioni e 2³ = 8 cellule. In 11 ore sarebbero 33 generazioni: 2³³ = 8.589.934.592 nel modello ideale, non una previsione per ogni coltura.",
+      "help": "cellule-confronto/batteri"
+    },
+    {
+      "id": "mat26-cellule-confronto-confini-1",
+      "unit": "cellule-confronto",
+      "concept": "confini",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un virus contiene RNA. Che cosa deduci da questo solo dato?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il genoma è a RNA; il passaggio RNA → DNA resta da verificare"
+        },
+        {
+          "id": "b",
+          "text": "È necessariamente un retrovirus",
+          "feedback": "Molti virus a RNA replicano RNA senza un intermedio a DNA.",
+          "help": "cellule-confronto/confini"
+        },
+        {
+          "id": "c",
+          "text": "Possiede ribosomi autonomi",
+          "feedback": "Il genoma non fornisce al virus un apparato cellulare di traduzione.",
+          "help": "cellule-confronto/confini"
+        }
+      ],
+      "hint": "Identifica struttura, genoma e strategia replicativa separatamente.",
+      "explanation": "Il genoma è a RNA; il passaggio RNA → DNA resta da verificare Una particella con RNA e envelope non basta per concludere “retrovirus”: occorre conoscere il ciclo e il passaggio RNA → DNA.",
+      "help": "cellule-confronto/confini"
+    },
+    {
+      "id": "mat26-cellule-confronto-confini-2",
+      "unit": "cellule-confronto",
+      "concept": "confini",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa indica il tropismo virale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preferenza e compatibilità per determinati ospiti o tipi cellulari"
+        },
+        {
+          "id": "b",
+          "text": "Velocità di scissione binaria del virione",
+          "feedback": "I virioni non aumentano per scissione binaria come cellule.",
+          "help": "cellule-confronto/confini"
+        },
+        {
+          "id": "c",
+          "text": "Presenza obbligatoria di un involucro lipidico",
+          "feedback": "Anche virus senza envelope possono avere tropismo specifico.",
+          "help": "cellule-confronto/confini"
+        }
+      ],
+      "hint": "Identifica struttura, genoma e strategia replicativa separatamente.",
+      "explanation": "Preferenza e compatibilità per determinati ospiti o tipi cellulari Una particella con RNA e envelope non basta per concludere “retrovirus”: occorre conoscere il ciclo e il passaggio RNA → DNA.",
+      "help": "cellule-confronto/confini"
+    },
+    {
+      "id": "mat26-molecole-confronto-unita-1",
+      "unit": "molecole-confronto",
+      "concept": "unita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Cinque amminoacidi formano una catena lineare senza cicli. Quanti legami peptidici li uniscono?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5",
+          "feedback": "Cinque unità in fila hanno quattro connessioni adiacenti.",
+          "help": "molecole-confronto/unita"
+        },
+        {
+          "id": "c",
+          "text": "10",
+          "feedback": "Non si collega ogni amminoacido a tutti gli altri.",
+          "help": "molecole-confronto/unita"
+        }
+      ],
+      "hint": "Conta le connessioni e riconosci il legame.",
+      "explanation": "4 Un peptide lineare formato da quattro amminoacidi contiene tre legami peptidici. Nel bilancio di condensazione sono eliminate tre molecole d’acqua, non quattro.",
+      "help": "molecole-confronto/unita"
+    },
+    {
+      "id": "mat26-molecole-confronto-unita-2",
+      "unit": "molecole-confronto",
+      "concept": "unita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale affermazione distingue le famiglie?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il colesterolo è un lipide, ma non è un polimero di acidi grassi"
+        },
+        {
+          "id": "b",
+          "text": "Ogni lipide è una catena di acidi grassi ripetuti",
+          "feedback": "I lipidi comprendono anche steroidi ad anelli.",
+          "help": "molecole-confronto/unita"
+        },
+        {
+          "id": "c",
+          "text": "Le proteine sono polimeri di nucleotidi",
+          "feedback": "Le unità delle proteine sono amminoacidi.",
+          "help": "molecole-confronto/unita"
+        }
+      ],
+      "hint": "Conta le connessioni e riconosci il legame.",
+      "explanation": "Il colesterolo è un lipide, ma non è un polimero di acidi grassi Un peptide lineare formato da quattro amminoacidi contiene tre legami peptidici. Nel bilancio di condensazione sono eliminate tre molecole d’acqua, non quattro.",
+      "help": "molecole-confronto/unita"
+    },
+    {
+      "id": "mat26-molecole-confronto-glucidi-1",
+      "unit": "molecole-confronto",
+      "concept": "glucidi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché cellulosa e amido non hanno la stessa digeribilità umana?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Differiscono i legami riconosciuti dagli enzimi digestivi"
+        },
+        {
+          "id": "b",
+          "text": "La cellulosa non contiene glucosio",
+          "feedback": "Anche la cellulosa è un polimero del glucosio.",
+          "help": "molecole-confronto/glucidi"
+        },
+        {
+          "id": "c",
+          "text": "Tutto l’amido è identico al glicogeno",
+          "feedback": "L’amido comprende amilosio e amilopectina; il glicogeno è più ramificato.",
+          "help": "molecole-confronto/glucidi"
+        }
+      ],
+      "hint": "Controlla monomero, configurazione e ramificazione.",
+      "explanation": "Differiscono i legami riconosciuti dagli enzimi digestivi Amido e cellulosa contengono glucosio, ma cambiano legami e forma: “stesso monomero” non implica “stessa digeribilità”.",
+      "help": "molecole-confronto/glucidi"
+    },
+    {
+      "id": "mat26-molecole-confronto-glucidi-2",
+      "unit": "molecole-confronto",
+      "concept": "glucidi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale vantaggio ha accumulare glucosio in glicogeno?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Riduce il numero di particelle osmoticamente attive rispetto al glucosio libero"
+        },
+        {
+          "id": "b",
+          "text": "Elimina ogni necessità di enzimi",
+          "feedback": "Sintesi e mobilizzazione richiedono enzimi.",
+          "help": "molecole-confronto/glucidi"
+        },
+        {
+          "id": "c",
+          "text": "Trasforma il glucosio in una proteina",
+          "feedback": "Il glicogeno rimane un polisaccaride.",
+          "help": "molecole-confronto/glucidi"
+        }
+      ],
+      "hint": "Controlla monomero, configurazione e ramificazione.",
+      "explanation": "Riduce il numero di particelle osmoticamente attive rispetto al glucosio libero Amido e cellulosa contengono glucosio, ma cambiano legami e forma: “stesso monomero” non implica “stessa digeribilità”.",
+      "help": "molecole-confronto/glucidi"
+    },
+    {
+      "id": "mat26-molecole-confronto-lipidi-1",
+      "unit": "molecole-confronto",
+      "concept": "lipidi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa indica 18:3 n-3?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "18 carboni, tre doppi legami, primo doppio legame dal lato metilico in posizione n-3"
+        },
+        {
+          "id": "b",
+          "text": "18 doppi legami e tre carboni",
+          "feedback": "Prima dei due punti sono indicati i carboni.",
+          "help": "molecole-confronto/lipidi"
+        },
+        {
+          "id": "c",
+          "text": "Tre fosfati legati a 18 gliceroli",
+          "feedback": "È una notazione per un acido grasso, non per gruppi fosfato.",
+          "help": "molecole-confronto/lipidi"
+        }
+      ],
+      "hint": "Leggi geometria, numerazione e gruppo polare prima della funzione.",
+      "explanation": "18 carboni, tre doppi legami, primo doppio legame dal lato metilico in posizione n-3 Tre catene esterificate al glicerolo indicano una riserva; due catene e una testa fosforilata suggeriscono un componente di membrana.",
+      "help": "molecole-confronto/lipidi"
+    },
+    {
+      "id": "mat26-molecole-confronto-lipidi-2",
+      "unit": "molecole-confronto",
+      "concept": "lipidi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Come si orienta un doppio strato a contatto con acqua sui due lati?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teste polari verso l’acqua e code idrofobiche verso l’interno"
+        },
+        {
+          "id": "b",
+          "text": "Code apolari verso l’acqua e teste sepolte",
+          "feedback": "Così esporresti all’acqua le parti idrofobiche.",
+          "help": "molecole-confronto/lipidi"
+        },
+        {
+          "id": "c",
+          "text": "Triacilgliceroli con tre teste fosfato",
+          "feedback": "Un triacilglicerolo non possiede tre teste fosforilate.",
+          "help": "molecole-confronto/lipidi"
+        }
+      ],
+      "hint": "Leggi geometria, numerazione e gruppo polare prima della funzione.",
+      "explanation": "Teste polari verso l’acqua e code idrofobiche verso l’interno Tre catene esterificate al glicerolo indicano una riserva; due catene e una testa fosforilata suggeriscono un componente di membrana.",
+      "help": "molecole-confronto/lipidi"
+    },
+    {
+      "id": "mat26-molecole-confronto-proteine-1",
+      "unit": "molecole-confronto",
+      "concept": "proteine",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Uno zwitterione ha carica netta zero. Che cosa significa?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le cariche positive e negative si compensano"
+        },
+        {
+          "id": "b",
+          "text": "Non possiede gruppi carichi",
+          "feedback": "Sono presenti cariche anche se la loro somma è zero.",
+          "help": "molecole-confronto/proteine"
+        },
+        {
+          "id": "c",
+          "text": "È necessariamente non polare",
+          "feedback": "La carica netta non elimina polarità e interazioni dei gruppi.",
+          "help": "molecole-confronto/proteine"
+        }
+      ],
+      "hint": "Distingui carica locale, subunità e velocità della reazione.",
+      "explanation": "Le cariche positive e negative si compensano Abbassare la barriera senza cambiare i livelli energetici di reagenti e prodotti permette di raggiungere più rapidamente lo stesso equilibrio.",
+      "help": "molecole-confronto/proteine"
+    },
+    {
+      "id": "mat26-molecole-confronto-proteine-2",
+      "unit": "molecole-confronto",
+      "concept": "proteine",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un enzima abbassa l’energia di attivazione. Che cosa cambia direttamente?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "La velocità verso l’equilibrio"
+        },
+        {
+          "id": "b",
+          "text": "Il ΔG fra reagenti e prodotti",
+          "feedback": "La catalisi non cambia la differenza di energia libera fra gli stati.",
+          "help": "molecole-confronto/proteine"
+        },
+        {
+          "id": "c",
+          "text": "Il numero di atomi conservati nella reazione",
+          "feedback": "Un catalizzatore non viola la conservazione degli atomi.",
+          "help": "molecole-confronto/proteine"
+        }
+      ],
+      "hint": "Distingui carica locale, subunità e velocità della reazione.",
+      "explanation": "La velocità verso l’equilibrio Abbassare la barriera senza cambiare i livelli energetici di reagenti e prodotti permette di raggiungere più rapidamente lo stesso equilibrio.",
+      "help": "molecole-confronto/proteine"
+    },
+    {
+      "id": "mat26-nucleici-lettura-nucleotidi-1",
+      "unit": "nucleici-lettura",
+      "concept": "nucleotidi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quali sono le purine presenti nell’RNA?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adenina e guanina"
+        },
+        {
+          "id": "b",
+          "text": "Adenina e uracile",
+          "feedback": "L’uracile ha un anello ed è una pirimidina.",
+          "help": "nucleici-lettura/nucleotidi"
+        },
+        {
+          "id": "c",
+          "text": "Citosina e timina",
+          "feedback": "Sono pirimidine; la timina non è una delle quattro basi principali dell’RNA.",
+          "help": "nucleici-lettura/nucleotidi"
+        }
+      ],
+      "hint": "Purine: A e G. Nucleoside: base + zucchero. Nucleotide: anche fosfato.",
+      "explanation": "Adenina e guanina Eliminando il fosfato dall’AMP rimane adenosina; separando anche lo zucchero rimane adenina. I tre nomi non sono sinonimi.",
+      "help": "nucleici-lettura/nucleotidi"
+    },
+    {
+      "id": "mat26-nucleici-lettura-nucleotidi-2",
+      "unit": "nucleici-lettura",
+      "concept": "nucleotidi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Rimuovendo l’unico fosfato dell’AMP, che cosa ottieni?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adenosina"
+        },
+        {
+          "id": "b",
+          "text": "Adenina",
+          "feedback": "Per ottenere la base sola devi separare anche il ribosio.",
+          "help": "nucleici-lettura/nucleotidi"
+        },
+        {
+          "id": "c",
+          "text": "ATP",
+          "feedback": "ATP ha due fosfati in più dell’AMP.",
+          "help": "nucleici-lettura/nucleotidi"
+        }
+      ],
+      "hint": "Purine: A e G. Nucleoside: base + zucchero. Nucleotide: anche fosfato.",
+      "explanation": "Adenosina Eliminando il fosfato dall’AMP rimane adenosina; separando anche lo zucchero rimane adenina. I tre nomi non sono sinonimi.",
+      "help": "nucleici-lettura/nucleotidi"
+    },
+    {
+      "id": "mat26-nucleici-lettura-direzioni-1",
+      "unit": "nucleici-lettura",
+      "concept": "direzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Qual è il complementare di 5′-ATGC-3′ scritto 5′→3′?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "5′-GCAT-3′"
+        },
+        {
+          "id": "b",
+          "text": "5′-TACG-3′",
+          "feedback": "Hai sostituito le basi senza invertire il verso: TACG si allinea 3′→5′.",
+          "help": "nucleici-lettura/direzioni"
+        },
+        {
+          "id": "c",
+          "text": "5′-AUGC-3′",
+          "feedback": "Hai sostituito T con U senza costruire il complementare.",
+          "help": "nucleici-lettura/direzioni"
+        }
+      ],
+      "hint": "Prima orienta le estremità, poi applica gli appaiamenti.",
+      "explanation": "5′-GCAT-3′ Stampo 3′-TACGGA-5′ → RNA 5′-AUGCCU-3′. Il codificante è 5′-ATGCCT-3′. La polimerasi sintetizza l’RNA 5′→3′.",
+      "help": "nucleici-lettura/direzioni"
+    },
+    {
+      "id": "mat26-nucleici-lettura-direzioni-2",
+      "unit": "nucleici-lettura",
+      "concept": "direzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Stampo 3′-TACGGA-5′: quale RNA viene sintetizzato?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "5′-AUGCCU-3′"
+        },
+        {
+          "id": "b",
+          "text": "5′-UACGGA-3′",
+          "feedback": "Serve una sequenza complementare, non le basi dello stampo.",
+          "help": "nucleici-lettura/direzioni"
+        },
+        {
+          "id": "c",
+          "text": "5′-ATGCCT-3′",
+          "feedback": "Questa è la sequenza del codificante DNA: nell’RNA compare U.",
+          "help": "nucleici-lettura/direzioni"
+        }
+      ],
+      "hint": "Prima orienta le estremità, poi applica gli appaiamenti.",
+      "explanation": "5′-AUGCCU-3′ Stampo 3′-TACGGA-5′ → RNA 5′-AUGCCU-3′. Il codificante è 5′-ATGCCT-3′. La polimerasi sintetizza l’RNA 5′→3′.",
+      "help": "nucleici-lettura/direzioni"
+    },
+    {
+      "id": "mat26-nucleici-lettura-cromatina-1",
+      "unit": "nucleici-lettura",
+      "concept": "cromatina",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale istone NON è presente a coppie nel nucleo del nucleosoma?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "H1"
+        },
+        {
+          "id": "b",
+          "text": "H3",
+          "feedback": "H3 è presente in due copie nell’ottamero.",
+          "help": "nucleici-lettura/cromatina"
+        },
+        {
+          "id": "c",
+          "text": "H4",
+          "feedback": "H4 è presente in due copie nell’ottamero.",
+          "help": "nucleici-lettura/cromatina"
+        }
+      ],
+      "hint": "Doppia elica, nucleosoma, cromatidio e cromosoma sono livelli diversi.",
+      "explanation": "H1 Ogni cromatidio contiene una molecola di DNA a doppio filamento: due cromatidi non equivalgono a due singoli filamenti.",
+      "help": "nucleici-lettura/cromatina"
+    },
+    {
+      "id": "mat26-nucleici-lettura-cromatina-2",
+      "unit": "nucleici-lettura",
+      "concept": "cromatina",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale frase sul DNA batterico è corretta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "È nel nucleoide e può essere associato a proteine"
+        },
+        {
+          "id": "b",
+          "text": "È sempre libero da qualsiasi proteina",
+          "feedback": "L’assenza di istoni canonici batterici non implica assenza di proteine associate.",
+          "help": "nucleici-lettura/cromatina"
+        },
+        {
+          "id": "c",
+          "text": "È racchiuso in un nucleo con doppia membrana",
+          "feedback": "Questo descrive il modello eucariotico.",
+          "help": "nucleici-lettura/cromatina"
+        }
+      ],
+      "hint": "Doppia elica, nucleosoma, cromatidio e cromosoma sono livelli diversi.",
+      "explanation": "È nel nucleoide e può essere associato a proteine Ogni cromatidio contiene una molecola di DNA a doppio filamento: due cromatidi non equivalgono a due singoli filamenti.",
+      "help": "nucleici-lettura/cromatina"
+    },
+    {
+      "id": "mat26-nucleici-lettura-rna-1",
+      "unit": "nucleici-lettura",
+      "concept": "rna",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa significa mRNA policistronico?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Può contenere più regioni codificanti per polipeptidi distinti"
+        },
+        {
+          "id": "b",
+          "text": "Contiene necessariamente molti cromosomi",
+          "feedback": "Il numero di cistroni riguarda il trascritto.",
+          "help": "nucleici-lettura/rna"
+        },
+        {
+          "id": "c",
+          "text": "È formato da soli amminoacidi",
+          "feedback": "L’mRNA è una catena di nucleotidi.",
+          "help": "nucleici-lettura/rna"
+        }
+      ],
+      "hint": "Distingui messaggio, adattatore e ribosoma.",
+      "explanation": "Può contenere più regioni codificanti per polipeptidi distinti Un mRNA batterico con tre regioni codificanti può generare tre polipeptidi distinti; non deve essere tradotto in una sola proteina obbligatoria.",
+      "help": "nucleici-lettura/rna"
+    },
+    {
+      "id": "mat26-nucleici-lettura-rna-2",
+      "unit": "nucleici-lettura",
+      "concept": "rna",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché 30S e 50S formano un ribosoma indicato come 70S?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "S misura la sedimentazione e non è semplicemente additiva"
+        },
+        {
+          "id": "b",
+          "text": "Una subunità perde sempre dieci nucleotidi",
+          "feedback": "I numeri S non contano nucleotidi.",
+          "help": "nucleici-lettura/rna"
+        },
+        {
+          "id": "c",
+          "text": "Il ribosoma è necessariamente danneggiato",
+          "feedback": "70S indica il normale complesso batterico citosolico.",
+          "help": "nucleici-lettura/rna"
+        }
+      ],
+      "hint": "Distingui messaggio, adattatore e ribosoma.",
+      "explanation": "S misura la sedimentazione e non è semplicemente additiva Un mRNA batterico con tre regioni codificanti può generare tre polipeptidi distinti; non deve essere tradotto in una sola proteina obbligatoria.",
+      "help": "nucleici-lettura/rna"
+    },
+    {
+      "id": "mat26-anatomia-cute-strati-1",
+      "unit": "anatomia-cute",
+      "concept": "strati",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dove si trovano i capillari che nutrono per diffusione l’epidermide?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nel connettivo del derma"
+        },
+        {
+          "id": "b",
+          "text": "Dentro lo strato corneo",
+          "feedback": "Lo strato corneo non contiene vasi.",
+          "help": "anatomia-cute/strati"
+        },
+        {
+          "id": "c",
+          "text": "Nel citoplasma dei cheratinociti",
+          "feedback": "Un capillare è una struttura del tessuto, non un organello.",
+          "help": "anatomia-cute/strati"
+        }
+      ],
+      "hint": "Epidermide avascolare; derma vascolarizzato; sottocute distinto.",
+      "explanation": "Nel connettivo del derma Vasi fra fasci di collagene indicano derma, non epidermide. La vicinanza a un epitelio non sposta quei vasi al suo interno.",
+      "help": "anatomia-cute/strati"
+    },
+    {
+      "id": "mat26-anatomia-cute-strati-2",
+      "unit": "anatomia-cute",
+      "concept": "strati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una sezione mostra collagene in fasci irregolari e vasi. Quale regione suggerisce?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Derma reticolare"
+        },
+        {
+          "id": "b",
+          "text": "Epidermide superficiale",
+          "feedback": "L’epidermide è epiteliale e avascolare.",
+          "help": "anatomia-cute/strati"
+        },
+        {
+          "id": "c",
+          "text": "Lume di una ghiandola",
+          "feedback": "Un lume non è una matrice di fasci collagene.",
+          "help": "anatomia-cute/strati"
+        }
+      ],
+      "hint": "Epidermide avascolare; derma vascolarizzato; sottocute distinto.",
+      "explanation": "Derma reticolare Vasi fra fasci di collagene indicano derma, non epidermide. La vicinanza a un epitelio non sposta quei vasi al suo interno.",
+      "help": "anatomia-cute/strati"
+    },
+    {
+      "id": "mat26-anatomia-cute-epidermide-1",
+      "unit": "anatomia-cute",
+      "concept": "epidermide",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è l’ordine dalla profondità alla superficie nella cute spessa?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basale → spinoso → granuloso → lucido → corneo"
+        },
+        {
+          "id": "b",
+          "text": "Corneo → lucido → granuloso → spinoso → basale",
+          "feedback": "Questo è il percorso inverso.",
+          "help": "anatomia-cute/epidermide"
+        },
+        {
+          "id": "c",
+          "text": "Basale → lucido → spinoso → corneo → granuloso",
+          "feedback": "Il lucido è fra granuloso e corneo.",
+          "help": "anatomia-cute/epidermide"
+        }
+      ],
+      "hint": "Il lucido si aggiunge fra granuloso e corneo nella cute spessa.",
+      "explanation": "Basale → spinoso → granuloso → lucido → corneo Strato lucido evidente, corneo spesso e nessun follicolo sono coerenti con cute spessa palmare o plantare. Non basta contare i nuclei per classificare la cute.",
+      "help": "anatomia-cute/epidermide"
+    },
+    {
+      "id": "mat26-anatomia-cute-epidermide-2",
+      "unit": "anatomia-cute",
+      "concept": "epidermide",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione è corretta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cellule di Merkel: sensibilità tattile"
+        },
+        {
+          "id": "b",
+          "text": "Cellule di Langerhans: produzione del fusto del pelo",
+          "feedback": "Le Langerhans sono cellule immunitarie.",
+          "help": "anatomia-cute/epidermide"
+        },
+        {
+          "id": "c",
+          "text": "Corneociti: cellule intensamente proliferanti",
+          "feedback": "I corneociti sono cornificati e privi di nucleo.",
+          "help": "anatomia-cute/epidermide"
+        }
+      ],
+      "hint": "Il lucido si aggiunge fra granuloso e corneo nella cute spessa.",
+      "explanation": "Cellule di Merkel: sensibilità tattile Strato lucido evidente, corneo spesso e nessun follicolo sono coerenti con cute spessa palmare o plantare. Non basta contare i nuclei per classificare la cute.",
+      "help": "anatomia-cute/epidermide"
+    },
+    {
+      "id": "mat26-anatomia-cute-annessi-1",
+      "unit": "anatomia-cute",
+      "concept": "annessi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Il pelo si allunga perché proliferano soprattutto cellule di quale sede?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matrice del bulbo"
+        },
+        {
+          "id": "b",
+          "text": "Punta del fusto esposta all’aria",
+          "feedback": "Il fusto è costituito soprattutto da cellule cornificate.",
+          "help": "anatomia-cute/annessi"
+        },
+        {
+          "id": "c",
+          "text": "Lume del dotto sudoriparo",
+          "feedback": "Il dotto trasporta sudore, non produce il pelo.",
+          "help": "anatomia-cute/annessi"
+        }
+      ],
+      "hint": "Distingui sede di produzione, percorso e materiale già cornificato.",
+      "explanation": "Matrice del bulbo Un dotto dalla porzione secernente alla superficie identifica una destinazione esocrina anche se il gomitolo si trova in profondità.",
+      "help": "anatomia-cute/annessi"
+    },
+    {
+      "id": "mat26-anatomia-cute-annessi-2",
+      "unit": "anatomia-cute",
+      "concept": "annessi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una ghiandola ha un dotto fino alla superficie cutanea. Qual è la destinazione del secreto?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esocrina"
+        },
+        {
+          "id": "b",
+          "text": "Endocrina perché è nel derma",
+          "feedback": "La sede profonda non cambia la destinazione.",
+          "help": "anatomia-cute/annessi"
+        },
+        {
+          "id": "c",
+          "text": "Nervosa perché risponde a stimoli",
+          "feedback": "Il controllo nervoso non cambia il tipo tissutale.",
+          "help": "anatomia-cute/annessi"
+        }
+      ],
+      "hint": "Distingui sede di produzione, percorso e materiale già cornificato.",
+      "explanation": "Esocrina Un dotto dalla porzione secernente alla superficie identifica una destinazione esocrina anche se il gomitolo si trova in profondità.",
+      "help": "anatomia-cute/annessi"
+    },
+    {
+      "id": "mat26-anatomia-cute-funzioni-1",
+      "unit": "anatomia-cute",
+      "concept": "funzioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è il precursore amminoacidico della melanina?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tirosina"
+        },
+        {
+          "id": "b",
+          "text": "Cheratina",
+          "feedback": "La cheratina è una proteina strutturale.",
+          "help": "anatomia-cute/funzioni"
+        },
+        {
+          "id": "c",
+          "text": "Glicogeno",
+          "feedback": "Il glicogeno è una riserva di glucosio.",
+          "help": "anatomia-cute/funzioni"
+        }
+      ],
+      "hint": "Collega ogni funzione alla struttura e al processo.",
+      "explanation": "Tirosina Due condizioni producono lo stesso sudore, ma in una ne evapora meno: non puoi concludere che la perdita di calore evaporativa sia uguale.",
+      "help": "anatomia-cute/funzioni"
+    },
+    {
+      "id": "mat26-anatomia-cute-funzioni-2",
+      "unit": "anatomia-cute",
+      "concept": "funzioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "A parità di sudore prodotto, che cosa limita la perdita di calore per evaporazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Una minore quota di sudore che evapora"
+        },
+        {
+          "id": "b",
+          "text": "La semplice presenza di dotti eccrini",
+          "feedback": "I dotti portano sudore alla superficie ma non determinano da soli quanto evapora.",
+          "help": "anatomia-cute/funzioni"
+        },
+        {
+          "id": "c",
+          "text": "L’assenza di vasi nel corneo",
+          "feedback": "Il corneo è normalmente avascolare; qui conta l’evaporazione.",
+          "help": "anatomia-cute/funzioni"
+        }
+      ],
+      "hint": "Collega ogni funzione alla struttura e al processo.",
+      "explanation": "Una minore quota di sudore che evapora Due condizioni producono lo stesso sudore, ma in una ne evapora meno: non puoi concludere che la perdita di calore evaporativa sia uguale.",
+      "help": "anatomia-cute/funzioni"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-potenziale-1",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "potenziale",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è il ruolo principale della pompa Na⁺/K⁺?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mantenere i gradienti ionici usando ATP"
+        },
+        {
+          "id": "b",
+          "text": "Aprire direttamente ogni picco rapido del potenziale d’azione",
+          "feedback": "La fase rapida dipende soprattutto dai canali voltaggio-dipendenti.",
+          "help": "anatomia-segnali-neurali/potenziale"
+        },
+        {
+          "id": "c",
+          "text": "Trasportare due Na⁺ dentro e tre K⁺ fuori",
+          "feedback": "Il rapporto usuale è tre Na⁺ fuori e due K⁺ dentro.",
+          "help": "anatomia-segnali-neurali/potenziale"
+        }
+      ],
+      "hint": "Pompa: mantiene gradienti. Canali: cambiano rapidamente la permeabilità.",
+      "explanation": "Mantenere i gradienti ionici usando ATP Da −70 a −55 mV è una depolarizzazione di 15 mV: l’interno diventa meno negativo, non necessariamente positivo.",
+      "help": "anatomia-segnali-neurali/potenziale"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-potenziale-2",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "potenziale",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La membrana passa da −70 a −55 mV. Come descrivi la variazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Depolarizzazione di 15 mV"
+        },
+        {
+          "id": "b",
+          "text": "Iperpolarizzazione di 15 mV",
+          "feedback": "Il valore diventa meno negativo.",
+          "help": "anatomia-segnali-neurali/potenziale"
+        },
+        {
+          "id": "c",
+          "text": "Depolarizzazione di 125 mV",
+          "feedback": "−55 − (−70) = 15 mV.",
+          "help": "anatomia-segnali-neurali/potenziale"
+        }
+      ],
+      "hint": "Pompa: mantiene gradienti. Canali: cambiano rapidamente la permeabilità.",
+      "explanation": "Depolarizzazione di 15 mV Da −70 a −55 mV è una depolarizzazione di 15 mV: l’interno diventa meno negativo, non necessariamente positivo.",
+      "help": "anatomia-segnali-neurali/potenziale"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-conduzione-1",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "conduzione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nella conduzione saltatoria, dove si rigenera soprattutto il potenziale d’azione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ai nodi di Ranvier"
+        },
+        {
+          "id": "b",
+          "text": "Nel sangue dei capillari del nervo",
+          "feedback": "La propagazione riguarda la membrana assonale.",
+          "help": "anatomia-segnali-neurali/conduzione"
+        },
+        {
+          "id": "c",
+          "text": "Nel nucleo della cellula di Schwann",
+          "feedback": "La Schwann organizza l’internodo; il segnale percorre l’assone.",
+          "help": "anatomia-segnali-neurali/conduzione"
+        }
+      ],
+      "hint": "Il segnale si rigenera nella membrana; la mielina cambia dove e con quale efficienza.",
+      "explanation": "Ai nodi di Ranvier Un danno alla mielina può rallentare o bloccare la conduzione anche senza interrompere completamente l’assone.",
+      "help": "anatomia-segnali-neurali/conduzione"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-conduzione-2",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "conduzione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione è corretta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oligodendrociti nel SNC; cellule di Schwann nel SNP"
+        },
+        {
+          "id": "b",
+          "text": "Schwann esclusivamente nella corteccia cerebrale",
+          "feedback": "Le cellule di Schwann appartengono al periferico.",
+          "help": "anatomia-segnali-neurali/conduzione"
+        },
+        {
+          "id": "c",
+          "text": "Oligodendrociti produttori di anticorpi",
+          "feedback": "Gli anticorpi sono prodotti da plasmacellule.",
+          "help": "anatomia-segnali-neurali/conduzione"
+        }
+      ],
+      "hint": "Il segnale si rigenera nella membrana; la mielina cambia dove e con quale efficienza.",
+      "explanation": "Oligodendrociti nel SNC; cellule di Schwann nel SNP Un danno alla mielina può rallentare o bloccare la conduzione anche senza interrompere completamente l’assone.",
+      "help": "anatomia-segnali-neurali/conduzione"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-sinapsi-1",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "sinapsi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa innesca il rilascio vescicolare nella sinapsi chimica?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ingresso di Ca²⁺ nel terminale presinaptico"
+        },
+        {
+          "id": "b",
+          "text": "Ingresso dell’intero assone nella cellula bersaglio",
+          "feedback": "Le cellule rimangono separate dalla fessura.",
+          "help": "anatomia-segnali-neurali/sinapsi"
+        },
+        {
+          "id": "c",
+          "text": "Replicazione del DNA nel terminale",
+          "feedback": "La trasmissione rapida non richiede replicazione.",
+          "help": "anatomia-segnali-neurali/sinapsi"
+        }
+      ],
+      "hint": "Segui calcio, rilascio, recettore, effetto e spegnimento.",
+      "explanation": "Ingresso di Ca²⁺ nel terminale presinaptico Due segnali eccitatori vicini nel tempo possono raggiungere insieme la soglia, mentre ciascuno isolato non basta. Si sommano effetti locali, non si fondono neuroni.",
+      "help": "anatomia-segnali-neurali/sinapsi"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-sinapsi-2",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "sinapsi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due segnali ravvicinati della stessa sorgente si sommano. Quale sommazione?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Temporale"
+        },
+        {
+          "id": "b",
+          "text": "Spaziale perché gli eventi sono due",
+          "feedback": "Spaziale indica sedi diverse, non soltanto due eventi.",
+          "help": "anatomia-segnali-neurali/sinapsi"
+        },
+        {
+          "id": "c",
+          "text": "Mitosi sinaptica",
+          "feedback": "L’integrazione non è divisione cellulare.",
+          "help": "anatomia-segnali-neurali/sinapsi"
+        }
+      ],
+      "hint": "Segui calcio, rilascio, recettore, effetto e spegnimento.",
+      "explanation": "Temporale Due segnali eccitatori vicini nel tempo possono raggiungere insieme la soglia, mentre ciascuno isolato non basta. Si sommano effetti locali, non si fondono neuroni.",
+      "help": "anatomia-segnali-neurali/sinapsi"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-circuiti-1",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "circuiti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Tre neuroni inviano segnali allo stesso neurone. Quale organizzazione rappresentano?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Convergenza"
+        },
+        {
+          "id": "b",
+          "text": "Divergenza",
+          "feedback": "Divergenza è una sorgente con più bersagli.",
+          "help": "anatomia-segnali-neurali/circuiti"
+        },
+        {
+          "id": "c",
+          "text": "Scissione binaria",
+          "feedback": "Lo schema mostra comunicazione, non divisione.",
+          "help": "anatomia-segnali-neurali/circuiti"
+        }
+      ],
+      "hint": "Leggi geometria, segno e contesto delle connessioni.",
+      "explanation": "Convergenza Tre neuroni raggiungono un motoneurone: è convergenza. Due ingressi eccitatori e uno inibitorio richiedono di considerare intensità, tempi e posizione, non soltanto il numero di frecce.",
+      "help": "anatomia-segnali-neurali/circuiti"
+    },
+    {
+      "id": "mat26-anatomia-segnali-neurali-circuiti-2",
+      "unit": "anatomia-segnali-neurali",
+      "concept": "circuiti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase descrive la regolazione intestinale generale?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Circuiti enterici locali modulati anche da parasimpatico e simpatico"
+        },
+        {
+          "id": "b",
+          "text": "Il simpatico aumenta sempre tutta la motilità e il parasimpatico la blocca",
+          "feedback": "La frase inverte l’effetto digestivo usuale e ignora le differenze fra strutture.",
+          "help": "anatomia-segnali-neurali/circuiti"
+        },
+        {
+          "id": "c",
+          "text": "Ogni riflesso intestinale richiede un ordine cosciente",
+          "feedback": "Molti circuiti funzionano localmente.",
+          "help": "anatomia-segnali-neurali/circuiti"
+        }
+      ],
+      "hint": "Leggi geometria, segno e contesto delle connessioni.",
+      "explanation": "Circuiti enterici locali modulati anche da parasimpatico e simpatico Tre neuroni raggiungono un motoneurone: è convergenza. Due ingressi eccitatori e uno inibitorio richiedono di considerare intensità, tempi e posizione, non soltanto il numero di frecce.",
+      "help": "anatomia-segnali-neurali/circuiti"
+    },
+    {
+      "id": "mat26-proteine-destino-conformazioni-1",
+      "unit": "proteine-destino",
+      "concept": "conformazioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una proteina perde funzione al calore ma non presenta catene più corte. Quale interpretazione è sostenuta?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conformazione alterata senza dimostrazione di proteolisi"
+        },
+        {
+          "id": "b",
+          "text": "Distruzione obbligatoria di tutti i legami peptidici",
+          "feedback": "Le catene intere non dimostrano idrolisi completa.",
+          "help": "proteine-destino/conformazioni"
+        },
+        {
+          "id": "c",
+          "text": "Comparsa certa di un prione contagioso",
+          "feedback": "Perdita di funzione e aggregazione non dimostrano propagazione prionica.",
+          "help": "proteine-destino/conformazioni"
+        }
+      ],
+      "hint": "Ripiegamento, degradazione e propagazione conformazionale sono distinti.",
+      "explanation": "Conformazione alterata senza dimostrazione di proteolisi Perdita di attività al calore con catene ancora intere è coerente con denaturazione; frammenti più corti indicano proteolisi. Un aggregato non basta per parlare di prione.",
+      "help": "proteine-destino/conformazioni"
+    },
+    {
+      "id": "mat26-proteine-destino-conformazioni-2",
+      "unit": "proteine-destino",
+      "concept": "conformazioni",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Che cosa distingue il proteasoma da un chaperone?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Degradazione di proteine selezionate invece di assistenza al ripiegamento"
+        },
+        {
+          "id": "b",
+          "text": "Sintesi di DNA invece di RNA",
+          "feedback": "Queste non sono le funzioni da confrontare.",
+          "help": "proteine-destino/conformazioni"
+        },
+        {
+          "id": "c",
+          "text": "Produzione di amminoacidi dal glucosio",
+          "feedback": "Qui si confrontano ruoli nel controllo di qualità proteica.",
+          "help": "proteine-destino/conformazioni"
+        }
+      ],
+      "hint": "Ripiegamento, degradazione e propagazione conformazionale sono distinti.",
+      "explanation": "Degradazione di proteine selezionate invece di assistenza al ripiegamento Perdita di attività al calore con catene ancora intere è coerente con denaturazione; frammenti più corti indicano proteolisi. Un aggregato non basta per parlare di prione.",
+      "help": "proteine-destino/conformazioni"
+    },
+    {
+      "id": "mat26-anatomia-sangue-difese-gruppi-1",
+      "unit": "anatomia-sangue-difese",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nel modello ABO adulto, quale combinazione descrive A?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antigene A sugli eritrociti e anti-B nel plasma"
+        },
+        {
+          "id": "b",
+          "text": "Anticorpo A nel nucleo degli eritrociti",
+          "feedback": "Gli eritrociti maturi umani non hanno nucleo; A indica un antigene.",
+          "help": "anatomia-sangue-difese/gruppi"
+        },
+        {
+          "id": "c",
+          "text": "Antigene B e anti-A",
+          "feedback": "Questa è la combinazione B.",
+          "help": "anatomia-sangue-difese/gruppi"
+        }
+      ],
+      "hint": "Le lettere ABO indicano antigeni; gli anti- indicano anticorpi.",
+      "explanation": "Antigene A sugli eritrociti e anti-B nel plasma Gruppo A: antigene A sugli eritrociti, anti-B nel plasma. Scambiarli produce una descrizione errata.",
+      "help": "anatomia-sangue-difese/gruppi"
+    },
+    {
+      "id": "mat26-anatomia-sangue-difese-gruppi-2",
+      "unit": "anatomia-sangue-difese",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa deduci da Rh negativo nel modello D?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "D è assente; anti-D non è automaticamente presente"
+        },
+        {
+          "id": "b",
+          "text": "Il plasma contiene sempre anti-D",
+          "feedback": "Gli anti-D possono comparire dopo sensibilizzazione.",
+          "help": "anatomia-sangue-difese/gruppi"
+        },
+        {
+          "id": "c",
+          "text": "Non esiste alcuna proteina eritrocitaria di membrana",
+          "feedback": "L’assenza di D non elimina le altre proteine.",
+          "help": "anatomia-sangue-difese/gruppi"
+        }
+      ],
+      "hint": "Le lettere ABO indicano antigeni; gli anti- indicano anticorpi.",
+      "explanation": "D è assente; anti-D non è automaticamente presente Gruppo A: antigene A sugli eritrociti, anti-B nel plasma. Scambiarli produce una descrizione errata.",
+      "help": "anatomia-sangue-difese/gruppi"
+    },
+    {
+      "id": "mat26-anatomia-endocrino-epifisi-1",
+      "unit": "anatomia-endocrino",
+      "concept": "epifisi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale associazione riguarda l’epifisi?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pinealociti, melatonina e ciclo luce-buio"
+        },
+        {
+          "id": "b",
+          "text": "Cellule beta e insulina",
+          "feedback": "Le cellule beta sono pancreatiche.",
+          "help": "anatomia-endocrino/epifisi"
+        },
+        {
+          "id": "c",
+          "text": "Follicoli con colloide e T3/T4",
+          "feedback": "Questo descrive la tiroide.",
+          "help": "anatomia-endocrino/epifisi"
+        }
+      ],
+      "hint": "Epifisi e ipofisi distinte; funzioni endocrine anche in altri organi.",
+      "explanation": "Pinealociti, melatonina e ciclo luce-buio L’eritropoietina renale stimola l’eritropoiesi midollare: il rene invia il segnale, il midollo produce le cellule.",
+      "help": "anatomia-endocrino/epifisi"
+    },
+    {
+      "id": "mat26-anatomia-endocrino-epifisi-2",
+      "unit": "anatomia-endocrino",
+      "concept": "epifisi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il rene rilascia eritropoietina. Qual è il bersaglio funzionale nel caso?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Produzione eritroide nel midollo osseo"
+        },
+        {
+          "id": "b",
+          "text": "Fabbricazione di eritrociti nel filtrato urinario",
+          "feedback": "Il filtrato non è sede emopoietica.",
+          "help": "anatomia-endocrino/epifisi"
+        },
+        {
+          "id": "c",
+          "text": "Trasformazione del rene in midollo spinale",
+          "feedback": "Midollo osseo e spinale sono strutture differenti.",
+          "help": "anatomia-endocrino/epifisi"
+        }
+      ],
+      "hint": "Epifisi e ipofisi distinte; funzioni endocrine anche in altri organi.",
+      "explanation": "Produzione eritroide nel midollo osseo L’eritropoietina renale stimola l’eritropoiesi midollare: il rene invia il segnale, il midollo produce le cellule.",
+      "help": "anatomia-endocrino/epifisi"
+    },
+    {
+      "id": "mat26-anatomia-genitale-cicli-1",
+      "unit": "anatomia-genitale",
+      "concept": "cicli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale abbinamento distingue ovaio e utero?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corpo luteo ovarico; fase secretiva endometriale"
+        },
+        {
+          "id": "b",
+          "text": "Corpo luteo nel lume uterino",
+          "feedback": "Deriva dal follicolo ovarico.",
+          "help": "anatomia-genitale/cicli"
+        },
+        {
+          "id": "c",
+          "text": "Endometrio come parete follicolare",
+          "feedback": "L’endometrio è la mucosa uterina.",
+          "help": "anatomia-genitale/cicli"
+        }
+      ],
+      "hint": "Collega fase ovarica, ormone e risposta uterina senza fissare un calendario universale.",
+      "explanation": "Corpo luteo ovarico; fase secretiva endometriale “Fase luteale” descrive l’ovaio; “fase secretiva” descrive l’endometrio. Sono due sedi sincronizzate, non due nomi della stessa struttura.",
+      "help": "anatomia-genitale/cicli"
+    },
+    {
+      "id": "mat26-anatomia-genitale-cicli-2",
+      "unit": "anatomia-genitale",
+      "concept": "cicli",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dove avviene normalmente l’impianto della blastocisti?",
+      "answer": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nell’endometrio uterino"
+        },
+        {
+          "id": "b",
+          "text": "Nell’endotelio di un’arteria",
+          "feedback": "L’endotelio riveste vasi; è diverso dall’endometrio.",
+          "help": "anatomia-genitale/cicli"
+        },
+        {
+          "id": "c",
+          "text": "Nel corpo luteo",
+          "feedback": "Il corpo luteo è una struttura endocrina ovarica.",
+          "help": "anatomia-genitale/cicli"
+        }
+      ],
+      "hint": "Collega fase ovarica, ormone e risposta uterina senza fissare un calendario universale.",
+      "explanation": "Nell’endometrio uterino “Fase luteale” descrive l’ovaio; “fase secretiva” descrive l’endometrio. Sono due sedi sincronizzate, non due nomi della stessa struttura.",
+      "help": "anatomia-genitale/cicli"
     }
   ],
   "templates": [

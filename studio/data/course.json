@@ -10266,7 +10266,8 @@
         "Chaperoni, aggregazione e controllo di qualità",
         "Segnali di destinazione e ingresso nel reticolo",
         "Golgi, vescicole e conservazione dell’orientamento",
-        "Genoma, trascrittoma, proteoma: che cosa stai misurando?"
+        "Genoma, trascrittoma, proteoma: che cosa stai misurando?",
+        "Folding, aggregati e prioni: non sono sinonimi"
       ],
       "sections": [
         {
@@ -10377,6 +10378,17 @@
               ]
             ]
           }
+        },
+        {
+          "id": "conformazioni",
+          "title": "Folding, aggregati e prioni: non sono sinonimi",
+          "text": [
+            "La sequenza limita le conformazioni possibili, mentre ambiente e proteine di assistenza influenzano il ripiegamento. I chaperoni aiutano a evitare interazioni inappropriate; non riscrivono la sequenza né recuperano qualsiasi proteina. Una proteina non recuperabile può essere indirizzata alla degradazione, per esempio mediante ubiquitina e proteasoma. Proteasoma e chaperone svolgono compiti diversi.",
+            "La denaturazione altera l’organizzazione nativa e può ridurre o abolire funzione senza rompere tutti i legami peptidici. Può essere reversibile o irreversibile secondo proteina e condizioni. L’aggregazione associa molecole in complessi, talvolta insolubili; non ogni aggregato è un prione. Nella propagazione prionica una conformazione favorisce la conversione di altre molecole compatibili: non è una cellula con DNA né un virus con capside e genoma.",
+            "Le malattie citate come esempi di alterato ripiegamento non sono identiche per causa o trasmissibilità. Non si può dedurre contagiosità dalla sola presenza di aggregati. Il confronto distingue sequenza, conformazione, controllo di qualità e propagazione."
+          ],
+          "example": "Perdita di attività al calore con catene ancora intere è coerente con denaturazione; frammenti più corti indicano proteolisi. Un aggregato non basta per parlare di prione.",
+          "takeaway": "Ripiegamento, degradazione e propagazione conformazionale sono distinti."
         }
       ],
       "oral": {
@@ -10406,12 +10418,14 @@
         "bio-erad",
         "bio-proteomics",
         "bio-ms",
-        "bio-biotech"
+        "bio-biotech",
+        "os-mat26-prioni"
       ],
       "openstax": [
         "bio-proteomics",
         "bio-biotech",
-        "bio-cell-endomembranes"
+        "bio-cell-endomembranes",
+        "os-mat26-prioni"
       ]
     },
     {
@@ -15372,7 +15386,8 @@
         "Testicolo, tubuli e cellule di sostegno",
         "Vie spermatiche, ghiandole e genitali esterni",
         "Ovaio, follicoli e tuba uterina",
-        "Utero, vagina, vulva e rapporti pelvici"
+        "Utero, vagina, vulva e rapporti pelvici",
+        "Ciclo ovarico, endometrio e inizio della gravidanza"
       ],
       "sections": [
         {
@@ -15453,6 +15468,46 @@
               ]
             ]
           }
+        },
+        {
+          "id": "cicli",
+          "title": "Ciclo ovarico, endometrio e inizio della gravidanza",
+          "text": [
+            "Il ciclo ovarico comprende crescita follicolare, ovulazione e fase luteale. Gli ovociti primari sono arrestati in profase I; vicino all’ovulazione quello selezionato completa la prima divisione e l’ovocita secondario si arresta in metafase II. L’ovocita ovulato è accompagnato dalla corona radiata: non viene necessariamente espulso nudo. La fecondazione consente il completamento della meiosi II.",
+            "Il picco di LH favorisce ovulazione e luteinizzazione. Il corpo luteo produce soprattutto progesterone e anche estrogeni. Nell’utero gli estrogeni sostengono la fase proliferativa; il progesterone la trasformazione secretiva. Senza sostegno luteale il calo ormonale conduce alla mestruazione dello strato funzionale, mentre il basale sostiene il rinnovo. Ventotto giorni sono un esempio: l’ovulazione non avviene obbligatoriamente al giorno 14 in ogni ciclo.",
+            "Dopo fecondazione e divisioni, la blastocisti può impiantarsi nell’endometrio, non nell’endotelio vascolare. Il trofoblasto contribuisce alla placenta e alla produzione di hCG, che mantiene inizialmente il corpo luteo; successivamente la placenta sostiene la produzione ormonale necessaria. La mammella prepara strutture secernenti durante la gravidanza. Produzione del latte ed eiezione sono distinte, associate rispettivamente a prolattina e ossitocina."
+          ],
+          "example": "“Fase luteale” descrive l’ovaio; “fase secretiva” descrive l’endometrio. Sono due sedi sincronizzate, non due nomi della stessa struttura.",
+          "takeaway": "Collega fase ovarica, ormone e risposta uterina senza fissare un calendario universale.",
+          "table": {
+            "headers": [
+              "Ovaio",
+              "Segnale nel confronto",
+              "Utero"
+            ],
+            "rows": [
+              [
+                "Crescita follicolare",
+                "Estrogeni",
+                "Ricostruzione proliferativa"
+              ],
+              [
+                "Ovulazione",
+                "Picco LH",
+                "Transizione"
+              ],
+              [
+                "Corpo luteo",
+                "Progesterone ed estrogeni",
+                "Trasformazione secretiva"
+              ],
+              [
+                "Regressione senza sostegno",
+                "Calo ormonale",
+                "Mestruazione funzionale"
+              ]
+            ]
+          }
         }
       ],
       "oral": {
@@ -15487,13 +15542,15 @@
         "an-endocrine-thyroid",
         "an-endocrine-parathyroid",
         "an-endocrine-adrenal",
-        "an-endocrine-pancreas"
+        "an-endocrine-pancreas",
+        "os-mat26-pineale"
       ],
       "objectives": [
         "Adenoipofisi, neuroipofisi e ipotalamo",
         "Follicoli tiroidei e paratiroidi",
         "Corticale e midollare surrenalica",
-        "Isole pancreatiche e lettura di un circuito di feedback"
+        "Isole pancreatiche e lettura di un circuito di feedback",
+        "Epifisi e organi con più ruoli endocrini"
       ],
       "sections": [
         {
@@ -15583,6 +15640,17 @@
           ],
           "example": "Nel modello asse ipofisi–tiroide a feedback integro, un aumento imposto degli ormoni tiroidei tende a ridurre TSH. La previsione deriva dal segno negativo del ritorno, non dalla posizione anatomica della ghiandola.",
           "takeaway": "Sede, cellula, via di secrezione e segno del feedback sono quattro domande diverse."
+        },
+        {
+          "id": "epifisi",
+          "title": "Epifisi e organi con più ruoli endocrini",
+          "text": [
+            "L’epifisi o pineale appartiene alla regione epitalamica e contiene pinealociti produttori di melatonina. La secrezione partecipa alla segnalazione luce-buio ed è collegata a circuiti dall’informazione luminosa retinica attraverso ipotalamo e vie autonome. Epifisi e ipofisi sono strutture distinte: i nomi simili non indicano stessa sede o ormoni.",
+            "Molti organi svolgono funzione endocrina insieme ad altri compiti. Il rene produce eritropoietina e renina e contribuisce all’attivazione della vitamina D; il cuore produce peptidi natriuretici in risposta a distensione; il tubo digerente ha cellule enteroendocrine. Il timo fornisce un ambiente per la maturazione dei T insieme a segnali locali. Un elenco di ghiandole isolate non esaurisce il sistema endocrino.",
+            "La classificazione considera il percorso: un ormone liberato nell’interstizio può raggiungere sangue e bersagli lontani; un segnale paracrino agisce soprattutto localmente. Produzione, trasporto, bersaglio e controllo devono rimanere voci distinte."
+          ],
+          "example": "L’eritropoietina renale stimola l’eritropoiesi midollare: il rene invia il segnale, il midollo produce le cellule.",
+          "takeaway": "Epifisi e ipofisi distinte; funzioni endocrine anche in altri organi."
         }
       ],
       "oral": {
@@ -15601,7 +15669,8 @@
         "an-endocrine-thyroid",
         "an-endocrine-parathyroid",
         "an-endocrine-adrenal",
-        "an-endocrine-pancreas"
+        "an-endocrine-pancreas",
+        "os-mat26-pineale"
       ]
     },
     {
@@ -15900,13 +15969,15 @@
         "hi-haemopoiesis",
         "hi-leukocytes",
         "hi-innate",
-        "hi-antibodies"
+        "hi-antibodies",
+        "os-mat26-abo"
       ],
       "objectives": [
         "Plasma, eritrociti e piastrine",
         "Distinguere i cinque gruppi principali di leucociti",
         "Dal midollo agli elementi maturi",
-        "Anticorpi, complemento e cooperazione delle difese"
+        "Anticorpi, complemento e cooperazione delle difese",
+        "Antigeni eritrocitari e anticorpi plasmatici"
       ],
       "sections": [
         {
@@ -15980,6 +16051,46 @@
           ],
           "example": "Una particella rivestita da anticorpi o da componenti del complemento può essere riconosciuta più facilmente dai fagociti: è opsonizzazione, non produzione di nuovi eritrociti.",
           "takeaway": "Specificità, memoria e meccanismo effettore vanno distinti."
+        },
+        {
+          "id": "gruppi",
+          "title": "Antigeni eritrocitari e anticorpi plasmatici",
+          "text": [
+            "Nel sistema ABO le lettere descrivono antigeni eritrocitari. A presenta A, B presenta B, AB entrambi e O nessuno dei due antigeni A/B. Gli eritrociti O non sono però privi di qualsiasi antigene. Nel modello didattico dell’adulto, il plasma A contiene anti-B, B anti-A, O entrambi, AB nessuno dei due.",
+            "Antigene e anticorpo stanno su lati diversi del ragionamento. Anticorpi possono collegare eritrociti formando agglutinati; agglutinazione ed emolisi non sono equivalenti, perché la seconda distrugge le cellule. Rh è un sistema più ampio: positivo o negativo si riferisce comunemente alla presenza o assenza di D. Gli anti-D non sono automaticamente presenti in ogni individuo Rh negativo: possono comparire dopo sensibilizzazione.",
+            "In un esercizio chiediti quale antigene è disponibile e quale anticorpo può legarlo. Il modello ABO/Rh isolato non rappresenta tutte le verifiche di una trasfusione reale; qui serve a distinguere componenti cellulari e plasmatiche. “AB senza anti-A/anti-B” non significa “senza anticorpi di qualsiasi tipo”."
+          ],
+          "example": "Gruppo A: antigene A sugli eritrociti, anti-B nel plasma. Scambiarli produce una descrizione errata.",
+          "takeaway": "Le lettere ABO indicano antigeni; gli anti- indicano anticorpi.",
+          "table": {
+            "headers": [
+              "Gruppo",
+              "Antigeni A/B",
+              "Anti-A/anti-B tipici"
+            ],
+            "rows": [
+              [
+                "A",
+                "A",
+                "Anti-B"
+              ],
+              [
+                "B",
+                "B",
+                "Anti-A"
+              ],
+              [
+                "AB",
+                "Entrambi",
+                "Nessuno dei due"
+              ],
+              [
+                "O",
+                "Nessuno dei due",
+                "Entrambi"
+              ]
+            ]
+          }
         }
       ],
       "oral": {
@@ -15998,7 +16109,8 @@
         "hi-haemopoiesis",
         "hi-leukocytes",
         "hi-innate",
-        "hi-antibodies"
+        "hi-antibodies",
+        "os-mat26-abo"
       ]
     },
     {
@@ -22834,6 +22946,629 @@
           "Errori annotati e seconda esposizione"
         ]
       }
+    },
+    {
+      "id": "cellule-confronto",
+      "subject": "biologia",
+      "title": "Riconoscere una cellula: scala, diversità e confini",
+      "description": "Dal micrometro ai tre domini: leggere le figure e verificare le generalizzazioni.",
+      "minutes": 28,
+      "bookIds": [],
+      "objectives": [
+        "Misurare prima di riconoscere",
+        "Tre domini, molte forme cellulari",
+        "Parete, forma e crescita batterica",
+        "Cellula, virione e dipendenza dall’ospite"
+      ],
+      "sections": [
+        {
+          "id": "scala",
+          "title": "Misurare prima di riconoscere",
+          "text": [
+            "La biologia studia i sistemi viventi; la citologia osserva struttura e funzionamento delle cellule. Una cellula è un sistema delimitato, capace di usare materia ed energia e di mantenere un’organizzazione. Nel modello cellulare generale troviamo membrana, citoplasma, DNA e ribosomi. Non ogni cellula differenziata conserva tutte queste capacità: l’eritrocita umano maturo perde nucleo e ribosomi e non si divide. Un neurone può vivere a lungo senza produrre due cellule figlie. La teoria cellulare non richiede che ogni cellula del corpo si replichi continuamente.",
+            "Per leggere una micrografia parti dalla barra di scala, non dalla dimensione sullo schermo. Un millimetro contiene 1.000 micrometri (µm); un micrometro contiene 1.000 nanometri (nm). Molti batteri hanno dimensioni dell’ordine del micrometro, molte cellule animali dell’ordine delle decine di micrometri; esistono eccezioni. Un virus di 100 nm misura 0,1 µm. La scala orienta, ma non identifica da sola un organismo.",
+            "Ingrandimento significa rendere più grande l’immagine; risoluzione significa distinguere due punti vicini. Aumentare lo zoom di una fotografia sfocata non rivela nuovi organelli. Il microscopio ottico convenzionale risolve dettagli dell’ordine di 0,2 µm nelle condizioni adatte; l’elettronico permette dettagli più fini ma richiede preparazioni differenti. Colori e dimensioni apparenti possono dipendere dalla tecnica."
+          ],
+          "example": "Una barra di 2 µm è lunga metà di un batterio nella fotografia: la sua lunghezza stimata è 4 µm, indipendentemente dallo zoom.",
+          "takeaway": "Scala, risoluzione e ingrandimento rispondono a tre domande diverse.",
+          "diagram": "cellula-scale"
+        },
+        {
+          "id": "domini",
+          "title": "Tre domini, molte forme cellulari",
+          "text": [
+            "Nel modello introduttivo a tre domini distinguiamo Bacteria, Archaea ed Eukarya. Batteri e archei hanno organizzazione procariotica: il DNA non è racchiuso in un nucleo delimitato da membrana. Gli archei costituiscono una linea distinta, con membrane e apparati molecolari caratteristici; non sono cellule “a metà” fra un batterio e una cellula eucariotica. Alcuni vivono in ambienti estremi, altri in mari, suoli e microbioti comuni. Il modello serve qui a confrontare organizzazioni, senza riassumere tutte le ipotesi filogenetiche moderne.",
+            "Un lievito è un fungo eucariotico unicellulare, mentre l’essere umano è eucariotico pluricellulare. Unicellulare non equivale a procariotico; pluricellulare non equivale ad animale. Nei pluricellulari le cellule possono specializzarsi e cooperare: cellule e matrice formano tessuti, più tessuti formano organi, organi coordinati formano apparati o sistemi. Un muscolo è un organo che contiene anche connettivo, vasi e nervi, non soltanto fibre contrattili.",
+            "Cellule vegetali e animali condividono nucleo, ribosomi, mitocondri, reticolo e Golgi. Parete ricca di cellulosa, grande vacuolo e plastidi caratterizzano il modello vegetale. Non tutte le cellule di una pianta fotosintetizzano: una cellula della radice può essere priva di cloroplasti. I mitocondri non sono esclusivi degli animali."
+          ],
+          "example": "Un campione di lievito contiene cellule singole con nucleo: la conclusione è “eucariote unicellulare”, non “batterio”.",
+          "takeaway": "Numero di cellule e presenza del nucleo sono criteri indipendenti.",
+          "table": {
+            "headers": [
+              "Modello",
+              "Nucleo delimitato",
+              "Indizio utile"
+            ],
+            "rows": [
+              [
+                "Batterio",
+                "No",
+                "Nucleoide; spesso parete con peptidoglicano"
+              ],
+              [
+                "Archeo",
+                "No",
+                "Linea distinta; niente peptidoglicano batterico"
+              ],
+              [
+                "Lievito",
+                "Sì",
+                "Fungo unicellulare"
+              ],
+              [
+                "Cellula vegetale",
+                "Sì",
+                "Parete e vacuolo; cloroplasti nelle cellule adatte"
+              ],
+              [
+                "Cellula animale",
+                "Sì, salvo specializzazioni",
+                "Assenza di parete cellulosa"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "batteri",
+          "title": "Parete, forma e crescita batterica",
+          "text": [
+            "Un batterio possiede membrana plasmatica, citosol, ribosomi e DNA nel nucleoide. Il citosol è la componente acquosa; il citoplasma comprende anche strutture sospese. Capsula, flagelli, pili e plasmidi sono possibili, non obbligatori. Cocchi, bacilli e spirilli descrivono forme; diplococchi indica coppie e streptococchi catene. Forma e disposizione non bastano a stabilire specie, pericolosità o metabolismo.",
+            "La parete di molti batteri contiene peptidoglicano. Nel modello Gram positivo lo strato è spesso; nel Gram negativo è più sottile ed è presente una membrana esterna. La colorazione di Gram riflette questa organizzazione, non una graduatoria di gravità. Un batterio senza parete non diventa automaticamente Gram negativo nel senso strutturale. Gli archei non hanno il peptidoglicano tipico dei batteri. Colpire la sintesi di questa parete è un meccanismo diverso dal colpire una particella virale.",
+            "La scissione binaria raddoppia il numero di cellule a ogni generazione nel modello ideale: N = N₀ × 2ⁿ, con n = tempo/tempo di duplicazione. Il tempo di 20 minuti è un esempio in condizioni favorevoli, non una proprietà universale. Nutrienti limitati, prodotti di scarto, latenza e morte rendono la crescita reale diversa da un’esponenziale indefinita."
+          ],
+          "example": "Da una cellula, 60 minuti con duplicazione ogni 20 minuti danno tre generazioni e 2³ = 8 cellule. In 11 ore sarebbero 33 generazioni: 2³³ = 8.589.934.592 nel modello ideale, non una previsione per ogni coltura.",
+          "takeaway": "Conta le generazioni, poi applica il raddoppio; dichiara le ipotesi.",
+          "formula": "N = N₀ × 2^(t/g)"
+        },
+        {
+          "id": "confini",
+          "title": "Cellula, virione e dipendenza dall’ospite",
+          "text": [
+            "Un virione è una particella virale completa fuori dalla cellula; comprende un genoma e un capside, talvolta un involucro lipidico. Il genoma può essere DNA o RNA, con strategie diverse. Non contiene un sistema autonomo di ribosomi e metabolismo paragonabile a quello di una cellula. I virus non costituiscono un quarto dominio cellulare nel modello appena studiato. La discussione su che cosa chiamare “vivente” non cambia questi meccanismi.",
+            "Adesione, ingresso, liberazione del genoma, sintesi, assemblaggio e uscita sono una traccia generale. Nei virus con envelope le proteine superficiali possono riconoscere recettori e favorire fusione o endocitosi; i batteriofagi possono trasferire il genoma attraverso l’involucro batterico. Il tropismo dipende dall’accesso e dalla compatibilità dei processi intracellulari, non soltanto dalle dimensioni del virus. L’influenza è un esempio di virus a RNA con envelope e uscita per gemmazione; non va usata come stampo identico per ogni virus.",
+            "Un retrovirus usa trascrittasi inversa per produrre DNA da RNA. Questo passaggio non implica che ogni virus a RNA sia un retrovirus: molti copiano RNA da RNA. I nomi di malattie nelle tabelle sono esempi biologici, non criteri per diagnosticare un’infezione partendo da una figura."
+          ],
+          "example": "Una particella con RNA e envelope non basta per concludere “retrovirus”: occorre conoscere il ciclo e il passaggio RNA → DNA.",
+          "takeaway": "Identifica struttura, genoma e strategia replicativa separatamente.",
+          "flow": [
+            "Riconoscimento della cellula compatibile",
+            "Ingresso e liberazione del genoma",
+            "Sintesi usando l’ospite",
+            "Assemblaggio",
+            "Uscita con modalità dipendente dal virus"
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cellula"
+      ],
+      "sources": [
+        "os-mat26-procarioti",
+        "bio-cell-compartments",
+        "bio-viral-genomes"
+      ],
+      "openstax": [
+        "os-mat26-procarioti",
+        "bio-cell-compartments",
+        "bio-viral-genomes"
+      ],
+      "oral": {
+        "prompt": "Descrivi un lievito, un batterio e un virione senza usare soltanto la dimensione. Poi calcola quattro raddoppi da due batteri.",
+        "answer": "Il lievito è una cellula eucariotica unicellulare; il batterio è procariotico; il virione dipende dall’ospite per sintetizzare nuovi componenti. Quattro raddoppi ideali da due batteri danno 2 × 2⁴ = 32. Scala e forma sono indizi, non identificazioni sufficienti.",
+        "criteria": [
+          "Organizzazione e numero di cellule distinti",
+          "Ribosomi e metabolismo",
+          "Ipotesi e calcolo del raddoppio"
+        ]
+      }
+    },
+    {
+      "id": "molecole-confronto",
+      "subject": "biochimica",
+      "title": "Biomolecole: riconoscere legami, riserve e membrane",
+      "description": "Carboidrati, lipidi e proteine spiegati attraverso struttura e funzione.",
+      "minutes": 28,
+      "bookIds": [],
+      "objectives": [
+        "Dalle unità alla macromolecola",
+        "Stesso glucosio, catene con proprietà diverse",
+        "Geometria degli acidi grassi e organizzazione dei lipidi",
+        "Cariche, forma e regolazione delle proteine"
+      ],
+      "sections": [
+        {
+          "id": "unita",
+          "title": "Dalle unità alla macromolecola",
+          "text": [
+            "Carboidrati, lipidi, proteine e acidi nucleici sono grandi famiglie di biomolecole, non materiali intercambiabili. Nei polisaccaridi le unità sono monosaccaridi; nelle proteine amminoacidi; negli acidi nucleici nucleotidi. I lipidi sono una famiglia eterogenea definita soprattutto dalle proprietà chimiche: un triacilglicerolo non è una lunga catena di monomeri ripetuti e uno steroide non è un polimero di acidi grassi.",
+            "Nel bilancio semplificato una condensazione unisce gruppi eliminando acqua, mentre un’idrolisi rompe un legame utilizzando acqua. Nella cellula le sintesi impiegano intermedi attivati ed enzimi: la scrittura “unità + unità − acqua” descrive un bilancio, non una reazione che procede spontaneamente versando monomeri in acqua. Per leggere una struttura individua prima le unità, poi il gruppo che le collega, infine la funzione possibile.",
+            "Acqua e ioni non sono macromolecole organiche, ma sono essenziali all’ambiente in cui queste funzionano. Le percentuali di acqua o proteine riportate in una cellula modello dipendono dal campione e dal denominatore: massa umida e massa secca non sono equivalenti. Una tabella compositiva non autorizza a estendere la stessa percentuale a ogni tessuto."
+          ],
+          "example": "Un peptide lineare formato da quattro amminoacidi contiene tre legami peptidici. Nel bilancio di condensazione sono eliminate tre molecole d’acqua, non quattro.",
+          "takeaway": "Conta le connessioni e riconosci il legame.",
+          "table": {
+            "headers": [
+              "Famiglia",
+              "Componenti",
+              "Legame o proprietà"
+            ],
+            "rows": [
+              [
+                "Polisaccaride",
+                "Monosaccaridi",
+                "Glicosidico"
+              ],
+              [
+                "Proteina",
+                "Amminoacidi",
+                "Peptidico"
+              ],
+              [
+                "DNA/RNA",
+                "Nucleotidi",
+                "Fosfodiestere"
+              ],
+              [
+                "Triacilglicerolo",
+                "Glicerolo e tre acidi grassi",
+                "Tre esteri"
+              ],
+              [
+                "Colesterolo",
+                "Quattro anelli",
+                "Steroide, non polimero"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "glucidi",
+          "title": "Stesso glucosio, catene con proprietà diverse",
+          "text": [
+            "Un monosaccaride si classifica per numero di carboni e tipo di carbonile nella forma aperta: glucosio è un aldoesoso, fruttosio un chetoesoso, ribosio un pentoso. La formula (CH₂O)ₙ è una guida per molti zuccheri, non una legge senza eccezioni: il deossiribosio contiene un ossigeno in meno del ribosio. Nei glucoconiugati catene zuccherine si legano a proteine o lipidi e partecipano al riconoscimento delle superfici.",
+            "Un legame O-glicosidico collega uno zucchero tramite ossigeno. Maltosio contiene due glucosi, lattosio galattosio e glucosio, saccarosio glucosio e fruttosio. Posizione e configurazione del legame influenzano gli enzimi capaci di scinderlo. Un omopolisaccaride ripete lo stesso monomero; un eteropolisaccaride ne contiene tipi diversi.",
+            "L’amido comprende amilosio, prevalentemente lineare con legami α(1→4), e amilopectina, con ramificazioni α(1→6). Il glicogeno ha gli stessi tipi principali di legame ma è più ramificato. La cellulosa forma catene β(1→4): gli enzimi digestivi umani non possiedono cellulasi per scinderle. Accumulare glucosio in polimeri riduce il numero di particelle osmoticamente attive rispetto alla stessa quantità di glucosio libero, pur richiedendo enzimi per la mobilizzazione."
+          ],
+          "example": "Amido e cellulosa contengono glucosio, ma cambiano legami e forma: “stesso monomero” non implica “stessa digeribilità”.",
+          "takeaway": "Controlla monomero, configurazione e ramificazione.",
+          "table": {
+            "headers": [
+              "Polimero",
+              "Catena",
+              "Ruolo"
+            ],
+            "rows": [
+              [
+                "Amilosio",
+                "α(1→4), prevalentemente lineare",
+                "Componente dell’amido"
+              ],
+              [
+                "Amilopectina",
+                "α(1→4), rami α(1→6)",
+                "Amido ramificato"
+              ],
+              [
+                "Glicogeno",
+                "α(1→4), rami α(1→6) frequenti",
+                "Riserva"
+              ],
+              [
+                "Cellulosa",
+                "β(1→4), lineare",
+                "Parete vegetale"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "lipidi",
+          "title": "Geometria degli acidi grassi e organizzazione dei lipidi",
+          "text": [
+            "Un acido grasso presenta una catena idrocarburica e un gruppo carbossilico, in gran parte ionizzato alle condizioni fisiologiche. Saturo significa senza doppi legami carbonio-carbonio; monoinsaturo ne indica uno, polinsaturo più di uno. Un doppio legame cis devia la catena; quello trans consente una disposizione più estesa. A parità delle altre condizioni i doppi legami cis ostacolano l’impacchettamento. Lo stato solido o liquido dipende anche da lunghezza, miscela e temperatura: non vale una regola assoluta “animale = saturo, vegetale = insaturo”.",
+            "In 18:2 il primo numero indica carboni, il secondo doppi legami. La famiglia ω o n si assegna dal terminale metilico; il numero indica il primo doppio legame incontrato da quel lato. Acido linoleico 18:2 n-6 e α-linolenico 18:3 n-3 sono essenziali per l’essere umano: devono essere forniti dalla dieta perché non sintetizziamo quei precursori. Non ogni polinsaturo si definisce essenziale allo stesso modo.",
+            "Un triacilglicerolo esterifica tre acidi grassi al glicerolo ed è adatto alla riserva. Un glicerofosfolipide presenta due catene e una testa contenente fosfato: la testa interagisce con l’acqua, le code con l’interno del doppio strato. Esistono anche fosfolipidi con scheletri diversi dal glicerolo. L’anfipatia spiega l’organizzazione delle membrane meglio della sola parola “grasso”."
+          ],
+          "example": "Tre catene esterificate al glicerolo indicano una riserva; due catene e una testa fosforilata suggeriscono un componente di membrana.",
+          "takeaway": "Leggi geometria, numerazione e gruppo polare prima della funzione."
+        },
+        {
+          "id": "proteine",
+          "title": "Cariche, forma e regolazione delle proteine",
+          "text": [
+            "La forma prevalente di un amminoacido libero dipende dal pH. Vicino alla neutralità molti presentano amminico protonato e carbossilico deprotonato: uno zwitterione porta cariche opposte nella stessa molecola. “Carica netta zero” non significa “nessuna carica”. La catena laterale può aggiungere altri gruppi ionizzabili. La glicina non ha un carbonio α chirale perché lega due idrogeni; nella prolina l’azoto fa parte di un anello. La serie L prevale negli amminoacidi incorporati nelle proteine umane.",
+            "La struttura secondaria deriva soprattutto da legami a idrogeno dello scheletro peptidico; i foglietti β possono accostare tratti paralleli o antiparalleli rispetto alla direzione N→C. La terziaria riguarda una catena; la quaternaria più subunità, uguali negli omomultimeri e diverse negli eteromultimeri. L’emoglobina A adulta è α₂β₂ e contiene quattro gruppi eme con ferro capace di legare ossigeno. Le interazioni fra subunità consentono cooperatività.",
+            "Le proteine cambiano conformazione mentre legano altre molecole. Un enzima abbassa l’energia di attivazione senza cambiare il ΔG complessivo e l’equilibrio. Nell’adattamento indotto il substrato modifica l’organizzazione del sito. Un effettore allosterico agisce attraverso un sito distinto e una variazione conformazionale; anche modifiche covalenti come la fosforilazione regolano l’attività. La fosforilazione può attivare o inibire secondo la proteina: non ha un effetto universale."
+          ],
+          "example": "Abbassare la barriera senza cambiare i livelli energetici di reagenti e prodotti permette di raggiungere più rapidamente lo stesso equilibrio.",
+          "takeaway": "Distingui carica locale, subunità e velocità della reazione."
+        }
+      ],
+      "prerequisites": [
+        "chimica-organica",
+        "stereochimica-glucidi"
+      ],
+      "sources": [
+        "os-bio-carbs",
+        "os-bio-lipids",
+        "os-bio-proteins"
+      ],
+      "openstax": [
+        "os-bio-carbs",
+        "os-bio-lipids",
+        "os-bio-proteins"
+      ],
+      "oral": {
+        "prompt": "Confronta glicogeno, glicerofosfolipide ed emoglobina per componenti, legami e funzione.",
+        "answer": "Il glicogeno è un polimero ramificato di glucosio con legami α(1→4) e α(1→6). Il glicerofosfolipide associa glicerolo, due catene e testa fosforilata e forma membrane grazie all’anfipatia. L’emoglobina A comprende quattro catene α₂β₂, ciascuna con eme, e mostra cooperatività.",
+        "criteria": [
+          "Tre strutture distinte",
+          "Legami corretti",
+          "Funzione spiegata mediante struttura"
+        ]
+      }
+    },
+    {
+      "id": "nucleici-lettura",
+      "subject": "biologia",
+      "title": "DNA e RNA: leggere struttura, direzione e messaggi",
+      "description": "Nucleotidi, cromatina e trascrizione con sequenze risolte passo per passo.",
+      "minutes": 28,
+      "bookIds": [],
+      "objectives": [
+        "Base, zucchero e fosfato: tre pezzi diversi",
+        "Complementare non significa scritto nello stesso verso",
+        "Organizzare il DNA senza nascondere le eccezioni",
+        "Messaggi, adattatori e macchina di traduzione"
+      ],
+      "sections": [
+        {
+          "id": "nucleotidi",
+          "title": "Base, zucchero e fosfato: tre pezzi diversi",
+          "text": [
+            "Una base azotata legata a un pentoso forma un nucleoside; aggiungendo uno o più fosfati si ottiene un nucleotide. Adenina è una base, adenosina il nucleoside con ribosio, AMP un nucleotide. ADP e ATP contengono due e tre fosfati. La denominazione deossi indica lo zucchero del DNA, con H al carbonio 2′ al posto dell’OH del ribosio. I numeri con apice indicano i carboni dello zucchero.",
+            "Adenina e guanina sono purine a due anelli. Citosina, timina e uracile sono pirimidine a un anello. Nel DNA cellulare canonico le basi sono A, G, C e T; nell’RNA A, G, C e U. L’uracile non diventa una purina perché si trova nell’RNA. Il legame base-zucchero è N-glicosidico; quello fra nucleotidi adiacenti nella catena è fosfodiestere.",
+            "L’ATP libero partecipa a trasferimenti energetici, mentre un residuo nucleotidico incorporato nell’RNA fa parte di una catena. I nucleotidi non sono soltanto “lettere del DNA”: possono essere precursori, trasportatori di energia o componenti di segnali. Per riconoscerli conta separatamente anelli della base, zucchero e fosfati."
+          ],
+          "example": "Eliminando il fosfato dall’AMP rimane adenosina; separando anche lo zucchero rimane adenina. I tre nomi non sono sinonimi.",
+          "takeaway": "Purine: A e G. Nucleoside: base + zucchero. Nucleotide: anche fosfato.",
+          "table": {
+            "headers": [
+              "Componente",
+              "DNA",
+              "RNA"
+            ],
+            "rows": [
+              [
+                "Zucchero",
+                "Deossiribosio: 2′-H",
+                "Ribosio: 2′-OH"
+              ],
+              [
+                "Purine",
+                "A e G",
+                "A e G"
+              ],
+              [
+                "Pirimidine principali",
+                "C e T",
+                "C e U"
+              ],
+              [
+                "Legame della catena",
+                "Fosfodiestere",
+                "Fosfodiestere"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "direzioni",
+          "title": "Complementare non significa scritto nello stesso verso",
+          "text": [
+            "Ogni filamento ha una direzione 5′→3′, determinata dallo scheletro zucchero-fosfato. Il legame fosfodiestere unisce il 3′ di uno zucchero al 5′ del successivo. Nella doppia elica canonica i filamenti sono antiparalleli: accanto al 5′ di uno si trova il 3′ dell’altro. Le basi appaiate sono A–T e G–C; i legami a idrogeno tra basi non sono i legami covalenti che tengono unito ciascun filamento.",
+            "Per il complementare di 5′-ATGC-3′ scrivi prima sotto le coppie: 3′-TACG-5′. Se vuoi il secondo filamento in direzione 5′→3′ devi invertirne l’ordine: 5′-GCAT-3′. Sostituire le lettere senza controllare le estremità è un errore frequente. Nella trascrizione l’RNA è complementare e antiparallelo allo stampo; corrisponde al codificante salvo U al posto di T.",
+            "Il calore può separare i filamenti alterando le interazioni fra basi senza idrolizzare lo scheletro fosfodiestere. La temperatura di fusione dipende da composizione, lunghezza e condizioni ioniche. “Denaturato” non significa DNA ridotto a nucleotidi isolati."
+          ],
+          "example": "Stampo 3′-TACGGA-5′ → RNA 5′-AUGCCU-3′. Il codificante è 5′-ATGCCT-3′. La polimerasi sintetizza l’RNA 5′→3′.",
+          "takeaway": "Prima orienta le estremità, poi applica gli appaiamenti.",
+          "flow": [
+            "Scrivi le estremità del filamento dato",
+            "Abbina le basi",
+            "Mantieni l’antiparallelismo",
+            "Riscrivi il risultato nel verso richiesto"
+          ]
+        },
+        {
+          "id": "cromatina",
+          "title": "Organizzare il DNA senza nascondere le eccezioni",
+          "text": [
+            "Negli eucarioti il DNA nucleare è associato a proteine nella cromatina. Un nucleosoma avvolge DNA attorno a un ottamero di istoni: due copie di H2A, H2B, H3 e H4. H1 è associato al DNA di collegamento e all’organizzazione della cromatina, ma non è una nona subunità dell’ottamero. La compattazione contiene il DNA e ne modula l’accessibilità agli apparati di trascrizione.",
+            "Il disegno “collana → fibra → cromosoma” rappresenta livelli organizzativi. Non significa che ogni cromosoma sia sempre un solenoide regolare identico. Il cromosoma molto condensato della mitosi è uno stato del ciclo; durante l’interfase la cromatina rimane organizzata e funzionale senza apparire sempre come una X. I due cromatidi della X derivano dalla replicazione; non sono i due filamenti della doppia elica.",
+            "Molti batteri hanno un cromosoma circolare nel nucleoide e possono possedere plasmidi; non è una regola universale di numero o forma. Il loro DNA interagisce con proteine: “senza nucleo” non significa “DNA nudo”. Mitocondri e cloroplasti contengono propri genomi oltre al DNA nucleare. Il genoma organellare non rende l’organello autonomo dalla cellula."
+          ],
+          "example": "Ogni cromatidio contiene una molecola di DNA a doppio filamento: due cromatidi non equivalgono a due singoli filamenti.",
+          "takeaway": "Doppia elica, nucleosoma, cromatidio e cromosoma sono livelli diversi."
+        },
+        {
+          "id": "rna",
+          "title": "Messaggi, adattatori e macchina di traduzione",
+          "text": [
+            "L’RNA è spesso a singolo filamento ma può ripiegarsi formando tratti appaiati intramolecolari: questi ripiegamenti sono comuni e funzionali. L’mRNA porta una sequenza traducibile; il tRNA collega riconoscimento del codone e amminoacido; l’rRNA contribuisce a struttura e catalisi del ribosoma. Altri RNA regolano espressione e maturazione. Nei virus a RNA il genoma può essere RNA: non ogni RNA è un messaggero transitorio.",
+            "Un tipico mRNA eucariotico maturo possiede cappuccio 5′, regioni non tradotte, sequenza codificante e coda poli(A) 3′. Il cappuccio deriva da guanosina modificata; la coda non è una serie di amminoacidi. Molti mRNA batterici sono policistronici: un trascritto può portare più sequenze codificanti con propri segnali di traduzione. Il modello eucariotico usuale è monocistronico, con eccezioni. “Un RNA = un gene = una proteina” è una scorciatoia troppo rigida.",
+            "La forma a trifoglio del tRNA è uno schema bidimensionale; la conformazione tridimensionale è approssimativamente a L. L’anticodone riconosce il codone, mentre l’amminoacido si lega all’estremità 3′. I ribosomi citosolici batterici sono 70S e quelli eucariotici 80S: S è un coefficiente di sedimentazione influenzato da massa e forma, quindi 30S + 50S non si sommano aritmeticamente a 80S."
+          ],
+          "example": "Un mRNA batterico con tre regioni codificanti può generare tre polipeptidi distinti; non deve essere tradotto in una sola proteina obbligatoria.",
+          "takeaway": "Distingui messaggio, adattatore e ribosoma.",
+          "table": {
+            "headers": [
+              "RNA",
+              "Compito",
+              "Distinzione"
+            ],
+            "rows": [
+              [
+                "mRNA",
+                "Sequenza per traduzione",
+                "Coda poli(A) non proteica"
+              ],
+              [
+                "tRNA",
+                "Adattatore codone–amminoacido",
+                "Anticodone e sito per amminoacido distinti"
+              ],
+              [
+                "rRNA",
+                "Struttura e catalisi",
+                "Ribosoma non fatto solo di proteine"
+              ]
+            ]
+          }
+        }
+      ],
+      "prerequisites": [
+        "dna",
+        "espressione"
+      ],
+      "sources": [
+        "os-mat26-nucleici",
+        "bio-dna-packaging"
+      ],
+      "openstax": [
+        "os-mat26-nucleici",
+        "bio-dna-packaging"
+      ],
+      "oral": {
+        "prompt": "Da stampo 3′-TACGGA-5′ ricava RNA e codificante. Spiega dove intervengono tRNA e rRNA.",
+        "answer": "RNA 5′-AUGCCU-3′; codificante 5′-ATGCCT-3′. I tRNA accoppiano anticodoni e codoni portando amminoacidi; gli rRNA organizzano il ribosoma e partecipano alla catalisi. RNA e codificante hanno lo stesso ordine salvo U/T; lo stampo è complementare e antiparallelo.",
+        "criteria": [
+          "Estremità orientate",
+          "Complementarità e U/T",
+          "Ruoli dei tre RNA distinti"
+        ]
+      }
+    },
+    {
+      "id": "anatomia-cute",
+      "subject": "anatomia",
+      "title": "Cute e annessi: una barriera viva",
+      "description": "Epidermide, derma, pigmenti, peli e ghiandole collegati a funzione e riconoscimento.",
+      "minutes": 28,
+      "bookIds": [],
+      "objectives": [
+        "Dalla superficie al sottocute",
+        "Cheratinociti e strati epidermici",
+        "Peli, unghie e ghiandole: seguire il prodotto",
+        "Pigmentazione, scambi termici e barriera"
+      ],
+      "sections": [
+        {
+          "id": "strati",
+          "title": "Dalla superficie al sottocute",
+          "text": [
+            "La cute è un organo formato da epidermide e derma; l’ipoderma o sottocute è strettamente associato ma distinto dalla cute propriamente detta. L’epidermide è epitelio pavimentoso stratificato cheratinizzato senza propri vasi sanguigni. Il nutrimento raggiunge le cellule per diffusione dal connettivo sottostante. Il derma contiene vasi, nervi, fibre e annessi. La profondità di una struttura conta più del nome generico “pelle”.",
+            "La porzione papillare superficiale del derma è prevalentemente connettivo lasso, con papille interdigitate con l’epidermide. La parte reticolare più profonda è connettivo denso irregolare, ricco di fasci collagene e fibre elastiche. L’ipoderma contiene connettivo lasso e adiposo variabile: contribuisce a mobilità, isolamento e riserva energetica. I confini possono non essere netti come nelle tavole.",
+            "La membrana basale collega epitelio e connettivo; non è una fila di capillari dentro l’epidermide. La resistenza deriva da giunzioni dei cheratinociti, cheratina, matrice dermica e connessioni profonde. Un capillare nella papilla dermica rimane nel connettivo anche se molto vicino alla superficie."
+          ],
+          "example": "Vasi fra fasci di collagene indicano derma, non epidermide. La vicinanza a un epitelio non sposta quei vasi al suo interno.",
+          "takeaway": "Epidermide avascolare; derma vascolarizzato; sottocute distinto.",
+          "diagram": "cute-strati"
+        },
+        {
+          "id": "epidermide",
+          "title": "Cheratinociti e strati epidermici",
+          "text": [
+            "Dalla profondità trovi basale, spinoso, granuloso e corneo; nella cute spessa si aggiunge il lucido fra granuloso e corneo. La cute spessa è tipica di palmi e piante: l’aggettivo riguarda organizzazione e spessore epidermico, non la quantità di grasso sottostante. È priva di peli e sebacee, ma ricca di sudoripare eccrine.",
+            "Le cellule basali proliferanti rinnovano i cheratinociti. Risalendo, questi maturano, organizzano filamenti di cheratina e contribuiscono alla barriera lipidica extracellulare. Nello spinoso i desmosomi diventano evidenti nella preparazione istologica; nel granuloso compaiono granuli legati alla cornificazione. I corneociti superficiali sono privi di nucleo e contribuiscono alla barriera, poi vengono eliminati per desquamazione. Il rinnovo è continuo, con tempi variabili per sede e condizioni.",
+            "L’epidermide contiene anche melanociti, cellule di Merkel e cellule dendritiche di Langerhans. Le Merkel partecipano alla sensibilità tattile; le Langerhans al riconoscimento e alla presentazione di antigeni. I cheratinociti predominano, ma la funzione della barriera non dipende da un solo tipo cellulare."
+          ],
+          "example": "Strato lucido evidente, corneo spesso e nessun follicolo sono coerenti con cute spessa palmare o plantare. Non basta contare i nuclei per classificare la cute.",
+          "takeaway": "Il lucido si aggiunge fra granuloso e corneo nella cute spessa.",
+          "flow": [
+            "Basale: rinnovamento",
+            "Spinoso: collegamenti e maturazione",
+            "Granuloso: cornificazione e barriera lipidica",
+            "Lucido: cute spessa",
+            "Corneo: corneociti e desquamazione"
+          ]
+        },
+        {
+          "id": "annessi",
+          "title": "Peli, unghie e ghiandole: seguire il prodotto",
+          "text": [
+            "Il follicolo pilifero è un’invaginazione epiteliale nel connettivo. Nel bulbo la matrice proliferante produce cellule che si cheratinizzano formando il pelo. La papilla contiene connettivo e vasi; il fusto visibile è formato soprattutto da cellule cornificate, non da tessuto che si divide in punta. La radice è inserita nel follicolo. Il muscolo erettore del pelo è liscio e collegato al controllo autonomo.",
+            "La crescita alterna anagen, fase attiva, catagen, regressione, e telogen, riposo; le durate dipendono dalla sede. Il pelo può presentare midollo, corteccia e cuticola, ma non tutti hanno un midollo evidente. L’unghia è una lamina di cheratina prodotta soprattutto dalla matrice ungueale prossimale e scorre sul letto; tagliare il margine libero non elimina la matrice.",
+            "Le sebacee riversano sebo spesso nel follicolo mediante secrezione olocrina. Le sudoripare eccrine sono tubulari avvolte, con dotto alla superficie, e contribuiscono alla termoregolazione. Le sudoripare chiamate apocrine hanno distribuzione più limitata e secrezioni associate ai follicoli: il nome storico non descrive automaticamente ogni dettaglio del meccanismo. La posizione nel derma non rende connettivo l’epitelio ghiandolare."
+          ],
+          "example": "Un dotto dalla porzione secernente alla superficie identifica una destinazione esocrina anche se il gomitolo si trova in profondità.",
+          "takeaway": "Distingui sede di produzione, percorso e materiale già cornificato.",
+          "table": {
+            "headers": [
+              "Struttura",
+              "Produzione",
+              "Destinazione"
+            ],
+            "rows": [
+              [
+                "Matrice pilifera",
+                "Cellule che si cheratinizzano",
+                "Pelo"
+              ],
+              [
+                "Matrice ungueale",
+                "Lamina cheratinizzata",
+                "Protezione distale"
+              ],
+              [
+                "Sebacea",
+                "Sebo; olocrina",
+                "Spesso follicolo"
+              ],
+              [
+                "Eccrina",
+                "Sudore acquoso",
+                "Superficie ed evaporazione"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "funzioni",
+          "title": "Pigmentazione, scambi termici e barriera",
+          "text": [
+            "I melanociti sintetizzano melanina dalla tirosina e la distribuiscono ai cheratinociti tramite melanosomi. La pigmentazione dipende da produzione, tipo e distribuzione del pigmento, non semplicemente dal numero di melanociti. Carotenoidi, spessore degli strati e sangue dermico contribuiscono al colore osservato. Una variazione di colore non identifica da sola una causa clinica.",
+            "Nell’attività fisica l’aumento della perfusione cutanea può favorire lo scambio termico, mentre l’evaporazione del sudore sottrae energia alla superficie. Sudore prodotto ed evaporato non sono la stessa quantità: l’umidità elevata può limitare l’evaporazione. Il sangue rimane nei vasi dermici e sottocutanei, mentre il sudore percorre dotti verso la superficie. Scambi termici e barriera usano quindi meccanismi distinti.",
+            "La barriera riduce perdita d’acqua e ingresso di agenti esterni, ma non è assolutamente impermeabile. La cute contribuisce anche alla sintesi del precursore della vitamina D, che richiede successive trasformazioni in altri organi. Resistenza, sensibilità, difesa e termoregolazione derivano dalla cooperazione di epitelio, connettivo, vasi, nervi e ghiandole."
+          ],
+          "example": "Due condizioni producono lo stesso sudore, ma in una ne evapora meno: non puoi concludere che la perdita di calore evaporativa sia uguale.",
+          "takeaway": "Collega ogni funzione alla struttura e al processo."
+        }
+      ],
+      "prerequisites": [
+        "anatomia-epiteli-ghiandole",
+        "anatomia-connettivi-osso"
+      ],
+      "sources": [
+        "os-mat26-cute",
+        "os-mat26-annessi"
+      ],
+      "openstax": [
+        "os-mat26-cute",
+        "os-mat26-annessi"
+      ],
+      "oral": {
+        "prompt": "Descrivi dalla superficie al sottocute una regione con follicoli e sudoripare. Dove passano sangue e sudore?",
+        "answer": "Epidermide epiteliale e avascolare, derma papillare e reticolare vascolarizzati, poi sottocute. I follicoli sono invaginazioni epiteliali; la matrice produce il pelo. Il sangue rimane nei vasi del connettivo, il sudore eccrino percorre dotti alla superficie e può evaporare. I peli non caratterizzano la cute spessa palmare.",
+        "criteria": [
+          "Strati e tessuti",
+          "Avascolarità epidermica",
+          "Percorsi separati",
+          "Cute spessa e sottile"
+        ]
+      }
+    },
+    {
+      "id": "anatomia-segnali-neurali",
+      "subject": "anatomia",
+      "title": "Dal potenziale al circuito nervoso",
+      "description": "Come una membrana genera un segnale e come più neuroni lo integrano.",
+      "minutes": 28,
+      "bookIds": [],
+      "objectives": [
+        "Un segnale dipende da gradienti e canali",
+        "Mielina, refrattarietà e propagazione",
+        "Trasmettere non significa sempre eccitare",
+        "Divergenza, convergenza e controllo dei visceri"
+      ],
+      "sections": [
+        {
+          "id": "potenziale",
+          "title": "Un segnale dipende da gradienti e canali",
+          "text": [
+            "Il potenziale di membrana è una differenza di tensione fra interno ed esterno. Nel neurone a riposo l’interno è generalmente negativo; −70 mV è un valore didattico, non una costante di tutte le cellule. Gradienti ionici e permeabilità selettiva, soprattutto al potassio a riposo, contribuiscono alla differenza. La pompa Na⁺/K⁺ usa ATP e mantiene i gradienti, trasportando tre Na⁺ fuori e due K⁺ dentro per ciclo.",
+            "Un potenziale d’azione si avvia quando la depolarizzazione raggiunge condizioni di soglia nel tratto eccitabile. Nel modello assonale tipico si aprono rapidamente canali del sodio voltaggio-dipendenti: Na⁺ entra e la membrana si depolarizza. L’inattivazione di questi canali e l’aumento della conduttanza al potassio contribuiscono alla ripolarizzazione. La pompa non è il meccanismo rapido che “risucchia” tutti gli ioni a ogni picco.",
+            "Il potenziale graduato varia con lo stimolo e può attenuarsi; quello d’azione è rigenerativo. Uno stimolo più intenso può aumentare frequenza degli impulsi e reclutamento di fibre, non necessariamente altezza di ciascun picco. “Tutto o nulla” riguarda l’evento elettrico, non obbliga un muscolo intero a produrre sempre la stessa forza."
+          ],
+          "example": "Da −70 a −55 mV è una depolarizzazione di 15 mV: l’interno diventa meno negativo, non necessariamente positivo.",
+          "takeaway": "Pompa: mantiene gradienti. Canali: cambiano rapidamente la permeabilità."
+        },
+        {
+          "id": "conduzione",
+          "title": "Mielina, refrattarietà e propagazione",
+          "text": [
+            "La corrente locale in una regione depolarizzata influenza la membrana vicina e può aprire altri canali: il segnale si rigenera lungo l’assone. Non è una singola porzione di sodio che percorre tutto il nervo. Nell’assone mielinizzato la guaina isola gli internodi e i nodi di Ranvier concentrano apparati eccitabili: conduzione saltatoria indica rigenerazione preferenziale ai nodi, non un impulso che esce dall’assone.",
+            "Gli oligodendrociti formano mielina nel SNC e una cellula può avvolgere più segmenti; una cellula di Schwann mielinizzante forma un internodo di un assone nel SNP. Anche assoni periferici non mielinizzati possono essere associati a cellule di Schwann: “non mielinizzato” non significa privo di assistenza gliale.",
+            "Nel periodo refrattario assoluto molti canali del sodio sono inattivati e non immediatamente riattivabili. Nel relativo può servire uno stimolo maggiore. Questo limita frequenza e contribuisce alla direzionalità fisiologica. Dopo una lesione alcuni assoni periferici possono ricrescere se soma e condizioni locali sono favorevoli; il SNC ha limiti diversi. Non basta “neurone lesionato” per prevedere sempre recupero o sempre impossibilità."
+          ],
+          "example": "Un danno alla mielina può rallentare o bloccare la conduzione anche senza interrompere completamente l’assone.",
+          "takeaway": "Il segnale si rigenera nella membrana; la mielina cambia dove e con quale efficienza."
+        },
+        {
+          "id": "sinapsi",
+          "title": "Trasmettere non significa sempre eccitare",
+          "text": [
+            "In una sinapsi chimica il potenziale d’azione al terminale favorisce l’apertura dei canali del calcio. L’ingresso di Ca²⁺ innesca esocitosi; il neurotrasmettitore attraversa la fessura e lega recettori postsinaptici, che aprono canali o agiscono mediante vie intracellulari. L’effetto dipende da recettore, ioni e contesto: il nome del mediatore non basta sempre a stabilire eccitazione o inibizione.",
+            "Un potenziale postsinaptico eccitatorio rende più probabile la soglia; uno inibitorio la rende meno probabile, anche modificando la conduttanza senza grandi iperpolarizzazioni. Singoli segnali possono non bastare. La sommazione temporale combina eventi ravvicinati della stessa sorgente; quella spaziale contributi di sedi diverse. Il segmento iniziale dell’assone integra il risultato in condizioni favorevoli all’innesco.",
+            "Il segnale termina per ricaptazione, degradazione o diffusione secondo il mediatore. Nelle sinapsi elettriche le giunzioni comunicanti permettono passaggio di corrente e possono sincronizzare cellule. La sinapsi chimica ha organizzazione presinaptica e postsinaptica; l’elettrica non richiede ogni volta rilascio vescicolare nella fessura."
+          ],
+          "example": "Due segnali eccitatori vicini nel tempo possono raggiungere insieme la soglia, mentre ciascuno isolato non basta. Si sommano effetti locali, non si fondono neuroni.",
+          "takeaway": "Segui calcio, rilascio, recettore, effetto e spegnimento.",
+          "flow": [
+            "Potenziale al terminale",
+            "Canali del Ca²⁺",
+            "Esocitosi",
+            "Recettori bersaglio",
+            "Risposta graduata e integrazione",
+            "Rimozione del segnale"
+          ]
+        },
+        {
+          "id": "circuiti",
+          "title": "Divergenza, convergenza e controllo dei visceri",
+          "text": [
+            "Un circuito divergente distribuisce l’uscita di un neurone a più bersagli; uno convergente raccoglie contributi di più neuroni su uno stesso bersaglio. Elaborazione seriale indica passaggi successivi; in parallelo più vie trattano aspetti differenti. Un circuito con riverbero contiene connessioni di ritorno che possono prolungare l’attività: non è inesauribile, perché inibizione, fatica sinaptica e stato cellulare ne limitano il funzionamento.",
+            "Nello schema conta origine e destinazione delle frecce, poi verifica il segno eccitatorio o inibitorio. La convergenza non garantisce un impulso: i contributi possono sommarsi, contrastarsi o arrivare in tempi diversi. La divergenza non implica risposte identiche in tutti i bersagli.",
+            "Nei visceri l’autonomo interagisce con circuiti locali. Il sistema enterico comprende plessi mioenterici e sottomucosi. In generale il parasimpatico favorisce l’attività digestiva e il simpatico la riduce, ma l’effetto preciso dipende da struttura e recettore: parete e sfinteri non si descrivono con una sola freccia “contrazione”. I recettori adrenergici α e β sono metabotropi con sottotipi diversi, non interruttori universali eccitatorio e inibitorio."
+          ],
+          "example": "Tre neuroni raggiungono un motoneurone: è convergenza. Due ingressi eccitatori e uno inibitorio richiedono di considerare intensità, tempi e posizione, non soltanto il numero di frecce.",
+          "takeaway": "Leggi geometria, segno e contesto delle connessioni.",
+          "diagram": "circuiti-neurali"
+        }
+      ],
+      "prerequisites": [
+        "nervoso",
+        "anatomia-micro-muscolo"
+      ],
+      "sources": [
+        "os-mat26-potenziale",
+        "os-mat26-sinapsi",
+        "neuro-processing"
+      ],
+      "openstax": [
+        "os-mat26-potenziale",
+        "os-mat26-sinapsi",
+        "neuro-processing"
+      ],
+      "oral": {
+        "prompt": "Collega uno stimolo al rilascio di neurotrasmettitore e alla risposta di un secondo neurone.",
+        "answer": "Lo stimolo produce variazioni graduate; raggiunte condizioni di soglia si avvia un potenziale d’azione rigenerato lungo l’assone. Al terminale il calcio favorisce esocitosi; i recettori bersaglio producono effetti sommabili nello spazio e nel tempo. Non ogni segnale produce un nuovo impulso: contano eccitazione, inibizione e stato della membrana.",
+        "criteria": [
+          "Gradienti e canali",
+          "Propagazione e sinapsi distinte",
+          "Calcio",
+          "Sommazione e soglia"
+        ]
+      }
     }
   ],
   "sources": [
@@ -28387,6 +29122,114 @@
         "book": "Anatomy and Physiology 2e",
         "checked": "2026-10-22"
       }
+    },
+    {
+      "id": "os-mat26-procarioti",
+      "title": "OpenStax · 22.2 · Batteri e archei",
+      "url": "https://openstax.org/books/biology-2e/pages/22-2-structure-of-prokaryotes-bacteria-and-archaea",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "22.2 · Batteri e archei",
+        "book": "Biology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-nucleici",
+      "title": "OpenStax · 3.5 · Acidi nucleici",
+      "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "3.5 · Acidi nucleici",
+        "book": "Biology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-cute",
+      "title": "OpenStax · 5.1 · Strati della cute",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "5.1 · Strati della cute",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-annessi",
+      "title": "OpenStax · 5.2 · Annessi cutanei",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-2-accessory-structures-of-the-skin",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "5.2 · Annessi cutanei",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-potenziale",
+      "title": "OpenStax · 12.4 · Potenziale d’azione",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "12.4 · Potenziale d’azione",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-sinapsi",
+      "title": "OpenStax · 12.5 · Comunicazione fra neuroni",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-5-communication-between-neurons",
+      "scope": "Approfondimento gratuito dei concetti indicati; spiegazioni e casi italiani originali. Consultato per il confronto con i materiali forniti il 26 ottobre 2026.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "12.5 · Comunicazione fra neuroni",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-pineale",
+      "title": "OpenStax · 17.7 · Ghiandola pineale",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-7-the-pineal-gland",
+      "scope": "Approfondimento puntuale della nuova sezione; nessun contenuto caricato automaticamente.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "17.7 · Ghiandola pineale",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-abo",
+      "title": "OpenStax · 18.6 · Gruppi sanguigni",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-6-blood-typing",
+      "scope": "Approfondimento puntuale della nuova sezione; nessun contenuto caricato automaticamente.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "18.6 · Gruppi sanguigni",
+        "book": "Anatomy and Physiology 2e",
+        "checked": "2026-10-26"
+      }
+    },
+    {
+      "id": "os-mat26-prioni",
+      "title": "OpenStax · 6.4 · Prioni: confronto con agenti a RNA",
+      "url": "https://openstax.org/books/microbiology/pages/6-4-viroids-virusoids-and-prions",
+      "scope": "Approfondimento della parte sui prioni; viroidi e virusoidi sono ulteriori confronti, non nuovi argomenti dichiarati del programma.",
+      "checked": "2026-10-26",
+      "reading": {
+        "section": "6.4 · Prioni: confronto con agenti a RNA",
+        "book": "Microbiology",
+        "checked": "2026-10-26"
+      }
     }
   ],
   "curriculum": {
@@ -28428,7 +29271,9 @@
             "cellula-strutture",
             "genetica-microbica",
             "divisioni-ereditarieta",
-            "cellula-comparti-verifica"
+            "cellula-comparti-verifica",
+            "cellule-confronto",
+            "nucleici-lettura"
           ],
           "coverage": "Lezioni, casi e verifiche confrontati con il blocco Biologia applicata 2016/17 e i nuclei biologici 2025/26. La corrispondenza con il programma analitico e le dispense correnti resta da confermare."
         },
@@ -28468,7 +29313,8 @@
             "glucosio-percorsi",
             "ossidazione-controllo",
             "segnale-muscolare",
-            "chimica-materia-soluzioni"
+            "chimica-materia-soluzioni",
+            "molecole-confronto"
           ],
           "coverage": "Confrontato il blocco Biochimica 2016/17 in 69 voci con spiegazioni, esempi e verifiche; programma analitico, dispense e livello richiesto dal docente corrente da confermare. Le vie amminoacidiche sono rappresentative."
         }
@@ -28487,7 +29333,8 @@
           "Per Biologia applicata il dettaglio 2016/17 è usato per traffico proteico, proteoma e tecniche del DNA; anno e docente differiscono dal corso attuale.",
           "Confronto editoriale completo del blocco Biologia applicata del syllabus 2016/17: 44 voci collegate a spiegazioni e verifiche, registrate nell’audit. È un confronto storico, non conferma del livello o delle dispense 2026/27; l’audit di Biochimica resta distinto.",
           "Confrontati anche 12 nuclei e obiettivi biologici della scheda 2025/26; il confronto biochimico resta distinto. La stessa scheda riporta Orale nel campo generale e scritto con quiz e/o domande aperte nella sezione di verifica: la modalità corrente non è accertata.",
-          "Completato il confronto editoriale del blocco Biochimica 2016/17 in 69 voci. Non conferma l’equivalenza con il programma analitico corrente; le domande sono rappresentative e non garantiscono il superamento dell’esame."
+          "Completato il confronto editoriale del blocco Biochimica 2016/17 in 69 voci. Non conferma l’equivalenza con il programma analitico corrente; le domande sono rappresentative e non garantiscono il superamento dell’esame.",
+          "Materiali forniti integrati per nuclei il 26 ottobre 2026; provenienza e mappa registrate separatamente, senza attribuzione automatica al docente UniBa corrente."
         ],
         "topics": [
           {
@@ -28504,10 +29351,13 @@
               "cellula-strutture/citoscheletro",
               "cellula-strutture/cloroplasti",
               "cellula-comparti-verifica/reticolo",
-              "cellula-comparti-verifica/degradazione"
+              "cellula-comparti-verifica/degradazione",
+              "cellule-confronto/scala",
+              "cellule-confronto/domini",
+              "cellule-confronto/batteri"
             ],
             "status": "introduced",
-            "note": "Aggiunti nucleolo, reticolo liscio/sarcoplasmatico, tre famiglie del citoscheletro e cloroplasti con confronto dei gradienti. Si affiancano al traffico e controllo di qualità già presenti. Confronto storico 2016/17.",
+            "note": "Aggiunti nucleolo, reticolo liscio/sarcoplasmatico, tre famiglie del citoscheletro e cloroplasti con confronto dei gradienti. Si affiancano al traffico e controllo di qualità già presenti. Confronto storico 2016/17. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "scienze-biologiche-1",
             "questionIds": [
               "bio-cell-1",
@@ -28542,7 +29392,13 @@
               "pdf-cellula-comparti-verifica-degradazione-0",
               "pdf-cellula-comparti-verifica-degradazione-1",
               "pdf-cellula-comparti-verifica-degradazione-2",
-              "pdf-cellula-comparti-verifica-degradazione-3"
+              "pdf-cellula-comparti-verifica-degradazione-3",
+              "mat26-cellule-confronto-scala-1",
+              "mat26-cellule-confronto-scala-2",
+              "mat26-cellule-confronto-domini-1",
+              "mat26-cellule-confronto-domini-2",
+              "mat26-cellule-confronto-batteri-1",
+              "mat26-cellule-confronto-batteri-2"
             ]
           },
           {
@@ -28578,10 +29434,14 @@
               "genoma-rna-segnali/forme",
               "genoma-rna-segnali/organizzazione",
               "genoma-rna-segnali/piccoli-rna",
-              "genetica-microbica/operoni"
+              "genetica-microbica/operoni",
+              "nucleici-lettura/nucleotidi",
+              "nucleici-lettura/direzioni",
+              "nucleici-lettura/cromatina",
+              "nucleici-lettura/rna"
             ],
             "status": "introduced",
-            "note": "Forme A/B/Z, organizzazione del genoma, UTR, piccoli RNA e controllo procariotico lac/trp introdotti con casi e verifiche. Non ricostruiti in dettaglio tutti i circuiti, inclusa attenuazione. Equivalenza al docente corrente non accertata.",
+            "note": "Forme A/B/Z, organizzazione del genoma, UTR, piccoli RNA e controllo procariotico lac/trp introdotti con casi e verifiche. Non ricostruiti in dettaglio tutti i circuiti, inclusa attenuazione. Equivalenza al docente corrente non accertata. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "scienze-biologiche-3",
             "questionIds": [
               "espressione-replicazione-verifica",
@@ -28619,7 +29479,15 @@
               "bio-applied-genoma-rna-segnali-organizzazione-extra-19",
               "bio-applied-espressione-maturazione-extra-21",
               "bc-full-genoma-rna-segnali-forme-extra-20",
-              "bc-full-genoma-rna-segnali-forme-extra-21"
+              "bc-full-genoma-rna-segnali-forme-extra-21",
+              "mat26-nucleici-lettura-nucleotidi-1",
+              "mat26-nucleici-lettura-nucleotidi-2",
+              "mat26-nucleici-lettura-direzioni-1",
+              "mat26-nucleici-lettura-direzioni-2",
+              "mat26-nucleici-lettura-cromatina-1",
+              "mat26-nucleici-lettura-cromatina-2",
+              "mat26-nucleici-lettura-rna-1",
+              "mat26-nucleici-lettura-rna-2"
             ]
           },
           {
@@ -28817,10 +29685,12 @@
               "vitamine-coenzimi/azoto-carbonio",
               "vitamine-coenzimi/un-carbonio",
               "vitamine-coenzimi/altre",
-              "metabolismo-controllo/isoenzimi"
+              "metabolismo-controllo/isoenzimi",
+              "molecole-confronto/proteine",
+              "proteine-destino/conformazioni"
             ],
             "status": "introduced",
-            "note": "Aggiunti zimogeni, ricambio cellulare, degradazione dell’eme, vitamine e coenzimi con casi. L’integrazione analitica deriva dal syllabus storico 2016/17.",
+            "note": "Aggiunti zimogeni, ricambio cellulare, degradazione dell’eme, vitamine e coenzimi con casi. L’integrazione analitica deriva dal syllabus storico 2016/17. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "scienze-biologiche-7",
             "questionIds": [
               "proteine-livelli-verifica",
@@ -28851,7 +29721,11 @@
               "bc-central-cinetica-enzimi-inibizione-extra-3",
               "bc-central-cinetica-enzimi-inibizione-extra-4",
               "bc-central-cinetica-enzimi-inibizione-extra-5",
-              "num-michaelis"
+              "num-michaelis",
+              "mat26-molecole-confronto-proteine-1",
+              "mat26-molecole-confronto-proteine-2",
+              "mat26-proteine-destino-conformazioni-1",
+              "mat26-proteine-destino-conformazioni-2"
             ]
           },
           {
@@ -28873,10 +29747,12 @@
               "glucosio-percorsi/investimento",
               "glucosio-percorsi/rendimento",
               "glucosio-percorsi/bypass",
-              "glucosio-percorsi/controllo"
+              "glucosio-percorsi/controllo",
+              "molecole-confronto/glucidi",
+              "molecole-confronto/unita"
             ],
             "status": "introduced",
-            "note": "Struttura e metabolismo glucidico, digestione e assorbimento, glicogeno e pentosi con bilanci. Il dettaglio digestivo è confrontato anche con il syllabus storico 2016/17.",
+            "note": "Struttura e metabolismo glucidico, digestione e assorbimento, glicogeno e pentosi con bilanci. Il dettaglio digestivo è confrontato anche con il syllabus storico 2016/17. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "scienze-biologiche-8",
             "questionIds": [
               "bc-ris-1",
@@ -28914,7 +29790,11 @@
               "bc-central-glucosio-percorsi-bypass-2",
               "bc-central-glucosio-percorsi-controllo-0",
               "bc-central-glucosio-percorsi-controllo-1",
-              "bc-central-glucosio-percorsi-controllo-2"
+              "bc-central-glucosio-percorsi-controllo-2",
+              "mat26-molecole-confronto-unita-1",
+              "mat26-molecole-confronto-unita-2",
+              "mat26-molecole-confronto-glucidi-1",
+              "mat26-molecole-confronto-glucidi-2"
             ]
           },
           {
@@ -28997,10 +29877,11 @@
               "amminoacidi-derivati/ramificati",
               "amminoacidi-derivati/ammine",
               "amminoacidi-derivati/eme",
-              "metabolismo-controllo/ciclo-tag"
+              "metabolismo-controllo/ciclo-tag",
+              "molecole-confronto/lipidi"
             ],
             "status": "partial",
-            "note": "Digestione, vitamine e coenzimi ora sviluppati. Presenti vie rappresentative di amminoacidi e ammine biogene; resta il confronto del livello di dettaglio con le dispense attuali. La tabella dei venti amminoacidi non è un catalogo di tutti gli enzimi. Il programma storico non richiede esplicitamente tutte le sequenze individuali.",
+            "note": "Digestione, vitamine e coenzimi ora sviluppati. Presenti vie rappresentative di amminoacidi e ammine biogene; resta il confronto del livello di dettaglio con le dispense attuali. La tabella dei venti amminoacidi non è un catalogo di tutti gli enzimi. Il programma storico non richiede esplicitamente tutte le sequenze individuali. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "scienze-biologiche-10",
             "questionIds": [
               "lipidi-azoto-beta-verifica",
@@ -29054,7 +29935,9 @@
               "bc-full-lipidi-ossidazione-cicli-extra-11",
               "bc-full-lipidi-ossidazione-varianti-extra-12",
               "bc-full-lipidi-sintesi-classi-extra-22",
-              "num-beta-yield-v1"
+              "num-beta-yield-v1",
+              "mat26-molecole-confronto-lipidi-1",
+              "mat26-molecole-confronto-lipidi-2"
             ]
           },
           {
@@ -29183,7 +30066,8 @@
               "virus/struttura",
               "virus/replica",
               "virus/innata",
-              "virus/adattativa"
+              "virus/adattativa",
+              "cellule-confronto/confini"
             ],
             "questionIds": [
               "virus-struttura-verifica",
@@ -29201,10 +30085,12 @@
               "bio-body-microbes-genetica-microbica-fagi-2",
               "bio-body-microbes-genetica-microbica-rna-virali-0",
               "bio-body-microbes-genetica-microbica-rna-virali-1",
-              "bio-body-microbes-genetica-microbica-rna-virali-2"
+              "bio-body-microbes-genetica-microbica-rna-virali-2",
+              "mat26-cellule-confronto-confini-1",
+              "mat26-cellule-confronto-confini-2"
             ],
             "status": "introduced",
-            "note": "Aggiunti trasferimento orizzontale, operoni lac/trp, cicli dei fagi e strategie dei genomi virali. La genetica batterica e virale è richiesta dal programma storico; le basi delle difese erano già presenti."
+            "note": "Aggiunti trasferimento orizzontale, operoni lac/trp, cicli dei fagi e strategie dei genomi virali. La genetica batterica e virale è richiesta dal programma storico; le basi delle difese erano già presenti. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente."
           },
           {
             "id": "scienze-biologiche-16",
@@ -29324,7 +30210,9 @@
             "anat-regioni-superiori",
             "anat-regioni-inferiori",
             "anat-struttura-tempo",
-            "anat-esposizione"
+            "anat-esposizione",
+            "anatomia-cute",
+            "anatomia-segnali-neurali"
           ],
           "coverage": "Lezioni, casi svolti, domande con correzione e attività aperte disponibili. Il confronto con il programma è descritto nella mappa qui sotto."
         }
@@ -29340,7 +30228,8 @@
         "limitations": [
           "La scheda analitica disponibile è del 2024/25 (Roberto Tamma); il catalogo 2026/27 indica Francesco Girolamo e prova orale. Non è pubblicato il dettaglio analitico corrente.",
           "Il percorso sviluppa tutte le voci esplicite del programma pubblico confrontato. Le immagini sono un campione ragionato, non ogni possibile preparato; il riconoscimento di immagini nuove e l’esposizione richiedono esercizio.",
-          "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale."
+          "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale.",
+          "Materiali forniti integrati per nuclei il 26 ottobre 2026; provenienza e mappa registrate separatamente, senza attribuzione automatica al docente UniBa corrente."
         ],
         "topics": [
           {
@@ -29386,10 +30275,14 @@
               "anatomia-epiteli-ghiandole/classificare",
               "anatomia-epiteli-ghiandole/secrezione",
               "anat-struttura-tempo/epiteli",
-              "anat-lab-ghiandole/esocrine"
+              "anat-lab-ghiandole/esocrine",
+              "anatomia-cute/strati",
+              "anatomia-cute/epidermide",
+              "anatomia-cute/annessi",
+              "anatomia-cute/funzioni"
             ],
             "status": "introduced",
-            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "anatomia-umana-2",
             "questionIds": [
               "y1-anatomia-istologia-epiteli",
@@ -29405,7 +30298,15 @@
               "anat-final-anat-lab-ghiandole-esocrine-0",
               "anat-final-anat-lab-ghiandole-esocrine-1",
               "anat-final-anat-struttura-tempo-epiteli-0",
-              "anat-final-anat-struttura-tempo-epiteli-1"
+              "anat-final-anat-struttura-tempo-epiteli-1",
+              "mat26-anatomia-cute-strati-1",
+              "mat26-anatomia-cute-strati-2",
+              "mat26-anatomia-cute-epidermide-1",
+              "mat26-anatomia-cute-epidermide-2",
+              "mat26-anatomia-cute-annessi-1",
+              "mat26-anatomia-cute-annessi-2",
+              "mat26-anatomia-cute-funzioni-1",
+              "mat26-anatomia-cute-funzioni-2"
             ]
           },
           {
@@ -29451,10 +30352,11 @@
               "anatomia-sangue-difese/leucociti",
               "anatomia-sangue-difese/emopoiesi",
               "anatomia-sangue-difese/immunita",
-              "anat-lab-tessuti/sangue"
+              "anat-lab-tessuti/sangue",
+              "anatomia-sangue-difese/gruppi"
             ],
             "status": "introduced",
-            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "anatomia-umana-4",
             "questionIds": [
               "y1-anatomia-istologia-sangue",
@@ -29467,7 +30369,9 @@
               "hi-anatomia-sangue-difese-immunita-0",
               "hi-anatomia-sangue-difese-immunita-1",
               "anat-final-anat-lab-tessuti-sangue-0",
-              "anat-final-anat-lab-tessuti-sangue-1"
+              "anat-final-anat-lab-tessuti-sangue-1",
+              "mat26-anatomia-sangue-difese-gruppi-1",
+              "mat26-anatomia-sangue-difese-gruppi-2"
             ]
           },
           {
@@ -30030,10 +30934,12 @@
               "anatomia-endocrino/surrene",
               "anatomia-endocrino/isole-feedback",
               "anat-lab-ghiandole/tiroide",
-              "anat-lab-ghiandole/genitali"
+              "anat-lab-ghiandole/genitali",
+              "anatomia-endocrino/epifisi",
+              "anatomia-genitale/cicli"
             ],
             "status": "introduced",
-            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "anatomia-umana-14",
             "questionIds": [
               "y1-anatomia-visceri-genitale",
@@ -30057,7 +30963,11 @@
               "anat-final-anat-lab-ghiandole-tiroide-0",
               "anat-final-anat-lab-ghiandole-tiroide-1",
               "anat-final-anat-lab-ghiandole-genitali-0",
-              "anat-final-anat-lab-ghiandole-genitali-1"
+              "anat-final-anat-lab-ghiandole-genitali-1",
+              "mat26-anatomia-endocrino-epifisi-1",
+              "mat26-anatomia-endocrino-epifisi-2",
+              "mat26-anatomia-genitale-cicli-1",
+              "mat26-anatomia-genitale-cicli-2"
             ]
           },
           {
@@ -30084,10 +30994,14 @@
               "anatomia-nervi-autonomo/simpatico",
               "anatomia-nervi-autonomo/parasimpatico",
               "anat-lab-tessuti/nervo",
-              "anat-esposizione/nervoso"
+              "anat-esposizione/nervoso",
+              "anatomia-segnali-neurali/potenziale",
+              "anatomia-segnali-neurali/conduzione",
+              "anatomia-segnali-neurali/sinapsi",
+              "anatomia-segnali-neurali/circuiti"
             ],
             "status": "introduced",
-            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato.",
+            "note": "Contenuto, esempi, verifiche e aiuti interni confrontati con le voci esplicite 2024/25. Ampliati collegamenti morfologici e applicativi il 22 ottobre; dettaglio analitico corrente non confermato. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
             "id": "anatomia-umana-15",
             "questionIds": [
               "neuroanatomia-centrale-verifica",
@@ -30133,7 +31047,15 @@
               "anat-final-anat-esposizione-nervoso-0",
               "anat-final-anat-esposizione-nervoso-1",
               "anat-final-extra-chain",
-              "anat-final-extra-convergence"
+              "anat-final-extra-convergence",
+              "mat26-anatomia-segnali-neurali-potenziale-1",
+              "mat26-anatomia-segnali-neurali-potenziale-2",
+              "mat26-anatomia-segnali-neurali-conduzione-1",
+              "mat26-anatomia-segnali-neurali-conduzione-2",
+              "mat26-anatomia-segnali-neurali-sinapsi-1",
+              "mat26-anatomia-segnali-neurali-sinapsi-2",
+              "mat26-anatomia-segnali-neurali-circuiti-1",
+              "mat26-anatomia-segnali-neurali-circuiti-2"
             ]
           },
           {
@@ -34912,8 +35834,8 @@
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-10-22",
-    "summary": "In pausa dopo Anatomia: 57 lezioni, 471 quiz, 28 immagini e tre schemi. Aggiunte otto lezioni con laboratorio morfologico, rapporti spaziali e preparazione all’orale; confrontate 75 voci del programma pubblico e degli obiettivi. Il catalogo 2026/27 indica orale; dettaglio analitico corrente e materiali del docente restano da acquisire.",
+    "updated": "2026-10-26",
+    "summary": "Integrati due PowerPoint di Biologia (61 slide) e i nuclei del PDF di Anatomia (87 pagine): cinque capitoli nuovi, approfondimenti nei capitoli esistenti e quiz con aiuti. Allegati e immagini delle slide restano esclusi. Lavoro nuovamente in pausa; primo anno ancora incompleto.",
     "next": "Alla prossima richiesta: completare Scienze psicologiche e pedagogiche a partire dal confronto dei quattro moduli e delle letture assegnate. Per Anatomia resta il confronto con il programma analitico corrente quando disponibile e con i materiali del docente. Non avviare altri esami automaticamente.",
     "examNotes": [
       {

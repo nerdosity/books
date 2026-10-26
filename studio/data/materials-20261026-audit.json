@@ -1,0 +1,1492 @@
+{
+  "checked": "2026-10-26",
+  "status": "integrated",
+  "scope": "Materiali locali integrati nei nuclei didattici senza allegati completi o immagini sorgente.",
+  "currentSyllabusConfirmed": false,
+  "documents": [
+    {
+      "id": "ppt-cellula-20261026",
+      "file": "Lezione 01_Introduzione al corso_la cellula.pptx",
+      "kind": "pptx",
+      "slideCount": 15,
+      "groups": [
+        {
+          "from": 1,
+          "to": 3,
+          "topic": "Cellula, funzioni vitali, organizzazione",
+          "refs": [
+            "cellula/organizzazione",
+            "cellula/organelli",
+            "cellula/trasporti",
+            "cellule-confronto/scala",
+            "cellule-confronto/domini",
+            "cellule-confronto/batteri",
+            "cellule-confronto/confini"
+          ],
+          "questionIds": [
+            "bio-cell-1",
+            "bio-cell-2",
+            "bio-cell-3",
+            "mat26-cellule-confronto-scala-1",
+            "mat26-cellule-confronto-scala-2",
+            "mat26-cellule-confronto-domini-1",
+            "mat26-cellule-confronto-domini-2",
+            "mat26-cellule-confronto-batteri-1",
+            "mat26-cellule-confronto-batteri-2",
+            "mat26-cellule-confronto-confini-1",
+            "mat26-cellule-confronto-confini-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 4,
+          "to": 4,
+          "topic": "Membrana, citoplasma e compartimenti",
+          "refs": [
+            "cellula/organizzazione",
+            "cellula/organelli",
+            "cellula/trasporti"
+          ],
+          "questionIds": [
+            "bio-cell-1",
+            "bio-cell-2",
+            "bio-cell-3"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 5,
+          "to": 6,
+          "topic": "Domini, unicellularità e diversità",
+          "refs": [
+            "cellule-confronto/domini"
+          ],
+          "questionIds": [
+            "mat26-cellule-confronto-domini-1",
+            "mat26-cellule-confronto-domini-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 7,
+          "to": 7,
+          "topic": "Scale dimensionali e microscopia",
+          "refs": [
+            "cellule-confronto/scala"
+          ],
+          "questionIds": [
+            "mat26-cellule-confronto-scala-1",
+            "mat26-cellule-confronto-scala-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 8,
+          "to": 9,
+          "topic": "Struttura batterica, Gram, forme e duplicazione",
+          "refs": [
+            "cellule-confronto/batteri"
+          ],
+          "questionIds": [
+            "mat26-cellule-confronto-batteri-1",
+            "mat26-cellule-confronto-batteri-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 10,
+          "to": 12,
+          "topic": "Confronto animale/vegetale e organelli",
+          "refs": [
+            "cellula/organizzazione",
+            "cellula/organelli",
+            "cellula/trasporti",
+            "cellula-strutture/nucleolo",
+            "cellula-strutture/reticolo",
+            "cellula-strutture/citoscheletro",
+            "cellula-strutture/cloroplasti",
+            "cellule-confronto/domini"
+          ],
+          "questionIds": [
+            "bio-cell-1",
+            "bio-cell-2",
+            "bio-cell-3",
+            "bio-body-microbes-cellula-strutture-nucleolo-0",
+            "bio-body-microbes-cellula-strutture-nucleolo-1",
+            "bio-body-microbes-cellula-strutture-nucleolo-2",
+            "bio-body-microbes-cellula-strutture-reticolo-0",
+            "bio-body-microbes-cellula-strutture-reticolo-1",
+            "bio-body-microbes-cellula-strutture-reticolo-2",
+            "bio-body-microbes-cellula-strutture-citoscheletro-0",
+            "bio-body-microbes-cellula-strutture-citoscheletro-1",
+            "bio-body-microbes-cellula-strutture-citoscheletro-2",
+            "bio-body-microbes-cellula-strutture-cloroplasti-0",
+            "bio-body-microbes-cellula-strutture-cloroplasti-1",
+            "bio-body-microbes-cellula-strutture-cloroplasti-2",
+            "bio-applied-cellula-strutture-citoscheletro-extra-20",
+            "mat26-cellule-confronto-domini-1",
+            "mat26-cellule-confronto-domini-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 13,
+          "to": 15,
+          "topic": "Virus, struttura, tropismo e strategie",
+          "refs": [
+            "virus/struttura",
+            "virus/replica",
+            "virus/innata",
+            "virus/adattativa",
+            "genetica-microbica/trasferimento",
+            "genetica-microbica/operoni",
+            "genetica-microbica/fagi",
+            "genetica-microbica/rna-virali",
+            "cellule-confronto/confini"
+          ],
+          "questionIds": [
+            "virus-struttura-verifica",
+            "virus-replica-verifica",
+            "virus-innata-verifica",
+            "virus-adattativa-verifica",
+            "bio-body-microbes-genetica-microbica-trasferimento-0",
+            "bio-body-microbes-genetica-microbica-trasferimento-1",
+            "bio-body-microbes-genetica-microbica-trasferimento-2",
+            "bio-body-microbes-genetica-microbica-operoni-0",
+            "bio-body-microbes-genetica-microbica-operoni-1",
+            "bio-body-microbes-genetica-microbica-operoni-2",
+            "bio-body-microbes-genetica-microbica-fagi-0",
+            "bio-body-microbes-genetica-microbica-fagi-1",
+            "bio-body-microbes-genetica-microbica-fagi-2",
+            "bio-body-microbes-genetica-microbica-rna-virali-0",
+            "bio-body-microbes-genetica-microbica-rna-virali-1",
+            "bio-body-microbes-genetica-microbica-rna-virali-2",
+            "mat26-cellule-confronto-confini-1",
+            "mat26-cellule-confronto-confini-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        }
+      ],
+      "inspection": "Testo di tutte le slide, note presenti e 15 risorse immagine esaminate, comprese le slide con testo dentro screenshot. Nessuna immagine sorgente redistribuita.",
+      "sha256": "43def9d4ea0c651a5b2a2d280b25339fdb82a099443292a4b137bb6d48afdf2c",
+      "checked": "2026-10-26",
+      "origin": "Fornito dall’utente; non prova di adozione ufficiale o di programma corrente.",
+      "scope": "Integrazione dei nuclei didattici: spiegazioni originali, riuso delle lezioni pertinenti e verifiche rappresentative. Non trascrizione o riproduzione integrale, né validazione di ogni frase del documento."
+    },
+    {
+      "id": "ppt-molecole-20261026",
+      "file": "Lezione 03_le pincipali molecole della cellula.pptx",
+      "kind": "pptx",
+      "slideCount": 46,
+      "groups": [
+        {
+          "from": 1,
+          "to": 3,
+          "topic": "Famiglie, composizione e subunità",
+          "refs": [
+            "molecole-confronto/unita",
+            "composizione-corporea/compartimenti"
+          ],
+          "questionIds": [
+            "bio-body-microbes-composizione-corporea-compartimenti-0",
+            "bio-body-microbes-composizione-corporea-compartimenti-1",
+            "bio-body-microbes-composizione-corporea-compartimenti-2",
+            "mat26-molecole-confronto-unita-1",
+            "mat26-molecole-confronto-unita-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 4,
+          "to": 6,
+          "topic": "Classi e funzioni dei carboidrati",
+          "refs": [
+            "molecole-confronto/glucidi"
+          ],
+          "questionIds": [
+            "mat26-molecole-confronto-glucidi-1",
+            "mat26-molecole-confronto-glucidi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "topic": "Monosaccaridi, carboni, aldosi/chetosi",
+          "refs": [
+            "stereochimica-glucidi/fischer",
+            "molecole-confronto/glucidi"
+          ],
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-fischer",
+            "bc-depth-stereochimica-glucidi-fischer-case",
+            "mat26-molecole-confronto-glucidi-1",
+            "mat26-molecole-confronto-glucidi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "topic": "Legame glicosidico, disaccaridi, polisaccaridi",
+          "refs": [
+            "molecole-confronto/glucidi",
+            "stereochimica-glucidi/polimeri"
+          ],
+          "questionIds": [
+            "bc-depth-stereochimica-glucidi-polimeri",
+            "bc-depth-stereochimica-glucidi-polimeri-case",
+            "mat26-molecole-confronto-glucidi-1",
+            "mat26-molecole-confronto-glucidi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 11,
+          "to": 14,
+          "topic": "Lipidi, acidi grassi, cis/trans, essenziali e membrane",
+          "refs": [
+            "molecole-confronto/lipidi",
+            "lipidi-sintesi/classi"
+          ],
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-classi",
+            "bc-depth-lipidi-sintesi-classi-case",
+            "bio-applied-lipidi-sintesi-classi-extra-22",
+            "bc-full-lipidi-sintesi-classi-extra-7",
+            "bc-full-lipidi-sintesi-classi-extra-8",
+            "bc-full-lipidi-sintesi-classi-extra-22",
+            "mat26-molecole-confronto-lipidi-1",
+            "mat26-molecole-confronto-lipidi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 15,
+          "to": 15,
+          "topic": "Colesterolo e derivati",
+          "refs": [
+            "lipidi-sintesi/colesterolo",
+            "molecole-confronto/unita"
+          ],
+          "questionIds": [
+            "bc-depth-lipidi-sintesi-colesterolo",
+            "bc-depth-lipidi-sintesi-colesterolo-case",
+            "mat26-molecole-confronto-unita-1",
+            "mat26-molecole-confronto-unita-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 16,
+          "to": 17,
+          "topic": "Funzioni delle proteine",
+          "refs": [
+            "proteine/livelli",
+            "molecole-confronto/proteine"
+          ],
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2",
+            "mat26-molecole-confronto-proteine-1",
+            "mat26-molecole-confronto-proteine-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 18,
+          "to": 20,
+          "topic": "Amminoacidi, chiralità e legame peptidico",
+          "refs": [
+            "proteine/amminoacidi",
+            "molecole-confronto/proteine",
+            "molecole-confronto/unita"
+          ],
+          "questionIds": [
+            "proteine-amminoacidi-verifica",
+            "mat26-molecole-confronto-unita-1",
+            "mat26-molecole-confronto-unita-2",
+            "mat26-molecole-confronto-proteine-1",
+            "mat26-molecole-confronto-proteine-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 21,
+          "to": 24,
+          "topic": "Livelli strutturali e interazioni",
+          "refs": [
+            "proteine/livelli",
+            "molecole-confronto/proteine"
+          ],
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2",
+            "mat26-molecole-confronto-proteine-1",
+            "mat26-molecole-confronto-proteine-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 25,
+          "to": 25,
+          "topic": "Emoglobina, eme, subunità e cooperatività",
+          "refs": [
+            "proteine/eme",
+            "proteine/bohr",
+            "molecole-confronto/proteine"
+          ],
+          "questionIds": [
+            "proteine-eme-verifica",
+            "proteine-bohr-verifica",
+            "mat26-molecole-confronto-proteine-1",
+            "mat26-molecole-confronto-proteine-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 26,
+          "to": 29,
+          "topic": "Denaturazione, flessibilità, folding e prioni",
+          "refs": [
+            "proteine/livelli",
+            "proteine-destino/ripiegamento",
+            "proteine-destino/conformazioni"
+          ],
+          "questionIds": [
+            "proteine-livelli-verifica",
+            "bio-molecular-proteine-destino-ripiegamento-0",
+            "bio-molecular-proteine-destino-ripiegamento-1",
+            "bio-molecular-proteine-destino-ripiegamento-2",
+            "bc-central-proteine-livelli-extra-0",
+            "bc-central-proteine-livelli-extra-1",
+            "bc-central-proteine-livelli-extra-2",
+            "mat26-proteine-destino-conformazioni-1",
+            "mat26-proteine-destino-conformazioni-2"
+          ],
+          "note": "Integrati i concetti di testo e immagini. Il filmato YouTube esterno della slide 27 non è stato visionato né incorporato."
+        },
+        {
+          "from": 30,
+          "to": 32,
+          "topic": "Catalisi, barriera energetica, allosteria e modifiche",
+          "refs": [
+            "enzimi/catalisi",
+            "cinetica-enzimi/allosteria",
+            "molecole-confronto/proteine"
+          ],
+          "questionIds": [
+            "bc-enz-1",
+            "cinetica-enzimi-allosteria-verifica",
+            "mat26-molecole-confronto-proteine-1",
+            "mat26-molecole-confronto-proteine-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 33,
+          "to": 35,
+          "topic": "Nucleotidi, nucleosidi e localizzazione",
+          "refs": [
+            "nucleici-lettura/nucleotidi",
+            "nucleici-lettura/cromatina"
+          ],
+          "questionIds": [
+            "mat26-nucleici-lettura-nucleotidi-1",
+            "mat26-nucleici-lettura-nucleotidi-2",
+            "mat26-nucleici-lettura-cromatina-1",
+            "mat26-nucleici-lettura-cromatina-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 36,
+          "to": 38,
+          "topic": "DNA, fosfodiestere, doppia elica e complementarità",
+          "refs": [
+            "nucleici-lettura/direzioni",
+            "nucleici-lettura/cromatina",
+            "genoma-rna-segnali/forme"
+          ],
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-forme-0",
+            "bio-integration-genoma-rna-segnali-forme-1",
+            "bio-integration-genoma-rna-segnali-forme-2",
+            "bc-full-genoma-rna-segnali-forme-extra-20",
+            "bc-full-genoma-rna-segnali-forme-extra-21",
+            "mat26-nucleici-lettura-direzioni-1",
+            "mat26-nucleici-lettura-direzioni-2",
+            "mat26-nucleici-lettura-cromatina-1",
+            "mat26-nucleici-lettura-cromatina-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 39,
+          "to": 40,
+          "topic": "Cromatina, istoni e cromosomi",
+          "refs": [
+            "nucleici-lettura/cromatina",
+            "genoma-rna-segnali/organizzazione"
+          ],
+          "questionIds": [
+            "bio-integration-genoma-rna-segnali-organizzazione-0",
+            "bio-integration-genoma-rna-segnali-organizzazione-1",
+            "bio-integration-genoma-rna-segnali-organizzazione-2",
+            "bio-applied-genoma-rna-segnali-organizzazione-extra-19",
+            "mat26-nucleici-lettura-cromatina-1",
+            "mat26-nucleici-lettura-cromatina-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 41,
+          "to": 44,
+          "topic": "RNA, messaggi mono/policistronici, tRNA e rRNA",
+          "refs": [
+            "nucleici-lettura/nucleotidi",
+            "nucleici-lettura/rna",
+            "espressione/maturazione"
+          ],
+          "questionIds": [
+            "espressione-maturazione-verifica",
+            "bio-applied-espressione-maturazione-extra-4",
+            "bio-applied-espressione-maturazione-extra-5",
+            "bio-applied-espressione-maturazione-extra-21",
+            "mat26-nucleici-lettura-nucleotidi-1",
+            "mat26-nucleici-lettura-nucleotidi-2",
+            "mat26-nucleici-lettura-rna-1",
+            "mat26-nucleici-lettura-rna-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 45,
+          "to": 46,
+          "topic": "Flusso informativo, retrotrascrizione, filamenti",
+          "refs": [
+            "dna/flusso",
+            "nucleici-lettura/direzioni",
+            "cellule-confronto/confini"
+          ],
+          "questionIds": [
+            "bio-dna-1",
+            "mat26-cellule-confronto-confini-1",
+            "mat26-cellule-confronto-confini-2",
+            "mat26-nucleici-lettura-direzioni-1",
+            "mat26-nucleici-lettura-direzioni-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        }
+      ],
+      "inspection": "Testo di tutte le slide, note presenti e panoramiche delle 71 risorse immagine esaminate per individuare i temi, comprese le slide senza testo estraibile. Nessuna cattura del manuale incorporata.",
+      "sha256": "a264af68709b00ba8b8b71b7be06351ce684ae9072411209fc981c5ded20bf01",
+      "checked": "2026-10-26",
+      "origin": "Fornito dall’utente; non prova di adozione ufficiale o di programma corrente.",
+      "scope": "Integrazione dei nuclei didattici: spiegazioni originali, riuso delle lezioni pertinenti e verifiche rappresentative. Non trascrizione o riproduzione integrale, né validazione di ogni frase del documento."
+    },
+    {
+      "id": "riassunto-anatomia-martini",
+      "file": "riassunto-anatomia-martini.pdf",
+      "kind": "pdf",
+      "pageCount": 87,
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Indice e attribuzione del documento",
+          "refs": [],
+          "questionIds": [],
+          "note": "Pagina di orientamento: non è una lezione né una domanda. Attribuzione dichiarata nel file: appunti Chellini / Martini; non attestata adozione UniBa."
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "topic": "Organizzazione, linguaggio, cavità e organi",
+          "refs": [
+            "piani/posizione",
+            "piani/piani",
+            "piani/movimenti",
+            "anat-spazio/orientare",
+            "anat-spazio/torace",
+            "anat-spazio/addome",
+            "anat-spazio/pelvi",
+            "anat-struttura-tempo/epiteli",
+            "anat-struttura-tempo/organi",
+            "anat-struttura-tempo/crescita",
+            "anat-struttura-tempo/invecchiamento",
+            "anat-struttura-tempo/ossa"
+          ],
+          "questionIds": [
+            "an-piani-1",
+            "an-piani-2",
+            "an-piani-3",
+            "anat-final-anat-spazio-orientare-0",
+            "anat-final-anat-spazio-orientare-1",
+            "anat-final-anat-spazio-torace-0",
+            "anat-final-anat-spazio-torace-1",
+            "anat-final-anat-spazio-addome-0",
+            "anat-final-anat-spazio-addome-1",
+            "anat-final-anat-spazio-pelvi-0",
+            "anat-final-anat-spazio-pelvi-1",
+            "anat-final-anat-struttura-tempo-epiteli-0",
+            "anat-final-anat-struttura-tempo-epiteli-1",
+            "anat-final-anat-struttura-tempo-organi-0",
+            "anat-final-anat-struttura-tempo-organi-1",
+            "anat-final-anat-struttura-tempo-crescita-0",
+            "anat-final-anat-struttura-tempo-crescita-1",
+            "anat-final-anat-struttura-tempo-invecchiamento-0",
+            "anat-final-anat-struttura-tempo-invecchiamento-1",
+            "anat-final-extra-bone-shape",
+            "anat-final-extra-bone-flat",
+            "anat-final-extra-cavities-dorsal",
+            "anat-final-extra-cavities-kidney"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 5,
+          "to": 7,
+          "topic": "Epiteli, specializzazioni e ghiandole",
+          "refs": [
+            "anatomia-epiteli-ghiandole/rivestimento",
+            "anatomia-epiteli-ghiandole/giunzioni",
+            "anatomia-epiteli-ghiandole/classificare",
+            "anatomia-epiteli-ghiandole/secrezione"
+          ],
+          "questionIds": [
+            "hi-anatomia-epiteli-ghiandole-rivestimento-0",
+            "hi-anatomia-epiteli-ghiandole-rivestimento-1",
+            "hi-anatomia-epiteli-ghiandole-giunzioni-0",
+            "hi-anatomia-epiteli-ghiandole-giunzioni-1",
+            "hi-anatomia-epiteli-ghiandole-classificare-0",
+            "hi-anatomia-epiteli-ghiandole-classificare-1",
+            "hi-anatomia-epiteli-ghiandole-secrezione-0",
+            "hi-anatomia-epiteli-ghiandole-secrezione-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 8,
+          "to": 11,
+          "topic": "Connettivi, sangue, cartilagini e membrane",
+          "refs": [
+            "anatomia-connettivi-osso/matrice",
+            "anatomia-connettivi-osso/tipi",
+            "anatomia-connettivi-osso/cartilagine",
+            "anatomia-connettivi-osso/osso",
+            "anatomia-sangue-difese/plasma",
+            "anatomia-sangue-difese/leucociti",
+            "anatomia-sangue-difese/emopoiesi",
+            "anatomia-sangue-difese/immunita",
+            "anatomia-sangue-difese/gruppi",
+            "anat-struttura-tempo/epiteli"
+          ],
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-matrice-0",
+            "hi-anatomia-connettivi-osso-matrice-1",
+            "hi-anatomia-connettivi-osso-tipi-0",
+            "hi-anatomia-connettivi-osso-tipi-1",
+            "hi-anatomia-connettivi-osso-cartilagine-0",
+            "hi-anatomia-connettivi-osso-cartilagine-1",
+            "hi-anatomia-connettivi-osso-osso-0",
+            "hi-anatomia-connettivi-osso-osso-1",
+            "hi-anatomia-sangue-difese-plasma-0",
+            "hi-anatomia-sangue-difese-plasma-1",
+            "hi-anatomia-sangue-difese-leucociti-0",
+            "hi-anatomia-sangue-difese-leucociti-1",
+            "hi-anatomia-sangue-difese-emopoiesi-0",
+            "hi-anatomia-sangue-difese-emopoiesi-1",
+            "hi-anatomia-sangue-difese-immunita-0",
+            "hi-anatomia-sangue-difese-immunita-1",
+            "anat-final-anat-struttura-tempo-epiteli-0",
+            "anat-final-anat-struttura-tempo-epiteli-1",
+            "mat26-anatomia-sangue-difese-gruppi-1",
+            "mat26-anatomia-sangue-difese-gruppi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 12,
+          "to": 13,
+          "topic": "Muscolo e tessuto nervoso",
+          "refs": [
+            "anatomia-micro-muscolo/scheletrico",
+            "anatomia-micro-muscolo/cardiaco",
+            "anatomia-micro-muscolo/liscio",
+            "anatomia-micro-muscolo/glia"
+          ],
+          "questionIds": [
+            "depth-anatomia-micro-muscolo-scheletrico",
+            "depth-anatomia-micro-muscolo-cardiaco",
+            "depth-anatomia-micro-muscolo-liscio",
+            "depth-anatomia-micro-muscolo-glia"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 14,
+          "to": 18,
+          "topic": "Cute, strati, pigmenti, peli, ghiandole e unghie",
+          "refs": [
+            "anatomia-cute/strati",
+            "anatomia-cute/epidermide",
+            "anatomia-cute/annessi",
+            "anatomia-cute/funzioni"
+          ],
+          "questionIds": [
+            "mat26-anatomia-cute-strati-1",
+            "mat26-anatomia-cute-strati-2",
+            "mat26-anatomia-cute-epidermide-1",
+            "mat26-anatomia-cute-epidermide-2",
+            "mat26-anatomia-cute-annessi-1",
+            "mat26-anatomia-cute-annessi-2",
+            "mat26-anatomia-cute-funzioni-1",
+            "mat26-anatomia-cute-funzioni-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 19,
+          "to": 22,
+          "topic": "Osso, crescita, rimodellamento e classificazione",
+          "refs": [
+            "anatomia-connettivi-osso/matrice",
+            "anatomia-connettivi-osso/tipi",
+            "anatomia-connettivi-osso/cartilagine",
+            "anatomia-connettivi-osso/osso",
+            "anat-struttura-tempo/crescita",
+            "anat-struttura-tempo/ossa"
+          ],
+          "questionIds": [
+            "hi-anatomia-connettivi-osso-matrice-0",
+            "hi-anatomia-connettivi-osso-matrice-1",
+            "hi-anatomia-connettivi-osso-tipi-0",
+            "hi-anatomia-connettivi-osso-tipi-1",
+            "hi-anatomia-connettivi-osso-cartilagine-0",
+            "hi-anatomia-connettivi-osso-cartilagine-1",
+            "hi-anatomia-connettivi-osso-osso-0",
+            "hi-anatomia-connettivi-osso-osso-1",
+            "anat-final-anat-struttura-tempo-crescita-0",
+            "anat-final-anat-struttura-tempo-crescita-1",
+            "anat-final-extra-bone-shape",
+            "anat-final-extra-bone-flat"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 23,
+          "to": 26,
+          "topic": "Scheletro assile, appendicolare e articolazioni",
+          "refs": [
+            "anatomia-cranio/ossa",
+            "anatomia-cranio/suture",
+            "anatomia-cranio/cavita",
+            "anatomia-cranio/passaggi",
+            "anatomia-colonna-torace/vertebra",
+            "anatomia-colonna-torace/regioni",
+            "anatomia-colonna-torace/dischi",
+            "anatomia-colonna-torace/coste",
+            "anatomia-scheletro-visivo/orientamento",
+            "anatomia-scheletro-visivo/superiore",
+            "anatomia-scheletro-visivo/inferiore",
+            "anatomia-scheletro-visivo/sinoviale",
+            "articolazioni/classi",
+            "articolazioni/capsula",
+            "articolazioni/assi",
+            "articolazioni/ginocchio"
+          ],
+          "questionIds": [
+            "articolazioni-classi-verifica",
+            "articolazioni-capsula-verifica",
+            "articolazioni-assi-verifica",
+            "articolazioni-ginocchio-verifica",
+            "bones-visual-1",
+            "bones-visual-2",
+            "bones-visual-3",
+            "bones-visual-4",
+            "bones-visual-5",
+            "bones-visual-6",
+            "bones-visual-7",
+            "bones-visual-8",
+            "bones-visual-9",
+            "bones-visual-10",
+            "bones-visual-11",
+            "bones-visual-12",
+            "av-anatomia-cranio-ossa-0",
+            "av-anatomia-cranio-ossa-1",
+            "av-anatomia-cranio-suture-0",
+            "av-anatomia-cranio-suture-1",
+            "av-anatomia-cranio-cavita-0",
+            "av-anatomia-cranio-cavita-1",
+            "av-anatomia-cranio-passaggi-0",
+            "av-anatomia-cranio-passaggi-1",
+            "av-anatomia-colonna-torace-vertebra-0",
+            "av-anatomia-colonna-torace-vertebra-1",
+            "av-anatomia-colonna-torace-regioni-0",
+            "av-anatomia-colonna-torace-regioni-1",
+            "av-anatomia-colonna-torace-dischi-0",
+            "av-anatomia-colonna-torace-dischi-1",
+            "av-anatomia-colonna-torace-coste-0",
+            "av-anatomia-colonna-torace-coste-1",
+            "av-anatomia-cranio-ossa-2",
+            "av-anatomia-cranio-cavita-2",
+            "av-anatomia-colonna-torace-vertebra-2",
+            "anat-final-extra-joint-function",
+            "anat-final-extra-joint-criteria"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "topic": "Muscolo, sarcomero, contrazione, fibre e gruppi regionali",
+          "refs": [
+            "muscolo/connessioni",
+            "muscolo/sarcomero",
+            "muscolo/contrazioni",
+            "segnale-muscolare/placca",
+            "segnale-muscolare/calcio",
+            "segnale-muscolare/ponti",
+            "segnale-muscolare/fibre",
+            "anat-regioni-superiori/scapola",
+            "anat-regioni-superiori/gomito",
+            "anat-regioni-superiori/polso",
+            "anat-regioni-superiori/gesto",
+            "anat-regioni-inferiori/anca",
+            "anat-regioni-inferiori/ginocchio",
+            "anat-regioni-inferiori/caviglia",
+            "anat-regioni-inferiori/passo",
+            "anat-struttura-tempo/organi"
+          ],
+          "questionIds": [
+            "an-musc-1",
+            "an-musc-2",
+            "an-musc-3",
+            "bc-full-segnale-muscolare-placca-0",
+            "bc-full-segnale-muscolare-placca-1",
+            "bc-full-segnale-muscolare-placca-2",
+            "bc-full-segnale-muscolare-calcio-0",
+            "bc-full-segnale-muscolare-calcio-1",
+            "bc-full-segnale-muscolare-calcio-2",
+            "bc-full-segnale-muscolare-ponti-0",
+            "bc-full-segnale-muscolare-ponti-1",
+            "bc-full-segnale-muscolare-ponti-2",
+            "bc-full-segnale-muscolare-fibre-0",
+            "bc-full-segnale-muscolare-fibre-1",
+            "bc-full-segnale-muscolare-fibre-2",
+            "anat-final-anat-regioni-superiori-scapola-0",
+            "anat-final-anat-regioni-superiori-scapola-1",
+            "anat-final-anat-regioni-superiori-gomito-0",
+            "anat-final-anat-regioni-superiori-gomito-1",
+            "anat-final-anat-regioni-superiori-polso-0",
+            "anat-final-anat-regioni-superiori-polso-1",
+            "anat-final-anat-regioni-superiori-gesto-0",
+            "anat-final-anat-regioni-superiori-gesto-1",
+            "anat-final-anat-regioni-inferiori-anca-0",
+            "anat-final-anat-regioni-inferiori-anca-1",
+            "anat-final-anat-regioni-inferiori-ginocchio-0",
+            "anat-final-anat-regioni-inferiori-ginocchio-1",
+            "anat-final-anat-regioni-inferiori-caviglia-0",
+            "anat-final-anat-regioni-inferiori-caviglia-1",
+            "anat-final-anat-regioni-inferiori-passo-0",
+            "anat-final-anat-regioni-inferiori-passo-1",
+            "anat-final-anat-struttura-tempo-organi-0",
+            "anat-final-anat-struttura-tempo-organi-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 31,
+          "to": 35,
+          "topic": "Neuroni, glia, potenziale, sinapsi e circuiti",
+          "refs": [
+            "anatomia-segnali-neurali/potenziale",
+            "anatomia-segnali-neurali/conduzione",
+            "anatomia-segnali-neurali/sinapsi",
+            "anatomia-segnali-neurali/circuiti",
+            "anatomia-micro-muscolo/scheletrico",
+            "anatomia-micro-muscolo/cardiaco",
+            "anatomia-micro-muscolo/liscio",
+            "anatomia-micro-muscolo/glia"
+          ],
+          "questionIds": [
+            "depth-anatomia-micro-muscolo-scheletrico",
+            "depth-anatomia-micro-muscolo-cardiaco",
+            "depth-anatomia-micro-muscolo-liscio",
+            "depth-anatomia-micro-muscolo-glia",
+            "mat26-anatomia-segnali-neurali-potenziale-1",
+            "mat26-anatomia-segnali-neurali-potenziale-2",
+            "mat26-anatomia-segnali-neurali-conduzione-1",
+            "mat26-anatomia-segnali-neurali-conduzione-2",
+            "mat26-anatomia-segnali-neurali-sinapsi-1",
+            "mat26-anatomia-segnali-neurali-sinapsi-2",
+            "mat26-anatomia-segnali-neurali-circuiti-1",
+            "mat26-anatomia-segnali-neurali-circuiti-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 36,
+          "to": 37,
+          "topic": "Encefalo, rivestimenti e regioni",
+          "refs": [
+            "anatomia-encefalo-protezioni/corteccia",
+            "anatomia-encefalo-protezioni/diencefalo",
+            "anatomia-encefalo-protezioni/meningi",
+            "anatomia-encefalo-protezioni/liquor",
+            "anatomia-neuro-dettagli/nuclei",
+            "anatomia-neuro-dettagli/tronco",
+            "anatomia-neuro-dettagli/cervelletto",
+            "anatomia-neuro-dettagli/cranici"
+          ],
+          "questionIds": [
+            "depth-anatomia-neuro-dettagli-nuclei",
+            "depth-anatomia-neuro-dettagli-tronco",
+            "depth-anatomia-neuro-dettagli-cervelletto",
+            "depth-anatomia-neuro-dettagli-cranici",
+            "ns-anatomia-encefalo-protezioni-corteccia-0",
+            "ns-anatomia-encefalo-protezioni-corteccia-1",
+            "ns-anatomia-encefalo-protezioni-diencefalo-0",
+            "ns-anatomia-encefalo-protezioni-diencefalo-1",
+            "ns-anatomia-encefalo-protezioni-meningi-0",
+            "ns-anatomia-encefalo-protezioni-meningi-1",
+            "ns-anatomia-encefalo-protezioni-liquor-0",
+            "ns-anatomia-encefalo-protezioni-liquor-1",
+            "ns-anatomia-neuro-dettagli-tronco-0",
+            "ns-anatomia-neuro-dettagli-tronco-1",
+            "ns-anatomia-neuro-dettagli-cervelletto-0",
+            "ns-anatomia-neuro-dettagli-cervelletto-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 38,
+          "to": 41,
+          "topic": "Midollo, nervi, plessi, riflessi e vie",
+          "refs": [
+            "anatomia-sensibilita-midollo/recettori",
+            "anatomia-sensibilita-midollo/midollo",
+            "anatomia-sensibilita-midollo/vie",
+            "anatomia-sensibilita-midollo/riflessi",
+            "anatomia-nervi-autonomo/nervo",
+            "anatomia-nervi-autonomo/plessi",
+            "anatomia-nervi-autonomo/simpatico",
+            "anatomia-nervi-autonomo/parasimpatico"
+          ],
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-recettori-0",
+            "ns-anatomia-sensibilita-midollo-recettori-1",
+            "ns-anatomia-sensibilita-midollo-midollo-0",
+            "ns-anatomia-sensibilita-midollo-midollo-1",
+            "ns-anatomia-sensibilita-midollo-vie-0",
+            "ns-anatomia-sensibilita-midollo-vie-1",
+            "ns-anatomia-sensibilita-midollo-riflessi-0",
+            "ns-anatomia-sensibilita-midollo-riflessi-1",
+            "ns-anatomia-nervi-autonomo-nervo-0",
+            "ns-anatomia-nervi-autonomo-nervo-1",
+            "ns-anatomia-nervi-autonomo-plessi-0",
+            "ns-anatomia-nervi-autonomo-plessi-1",
+            "ns-anatomia-nervi-autonomo-simpatico-0",
+            "ns-anatomia-nervi-autonomo-simpatico-1",
+            "ns-anatomia-nervi-autonomo-parasimpatico-0",
+            "ns-anatomia-nervi-autonomo-parasimpatico-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 42,
+          "to": 44,
+          "topic": "Vie motorie, autonomo e recettori",
+          "refs": [
+            "anatomia-nervi-autonomo/nervo",
+            "anatomia-nervi-autonomo/plessi",
+            "anatomia-nervi-autonomo/simpatico",
+            "anatomia-nervi-autonomo/parasimpatico",
+            "anatomia-sensibilita-midollo/recettori",
+            "anatomia-sensibilita-midollo/midollo",
+            "anatomia-sensibilita-midollo/vie",
+            "anatomia-sensibilita-midollo/riflessi",
+            "anatomia-segnali-neurali/circuiti"
+          ],
+          "questionIds": [
+            "ns-anatomia-sensibilita-midollo-recettori-0",
+            "ns-anatomia-sensibilita-midollo-recettori-1",
+            "ns-anatomia-sensibilita-midollo-midollo-0",
+            "ns-anatomia-sensibilita-midollo-midollo-1",
+            "ns-anatomia-sensibilita-midollo-vie-0",
+            "ns-anatomia-sensibilita-midollo-vie-1",
+            "ns-anatomia-sensibilita-midollo-riflessi-0",
+            "ns-anatomia-sensibilita-midollo-riflessi-1",
+            "ns-anatomia-nervi-autonomo-nervo-0",
+            "ns-anatomia-nervi-autonomo-nervo-1",
+            "ns-anatomia-nervi-autonomo-plessi-0",
+            "ns-anatomia-nervi-autonomo-plessi-1",
+            "ns-anatomia-nervi-autonomo-simpatico-0",
+            "ns-anatomia-nervi-autonomo-simpatico-1",
+            "ns-anatomia-nervi-autonomo-parasimpatico-0",
+            "ns-anatomia-nervi-autonomo-parasimpatico-1",
+            "mat26-anatomia-segnali-neurali-circuiti-1",
+            "mat26-anatomia-segnali-neurali-circuiti-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 45,
+          "to": 49,
+          "topic": "Ghiandole, ormoni e organi endocrini",
+          "refs": [
+            "anatomia-endocrino/ipofisi",
+            "anatomia-endocrino/tiroide",
+            "anatomia-endocrino/surrene",
+            "anatomia-endocrino/isole-feedback",
+            "anatomia-endocrino/epifisi"
+          ],
+          "questionIds": [
+            "av-anatomia-endocrino-ipofisi-0",
+            "av-anatomia-endocrino-ipofisi-1",
+            "av-anatomia-endocrino-tiroide-0",
+            "av-anatomia-endocrino-tiroide-1",
+            "av-anatomia-endocrino-surrene-0",
+            "av-anatomia-endocrino-surrene-1",
+            "av-anatomia-endocrino-isole-feedback-0",
+            "av-anatomia-endocrino-isole-feedback-1",
+            "mat26-anatomia-endocrino-epifisi-1",
+            "mat26-anatomia-endocrino-epifisi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 50,
+          "to": 53,
+          "topic": "Sangue, ABO/Rh, leucociti, piastrine e introduzione al cuore",
+          "refs": [
+            "anatomia-sangue-difese/plasma",
+            "anatomia-sangue-difese/leucociti",
+            "anatomia-sangue-difese/emopoiesi",
+            "anatomia-sangue-difese/immunita",
+            "anatomia-sangue-difese/gruppi",
+            "anatomia-cuore/topografia"
+          ],
+          "questionIds": [
+            "heart-anatomia-cuore-topografia-0",
+            "heart-anatomia-cuore-topografia-1",
+            "heart-anatomia-cuore-topografia-2",
+            "hi-anatomia-sangue-difese-plasma-0",
+            "hi-anatomia-sangue-difese-plasma-1",
+            "hi-anatomia-sangue-difese-leucociti-0",
+            "hi-anatomia-sangue-difese-leucociti-1",
+            "hi-anatomia-sangue-difese-emopoiesi-0",
+            "hi-anatomia-sangue-difese-emopoiesi-1",
+            "hi-anatomia-sangue-difese-immunita-0",
+            "hi-anatomia-sangue-difese-immunita-1",
+            "mat26-anatomia-sangue-difese-gruppi-1",
+            "mat26-anatomia-sangue-difese-gruppi-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 54,
+          "to": 57,
+          "topic": "Cuore, ciclo, vasi e circolazioni",
+          "refs": [
+            "anatomia-cuore/topografia",
+            "anatomia-cuore/cavita",
+            "anatomia-cuore/valvole",
+            "anatomia-cuore/parete",
+            "anatomia-ciclo-vasi/conduzione",
+            "anatomia-ciclo-vasi/ciclo",
+            "anatomia-ciclo-vasi/pareti-vascolari",
+            "anatomia-ciclo-vasi/microcircolo",
+            "anatomia-arterie/aorta",
+            "anatomia-arterie/superiore",
+            "anatomia-arterie/viscerali",
+            "anatomia-arterie/inferiore",
+            "anatomia-vene-circoli/superiori",
+            "anatomia-vene-circoli/inferiori",
+            "anatomia-vene-circoli/portale",
+            "anatomia-vene-circoli/fetale"
+          ],
+          "questionIds": [
+            "vascular-anatomia-arterie-aorta-0",
+            "vascular-anatomia-arterie-aorta-1",
+            "vascular-anatomia-arterie-aorta-2",
+            "vascular-anatomia-arterie-superiore-0",
+            "vascular-anatomia-arterie-superiore-1",
+            "vascular-anatomia-arterie-superiore-2",
+            "vascular-anatomia-arterie-viscerali-0",
+            "vascular-anatomia-arterie-viscerali-1",
+            "vascular-anatomia-arterie-viscerali-2",
+            "vascular-anatomia-arterie-inferiore-0",
+            "vascular-anatomia-arterie-inferiore-1",
+            "vascular-anatomia-arterie-inferiore-2",
+            "vascular-anatomia-vene-circoli-superiori-0",
+            "vascular-anatomia-vene-circoli-superiori-1",
+            "vascular-anatomia-vene-circoli-superiori-2",
+            "vascular-anatomia-vene-circoli-inferiori-0",
+            "vascular-anatomia-vene-circoli-inferiori-1",
+            "vascular-anatomia-vene-circoli-inferiori-2",
+            "vascular-anatomia-vene-circoli-portale-0",
+            "vascular-anatomia-vene-circoli-portale-1",
+            "vascular-anatomia-vene-circoli-portale-2",
+            "vascular-anatomia-vene-circoli-fetale-0",
+            "vascular-anatomia-vene-circoli-fetale-1",
+            "vascular-anatomia-vene-circoli-fetale-2",
+            "heart-anatomia-cuore-topografia-0",
+            "heart-anatomia-cuore-topografia-1",
+            "heart-anatomia-cuore-topografia-2",
+            "heart-anatomia-cuore-cavita-0",
+            "heart-anatomia-cuore-cavita-1",
+            "heart-anatomia-cuore-cavita-2",
+            "heart-anatomia-cuore-valvole-0",
+            "heart-anatomia-cuore-valvole-1",
+            "heart-anatomia-cuore-valvole-2",
+            "heart-anatomia-cuore-parete-0",
+            "heart-anatomia-cuore-parete-1",
+            "heart-anatomia-cuore-parete-2",
+            "heart-anatomia-ciclo-vasi-conduzione-0",
+            "heart-anatomia-ciclo-vasi-conduzione-1",
+            "heart-anatomia-ciclo-vasi-conduzione-2",
+            "heart-anatomia-ciclo-vasi-ciclo-0",
+            "heart-anatomia-ciclo-vasi-ciclo-1",
+            "heart-anatomia-ciclo-vasi-ciclo-2",
+            "heart-anatomia-ciclo-vasi-pareti-vascolari-0",
+            "heart-anatomia-ciclo-vasi-pareti-vascolari-1",
+            "heart-anatomia-ciclo-vasi-pareti-vascolari-2",
+            "heart-anatomia-ciclo-vasi-microcircolo-0",
+            "heart-anatomia-ciclo-vasi-microcircolo-1",
+            "heart-anatomia-ciclo-vasi-microcircolo-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 58,
+          "to": 61,
+          "topic": "Linfa, organi linfoidi e immunità",
+          "refs": [
+            "anatomia-organi-linfoidi/drenaggio",
+            "anatomia-organi-linfoidi/linfonodo",
+            "anatomia-organi-linfoidi/primari",
+            "anatomia-organi-linfoidi/milza",
+            "anatomia-sangue-difese/immunita"
+          ],
+          "questionIds": [
+            "hi-anatomia-sangue-difese-immunita-0",
+            "hi-anatomia-sangue-difese-immunita-1",
+            "hi-anatomia-organi-linfoidi-drenaggio-0",
+            "hi-anatomia-organi-linfoidi-drenaggio-1",
+            "hi-anatomia-organi-linfoidi-linfonodo-0",
+            "hi-anatomia-organi-linfoidi-linfonodo-1",
+            "hi-anatomia-organi-linfoidi-primari-0",
+            "hi-anatomia-organi-linfoidi-primari-1",
+            "hi-anatomia-organi-linfoidi-milza-0",
+            "hi-anatomia-organi-linfoidi-milza-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 62,
+          "to": 65,
+          "topic": "Vie respiratorie, polmoni e ventilazione",
+          "refs": [
+            "anatomia-respiratorio/superiori",
+            "anatomia-respiratorio/conduzione",
+            "anatomia-respiratorio/parete",
+            "anatomia-respiratorio/polmoni",
+            "respirazione/ventilazione",
+            "respirazione/scambi",
+            "respirazione/volume",
+            "anatomia-pareti-tronco/respiratori",
+            "anatomia-pareti-tronco/addominali",
+            "anatomia-pareti-tronco/guaine",
+            "anatomia-pareti-tronco/posteriore"
+          ],
+          "questionIds": [
+            "base-respirazione-ventilazione",
+            "base-respirazione-scambi",
+            "base-respirazione-volume",
+            "depth-anatomia-respiratorio-superiori",
+            "depth-anatomia-respiratorio-conduzione",
+            "depth-anatomia-respiratorio-parete",
+            "depth-anatomia-respiratorio-polmoni",
+            "trunk-anatomia-pareti-tronco-respiratori-0",
+            "trunk-anatomia-pareti-tronco-respiratori-1",
+            "trunk-anatomia-pareti-tronco-respiratori-2",
+            "trunk-anatomia-pareti-tronco-addominali-0",
+            "trunk-anatomia-pareti-tronco-addominali-1",
+            "trunk-anatomia-pareti-tronco-addominali-2",
+            "trunk-anatomia-pareti-tronco-guaine-0",
+            "trunk-anatomia-pareti-tronco-guaine-1",
+            "trunk-anatomia-pareti-tronco-guaine-2",
+            "trunk-anatomia-pareti-tronco-posteriore-0",
+            "trunk-anatomia-pareti-tronco-posteriore-1",
+            "trunk-anatomia-pareti-tronco-posteriore-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 66,
+          "to": 73,
+          "topic": "Digerente, pareti, peritoneo e annessi",
+          "refs": [
+            "anatomia-tubo-digerente/bocca",
+            "anatomia-tubo-digerente/esofago",
+            "anatomia-tubo-digerente/stomaco",
+            "anatomia-tubo-digerente/intestino",
+            "anatomia-annessi-peritoneo/peritoneo",
+            "anatomia-annessi-peritoneo/fegato",
+            "anatomia-annessi-peritoneo/lobulo",
+            "anatomia-annessi-peritoneo/pancreas",
+            "anatomia-segnali-neurali/circuiti"
+          ],
+          "questionIds": [
+            "av-anatomia-tubo-digerente-bocca-0",
+            "av-anatomia-tubo-digerente-bocca-1",
+            "av-anatomia-tubo-digerente-esofago-0",
+            "av-anatomia-tubo-digerente-esofago-1",
+            "av-anatomia-tubo-digerente-stomaco-0",
+            "av-anatomia-tubo-digerente-stomaco-1",
+            "av-anatomia-tubo-digerente-intestino-0",
+            "av-anatomia-tubo-digerente-intestino-1",
+            "av-anatomia-annessi-peritoneo-peritoneo-0",
+            "av-anatomia-annessi-peritoneo-peritoneo-1",
+            "av-anatomia-annessi-peritoneo-fegato-0",
+            "av-anatomia-annessi-peritoneo-fegato-1",
+            "av-anatomia-annessi-peritoneo-lobulo-0",
+            "av-anatomia-annessi-peritoneo-lobulo-1",
+            "av-anatomia-annessi-peritoneo-pancreas-0",
+            "av-anatomia-annessi-peritoneo-pancreas-1",
+            "mat26-anatomia-segnali-neurali-circuiti-1",
+            "mat26-anatomia-segnali-neurali-circuiti-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 74,
+          "to": 78,
+          "topic": "Rene, nefrone e vie urinarie",
+          "refs": [
+            "anatomia-rene-vie/rene",
+            "anatomia-rene-vie/circolo",
+            "anatomia-rene-vie/nefrone",
+            "anatomia-rene-vie/vie"
+          ],
+          "questionIds": [
+            "av-anatomia-rene-vie-rene-0",
+            "av-anatomia-rene-vie-rene-1",
+            "av-anatomia-rene-vie-circolo-0",
+            "av-anatomia-rene-vie-circolo-1",
+            "av-anatomia-rene-vie-nefrone-0",
+            "av-anatomia-rene-vie-nefrone-1",
+            "av-anatomia-rene-vie-vie-0",
+            "av-anatomia-rene-vie-vie-1",
+            "av-anatomia-rene-vie-rene-2",
+            "av-anatomia-rene-vie-circolo-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 79,
+          "to": 82,
+          "topic": "Testicolo, gameti e vie maschili",
+          "refs": [
+            "anatomia-genitale/testicolo",
+            "anatomia-genitale/vie-maschili",
+            "sviluppo/gameti"
+          ],
+          "questionIds": [
+            "sviluppo-gameti-verifica",
+            "av-anatomia-genitale-testicolo-0",
+            "av-anatomia-genitale-testicolo-1",
+            "av-anatomia-genitale-vie-maschili-0",
+            "av-anatomia-genitale-vie-maschili-1"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        },
+        {
+          "from": 83,
+          "to": 87,
+          "topic": "Ovaio, utero, cicli, mammella e gravidanza",
+          "refs": [
+            "anatomia-genitale/testicolo",
+            "anatomia-genitale/vie-maschili",
+            "anatomia-genitale/ovaio-tuba",
+            "anatomia-genitale/utero-esterni",
+            "anatomia-genitale/cicli",
+            "anatomia-epiteli-ghiandole/secrezione",
+            "sviluppo/fecondazione"
+          ],
+          "questionIds": [
+            "sviluppo-fecondazione-verifica",
+            "av-anatomia-genitale-testicolo-0",
+            "av-anatomia-genitale-testicolo-1",
+            "av-anatomia-genitale-vie-maschili-0",
+            "av-anatomia-genitale-vie-maschili-1",
+            "av-anatomia-genitale-ovaio-tuba-0",
+            "av-anatomia-genitale-ovaio-tuba-1",
+            "av-anatomia-genitale-utero-esterni-0",
+            "av-anatomia-genitale-utero-esterni-1",
+            "hi-anatomia-epiteli-ghiandole-secrezione-0",
+            "hi-anatomia-epiteli-ghiandole-secrezione-1",
+            "mat26-anatomia-genitale-cicli-1",
+            "mat26-anatomia-genitale-cicli-2"
+          ],
+          "note": "Nucleo integrato nelle spiegazioni interne; verifiche rappresentative, non riproduzione delle pagine."
+        }
+      ],
+      "inspection": "Indice e nuclei del testo estraibile di tutte le 87 pagine confrontati con il percorso esistente; lettura puntuale delle parti aggiunte e delle incongruenze segnalate. PDF senza immagini raster interne. Il riferimento è alla numerazione effettiva del PDF, poiché alcune voci dell’indice non coincidono con gli inizi dei capitoli.",
+      "sha256": "1979ba160b1f3247c8ae0c5e07a634f4da525d12460b630dd986433370a81b4b",
+      "checked": "2026-10-26",
+      "origin": "Fornito dall’utente; non prova di adozione ufficiale o di programma corrente.",
+      "scope": "Integrazione dei nuclei didattici: spiegazioni originali, riuso delle lezioni pertinenti e verifiche rappresentative. Non trascrizione o riproduzione integrale, né validazione di ogni frase del documento."
+    }
+  ],
+  "unchangedDocuments": [
+    {
+      "file": "unidocs-13101.pdf",
+      "sha256": "f1f3e77c83983d7bd4309cea51a3f664530300f932c43293bc28d538e0c2b539",
+      "verifiedUnchanged": true
+    },
+    {
+      "file": "unidocs-19289.pdf",
+      "sha256": "f4b1dae66950b08372081aa12ce71460b7e083b4795222997b291af58ab514f8",
+      "verifiedUnchanged": true
+    },
+    {
+      "file": "Chimica generale – Appunti dalle slide.pdf",
+      "sha256": "4944f0f204a136668681e6b1593a46731d40b060a168a6f842e590d56c853787",
+      "verifiedUnchanged": true
+    }
+  ],
+  "additions": {
+    "unitIds": [
+      "cellule-confronto",
+      "molecole-confronto",
+      "nucleici-lettura",
+      "anatomia-cute",
+      "anatomia-segnali-neurali"
+    ],
+    "refs": [
+      "cellule-confronto/scala",
+      "cellule-confronto/domini",
+      "cellule-confronto/batteri",
+      "cellule-confronto/confini",
+      "molecole-confronto/unita",
+      "molecole-confronto/glucidi",
+      "molecole-confronto/lipidi",
+      "molecole-confronto/proteine",
+      "nucleici-lettura/nucleotidi",
+      "nucleici-lettura/direzioni",
+      "nucleici-lettura/cromatina",
+      "nucleici-lettura/rna",
+      "anatomia-cute/strati",
+      "anatomia-cute/epidermide",
+      "anatomia-cute/annessi",
+      "anatomia-cute/funzioni",
+      "anatomia-segnali-neurali/potenziale",
+      "anatomia-segnali-neurali/conduzione",
+      "anatomia-segnali-neurali/sinapsi",
+      "anatomia-segnali-neurali/circuiti",
+      "proteine-destino/conformazioni",
+      "anatomia-sangue-difese/gruppi",
+      "anatomia-endocrino/epifisi",
+      "anatomia-genitale/cicli"
+    ],
+    "questionIds": [
+      "mat26-cellule-confronto-scala-1",
+      "mat26-cellule-confronto-scala-2",
+      "mat26-cellule-confronto-domini-1",
+      "mat26-cellule-confronto-domini-2",
+      "mat26-cellule-confronto-batteri-1",
+      "mat26-cellule-confronto-batteri-2",
+      "mat26-cellule-confronto-confini-1",
+      "mat26-cellule-confronto-confini-2",
+      "mat26-molecole-confronto-unita-1",
+      "mat26-molecole-confronto-unita-2",
+      "mat26-molecole-confronto-glucidi-1",
+      "mat26-molecole-confronto-glucidi-2",
+      "mat26-molecole-confronto-lipidi-1",
+      "mat26-molecole-confronto-lipidi-2",
+      "mat26-molecole-confronto-proteine-1",
+      "mat26-molecole-confronto-proteine-2",
+      "mat26-nucleici-lettura-nucleotidi-1",
+      "mat26-nucleici-lettura-nucleotidi-2",
+      "mat26-nucleici-lettura-direzioni-1",
+      "mat26-nucleici-lettura-direzioni-2",
+      "mat26-nucleici-lettura-cromatina-1",
+      "mat26-nucleici-lettura-cromatina-2",
+      "mat26-nucleici-lettura-rna-1",
+      "mat26-nucleici-lettura-rna-2",
+      "mat26-anatomia-cute-strati-1",
+      "mat26-anatomia-cute-strati-2",
+      "mat26-anatomia-cute-epidermide-1",
+      "mat26-anatomia-cute-epidermide-2",
+      "mat26-anatomia-cute-annessi-1",
+      "mat26-anatomia-cute-annessi-2",
+      "mat26-anatomia-cute-funzioni-1",
+      "mat26-anatomia-cute-funzioni-2",
+      "mat26-anatomia-segnali-neurali-potenziale-1",
+      "mat26-anatomia-segnali-neurali-potenziale-2",
+      "mat26-anatomia-segnali-neurali-conduzione-1",
+      "mat26-anatomia-segnali-neurali-conduzione-2",
+      "mat26-anatomia-segnali-neurali-sinapsi-1",
+      "mat26-anatomia-segnali-neurali-sinapsi-2",
+      "mat26-anatomia-segnali-neurali-circuiti-1",
+      "mat26-anatomia-segnali-neurali-circuiti-2",
+      "mat26-proteine-destino-conformazioni-1",
+      "mat26-proteine-destino-conformazioni-2",
+      "mat26-anatomia-sangue-difese-gruppi-1",
+      "mat26-anatomia-sangue-difese-gruppi-2",
+      "mat26-anatomia-endocrino-epifisi-1",
+      "mat26-anatomia-endocrino-epifisi-2",
+      "mat26-anatomia-genitale-cicli-1",
+      "mat26-anatomia-genitale-cicli-2"
+    ]
+  },
+  "corrections": [
+    {
+      "document": "ppt-cellula-20261026",
+      "position": "5",
+      "correction": "Archei: dominio distinto con organizzazione procariotica; non cellule intermedie né tutti estremofili.",
+      "refs": [
+        "cellule-confronto/domini"
+      ]
+    },
+    {
+      "document": "ppt-cellula-20261026",
+      "position": "9",
+      "correction": "Con g=20 minuti e t=11 ore, il modello ideale dà 2^33, non cinque miliardi; esplicitati limiti del modello.",
+      "refs": [
+        "cellule-confronto/batteri"
+      ]
+    },
+    {
+      "document": "ppt-cellula-20261026",
+      "position": "8, note",
+      "correction": "Batteri senza parete non equiparati ai Gram negativi tipici.",
+      "refs": [
+        "cellule-confronto/batteri"
+      ]
+    },
+    {
+      "document": "ppt-molecole-20261026",
+      "position": "10",
+      "correction": "L’amido comprende amilosio prevalentemente lineare e amilopectina ramificata; glicogeno più ramificato.",
+      "refs": [
+        "molecole-confronto/glucidi"
+      ]
+    },
+    {
+      "document": "ppt-molecole-20261026",
+      "position": "26, 28–29",
+      "correction": "Denaturazione distinta da proteolisi; aggregati non equiparati automaticamente a prioni o contagiosità.",
+      "refs": [
+        "proteine-destino/conformazioni"
+      ]
+    },
+    {
+      "document": "ppt-molecole-20261026",
+      "position": "36",
+      "correction": "DNA batterico associato a proteine; numero e forma dei cromosomi non universalizzati.",
+      "refs": [
+        "nucleici-lettura/cromatina"
+      ]
+    },
+    {
+      "document": "ppt-molecole-20261026",
+      "position": "41",
+      "correction": "Purine A/G, non A/U; ripiegamenti dell’RNA comuni e funzionali.",
+      "refs": [
+        "nucleici-lettura/nucleotidi",
+        "nucleici-lettura/rna"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "2",
+      "correction": "Acqua e sali distinti dalle molecole organiche, senza riprendere l’inversione del PDF.",
+      "refs": [
+        "molecole-confronto/unita"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "5–6",
+      "correction": "Microvilli e stereociglia distinti dalle ciglia mobili; presenti nei capitoli esistenti.",
+      "refs": [
+        "anatomia-epiteli-ghiandole/giunzioni"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "10",
+      "correction": "Siero distinto dal plasma privato di cellule; spiegazione già presente.",
+      "refs": [
+        "anatomia-sangue-difese/plasma"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "14",
+      "correction": "Melanina dalla tirosina; strati e popolazioni epidermiche chiariti.",
+      "refs": [
+        "anatomia-cute/funzioni"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "29, 33–35",
+      "correction": "Tutto-o-nulla elettrico distinto dalla forza muscolare; pompa distinta dai canali del potenziale.",
+      "refs": [
+        "anatomia-segnali-neurali/potenziale"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "43, 67",
+      "correction": "Effetti autonomi non ridotti a regole universali; corretto verso generale del controllo digestivo.",
+      "refs": [
+        "anatomia-segnali-neurali/circuiti"
+      ]
+    },
+    {
+      "document": "riassunto-anatomia-martini",
+      "position": "84, 87",
+      "correction": "Corona radiata accompagna l’ovocita; impianto nell’endometrio e non nell’endotelio.",
+      "refs": [
+        "anatomia-genitale/cicli"
+      ]
+    }
+  ],
+  "limitations": [
+    "La mappa copre tutti gli intervalli di pagine/slide per argomenti, non attesta che ogni frase o dettaglio sia corretto e riprodotto.",
+    "Il PDF di Anatomia è un riassunto di provenienza dichiarata nel file, non una scheda ufficiale UniBa.",
+    "Il video esterno della slide 27 non è stato visionato.",
+    "Restano programma analitico corrente, ulteriori materiali assegnati e verifica della preparazione individuale."
+  ],
+  "technicalVerification": {
+    "date": "2026-10-26",
+    "status": "passed",
+    "contentCheck": "passed",
+    "unitTests": 52,
+    "browser": [
+      "materials-browser: nove lezioni interessate; tutti i 96 distrattori dei 48 quiz, feedback specifici, aiuti integrali, tabelle, schemi, nove quaderni, mobile e progressi precedenti",
+      "browser generale: file:// offline, lettura, sessioni, salvataggi, riapertura, aggiornamento HTML, backup, stampa e mobile",
+      "readings-browser: 198 lezioni con pannelli chiusi, URL esatti, scheda separata, aiuti e stampa"
+    ],
+    "visualReview": "Controllati screenshot mobile dei tre schemi nei temi disponibili e pagina 2 del quaderno Cute stampato in PDF.",
+    "network": "Zero richieste automatiche di rete; approfondimenti solo su azione esplicita.",
+    "attachments": "Nessun PDF/PPTX completo, nessuna immagine estratta dalle slide nel bundle; controllata anche assenza dei tre nomi sorgente dalla consegna.",
+    "retainedIds": {
+      "units": 219,
+      "sections": 861,
+      "questions": 1895
+    },
+    "standaloneBytes": 30080728,
+    "limitation": "Controlli tecnici e confronto editoriale dei nuclei; non certificazione di ogni dettaglio dei file, del programma analitico corrente o della preparazione individuale."
+  }
+}

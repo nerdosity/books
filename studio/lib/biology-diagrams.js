@@ -1,5 +1,34 @@
-export const BIOLOGY_DIAGRAMS=['dna-gel','pedigree-recessivo'];
+export const BIOLOGY_DIAGRAMS=['dna-gel','pedigree-recessivo','cellula-scale','cute-strati','circuiti-neurali'];
 export function biologyDiagramHTML(kind) {
+  if(kind==='cellula-scale')return `<figure class="biology-diagram" data-biology-diagram="cellula-scale">
+    <figcaption><strong>Lo zoom cambia l’immagine, non la misura</strong></figcaption>
+    <svg viewBox="0 0 380 240" role="img" aria-label="Due ingrandimenti dello stesso oggetto. In entrambi la lunghezza è due volte la barra da 2 micrometri: l’oggetto misura 4 micrometri.">
+      <g fill="#173b33" font-size="16"><text x="20" y="26">Vista A</text><text x="20" y="132">Vista B · zoom maggiore</text></g>
+      <g fill="#d7e9e4" stroke="#174b42" stroke-width="2"><rect x="20" y="42" width="160" height="28" rx="14"/><rect x="20" y="148" width="240" height="42" rx="21"/></g>
+      <g stroke="#174b42" stroke-width="3"><path d="M20 82 H100 M20 77 V87 M100 77 V87"/><path d="M20 205 H140 M20 200 V210 M140 200 V210"/></g>
+      <g fill="#173b33" font-size="16"><text x="112" y="88">2 µm</text><text x="152" y="211">2 µm</text></g>
+    </svg><p>In entrambe le viste: 2 barre × 2 µm = 4 µm. Disegno originale dimostrativo, non micrografia di una specie.</p></figure>`;
+  if(kind==='cute-strati')return `<figure class="biology-diagram" data-biology-diagram="cute-strati">
+    <figcaption><strong>Dalla superficie alla profondità</strong></figcaption>
+    <svg viewBox="0 0 380 290" role="img" aria-label="Schema della cute: epidermide priva di vasi, derma papillare con capillari, derma reticolare con connettivo denso, ipoderma adiposo. Il sottocute è distinto dalla cute propriamente detta.">
+      <rect x="16" y="24" width="348" height="58" rx="6" fill="#ebe1d8"/>
+      <rect x="16" y="85" width="348" height="58" rx="6" fill="#f2d6cc"/>
+      <rect x="16" y="146" width="348" height="58" rx="6" fill="#e8c1b8"/>
+      <rect x="16" y="207" width="348" height="62" rx="6" fill="#f1e1ac"/>
+      <g fill="#293b3a" font-size="16"><text x="30" y="47">Epidermide</text><text x="30" y="69">Epitelio · senza vasi</text>
+      <text x="30" y="108">Derma papillare</text><text x="30" y="130">Connettivo lasso · capillari</text>
+      <text x="30" y="169">Derma reticolare</text><text x="30" y="191">Connettivo denso · vasi e annessi</text>
+      <text x="30" y="232">Ipoderma / sottocute</text><text x="30" y="254">Connettivo lasso e adiposo</text></g>
+    </svg><p>Schema originale dei livelli, senza proporzioni istologiche. L’ipoderma è associato alla cute ma distinto da epidermide e derma. Non rappresenta tutti gli annessi.</p></figure>`;
+  if(kind==='circuiti-neurali')return `<figure class="biology-diagram" data-biology-diagram="circuiti-neurali">
+    <figcaption><strong>Contare sorgenti e bersagli</strong></figcaption>
+    <svg viewBox="0 0 380 300" role="img" aria-label="Convergenza: neuroni A e B inviano segnali a C. Divergenza: D invia segnali a E e F. Le frecce indicano direzione, non eccitazione o inibizione.">
+      <g fill="#173b33" font-size="17"><text x="20" y="26">Convergenza · molti → uno</text><text x="20" y="176">Divergenza · uno → molti</text></g>
+      <g stroke="#174b42" stroke-width="2.5" fill="none"><path d="M105 65 L260 95 M105 125 L260 95 M105 240 L260 210 M105 240 L260 270"/></g>
+      <g fill="#174b42"><path d="M260 95 l-12 -9 1 13z M260 95 l-13 -4 1 13z M260 210 l-13 -4 1 13z M260 270 l-12 -9 -1 13z"/></g>
+      <g stroke="#174b42" stroke-width="2" fill="#e2eeea"><circle cx="85" cy="65" r="20"/><circle cx="85" cy="125" r="20"/><circle cx="285" cy="95" r="20"/><circle cx="85" cy="240" r="20"/><circle cx="285" cy="210" r="20"/><circle cx="285" cy="270" r="20"/></g>
+      <g fill="#173b33" font-size="18" text-anchor="middle"><text x="85" y="71">A</text><text x="85" y="131">B</text><text x="285" y="101">C</text><text x="85" y="246">D</text><text x="285" y="216">E</text><text x="285" y="276">F</text></g>
+    </svg><p>Schema originale di connessioni, non anatomia di un circuito specifico. Le frecce indicano la direzione: per prevedere la risposta servono anche segno, intensità e tempi dei segnali.</p></figure>`;
   if(kind==='pedigree-recessivo')return `<figure class="biology-diagram" data-biology-diagram="pedigree-recessivo">
     <figcaption><strong>Due generazioni: distinguere fenotipo osservato e genotipo</strong></figcaption>
     <svg viewBox="0 0 380 285" role="img" aria-label="Pedigree inventato. I-1, padre senza fenotipo, e I-2, madre senza fenotipo, hanno tre figli: II-1 maschio con fenotipo, II-2 femmina senza fenotipo, II-3 maschio senza fenotipo. I genotipi non sono indicati nei simboli.">

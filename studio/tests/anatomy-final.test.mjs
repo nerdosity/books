@@ -8,7 +8,7 @@ const read=n=>JSON.parse(readFileSync(new URL('../data/'+n+'.json',import.meta.u
 const c=read('course'),e=read('exercises'),a=read('anatomy-audit'),exam=c.exams.find(e=>e.id==='anatomia-umana');
 const ids=exam.modules[0].unitIds,questions=e.questions.filter(q=>ids.includes(q.unit));
 test('anatomy crosswalk resolves every public syllabus row to teaching and assessment while distinguishing current oral format',()=>{
- assert.equal(a.crosswalk.length,75);assert.equal(ids.length,57);assert.equal(questions.length,471);
+ assert.equal(a.crosswalk.length,75);assert.equal(ids.length,59);assert.equal(questions.length,493);
  for(const row of a.crosswalk){
   assert.ok(row.questionIds.length,row.topic);
   for(const ref of row.refs){const [u,s]=ref.split('/');assert.ok(ids.includes(u));assert.ok(c.units.find(x=>x.id===u).sections.some(x=>x.id===s));}
