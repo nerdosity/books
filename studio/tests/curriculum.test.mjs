@@ -5,14 +5,15 @@ import {validateContent} from '../lib/validate.js';
 import {examUnitIds, unitsForExam, examsForUnit, selectDefinitions, programmeQuestions} from '../lib/curriculum.js';
 const [course,exercises,library]=await Promise.all(['course','exercises','library'].map(async n=>JSON.parse(await readFile(new URL(`../data/${n}.json`,import.meta.url),'utf8'))));
 const definitions=[...exercises.questions,...exercises.templates];
+const suppliedMaterials=JSON.parse(await readFile(new URL('../data/materials-20261104-audit.json',import.meta.url),'utf8'));
 test('all official first-year exams have teaching and preserve the biology/biochemistry grouping',()=>{
   assert.equal(course.exams.length,10);
   assert.equal(course.exams.reduce((n,e)=>n+e.cfu,0),61);
   assert.equal(course.curriculum.academicYear,'2026/2027');
   const e=course.exams.find(e=>e.id==='scienze-biologiche');
   assert.equal(e.modules.length,2);
-  assert.equal(examUnitIds(e).length,54);
-  assert.equal(unitsForExam(course,e.id).length,54);
+  assert.equal(examUnitIds(e).length,56);
+  assert.equal(unitsForExam(course,e.id).length,56);
   assert.equal(examsForUnit(course,'ph')[0].id,e.id);
   assert.equal(unitsForExam(course,'informatica').length,10);
   assert.ok(course.exams.every(e=>e.modules.every(m=>m.unitIds.length)));
@@ -74,13 +75,16 @@ test('visual markers reject invalid coordinates, duplicate letters and missing l
 });
 test('new chapters provide internal teaching, worked examples and self-assessed oral answers',()=>{
   const expanded=course.units.filter(u=>u.oral);
-  assert.equal(expanded.length,204);
+  assert.equal(expanded.length,229);
   for(const u of expanded) {
-    assert.ok(u.sections.length>=4);
+    const supplied=suppliedMaterials.additions.unitIds.includes(u.id);
+    assert.ok(u.sections.length>=(supplied?3:4));
     assert.ok(u.sections.every(s=>s.text.length>=2&&s.example&&s.takeaway));
     assert.ok(exercises.questions.filter(q=>q.unit===u.id).length>=4);
     for(const section of u.sections) assert.ok(exercises.questions.some(q=>q.help===`${u.id}/${section.id}`));
-    assert.ok(u.sources.length&&u.oral.criteria.length>=2);
+    // Private source provenance lives in the editorial audit, never in attachment links.
+    assert.ok(u.sources.length||suppliedMaterials.documents.some(d=>d.groups.some(g=>g.refs.some(r=>r.startsWith(u.id+'/')))));
+    assert.ok(u.oral.criteria.length>=2);
   }
 });
 test('guided tests cover each available mapped topic, omit gaps, stay within the exam and do not duplicate questions',()=>{

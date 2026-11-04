@@ -5,14 +5,14 @@ import { renderBuild, inlineJson } from '../scripts/build.mjs';
 
 test('delivery is one deterministic HTML with content, CSS and classic JavaScript embedded', async () => {
   const {html,counts} = await renderBuild();
-  assert.equal(counts.units,224);
+  assert.equal(counts.units,249);
   assert.equal(counts.exams,10);
   assert.equal(html,(await renderBuild()).html);
   assert.doesNotMatch(html,/<script[^>]+\bsrc=|<link[^>]+\brel="stylesheet"|type="module"/i);
   assert.doesNotMatch(html,/XMLHttpRequest|localhost|127\.0\.0\.1/);
   assert.match(html,/https:\/\/api\.elevenlabs\.io/);
   const data = JSON.parse(html.match(/<script type="application\/json" id="studio-data">([\s\S]*?)<\/script>/)[1]);
-  assert.equal(data.exercises.questions.length,1943);
+  assert.equal(data.exercises.questions.length,2171);
   assert.equal(data.course.figures.length,28);
   for(const figure of data.course.figures) assert.match(figure.dataUrl,figure.file.endsWith('.png')?/^data:image\/png;base64,iVBORw0KGgo/:/^data:image\/jpeg;base64,\/9j\//);
   const code=html.match(/<script>\n([\s\S]*?)<\/script>/)[1];

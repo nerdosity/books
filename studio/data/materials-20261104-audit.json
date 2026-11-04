@@ -1,0 +1,7388 @@
+{
+  "date": "2026-11-04",
+  "scope": "Nuovi documenti nella cartella dispense: nozioni integrate nelle lezioni e negli esercizi, nessun allegato o collegamento agli originali nella consegna.",
+  "currentSyllabusConfirmed": false,
+  "documents": [
+    {
+      "file": "01_anatomia Pinel.pdf",
+      "sha256": "5d574ce144189ef12131531cb71ca4c0b53cf6a76441d00b6527599eb2bf7990",
+      "pageCount": 32,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "topic": "SNC/SNP e suddivisioni",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-divisioni",
+            "nov04-detail-a-1"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "topic": "Ventricoli, meningi e circolazione del liquor",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-regioni",
+            "nov04-detail-a-4"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 11,
+          "topic": "Neurone, organelli, membrana, morfologie, astroglia e mielina",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-cellule",
+            "nov04-detail-a-2"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 16,
+          "topic": "Golgi, Nissl, microscopia elettronica, mielina e traccianti",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-metodi",
+            "nov04-detail-a-3"
+          ]
+        },
+        {
+          "from": 17,
+          "to": 21,
+          "topic": "Coordinate e piani, radici, ganglio e sezione del midollo",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-divisioni",
+            "nov04-detail-a-1"
+          ]
+        },
+        {
+          "from": 22,
+          "to": 27,
+          "topic": "Vescicole embrionali, tronco, cervelletto, mesencefalo, talamo e ipotalamo",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-regioni",
+            "nov04-detail-a-4"
+          ]
+        },
+        {
+          "from": 28,
+          "to": 32,
+          "topic": "Scissure, lobi, strati, strutture limbiche e nuclei della base; correzione classificazione amigdala",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-organizzazione-corteccia",
+            "nov04-detail-a-5"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/cellule"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/metodi"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/divisioni"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/regioni"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "neuro-organizzazione/corteccia"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "02_conduzioni e sinapsi Pinel.pdf",
+      "sha256": "a3b295dcb5bacb407a2538a62a078dad224c14b5de25370b0aada9ca86f8c717",
+      "pageCount": 19,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "topic": "Misura del potenziale e distribuzione degli ioni",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-sinapsi-potenziale",
+            "nov04-detail-a-6"
+          ]
+        },
+        {
+          "from": 5,
+          "to": 7,
+          "topic": "EPSP/IPSP e sommazione spaziale e temporale",
+          "refs": [
+            "neuro-sinapsi/integrazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-sinapsi-integrazione",
+            "nov04-detail-a-7"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 8,
+          "topic": "Fasi del potenziale d’azione e canali",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-sinapsi-potenziale",
+            "nov04-detail-a-6"
+          ]
+        },
+        {
+          "from": 9,
+          "to": 15,
+          "topic": "Sinapsi, inibizione, varicosità, esocitosi, recettori e cessazione del segnale",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-sinapsi-rilascio",
+            "nov04-detail-a-8"
+          ]
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "topic": "Catecolamine, processi sinaptici, agonismo/antagonismo e modulazione GABA",
+          "refs": [
+            "neuro-sinapsi/modulazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-sinapsi-modulazione",
+            "nov04-detail-a-9"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/integrazione"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/integrazione"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/integrazione"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/potenziale"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/rilascio"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/modulazione"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/modulazione"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/modulazione"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-sinapsi/modulazione"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "05_sistema visivo Pinel.pdf",
+      "sha256": "151ba776130de3f7a0d2f7828c7e7416c5c12bf204f371b6f778f4e8bb887bce",
+      "pageCount": 31,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "topic": "Spettro visibile e anatomia dell’occhio",
+          "refs": [
+            "neuro-visione/occhio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-occhio",
+            "nov04-detail-a-10"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 4,
+          "topic": "Disparità binoculare",
+          "refs": [
+            "neuro-visione/vie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-vie",
+            "nov04-detail-a-12"
+          ]
+        },
+        {
+          "from": 5,
+          "to": 5,
+          "topic": "Strati retinici",
+          "refs": [
+            "neuro-visione/occhio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-occhio",
+            "nov04-detail-a-10"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 6,
+          "topic": "Completamento del punto cieco",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-trasduzione",
+            "nov04-detail-a-11"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "topic": "Fovea, convergenza e densità dei recettori",
+          "refs": [
+            "neuro-visione/occhio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-occhio",
+            "nov04-detail-a-10"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "topic": "Curve spettrali normalizzate, stabilizzazione, rodopsina e iperpolarizzazione",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-trasduzione",
+            "nov04-detail-a-11"
+          ]
+        },
+        {
+          "from": 14,
+          "to": 14,
+          "topic": "Via retino-genicolo-striata",
+          "refs": [
+            "neuro-visione/vie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-vie",
+            "nov04-detail-a-12"
+          ]
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "topic": "Contrasto e inibizione laterale, campi centro ON/OFF",
+          "refs": [
+            "neuro-visione/contrasto"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-contrasto",
+            "nov04-detail-a-13"
+          ]
+        },
+        {
+          "from": 19,
+          "to": 25,
+          "topic": "Colonne, dominanza oculare, autoradiografia, grate e Fourier",
+          "refs": [
+            "neuro-visione/colonne"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-colonne",
+            "nov04-detail-a-14"
+          ]
+        },
+        {
+          "from": 26,
+          "to": 31,
+          "topic": "Postimmagini, coni, opponenza, Land, costanza e blob",
+          "refs": [
+            "neuro-visione/colore"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-visione-colore",
+            "nov04-detail-a-15"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/vie"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/occhio"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/trasduzione"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/vie"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/contrasto"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/contrasto"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/contrasto"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/contrasto"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colonne"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "neuro-visione/colore"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "06_Percezione Pinel.pdf",
+      "sha256": "b2b24f4b33afbcdbba6bb9a553dfd8a2049367bfa23963c514053e8ae1b72396",
+      "pageCount": 28,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 11,
+          "topic": "Organizzazione parallela, scotomi, completamento, contorni, vie e riconoscimento",
+          "refs": [
+            "neuro-percezione/reti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-percezione-reti",
+            "nov04-detail-a-16"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 17,
+          "topic": "Dimensioni del suono, Fourier, orecchio, vie e localizzazione",
+          "refs": [
+            "neuro-percezione/udito"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-percezione-udito",
+            "nov04-detail-a-17"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 23,
+          "topic": "Recettori, dermatomeri, vie sensitive, homunculus e antagonismo",
+          "refs": [
+            "neuro-percezione/somato"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-percezione-somato",
+            "nov04-detail-a-18"
+          ]
+        },
+        {
+          "from": 24,
+          "to": 25,
+          "topic": "Componenti affettive e controllo discendente del dolore",
+          "refs": [
+            "neuro-percezione/dolore"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-percezione-dolore",
+            "nov04-detail-a-19",
+            "nov04-detail-a-20"
+          ]
+        },
+        {
+          "from": 26,
+          "to": 28,
+          "topic": "Olfatto, papille, bottoni e via gustativa",
+          "refs": [
+            "neuro-percezione/dolore"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-percezione-dolore",
+            "nov04-detail-a-19",
+            "nov04-detail-a-20"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/reti"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/udito"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/somato"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/dolore"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/dolore"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/dolore"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/dolore"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "neuro-percezione/dolore"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "07_Sensori motorio Pinel.pdf",
+      "sha256": "599bf701e8037c9671a7ab08db49b83c7eaee8e3c67daf3319f434d69c6e614f",
+      "pageCount": 20,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 9,
+          "topic": "Gerarchia e feedback, parietale, aprassia, prefrontale, aree motorie e immaginazione",
+          "refs": [
+            "neuro-movimento/piano"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-movimento-piano",
+            "nov04-detail-a-21"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 14,
+          "topic": "Vie discendenti, unità motrice, antagonisti e contrazioni",
+          "refs": [
+            "neuro-movimento/vie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-movimento-vie",
+            "nov04-detail-a-22"
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "topic": "Fuso, gamma, stiramento, feedback, ritrazione, Golgi e Renshaw",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-movimento-riflessi",
+            "nov04-detail-a-23",
+            "nov04-detail-a-24"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/piano"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/vie"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/vie"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/vie"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/vie"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/vie"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-movimento/riflessi"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "12_MEMORIAl.pdf",
+      "sha256": "e1756cfe4e66d312ae25befa232fe39b24b0476a10f47730c46cc2e6339fc8b2",
+      "pageCount": 19,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 2,
+          "topic": "Consolidamento di Hebb",
+          "refs": [
+            "neuro-memoria/hebb"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-memoria-hebb",
+            "nov04-detail-a-25"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 9,
+          "topic": "H.M., prove verbali/non verbali, specchio, pursuit, figure incomplete, R.B. e amnesie",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-memoria-amnesie",
+            "nov04-detail-a-26"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "topic": "Intervalli dell’ECS e gradiente retrogrado",
+          "refs": [
+            "neuro-memoria/hebb"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-memoria-hebb",
+            "nov04-detail-a-25"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 17,
+          "topic": "Non-matching, ritardo, specie e sedi delle lesioni",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-memoria-riconoscimento",
+            "nov04-detail-a-27"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 19,
+          "topic": "Cellule di luogo e sistemi distribuiti della memoria",
+          "refs": [
+            "neuro-memoria/spazio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-memoria-spazio",
+            "nov04-detail-a-28"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/hebb"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/amnesie"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/hebb"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/hebb"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/riconoscimento"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/spazio"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-memoria/spazio"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "13_Plasticità neuronale Pinel.pdf",
+      "sha256": "1f7dd8fd766a00cb773f0b9d9a1cdfc79e2d85c9742e13c2bd58aefde3403ec1",
+      "pageCount": 27,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 10,
+          "topic": "Neurulazione, migrazione, crescita, Sperry, gradienti, selezione e deprivazione",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-plasticita-sviluppo",
+            "nov04-detail-a-29"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 15,
+          "topic": "Circuito di Aplysia, abituazione, sensibilizzazione e condizionamento",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-plasticita-aplysia",
+            "nov04-detail-a-30"
+          ]
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "topic": "Circuiti ippocampali, LTP, calcio e NMDA",
+          "refs": [
+            "neuro-plasticita/ltp"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-plasticita-ltp",
+            "nov04-detail-a-31"
+          ]
+        },
+        {
+          "from": 20,
+          "to": 27,
+          "topic": "Degenerazione, rigenerazione, sprouting, riorganizzazione, età e trapianti sperimentali",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-plasticita-riparazione",
+            "nov04-detail-a-32"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/sviluppo"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/aplysia"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/ltp"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/ltp"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/ltp"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/ltp"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "neuro-plasticita/riparazione"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "14_Lateralizzazione Split Brain Pinel.pdf",
+      "sha256": "6cd46e9ac240b911ec140c1e7ed234c799669aa633bb180a0d0d968b1759c6fc",
+      "pageCount": 20,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 6,
+          "topic": "Commissure, Broca, presentazione lateralizzata ed esperimenti di Sperry",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-lateralizzazione-commissure",
+            "nov04-detail-a-33",
+            "nov04-neuro-lateralizzazione-linguaggio",
+            "nov04-detail-a-35"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "topic": "Procedure split-brain, lente Z e abilità relativamente lateralizzate",
+          "refs": [
+            "neuro-lateralizzazione/split"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-lateralizzazione-split",
+            "nov04-detail-a-34"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 18,
+          "topic": "Asimmetrie, modello Wernicke-Geschwind, lesioni e stimolazione",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-lateralizzazione-linguaggio",
+            "nov04-detail-a-35"
+          ]
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "topic": "PET, sottrazione e compiti linguistici",
+          "refs": [
+            "neuro-lateralizzazione/immagini"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-lateralizzazione-immagini",
+            "nov04-detail-a-36"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/commissure",
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/split"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/split"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/split"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/linguaggio"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/immagini"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "neuro-lateralizzazione/immagini"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Sensazione Percezione_cap02.ppt",
+      "sha256": "15ee47e26d06092c5d38b1d753f300b1609b095190a049070eb30904101bdaad",
+      "pageCount": 36,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 7,
+          "topic": "Sensazione, soglie, metodi, Weber, Fechner e Stevens",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-psicofisica-metodi",
+            "nov04-detail-b-1"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 15,
+          "topic": "Detezione, criterio, catena psicofisica, errori e rispetto-sospetto",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-psicofisica-decisione",
+            "nov04-detail-b-2"
+          ]
+        },
+        {
+          "from": 16,
+          "to": 24,
+          "topic": "Helmholtz, Gestalt, New Look, Gibson, Marr, figura-sfondo e raggruppamento",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-psicofisica-teorie",
+            "nov04-detail-b-3"
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "topic": "Profondità e costanze",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-psicofisica-profondita",
+            "nov04-detail-b-4"
+          ]
+        },
+        {
+          "from": 31,
+          "to": 36,
+          "topic": "Movimenti reali e apparenti, adattamento e interazione top-down/bottom-up",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-psicofisica-movimento",
+            "nov04-detail-b-5"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/metodi"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/decisione"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/teorie"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/profondita"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        },
+        {
+          "page": 36,
+          "status": "integrated",
+          "refs": [
+            "psico-psicofisica/movimento"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Attenzione Coscienza_cap03.ppt",
+      "sha256": "3beb285610b54739ed43759f307fdfba1e0769b6eba03f201945316a1318dc20",
+      "pageCount": 45,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 5,
+          "topic": "Flusso, consapevolezza, controllo, metacognizione e conoscenza distribuita",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-coscienza-attenzione-coscienza",
+            "nov04-detail-b-6"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 12,
+          "topic": "Automaticità e controllo, attenzione spaziale e selettiva",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-coscienza-attenzione-controllo",
+            "nov04-detail-b-7"
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "topic": "Simon, Stroop, Navon e doppio compito",
+          "refs": [
+            "psico-coscienza-attenzione/interferenza"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-coscienza-attenzione-interferenza",
+            "nov04-detail-b-8"
+          ]
+        },
+        {
+          "from": 15,
+          "to": 19,
+          "topic": "Polisonnografia, stadi e cicli REM/NREM",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-architettura",
+            "nov04-detail-b-9"
+          ]
+        },
+        {
+          "from": 20,
+          "to": 21,
+          "topic": "Cronotipi senza stereotipi di personalità",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-ritmi",
+            "nov04-detail-b-10"
+          ]
+        },
+        {
+          "from": 22,
+          "to": 26,
+          "topic": "Funzioni, privazione totale/parziale/selettiva, microsonni e recupero",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-privazione",
+            "nov04-detail-b-11"
+          ]
+        },
+        {
+          "from": 27,
+          "to": 29,
+          "topic": "Teorie dei sogni e lucidità",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-sogni",
+            "nov04-detail-b-12"
+          ]
+        },
+        {
+          "from": 30,
+          "to": 36,
+          "topic": "Circadianità, free-running, zeitgeber e contesti culturali senza stereotipi nazionali",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-ritmi",
+            "nov04-detail-b-10"
+          ]
+        },
+        {
+          "from": 37,
+          "to": 45,
+          "topic": "Ipnosi, induzione, suscettibilità, analgesia, ricordo e meditazione",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-sonno-stati-sogni",
+            "nov04-detail-b-12"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/coscienza"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/controllo"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/interferenza"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "psico-coscienza-attenzione/interferenza"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/architettura"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/privazione"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 36,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/ritmi"
+          ]
+        },
+        {
+          "page": 37,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 38,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 39,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 40,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 41,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 42,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 43,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 44,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        },
+        {
+          "page": 45,
+          "status": "integrated",
+          "refs": [
+            "psico-sonno-stati/sogni"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Apprendimento Memoria_cap04.ppt",
+      "sha256": "041137cf0e440a52f4b561515459a916a70109199d8b418cac6c5e89f6440df1",
+      "pageCount": 35,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 7,
+          "topic": "Condizionamento, acquisizione, estinzione, recupero, generalizzazione e avversione",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-apprendimento-concetti-predire",
+            "nov04-detail-b-13"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 11,
+          "topic": "Categorie, Hull, livelli, prototipi e scopi",
+          "refs": [
+            "psico-apprendimento-concetti/categorie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-apprendimento-concetti-categorie",
+            "nov04-detail-b-14"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 14,
+          "topic": "Regole, soglie, AND, OR e XOR",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-apprendimento-concetti-regole",
+            "nov04-detail-b-15"
+          ]
+        },
+        {
+          "from": 15,
+          "to": 19,
+          "topic": "Thorndike, operanti, shaping e superstizione",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-apprendimento-concetti-predire",
+            "nov04-detail-b-13"
+          ]
+        },
+        {
+          "from": 20,
+          "to": 23,
+          "topic": "Chomsky, produttività e connessionismo",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-apprendimento-concetti-regole",
+            "nov04-detail-b-15"
+          ]
+        },
+        {
+          "from": 24,
+          "to": 26,
+          "topic": "Sistemi, Sperling e memoria di lavoro",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-memoria-studio-architettura",
+            "nov04-detail-b-16"
+          ]
+        },
+        {
+          "from": 27,
+          "to": 29,
+          "topic": "Codifica, indizi, memoria prospettica e immaginazione",
+          "refs": [
+            "psico-memoria-studio/codifica"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-memoria-studio-codifica",
+            "nov04-detail-b-17"
+          ]
+        },
+        {
+          "from": 30,
+          "to": 33,
+          "topic": "Oblio, orso bianco, interferenza e posizione seriale",
+          "refs": [
+            "psico-memoria-studio/oblio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-memoria-studio-oblio",
+            "nov04-detail-b-18"
+          ]
+        },
+        {
+          "from": 34,
+          "to": 34,
+          "topic": "Memoria episodica e semantica",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-memoria-studio-architettura",
+            "nov04-detail-b-16"
+          ]
+        },
+        {
+          "from": 35,
+          "to": 35,
+          "topic": "PQ4R",
+          "refs": [
+            "psico-memoria-studio/pq4r"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-memoria-studio-pq4r",
+            "nov04-detail-b-19"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/categorie"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/categorie"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/categorie"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/categorie"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/predire"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "psico-apprendimento-concetti/regole"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/codifica"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/codifica"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/codifica"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/oblio"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/oblio"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/oblio"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/oblio"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/architettura"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "psico-memoria-studio/pq4r"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Emozioni_cap08.ppt",
+      "sha256": "5b789bf462ff3a7291643c49f241003c8872914484455a74268b68e87dd5c1af",
+      "pageCount": 40,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 7,
+          "topic": "James-Lange, critiche, feedback facciale, ipotesi vascolare e corpo-mente",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-emozioni-modelli-corpo",
+            "nov04-detail-b-20"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "topic": "Cannon, ipotalamo, amigdala e Klüver-Bucy",
+          "refs": [
+            "psico-emozioni-modelli/circuiti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-emozioni-modelli-circuiti",
+            "nov04-detail-b-21"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 23,
+          "topic": "Schachter, attribuzione, transfer, appraisal, teorie discrete, Lazarus e Scherer",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-emozioni-modelli-appraisal",
+            "nov04-detail-b-22"
+          ]
+        },
+        {
+          "from": 24,
+          "to": 34,
+          "topic": "Espressioni, Ekman, comunicazione, voce, Frijda e condivisione",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-emozioni-modelli-espressione",
+            "nov04-detail-b-23"
+          ]
+        },
+        {
+          "from": 35,
+          "to": 40,
+          "topic": "Lessico, script, focalità, iper/ipocognitivizzazione e variazioni culturali",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-emozioni-modelli-cultura",
+            "nov04-detail-b-24"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/corpo"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/circuiti"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/circuiti"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/circuiti"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/appraisal"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/espressione"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        },
+        {
+          "page": 36,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        },
+        {
+          "page": 37,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        },
+        {
+          "page": 38,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        },
+        {
+          "page": 39,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        },
+        {
+          "page": 40,
+          "status": "integrated",
+          "refs": [
+            "psico-emozioni-modelli/cultura"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Motivazione_cap07.ppt",
+      "sha256": "4d84aa40428d28dabe6bd05e224780a53bdbc03c1a6a87b788ebeb77fec758e9",
+      "pageCount": 35,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 4,
+          "topic": "Definizione, istinto, bisogni, pulsioni e motivazioni primarie/secondarie",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-modelli",
+            "nov04-detail-b-25"
+          ]
+        },
+        {
+          "from": 5,
+          "to": 5,
+          "topic": "Maslow",
+          "refs": [
+            "psico-motivazione-bisogni/obiettivi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-obiettivi",
+            "nov04-detail-b-28"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "topic": "Fame, alliestesia, termogenesi, riferimento, incentivi e assestamento",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-energia",
+            "nov04-detail-b-26"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 18,
+          "topic": "Fasi del metabolismo, segnali, gusto, cultura, tabù e disturbi alimentari",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-reti-cibo",
+            "nov04-detail-b-27"
+          ]
+        },
+        {
+          "from": 19,
+          "to": 21,
+          "topic": "Approcci biologico, comportamentale e cognitivo",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-modelli",
+            "nov04-detail-b-25"
+          ]
+        },
+        {
+          "from": 22,
+          "to": 23,
+          "topic": "Successo/insuccesso e TOTE",
+          "refs": [
+            "psico-motivazione-bisogni/obiettivi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-obiettivi",
+            "nov04-detail-b-28"
+          ]
+        },
+        {
+          "from": 24,
+          "to": 33,
+          "topic": "Interazione, affiliazione, attaccamento, amore, successo e potere",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-relazioni",
+            "nov04-detail-b-29"
+          ]
+        },
+        {
+          "from": 34,
+          "to": 35,
+          "topic": "Competenza, autonomia, interesse e motivazione intrinseca",
+          "refs": [
+            "psico-motivazione-bisogni/intrinseca"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-motivazione-bisogni-intrinseca",
+            "nov04-detail-b-30"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/obiettivi"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/energia"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/reti-cibo"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/modelli"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/obiettivi"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/obiettivi"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/relazioni"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/intrinseca"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "psico-motivazione-bisogni/intrinseca"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Pedagogia generale I parte.pptx",
+      "sha256": "05c1200393d89c381b3de25b9ef0a89e2163e6783cdfa606a80fcbdf020bd5ef",
+      "pageCount": 131,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 2,
+          "topic": "Programma: orientamento ai capitoli sviluppati",
+          "refs": [
+            "pedagogia-fondamenti/termini"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "y1-pedagogia-fondamenti-termini"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 7,
+          "topic": "Cura, cure/care, responsabilità e persona",
+          "refs": [
+            "pedagogia-cura/curare"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cura-curare",
+            "nov04-detail-c-1"
+          ]
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "topic": "Accoglienza e incontro: Todorov, Buber e Guardini",
+          "refs": [
+            "pedagogia-cura/incontro"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cura-incontro",
+            "nov04-detail-c-2"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 25,
+          "topic": "Valore educativo, sociale e inclusivo dello sport",
+          "refs": [
+            "pedagogia-cura/sport"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cura-sport",
+            "nov04-detail-c-3"
+          ]
+        },
+        {
+          "from": 26,
+          "to": 28,
+          "topic": "Oggetto e identità della pedagogia",
+          "refs": [
+            "pedagogia-sapere/disciplina"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-disciplina",
+            "nov04-detail-c-5"
+          ]
+        },
+        {
+          "from": 29,
+          "to": 40,
+          "topic": "Polis, Sparta, Atene, paideia e istruzione antica",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-greci",
+            "nov04-detail-c-10"
+          ]
+        },
+        {
+          "from": 41,
+          "to": 44,
+          "topic": "Ricerca e azione educativa, contributi disciplinari",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 45,
+          "to": 48,
+          "topic": "Quattro livelli e distinzione teorico/teoretico",
+          "refs": [
+            "pedagogia-sapere/livelli"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-livelli",
+            "nov04-detail-c-6"
+          ]
+        },
+        {
+          "from": 49,
+          "to": 55,
+          "topic": "Critica, progettazione, filosofia e sapere plurale",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-disciplina",
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-5",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 56,
+          "to": 59,
+          "topic": "Cura sui, autobiografia e rielaborazione",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-autobiografia",
+            "nov04-detail-c-14"
+          ]
+        },
+        {
+          "from": 60,
+          "to": 63,
+          "topic": "Autonomia scientifica e dialogo disciplinare",
+          "refs": [
+            "pedagogia-sapere/autonomia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-autonomia",
+            "nov04-detail-c-7"
+          ]
+        },
+        {
+          "from": 64,
+          "to": 68,
+          "topic": "Identità, Ricoeur, alterità, hospes/hostis e differenza",
+          "refs": [
+            "pedagogia-cura/identita"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cura-identita",
+            "nov04-detail-c-4"
+          ]
+        },
+        {
+          "from": 69,
+          "to": 73,
+          "topic": "Funzioni e fasi epistemologiche, limiti e ricomposizione",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-autonomia",
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-7",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 74,
+          "to": 78,
+          "topic": "Tecnica, consumo, senso e formazione integrale",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-autobiografia",
+            "nov04-detail-c-14"
+          ]
+        },
+        {
+          "from": 79,
+          "to": 92,
+          "topic": "Educazione sociale, pedagogia popolare, scuola, precettistica e sapere formale",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-scuola",
+            "nov04-detail-c-11"
+          ]
+        },
+        {
+          "from": 93,
+          "to": 96,
+          "topic": "Teoria/pratica, problemi, teorie e modelli",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 97,
+          "to": 115,
+          "topic": "Educazione, educabilità, autori e quattro significati",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-significati",
+            "nov04-detail-c-12"
+          ]
+        },
+        {
+          "from": 116,
+          "to": 131,
+          "topic": "Istruzione educativa, Herbart, Bildung, formazione permanente e auto/eteroeducazione",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-storia-formazione-bildung",
+            "nov04-detail-c-13"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-fondamenti/termini"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/curare"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/curare"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/curare"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/curare"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/curare"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/incontro"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/incontro"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/incontro"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/sport"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 36,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 37,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 38,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 39,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 40,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/greci"
+          ]
+        },
+        {
+          "page": 41,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 42,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 43,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 44,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 45,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli"
+          ]
+        },
+        {
+          "page": 46,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli"
+          ]
+        },
+        {
+          "page": 47,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli"
+          ]
+        },
+        {
+          "page": 48,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli"
+          ]
+        },
+        {
+          "page": 49,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 50,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 51,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 52,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 53,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 54,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 55,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/disciplina",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 56,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 57,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 58,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 59,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 60,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia"
+          ]
+        },
+        {
+          "page": 61,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia"
+          ]
+        },
+        {
+          "page": 62,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia"
+          ]
+        },
+        {
+          "page": 63,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia"
+          ]
+        },
+        {
+          "page": 64,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/identita"
+          ]
+        },
+        {
+          "page": 65,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/identita"
+          ]
+        },
+        {
+          "page": 66,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/identita"
+          ]
+        },
+        {
+          "page": 67,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/identita"
+          ]
+        },
+        {
+          "page": 68,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cura/identita"
+          ]
+        },
+        {
+          "page": 69,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 70,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 71,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 72,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 73,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 74,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 75,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 76,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 77,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 78,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/autobiografia"
+          ]
+        },
+        {
+          "page": 79,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 80,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 81,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 82,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 83,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 84,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 85,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 86,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 87,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 88,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 89,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 90,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 91,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 92,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/scuola"
+          ]
+        },
+        {
+          "page": 93,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 94,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 95,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 96,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 97,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 98,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 99,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 100,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 101,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 102,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 103,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 104,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 105,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 106,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 107,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 108,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 109,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 110,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 111,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 112,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 113,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 114,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 115,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/significati"
+          ]
+        },
+        {
+          "page": 116,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 117,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 118,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 119,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 120,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 121,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 122,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 123,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 124,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 125,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 126,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 127,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 128,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 129,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 130,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        },
+        {
+          "page": 131,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-storia-formazione/bildung"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Pedagogia generale II parte.pptx",
+      "sha256": "4fb32507c58e3860ba7a99273896a442f61400b8a9b13e22a671619038c1d657",
+      "pageCount": 89,
+      "kind": "slides",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 1,
+          "topic": "Titolo",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 2,
+          "to": 10,
+          "topic": "Problematicismo, Bertin/Banfi, Cives, Morin e complessità",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-paradigmi",
+            "nov04-detail-c-9"
+          ]
+        },
+        {
+          "from": 11,
+          "to": 15,
+          "topic": "Scienze dell’educazione, dialettica e trasformazione",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-autonomia",
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-7",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 16,
+          "to": 17,
+          "topic": "Esperienza e prassi educativa",
+          "refs": [
+            "pedagogia-sapere/livelli",
+            "pedagogia-sapere/prassi"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-sapere-livelli",
+            "nov04-pedagogia-sapere-prassi",
+            "nov04-detail-c-6",
+            "nov04-detail-c-8"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 24,
+          "topic": "Stereotipo, asimmetria e intenzione/effetto",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-metafore-intenzione",
+            "nov04-detail-c-15"
+          ]
+        },
+        {
+          "from": 25,
+          "to": 35,
+          "topic": "Umanistico/scientifico, riduzione empirica, senso, crescita e categorie",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-metafore-senso",
+            "nov04-detail-c-16"
+          ]
+        },
+        {
+          "from": 36,
+          "to": 41,
+          "topic": "Educatore, educando, azione, risultato, educativo ed educabile",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-metafore-categorie",
+            "nov04-detail-c-18"
+          ]
+        },
+        {
+          "from": 42,
+          "to": 52,
+          "topic": "Lakoff/Johnson, metafore, giardiniere/scultore e Montessori",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-metafore-immagini",
+            "nov04-detail-c-17"
+          ]
+        },
+        {
+          "from": 53,
+          "to": 58,
+          "topic": "Bruner, Dewey, apprendimento diretto/mediato e stabilità",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-mediazione",
+            "nov04-detail-c-19"
+          ]
+        },
+        {
+          "from": 59,
+          "to": 67,
+          "topic": "Classico, operante, tentativi/errori, cognitivo e Bandura",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-forme",
+            "nov04-detail-c-20"
+          ]
+        },
+        {
+          "from": 68,
+          "to": 74,
+          "topic": "Neuroni specchio, livelli di prova e approccio biopsicosociale",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-neuroscienze",
+            "nov04-detail-c-21"
+          ]
+        },
+        {
+          "from": 75,
+          "to": 79,
+          "topic": "Socio-emotivo, meta-analisi, autoconsapevolezza e biopedagogia",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-neuroscienze",
+            "nov04-pedagogia-cultura-apprendere-emozioni",
+            "nov04-detail-c-21",
+            "nov04-detail-c-22"
+          ]
+        },
+        {
+          "from": 80,
+          "to": 85,
+          "topic": "Linguaggio, cultura, direzioni della trasmissione e triade",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-trasmissione",
+            "nov04-detail-c-23"
+          ]
+        },
+        {
+          "from": 86,
+          "to": 89,
+          "topic": "Dono, cura, Rogers, orientamento e Milani",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/trasmissione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-pedagogia-cultura-apprendere-emozioni",
+            "nov04-pedagogia-cultura-apprendere-trasmissione",
+            "nov04-detail-c-22",
+            "nov04-detail-c-23"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/paradigmi"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/autonomia",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-sapere/livelli",
+            "pedagogia-sapere/prassi"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/intenzione"
+          ]
+        },
+        {
+          "page": 25,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 26,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 27,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 28,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 29,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 30,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 31,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 32,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 33,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 34,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 35,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/senso"
+          ]
+        },
+        {
+          "page": 36,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 37,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 38,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 39,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 40,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 41,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/categorie"
+          ]
+        },
+        {
+          "page": 42,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 43,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 44,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 45,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 46,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 47,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 48,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 49,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 50,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 51,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 52,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-metafore/immagini"
+          ]
+        },
+        {
+          "page": 53,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 54,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 55,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 56,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 57,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 58,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/mediazione"
+          ]
+        },
+        {
+          "page": 59,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 60,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 61,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 62,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 63,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 64,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 65,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 66,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 67,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/forme"
+          ]
+        },
+        {
+          "page": 68,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 69,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 70,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 71,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 72,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 73,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 74,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 75,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 76,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 77,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 78,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 79,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/neuroscienze"
+          ]
+        },
+        {
+          "page": 80,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 81,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 82,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 83,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 84,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 85,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 86,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 87,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 88,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        },
+        {
+          "page": 89,
+          "status": "integrated",
+          "refs": [
+            "pedagogia-cultura-apprendere/emozioni",
+            "pedagogia-cultura-apprendere/trasmissione"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Presentazione.pdf",
+      "sha256": "a7d2ebfae8995cfd1818d6aacab8c64e725dadc0bbce3735b4cb2578624fdff3",
+      "pageCount": 24,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "topic": "Titolo e immagine introduttiva della diversità biologica, senza ulteriori nozioni",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        },
+        {
+          "from": 3,
+          "to": 5,
+          "topic": "Componenti cellulari, domini e classificazione metabolica",
+          "refs": [
+            "biochimica-cellule-laboratorio/diversita"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-cellule-laboratorio-diversita",
+            "nov04-detail-a-37"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 6,
+          "topic": "Batteri, Gram e archei",
+          "refs": [
+            "biochimica-cellule-laboratorio/involucri"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-cellule-laboratorio-involucri",
+            "nov04-detail-a-38"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "topic": "Organelli animali/vegetali e lettura del citoscheletro in fluorescenza",
+          "refs": [
+            "biochimica-cellule-laboratorio/organelli"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-cellule-laboratorio-organelli",
+            "nov04-detail-a-39"
+          ]
+        },
+        {
+          "from": 9,
+          "to": 9,
+          "topic": "Centrifugazione differenziale e gradiente",
+          "refs": [
+            "biochimica-cellule-laboratorio/frazionamento"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-cellule-laboratorio-frazionamento",
+            "nov04-detail-a-40"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "topic": "Livelli di organizzazione ed elementi",
+          "refs": [
+            "biochimica-cellule-laboratorio/gerarchie"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-cellule-laboratorio-gerarchie",
+            "nov04-detail-a-41"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 12,
+          "topic": "Amminoacidi, nucleotidi, lipidi e zuccheri",
+          "refs": [
+            "biochimica-leggere-molecole/mattoni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-mattoni",
+            "nov04-detail-a-42"
+          ]
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "topic": "Valenza, legami e gruppi funzionali",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio",
+            "biochimica-leggere-molecole/funzioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-carbonio",
+            "nov04-biochimica-leggere-molecole-funzioni",
+            "nov04-detail-a-43",
+            "nov04-detail-a-44"
+          ]
+        },
+        {
+          "from": 15,
+          "to": 15,
+          "topic": "Gruppi dell’acetil-CoA",
+          "refs": [
+            "biochimica-leggere-molecole/acetilcoa"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-acetilcoa",
+            "nov04-detail-a-45"
+          ]
+        },
+        {
+          "from": 16,
+          "to": 17,
+          "topic": "Modelli, cunei e geometrie",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-carbonio",
+            "nov04-detail-a-43"
+          ]
+        },
+        {
+          "from": 18,
+          "to": 18,
+          "topic": "Maleico/fumarico e retinale",
+          "refs": [
+            "biochimica-leggere-molecole/geometrici"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-geometrici",
+            "nov04-detail-a-47"
+          ]
+        },
+        {
+          "from": 19,
+          "to": 19,
+          "topic": "Profilo torsionale dell’etano",
+          "refs": [
+            "biochimica-leggere-molecole/conformazioni"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-conformazioni",
+            "nov04-detail-a-46"
+          ]
+        },
+        {
+          "from": 20,
+          "to": 21,
+          "topic": "Centri stereogenici, enantiomeri e diastereoisomeri",
+          "refs": [
+            "biochimica-leggere-molecole/chiralita"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-chiralita",
+            "nov04-detail-a-48"
+          ]
+        },
+        {
+          "from": 22,
+          "to": 24,
+          "topic": "Complementarità, carvone, aspartame e citalopram",
+          "refs": [
+            "biochimica-leggere-molecole/riconoscimento",
+            "biochimica-leggere-molecole/chiralita"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-biochimica-leggere-molecole-chiralita",
+            "nov04-biochimica-leggere-molecole-riconoscimento",
+            "nov04-detail-a-48",
+            "nov04-detail-a-49"
+          ]
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 2,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/diversita"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/diversita"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/diversita"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/involucri"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/organelli"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/organelli"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/frazionamento"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/gerarchie"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "biochimica-cellule-laboratorio/gerarchie"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/mattoni"
+          ]
+        },
+        {
+          "page": 13,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio",
+            "biochimica-leggere-molecole/funzioni"
+          ]
+        },
+        {
+          "page": 14,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio",
+            "biochimica-leggere-molecole/funzioni"
+          ]
+        },
+        {
+          "page": 15,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/acetilcoa"
+          ]
+        },
+        {
+          "page": 16,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio"
+          ]
+        },
+        {
+          "page": 17,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/carbonio"
+          ]
+        },
+        {
+          "page": 18,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/geometrici"
+          ]
+        },
+        {
+          "page": 19,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/conformazioni"
+          ]
+        },
+        {
+          "page": 20,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/chiralita"
+          ]
+        },
+        {
+          "page": 21,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/chiralita"
+          ]
+        },
+        {
+          "page": 22,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/riconoscimento",
+            "biochimica-leggere-molecole/chiralita"
+          ]
+        },
+        {
+          "page": 23,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/riconoscimento",
+            "biochimica-leggere-molecole/chiralita"
+          ]
+        },
+        {
+          "page": 24,
+          "status": "integrated",
+          "refs": [
+            "biochimica-leggere-molecole/riconoscimento",
+            "biochimica-leggere-molecole/chiralita"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Amigdala Esercizio.pdf",
+      "sha256": "e729a32a65be02ff42f8f3d949fcacda00a13c4f25241918398c3d5ef384cda3",
+      "pageCount": 7,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "topic": "Domanda, campione, assegnazione, FFT e MIST",
+          "refs": [
+            "psico-ricerca-natura/disegno",
+            "psico-ricerca-natura/misure"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-natura-disegno",
+            "nov04-psico-ricerca-natura-misure",
+            "nov04-detail-b-31",
+            "nov04-detail-b-32"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 3,
+          "topic": "Percorsi, procedura, acquisizione fMRI",
+          "refs": [
+            "psico-ricerca-natura/disegno",
+            "psico-ricerca-natura/misure"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-natura-disegno",
+            "nov04-psico-ricerca-natura-misure",
+            "nov04-detail-b-31",
+            "nov04-detail-b-32"
+          ]
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "topic": "Contrasti, ROI, BOLD, figure, risultati e misure non concordanti",
+          "refs": [
+            "psico-ricerca-natura/risultati"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-natura-risultati",
+            "nov04-detail-b-33"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 6,
+          "topic": "Discussione, interpretazione, limiti e inizio riferimenti",
+          "refs": [
+            "psico-ricerca-natura/limiti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-natura-limiti",
+            "nov04-detail-b-34"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 7,
+          "topic": "Riferimenti finali, contributi, dichiarazioni e licenza; nessun nuovo risultato",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/disegno",
+            "psico-ricerca-natura/misure"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/disegno",
+            "psico-ricerca-natura/misure"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/disegno",
+            "psico-ricerca-natura/misure"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/risultati"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/risultati"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-natura/limiti"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "non-instructional",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "file": "Gaining_strength.pdf",
+      "sha256": "49436e376031b0d59abfb62c9ca4f4b6d03224fb43bad72d0b9090268cad1be3",
+      "pageCount": 13,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "topic": "Domanda, partecipanti, assegnazione e training",
+          "refs": [
+            "psico-ricerca-imagery/protocollo"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-imagery-protocollo",
+            "nov04-detail-b-35"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 5,
+          "topic": "Misure di forza/EMG/EEG, tempi, MRCP, imaging e analisi",
+          "refs": [
+            "psico-ricerca-imagery/protocollo",
+            "psico-ricerca-imagery/strumenti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-imagery-protocollo",
+            "nov04-psico-ricerca-imagery-strumenti",
+            "nov04-detail-b-35",
+            "nov04-detail-b-36"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 9,
+          "topic": "Figure 2–7, risultati, baseline, deviazione standard/errore standard",
+          "refs": [
+            "psico-ricerca-imagery/dati",
+            "psico-ricerca-imagery/strumenti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-imagery-strumenti",
+            "nov04-psico-ricerca-imagery-dati",
+            "nov04-detail-b-36",
+            "nov04-detail-b-37"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "topic": "Discussione, meccanismi alternativi, conclusioni e inizio riferimenti",
+          "refs": [
+            "psico-ricerca-imagery/inferenze"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-psico-ricerca-imagery-inferenze",
+            "nov04-detail-b-38"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 13,
+          "topic": "Bibliografia: studi citati, non ulteriori risultati originali del documento",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/protocollo"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/protocollo"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/protocollo",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/protocollo",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/protocollo",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/dati",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/dati",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/dati",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/dati",
+            "psico-ricerca-imagery/strumenti"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/inferenze"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/inferenze"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 13,
+          "status": "non-instructional",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "file": "Neuroplasticity dopamina.pdf",
+      "sha256": "3c2a116249bf4a01f9cb9adb8cf9fdbde25d28d8cbf16439a0a46d3a7eda0f00",
+      "pageCount": 14,
+      "kind": "pdf",
+      "status": "concepts-integrated",
+      "review": "Testo e contenuti delle figure confrontati; spiegazioni riorganizzate e correzioni esplicitate. Non è una riproduzione pagina per pagina né una certificazione del programma corrente.",
+      "groups": [
+        {
+          "from": 1,
+          "to": 2,
+          "topic": "Domanda della review e fatica centrale/periferica",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-fatica",
+            "nov04-detail-b-39"
+          ]
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "topic": "Evidenze, monoamine e limiti delle manipolazioni",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica",
+            "neuro-esercizio-dopamina/regolazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-fatica",
+            "nov04-neuro-esercizio-dopamina-regolazione",
+            "nov04-detail-b-39",
+            "nov04-detail-b-41"
+          ]
+        },
+        {
+          "from": 5,
+          "to": 5,
+          "topic": "Circuiti diretti/indiretti e interventi sperimentali",
+          "refs": [
+            "neuro-esercizio-dopamina/circuiti",
+            "neuro-esercizio-dopamina/regolazione"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-circuiti",
+            "nov04-neuro-esercizio-dopamina-regolazione",
+            "nov04-detail-b-40",
+            "nov04-detail-b-41"
+          ]
+        },
+        {
+          "from": 6,
+          "to": 6,
+          "topic": "Tempo a fatica, ricompensa e disegno del modello animale",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica",
+            "neuro-esercizio-dopamina/esperimenti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-fatica",
+            "nov04-neuro-esercizio-dopamina-esperimenti",
+            "nov04-detail-b-39",
+            "nov04-detail-b-42"
+          ]
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "topic": "TH, autorecettori, D1/D2, DAT, regioni e limiti mRNA/proteina",
+          "refs": [
+            "neuro-esercizio-dopamina/regolazione",
+            "neuro-esercizio-dopamina/esperimenti"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-regolazione",
+            "nov04-neuro-esercizio-dopamina-esperimenti",
+            "nov04-detail-b-41",
+            "nov04-detail-b-42"
+          ]
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "topic": "BDNF, TrkB, modello interpretativo, conclusioni e inizio riferimenti",
+          "refs": [
+            "neuro-esercizio-dopamina/bdnf"
+          ],
+          "status": "integrated",
+          "questionIds": [
+            "nov04-neuro-esercizio-dopamina-bdnf",
+            "nov04-detail-b-43"
+          ]
+        },
+        {
+          "from": 12,
+          "to": 14,
+          "topic": "Bibliografia senza ulteriori risultati del documento",
+          "refs": [],
+          "status": "non-instructional",
+          "questionIds": []
+        }
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica"
+          ]
+        },
+        {
+          "page": 2,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica"
+          ]
+        },
+        {
+          "page": 3,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica",
+            "neuro-esercizio-dopamina/regolazione"
+          ]
+        },
+        {
+          "page": 4,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica",
+            "neuro-esercizio-dopamina/regolazione"
+          ]
+        },
+        {
+          "page": 5,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/circuiti",
+            "neuro-esercizio-dopamina/regolazione"
+          ]
+        },
+        {
+          "page": 6,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/fatica",
+            "neuro-esercizio-dopamina/esperimenti"
+          ]
+        },
+        {
+          "page": 7,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/regolazione",
+            "neuro-esercizio-dopamina/esperimenti"
+          ]
+        },
+        {
+          "page": 8,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/regolazione",
+            "neuro-esercizio-dopamina/esperimenti"
+          ]
+        },
+        {
+          "page": 9,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/regolazione",
+            "neuro-esercizio-dopamina/esperimenti"
+          ]
+        },
+        {
+          "page": 10,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/bdnf"
+          ]
+        },
+        {
+          "page": 11,
+          "status": "integrated",
+          "refs": [
+            "neuro-esercizio-dopamina/bdnf"
+          ]
+        },
+        {
+          "page": 12,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 13,
+          "status": "non-instructional",
+          "refs": []
+        },
+        {
+          "page": 14,
+          "status": "non-instructional",
+          "refs": []
+        }
+      ]
+    }
+  ],
+  "programme": {
+    "file": "Programma Fischetti Psicobiologia.pdf",
+    "sha256": "7f0f61c480ce1054d72d7f13004e1bc85971b013bcf014f7fef5d9db25ccbc5c",
+    "pageCount": 1,
+    "status": "reviewed-not-a-dated-syllabus",
+    "note": "Programma senza anno esplicito. Edizione Pinel Edra 2018; numerazione dei capitoli diversa dalle tavole Mulino allegate. Intervalli manoscritti non interamente leggibili: non ricostruiti per supposizione.",
+    "coveredTopics": [
+      "Anatomia del sistema nervoso",
+      "Conduzione e sinapsi",
+      "Visione e percezione",
+      "Controllo sensorimotorio",
+      "Memoria e plasticità",
+      "Lateralizzazione e linguaggio",
+      "Sensazione, attenzione, apprendimento, motivazione ed emozioni",
+      "Lettura critica di tre articoli"
+    ],
+    "notCertified": [
+      "Tutti i contenuti dei capitoli assegnati nell’edizione Edra non fornita",
+      "Intervalli manoscritti non leggibili con certezza",
+      "Capitoli ulteriori su danno neurologico, sviluppo, fame e sezioni 15/17: presenza di nuclei non equivale a confronto integrale delle pagine assegnate",
+      "Adozione e dettaglio del programma nell’anno corrente"
+    ]
+  },
+  "unchangedDocuments": [
+    {
+      "file": "riassunto-anatomia-martini.pdf",
+      "sha256": "1979ba160b1f3247c8ae0c5e07a634f4da525d12460b630dd986433370a81b4b",
+      "pageCount": 87,
+      "status": "unchanged-previous-integration",
+      "previousAudit": "materials-20261026-audit.json",
+      "note": "Identico al file già elaborato il 26 ottobre: non conteggiato come nuova integrazione. Il precedente confronto per nuclei non viene retroattivamente dichiarato verifica integrale di ogni dettaglio."
+    }
+  ],
+  "additions": {
+    "unitIds": [
+      "pedagogia-cura",
+      "pedagogia-sapere",
+      "pedagogia-storia-formazione",
+      "pedagogia-metafore",
+      "pedagogia-cultura-apprendere",
+      "biochimica-cellule-laboratorio",
+      "biochimica-leggere-molecole",
+      "neuro-esercizio-dopamina",
+      "neuro-lateralizzazione",
+      "neuro-memoria",
+      "neuro-movimento",
+      "neuro-organizzazione",
+      "neuro-percezione",
+      "neuro-plasticita",
+      "neuro-sinapsi",
+      "neuro-visione",
+      "psico-apprendimento-concetti",
+      "psico-coscienza-attenzione",
+      "psico-emozioni-modelli",
+      "psico-memoria-studio",
+      "psico-motivazione-bisogni",
+      "psico-psicofisica",
+      "psico-ricerca-imagery",
+      "psico-ricerca-natura",
+      "psico-sonno-stati"
+    ],
+    "refs": [
+      "pedagogia-cura/curare",
+      "pedagogia-cura/incontro",
+      "pedagogia-cura/sport",
+      "pedagogia-cura/identita",
+      "pedagogia-sapere/disciplina",
+      "pedagogia-sapere/livelli",
+      "pedagogia-sapere/autonomia",
+      "pedagogia-sapere/prassi",
+      "pedagogia-sapere/paradigmi",
+      "pedagogia-storia-formazione/greci",
+      "pedagogia-storia-formazione/scuola",
+      "pedagogia-storia-formazione/significati",
+      "pedagogia-storia-formazione/bildung",
+      "pedagogia-storia-formazione/autobiografia",
+      "pedagogia-metafore/intenzione",
+      "pedagogia-metafore/senso",
+      "pedagogia-metafore/immagini",
+      "pedagogia-metafore/categorie",
+      "pedagogia-cultura-apprendere/mediazione",
+      "pedagogia-cultura-apprendere/forme",
+      "pedagogia-cultura-apprendere/neuroscienze",
+      "pedagogia-cultura-apprendere/emozioni",
+      "pedagogia-cultura-apprendere/trasmissione",
+      "biochimica-cellule-laboratorio/diversita",
+      "biochimica-cellule-laboratorio/involucri",
+      "biochimica-cellule-laboratorio/organelli",
+      "biochimica-cellule-laboratorio/frazionamento",
+      "biochimica-cellule-laboratorio/gerarchie",
+      "biochimica-leggere-molecole/mattoni",
+      "biochimica-leggere-molecole/carbonio",
+      "biochimica-leggere-molecole/funzioni",
+      "biochimica-leggere-molecole/acetilcoa",
+      "biochimica-leggere-molecole/conformazioni",
+      "biochimica-leggere-molecole/geometrici",
+      "biochimica-leggere-molecole/chiralita",
+      "biochimica-leggere-molecole/riconoscimento",
+      "neuro-esercizio-dopamina/fatica",
+      "neuro-esercizio-dopamina/circuiti",
+      "neuro-esercizio-dopamina/regolazione",
+      "neuro-esercizio-dopamina/esperimenti",
+      "neuro-esercizio-dopamina/bdnf",
+      "neuro-lateralizzazione/commissure",
+      "neuro-lateralizzazione/split",
+      "neuro-lateralizzazione/linguaggio",
+      "neuro-lateralizzazione/immagini",
+      "neuro-memoria/hebb",
+      "neuro-memoria/amnesie",
+      "neuro-memoria/riconoscimento",
+      "neuro-memoria/spazio",
+      "neuro-movimento/piano",
+      "neuro-movimento/vie",
+      "neuro-movimento/riflessi",
+      "neuro-organizzazione/divisioni",
+      "neuro-organizzazione/cellule",
+      "neuro-organizzazione/metodi",
+      "neuro-organizzazione/regioni",
+      "neuro-organizzazione/corteccia",
+      "neuro-percezione/reti",
+      "neuro-percezione/udito",
+      "neuro-percezione/somato",
+      "neuro-percezione/dolore",
+      "neuro-plasticita/sviluppo",
+      "neuro-plasticita/aplysia",
+      "neuro-plasticita/ltp",
+      "neuro-plasticita/riparazione",
+      "neuro-sinapsi/potenziale",
+      "neuro-sinapsi/integrazione",
+      "neuro-sinapsi/rilascio",
+      "neuro-sinapsi/modulazione",
+      "neuro-visione/occhio",
+      "neuro-visione/trasduzione",
+      "neuro-visione/vie",
+      "neuro-visione/contrasto",
+      "neuro-visione/colonne",
+      "neuro-visione/colore",
+      "psico-apprendimento-concetti/predire",
+      "psico-apprendimento-concetti/categorie",
+      "psico-apprendimento-concetti/regole",
+      "psico-coscienza-attenzione/coscienza",
+      "psico-coscienza-attenzione/controllo",
+      "psico-coscienza-attenzione/interferenza",
+      "psico-emozioni-modelli/corpo",
+      "psico-emozioni-modelli/circuiti",
+      "psico-emozioni-modelli/appraisal",
+      "psico-emozioni-modelli/espressione",
+      "psico-emozioni-modelli/cultura",
+      "psico-memoria-studio/architettura",
+      "psico-memoria-studio/codifica",
+      "psico-memoria-studio/oblio",
+      "psico-memoria-studio/pq4r",
+      "psico-motivazione-bisogni/modelli",
+      "psico-motivazione-bisogni/energia",
+      "psico-motivazione-bisogni/reti-cibo",
+      "psico-motivazione-bisogni/obiettivi",
+      "psico-motivazione-bisogni/relazioni",
+      "psico-motivazione-bisogni/intrinseca",
+      "psico-psicofisica/metodi",
+      "psico-psicofisica/decisione",
+      "psico-psicofisica/teorie",
+      "psico-psicofisica/profondita",
+      "psico-psicofisica/movimento",
+      "psico-ricerca-imagery/protocollo",
+      "psico-ricerca-imagery/strumenti",
+      "psico-ricerca-imagery/dati",
+      "psico-ricerca-imagery/inferenze",
+      "psico-ricerca-natura/disegno",
+      "psico-ricerca-natura/misure",
+      "psico-ricerca-natura/risultati",
+      "psico-ricerca-natura/limiti",
+      "psico-sonno-stati/architettura",
+      "psico-sonno-stati/ritmi",
+      "psico-sonno-stati/privazione",
+      "psico-sonno-stati/sogni"
+    ],
+    "questionIds": [
+      "nov04-pedagogia-cura-curare",
+      "nov04-pedagogia-cura-incontro",
+      "nov04-pedagogia-cura-sport",
+      "nov04-pedagogia-cura-identita",
+      "nov04-pedagogia-sapere-disciplina",
+      "nov04-pedagogia-sapere-livelli",
+      "nov04-pedagogia-sapere-autonomia",
+      "nov04-pedagogia-sapere-prassi",
+      "nov04-pedagogia-sapere-paradigmi",
+      "nov04-pedagogia-storia-formazione-greci",
+      "nov04-pedagogia-storia-formazione-scuola",
+      "nov04-pedagogia-storia-formazione-significati",
+      "nov04-pedagogia-storia-formazione-bildung",
+      "nov04-pedagogia-storia-formazione-autobiografia",
+      "nov04-pedagogia-metafore-intenzione",
+      "nov04-pedagogia-metafore-senso",
+      "nov04-pedagogia-metafore-immagini",
+      "nov04-pedagogia-metafore-categorie",
+      "nov04-pedagogia-cultura-apprendere-mediazione",
+      "nov04-pedagogia-cultura-apprendere-forme",
+      "nov04-pedagogia-cultura-apprendere-neuroscienze",
+      "nov04-pedagogia-cultura-apprendere-emozioni",
+      "nov04-pedagogia-cultura-apprendere-trasmissione",
+      "nov04-biochimica-cellule-laboratorio-diversita",
+      "nov04-biochimica-cellule-laboratorio-involucri",
+      "nov04-biochimica-cellule-laboratorio-organelli",
+      "nov04-biochimica-cellule-laboratorio-frazionamento",
+      "nov04-biochimica-cellule-laboratorio-gerarchie",
+      "nov04-biochimica-leggere-molecole-mattoni",
+      "nov04-biochimica-leggere-molecole-carbonio",
+      "nov04-biochimica-leggere-molecole-funzioni",
+      "nov04-biochimica-leggere-molecole-acetilcoa",
+      "nov04-biochimica-leggere-molecole-conformazioni",
+      "nov04-biochimica-leggere-molecole-geometrici",
+      "nov04-biochimica-leggere-molecole-chiralita",
+      "nov04-biochimica-leggere-molecole-riconoscimento",
+      "nov04-neuro-esercizio-dopamina-fatica",
+      "nov04-neuro-esercizio-dopamina-circuiti",
+      "nov04-neuro-esercizio-dopamina-regolazione",
+      "nov04-neuro-esercizio-dopamina-esperimenti",
+      "nov04-neuro-esercizio-dopamina-bdnf",
+      "nov04-neuro-lateralizzazione-commissure",
+      "nov04-neuro-lateralizzazione-split",
+      "nov04-neuro-lateralizzazione-linguaggio",
+      "nov04-neuro-lateralizzazione-immagini",
+      "nov04-neuro-memoria-hebb",
+      "nov04-neuro-memoria-amnesie",
+      "nov04-neuro-memoria-riconoscimento",
+      "nov04-neuro-memoria-spazio",
+      "nov04-neuro-movimento-piano",
+      "nov04-neuro-movimento-vie",
+      "nov04-neuro-movimento-riflessi",
+      "nov04-neuro-organizzazione-divisioni",
+      "nov04-neuro-organizzazione-cellule",
+      "nov04-neuro-organizzazione-metodi",
+      "nov04-neuro-organizzazione-regioni",
+      "nov04-neuro-organizzazione-corteccia",
+      "nov04-neuro-percezione-reti",
+      "nov04-neuro-percezione-udito",
+      "nov04-neuro-percezione-somato",
+      "nov04-neuro-percezione-dolore",
+      "nov04-neuro-plasticita-sviluppo",
+      "nov04-neuro-plasticita-aplysia",
+      "nov04-neuro-plasticita-ltp",
+      "nov04-neuro-plasticita-riparazione",
+      "nov04-neuro-sinapsi-potenziale",
+      "nov04-neuro-sinapsi-integrazione",
+      "nov04-neuro-sinapsi-rilascio",
+      "nov04-neuro-sinapsi-modulazione",
+      "nov04-neuro-visione-occhio",
+      "nov04-neuro-visione-trasduzione",
+      "nov04-neuro-visione-vie",
+      "nov04-neuro-visione-contrasto",
+      "nov04-neuro-visione-colonne",
+      "nov04-neuro-visione-colore",
+      "nov04-psico-apprendimento-concetti-predire",
+      "nov04-psico-apprendimento-concetti-categorie",
+      "nov04-psico-apprendimento-concetti-regole",
+      "nov04-psico-coscienza-attenzione-coscienza",
+      "nov04-psico-coscienza-attenzione-controllo",
+      "nov04-psico-coscienza-attenzione-interferenza",
+      "nov04-psico-emozioni-modelli-corpo",
+      "nov04-psico-emozioni-modelli-circuiti",
+      "nov04-psico-emozioni-modelli-appraisal",
+      "nov04-psico-emozioni-modelli-espressione",
+      "nov04-psico-emozioni-modelli-cultura",
+      "nov04-psico-memoria-studio-architettura",
+      "nov04-psico-memoria-studio-codifica",
+      "nov04-psico-memoria-studio-oblio",
+      "nov04-psico-memoria-studio-pq4r",
+      "nov04-psico-motivazione-bisogni-modelli",
+      "nov04-psico-motivazione-bisogni-energia",
+      "nov04-psico-motivazione-bisogni-reti-cibo",
+      "nov04-psico-motivazione-bisogni-obiettivi",
+      "nov04-psico-motivazione-bisogni-relazioni",
+      "nov04-psico-motivazione-bisogni-intrinseca",
+      "nov04-psico-psicofisica-metodi",
+      "nov04-psico-psicofisica-decisione",
+      "nov04-psico-psicofisica-teorie",
+      "nov04-psico-psicofisica-profondita",
+      "nov04-psico-psicofisica-movimento",
+      "nov04-psico-ricerca-imagery-protocollo",
+      "nov04-psico-ricerca-imagery-strumenti",
+      "nov04-psico-ricerca-imagery-dati",
+      "nov04-psico-ricerca-imagery-inferenze",
+      "nov04-psico-ricerca-natura-disegno",
+      "nov04-psico-ricerca-natura-misure",
+      "nov04-psico-ricerca-natura-risultati",
+      "nov04-psico-ricerca-natura-limiti",
+      "nov04-psico-sonno-stati-architettura",
+      "nov04-psico-sonno-stati-ritmi",
+      "nov04-psico-sonno-stati-privazione",
+      "nov04-psico-sonno-stati-sogni",
+      "nov04-detail-a-1",
+      "nov04-detail-a-2",
+      "nov04-detail-a-3",
+      "nov04-detail-a-4",
+      "nov04-detail-a-5",
+      "nov04-detail-a-6",
+      "nov04-detail-a-7",
+      "nov04-detail-a-8",
+      "nov04-detail-a-9",
+      "nov04-detail-a-10",
+      "nov04-detail-a-11",
+      "nov04-detail-a-12",
+      "nov04-detail-a-13",
+      "nov04-detail-a-14",
+      "nov04-detail-a-15",
+      "nov04-detail-a-16",
+      "nov04-detail-a-17",
+      "nov04-detail-a-18",
+      "nov04-detail-a-19",
+      "nov04-detail-a-20",
+      "nov04-detail-a-21",
+      "nov04-detail-a-22",
+      "nov04-detail-a-23",
+      "nov04-detail-a-24",
+      "nov04-detail-a-25",
+      "nov04-detail-a-26",
+      "nov04-detail-a-27",
+      "nov04-detail-a-28",
+      "nov04-detail-a-29",
+      "nov04-detail-a-30",
+      "nov04-detail-a-31",
+      "nov04-detail-a-32",
+      "nov04-detail-a-33",
+      "nov04-detail-a-34",
+      "nov04-detail-a-35",
+      "nov04-detail-a-36",
+      "nov04-detail-a-37",
+      "nov04-detail-a-38",
+      "nov04-detail-a-39",
+      "nov04-detail-a-40",
+      "nov04-detail-a-41",
+      "nov04-detail-a-42",
+      "nov04-detail-a-43",
+      "nov04-detail-a-44",
+      "nov04-detail-a-45",
+      "nov04-detail-a-46",
+      "nov04-detail-a-47",
+      "nov04-detail-a-48",
+      "nov04-detail-a-49",
+      "nov04-detail-b-1",
+      "nov04-detail-b-2",
+      "nov04-detail-b-3",
+      "nov04-detail-b-4",
+      "nov04-detail-b-5",
+      "nov04-detail-b-6",
+      "nov04-detail-b-7",
+      "nov04-detail-b-8",
+      "nov04-detail-b-9",
+      "nov04-detail-b-10",
+      "nov04-detail-b-11",
+      "nov04-detail-b-12",
+      "nov04-detail-b-13",
+      "nov04-detail-b-14",
+      "nov04-detail-b-15",
+      "nov04-detail-b-16",
+      "nov04-detail-b-17",
+      "nov04-detail-b-18",
+      "nov04-detail-b-19",
+      "nov04-detail-b-20",
+      "nov04-detail-b-21",
+      "nov04-detail-b-22",
+      "nov04-detail-b-23",
+      "nov04-detail-b-24",
+      "nov04-detail-b-25",
+      "nov04-detail-b-26",
+      "nov04-detail-b-27",
+      "nov04-detail-b-28",
+      "nov04-detail-b-29",
+      "nov04-detail-b-30",
+      "nov04-detail-b-31",
+      "nov04-detail-b-32",
+      "nov04-detail-b-33",
+      "nov04-detail-b-34",
+      "nov04-detail-b-35",
+      "nov04-detail-b-36",
+      "nov04-detail-b-37",
+      "nov04-detail-b-38",
+      "nov04-detail-b-39",
+      "nov04-detail-b-40",
+      "nov04-detail-b-41",
+      "nov04-detail-b-42",
+      "nov04-detail-b-43",
+      "nov04-detail-c-1",
+      "nov04-detail-c-2",
+      "nov04-detail-c-3",
+      "nov04-detail-c-4",
+      "nov04-detail-c-5",
+      "nov04-detail-c-6",
+      "nov04-detail-c-7",
+      "nov04-detail-c-8",
+      "nov04-detail-c-9",
+      "nov04-detail-c-10",
+      "nov04-detail-c-11",
+      "nov04-detail-c-12",
+      "nov04-detail-c-13",
+      "nov04-detail-c-14",
+      "nov04-detail-c-15",
+      "nov04-detail-c-16",
+      "nov04-detail-c-17",
+      "nov04-detail-c-18",
+      "nov04-detail-c-19",
+      "nov04-detail-c-20",
+      "nov04-detail-c-21",
+      "nov04-detail-c-22",
+      "nov04-detail-c-23"
+    ],
+    "oralUnitIds": [
+      "pedagogia-cura",
+      "pedagogia-sapere",
+      "pedagogia-storia-formazione",
+      "pedagogia-metafore",
+      "pedagogia-cultura-apprendere",
+      "biochimica-cellule-laboratorio",
+      "biochimica-leggere-molecole",
+      "neuro-esercizio-dopamina",
+      "neuro-lateralizzazione",
+      "neuro-memoria",
+      "neuro-movimento",
+      "neuro-organizzazione",
+      "neuro-percezione",
+      "neuro-plasticita",
+      "neuro-sinapsi",
+      "neuro-visione",
+      "psico-apprendimento-concetti",
+      "psico-coscienza-attenzione",
+      "psico-emozioni-modelli",
+      "psico-memoria-studio",
+      "psico-motivazione-bisogni",
+      "psico-psicofisica",
+      "psico-ricerca-imagery",
+      "psico-ricerca-natura",
+      "psico-sonno-stati"
+    ],
+    "diagramIds": [
+      "neuro-chiasma",
+      "neuro-on-off",
+      "neuro-riflesso",
+      "neuro-nmda",
+      "neuro-dopamina",
+      "ricerca-confronti",
+      "bio-frazioni",
+      "bio-torsione",
+      "bio-stereoisomeri"
+    ]
+  },
+  "corrections": [
+    {
+      "topic": "Sonno: stadi N3, sogni non esclusivi del REM, ultradiano/infradiano e restrizione cronica",
+      "refs": [
+        "psico-sonno-stati/architettura",
+        "psico-sonno-stati/ritmi",
+        "psico-sonno-stati/privazione"
+      ],
+      "verification": [
+        "https://pubmed.ncbi.nlm.nih.gov/12683469/",
+        "https://www.nhlbi.nih.gov/health/sleep/sleep-wake-cycle",
+        "https://www.ncbi.nlm.nih.gov/mesh/2016428"
+      ]
+    },
+    {
+      "topic": "Apprendimento: SI/RI e SC/RC, OR inclusivo distinto da XOR, data e contingenza del piccione superstizioso",
+      "refs": [
+        "psico-apprendimento-concetti/predire",
+        "psico-apprendimento-concetti/regole"
+      ]
+    },
+    {
+      "topic": "Disturbi alimentari: eliminata definizione obsoleta e riduttiva",
+      "refs": [
+        "psico-motivazione-bisogni/reti-cibo"
+      ],
+      "verification": [
+        "https://www.nimh.nih.gov/sites/default/files/documents/health/publications/eating-disorders/eating-disorders-what-you-need-to-know.pdf"
+      ]
+    },
+    {
+      "topic": "Neuroni specchio: singole cellule, neuroimmagine e inferenze didattiche sono livelli distinti",
+      "refs": [
+        "pedagogia-cultura-apprendere/neuroscienze"
+      ],
+      "verification": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2904852/",
+        "https://pubmed.ncbi.nlm.nih.gov/21291449/"
+      ]
+    },
+    {
+      "topic": "Visione: periferia centro-ON inibitoria, accomodazione monoculare e amigdala distinta dai gangli della base",
+      "refs": [
+        "neuro-visione/contrasto",
+        "psico-psicofisica/profondita",
+        "neuro-organizzazione/corteccia"
+      ]
+    },
+    {
+      "topic": "Risultati sperimentali: confronto entro/fra gruppi, SD/SEM, mRNA distinto da funzione, 305% del controllo significa +205%",
+      "refs": [
+        "psico-ricerca-natura/risultati",
+        "psico-ricerca-imagery/dati",
+        "psico-ricerca-imagery/strumenti",
+        "neuro-esercizio-dopamina/esperimenti",
+        "neuro-esercizio-dopamina/fatica"
+      ]
+    },
+    {
+      "topic": "Biochimica: assi metabolici indipendenti, frazioni non pure, energia di reazione, conformazioni/configurazioni e aspartame diastereoisomero",
+      "refs": [
+        "biochimica-cellule-laboratorio/diversita",
+        "biochimica-cellule-laboratorio/frazionamento",
+        "biochimica-leggere-molecole/acetilcoa",
+        "biochimica-leggere-molecole/chiralita",
+        "biochimica-leggere-molecole/riconoscimento"
+      ]
+    }
+  ],
+  "limits": [
+    "Bibliografie, crediti e frontespizi classificati separatamente: non trasformati in domande da memorizzare.",
+    "Supplementi non presenti negli allegati non sono stati inventati.",
+    "Le figure sono spiegate e, per nove nuclei, ridisegnate; non si distribuiscono pagine originali.",
+    "La copertura è dei concetti esposti nei nuovi documenti, non di tutti i libri da cui provengono né dell’intero esame corrente."
+  ]
+}

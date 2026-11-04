@@ -1,5 +1,7 @@
-export const BIOLOGY_DIAGRAMS=['dna-gel','pedigree-recessivo','cellula-scale','cute-strati','circuiti-neurali'];
+import { STUDY_DIAGRAMS, studyDiagramHTML } from './study-diagrams.js';
+export const BIOLOGY_DIAGRAMS=['dna-gel','pedigree-recessivo','cellula-scale','cute-strati','circuiti-neurali',...STUDY_DIAGRAMS];
 export function biologyDiagramHTML(kind) {
+  if(STUDY_DIAGRAMS.includes(kind))return studyDiagramHTML(kind);
   if(kind==='cellula-scale')return `<figure class="biology-diagram" data-biology-diagram="cellula-scale">
     <figcaption><strong>Lo zoom cambia l’immagine, non la misura</strong></figcaption>
     <svg viewBox="0 0 380 240" role="img" aria-label="Due ingrandimenti dello stesso oggetto. In entrambi la lunghezza è due volte la barra da 2 micrometri: l’oggetto misura 4 micrometri.">
