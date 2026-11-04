@@ -11871,7 +11871,14 @@
     "print": true,
     "previousProgress": true,
     "networkRequests": 0,
-    "generalOfflineBrowser": "Pending final packaging check"
+    "generalOfflineBrowser": true,
+    "publicationScan": {
+      "trackedFiles": 145,
+      "artifactFiles": [
+        "index.html"
+      ],
+      "privateFilesExcluded": true
+    }
   },
   "openstaxFurtherReading": {
     "checked": "2026-10-22",

@@ -16,7 +16,7 @@ MATERIALI FORNITI
 19 documenti, 665 pagine/slide: 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte, 9 schemi. Nessun allegato o link agli originali nella consegna. Mappa: data/materials-20261104-audit.json. Il documento di Anatomia invariato mantiene il precedente confronto per nuclei; Studocu escluso.
 
 VERIFICHE
-Verifica corrente: 61 test passati, cinque lezioni provate offline, tutti i 52 feedback errati con aiuti, stampa e progressi conservati; zero richieste di rete. Mappa: data/biology-current-expansion-audit.json. Tappa precedente: 59 test passati, 80 feedback inglesi con aiuti, simulazione da 15 domande e progressi conservati offline.
+Verifica corrente: 61 test passati, cinque lezioni provate offline, tutti i 52 feedback errati con aiuti, stampa e progressi conservati; zero richieste di rete. Mappa: data/biology-current-expansion-audit.json. Controllo generale browser superato: salvataggi, riapertura, aggiornamento HTML, backup, stampa e mobile; zero richieste di rete. Controllati 145 file versionati, artefatto Pages composto solo da index.html. Tappa precedente: 59 test passati, 80 feedback inglesi con aiuti, simulazione da 15 domande e progressi conservati offline.
 
 NOTE DELLE TAPPE PRECEDENTI (storiche; i conteggi sopra sono quelli attuali)
 ANATOMIA: CONFRONTO PUBBLICO DELLA TAPPA PRECEDENTE (22 OTTOBRE)
