@@ -1,0 +1,1002 @@
+{
+  "checked": "2026-11-05",
+  "method": "Risposte JSON del catalogo pubblico, endpoint osservato nel caricamento della pagina ufficiale. Letti i testi analitici di Scienze biologiche e Anatomia. Tutte le 21 richieste hanno risposto 200; campo presente vuoto distinto da contenuto disponibile.",
+  "localSnapshot": ".local/catalogue-all-20261105.json",
+  "records": [
+    {
+      "exam": "scienze-biologiche",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62179&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "SCIENZE BIOLOGICHE",
+      "academicYear": "2026",
+      "contentsPresent": true,
+      "assessmentPresent": true,
+      "sha256": "4ddb6e9a2c2ba7febfeac4f047e62b6f27c2432f5d22a7b4d9b6fd0b0d234d46"
+    },
+    {
+      "exam": "scienze-biologiche",
+      "module": "62179-1",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62179-1&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "BIOLOGIA APPLICATA E GENETICA",
+      "academicYear": "2026",
+      "contentsPresent": true,
+      "assessmentPresent": true,
+      "sha256": "698b9b247dc509fca6f09660560510496549093e19777fa081955a262baf59bc"
+    },
+    {
+      "exam": "scienze-biologiche",
+      "module": "62179-2",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62179-2&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "BIOCHIMICA",
+      "academicYear": "2026",
+      "contentsPresent": true,
+      "assessmentPresent": true,
+      "sha256": "0d0f431f3f989c1871e342ffe6e0e47b04ea687f6074cc0e4213709bbc581bbc"
+    },
+    {
+      "exam": "anatomia-umana",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=41617&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "ANATOMIA UMANA E APPLICATA",
+      "academicYear": "2026",
+      "contentsPresent": true,
+      "assessmentPresent": true,
+      "sha256": "2f86f958b54c453dc999346c50fee07d8565e38908b112f3dd8b7d7001a25577"
+    },
+    {
+      "exam": "scienze-base",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62757&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "SCIENZE DI BASE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "64034f86180c4542860b3f147dd9c69de7024406e17035f75c4eaaef4a23daca"
+    },
+    {
+      "exam": "scienze-psicopedagogiche",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7863&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "SCIENZE PSICOLOGICHE E PEDAGOGICHE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "f03f7553ef1cd6531cfcdc387f697bcc1968d99b57fc7c434723a98452a6cf3e"
+    },
+    {
+      "exam": "scienze-psicopedagogiche",
+      "module": "7863-1",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7863-1&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "PSICOLOGIA GENERALE ED ELEMENTI DI PSICOBIOLOGIA",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "5d88d7a3b260c9d6f61908177839befc5e53a8f12a8580935556b4c854a6138b"
+    },
+    {
+      "exam": "scienze-psicopedagogiche",
+      "module": "7863-2",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7863-2&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "PEDAGOGIA GENERALE E SOCIALE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "41ae870d20c3b5852172e5ae403bdd6826993b682c4002de4b9519483c76a267"
+    },
+    {
+      "exam": "scienze-psicopedagogiche",
+      "module": "7863-3",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7863-3&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "PSICOLOGIA DELLO SVILUPPO E DELL'EDUCAZIONE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "80ac96b155a3d1149f851ca7d95bb127494fc34f6ddb667ab39eec657ea56a8e"
+    },
+    {
+      "exam": "scienze-psicopedagogiche",
+      "module": "7863-4",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7863-4&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "DIDATTICA E PEDAGOGIA SPECIALE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "cfe6ca86f7f5e5588e9e3028d984d2b2f7c7146c913526a9fd63a889f7aedd6e"
+    },
+    {
+      "exam": "scienze-giuridiche",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7833&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "SCIENZE GIURIDICHE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "4f688d229bb2a1885a8b9ac9b156d377d9e527e96f5ef36660e293e6ea7641c2"
+    },
+    {
+      "exam": "scienze-giuridiche",
+      "module": "7833-1",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7833-1&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "ISTITUZIONI DI DIRITTO PUBBLICO",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "476393ee7090a8e782e512729c3968c928d1bf003f06b0e0ebb16e7bf3c35f69"
+    },
+    {
+      "exam": "scienze-giuridiche",
+      "module": "7833-2",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7833-2&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "DIRITTO PRIVATO",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "865853f467f9c37651ad82d031efef4cef8c95aaf34f7d0a6604c5d7d11a7a20"
+    },
+    {
+      "exam": "scienze-giuridiche",
+      "module": "7833-3",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7833-3&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "DIRITTO INTERNAZIONALE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "5a0d5db378875c2defaed21d828ea8bd477159958d78bb5512708b964f35b061"
+    },
+    {
+      "exam": "allenamento",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62248&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "TEORIA E METODOLOGIA DELL'ALLENAMENTO",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "7e8c12f8e0bb8174706e5e0a7b3ef44caee8310be016e2a19f9d9e328c4b7730"
+    },
+    {
+      "exam": "attivita-motorie",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=62760&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "TEORIA E METODOLOGIA DELLE ATTIVITA' MOTORIE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "25babfd19e57362dd439e3380abf481d310937a921ef63083a8ade07e8daf450"
+    },
+    {
+      "exam": "gestione-sport",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=66707&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "GESTIONE DELLE SOCIETA' SPORTIVE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "3f46354129fc486562395f5bdc0176f86c543986419f447dda6a09d25646e3b1"
+    },
+    {
+      "exam": "gestione-sport",
+      "module": "66707-1",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=66707-1&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "DIRITTO DELLE SOCIETA' SPORTIVE",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "5bf05b405d5b86321e4a7c68b1e212693723540ed7b6ae5ad5242ef9cf5f9be9"
+    },
+    {
+      "exam": "gestione-sport",
+      "module": "66707-2",
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=66707-2&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "ORGANIZZAZIONE E MARKETING DELLO SPORT",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "95a3e06362f9eb3bbdbd1ccbf87eddb4e5257d51f6142a5eb43fa87e3d7fb7ce"
+    },
+    {
+      "exam": "informatica",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=4175&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "INFORMATICA",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "eb08199701e709a79a9458ea8e809e2865f362e792b9c8731145b500769419c3"
+    },
+    {
+      "exam": "inglese",
+      "module": null,
+      "url": "https://uniba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=4261&ordinamento_aa=2026&af_percorso=9999&corso_cod=11437&schema_id=40224",
+      "status": 200,
+      "sourceTitle": "INGLESE SCIENTIFICO",
+      "academicYear": "2026",
+      "contentsPresent": false,
+      "assessmentPresent": false,
+      "sha256": "944f49507d00a0921a0e4c8d53a9fc7cbd5a59a27e00b7b9585e583c6a8dbb82"
+    }
+  ],
+  "biology": {
+    "sourceId": "syllabus-bio-2026",
+    "currentSyllabusConfirmed": true,
+    "rows": [
+      {
+        "block": "biologia",
+        "number": 1,
+        "title": "Organizzazione cellulare",
+        "refs": [
+          "cellula/organizzazione",
+          "cellule-confronto/domini",
+          "cellule-confronto/scala"
+        ],
+        "questionIds": [
+          "bio-cell-2",
+          "mat26-cellule-confronto-scala-1",
+          "mat26-cellule-confronto-scala-2",
+          "mat26-cellule-confronto-domini-1",
+          "mat26-cellule-confronto-domini-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 2,
+        "title": "Famiglie di biomolecole",
+        "refs": [
+          "molecole-confronto/unita",
+          "molecole-confronto/glucidi",
+          "molecole-confronto/lipidi",
+          "molecole-confronto/proteine",
+          "nucleici-lettura/nucleotidi"
+        ],
+        "questionIds": [
+          "mat26-molecole-confronto-unita-1",
+          "mat26-molecole-confronto-unita-2",
+          "mat26-molecole-confronto-glucidi-1",
+          "mat26-molecole-confronto-glucidi-2",
+          "mat26-molecole-confronto-lipidi-1",
+          "mat26-molecole-confronto-lipidi-2",
+          "mat26-molecole-confronto-proteine-1",
+          "mat26-molecole-confronto-proteine-2",
+          "mat26-nucleici-lettura-nucleotidi-1",
+          "mat26-nucleici-lettura-nucleotidi-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 3,
+        "title": "Membrane e trasporto",
+        "refs": [
+          "cellula/trasporti",
+          "segnali/gradienti",
+          "segnali/osmosi",
+          "molecole-confronto/lipidi"
+        ],
+        "questionIds": [
+          "bio-cell-3",
+          "segnali-gradienti-verifica",
+          "segnali-osmosi-verifica",
+          "mat26-molecole-confronto-lipidi-1",
+          "mat26-molecole-confronto-lipidi-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 4,
+        "title": "Endomembrane e traffico",
+        "refs": [
+          "proteine-destino/indirizzi",
+          "proteine-destino/golgi",
+          "cellula-comparti-verifica/reticolo",
+          "cellula-comparti-verifica/degradazione"
+        ],
+        "questionIds": [
+          "bio-molecular-proteine-destino-indirizzi-0",
+          "bio-molecular-proteine-destino-indirizzi-1",
+          "bio-molecular-proteine-destino-indirizzi-2",
+          "bio-molecular-proteine-destino-golgi-0",
+          "bio-molecular-proteine-destino-golgi-1",
+          "bio-molecular-proteine-destino-golgi-2",
+          "pdf-cellula-comparti-verifica-reticolo-0",
+          "pdf-cellula-comparti-verifica-reticolo-1",
+          "pdf-cellula-comparti-verifica-reticolo-2",
+          "pdf-cellula-comparti-verifica-reticolo-3",
+          "pdf-cellula-comparti-verifica-degradazione-0",
+          "pdf-cellula-comparti-verifica-degradazione-1",
+          "pdf-cellula-comparti-verifica-degradazione-2",
+          "pdf-cellula-comparti-verifica-degradazione-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 5,
+        "title": "Citoscheletro e forma cellulare",
+        "refs": [
+          "cellula-strutture/citoscheletro",
+          "cellula-adesione/adesioni"
+        ],
+        "questionIds": [
+          "bio-body-microbes-cellula-strutture-citoscheletro-0",
+          "bio-body-microbes-cellula-strutture-citoscheletro-1",
+          "bio-body-microbes-cellula-strutture-citoscheletro-2",
+          "bio-applied-cellula-strutture-citoscheletro-extra-20",
+          "bio26-cellula-adesione-adesioni-1",
+          "bio26-cellula-adesione-adesioni-2",
+          "bio26-cellula-adesione-adesioni-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 6,
+        "title": "Superficie, matrice e giunzioni",
+        "refs": [
+          "cellula-adesione/matrice",
+          "cellula-adesione/adesioni",
+          "cellula-adesione/barriere",
+          "molecole-confronto/glucidi"
+        ],
+        "questionIds": [
+          "mat26-molecole-confronto-glucidi-1",
+          "mat26-molecole-confronto-glucidi-2",
+          "bio26-cellula-adesione-matrice-1",
+          "bio26-cellula-adesione-matrice-2",
+          "bio26-cellula-adesione-matrice-3",
+          "bio26-cellula-adesione-adesioni-1",
+          "bio26-cellula-adesione-adesioni-2",
+          "bio26-cellula-adesione-adesioni-3",
+          "bio26-cellula-adesione-barriere-1",
+          "bio26-cellula-adesione-barriere-2",
+          "bio26-cellula-adesione-barriere-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 7,
+        "title": "Nucleo e duplicazione del DNA",
+        "refs": [
+          "cellula-strutture/nucleolo",
+          "espressione/replicazione",
+          "genoma-rna-segnali/organizzazione"
+        ],
+        "questionIds": [
+          "espressione-replicazione-verifica",
+          "bio-integration-genoma-rna-segnali-organizzazione-0",
+          "bio-integration-genoma-rna-segnali-organizzazione-1",
+          "bio-integration-genoma-rna-segnali-organizzazione-2",
+          "bio-body-microbes-cellula-strutture-nucleolo-0",
+          "bio-body-microbes-cellula-strutture-nucleolo-1",
+          "bio-body-microbes-cellula-strutture-nucleolo-2",
+          "bio-applied-espressione-replicazione-extra-0",
+          "bio-applied-espressione-replicazione-extra-1",
+          "bio-applied-espressione-replicazione-extra-2",
+          "bio-applied-espressione-replicazione-extra-3",
+          "bio-applied-genoma-rna-segnali-organizzazione-extra-19"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 8,
+        "title": "Produzione e destinazione delle proteine",
+        "refs": [
+          "espressione/traduzione",
+          "espressione/maturazione",
+          "proteine-destino/indirizzi",
+          "proteine-destino/golgi",
+          "proteine-destino/ripiegamento"
+        ],
+        "questionIds": [
+          "espressione-maturazione-verifica",
+          "espressione-traduzione-verifica",
+          "bio-molecular-proteine-destino-ripiegamento-0",
+          "bio-molecular-proteine-destino-ripiegamento-1",
+          "bio-molecular-proteine-destino-ripiegamento-2",
+          "bio-molecular-proteine-destino-indirizzi-0",
+          "bio-molecular-proteine-destino-indirizzi-1",
+          "bio-molecular-proteine-destino-indirizzi-2",
+          "bio-molecular-proteine-destino-golgi-0",
+          "bio-molecular-proteine-destino-golgi-1",
+          "bio-molecular-proteine-destino-golgi-2",
+          "bio-applied-espressione-maturazione-extra-4",
+          "bio-applied-espressione-maturazione-extra-5",
+          "bio-applied-espressione-traduzione-extra-6",
+          "bio-applied-espressione-traduzione-extra-7",
+          "bio-applied-espressione-traduzione-extra-8",
+          "bio-applied-espressione-traduzione-extra-14",
+          "bio-applied-espressione-traduzione-extra-15",
+          "bio-applied-espressione-maturazione-extra-21"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 9,
+        "title": "Energia e mitocondri",
+        "refs": [
+          "cellula-comparti-verifica/mitocondrio",
+          "energia/atp",
+          "energia/ossidativa",
+          "mitocondri/catena"
+        ],
+        "questionIds": [
+          "mitocondri-catena-verifica",
+          "pdf-cellula-comparti-verifica-mitocondrio-0",
+          "pdf-cellula-comparti-verifica-mitocondrio-1",
+          "pdf-cellula-comparti-verifica-mitocondrio-2",
+          "pdf-cellula-comparti-verifica-mitocondrio-3",
+          "bio26-energia-atp-1",
+          "bio26-energia-atp-2",
+          "bio26-energia-ossidativa-1",
+          "bio26-energia-ossidativa-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 10,
+        "title": "Segnali, recettori e fattori di crescita",
+        "refs": [
+          "segnali/recettori",
+          "segnali/spegnimento",
+          "genoma-rna-segnali/camp",
+          "ciclo/controlli"
+        ],
+        "questionIds": [
+          "segnali-recettori-verifica",
+          "segnali-spegnimento-verifica",
+          "ciclo-controlli-verifica",
+          "bio-integration-genoma-rna-segnali-camp-0",
+          "bio-integration-genoma-rna-segnali-camp-1",
+          "bio-integration-genoma-rna-segnali-camp-2",
+          "bio26-segnali-recettori-1",
+          "bio26-segnali-recettori-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 11,
+        "title": "Regolazione dell’espressione",
+        "refs": [
+          "espressione/regolazione",
+          "genoma-rna-segnali/piccoli-rna",
+          "genoma-rna-segnali/organizzazione"
+        ],
+        "questionIds": [
+          "espressione-regolazione-verifica",
+          "bio-integration-genoma-rna-segnali-organizzazione-0",
+          "bio-integration-genoma-rna-segnali-organizzazione-1",
+          "bio-integration-genoma-rna-segnali-organizzazione-2",
+          "bio-integration-genoma-rna-segnali-piccoli-rna-0",
+          "bio-integration-genoma-rna-segnali-piccoli-rna-1",
+          "bio-integration-genoma-rna-segnali-piccoli-rna-2",
+          "bio-applied-espressione-regolazione-extra-9",
+          "bio-applied-espressione-regolazione-extra-16",
+          "bio-applied-genoma-rna-segnali-organizzazione-extra-19"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 12,
+        "title": "Ciclo e morte cellulare",
+        "refs": [
+          "ciclo/fasi",
+          "ciclo/controlli",
+          "ciclo/destini",
+          "divisioni-ereditarieta/mitosi"
+        ],
+        "questionIds": [
+          "ciclo-fasi-verifica",
+          "ciclo-controlli-verifica",
+          "ciclo-destini-verifica",
+          "bio-applied-divisioni-ereditarieta-mitosi-0",
+          "bio-applied-divisioni-ereditarieta-mitosi-1",
+          "bio-applied-divisioni-ereditarieta-mitosi-2",
+          "bio-applied-ciclo-destini-extra-10",
+          "bio-applied-ciclo-destini-extra-11"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 13,
+        "title": "Staminalità e specializzazione",
+        "refs": [
+          "sviluppo/differenziamento",
+          "ciclo/muscolo"
+        ],
+        "questionIds": [
+          "ciclo-muscolo-verifica",
+          "sviluppo-differenziamento-verifica"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 14,
+        "title": "Geni e alleli",
+        "refs": [
+          "mendel/alleli",
+          "dna/flusso"
+        ],
+        "questionIds": [
+          "bio-dna-1",
+          "bio-gen-1"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 15,
+        "title": "Trasmissione dei caratteri",
+        "refs": [
+          "mendel/incrocio",
+          "mendel/probabilita",
+          "genetica-umana/pedigree",
+          "genetica-umana/x",
+          "divisioni-ereditarieta/modelli"
+        ],
+        "questionIds": [
+          "bio-gen-2",
+          "bio-gen-3",
+          "genetica-umana-pedigree-verifica",
+          "genetica-umana-x-verifica",
+          "bio-applied-divisioni-ereditarieta-modelli-0",
+          "bio-applied-divisioni-ereditarieta-modelli-1",
+          "bio-applied-divisioni-ereditarieta-modelli-2",
+          "bio-applied-divisioni-ereditarieta-modelli-extra-17"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 16,
+        "title": "Riproduzione e gameti",
+        "refs": [
+          "divisioni-ereditarieta/mitosi",
+          "divisioni-ereditarieta/meiosi",
+          "sviluppo/gameti",
+          "sviluppo/fecondazione",
+          "cellule-confronto/batteri"
+        ],
+        "questionIds": [
+          "sviluppo-gameti-verifica",
+          "sviluppo-fecondazione-verifica",
+          "bio-applied-divisioni-ereditarieta-mitosi-0",
+          "bio-applied-divisioni-ereditarieta-mitosi-1",
+          "bio-applied-divisioni-ereditarieta-mitosi-2",
+          "bio-applied-divisioni-ereditarieta-meiosi-0",
+          "bio-applied-divisioni-ereditarieta-meiosi-1",
+          "bio-applied-divisioni-ereditarieta-meiosi-2",
+          "bio-applied-divisioni-ereditarieta-meiosi-extra-18",
+          "mat26-cellule-confronto-batteri-1",
+          "mat26-cellule-confronto-batteri-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biologia",
+        "number": 17,
+        "title": "Mutazioni ed effetti",
+        "refs": [
+          "mutazioni/sequenza",
+          "mutazioni/codice",
+          "mutazioni/ereditarieta",
+          "genetica-umana/cariotipo"
+        ],
+        "questionIds": [
+          "base-mutazioni-sequenza",
+          "base-mutazioni-codice",
+          "base-mutazioni-ereditarieta",
+          "genetica-umana-cariotipo-verifica"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 1,
+        "title": "Fondamenti chimici, concentrazioni, termodinamica e pH",
+        "refs": [
+          "chimica-materia-soluzioni/classificare",
+          "chimica-materia-soluzioni/atomo",
+          "chimica-struttura-equilibrio/elettroni",
+          "chimica/legami",
+          "soluzioni-quantitative/concentrazioni",
+          "chimica-struttura-equilibrio/termodinamica",
+          "chimica-equilibri/acidi",
+          "chimica-equilibri/henderson",
+          "chimica-struttura-equilibrio/equilibrio"
+        ],
+        "questionIds": [
+          "chimica-legami-verifica",
+          "bc-depth-chimica-equilibri-acidi",
+          "bc-depth-chimica-equilibri-acidi-case",
+          "bc-depth-chimica-equilibri-henderson",
+          "bc-depth-chimica-equilibri-henderson-case",
+          "bc-detail2-chimica-struttura-equilibrio-elettroni-0",
+          "bc-detail2-chimica-struttura-equilibrio-elettroni-1",
+          "bc-detail2-chimica-struttura-equilibrio-equilibrio-0",
+          "bc-detail2-chimica-struttura-equilibrio-equilibrio-1",
+          "bc-detail2-chimica-struttura-equilibrio-termodinamica-0",
+          "bc-detail2-chimica-struttura-equilibrio-termodinamica-1",
+          "bc-detail2-soluzioni-quantitative-concentrazioni-0",
+          "bc-detail2-soluzioni-quantitative-concentrazioni-1",
+          "bc-full-chimica-struttura-equilibrio-equilibrio-extra-15",
+          "bc-full-chimica-struttura-equilibrio-termodinamica-extra-16",
+          "bc-full-soluzioni-quantitative-concentrazioni-extra-17",
+          "bc-full-chimica-equilibri-acidi-extra-18",
+          "pdf-chimica-materia-soluzioni-classificare-0",
+          "pdf-chimica-materia-soluzioni-classificare-1",
+          "pdf-chimica-materia-soluzioni-classificare-2",
+          "pdf-chimica-materia-soluzioni-classificare-3",
+          "pdf-chimica-materia-soluzioni-atomo-0",
+          "pdf-chimica-materia-soluzioni-atomo-1",
+          "pdf-chimica-materia-soluzioni-atomo-2",
+          "pdf-chimica-materia-soluzioni-atomo-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 2,
+        "title": "Carbonio, isomeri e gruppi funzionali",
+        "refs": [
+          "biochimica-leggere-molecole/carbonio",
+          "biochimica-leggere-molecole/funzioni",
+          "biochimica-leggere-molecole/chiralita",
+          "biochimica-leggere-molecole/geometrici",
+          "stereochimica-glucidi/chirale"
+        ],
+        "questionIds": [
+          "bc-depth-stereochimica-glucidi-chirale",
+          "bc-depth-stereochimica-glucidi-chirale-case",
+          "nov04-biochimica-leggere-molecole-carbonio",
+          "nov04-biochimica-leggere-molecole-funzioni",
+          "nov04-biochimica-leggere-molecole-geometrici",
+          "nov04-biochimica-leggere-molecole-chiralita",
+          "nov04-detail-a-43",
+          "nov04-detail-a-44",
+          "nov04-detail-a-47",
+          "nov04-detail-a-48"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 3,
+        "title": "Struttura e funzione delle proteine, emoproteine",
+        "refs": [
+          "proteine/amminoacidi",
+          "proteine/livelli",
+          "proteine/eme",
+          "proteine/bohr"
+        ],
+        "questionIds": [
+          "proteine-amminoacidi-verifica",
+          "proteine-livelli-verifica",
+          "proteine-eme-verifica",
+          "proteine-bohr-verifica",
+          "bc-central-proteine-livelli-extra-0",
+          "bc-central-proteine-livelli-extra-1",
+          "bc-central-proteine-livelli-extra-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 4,
+        "title": "Catalisi, cinetica e regolazione enzimatica",
+        "refs": [
+          "enzimi/catalisi",
+          "cinetica-enzimi/michaelis",
+          "cinetica-enzimi/quantita",
+          "cinetica-enzimi/inibizione",
+          "cinetica-enzimi/allosteria"
+        ],
+        "questionIds": [
+          "bc-enz-1",
+          "cinetica-enzimi-michaelis-verifica",
+          "cinetica-enzimi-quantita-verifica",
+          "cinetica-enzimi-inibizione-verifica",
+          "cinetica-enzimi-allosteria-verifica",
+          "bc-central-cinetica-enzimi-inibizione-extra-3",
+          "bc-central-cinetica-enzimi-inibizione-extra-4",
+          "bc-central-cinetica-enzimi-inibizione-extra-5"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 5,
+        "title": "Flussi metabolici, ATP e redox",
+        "refs": [
+          "energia/atp",
+          "chimica-equilibri/energia",
+          "chimica-organica/redox",
+          "metabolismo-controllo/carica",
+          "lipidi-azoto/ormoni",
+          "mitocondri-navette/trasportatori"
+        ],
+        "questionIds": [
+          "lipidi-azoto-ormoni-verifica",
+          "bc-depth-chimica-organica-redox",
+          "bc-depth-chimica-organica-redox-case",
+          "bc-depth-chimica-equilibri-energia",
+          "bc-depth-chimica-equilibri-energia-case",
+          "bc-detail2-mitocondri-navette-trasportatori-0",
+          "bc-detail2-mitocondri-navette-trasportatori-1",
+          "bio-integration-metabolismo-controllo-carica-0",
+          "bio-integration-metabolismo-controllo-carica-1",
+          "bio-integration-metabolismo-controllo-carica-2",
+          "bio26-energia-atp-1",
+          "bio26-energia-atp-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 6,
+        "title": "Metabolismo glucidico e altri esosi",
+        "refs": [
+          "stereochimica-glucidi/fischer",
+          "digestione-turnover/glucidi",
+          "glucosio-percorsi/investimento",
+          "glucosio-percorsi/rendimento",
+          "glicolisi/lattato",
+          "esosi-metabolismo/fruttosio",
+          "esosi-metabolismo/galattosio",
+          "esosi-metabolismo/confronto",
+          "glicogeno-pentosi/sintesi",
+          "glicogeno-pentosi/demolizione",
+          "glucosio-percorsi/bypass"
+        ],
+        "questionIds": [
+          "glicolisi-lattato-verifica",
+          "bc-depth-stereochimica-glucidi-fischer",
+          "bc-depth-stereochimica-glucidi-fischer-case",
+          "bc-depth-glicogeno-pentosi-sintesi",
+          "bc-depth-glicogeno-pentosi-sintesi-case",
+          "bc-depth-glicogeno-pentosi-demolizione",
+          "bc-depth-glicogeno-pentosi-demolizione-case",
+          "bc-network-digestione-turnover-glucidi-0",
+          "bc-network-digestione-turnover-glucidi-1",
+          "bc-central-glucosio-percorsi-investimento-0",
+          "bc-central-glucosio-percorsi-investimento-1",
+          "bc-central-glucosio-percorsi-investimento-2",
+          "bc-central-glucosio-percorsi-rendimento-0",
+          "bc-central-glucosio-percorsi-rendimento-1",
+          "bc-central-glucosio-percorsi-rendimento-2",
+          "bc-central-glucosio-percorsi-bypass-0",
+          "bc-central-glucosio-percorsi-bypass-1",
+          "bc-central-glucosio-percorsi-bypass-2",
+          "bio26-esosi-metabolismo-fruttosio-1",
+          "bio26-esosi-metabolismo-fruttosio-2",
+          "bio26-esosi-metabolismo-fruttosio-3",
+          "bio26-esosi-metabolismo-galattosio-1",
+          "bio26-esosi-metabolismo-galattosio-2",
+          "bio26-esosi-metabolismo-galattosio-3",
+          "bio26-esosi-metabolismo-confronto-1",
+          "bio26-esosi-metabolismo-confronto-2",
+          "bio26-esosi-metabolismo-confronto-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 7,
+        "title": "Lipidi: digestione, uso e sintesi",
+        "refs": [
+          "lipidi-sintesi/classi",
+          "digestione-turnover/lipidi",
+          "lipidi-ossidazione/ingresso",
+          "lipidi-ossidazione/cicli",
+          "lipidi-ossidazione/chetoni",
+          "lipidi-sintesi/citrato",
+          "lipidi-sintesi/palmitato",
+          "metabolismo-controllo/ciclo-tag"
+        ],
+        "questionIds": [
+          "bc-depth-lipidi-sintesi-citrato",
+          "bc-depth-lipidi-sintesi-citrato-case",
+          "bc-depth-lipidi-sintesi-palmitato",
+          "bc-depth-lipidi-sintesi-palmitato-case",
+          "bc-depth-lipidi-sintesi-classi",
+          "bc-depth-lipidi-sintesi-classi-case",
+          "bc-depth-lipidi-ossidazione-ingresso",
+          "bc-depth-lipidi-ossidazione-ingresso-case",
+          "bc-depth-lipidi-ossidazione-cicli",
+          "bc-depth-lipidi-ossidazione-cicli-case",
+          "bc-depth-lipidi-ossidazione-chetoni",
+          "bc-depth-lipidi-ossidazione-chetoni-case",
+          "bc-network-digestione-turnover-lipidi-0",
+          "bc-network-digestione-turnover-lipidi-1",
+          "bio-integration-metabolismo-controllo-ciclo-tag-0",
+          "bio-integration-metabolismo-controllo-ciclo-tag-1",
+          "bio-integration-metabolismo-controllo-ciclo-tag-2",
+          "bio-applied-lipidi-sintesi-classi-extra-22",
+          "bc-full-lipidi-ossidazione-ingresso-extra-4",
+          "bc-full-lipidi-ossidazione-ingresso-extra-5",
+          "bc-full-lipidi-ossidazione-ingresso-extra-6",
+          "bc-full-lipidi-sintesi-classi-extra-7",
+          "bc-full-lipidi-sintesi-classi-extra-8",
+          "bc-full-lipidi-ossidazione-cicli-extra-11",
+          "bc-full-lipidi-sintesi-classi-extra-22"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 8,
+        "title": "Respirazione, termogenesi e specie reattive",
+        "refs": [
+          "ossidazione-controllo/krebs",
+          "mitocondri/catena",
+          "ossidazione-controllo/accoppiamento",
+          "redox-integrazione/specie",
+          "redox-integrazione/difese"
+        ],
+        "questionIds": [
+          "mitocondri-catena-verifica",
+          "bc-network-redox-integrazione-specie-0",
+          "bc-network-redox-integrazione-specie-1",
+          "bc-network-redox-integrazione-difese-0",
+          "bc-network-redox-integrazione-difese-1",
+          "bc-central-ossidazione-controllo-krebs-0",
+          "bc-central-ossidazione-controllo-krebs-1",
+          "bc-central-ossidazione-controllo-krebs-2",
+          "bc-central-ossidazione-controllo-accoppiamento-0",
+          "bc-central-ossidazione-controllo-accoppiamento-1",
+          "bc-central-ossidazione-controllo-accoppiamento-2",
+          "bio26-ossidazione-controllo-accoppiamento-1",
+          "bio26-ossidazione-controllo-accoppiamento-2"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 9,
+        "title": "Metabolismo degli amminoacidi e dell’azoto",
+        "refs": [
+          "digestione-turnover/proteolisi",
+          "amminoacidi-urea/azoto",
+          "amminoacidi-urea/trasporto",
+          "amminoacidi-urea/urea",
+          "amminoacidi-urea/carbonio",
+          "amminoacidi-derivati/ramificati"
+        ],
+        "questionIds": [
+          "bc-depth-amminoacidi-urea-azoto",
+          "bc-depth-amminoacidi-urea-azoto-case",
+          "bc-depth-amminoacidi-urea-trasporto",
+          "bc-depth-amminoacidi-urea-trasporto-case",
+          "bc-depth-amminoacidi-urea-urea",
+          "bc-depth-amminoacidi-urea-urea-case",
+          "bc-depth-amminoacidi-urea-carbonio",
+          "bc-depth-amminoacidi-urea-carbonio-case",
+          "bc-network-digestione-turnover-proteolisi-0",
+          "bc-network-digestione-turnover-proteolisi-1",
+          "bc-network-amminoacidi-derivati-ramificati-0",
+          "bc-network-amminoacidi-derivati-ramificati-1",
+          "bc-full-amminoacidi-urea-urea-extra-9",
+          "bc-full-amminoacidi-urea-urea-extra-10"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      },
+      {
+        "block": "biochimica",
+        "number": 10,
+        "title": "Muscolo scheletrico e cardiaco",
+        "refs": [
+          "cellula-comparti-verifica/muscolo",
+          "segnale-muscolare/calcio",
+          "segnale-muscolare/ponti",
+          "segnale-muscolare/fibre",
+          "biochimica-muscolo/substrati",
+          "biochimica-muscolo/cardiaco"
+        ],
+        "questionIds": [
+          "y1-biochimica-muscolo-substrati",
+          "y1-biochimica-muscolo-cardiaco",
+          "bc-central-biochimica-muscolo-substrati-extra-6",
+          "bc-central-biochimica-muscolo-substrati-extra-7",
+          "bc-full-segnale-muscolare-calcio-0",
+          "bc-full-segnale-muscolare-calcio-1",
+          "bc-full-segnale-muscolare-calcio-2",
+          "bc-full-segnale-muscolare-ponti-0",
+          "bc-full-segnale-muscolare-ponti-1",
+          "bc-full-segnale-muscolare-ponti-2",
+          "bc-full-segnale-muscolare-fibre-0",
+          "bc-full-segnale-muscolare-fibre-1",
+          "bc-full-segnale-muscolare-fibre-2",
+          "pdf-cellula-comparti-verifica-muscolo-0",
+          "pdf-cellula-comparti-verifica-muscolo-1",
+          "pdf-cellula-comparti-verifica-muscolo-2",
+          "pdf-cellula-comparti-verifica-muscolo-3"
+        ],
+        "status": "introduced",
+        "scope": "Spiegazione e pratica presenti. Il confronto riguarda la voce pubblicata; non certifica tutte le dispense del docente né la padronanza individuale."
+      }
+    ],
+    "assessment": {
+      "generalField": "Orale",
+      "detailedField": "Scritto con scelta multipla e/o risposte aperte",
+      "pass": "Sufficienza in entrambi i moduli",
+      "retention": "Voto del modulo superato conservabile entro l’anno accademico",
+      "finalMark": "Media ponderata",
+      "unresolved": "Discrepanza tra campo generale e testo di verifica; numero di domande e durata non pubblicati."
+    },
+    "remaining": [
+      "Dispense effettivamente assegnate non integralmente disponibili",
+      "Esercitazione finale per entrambi i moduli da consolidare",
+      "Nessuna garanzia di padronanza individuale"
+    ]
+  },
+  "anatomy": {
+    "sourceId": "an-catalogue-2026",
+    "sourceRead": true,
+    "coverageCompared": false,
+    "assessment": {
+      "oral": true,
+      "imageCount": 1,
+      "structuresToRecognize": 15,
+      "sourceDoesNotSpecifyImagesOrTiming": true
+    },
+    "remaining": [
+      "Confronto corrente di ogni voce e obiettivo",
+      "Prova integrata di riconoscimento di 15 strutture su immagine/disegno",
+      "Pratica del riconoscimento su modelli 3D e immagini nuove"
+    ]
+  },
+  "completionProven": false
+}

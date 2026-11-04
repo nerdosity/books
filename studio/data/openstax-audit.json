@@ -1,9 +1,9 @@
 {
   "checked": "2026-10-22",
-  "scope": "Pagine pregresse controllate il 22 ottobre; nove nuove pagine aperte e verificate il 26 ottobre. Aggiornati abbinamenti e totali. Non certificazione di copertura del syllabus.",
-  "units": 198,
-  "placements": 519,
-  "distinctPages": 245,
+  "scope": "Catalogo dei collegamenti effettivamente usati nelle lezioni; pagine pregresse verificate nelle tappe del 22 e 26 ottobre, nuove letture sullo sviluppo consultate il 4 novembre. Non certifica copertura del syllabus. Il 5 novembre aggiunta la pagina sulle connessioni cellulari, letta nel confronto del programma corrente di Biologia.",
+  "units": 201,
+  "placements": 528,
+  "distinctPages": 253,
   "excluded": [
     {
       "unit": "diritto-soggetti",
@@ -1347,7 +1347,55 @@
       "title": "OpenStax · 12.5 · Comunicazione fra neuroni",
       "checked": "2026-10-26",
       "verification": "Pagina aperta con strumento web; contenuto e pertinenza verificati. Nessun codice HTTP dedotto."
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/3-2-motor-development-in-infants-and-toddlers",
+      "status": 200,
+      "title": "OpenStax · 3.2 Motor Development in Infants and Toddlers",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/3-3-sensory-development-in-infants-and-toddlers",
+      "status": 200,
+      "title": "OpenStax · 3.3 Sensory Development in Infants and Toddlers",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/3-4-cognition-and-memory-in-infants-and-toddlers",
+      "status": 200,
+      "title": "OpenStax · 3.4 Cognition and Memory in Infants and Toddlers",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/3-5-language-in-infants-and-toddlers",
+      "status": 200,
+      "title": "OpenStax · 3.5 Language in Infants and Toddlers",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/7-2-cognition-in-middle-childhood",
+      "status": 200,
+      "title": "OpenStax · 7.2 Cognition in Middle Childhood",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/4-2-temperament-and-personality-in-infants-and-toddlers",
+      "status": 200,
+      "title": "OpenStax · 4.2 Temperament and Personality in Infants and Toddlers",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/lifespan-development/pages/8-2-emotional-development-and-socioemotional-learning-in-middle-childhood",
+      "status": 200,
+      "title": "OpenStax · 8.2 Emotional Development and Socioemotional Learning in Middle Childhood",
+      "checked": "2026-11-04"
+    },
+    {
+      "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+      "status": 200,
+      "title": "OpenStax · Matrice e collegamenti cellulari",
+      "checked": "2026-11-05"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-11-05"
 }

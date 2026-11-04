@@ -24,6 +24,11 @@ test('November source map accounts for every new page, with teaching, assessment
  assert.equal(a.currentSyllabusConfirmed,false);
  assert.equal(a.unchangedDocuments[0].status,'unchanged-previous-integration');
  assert.ok(a.programme.notCertified.length>=3);
+ // Printed page 955 still contains sections 4.3 and 4.4 before its references.
+ const imagery=a.documents.find(d=>d.file==='Gaining_strength.pdf');
+ assert.equal(imagery.pages[11].status,'integrated');
+ assert.deepEqual(imagery.pages[11].refs,['psico-ricerca-imagery/inferenze']);
+ assert.equal(imagery.pages[12].status,'non-instructional');
 });
 test('new teaching supports every diagnostic answer and belongs to a real exam and programme topic',()=>{
  assert.equal(a.additions.unitIds.length,25);assert.equal(a.additions.refs.length,113);assert.equal(a.additions.questionIds.length,228);
@@ -43,6 +48,7 @@ test('scientific distinctions and original attachment exclusion survive editoria
  const text=r=>section(r).text.join(' ');
  assert.match(text('psico-ricerca-imagery/dati'),/significativ/i);
  assert.match(text('psico-ricerca-imagery/strumenti'),/deviazione standard/);
+ assert.match(text('psico-ricerca-imagery/inferenze'),/constraint-induced movement therapy/);
  assert.match(text('neuro-esercizio-dopamina/fatica'),/205/);
  assert.match(text('biochimica-leggere-molecole/riconoscimento'),/diastereoisomeri/);
  assert.match(text('biochimica-cellule-laboratorio/frazionamento'),/non.*pura/);

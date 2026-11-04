@@ -108,7 +108,8 @@ function examPendingHTML(exam) {
 function checkpointHTML() {
   const cp=course.checkpoint;
   if(!cp) return '';
-  return `<details class="work-checkpoint editorial"><summary>Segnalibro di sviluppo · materiale ancora da completare</summary><p>${esc(cp.summary)}</p><p><strong>Punto di ripresa:</strong> ${esc(cp.next)}</p><p>Lo sviluppo è in pausa. Puoi studiare con tutte le lezioni presenti; la copertura integrale degli esami resta da verificare.</p><details><summary>Che cosa manca nei ${cp.examNotes.length} esami</summary><ul>${cp.examNotes.map(n=>`<li><a href="#exam/${esc(n.id)}">${esc(course.exams.find(e=>e.id===n.id)?.title || n.id)}</a> · <strong>${esc(n.label)}</strong><p>${esc(n.remaining)}</p></li>`).join('')}</ul></details></details>`;
+  const status=cp.status==='paused'?'Lo sviluppo è in pausa.':'Lo sviluppo è in corso.';
+  return `<details class="work-checkpoint editorial"><summary>Segnalibro di sviluppo · materiale ancora da completare</summary><p>${esc(cp.summary)}</p><p><strong>Punto di ripresa:</strong> ${esc(cp.next)}</p><p>${status} Puoi studiare con tutte le lezioni presenti; la copertura integrale degli esami resta da verificare.</p><details><summary>Che cosa manca nei ${cp.examNotes.length} esami</summary><ul>${cp.examNotes.map(n=>`<li><a href="#exam/${esc(n.id)}">${esc(course.exams.find(e=>e.id===n.id)?.title || n.id)}</a> · <strong>${esc(n.label)}</strong><p>${esc(n.remaining)}</p></li>`).join('')}</ul></details></details>`;
 }
 function examCard(exam) {
   const units = unitsForExam(course,exam.id), read = units.filter(u => state.read[u.id]).length;

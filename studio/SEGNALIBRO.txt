@@ -1,24 +1,22 @@
-SEGNALIBRO DI LAVORO — 4 novembre 2026
-STATO: IN PAUSA DOPO L’INTEGRAZIONE RICHIESTA — NON RIPRENDERE AUTOMATICAMENTE
+SEGNALIBRO DI LAVORO — 5 novembre 2026
+STATO: IN PAUSA SU RICHIESTA — NON RIPRENDERE AUTOMATICAMENTE
 
 CONSEGNA
 pronto/index.html — doppio clic, nessun server.
-249 lezioni, 998 sezioni, 2171 quiz, 27 famiglie numeriche, 229 prove aperte.
+255 lezioni, 1020 sezioni, 2269 quiz, 27 famiglie numeriche, 236 prove aperte.
 
-MATERIALI NUOVI
-19 documenti didattici, 665 pagine/slide: 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte, 9 schemi originali.
-Scienze psicologiche e pedagogiche: 47 lezioni, inclusi neurobiologia, psicologia, pedagogia e lettura critica dei tre articoli.
-Scienze biologiche: 56 lezioni, aggiunti frazionamento cellulare e lettura delle strutture molecolari.
-Mappa completa delle pagine e dei rimandi: data/materials-20261104-audit.json (152 gruppi). Titoli e bibliografie separati; nessun allegato, link o pagina originale nella piattaforma.
+ULTIMO AMPLIAMENTO
+Recuperati i programmi analitici 2026/27 di Scienze biologiche e Anatomia. Confrontate 27 voci di Scienze biologiche e aggiunti due capitoli, 26 quiz e tre prove aperte. Anatomia richiede ora un confronto specifico e una prova di riconoscimento di 15 strutture.
+
+EVIDENZA CORRENTE
+21 risposte del catalogo pubblico controllate il 5 novembre: dieci esami e undici moduli. Testo analitico presente per Biologia e Anatomia. Biologia: campo generale Orale in contrasto con la descrizione dello scritto; sufficienza distinta nei due moduli. Anatomia: orale più riconoscimento di 15 strutture; immagini e tempi non specificati.
+Mappa: data/current-programme-audit.json. Le schede storiche restano distinte dalle correnti.
+
+MATERIALI FORNITI
+19 documenti, 665 pagine/slide: 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte, 9 schemi. Nessun allegato o link agli originali nella consegna. Mappa: data/materials-20261104-audit.json. Il documento di Anatomia invariato mantiene il precedente confronto per nuclei; Studocu escluso.
 
 VERIFICHE
-Contenuti e rimandi validi; 55 test automatici passati. Browser file:// offline: 25 lezioni, 456 feedback errati, 34 ricontrolli dopo le ultime rifiniture, 9 schemi chiaro/scuro con ingrandimento, stampa e progressi precedenti. Nessuna richiesta di rete.
-
-LIMITI E RIPRESA
-Alla prossima richiesta: verificare le parti del programma di Psicobiologia non presenti nei documenti forniti, le letture monografiche e i moduli di sviluppo/didattica speciale. Il PDF di Anatomia invariato conserva il precedente confronto per nuclei, non una nuova verifica integrale. Non avviare altri esami automaticamente.
-Il programma Fischetti di una pagina è stato letto, ma non reca un anno; alcuni intervalli manoscritti non sono certi e l’edizione citata differisce da quella delle tavole. Non dichiarare completato l’intero esame sulla base di questi file.
-Il riassunto Anatomia di 87 pagine ha lo stesso SHA256 del 26 ottobre: resta il confronto precedente per nuclei, non una nuova verifica integrale di ogni dettaglio.
-Studocu resta escluso dalla piattaforma. Gli altri esami mantengono le pendenze sotto riportate.
+Verifica corrente: 61 test passati, cinque lezioni provate offline, tutti i 52 feedback errati con aiuti, stampa e progressi conservati; zero richieste di rete. Mappa: data/biology-current-expansion-audit.json. Tappa precedente: 59 test passati, 80 feedback inglesi con aiuti, simulazione da 15 domande e progressi conservati offline.
 
 NOTE DELLE TAPPE PRECEDENTI (storiche; i conteggi sopra sono quelli attuali)
 ANATOMIA: CONFRONTO PUBBLICO DELLA TAPPA PRECEDENTE (22 OTTOBRE)
@@ -28,18 +26,19 @@ MATERIALI DEL 26 OTTOBRE
 Biologia: diversità cellulare, scale, raddoppi, biomolecole, DNA/RNA; integrazione su folding e prioni. Anatomia: cute e annessi, segnali nervosi, ABO/Rh, epifisi e cicli riproduttivi. Scienze biologiche ha ora 54 lezioni; Anatomia 59 lezioni, 493 quiz e 53 prove aperte.
 La mappa registra intervalli di tutte le slide/pagine e verifiche rappresentative, non una trascrizione di ogni dettaglio o una validazione integrale del documento. Il video esterno della slide 27 non è stato visionato. Questi file non provano adozione ufficiale UniBa o completezza del programma corrente.
 
-ESAMI ANCORA DA TERMINARE O VERIFICARE
-Scienze biologiche — Verifica finale da terminare
-Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione.
 
-Anatomia umana e applicata — Percorso pubblico sviluppato; verifica corrente da terminare
-Confrontate 75 voci 2024/25 e obiettivi. Disponibili laboratorio con 11 micrografie, viste regionali, ricostruzioni guidate e prove orali. Catalogo 2026/27: orale. Restano dettaglio analitico e materiali correnti; il campione di immagini non certifica riconoscimento su ogni preparato o preparazione individuale.
+ESAMI ANCORA DA TERMINARE O VERIFICARE
+Scienze biologiche — Programma 2026/27 confrontato; verifica didattica da consolidare
+Confrontate le 27 voci correnti con lezioni ed esercizi. Colmate lacune su giunzioni, matrice, altri esosi e termogenesi. Restano dispense specifiche, conferma della discrepanza orale/scritto e verifica della preparazione separata nei due moduli.
+
+Anatomia umana e applicata — Programma 2026/27 recuperato; confronto da completare
+Il 5 novembre è stato recuperato il programma analitico 2026/27 di Francesco Girolamo. Il precedente confronto in 75 voci riguarda il 2024/25; non è automaticamente trasferito al nuovo programma. La prova corrente comprende orale e riconoscimento di 15 strutture su una immagine/disegno. Restano confronto analitico corrente, pratica su modelli 3D e prova visuale da 15 strutture.
 
 Scienze di base — Verifica finale da terminare
 Confronto di Fisica con 79 voci del syllabus storico svolto. Restano materiali del docente attuale, modalità della prova e verifica finale del percorso.
 
-Scienze psicologiche e pedagogiche — Da ampliare e verificare
-47 lezioni complessive. Integrate le due presentazioni di Pedagogia, cinque di Psicologia, otto raccolte neurobiologiche e tre articoli. Il programma Fischetti è privo di anno e contiene annotazioni parzialmente illeggibili; non certifica tutti i capitoli dell’edizione assegnata. Restano monografia di Persano, dettaglio corrente e ulteriori materiali dei quattro moduli. Restano contenuti specifici della monografia di Persano, ulteriori richieste dei docenti e dettaglio/dispense correnti dei quattro moduli, inclusa didattica speciale. Nessuna certificazione della preparazione orale.
+Scienze psicologiche e pedagogiche — Materiali ampliati; esame da verificare
+49 lezioni complessive; Psicologia dello sviluppo passa da quattro a sei, con osservazione delle capacità precoci, azione, comunicazione, funzioni esecutive, memoria, credenze e regolazione emotiva. Restano letture specifiche assegnate, monografia di Persano e confronto analitico corrente dei quattro moduli; le fonti storiche non certificano il programma 2026/27.
 
 Scienze giuridiche — Confronto pubblico svolto; verifica corrente da terminare
 Venti lezioni, 160 quiz, 20 prove orali e tre tavole originali. Confrontate tutte le voci esplicite del syllabus 2024/25 e i due articoli assegnati. Restano programma analitico 2026/27, ulteriori dispense del docente e verifica della preparazione orale; il catalogo corrente conferma struttura e orale.
@@ -57,10 +56,11 @@ Informatica — Confronto storico svolto; verifica corrente da terminare
 Dieci lezioni, 104 quiz e sei laboratori. Confrontati contenuti e risultati attesi della scheda d’archivio in 28 righe. Restano dispense/appunti effettivamente assegnati, dettaglio e modalità correnti, pratica delle interfacce da ufficio e verifica della collaborazione richiesta in laboratorio. Il materiale non certifica il superamento della prova.
 
 Inglese scientifico — Percorso scritto ampliato; verifica corrente da terminare
-Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale.
+Quattordici lezioni, 156 quiz scritti e 8 audio facoltativi preesistenti. Grammatica di supporto, letture graduate, terminologia motoria e produzione scritta con modelli; approfonditi gruppi nominali, relative, quantità, negazioni e connettivi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare. Restano controllo delle produzioni libere e del livello individuale; la simulazione riprende il formato storico e non certifica la prova attuale.
 
 APPROFONDIMENTI
-519 collegamenti OpenStax in 198 lezioni, 245 pagine distinte. I PDF privati e il materiale Studocu non vengono collegati o incorporati.
+528 collegamenti OpenStax in 201 lezioni, 253 pagine distinte.
 
-STOP
-Non avviare un altro esame senza una nuova richiesta. Ascolto inglese escluso dall’obiettivo.
+PUNTO DI RIPRESA DOPO NUOVA RICHIESTA
+Priorità: confrontare integralmente il programma Anatomia 2026/27, i relativi obiettivi e la prova con 15 strutture su una immagine/disegno; integrare le lacune risultanti. Per gli altri otto esami le schede consultate non contengono ancora testo analitico.
+Ascolto inglese escluso dall’obiettivo. Non dichiarare concluso il primo anno dai soli conteggi o test tecnici.

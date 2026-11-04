@@ -2,7 +2,7 @@
 
 App di studio con lezioni, esercizi e tavole attribuite.
 
-**Sviluppo in pausa su richiesta dell’utente il 22 ottobre 2026, dopo Inglese scritto.** Sei nuovi capitoli, 96 quiz e simulazione scritta da 15 domande; integrati tre PDF forniti con due capitoli biologico-chimici e 32 quiz. Restano i materiali e i programmi correnti da verificare: il primo anno non è ancora completo. Il punto di ripresa è in [SEGNALIBRO.txt](studio/SEGNALIBRO.txt).
+**Sviluppo in pausa su richiesta del 5 novembre 2026.** La copia contiene 255 lezioni, 2.269 quiz e 236 prove aperte. Recuperati i programmi correnti di Scienze biologiche e Anatomia; Biologia confrontata in 27 voci con integrazioni mirate. Restano il confronto di Anatomia 2026/27 e la prova visuale da 15 strutture, oltre alle pendenze degli altri esami. Punto di ripresa in [SEGNALIBRO.txt](studio/SEGNALIBRO.txt).
 
 **Apri il sito: https://nerdosity.github.io/books/**
 

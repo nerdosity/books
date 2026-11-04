@@ -6538,8 +6538,8 @@
         },
         {
           "from": 10,
-          "to": 11,
-          "topic": "Discussione, meccanismi alternativi, conclusioni e inizio riferimenti",
+          "to": 12,
+          "topic": "Discussione, meccanismi alternativi, possibili applicazioni, confronto con terapia indotta da vincolo, conclusioni e inizio riferimenti",
           "refs": [
             "psico-ricerca-imagery/inferenze"
           ],
@@ -6550,7 +6550,7 @@
           ]
         },
         {
-          "from": 12,
+          "from": 13,
           "to": 13,
           "topic": "Bibliografia: studi citati, non ulteriori risultati originali del documento",
           "refs": [],
@@ -6645,8 +6645,10 @@
         },
         {
           "page": 12,
-          "status": "non-instructional",
-          "refs": []
+          "status": "integrated",
+          "refs": [
+            "psico-ricerca-imagery/inferenze"
+          ]
         },
         {
           "page": 13,
@@ -7377,7 +7379,8 @@
         "biochimica-leggere-molecole/chiralita",
         "biochimica-leggere-molecole/riconoscimento"
       ]
-    }
+    },
+    "Ricontrollo dei confini fra discussione e bibliografia: Gaining_strength, pagina PDF 12 (pagina stampata 955), contiene ancora implicazioni e conclusioni. Riclassificata come didattica, ampliato il confronto imagery/terapia indotta da vincolo e reso specifico il quiz collegato. Solo pagina 13 è interamente bibliografica."
   ],
   "limits": [
     "Bibliografie, crediti e frontespizi classificati separatamente: non trasformati in domande da memorizzare.",

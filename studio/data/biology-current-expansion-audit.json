@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "exam": "scienze-biologiche",
+  "unitIds": [
+    "cellula-adesione",
+    "esosi-metabolismo",
+    "energia",
+    "ossidazione-controllo",
+    "segnali"
+  ],
+  "newUnitIds": [
+    "cellula-adesione",
+    "esosi-metabolismo"
+  ],
+  "questionIds": [
+    "bio26-cellula-adesione-matrice-1",
+    "bio26-cellula-adesione-matrice-2",
+    "bio26-cellula-adesione-matrice-3",
+    "bio26-cellula-adesione-adesioni-1",
+    "bio26-cellula-adesione-adesioni-2",
+    "bio26-cellula-adesione-adesioni-3",
+    "bio26-cellula-adesione-barriere-1",
+    "bio26-cellula-adesione-barriere-2",
+    "bio26-cellula-adesione-barriere-3",
+    "bio26-esosi-metabolismo-fruttosio-1",
+    "bio26-esosi-metabolismo-fruttosio-2",
+    "bio26-esosi-metabolismo-fruttosio-3",
+    "bio26-esosi-metabolismo-galattosio-1",
+    "bio26-esosi-metabolismo-galattosio-2",
+    "bio26-esosi-metabolismo-galattosio-3",
+    "bio26-esosi-metabolismo-confronto-1",
+    "bio26-esosi-metabolismo-confronto-2",
+    "bio26-esosi-metabolismo-confronto-3",
+    "bio26-energia-atp-1",
+    "bio26-energia-atp-2",
+    "bio26-energia-ossidativa-1",
+    "bio26-energia-ossidativa-2",
+    "bio26-ossidazione-controllo-accoppiamento-1",
+    "bio26-ossidazione-controllo-accoppiamento-2",
+    "bio26-segnali-recettori-1",
+    "bio26-segnali-recettori-2"
+  ],
+  "diagramIds": [],
+  "reason": "Confronto con programma corrente 2026/27: mancavano una trattazione autonoma della superficie/matrice/giunzioni, catabolismo degli altri esosi, UCP1 e verifica dedicata di due sezioni introduttive. Nessuna equivalenza automatica fra presenza e padronanza.",
+  "checks": {
+    "date": "2026-11-05",
+    "content": true,
+    "tests": 61,
+    "browser": true,
+    "lessons": 5,
+    "wrongAnswerHelpChecks": 52,
+    "print": true,
+    "previousProgress": true,
+    "networkRequests": 0
+  }
+}

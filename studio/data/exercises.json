@@ -62143,28 +62143,28 @@
       "concept": "inferenze",
       "type": "choice",
       "level": "applicazione",
-      "prompt": "Quale conclusione è sostenibile?",
+      "prompt": "Gli autori accostano l’imagery alla terapia del movimento indotto da vincolo. Quale lettura distingue correttamente ipotesi e prova?",
       "answer": "corretta",
       "options": [
         {
           "id": "corretta",
-          "text": "I risultati sono coerenti con adattamenti del controllo volontario, con limiti dovuti a campione e disegno."
+          "text": "L’impegno del comando motorio motiva un’analogia, ma azione immaginata e movimento reale restano interventi diversi; l’efficacia nei pazienti richiede verifiche dedicate."
         },
         {
           "id": "errore-a",
-          "text": "L’imagery garantisce a chiunque +35% di forza e sostituisce ogni allenamento.",
-          "feedback": "Le percentuali riguardano specifici gruppi e compiti; il trasferimento non è garantito.",
+          "text": "Entrambi gli interventi consistono soltanto nell’immaginare il movimento, quindi i risultati sono intercambiabili.",
+          "feedback": "La terapia richiamata comprende uso reale dell’arto interessato con limitazione di quello meno compromesso. Condividere un possibile contributo centrale non rende identici i protocolli.",
           "help": "psico-ricerca-imagery/inferenze"
         },
         {
           "id": "errore-b",
-          "text": "Ogni differenza rispetto al gruppo fisico è stata dimostrata essere ipertrofia.",
-          "feedback": "Le misure e il disegno non isolano così precisamente quella causa.",
+          "text": "L’aumento di forza nei volontari sani dimostra già la stessa percentuale di recupero dopo una lesione neurologica.",
+          "feedback": "Popolazione, compito ed esito cambiano: la forza misurata in adulti sani non è una misura del recupero funzionale nei pazienti. L’applicazione era proposta, non verificata da quel campione.",
           "help": "psico-ricerca-imagery/inferenze"
         }
       ],
-      "hint": "Una spiegazione coerente con i dati non equivale all’isolamento di tutte le cause.",
-      "explanation": "I risultati sono coerenti con adattamenti del controllo volontario, con limiti dovuti a campione e disegno. Forza e MRCP aumentano insieme: il dato è coerente con un contributo neurale, ma per dimostrare uno specifico meccanismo servirebbero misure o manipolazioni aggiuntive.",
+      "hint": "Separa ciò che è stato misurato dalle applicazioni proposte nella discussione.",
+      "explanation": "Il dato sostiene un possibile contributo del controllo volontario nelle condizioni studiate. Il confronto con un intervento che utilizza movimento reale suggerisce domande di ricerca; non dimostra equivalenza né permette di trasferire percentuali di forza a esiti clinici.",
       "help": "psico-ricerca-imagery/inferenze"
     },
     {
@@ -65856,6 +65856,2946 @@
       "hint": "Individua chi trasmette a chi, attraverso quale mediazione e con quale rielaborazione.",
       "explanation": "Obliqua. Una compagna insegna una regola a un’altra: trasmissione orizzontale. Un allenatore la spiega a un gruppo giovane: obliqua. Un genitore la mostra al figlio: verticale. In tutti i casi il significato può essere reinterpretato.",
       "help": "pedagogia-cultura-apprendere/trasmissione"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-sguardo-1",
+      "unit": "sviluppo-esplorare",
+      "concept": "sguardo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "A viene guardato per 12, 9, 6, 4 secondi; B per 10. Che cosa sostiene direttamente questa sequenza?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una ripresa della risposta al cambiamento, compatibile con discriminazione."
+        },
+        {
+          "id": "errore-a",
+          "text": "Il bambino comprende ogni proprietà fisica di B.",
+          "feedback": "La durata dello sguardo non dimostra conoscenza di tutte le proprietà.",
+          "help": "sviluppo-esplorare/sguardo"
+        },
+        {
+          "id": "errore-b",
+          "text": "B è necessariamente più piacevole.",
+          "feedback": "Maggiore durata non identifica da sola piacere o preferenza.",
+          "help": "sviluppo-esplorare/sguardo"
+        }
+      ],
+      "hint": "Una misura indiretta sostiene un’inferenza solo insieme a confronti e controlli.",
+      "explanation": "Una ripresa della risposta al cambiamento, compatibile con discriminazione. Con A: 12 → 9 → 6 → 4 s; con B: 10 s. Prima conclusione: risposta al cambiamento. Per attribuirla alla forma occorre controllare le altre proprietà; non basta chiamare B “nuovo”.",
+      "help": "sviluppo-esplorare/sguardo"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-sguardo-2",
+      "unit": "sviluppo-esplorare",
+      "concept": "sguardo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Per studiare la discriminazione della forma, A e B differiscono anche per luminosità. Quale modifica rende il confronto più interpretabile?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Rendere comparabile la luminosità mantenendo la differenza di forma."
+        },
+        {
+          "id": "errore-a",
+          "text": "Aumentare anche il volume di un suono associato a B.",
+          "feedback": "Aggiungere una differenza rende ancora meno isolabile l’effetto della forma.",
+          "help": "sviluppo-esplorare/sguardo"
+        },
+        {
+          "id": "errore-b",
+          "text": "Chiamare B “stimolo nuovo”, senza modificare nulla.",
+          "feedback": "Un’etichetta non elimina le differenze fra le condizioni.",
+          "help": "sviluppo-esplorare/sguardo"
+        }
+      ],
+      "hint": "Una misura indiretta sostiene un’inferenza solo insieme a confronti e controlli.",
+      "explanation": "Rendere comparabile la luminosità mantenendo la differenza di forma. Con A: 12 → 9 → 6 → 4 s; con B: 10 s. Prima conclusione: risposta al cambiamento. Per attribuirla alla forma occorre controllare le altre proprietà; non basta chiamare B “nuovo”.",
+      "help": "sviluppo-esplorare/sguardo"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-sguardo-3",
+      "unit": "sviluppo-esplorare",
+      "concept": "sguardo",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una seconda serie mantiene A anche nella quinta prova. A che cosa serve questo controllo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "A confrontare il cambiamento di stimolo con una prova senza cambiamento."
+        },
+        {
+          "id": "errore-a",
+          "text": "A misurare automaticamente il quoziente intellettivo.",
+          "feedback": "Il controllo riguarda la risposta osservata nel paradigma, non una misura generale d’intelligenza.",
+          "help": "sviluppo-esplorare/sguardo"
+        },
+        {
+          "id": "errore-b",
+          "text": "A eliminare la necessità di registrare i tempi.",
+          "feedback": "Occorre misurare entrambe le condizioni per confrontarle.",
+          "help": "sviluppo-esplorare/sguardo"
+        }
+      ],
+      "hint": "Una misura indiretta sostiene un’inferenza solo insieme a confronti e controlli.",
+      "explanation": "A confrontare il cambiamento di stimolo con una prova senza cambiamento. Con A: 12 → 9 → 6 → 4 s; con B: 10 s. Prima conclusione: risposta al cambiamento. Per attribuirla alla forma occorre controllare le altre proprietà; non basta chiamare B “nuovo”.",
+      "help": "sviluppo-esplorare/sguardo"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-sguardo-4",
+      "unit": "sviluppo-esplorare",
+      "concept": "sguardo",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Perché scambiare destra e sinistra in una prova con due immagini?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Per distinguere interesse per l’immagine e preferenza per una posizione."
+        },
+        {
+          "id": "errore-a",
+          "text": "Per trasformare una misura dello sguardo in una risposta verbale.",
+          "feedback": "Cambia la posizione dello stimolo, non il tipo di risposta.",
+          "help": "sviluppo-esplorare/sguardo"
+        },
+        {
+          "id": "errore-b",
+          "text": "Per garantire che ogni bambino guardi le due immagini lo stesso tempo.",
+          "feedback": "Il controllo non impone un risultato uguale; serve a interpretare eventuali differenze.",
+          "help": "sviluppo-esplorare/sguardo"
+        }
+      ],
+      "hint": "Una misura indiretta sostiene un’inferenza solo insieme a confronti e controlli.",
+      "explanation": "Per distinguere interesse per l’immagine e preferenza per una posizione. Con A: 12 → 9 → 6 → 4 s; con B: 10 s. Prima conclusione: risposta al cambiamento. Per attribuirla alla forma occorre controllare le altre proprietà; non basta chiamare B “nuovo”.",
+      "help": "sviluppo-esplorare/sguardo"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-movimento-1",
+      "unit": "sviluppo-esplorare",
+      "concept": "movimento",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "La prensione riflessa dimostra già che il bambino sa scegliere e rilasciare volontariamente un oggetto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: risposta evocata e azione organizzata verso uno scopo sono distinte."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì: qualunque chiusura della mano dimostra tutte le abilità manuali.",
+          "feedback": "Una singola risposta non prova scelta, pianificazione e rilascio.",
+          "help": "sviluppo-esplorare/movimento"
+        },
+        {
+          "id": "errore-b",
+          "text": "No, perché un riflesso non coinvolge mai il sistema nervoso.",
+          "feedback": "Il riflesso è una risposta nervosa; la distinzione riguarda l’organizzazione dell’azione.",
+          "help": "sviluppo-esplorare/movimento"
+        }
+      ],
+      "hint": "Le abilità emergono da vincoli che interagiscono; descrivi la situazione oltre al risultato.",
+      "explanation": "No: risposta evocata e azione organizzata verso uno scopo sono distinte. Stesso oggetto, stessa consegna, distanza diversa: il confronto indaga l’effetto della distanza nelle condizioni osservate. Cambiare contemporaneamente peso, altezza e istruzioni non permette di isolare il vincolo responsabile.",
+      "help": "sviluppo-esplorare/movimento"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-movimento-2",
+      "unit": "sviluppo-esplorare",
+      "concept": "movimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un oggetto leggero viene spostato, uno dello stesso diametro ma più pesante no. Quale conclusione è proporzionata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La variazione di carico è pertinente alla prestazione osservata."
+        },
+        {
+          "id": "errore-a",
+          "text": "È dimostrato che il bambino non riconosce la forma.",
+          "feedback": "La forma è costante: la difficoltà non dimostra mancato riconoscimento.",
+          "help": "sviluppo-esplorare/movimento"
+        },
+        {
+          "id": "errore-b",
+          "text": "È dimostrato un cambiamento improvviso dell’età di sviluppo.",
+          "feedback": "Un confronto fra carichi non misura un’età globale di sviluppo.",
+          "help": "sviluppo-esplorare/movimento"
+        }
+      ],
+      "hint": "Le abilità emergono da vincoli che interagiscono; descrivi la situazione oltre al risultato.",
+      "explanation": "La variazione di carico è pertinente alla prestazione osservata. Stesso oggetto, stessa consegna, distanza diversa: il confronto indaga l’effetto della distanza nelle condizioni osservate. Cambiare contemporaneamente peso, altezza e istruzioni non permette di isolare il vincolo responsabile.",
+      "help": "sviluppo-esplorare/movimento"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-movimento-3",
+      "unit": "sviluppo-esplorare",
+      "concept": "movimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Vuoi capire l’effetto della distanza di un contenitore. Quale confronto scegli?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Stesso oggetto e consegna, con contenitore vicino e poi più lontano."
+        },
+        {
+          "id": "errore-a",
+          "text": "Contenitore lontano, oggetto più pesante e consegna diversa tutti insieme.",
+          "feedback": "Cambiare tre condizioni impedisce di attribuire l’esito alla sola distanza.",
+          "help": "sviluppo-esplorare/movimento"
+        },
+        {
+          "id": "errore-b",
+          "text": "Due bambini diversi in ambienti diversi, senza registrare le condizioni.",
+          "feedback": "Il confronto introduce differenze non controllate oltre alla distanza.",
+          "help": "sviluppo-esplorare/movimento"
+        }
+      ],
+      "hint": "Le abilità emergono da vincoli che interagiscono; descrivi la situazione oltre al risultato.",
+      "explanation": "Stesso oggetto e consegna, con contenitore vicino e poi più lontano. Stesso oggetto, stessa consegna, distanza diversa: il confronto indaga l’effetto della distanza nelle condizioni osservate. Cambiare contemporaneamente peso, altezza e istruzioni non permette di isolare il vincolo responsabile.",
+      "help": "sviluppo-esplorare/movimento"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-movimento-4",
+      "unit": "sviluppo-esplorare",
+      "concept": "movimento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale annotazione permette di ricostruire meglio una prova motoria?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Tre tentativi, contenitore vicino, cambio di presa e trasferimento riuscito senza aiuto."
+        },
+        {
+          "id": "errore-a",
+          "text": "È scoordinato: non servono altri dettagli.",
+          "feedback": "L’etichetta non descrive né la prova né le condizioni.",
+          "help": "sviluppo-esplorare/movimento"
+        },
+        {
+          "id": "errore-b",
+          "text": "Ha una buona personalità.",
+          "feedback": "Il giudizio non specifica l’azione motoria osservata.",
+          "help": "sviluppo-esplorare/movimento"
+        }
+      ],
+      "hint": "Le abilità emergono da vincoli che interagiscono; descrivi la situazione oltre al risultato.",
+      "explanation": "Tre tentativi, contenitore vicino, cambio di presa e trasferimento riuscito senza aiuto. Stesso oggetto, stessa consegna, distanza diversa: il confronto indaga l’effetto della distanza nelle condizioni osservate. Cambiare contemporaneamente peso, altezza e istruzioni non permette di isolare il vincolo responsabile.",
+      "help": "sviluppo-esplorare/movimento"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-oggetto-1",
+      "unit": "sviluppo-esplorare",
+      "concept": "oggetto",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Dopo ritrovamenti in A, l’oggetto è spostato visibilmente in B ma il bambino cerca in A. Come si chiama il fenomeno?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Errore A-non-B."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sovraestensione lessicale.",
+          "feedback": "La sovraestensione riguarda l’uso troppo ampio di una parola, non il luogo della ricerca.",
+          "help": "sviluppo-esplorare/oggetto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Condizionamento verbale obbligatorio.",
+          "feedback": "La descrizione non include una contingenza verbale che giustifichi questa etichetta.",
+          "help": "sviluppo-esplorare/oggetto"
+        }
+      ],
+      "hint": "Un compito combina rappresentazione, memoria e azione: separa le richieste prima di interpretare l’errore.",
+      "explanation": "Errore A-non-B. Se la ricerca è corretta senza attesa e sbagliata dopo attesa, il risultato rende pertinente il carico di mantenimento dell’informazione. Non dimostra che il bambino abbia cambiato stadio fra due prove.",
+      "help": "sviluppo-esplorare/oggetto"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-oggetto-2",
+      "unit": "sviluppo-esplorare",
+      "concept": "oggetto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel compito A-non-B, cercare nel luogo sbagliato dimostra che il bambino pensa che l’oggetto non esista?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: ricerca, memoria della posizione e risposta abituale contribuiscono al compito."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì: una sola risposta descrive tutta la rappresentazione mentale.",
+          "feedback": "La prova combina più richieste; non isola la permanenza dell’oggetto.",
+          "help": "sviluppo-esplorare/oggetto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, purché l’adulto conosca il nascondiglio corretto.",
+          "feedback": "La conoscenza dell’adulto non elimina le richieste del compito per il bambino.",
+          "help": "sviluppo-esplorare/oggetto"
+        }
+      ],
+      "hint": "Un compito combina rappresentazione, memoria e azione: separa le richieste prima di interpretare l’errore.",
+      "explanation": "No: ricerca, memoria della posizione e risposta abituale contribuiscono al compito. Se la ricerca è corretta senza attesa e sbagliata dopo attesa, il risultato rende pertinente il carico di mantenimento dell’informazione. Non dimostra che il bambino abbia cambiato stadio fra due prove.",
+      "help": "sviluppo-esplorare/oggetto"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-oggetto-3",
+      "unit": "sviluppo-esplorare",
+      "concept": "oggetto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La ricerca è corretta con attesa breve e sbagliata con attesa lunga, a condizioni comparabili. Quale ipotesi diventa pertinente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il mantenimento della nuova posizione nel tempo contribuisce alla prestazione."
+        },
+        {
+          "id": "errore-a",
+          "text": "Il bambino ha sicuramente cambiato stadio fra le due prove.",
+          "feedback": "Una variazione legata all’attesa non prova una transizione generale di stadio.",
+          "help": "sviluppo-esplorare/oggetto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Il risultato dimostra che i contenitori erano invisibili in entrambe le prove.",
+          "feedback": "Il dato non riguarda invisibilità dei contenitori; occorre controllare separatamente l’accesso visivo.",
+          "help": "sviluppo-esplorare/oggetto"
+        }
+      ],
+      "hint": "Un compito combina rappresentazione, memoria e azione: separa le richieste prima di interpretare l’errore.",
+      "explanation": "Il mantenimento della nuova posizione nel tempo contribuisce alla prestazione. Se la ricerca è corretta senza attesa e sbagliata dopo attesa, il risultato rende pertinente il carico di mantenimento dell’informazione. Non dimostra che il bambino abbia cambiato stadio fra due prove.",
+      "help": "sviluppo-esplorare/oggetto"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-oggetto-4",
+      "unit": "sviluppo-esplorare",
+      "concept": "oggetto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché una prova dello sguardo e una ricerca manuale possono produrre risultati differenti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Richiedono risposte e carichi diversi, pur riguardando informazioni simili."
+        },
+        {
+          "id": "errore-a",
+          "text": "La prova manuale misura sempre soltanto la forza.",
+          "feedback": "La ricerca coinvolge anche attenzione, ricordo e scelta del luogo.",
+          "help": "sviluppo-esplorare/oggetto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Lo sguardo rivela senza ambiguità tutti i pensieri.",
+          "feedback": "Lo sguardo è una misura indiretta, da interpretare con controlli.",
+          "help": "sviluppo-esplorare/oggetto"
+        }
+      ],
+      "hint": "Un compito combina rappresentazione, memoria e azione: separa le richieste prima di interpretare l’errore.",
+      "explanation": "Richiedono risposte e carichi diversi, pur riguardando informazioni simili. Se la ricerca è corretta senza attesa e sbagliata dopo attesa, il risultato rende pertinente il carico di mantenimento dell’informazione. Non dimostra che il bambino abbia cambiato stadio fra due prove.",
+      "help": "sviluppo-esplorare/oggetto"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-comunicare-1",
+      "unit": "sviluppo-esplorare",
+      "concept": "comunicare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Lea indica un oggetto irraggiungibile, alterna lo sguardo con l’adulto e tende le mani. Quale intenzione è più coerente con il contesto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Richiedere l’oggetto; è un’ipotesi da verificare nella sequenza."
+        },
+        {
+          "id": "errore-a",
+          "text": "Dimostrare necessariamente una conoscenza grammaticale completa.",
+          "feedback": "Il gesto comunicativo non dimostra da solo competenza grammaticale completa.",
+          "help": "sviluppo-esplorare/comunicare"
+        },
+        {
+          "id": "errore-b",
+          "text": "Provare che ogni indicazione ha sempre e solo quello scopo.",
+          "feedback": "La stessa forma gestuale può servire anche a condividere interesse.",
+          "help": "sviluppo-esplorare/comunicare"
+        }
+      ],
+      "hint": "Le prime comunicazioni hanno scopi: interpreta forma, contesto e reciprocità insieme.",
+      "explanation": "Richiedere l’oggetto; è un’ipotesi da verificare nella sequenza. “Palla!” può significare “dammi la palla” o “guarda la palla”. Per distinguerli considera oggetto disponibile, sguardo, mani e risposta all’interlocutore, non soltanto la parola.",
+      "help": "sviluppo-esplorare/comunicare"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-comunicare-2",
+      "unit": "sviluppo-esplorare",
+      "concept": "comunicare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Lea mostra un oggetto che ha già in mano e cerca lo sguardo dell’adulto senza volerlo cedere. Quale scopo è plausibile?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Condividere interesse verso l’oggetto, cioè uno scopo dichiarativo."
+        },
+        {
+          "id": "errore-a",
+          "text": "Ottenere necessariamente un oggetto che non possiede.",
+          "feedback": "L’oggetto è già disponibile: il contesto rende plausibile la condivisione d’interesse.",
+          "help": "sviluppo-esplorare/comunicare"
+        },
+        {
+          "id": "errore-b",
+          "text": "Dimostrare assenza totale di comunicazione perché non parla.",
+          "feedback": "La comunicazione può avvenire anche prima delle parole.",
+          "help": "sviluppo-esplorare/comunicare"
+        }
+      ],
+      "hint": "Le prime comunicazioni hanno scopi: interpreta forma, contesto e reciprocità insieme.",
+      "explanation": "Condividere interesse verso l’oggetto, cioè uno scopo dichiarativo. “Palla!” può significare “dammi la palla” o “guarda la palla”. Per distinguerli considera oggetto disponibile, sguardo, mani e risposta all’interlocutore, non soltanto la parola.",
+      "help": "sviluppo-esplorare/comunicare"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-comunicare-3",
+      "unit": "sviluppo-esplorare",
+      "concept": "comunicare",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Usare “palla” anche per arancia e lampada sferica è un esempio possibile di…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sovraestensione del nome."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sottoestensione: il nome è limitato a un unico esemplare.",
+          "feedback": "Qui il nome si estende a una categoria più ampia, non a una più ristretta.",
+          "help": "sviluppo-esplorare/comunicare"
+        },
+        {
+          "id": "errore-b",
+          "text": "Memoria di lavoro necessariamente assente.",
+          "feedback": "Un uso lessicale ampio non dimostra assenza di memoria di lavoro.",
+          "help": "sviluppo-esplorare/comunicare"
+        }
+      ],
+      "hint": "Le prime comunicazioni hanno scopi: interpreta forma, contesto e reciprocità insieme.",
+      "explanation": "Sovraestensione del nome. “Palla!” può significare “dammi la palla” o “guarda la palla”. Per distinguerli considera oggetto disponibile, sguardo, mani e risposta all’interlocutore, non soltanto la parola.",
+      "help": "sviluppo-esplorare/comunicare"
+    },
+    {
+      "id": "dev26-sviluppo-esplorare-comunicare-4",
+      "unit": "sviluppo-esplorare",
+      "concept": "comunicare",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una bambina riconosce correttamente la palla fra oggetti, ma usa “palla” per più oggetti quando li nomina. Che cosa confronti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Comprensione e produzione, che non devono coincidere in ogni prova."
+        },
+        {
+          "id": "errore-a",
+          "text": "Soltanto forza e resistenza muscolare.",
+          "feedback": "I due compiti riguardano riconoscimento e denominazione linguistica.",
+          "help": "sviluppo-esplorare/comunicare"
+        },
+        {
+          "id": "errore-b",
+          "text": "Due prove identiche con identiche richieste.",
+          "feedback": "Scegliere un oggetto su richiesta e produrne il nome richiedono risposte diverse.",
+          "help": "sviluppo-esplorare/comunicare"
+        }
+      ],
+      "hint": "Le prime comunicazioni hanno scopi: interpreta forma, contesto e reciprocità insieme.",
+      "explanation": "Comprensione e produzione, che non devono coincidere in ogni prova. “Palla!” può significare “dammi la palla” o “guarda la palla”. Per distinguerli considera oggetto disponibile, sguardo, mani e risposta all’interlocutore, non soltanto la parola.",
+      "help": "sviluppo-esplorare/comunicare"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-esecutive-1",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "esecutive",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Quale abbinamento distingue le tre funzioni esecutive considerate?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Mantenere la regola: memoria di lavoro; frenare la risposta dominante: inibizione; cambiare criterio: flessibilità."
+        },
+        {
+          "id": "errore-a",
+          "text": "Mantenere la regola: forza; frenare la risposta: lessico; cambiare criterio: altezza.",
+          "feedback": "Queste grandezze non descrivono i tre processi cognitivi.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sono tre nomi perfettamente equivalenti dello stesso processo.",
+          "feedback": "Le funzioni interagiscono ma hanno ruoli distinguibili.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        }
+      ],
+      "hint": "Una prova esecutiva non misura una sola funzione isolata; aiuti e condizioni fanno parte del risultato.",
+      "explanation": "Mantenere la regola: memoria di lavoro; frenare la risposta dominante: inibizione; cambiare criterio: flessibilità. Risposta corretta solo con regola visibile: il supporto ha aiutato nelle condizioni osservate. Per parlare di autonomia riprova senza cartellino, senza cambiare contemporaneamente velocità e difficoltà.",
+      "help": "sviluppo-autoregolazione/esecutive"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-esecutive-2",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "esecutive",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il bambino sa raggruppare per forma, ma dopo prove sul colore continua a usare il colore. Quale confronto è più pertinente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Confrontare applicazione della regola con e senza cambio di criterio."
+        },
+        {
+          "id": "errore-a",
+          "text": "Concludere subito che non riconosce le forme.",
+          "feedback": "La capacità di raggruppare per forma era già osservata nella condizione senza cambio.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        },
+        {
+          "id": "errore-b",
+          "text": "Aumentare insieme rumore, velocità e regole e attribuire tutto alla memoria.",
+          "feedback": "Molte richieste cambiate insieme non isolano il contributo della memoria.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        }
+      ],
+      "hint": "Una prova esecutiva non misura una sola funzione isolata; aiuti e condizioni fanno parte del risultato.",
+      "explanation": "Confrontare applicazione della regola con e senza cambio di criterio. Risposta corretta solo con regola visibile: il supporto ha aiutato nelle condizioni osservate. Per parlare di autonomia riprova senza cartellino, senza cambiare contemporaneamente velocità e difficoltà.",
+      "help": "sviluppo-autoregolazione/esecutive"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-esecutive-3",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "esecutive",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il cartellino con la regola migliora le risposte. Che cosa puoi dire?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il supporto aiuta in questa condizione; l’autonomia va verificata senza lo stesso aiuto."
+        },
+        {
+          "id": "errore-a",
+          "text": "Il controllo esecutivo è completo in tutte le situazioni.",
+          "feedback": "Il successo assistito non prova una competenza generale senza sostegno.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        },
+        {
+          "id": "errore-b",
+          "text": "Il cartellino ha reso inutile ogni processo di attenzione.",
+          "feedback": "Seguire la prova continua a richiedere selezione e applicazione della regola.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        }
+      ],
+      "hint": "Una prova esecutiva non misura una sola funzione isolata; aiuti e condizioni fanno parte del risultato.",
+      "explanation": "Il supporto aiuta in questa condizione; l’autonomia va verificata senza lo stesso aiuto. Risposta corretta solo con regola visibile: il supporto ha aiutato nelle condizioni osservate. Per parlare di autonomia riprova senza cartellino, senza cambiare contemporaneamente velocità e difficoltà.",
+      "help": "sviluppo-autoregolazione/esecutive"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-esecutive-4",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "esecutive",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel gioco rispondi al cerchio e resta fermo al quadrato. Una risposta al quadrato e una mancata risposta al cerchio vanno…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Registrate separatamente perché sono errori diversi."
+        },
+        {
+          "id": "errore-a",
+          "text": "Unite in un’unica etichetta di disobbedienza volontaria.",
+          "feedback": "Il comportamento non permette di dedurre automaticamente intenzione di disobbedire.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        },
+        {
+          "id": "errore-b",
+          "text": "Eliminate dal conteggio perché non sono risposte corrette.",
+          "feedback": "Gli errori sono dati utili per capire le richieste e la prestazione.",
+          "help": "sviluppo-autoregolazione/esecutive"
+        }
+      ],
+      "hint": "Una prova esecutiva non misura una sola funzione isolata; aiuti e condizioni fanno parte del risultato.",
+      "explanation": "Registrate separatamente perché sono errori diversi. Risposta corretta solo con regola visibile: il supporto ha aiutato nelle condizioni osservate. Per parlare di autonomia riprova senza cartellino, senza cambiare contemporaneamente velocità e difficoltà.",
+      "help": "sviluppo-autoregolazione/esecutive"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-strategie-1",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Raggruppare consegne in categorie è una strategia di…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Organizzazione del materiale."
+        },
+        {
+          "id": "errore-a",
+          "text": "Misura del tono muscolare.",
+          "feedback": "Il raggruppamento riguarda il modo di codificare le informazioni.",
+          "help": "sviluppo-autoregolazione/strategie"
+        },
+        {
+          "id": "errore-b",
+          "text": "Eliminazione automatica di ogni dimenticanza.",
+          "feedback": "Una strategia può aiutare, ma non garantisce ricordo perfetto.",
+          "help": "sviluppo-autoregolazione/strategie"
+        }
+      ],
+      "hint": "Misura accuratezza, aiuti, intervallo e trasferimento: un solo punteggio non descrive l’apprendimento.",
+      "explanation": "Organizzazione del materiale. Due successi diversi: 5/6 con raggruppamento suggerito; 4/6 su materiale nuovo e senza aiuto. Il secondo documenta maggiore autonomia, pur avendo un conteggio inferiore.",
+      "help": "sviluppo-autoregolazione/strategie"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-strategie-2",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un’allieva ricorda 5/6 elementi con aiuto e 4/6 elementi nuovi usando spontaneamente la strategia. Quale lettura è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il secondo risultato offre un indizio di autonomia su nuovo materiale, pur con meno risposte corrette."
+        },
+        {
+          "id": "errore-a",
+          "text": "La seconda prova è necessariamente peggiore sotto ogni aspetto.",
+          "feedback": "Il punteggio non esaurisce la qualità della prestazione: gli aiuti differiscono.",
+          "help": "sviluppo-autoregolazione/strategie"
+        },
+        {
+          "id": "errore-b",
+          "text": "La prima prova dimostra già trasferimento senza aiuto.",
+          "feedback": "Nella prima prova il raggruppamento era suggerito, quindi non prova impiego spontaneo.",
+          "help": "sviluppo-autoregolazione/strategie"
+        }
+      ],
+      "hint": "Misura accuratezza, aiuti, intervallo e trasferimento: un solo punteggio non descrive l’apprendimento.",
+      "explanation": "Il secondo risultato offre un indizio di autonomia su nuovo materiale, pur con meno risposte corrette. Due successi diversi: 5/6 con raggruppamento suggerito; 4/6 su materiale nuovo e senza aiuto. Il secondo documenta maggiore autonomia, pur avendo un conteggio inferiore.",
+      "help": "sviluppo-autoregolazione/strategie"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-strategie-3",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Scegliere azioni fra immagini e rievocarle senza immagini sono prove equivalenti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: nel riconoscimento sono disponibili indizi esterni diversi."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì: qualunque prova di memoria ha identiche richieste.",
+          "feedback": "Gli indizi cambiano il sostegno al recupero.",
+          "help": "sviluppo-autoregolazione/strategie"
+        },
+        {
+          "id": "errore-b",
+          "text": "No: soltanto il riconoscimento usa il sistema nervoso.",
+          "feedback": "Entrambe sono attività cognitive; cambia il compito, non la presenza del sistema nervoso.",
+          "help": "sviluppo-autoregolazione/strategie"
+        }
+      ],
+      "hint": "Misura accuratezza, aiuti, intervallo e trasferimento: un solo punteggio non descrive l’apprendimento.",
+      "explanation": "No: nel riconoscimento sono disponibili indizi esterni diversi. Due successi diversi: 5/6 con raggruppamento suggerito; 4/6 su materiale nuovo e senza aiuto. Il secondo documenta maggiore autonomia, pur avendo un conteggio inferiore.",
+      "help": "sviluppo-autoregolazione/strategie"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-strategie-4",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "strategie",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Prima della prova si prevedono 6 risposte, poi se ne ricordano 3. Quale uso educativo è fondato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Confrontare previsione e risultato, scegliere una strategia e osservare più prove."
+        },
+        {
+          "id": "errore-a",
+          "text": "Attribuire un’incapacità permanente di autovalutazione da quell’episodio.",
+          "feedback": "Una singola previsione non stabilisce una caratteristica permanente.",
+          "help": "sviluppo-autoregolazione/strategie"
+        },
+        {
+          "id": "errore-b",
+          "text": "Considerare corretta la previsione perché esprime fiducia.",
+          "feedback": "Fiducia e accuratezza della previsione sono aspetti diversi; il risultato va confrontato.",
+          "help": "sviluppo-autoregolazione/strategie"
+        }
+      ],
+      "hint": "Misura accuratezza, aiuti, intervallo e trasferimento: un solo punteggio non descrive l’apprendimento.",
+      "explanation": "Confrontare previsione e risultato, scegliere una strategia e osservare più prove. Due successi diversi: 5/6 con raggruppamento suggerito; 4/6 su materiale nuovo e senza aiuto. Il secondo documenta maggiore autonomia, pur avendo un conteggio inferiore.",
+      "help": "sviluppo-autoregolazione/strategie"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-credenze-1",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "credenze",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nora lascia la fascia in A. Elia la sposta in B mentre Nora è fuori e nessuno la informa. Dove cercherà per prima secondo la storia?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "In A, coerentemente con la sua informazione precedente."
+        },
+        {
+          "id": "errore-a",
+          "text": "In B, perché tu hai visto lo spostamento.",
+          "feedback": "La conoscenza dell’osservatore non è automaticamente la conoscenza di Nora.",
+          "help": "sviluppo-autoregolazione/credenze"
+        },
+        {
+          "id": "errore-b",
+          "text": "In nessun luogo, perché un oggetto nascosto smette di esistere.",
+          "feedback": "Il problema riguarda una credenza sul luogo, non la cessazione dell’esistenza.",
+          "help": "sviluppo-autoregolazione/credenze"
+        }
+      ],
+      "hint": "Distingui sempre realtà, informazione accessibile e credenza attribuita.",
+      "explanation": "In A, coerentemente con la sua informazione precedente. Stessa realtà finale, B; informazioni diverse: Nora assente cerca plausibilmente in A, Nora presente in B. La variabile decisiva della storia è aver visto lo spostamento.",
+      "help": "sviluppo-autoregolazione/credenze"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-credenze-2",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "credenze",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Stessa storia, ma questa volta Nora resta e vede lo spostamento in B. Quale previsione è coerente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Cercherà in B, perché ha ricevuto l’informazione nuova."
+        },
+        {
+          "id": "errore-a",
+          "text": "Cercherà sempre in A perché la risposta dei compiti di falsa credenza è sempre A.",
+          "feedback": "La risposta dipende dall’accesso all’informazione: non è una lettera da memorizzare.",
+          "help": "sviluppo-autoregolazione/credenze"
+        },
+        {
+          "id": "errore-b",
+          "text": "La fascia rimane realmente in A perché Nora la ricorda lì.",
+          "feedback": "La credenza non sposta fisicamente l’oggetto; nella storia la posizione finale è B.",
+          "help": "sviluppo-autoregolazione/credenze"
+        }
+      ],
+      "hint": "Distingui sempre realtà, informazione accessibile e credenza attribuita.",
+      "explanation": "Cercherà in B, perché ha ricevuto l’informazione nuova. Stessa realtà finale, B; informazioni diverse: Nora assente cerca plausibilmente in A, Nora presente in B. La variabile decisiva della storia è aver visto lo spostamento.",
+      "help": "sviluppo-autoregolazione/credenze"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-credenze-3",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "credenze",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Nora era assente allo spostamento. “Dove si trova ora la fascia?” e “Dove cercherà Nora?” chiedono…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Rispettivamente realtà attuale e previsione basata sulla credenza di Nora."
+        },
+        {
+          "id": "errore-a",
+          "text": "La stessa informazione, quindi devono sempre avere la stessa risposta.",
+          "feedback": "La realtà e una credenza non aggiornata possono divergere.",
+          "help": "sviluppo-autoregolazione/credenze"
+        },
+        {
+          "id": "errore-b",
+          "text": "Entrambe se Elia sia moralmente buono.",
+          "feedback": "Le domande non chiedono un giudizio morale sullo spostamento.",
+          "help": "sviluppo-autoregolazione/credenze"
+        }
+      ],
+      "hint": "Distingui sempre realtà, informazione accessibile e credenza attribuita.",
+      "explanation": "Rispettivamente realtà attuale e previsione basata sulla credenza di Nora. Stessa realtà finale, B; informazioni diverse: Nora assente cerca plausibilmente in A, Nora presente in B. La variabile decisiva della storia è aver visto lo spostamento.",
+      "help": "sviluppo-autoregolazione/credenze"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-credenze-4",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "credenze",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un bambino risponde male sulla credenza di Nora, ma non ricorda neppure chi è uscito. Quale cautela serve?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Verificare memoria della storia e comprensione prima di attribuire l’errore alla rappresentazione delle credenze."
+        },
+        {
+          "id": "errore-a",
+          "text": "Diagnosticare una difficoltà specifica dalla sola risposta A/B.",
+          "feedback": "La prestazione dipende da più richieste, qui la memoria della storia è incerta.",
+          "help": "sviluppo-autoregolazione/credenze"
+        },
+        {
+          "id": "errore-b",
+          "text": "Ignorare la comprensione perché le domande hanno soltanto due opzioni.",
+          "feedback": "Poche opzioni non rendono superflua la comprensione.",
+          "help": "sviluppo-autoregolazione/credenze"
+        }
+      ],
+      "hint": "Distingui sempre realtà, informazione accessibile e credenza attribuita.",
+      "explanation": "Verificare memoria della storia e comprensione prima di attribuire l’errore alla rappresentazione delle credenze. Stessa realtà finale, B; informazioni diverse: Nora assente cerca plausibilmente in A, Nora presente in B. La variabile decisiva della storia è aver visto lo spostamento.",
+      "help": "sviluppo-autoregolazione/credenze"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-regolazione-1",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "regolazione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Goodness of fit indica…",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Compatibilità fra caratteristiche della persona e richieste dell’ambiente."
+        },
+        {
+          "id": "errore-a",
+          "text": "Identità obbligatoria fra il temperamento dell’adulto e quello del bambino.",
+          "feedback": "Compatibilità non richiede identità; il contesto può essere adattato.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Un voto sul valore morale del bambino.",
+          "feedback": "Il concetto riguarda la relazione persona-ambiente, non il valore della persona.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        }
+      ],
+      "hint": "Il contesto può facilitare la regolazione; sostegno efficace e autonomia sono risultati da distinguere.",
+      "explanation": "Compatibilità fra caratteristiche della persona e richieste dell’ambiente. Partecipare dopo un’anticipazione della sequenza sostiene l’utilità di quell’aiuto. Per valutarne l’autonomia, osserva gradualmente una situazione analoga con meno sostegno e registra cosa cambia.",
+      "help": "sviluppo-autoregolazione/regolazione"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-regolazione-2",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "regolazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Amir partecipa di più dopo aver osservato una prova e conosciuto il turno. Quale conclusione è sostenibile?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il sostegno ha accompagnato una migliore partecipazione nelle condizioni osservate."
+        },
+        {
+          "id": "errore-a",
+          "text": "La sua personalità è stata definitivamente trasformata.",
+          "feedback": "Una variazione contestuale non prova una trasformazione permanente della personalità.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        },
+        {
+          "id": "errore-b",
+          "text": "È provato che un unico fattore spiega tutto il cambiamento.",
+          "feedback": "Sono cambiati più aspetti del sostegno: non è isolato un unico fattore.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        }
+      ],
+      "hint": "Il contesto può facilitare la regolazione; sostegno efficace e autonomia sono risultati da distinguere.",
+      "explanation": "Il sostegno ha accompagnato una migliore partecipazione nelle condizioni osservate. Partecipare dopo un’anticipazione della sequenza sostiene l’utilità di quell’aiuto. Per valutarne l’autonomia, osserva gradualmente una situazione analoga con meno sostegno e registra cosa cambia.",
+      "help": "sviluppo-autoregolazione/regolazione"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-regolazione-3",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "regolazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Chiara usa da sola la pausa concordata e poi riprende, pur sentendosi frustrata. Quale indizio di autonomia osservi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’iniziativa nell’uso della strategia e il ritorno all’attività."
+        },
+        {
+          "id": "errore-a",
+          "text": "La completa scomparsa di qualsiasi emozione.",
+          "feedback": "Regolare la risposta non richiede cancellare ogni emozione.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        },
+        {
+          "id": "errore-b",
+          "text": "L’assenza di ogni possibile bisogno futuro di sostegno.",
+          "feedback": "L’autonomia osservata in un episodio non esclude aiuti in altre condizioni.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        }
+      ],
+      "hint": "Il contesto può facilitare la regolazione; sostegno efficace e autonomia sono risultati da distinguere.",
+      "explanation": "L’iniziativa nell’uso della strategia e il ritorno all’attività. Partecipare dopo un’anticipazione della sequenza sostiene l’utilità di quell’aiuto. Per valutarne l’autonomia, osserva gradualmente una situazione analoga con meno sostegno e registra cosa cambia.",
+      "help": "sviluppo-autoregolazione/regolazione"
+    },
+    {
+      "id": "dev26-sviluppo-autoregolazione-regolazione-4",
+      "unit": "sviluppo-autoregolazione",
+      "concept": "regolazione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale descrizione distingue meglio azione osservabile e stato interno?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Dopo l’errore ha chiesto una pausa e poi ha ripreso il gioco."
+        },
+        {
+          "id": "errore-a",
+          "text": "È rimasta zitta, quindi è certamente serena.",
+          "feedback": "Il silenzio non prova con certezza lo stato emotivo.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Si è fermata, quindi non ha alcuna motivazione in ogni ambito.",
+          "feedback": "Un’interruzione non permette una conclusione generale sulla motivazione.",
+          "help": "sviluppo-autoregolazione/regolazione"
+        }
+      ],
+      "hint": "Il contesto può facilitare la regolazione; sostegno efficace e autonomia sono risultati da distinguere.",
+      "explanation": "Dopo l’errore ha chiesto una pausa e poi ha ripreso il gioco. Partecipare dopo un’anticipazione della sequenza sostiene l’utilità di quell’aiuto. Per valutarne l’autonomia, osserva gradualmente una situazione analoga con meno sostegno e registra cosa cambia.",
+      "help": "sviluppo-autoregolazione/regolazione"
+    },
+    {
+      "id": "en-depth-english-relazioni-gruppi-1",
+      "unit": "english-relazioni",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Completa: “The list of exercises ___ short.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "is"
+        },
+        {
+          "id": "errore-a",
+          "text": "are",
+          "feedback": "Exercises è plurale ma appartiene a of exercises; il soggetto centrale è list.",
+          "help": "english-relazioni/gruppi"
+        },
+        {
+          "id": "errore-b",
+          "text": "be",
+          "feedback": "In una dichiarativa al presente con questo soggetto occorre la forma finita is.",
+          "help": "english-relazioni/gruppi"
+        }
+      ],
+      "hint": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+      "explanation": "List è singolare: “The list is short”. La specificazione of exercises non cambia l’accordo.",
+      "help": "english-relazioni/gruppi"
+    },
+    {
+      "id": "en-depth-english-relazioni-gruppi-2",
+      "unit": "english-relazioni",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Qual è il nome centrale di “a muscle strength test”?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "test"
+        },
+        {
+          "id": "errore-a",
+          "text": "muscle",
+          "feedback": "Muscle contribuisce a specificare il tipo di forza; il gruppo indica un test.",
+          "help": "english-relazioni/gruppi"
+        },
+        {
+          "id": "errore-b",
+          "text": "strength",
+          "feedback": "Strength specifica ciò che viene valutato; il centro dell’intero gruppo è test.",
+          "help": "english-relazioni/gruppi"
+        }
+      ],
+      "hint": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+      "explanation": "Si può riformulare “a test of muscle strength”: un test di forza muscolare.",
+      "help": "english-relazioni/gruppi"
+    },
+    {
+      "id": "en-depth-english-relazioni-gruppi-3",
+      "unit": "english-relazioni",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The results of the written test are available.” Quale traduzione conserva il soggetto?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "I risultati della prova scritta sono disponibili."
+        },
+        {
+          "id": "errore-a",
+          "text": "La prova scritta è disponibile.",
+          "feedback": "La frase parla della disponibilità dei risultati, non della prova.",
+          "help": "english-relazioni/gruppi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Le scritture dei risultati provano la disponibilità.",
+          "feedback": "Written descrive test; non è il nome di ciò che compie l’azione.",
+          "help": "english-relazioni/gruppi"
+        }
+      ],
+      "hint": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+      "explanation": "Results è soggetto plurale, of the written test identifica quali risultati.",
+      "help": "english-relazioni/gruppi"
+    },
+    {
+      "id": "en-depth-english-relazioni-gruppi-4",
+      "unit": "english-relazioni",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The new instructions for the two machines were checked yesterday.” Chi le ha controllate?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La frase non specifica l’agente."
+        },
+        {
+          "id": "errore-a",
+          "text": "Necessariamente i due macchinari.",
+          "feedback": "For the two machines indica a quali macchinari si riferiscono le istruzioni, non chi le controlla.",
+          "help": "english-relazioni/gruppi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sicuramente un tecnico, perché le istruzioni riguardano macchinari.",
+          "feedback": "Un agente plausibile non è per questo dichiarato nel testo.",
+          "help": "english-relazioni/gruppi"
+        }
+      ],
+      "hint": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+      "explanation": "Il passivo were checked conserva l’azione e il tempo, ma qui non contiene un complemento con l’agente.",
+      "help": "english-relazioni/gruppi"
+    },
+    {
+      "id": "en-depth-english-relazioni-gruppi-5",
+      "unit": "english-relazioni",
+      "concept": "gruppi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The room near the stairs is closed.” Che cosa è chiuso?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La sala vicina alle scale."
+        },
+        {
+          "id": "errore-a",
+          "text": "Le scale, perché stairs è il nome più vicino a is.",
+          "feedback": "Near the stairs precisa la sala: non è il soggetto principale.",
+          "help": "english-relazioni/gruppi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Tutte le sale dell’edificio.",
+          "feedback": "Il testo identifica una sala; non estende la chiusura a tutto l’edificio.",
+          "help": "english-relazioni/gruppi"
+        }
+      ],
+      "hint": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+      "explanation": "Room è il centro del soggetto; near the stairs ne specifica la posizione.",
+      "help": "english-relazioni/gruppi"
+    },
+    {
+      "id": "en-depth-english-relazioni-riferimenti-1",
+      "unit": "english-relazioni",
+      "concept": "riferimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale omissione mantiene una relativa grammaticale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "“The form that the tutor checked” → “The form the tutor checked”."
+        },
+        {
+          "id": "errore-a",
+          "text": "“The tutor who checked the form” → “The tutor checked the form”, mantenendola come relativa.",
+          "feedback": "Dopo l’omissione cambia la struttura: diventa una frase principale, non la relativa che descrive tutor.",
+          "help": "english-relazioni/riferimenti"
+        },
+        {
+          "id": "errore-b",
+          "text": "“The room where we meet” → “The room we meet”, con lo stesso significato e senza altro.",
+          "feedback": "Meet in questa costruzione richiede un riferimento di luogo: non si elimina semplicemente where così.",
+          "help": "english-relazioni/riferimenti"
+        }
+      ],
+      "hint": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome.",
+      "explanation": "Nella prima relativa that è oggetto di checked e the tutor è già soggetto; l’oggetto relativo può essere omesso.",
+      "help": "english-relazioni/riferimenti"
+    },
+    {
+      "id": "en-depth-english-relazioni-riferimenti-2",
+      "unit": "english-relazioni",
+      "concept": "riferimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The coach who is waiting helps the athletes.” Chi sta aspettando?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La coach."
+        },
+        {
+          "id": "errore-a",
+          "text": "Gli atleti.",
+          "feedback": "La relativa who is waiting segue e descrive the coach, non the athletes.",
+          "help": "english-relazioni/riferimenti"
+        },
+        {
+          "id": "errore-b",
+          "text": "Non può esserci una risposta perché who significa sempre una domanda.",
+          "feedback": "Qui who introduce una relativa; non è una domanda diretta.",
+          "help": "english-relazioni/riferimenti"
+        }
+      ],
+      "hint": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome.",
+      "explanation": "Il nome descritto dalla relativa è the coach.",
+      "help": "english-relazioni/riferimenti"
+    },
+    {
+      "id": "en-depth-english-relazioni-riferimenti-3",
+      "unit": "english-relazioni",
+      "concept": "riferimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The researchers checked the forms. They then stored them.” A chi o a che cosa si riferiscono they e them?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "They ai ricercatori; them ai moduli."
+        },
+        {
+          "id": "errore-a",
+          "text": "They ai moduli; them ai ricercatori.",
+          "feedback": "Il contesto descrive i ricercatori che controllano e archiviano i moduli.",
+          "help": "english-relazioni/riferimenti"
+        },
+        {
+          "id": "errore-b",
+          "text": "Entrambi indicano un gruppo di atleti non menzionato.",
+          "feedback": "Il testo fornisce già referenti coerenti e non introduce atleti.",
+          "help": "english-relazioni/riferimenti"
+        }
+      ],
+      "hint": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome.",
+      "explanation": "Chi archivia è il gruppo dei ricercatori; ciò che viene archiviato sono i moduli.",
+      "help": "english-relazioni/riferimenti"
+    },
+    {
+      "id": "en-depth-english-relazioni-riferimenti-4",
+      "unit": "english-relazioni",
+      "concept": "riferimenti",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“The participant whose form is missing is at reception.” Che cosa manca?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il modulo del partecipante."
+        },
+        {
+          "id": "errore-a",
+          "text": "Il partecipante, che non è arrivato.",
+          "feedback": "La frase colloca il partecipante alla reception; missing riguarda form.",
+          "help": "english-relazioni/riferimenti"
+        },
+        {
+          "id": "errore-b",
+          "text": "La reception.",
+          "feedback": "Reception indica il luogo del partecipante, non l’oggetto mancante.",
+          "help": "english-relazioni/riferimenti"
+        }
+      ],
+      "hint": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome.",
+      "explanation": "Whose collega il modulo al partecipante: è form a essere missing.",
+      "help": "english-relazioni/riferimenti"
+    },
+    {
+      "id": "en-depth-english-relazioni-riferimenti-5",
+      "unit": "english-relazioni",
+      "concept": "riferimenti",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The trainer spoke to the athlete because she was worried.” Senza altro contesto, chi era preoccupata?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il pronome può essere ambiguo fra le due persone."
+        },
+        {
+          "id": "errore-a",
+          "text": "Necessariamente l’atleta perché è il nome più vicino.",
+          "feedback": "La vicinanza non risolve da sola il referente in questa frase.",
+          "help": "english-relazioni/riferimenti"
+        },
+        {
+          "id": "errore-b",
+          "text": "Necessariamente una terza persona non nominata.",
+          "feedback": "Non c’è motivo nel testo per introdurre una terza persona come unica soluzione.",
+          "help": "english-relazioni/riferimenti"
+        }
+      ],
+      "hint": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome.",
+      "explanation": "Per eliminare l’ambiguità si può ripetere il nome della persona preoccupata.",
+      "help": "english-relazioni/riferimenti"
+    },
+    {
+      "id": "en-depth-english-relazioni-quantita-1",
+      "unit": "english-relazioni",
+      "concept": "quantita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Not all twelve participants replied.” Quale dato è determinato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non hanno risposto tutti e dodici; il numero esatto non è indicato."
+        },
+        {
+          "id": "errore-a",
+          "text": "Hanno risposto esattamente undici persone.",
+          "feedback": "La frase esclude dodici, ma non specifica undici.",
+          "help": "english-relazioni/quantita"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessuna delle dodici persone ha risposto.",
+          "feedback": "Not all non equivale a none: il valore zero non è affermato come numero di risposte.",
+          "help": "english-relazioni/quantita"
+        }
+      ],
+      "hint": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+      "explanation": "La negazione riguarda l’universalità: almeno una persona non ha risposto, senza un conteggio esatto delle risposte.",
+      "help": "english-relazioni/quantita"
+    },
+    {
+      "id": "en-depth-english-relazioni-quantita-2",
+      "unit": "english-relazioni",
+      "concept": "quantita",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Neither session was cancelled.” Quante delle due sedute sono state annullate?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Nessuna delle due."
+        },
+        {
+          "id": "errore-a",
+          "text": "Entrambe.",
+          "feedback": "Both, non neither, indicherebbe entrambe.",
+          "help": "english-relazioni/quantita"
+        },
+        {
+          "id": "errore-b",
+          "text": "Esattamente una.",
+          "feedback": "Neither esclude entrambe le possibilità di annullamento, non una sola.",
+          "help": "english-relazioni/quantita"
+        }
+      ],
+      "hint": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+      "explanation": "Neither session significa che nessuna delle due sedute è stata annullata.",
+      "help": "english-relazioni/quantita"
+    },
+    {
+      "id": "en-depth-english-relazioni-quantita-3",
+      "unit": "english-relazioni",
+      "concept": "quantita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una consegna richiede “at least three examples”. Quale risposta rispetta certamente la quantità?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Quattro esempi."
+        },
+        {
+          "id": "errore-a",
+          "text": "Due esempi.",
+          "feedback": "At least three richiede tre o più: due non bastano.",
+          "help": "english-relazioni/quantita"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessun esempio, perché non è scritto exactly.",
+          "feedback": "L’assenza di exactly non elimina il limite inferiore.",
+          "help": "english-relazioni/quantita"
+        }
+      ],
+      "hint": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+      "explanation": "At least include tre e permette quantità superiori.",
+      "help": "english-relazioni/quantita"
+    },
+    {
+      "id": "en-depth-english-relazioni-quantita-4",
+      "unit": "english-relazioni",
+      "concept": "quantita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase significa che il gruppo mattutino ha ricevuto il modulo e nessun altro materiale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The morning group received only the form."
+        },
+        {
+          "id": "errore-a",
+          "text": "Only the morning group received the form.",
+          "feedback": "Qui only restringe chi riceve il modulo, non che cosa riceve.",
+          "help": "english-relazioni/quantita"
+        },
+        {
+          "id": "errore-b",
+          "text": "The morning group never received the form.",
+          "feedback": "Never nega la ricezione; non limita il materiale ricevuto.",
+          "help": "english-relazioni/quantita"
+        }
+      ],
+      "hint": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+      "explanation": "La posizione dopo received lega only a the form: soltanto il modulo.",
+      "help": "english-relazioni/quantita"
+    },
+    {
+      "id": "en-depth-english-relazioni-quantita-5",
+      "unit": "english-relazioni",
+      "concept": "quantita",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Not both sessions were cancelled.” Quale conclusione evita di aggiungere un dato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non sono state annullate entrambe; il testo non decide fra una e nessuna."
+        },
+        {
+          "id": "errore-a",
+          "text": "Una sola seduta è stata certamente annullata.",
+          "feedback": "Not both non impone che una sia stata annullata: potrebbe non esserlo nessuna.",
+          "help": "english-relazioni/quantita"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessuna seduta è stata certamente annullata.",
+          "feedback": "Questa sarebbe l’informazione di neither; not both lascia aperto anche il caso di una sola.",
+          "help": "english-relazioni/quantita"
+        }
+      ],
+      "hint": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+      "explanation": "Il quantificatore both è ciò che viene negato.",
+      "help": "english-relazioni/quantita"
+    },
+    {
+      "id": "en-depth-english-relazioni-nessi-1",
+      "unit": "english-relazioni",
+      "concept": "nessi",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Scegli la costruzione corretta: “___ the limited space, the group could work there.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Despite"
+        },
+        {
+          "id": "errore-a",
+          "text": "Despite of",
+          "feedback": "Despite non prende of in questa costruzione.",
+          "help": "english-relazioni/nessi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Although",
+          "feedback": "Qui segue un gruppo nominale, non una frase con soggetto e verbo.",
+          "help": "english-relazioni/nessi"
+        }
+      ],
+      "hint": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+      "explanation": "Despite può precedere il gruppo nominale the limited space; although richiederebbe per esempio the space was limited.",
+      "help": "english-relazioni/nessi"
+    },
+    {
+      "id": "en-depth-english-relazioni-nessi-2",
+      "unit": "english-relazioni",
+      "concept": "nessi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase conserva il significato di “The session was moved because the room was closed”?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The session was moved because of the closure."
+        },
+        {
+          "id": "errore-a",
+          "text": "The session was moved although the room was closed.",
+          "feedback": "Although presenta un contrasto concessivo, non la causa espressa da because.",
+          "help": "english-relazioni/nessi"
+        },
+        {
+          "id": "errore-b",
+          "text": "The room was closed because the session was moved.",
+          "feedback": "Questa versione inverte la relazione causale indicata.",
+          "help": "english-relazioni/nessi"
+        }
+      ],
+      "hint": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+      "explanation": "Because of può introdurre il gruppo nominale the closure mantenendo il rapporto di causa.",
+      "help": "english-relazioni/nessi"
+    },
+    {
+      "id": "en-depth-english-relazioni-nessi-3",
+      "unit": "english-relazioni",
+      "concept": "nessi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Although the instructions were clear, some participants asked questions.” Quale resa è fedele?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Sebbene le istruzioni fossero chiare, alcuni partecipanti hanno fatto domande."
+        },
+        {
+          "id": "errore-a",
+          "text": "Tutti hanno fatto domande perché le istruzioni erano poco chiare.",
+          "feedback": "Sono cambiati sia some in tutti sia il contrasto in una causa, oltre alla negazione di clear.",
+          "help": "english-relazioni/nessi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessuno ha fatto domande, dunque le istruzioni erano chiare.",
+          "feedback": "La frase afferma che alcuni hanno fatto domande; non descrive zero domande.",
+          "help": "english-relazioni/nessi"
+        }
+      ],
+      "hint": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+      "explanation": "Although ammette insieme la chiarezza e le domande; some non significa tutti.",
+      "help": "english-relazioni/nessi"
+    },
+    {
+      "id": "en-depth-english-relazioni-nessi-4",
+      "unit": "english-relazioni",
+      "concept": "nessi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Completa una relazione di conseguenza: “The room was closed. ___, the session was moved.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Therefore"
+        },
+        {
+          "id": "errore-a",
+          "text": "Despite",
+          "feedback": "Despite richiede un complemento nella propria costruzione e non introduce così una frase di conseguenza.",
+          "help": "english-relazioni/nessi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Because of",
+          "feedback": "Because of deve essere seguito da un gruppo nominale, non usato qui come avverbio fra enunciati.",
+          "help": "english-relazioni/nessi"
+        }
+      ],
+      "hint": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+      "explanation": "Therefore introduce la conseguenza dello stato descritto nella frase precedente.",
+      "help": "english-relazioni/nessi"
+    },
+    {
+      "id": "en-depth-english-relazioni-nessi-5",
+      "unit": "english-relazioni",
+      "concept": "nessi",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale correzione mantiene un contrasto e una costruzione corretta? “Despite the room was small, we worked there.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Although the room was small, we worked there."
+        },
+        {
+          "id": "errore-a",
+          "text": "Because the room was small, we worked there.",
+          "feedback": "Because renderebbe la dimensione della sala una causa, non il contrasto richiesto.",
+          "help": "english-relazioni/nessi"
+        },
+        {
+          "id": "errore-b",
+          "text": "Despite of the small room, we worked there.",
+          "feedback": "L’aggiunta of dopo despite non corregge la costruzione.",
+          "help": "english-relazioni/nessi"
+        }
+      ],
+      "hint": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+      "explanation": "Soggetto e verbo dopo although rendono corretta la concessiva; un’alternativa sarebbe Despite the small room.",
+      "help": "english-relazioni/nessi"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-avviso-1",
+      "unit": "english-letture-integrate",
+      "concept": "avviso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The introductory meeting is in room B on Tuesday at 18:00. The practical meeting has been moved to Friday.” Quale dato riguarda esplicitamente l’introduzione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Martedì alle 18 in aula B."
+        },
+        {
+          "id": "errore-a",
+          "text": "Venerdì alle 18 in aula B.",
+          "feedback": "Il venerdì riguarda la pratica; l’orario del martedì non viene attribuito automaticamente al venerdì.",
+          "help": "english-letture-integrate/avviso"
+        },
+        {
+          "id": "errore-b",
+          "text": "Venerdì, senza un’aula indicata per l’introduzione.",
+          "feedback": "L’avviso assegna aula e orario all’introduzione di martedì.",
+          "help": "english-letture-integrate/avviso"
+        }
+      ],
+      "hint": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili.",
+      "explanation": "Ogni indicazione temporale va collegata all’evento della propria frase.",
+      "help": "english-letture-integrate/avviso"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-avviso-2",
+      "unit": "english-letture-integrate",
+      "concept": "avviso",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“Participants do not have to bring printed notes.” Quale interpretazione conserva il grado di obbligo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Portare appunti stampati non è obbligatorio."
+        },
+        {
+          "id": "errore-a",
+          "text": "Portare appunti stampati è vietato.",
+          "feedback": "Il divieto sarebbe must not; do not have to elimina l’obbligo.",
+          "help": "english-letture-integrate/avviso"
+        },
+        {
+          "id": "errore-b",
+          "text": "Portare appunti stampati è sempre obbligatorio.",
+          "feedback": "La frase nega proprio la necessità di portarli.",
+          "help": "english-letture-integrate/avviso"
+        }
+      ],
+      "hint": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili.",
+      "explanation": "Do not have to indica facoltà, non divieto.",
+      "help": "english-letture-integrate/avviso"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-avviso-3",
+      "unit": "english-letture-integrate",
+      "concept": "avviso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Those who need a paper copy should contact the tutor before Monday.” Chi dovrebbe contattare il tutor?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Chi necessita di una copia cartacea."
+        },
+        {
+          "id": "errore-a",
+          "text": "Tutti gli iscritti senza distinzione.",
+          "feedback": "La relativa who need a paper copy limita il gruppo cui si rivolge la richiesta.",
+          "help": "english-letture-integrate/avviso"
+        },
+        {
+          "id": "errore-b",
+          "text": "Soltanto chi non vuole alcuna copia.",
+          "feedback": "La condizione espressa è avere bisogno della copia, non rifiutarla.",
+          "help": "english-letture-integrate/avviso"
+        }
+      ],
+      "hint": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili.",
+      "explanation": "Those è precisato dalla relativa e non significa automaticamente tutti.",
+      "help": "english-letture-integrate/avviso"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-avviso-4",
+      "unit": "english-letture-integrate",
+      "concept": "avviso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The practical meeting has been moved to Friday.” Qual è l’ora dell’incontro pratico secondo questa frase?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non è indicata."
+        },
+        {
+          "id": "errore-a",
+          "text": "Le 18, perché gli incontri sono sempre a quell’ora.",
+          "feedback": "La frase non contiene un orario né una regola generale sugli orari.",
+          "help": "english-letture-integrate/avviso"
+        },
+        {
+          "id": "errore-b",
+          "text": "Le 12, perché Friday indica mezzogiorno.",
+          "feedback": "Friday indica un giorno della settimana, non un’ora.",
+          "help": "english-letture-integrate/avviso"
+        }
+      ],
+      "hint": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili.",
+      "explanation": "Una data non fornisce da sola l’orario.",
+      "help": "english-letture-integrate/avviso"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-avviso-5",
+      "unit": "english-letture-integrate",
+      "concept": "avviso",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Not all registered participants have confirmed that they can attend on the new date.” Possiamo calcolare la percentuale dei confermati?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No: mancano il totale numerico e il numero delle conferme."
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì: è necessariamente 50%.",
+          "feedback": "Non tutti non significa metà.",
+          "help": "english-letture-integrate/avviso"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì: è necessariamente 0%.",
+          "feedback": "Not all non equivale a nessuno; il numero di conferme non è specificato.",
+          "help": "english-letture-integrate/avviso"
+        }
+      ],
+      "hint": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili.",
+      "explanation": "Per una percentuale servono numeratore e denominatore: qui nessuno dei due è fornito come numero.",
+      "help": "english-letture-integrate/avviso"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-anatomia-1",
+      "unit": "english-letture-integrate",
+      "concept": "anatomia",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "“A ligament links one bone to the other. A tendon connects a skeletal muscle to a bone.” Quale relazione è attribuita al tendon?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Muscolo scheletrico e osso."
+        },
+        {
+          "id": "errore-a",
+          "text": "Un osso e l’altro osso nella prima frase.",
+          "feedback": "Quella relazione è attribuita al ligament, non al tendon.",
+          "help": "english-letture-integrate/anatomia"
+        },
+        {
+          "id": "errore-b",
+          "text": "Soltanto due etichette del disegno.",
+          "feedback": "Connects descrive le strutture collegate, non i nomi scritti sul disegno.",
+          "help": "english-letture-integrate/anatomia"
+        }
+      ],
+      "hint": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata.",
+      "explanation": "Il verbo connects ha come elementi a skeletal muscle e a bone.",
+      "help": "english-letture-integrate/anatomia"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-anatomia-2",
+      "unit": "english-letture-integrate",
+      "concept": "anatomia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“When the muscle develops tension, it can transmit force through the tendon.” A che cosa rimanda it?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Al muscolo."
+        },
+        {
+          "id": "errore-a",
+          "text": "Al nome della didascalia, non menzionato.",
+          "feedback": "Il contesto ha già il soggetto the muscle; non introduce una didascalia come agente.",
+          "help": "english-letture-integrate/anatomia"
+        },
+        {
+          "id": "errore-b",
+          "text": "Alla quantità esatta di forza.",
+          "feedback": "Non viene nominata alcuna quantità numerica che svolga quel ruolo.",
+          "help": "english-letture-integrate/anatomia"
+        }
+      ],
+      "hint": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata.",
+      "explanation": "Il muscolo sviluppa tensione e può trasmettere forza attraverso il tendine.",
+      "help": "english-letture-integrate/anatomia"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-anatomia-3",
+      "unit": "english-letture-integrate",
+      "concept": "anatomia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“An active muscle may shorten, remain approximately the same length or lengthen.” Quale sintesi è fedele?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’attività muscolare non implica necessariamente accorciamento."
+        },
+        {
+          "id": "errore-a",
+          "text": "Ogni muscolo attivo si accorcia sempre.",
+          "feedback": "La frase elenca anche mantenimento della lunghezza e allungamento.",
+          "help": "english-letture-integrate/anatomia"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessun muscolo attivo può accorciarsi.",
+          "feedback": "Shorten è una delle possibilità esplicitamente ammesse.",
+          "help": "english-letture-integrate/anatomia"
+        }
+      ],
+      "hint": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata.",
+      "explanation": "May e la lista di alternative impediscono di trasformare una possibilità in un esito universale.",
+      "help": "english-letture-integrate/anatomia"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-anatomia-4",
+      "unit": "english-letture-integrate",
+      "concept": "anatomia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The labels identify structures; they do not measure force.” Che cosa possiamo ricavare dalle labels secondo il testo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’identificazione delle strutture, non una misura della forza."
+        },
+        {
+          "id": "errore-a",
+          "text": "Un valore esatto della forza in newton.",
+          "feedback": "Il testo nega che le etichette misurino la forza e non fornisce un valore.",
+          "help": "english-letture-integrate/anatomia"
+        },
+        {
+          "id": "errore-b",
+          "text": "La certezza che non esista alcuna forza.",
+          "feedback": "Non misurare una quantità non dimostra che essa sia zero.",
+          "help": "english-letture-integrate/anatomia"
+        }
+      ],
+      "hint": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata.",
+      "explanation": "Identify e measure esprimono operazioni differenti.",
+      "help": "english-letture-integrate/anatomia"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-anatomia-5",
+      "unit": "english-letture-integrate",
+      "concept": "anatomia",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Come traduci “remain approximately the same length” preservando l’avverbio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Mantenere approssimativamente la stessa lunghezza."
+        },
+        {
+          "id": "errore-a",
+          "text": "Mantenere esattamente la stessa lunghezza in ogni istante.",
+          "feedback": "Approximately non garantisce identità esatta né aggiunge in ogni istante.",
+          "help": "english-letture-integrate/anatomia"
+        },
+        {
+          "id": "errore-b",
+          "text": "Diventare sempre molto più lungo.",
+          "feedback": "Remain the same non significa diventare più lungo; sempre e molto non sono nel testo.",
+          "help": "english-letture-integrate/anatomia"
+        }
+      ],
+      "hint": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata.",
+      "explanation": "Approximately segnala un’approssimazione e deve restare nel significato.",
+      "help": "english-letture-integrate/anatomia"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-risultati-1",
+      "unit": "english-letture-integrate",
+      "concept": "risultati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Forty students enrolled. Thirty-two completed both tests.” Quale percentuale ha completato entrambe le prove?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "80%."
+        },
+        {
+          "id": "errore-a",
+          "text": "32%.",
+          "feedback": "Trentadue è il numeratore, non la percentuale sul totale di quaranta.",
+          "help": "english-letture-integrate/risultati"
+        },
+        {
+          "id": "errore-b",
+          "text": "125%.",
+          "feedback": "40/32 inverte il rapporto: il totale va al denominatore.",
+          "help": "english-letture-integrate/risultati"
+        }
+      ],
+      "hint": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+      "explanation": "32/40 × 100 = 80%; misura il completamento, non il miglioramento.",
+      "help": "english-letture-integrate/risultati"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-risultati-2",
+      "unit": "english-letture-integrate",
+      "concept": "risultati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Among the 32 completers, the mean rose from 12 to 15 points out of 20.” Qual è la variazione della media in punti della scala?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "3 punti."
+        },
+        {
+          "id": "errore-a",
+          "text": "15 punti.",
+          "feedback": "Quindici è il valore finale, non la differenza.",
+          "help": "english-letture-integrate/risultati"
+        },
+        {
+          "id": "errore-b",
+          "text": "20 punti.",
+          "feedback": "Venti è il massimo della scala, non il guadagno medio.",
+          "help": "english-letture-integrate/risultati"
+        }
+      ],
+      "hint": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+      "explanation": "La differenza è 15 − 12 = 3 punti su una scala il cui massimo è 20.",
+      "help": "english-letture-integrate/risultati"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-risultati-3",
+      "unit": "english-letture-integrate",
+      "concept": "risultati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La media passa da 12/20 a 15/20, cioè dal 60% al 75% del massimo. Qual è la differenza in punti percentuali?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "15 punti percentuali."
+        },
+        {
+          "id": "errore-a",
+          "text": "25 punti percentuali.",
+          "feedback": "25% è la variazione relativa a 12, non la differenza fra 75% e 60%.",
+          "help": "english-letture-integrate/risultati"
+        },
+        {
+          "id": "errore-b",
+          "text": "75 punti percentuali.",
+          "feedback": "75% rappresenta il livello finale, non il cambiamento.",
+          "help": "english-letture-integrate/risultati"
+        }
+      ],
+      "hint": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+      "explanation": "75 − 60 = 15 punti percentuali; il cambiamento relativo alla media iniziale è invece 3/12 = 25%.",
+      "help": "english-letture-integrate/risultati"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-risultati-4",
+      "unit": "english-letture-integrate",
+      "concept": "risultati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“The mean score was higher, but individual changes were not reported.” Quale conclusione è sostenuta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "La media è maggiore, ma non sappiamo se ogni persona sia migliorata."
+        },
+        {
+          "id": "errore-a",
+          "text": "Ogni persona ha certamente guadagnato tre punti.",
+          "feedback": "Una differenza media non assegna lo stesso cambiamento a ciascuno.",
+          "help": "english-letture-integrate/risultati"
+        },
+        {
+          "id": "errore-b",
+          "text": "Nessuna persona può essere migliorata.",
+          "feedback": "La frase non esclude miglioramenti individuali; dice che non sono riportati.",
+          "help": "english-letture-integrate/risultati"
+        }
+      ],
+      "hint": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+      "explanation": "Le informazioni aggregate non specificano la distribuzione delle variazioni individuali.",
+      "help": "english-letture-integrate/risultati"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-risultati-5",
+      "unit": "english-letture-integrate",
+      "concept": "risultati",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“No test was collected one month later. The researchers plan a future study.” Che cosa sappiamo del mantenimento a un mese?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non è stato misurato in questo studio."
+        },
+        {
+          "id": "errore-a",
+          "text": "È certamente assente, perché non è riportato.",
+          "feedback": "L’assenza di una misura non è prova di assenza del ricordo.",
+          "help": "english-letture-integrate/risultati"
+        },
+        {
+          "id": "errore-b",
+          "text": "È già dimostrato dallo studio futuro.",
+          "feedback": "Plan indica un’intenzione; non un risultato già ottenuto.",
+          "help": "english-letture-integrate/risultati"
+        }
+      ],
+      "hint": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+      "explanation": "La misura manca e il piano futuro non cambia retroattivamente i dati disponibili.",
+      "help": "english-letture-integrate/risultati"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-revisione-1",
+      "unit": "english-letture-integrate",
+      "concept": "revisione",
+      "type": "choice",
+      "level": "fondamenti",
+      "prompt": "Correggi la forma nel resoconto passato: “Group A ask less questions.”",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Group A asked fewer questions."
+        },
+        {
+          "id": "errore-a",
+          "text": "Group A asks fewer questions yesterday.",
+          "feedback": "Yesterday colloca l’evento nel passato: asks è presente.",
+          "help": "english-letture-integrate/revisione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Group A asked fewers questions.",
+          "feedback": "Fewer non prende una -s aggiuntiva davanti al plurale questions.",
+          "help": "english-letture-integrate/revisione"
+        }
+      ],
+      "hint": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua.",
+      "explanation": "Asked presenta l’evento passato; fewer si usa con questions, numerabile plurale.",
+      "help": "english-letture-integrate/revisione"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-revisione-2",
+      "unit": "english-letture-integrate",
+      "concept": "revisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Group A asked fewer questions, but the groups differed in size.” Quale sintesi preserva il limite?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "A ha posto meno domande, ma i gruppi avevano numerosità diverse."
+        },
+        {
+          "id": "errore-a",
+          "text": "A ha posto meno domande e tutti i gruppi erano identici.",
+          "feedback": "La seconda parte contraddice differed in size.",
+          "help": "english-letture-integrate/revisione"
+        },
+        {
+          "id": "errore-b",
+          "text": "A ha appreso sicuramente di più perché ha posto meno domande.",
+          "feedback": "Il conteggio delle domande e la numerosità diversa non dimostrano direttamente maggiore apprendimento.",
+          "help": "english-letture-integrate/revisione"
+        }
+      ],
+      "hint": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua.",
+      "explanation": "But conserva il contrasto: il numero di persone è pertinente al confronto dei conteggi.",
+      "help": "english-letture-integrate/revisione"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-revisione-3",
+      "unit": "english-letture-integrate",
+      "concept": "revisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "“Staff did not record whether participants had attended similar workshops before.” Che cosa non è stato registrato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "L’eventuale esperienza precedente di laboratori simili."
+        },
+        {
+          "id": "errore-a",
+          "text": "La certezza che nessuno avesse esperienza precedente.",
+          "feedback": "Non registrare un’informazione non determina che la risposta fosse no per tutti.",
+          "help": "english-letture-integrate/revisione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Il fatto che tutti fossero necessariamente esperti.",
+          "feedback": "La frase non afferma esperienza per tutti: ne indica la mancata registrazione.",
+          "help": "english-letture-integrate/revisione"
+        }
+      ],
+      "hint": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua.",
+      "explanation": "Whether introduce l’alternativa se sì o no, non conferma uno dei due esiti.",
+      "help": "english-letture-integrate/revisione"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-revisione-4",
+      "unit": "english-letture-integrate",
+      "concept": "revisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel testo, le domande sono contate “during the first ten minutes”. Una sintesi dice “throughout the entire course”. Che errore introduce?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Estende il periodo osservato oltre quello dichiarato."
+        },
+        {
+          "id": "errore-a",
+          "text": "Mantiene esattamente la stessa durata.",
+          "feedback": "Dieci minuti iniziali non equivalgono all’intero corso.",
+          "help": "english-letture-integrate/revisione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Cambia soltanto l’ortografia, senza effetto sui dati.",
+          "feedback": "La durata è un elemento del metodo e del significato, non un dettaglio ortografico.",
+          "help": "english-letture-integrate/revisione"
+        }
+      ],
+      "hint": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua.",
+      "explanation": "La sintesi deve mantenere la finestra temporale della misura.",
+      "help": "english-letture-integrate/revisione"
+    },
+    {
+      "id": "en-depth-english-letture-integrate-revisione-5",
+      "unit": "english-letture-integrate",
+      "concept": "revisione",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale frase evita di trasformare il conteggio di domande in una prova certa di apprendimento?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "The observation alone does not establish that advance instructions improved learning."
+        },
+        {
+          "id": "errore-a",
+          "text": "The study proves that advance instructions always improve learning.",
+          "feedback": "Proves e always aggiungono certezza e universalità non sostenute.",
+          "help": "english-letture-integrate/revisione"
+        },
+        {
+          "id": "errore-b",
+          "text": "Fewer questions mean that every participant understood everything.",
+          "feedback": "Un numero inferiore di domande non prova comprensione completa di ciascuno.",
+          "help": "english-letture-integrate/revisione"
+        }
+      ],
+      "hint": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua.",
+      "explanation": "Il modello distingue la misura osservata dalla conclusione più ampia sull’apprendimento.",
+      "help": "english-letture-integrate/revisione"
+    },
+    {
+      "id": "bio26-cellula-adesione-matrice-1",
+      "unit": "cellula-adesione",
+      "concept": "matrice",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due campioni hanno uguale numero di cellule. È sufficiente per prevedere uguale resistenza alla trazione?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, servono anche informazioni sulla matrice e sulla sua organizzazione"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, conta soltanto quante cellule ci sono",
+          "feedback": "La matrice contribuisce alle proprietà meccaniche: la sola conta non basta.",
+          "help": "cellula-adesione/matrice"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, se hanno lo stesso volume",
+          "feedback": "Il volume non informa su composizione e orientamento delle fibre.",
+          "help": "cellula-adesione/matrice"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Composizione e organizzazione della matrice sono variabili distinte dalla conta cellulare.",
+      "help": "cellula-adesione/matrice"
+    },
+    {
+      "id": "bio26-cellula-adesione-matrice-2",
+      "unit": "cellula-adesione",
+      "concept": "matrice",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale percorso collega correttamente esterno e interno della cellula?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Matrice → integrina → proteine associate → citoscheletro"
+        },
+        {
+          "id": "errore-a",
+          "text": "Matrice → nucleo senza attraversare la membrana",
+          "feedback": "Il collegamento è mediato da recettori di membrana e proteine associate.",
+          "help": "cellula-adesione/matrice"
+        },
+        {
+          "id": "errore-b",
+          "text": "Citoscheletro → collagene dentro il nucleo",
+          "feedback": "Collagene della matrice e citoscheletro sono in compartimenti distinti.",
+          "help": "cellula-adesione/matrice"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il collegamento attraversa funzionalmente la membrana mediante l’integrina.",
+      "help": "cellula-adesione/matrice"
+    },
+    {
+      "id": "bio26-cellula-adesione-matrice-3",
+      "unit": "cellula-adesione",
+      "concept": "matrice",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La lamina basale è:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Una matrice extracellulare specializzata"
+        },
+        {
+          "id": "errore-a",
+          "text": "Il doppio strato lipidico della cellula",
+          "feedback": "Matrice extracellulare e membrana plasmatica non coincidono.",
+          "help": "cellula-adesione/matrice"
+        },
+        {
+          "id": "errore-b",
+          "text": "Il citosol vicino al nucleo",
+          "feedback": "La posizione è esterna alla membrana, non nel citosol.",
+          "help": "cellula-adesione/matrice"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La lamina basale comprende componenti extracellulari come collagene IV e laminine.",
+      "help": "cellula-adesione/matrice"
+    },
+    {
+      "id": "bio26-cellula-adesione-adesioni-1",
+      "unit": "cellula-adesione",
+      "concept": "adesioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una giunzione collega due cellule e filamenti intermedi. Quale modello è coerente?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Desmosoma"
+        },
+        {
+          "id": "errore-a",
+          "text": "Emidesmosoma",
+          "feedback": "L’emidesmosoma collega cellula e lamina basale.",
+          "help": "cellula-adesione/adesioni"
+        },
+        {
+          "id": "errore-b",
+          "text": "Adesione focale",
+          "feedback": "L’adesione focale collega matrice e actina.",
+          "help": "cellula-adesione/adesioni"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Partner cellula-cellula e filamenti intermedi identificano il modello desmosomiale.",
+      "help": "cellula-adesione/adesioni"
+    },
+    {
+      "id": "bio26-cellula-adesione-adesioni-2",
+      "unit": "cellula-adesione",
+      "concept": "adesioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Una struttura collega actina e matrice extracellulare. Quale descrizione è corretta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Adesione focale"
+        },
+        {
+          "id": "errore-a",
+          "text": "Giunzione aderente fra due cellule",
+          "feedback": "La giunzione aderente nel confronto è cellula-cellula.",
+          "help": "cellula-adesione/adesioni"
+        },
+        {
+          "id": "errore-b",
+          "text": "Emidesmosoma associato a filamenti intermedi",
+          "feedback": "Qui il filamento indicato è actina, non filamento intermedio.",
+          "help": "cellula-adesione/adesioni"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Le adesioni focali associano integrine, proteine intracellulari e actina.",
+      "help": "cellula-adesione/adesioni"
+    },
+    {
+      "id": "bio26-cellula-adesione-adesioni-3",
+      "unit": "cellula-adesione",
+      "concept": "adesioni",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Per trasformare correttamente un disegno di desmosoma in emidesmosoma bisogna:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Cambiare partner esterno e molecole di adesione"
+        },
+        {
+          "id": "errore-a",
+          "text": "Cambiare solo il titolo del disegno",
+          "feedback": "Il partner diventa la lamina basale e intervengono integrine.",
+          "help": "cellula-adesione/adesioni"
+        },
+        {
+          "id": "errore-b",
+          "text": "Disegnare un canale ionico fra due citoplasmi",
+          "feedback": "Questo descriverebbe comunicazione tramite gap junction.",
+          "help": "cellula-adesione/adesioni"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Somiglianza del nome non equivale a identità di composizione e partner.",
+      "help": "cellula-adesione/adesioni"
+    },
+    {
+      "id": "bio26-cellula-adesione-barriere-1",
+      "unit": "cellula-adesione",
+      "concept": "barriere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un tracciante percorre lo spazio fra enterociti. Quale funzione va valutata per prima?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Barriera paracellulare delle giunzioni occludenti"
+        },
+        {
+          "id": "errore-a",
+          "text": "Passaggio diretto fra citoplasmi nelle gap junction",
+          "feedback": "Il percorso descritto è esterno ai citoplasmi.",
+          "help": "cellula-adesione/barriere"
+        },
+        {
+          "id": "errore-b",
+          "text": "Trascrizione nel nucleo",
+          "feedback": "Non è la funzione che distingue il percorso del tracciante.",
+          "help": "cellula-adesione/barriere"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La via paracellulare passa fra cellule ed è distinta dalla via transcellulare.",
+      "help": "cellula-adesione/barriere"
+    },
+    {
+      "id": "bio26-cellula-adesione-barriere-2",
+      "unit": "cellula-adesione",
+      "concept": "barriere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Che cosa può attraversare una gap junction funzionante?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ioni e piccole molecole compatibili con il canale"
+        },
+        {
+          "id": "errore-a",
+          "text": "Un mitocondrio intero",
+          "feedback": "Un organello non attraversa questi canali.",
+          "help": "cellula-adesione/barriere"
+        },
+        {
+          "id": "errore-b",
+          "text": "Qualsiasi proteina indipendentemente dalla dimensione",
+          "feedback": "Dimensioni e proprietà del canale limitano il passaggio.",
+          "help": "cellula-adesione/barriere"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Le gap junction permettono scambi selettivi fra citoplasmi.",
+      "help": "cellula-adesione/barriere"
+    },
+    {
+      "id": "bio26-cellula-adesione-barriere-3",
+      "unit": "cellula-adesione",
+      "concept": "barriere",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Le membrane delle singole cellule sono integre. La barriera dell’epitelio è certamente normale?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, va considerato anche il passaggio fra cellule"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, basta l’integrità di ciascuna membrana",
+          "feedback": "La via paracellulare è una componente distinta della barriera.",
+          "help": "cellula-adesione/barriere"
+        },
+        {
+          "id": "errore-b",
+          "text": "No, perché un epitelio normale non possiede membrane",
+          "feedback": "Le cellule epiteliali possiedono membrane: il problema è il percorso fra esse.",
+          "help": "cellula-adesione/barriere"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La barriera complessiva dipende anche dalle giunzioni fra le cellule.",
+      "help": "cellula-adesione/barriere"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-fruttosio-1",
+      "unit": "esosi-metabolismo",
+      "concept": "fruttosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel percorso epatico, l’aldolasi B scinde fruttosio-1-fosfato in:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "DHAP e gliceraldeide"
+        },
+        {
+          "id": "errore-a",
+          "text": "Due piruvati direttamente",
+          "feedback": "Le triosi devono ancora attraversare altri passaggi.",
+          "help": "esosi-metabolismo/fruttosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "Due glucosi",
+          "feedback": "Sei carboni non possono diventare dodici senza altri reagenti.",
+          "help": "esosi-metabolismo/fruttosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La scissione produce due unità a tre carboni, una delle quali deve essere fosforilata.",
+      "help": "esosi-metabolismo/fruttosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-fruttosio-2",
+      "unit": "esosi-metabolismo",
+      "concept": "fruttosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due fruttosi raggiungono le triosi fosfato nel modello epatico: quanti ATP sono investiti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "4 ATP"
+        },
+        {
+          "id": "errore-a",
+          "text": "2 ATP",
+          "feedback": "Ogni fruttosio richiede ATP alla fruttochinasi e alla trioso chinasi.",
+          "help": "esosi-metabolismo/fruttosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "4 ATP guadagnati netti",
+          "feedback": "Hai scambiato l’investimento con il rendimento.",
+          "help": "esosi-metabolismo/fruttosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Sono due ATP investiti per fruttosio: 2 × 2 = 4.",
+      "help": "esosi-metabolismo/fruttosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-fruttosio-3",
+      "unit": "esosi-metabolismo",
+      "concept": "fruttosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’ingresso epatico del fruttosio a valle di PFK-1 dimostra:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Che quel passaggio di controllo viene oltrepassato, non che manchi ogni controllo"
+        },
+        {
+          "id": "errore-a",
+          "text": "Che nessun enzima regola mai il metabolismo del fruttosio",
+          "feedback": "Disponibilità dei substrati e altri enzimi continuano a contare.",
+          "help": "esosi-metabolismo/fruttosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "Che tutto il fruttosio diventa obbligatoriamente grasso",
+          "feedback": "Lo schema non determina una quota universale di destinazione dei carboni.",
+          "help": "esosi-metabolismo/fruttosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Una via di ingresso non stabilisce da sola tutti i flussi metabolici.",
+      "help": "esosi-metabolismo/fruttosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-galattosio-1",
+      "unit": "esosi-metabolismo",
+      "concept": "galattosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale prodotto della via di Leloir si collega al glucosio-6-fosfato?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Glucosio-1-fosfato"
+        },
+        {
+          "id": "errore-a",
+          "text": "Fruttosio-1-fosfato",
+          "feedback": "È un intermedio della via epatica del fruttosio.",
+          "help": "esosi-metabolismo/galattosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "Gliceraldeide priva di fosfato",
+          "feedback": "È un prodotto della scissione del fruttosio-1-fosfato.",
+          "help": "esosi-metabolismo/galattosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La fosfoglucomutasi collega glucosio-1-P e glucosio-6-P.",
+      "help": "esosi-metabolismo/galattosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-galattosio-2",
+      "unit": "esosi-metabolismo",
+      "concept": "galattosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Il riciclo mediante GALE significa che UDP-glucosio:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "È rigenerato, pur essendo necessario al ciclo"
+        },
+        {
+          "id": "errore-a",
+          "text": "Non serve mai e può essere eliminato dal meccanismo",
+          "feedback": "Non comparire come consumo netto non equivale a essere superfluo.",
+          "help": "esosi-metabolismo/galattosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "Si perde definitivamente a ogni passaggio di GALT",
+          "feedback": "GALE riconverte UDP-galattosio in UDP-glucosio.",
+          "help": "esosi-metabolismo/galattosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Un partecipante rigenerato può essere indispensabile senza essere consumato nel saldo.",
+      "help": "esosi-metabolismo/galattosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-galattosio-3",
+      "unit": "esosi-metabolismo",
+      "concept": "galattosio",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "L’epimerizzazione dell’UDP-galattosio:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Cambia la configurazione al C4 conservando lo scheletro dello zucchero"
+        },
+        {
+          "id": "errore-a",
+          "text": "Scinde lo zucchero in due triosi",
+          "feedback": "Epimerizzazione e scissione sono trasformazioni diverse.",
+          "help": "esosi-metabolismo/galattosio"
+        },
+        {
+          "id": "errore-b",
+          "text": "Rimuove necessariamente tutti i gruppi fosfato",
+          "feedback": "Il prodotto è UDP-glucosio, non glucosio libero.",
+          "help": "esosi-metabolismo/galattosio"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il passaggio modifica una configurazione senza dimezzare i carboni.",
+      "help": "esosi-metabolismo/galattosio"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-confronto-1",
+      "unit": "esosi-metabolismo",
+      "concept": "confronto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "La lattasi può sostituire GALT nel metabolismo intracellulare del galattosio?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, digestione del disaccaride e via intracellulare sono processi diversi"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, perché entrambe riguardano il galattosio",
+          "feedback": "Il substrato e la reazione catalizzata sono diversi.",
+          "help": "esosi-metabolismo/confronto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, se si ignora il gruppo fosfato",
+          "feedback": "Ignorare il fosfato confonde specie chimiche e reazioni.",
+          "help": "esosi-metabolismo/confronto"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Un legame tematico non rende intercambiabili due enzimi.",
+      "help": "esosi-metabolismo/confronto"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-confronto-2",
+      "unit": "esosi-metabolismo",
+      "concept": "confronto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Due studenti scrivono “2 ATP”, uno come investimento e l’altro come saldo netto. Le risposte sono equivalenti?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Non necessariamente: servono percorso, punto finale e segno del bilancio"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, perché il numero coincide",
+          "feedback": "La stessa cifra può descrivere grandezze diverse.",
+          "help": "esosi-metabolismo/confronto"
+        },
+        {
+          "id": "errore-b",
+          "text": "No, perché un investimento non può mai essere 2 ATP",
+          "feedback": "Il valore può essere due; è la sua interpretazione che deve essere specificata.",
+          "help": "esosi-metabolismo/confronto"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il risultato deve essere accompagnato dalla definizione della quantità.",
+      "help": "esosi-metabolismo/confronto"
+    },
+    {
+      "id": "bio26-esosi-metabolismo-confronto-3",
+      "unit": "esosi-metabolismo",
+      "concept": "confronto",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Nel modello fino a piruvato, glucosio e galattosio danno lo stesso saldo di ATP. Ne segue che:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Il saldo energetico non dimostra identità di enzimi e regolazione"
+        },
+        {
+          "id": "errore-a",
+          "text": "Usano tutti gli stessi enzimi iniziali",
+          "feedback": "Il galattosio richiede i passaggi della via di Leloir.",
+          "help": "esosi-metabolismo/confronto"
+        },
+        {
+          "id": "errore-b",
+          "text": "Non occorre definire il punto finale del calcolo",
+          "feedback": "Il punto finale è necessario proprio per confrontare i saldi.",
+          "help": "esosi-metabolismo/confronto"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Bilancio e meccanismo sono due descrizioni complementari.",
+      "help": "esosi-metabolismo/confronto"
+    },
+    {
+      "id": "bio26-energia-atp-1",
+      "unit": "energia",
+      "concept": "atp",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "ATP quasi costante durante il lavoro muscolare significa necessariamente consumo nullo?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, consumo e rigenerazione possono bilanciarsi"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, la quantità misura direttamente il consumo",
+          "feedback": "Una misura di quantità non coincide con una misura di flusso.",
+          "help": "energia/atp"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, finché è presente ossigeno",
+          "feedback": "L’ossigeno permette processi di rigenerazione ma non elimina il consumo.",
+          "help": "energia/atp"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Una riserva stabile può avere un ricambio elevato.",
+      "help": "energia/atp"
+    },
+    {
+      "id": "bio26-energia-atp-2",
+      "unit": "energia",
+      "concept": "atp",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Perché “rompere un legame dell’ATP libera energia” è una spiegazione incompleta?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Conta il bilancio dell’intera reazione, inclusi prodotti e interazioni"
+        },
+        {
+          "id": "errore-a",
+          "text": "Perché ATP non partecipa mai a reazioni",
+          "feedback": "ATP partecipa a reazioni di trasferimento e idrolisi.",
+          "help": "energia/atp"
+        },
+        {
+          "id": "errore-b",
+          "text": "Perché tutte le rotture di legami liberano sempre energia",
+          "feedback": "La rottura del legame richiede energia: non spiega da sola il saldo della reazione.",
+          "help": "energia/atp"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il bilancio energetico comprende la trasformazione complessiva, non la sola rottura.",
+      "help": "energia/atp"
+    },
+    {
+      "id": "bio26-energia-ossidativa-1",
+      "unit": "energia",
+      "concept": "ossidativa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Durante la sintesi ossidativa, quali particelle attraversano l’ATP sintasi verso la matrice?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Protoni"
+        },
+        {
+          "id": "errore-a",
+          "text": "Elettroni diretti all’ossigeno",
+          "feedback": "Gli elettroni percorrono la catena respiratoria.",
+          "help": "energia/ossidativa"
+        },
+        {
+          "id": "errore-b",
+          "text": "Molecole di glucosio",
+          "feedback": "Il glucosio non è il flusso che aziona l’ATP sintasi.",
+          "help": "energia/ossidativa"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il ritorno protonico collega il gradiente alla sintesi di ATP.",
+      "help": "energia/ossidativa"
+    },
+    {
+      "id": "bio26-energia-ossidativa-2",
+      "unit": "energia",
+      "concept": "ossidativa",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Qual è il ruolo dell’ossigeno nella catena respiratoria?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Accettare elettroni ed essere ridotto ad acqua"
+        },
+        {
+          "id": "errore-a",
+          "text": "Fornire direttamente gruppi fosfato ad ADP",
+          "feedback": "Il fosfato non deriva da O₂.",
+          "help": "energia/ossidativa"
+        },
+        {
+          "id": "errore-b",
+          "text": "Convertire ATP in glucosio nel citosol",
+          "feedback": "Non è la funzione dell’ossigeno nella catena.",
+          "help": "energia/ossidativa"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La riduzione terminale dell’ossigeno è distinta dalla sintesi di ATP.",
+      "help": "energia/ossidativa"
+    },
+    {
+      "id": "bio26-ossidazione-controllo-accoppiamento-1",
+      "unit": "ossidazione-controllo",
+      "concept": "accoppiamento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "UCP1 attiva negli adipociti bruni favorisce:",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Dissipazione del gradiente e produzione di calore"
+        },
+        {
+          "id": "errore-a",
+          "text": "Massima resa di ATP per ogni protone rientrato",
+          "feedback": "Il ritorno attraverso UCP1 non è accoppiato alla sintesi di ATP come quello attraverso ATP sintasi.",
+          "help": "ossidazione-controllo/accoppiamento"
+        },
+        {
+          "id": "errore-b",
+          "text": "Obbligatoriamente arresto totale della catena",
+          "feedback": "Disaccoppiamento non equivale a blocco della catena.",
+          "help": "ossidazione-controllo/accoppiamento"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La funzione termogenica distingue calore prodotto e ATP conservato.",
+      "help": "ossidazione-controllo/accoppiamento"
+    },
+    {
+      "id": "bio26-ossidazione-controllo-accoppiamento-2",
+      "unit": "ossidazione-controllo",
+      "concept": "accoppiamento",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Termogenesi mediante UCP1 e brivido sono sinonimi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, il brivido coinvolge contrazione muscolare"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, entrambi richiedono sempre sarcomeri negli adipociti",
+          "feedback": "Gli adipociti non producono calore mediante il brivido muscolare.",
+          "help": "ossidazione-controllo/accoppiamento"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, entrambi eliminano la necessità di combustibile",
+          "feedback": "La produzione di calore richiede trasformazioni energetiche.",
+          "help": "ossidazione-controllo/accoppiamento"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "La produzione di calore può avere meccanismi diversi.",
+      "help": "ossidazione-controllo/accoppiamento"
+    },
+    {
+      "id": "bio26-segnali-recettori-1",
+      "unit": "segnali",
+      "concept": "recettori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Un fattore di crescita è presente. Tutte le cellule devono dividersi?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "No, servono recettori, vie di risposta e condizioni compatibili"
+        },
+        {
+          "id": "errore-a",
+          "text": "Sì, il segnale prevale su qualunque checkpoint",
+          "feedback": "I controlli del ciclo non scompaiono per la presenza di un ligando.",
+          "help": "segnali/recettori"
+        },
+        {
+          "id": "errore-b",
+          "text": "Sì, anche cellule prive di recettori adatti",
+          "feedback": "Il repertorio recettoriale condiziona la risposta.",
+          "help": "segnali/recettori"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Presenza del segnale e risposta proliferativa non sono equivalenti.",
+      "help": "segnali/recettori"
+    },
+    {
+      "id": "bio26-segnali-recettori-2",
+      "unit": "segnali",
+      "concept": "recettori",
+      "type": "choice",
+      "level": "applicazione",
+      "prompt": "Quale sequenza descrive un modello di segnalazione tramite recettore tirosin-chinasico?",
+      "answer": "corretta",
+      "options": [
+        {
+          "id": "corretta",
+          "text": "Ligando → attivazione recettore → proteine intracellulari → risposta"
+        },
+        {
+          "id": "errore-a",
+          "text": "Ligando → divisione immediata senza passaggi intracellulari",
+          "feedback": "La trasduzione comprende intermedi e regolazioni.",
+          "help": "segnali/recettori"
+        },
+        {
+          "id": "errore-b",
+          "text": "ATP sintasi → digestione del ligando → formazione di un sarcomero",
+          "feedback": "Sono processi diversi dalla via recettoriale descritta.",
+          "help": "segnali/recettori"
+        }
+      ],
+      "hint": "Ricostruisci i passaggi e distingui le grandezze descritte.",
+      "explanation": "Il recettore collega riconoscimento esterno e propagazione interna del segnale.",
+      "help": "segnali/recettori"
     }
   ],
   "templates": [

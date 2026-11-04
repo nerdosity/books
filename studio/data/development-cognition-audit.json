@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-04",
+  "exam": "scienze-psicopedagogiche",
+  "module": "sviluppo-psicologico",
+  "basis": {
+    "source": "https://www.uniba.it/it/corsi/sams/studiare/didattica/insegnamenti/scienze-psicologiche-e-padagogiche-24-25.pdf",
+    "year": "2024/25",
+    "currentSyllabusConfirmed": false,
+    "note": "La scheda chiede sviluppo come scienza, metodi, processi cognitivi e affettivi applicati al comportamento motorio. Le otto articolazioni sono scelte editoriali di approfondimento, non titoli attribuiti alla scheda né un confronto integrale con Camaioni."
+  },
+  "unitIds": [
+    "sviluppo-esplorare",
+    "sviluppo-autoregolazione"
+  ],
+  "questionIds": [
+    "dev26-sviluppo-esplorare-sguardo-1",
+    "dev26-sviluppo-esplorare-sguardo-2",
+    "dev26-sviluppo-esplorare-sguardo-3",
+    "dev26-sviluppo-esplorare-sguardo-4",
+    "dev26-sviluppo-esplorare-movimento-1",
+    "dev26-sviluppo-esplorare-movimento-2",
+    "dev26-sviluppo-esplorare-movimento-3",
+    "dev26-sviluppo-esplorare-movimento-4",
+    "dev26-sviluppo-esplorare-oggetto-1",
+    "dev26-sviluppo-esplorare-oggetto-2",
+    "dev26-sviluppo-esplorare-oggetto-3",
+    "dev26-sviluppo-esplorare-oggetto-4",
+    "dev26-sviluppo-esplorare-comunicare-1",
+    "dev26-sviluppo-esplorare-comunicare-2",
+    "dev26-sviluppo-esplorare-comunicare-3",
+    "dev26-sviluppo-esplorare-comunicare-4",
+    "dev26-sviluppo-autoregolazione-esecutive-1",
+    "dev26-sviluppo-autoregolazione-esecutive-2",
+    "dev26-sviluppo-autoregolazione-esecutive-3",
+    "dev26-sviluppo-autoregolazione-esecutive-4",
+    "dev26-sviluppo-autoregolazione-strategie-1",
+    "dev26-sviluppo-autoregolazione-strategie-2",
+    "dev26-sviluppo-autoregolazione-strategie-3",
+    "dev26-sviluppo-autoregolazione-strategie-4",
+    "dev26-sviluppo-autoregolazione-credenze-1",
+    "dev26-sviluppo-autoregolazione-credenze-2",
+    "dev26-sviluppo-autoregolazione-credenze-3",
+    "dev26-sviluppo-autoregolazione-credenze-4",
+    "dev26-sviluppo-autoregolazione-regolazione-1",
+    "dev26-sviluppo-autoregolazione-regolazione-2",
+    "dev26-sviluppo-autoregolazione-regolazione-3",
+    "dev26-sviluppo-autoregolazione-regolazione-4"
+  ],
+  "rows": [
+    {
+      "ref": "sviluppo-esplorare/sguardo",
+      "topic": "Studiare chi non può ancora rispondere a parole",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-esplorare-sguardo-1",
+        "dev26-sviluppo-esplorare-sguardo-2",
+        "dev26-sviluppo-esplorare-sguardo-3",
+        "dev26-sviluppo-esplorare-sguardo-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-esplorare/movimento",
+      "topic": "Il movimento nasce dall’incontro fra più sistemi",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-esplorare-movimento-1",
+        "dev26-sviluppo-esplorare-movimento-2",
+        "dev26-sviluppo-esplorare-movimento-3",
+        "dev26-sviluppo-esplorare-movimento-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-esplorare/oggetto",
+      "topic": "L’oggetto nascosto: sapere, ricordare e riuscire ad agire",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-esplorare-oggetto-1",
+        "dev26-sviluppo-esplorare-oggetto-2",
+        "dev26-sviluppo-esplorare-oggetto-3",
+        "dev26-sviluppo-esplorare-oggetto-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-esplorare/comunicare",
+      "topic": "Dai gesti alle parole: condividere attenzione e significati",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-esplorare-comunicare-1",
+        "dev26-sviluppo-esplorare-comunicare-2",
+        "dev26-sviluppo-esplorare-comunicare-3",
+        "dev26-sviluppo-esplorare-comunicare-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-autoregolazione/esecutive",
+      "topic": "Tenere la regola, frenare una risposta, cambiare criterio",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-autoregolazione-esecutive-1",
+        "dev26-sviluppo-autoregolazione-esecutive-2",
+        "dev26-sviluppo-autoregolazione-esecutive-3",
+        "dev26-sviluppo-autoregolazione-esecutive-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-autoregolazione/strategie",
+      "topic": "Ricordare meglio: strategie e controllo del proprio apprendimento",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-autoregolazione-strategie-1",
+        "dev26-sviluppo-autoregolazione-strategie-2",
+        "dev26-sviluppo-autoregolazione-strategie-3",
+        "dev26-sviluppo-autoregolazione-strategie-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-autoregolazione/credenze",
+      "topic": "Capire che gli altri possono credere qualcosa di diverso",
+      "programmeTopic": "scienze-psicopedagogiche-8",
+      "questionIds": [
+        "dev26-sviluppo-autoregolazione-credenze-1",
+        "dev26-sviluppo-autoregolazione-credenze-2",
+        "dev26-sviluppo-autoregolazione-credenze-3",
+        "dev26-sviluppo-autoregolazione-credenze-4"
+      ]
+    },
+    {
+      "ref": "sviluppo-autoregolazione/regolazione",
+      "topic": "Temperamento, emozioni e sostegno che diventa autonomia",
+      "programmeTopic": "scienze-psicopedagogiche-9",
+      "questionIds": [
+        "dev26-sviluppo-autoregolazione-regolazione-1",
+        "dev26-sviluppo-autoregolazione-regolazione-2",
+        "dev26-sviluppo-autoregolazione-regolazione-3",
+        "dev26-sviluppo-autoregolazione-regolazione-4"
+      ]
+    }
+  ],
+  "diagramIds": [
+    "sviluppo-credenza"
+  ],
+  "remaining": [
+    "Dettaglio corrente e materiali specifici assegnati dal docente",
+    "Confronto con l’intero testo assegnato non dichiarato",
+    "Verifica individuale dell’esposizione e dell’applicazione dei concetti"
+  ],
+  "checks": {
+    "content": true,
+    "tests": 57,
+    "browser": true,
+    "wrongAnswerHelpChecks": 64,
+    "diagramLightDarkMobile": true,
+    "print": true,
+    "previousProgress": true,
+    "networkRequests": 0
+  }
+}

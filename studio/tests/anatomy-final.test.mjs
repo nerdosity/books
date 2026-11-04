@@ -30,8 +30,10 @@ test('anatomy crosswalk resolves every public syllabus row to teaching and asses
  for(const topic of exam.programme.topics)assert.ok(guided.some(q=>topic.questionIds.includes(q.id)),topic.title);
  assert.match(exam.assessmentNote,/2026\/27.*orale/);
  const links=writtenLinks(c,exam.id);assert.match(links,/Allenati all’orale/);assert.match(links,/formato storico/);
- assert.match(writtenPage(c,c.writtenPapers[0],null,()=>''),/catalogo UniBa 2026\/27 indica una prova orale/);
- assert.equal(c.checkpoint.status,'paused');
+ const page=writtenPage(c,c.writtenPapers[0],null,()=>'');
+ assert.match(page,/2026\/27.*orale/);
+ assert.match(page,/15 strutture/);
+ assert.ok(['active','paused'].includes(c.checkpoint.status));
 });
 test('anatomy images are locally attributable, tested with hidden study legends, and all diagrams resolve',()=>{
  assert.equal(a.figures.length,9);

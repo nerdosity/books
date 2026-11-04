@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "objective": "Materiale interno sufficiente a preparare gli esami del primo anno UniBa, con spiegazioni, pratica, correzioni e recupero degli errori; consegna locale index.html.",
   "status": "paused",
   "completionProven": false,
@@ -8,7 +8,14 @@
     "cfu": 61,
     "academicYear": "2026/2027",
     "currentAnalyticSyllabiConfirmed": false,
-    "listening": "Escluso dall’obiettivo su richiesta dell’utente. Conservato il laboratorio facoltativo esistente."
+    "listening": "Escluso dall’obiettivo su richiesta dell’utente. Conservato il laboratorio facoltativo esistente.",
+    "currentAnalyticSyllabiAvailable": [
+      "scienze-biologiche",
+      "anatomia-umana"
+    ],
+    "currentAnalyticSyllabiCompared": [
+      "scienze-biologiche"
+    ]
   },
   "deliveredThisStage": [
     "8 brani inglesi, traduzioni, 8 domande con aiuto e dettato per autoconfronto",
@@ -55,21 +62,22 @@
     "Scienze giuridiche: 12 nuove lezioni e 8 ampliate; 128 nuovi quiz, 3 tavole originali, 7 tabelle e 20 prove orali complessive. Confronto pubblico 2024/25 in 38 righe; recuperati i due articoli assegnati, ulteriori dispense non disponibili.",
     "Anatomia: otto lezioni nuove, 33 sezioni nuove, 72 quiz, nove immagini e tre schemi; confronto complessivo in data/anatomy-audit.json e modalità orale corrente distinta dallo scritto storico.",
     "26 ottobre: integrati nuclei di 61 slide e 87 pagine senza allegati; cinque lezioni, 24 sezioni, 48 quiz, cinque prove aperte e tre schemi originali. Mappa e correzioni in materials-20261026-audit.json.",
-    "4 novembre: integrazione dei nuovi materiali in 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte e 9 schemi originali; mappa di 665 pagine/slide con frontespizi e bibliografie distinti. Nessun allegato distribuito."
+    "4 novembre: integrazione dei nuovi materiali in 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte e 9 schemi originali; mappa di 665 pagine/slide con frontespizi e bibliografie distinti. Nessun allegato distribuito.",
+    "Psicologia dello sviluppo: due lezioni, otto sezioni, 32 quiz, due prove aperte e uno schema originale sulle credenze; approfondimento dei nuclei cognitivi e affettivi della scheda 2024/25. Il dettaglio corrente e l’intero testo assegnato non sono dichiarati verificati.",
+    "Inglese scritto: due lezioni, otto sezioni, quattro letture graduate originali, 40 quiz e due prove aperte. Grammatica delle frasi complesse, negazioni, quantità, connettivi e interpretazione dei risultati; quiz inclusi nella simulazione storica da 15 domande. Nessun ascolto aggiunto.",
+    "5 novembre: recuperati i programmi correnti di Biologia e Anatomia tramite il catalogo pubblico. Biologia confrontata in 27 voci: due lezioni, 26 quiz, tre prove aperte e ampliamenti su ATP, UCP1 e fattori di crescita. Anatomia: individuata prova corrente orale più 15 strutture visuali, da sviluppare."
   ],
   "remainingWork": [
     {
       "area": "Biochimica",
       "tasks": [
-        "Confrontare programma analitico, dispense e modalità di verifica del docente attuale quando disponibili. Il confronto storico 2016/17 è completato in 69 voci; le vie amminoacidiche restano rappresentative, come esplicitato nelle lezioni."
+        "Confrontate le 27 voci correnti con lezioni ed esercizi. Colmate lacune su giunzioni, matrice, altri esosi e termogenesi. Restano dispense specifiche, conferma della discrepanza orale/scritto e verifica della preparazione separata nei due moduli."
       ]
     },
     {
       "area": "Anatomia",
       "tasks": [
-        "La scheda analitica disponibile è del 2024/25 (Roberto Tamma); il catalogo 2026/27 indica Francesco Girolamo e prova orale. Non è pubblicato il dettaglio analitico corrente.",
-        "Il percorso sviluppa tutte le voci esplicite del programma pubblico confrontato. Le immagini sono un campione ragionato, non ogni possibile preparato; il riconoscimento di immagini nuove e l’esposizione richiedono esercizio.",
-        "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale."
+        "Il 5 novembre è stato recuperato il programma analitico 2026/27 di Francesco Girolamo. Il precedente confronto in 75 voci riguarda il 2024/25; non è automaticamente trasferito al nuovo programma. La prova corrente comprende orale e riconoscimento di 15 strutture su una immagine/disegno. Restano confronto analitico corrente, pratica su modelli 3D e prova visuale da 15 strutture."
       ]
     },
     {
@@ -81,7 +89,7 @@
     {
       "area": "Psicopedagogia",
       "tasks": [
-        "47 lezioni complessive. Integrate le due presentazioni di Pedagogia, cinque di Psicologia, otto raccolte neurobiologiche e tre articoli. Il programma Fischetti è privo di anno e contiene annotazioni parzialmente illeggibili; non certifica tutti i capitoli dell’edizione assegnata. Restano monografia di Persano, dettaglio corrente e ulteriori materiali dei quattro moduli.",
+        "49 lezioni complessive; Psicologia dello sviluppo passa da quattro a sei, con osservazione delle capacità precoci, azione, comunicazione, funzioni esecutive, memoria, credenze e regolazione emotiva. Restano letture specifiche assegnate, monografia di Persano e confronto analitico corrente dei quattro moduli; le fonti storiche non certificano il programma 2026/27.",
         "Cercare altre fonti primarie pubbliche sulla parte monografica senza attribuire tesi al libro dal solo titolo; verificare sul programma corrente gli autori e i materiali effettivamente richiesti."
       ]
     },
@@ -100,7 +108,7 @@
     {
       "area": "Inglese",
       "tasks": [
-        "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
+        "Quattordici lezioni, 156 quiz scritti e 8 audio facoltativi preesistenti. Grammatica di supporto, letture graduate, terminologia motoria e produzione scritta con modelli; approfonditi gruppi nominali, relative, quantità, negazioni e connettivi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare. Restano controllo delle produzioni libere e del livello individuale; la simulazione riprende il formato storico e non certifica la prova attuale."
       ]
     },
     {
@@ -115,7 +123,7 @@
     {
       "area": "Biologia applicata e genetica",
       "tasks": [
-        "Verificare il programma analitico, le dispense e la modalità di verifica correnti quando disponibili. Confrontati il blocco storico 2016/17 e i 12 nuclei/obiettivi biologici della scheda 2025/26; quest’ultima presenta indicazioni discordanti fra campo Orale e descrizione dello scritto."
+        "Confrontate le 27 voci correnti con lezioni ed esercizi. Colmate lacune su giunzioni, matrice, altri esosi e termogenesi. Restano dispense specifiche, conferma della discrepanza orale/scritto e verifica della preparazione separata nei due moduli."
       ]
     },
     {
@@ -10633,19 +10641,19 @@
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-11-04",
-    "summary": "Integrati i contenuti didattici di 19 nuovi documenti: 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte e 9 schemi. Nessun allegato originale collegato o incorporato. Primo anno ancora incompleto; lavoro fermo dopo questa integrazione.",
-    "next": "Alla prossima richiesta: verificare le parti del programma di Psicobiologia non presenti nei documenti forniti, le letture monografiche e i moduli di sviluppo/didattica speciale. Il PDF di Anatomia invariato conserva il precedente confronto per nuclei, non una nuova verifica integrale. Non avviare altri esami automaticamente.",
+    "updated": "2026-11-05",
+    "summary": "Sviluppo in pausa su richiesta del 5 novembre. Recuperati i programmi analitici 2026/27 di Scienze biologiche e Anatomia. Confrontate 27 voci di Scienze biologiche e aggiunti due capitoli, 26 quiz e tre prove aperte. Anatomia richiede ora un confronto specifico e una prova di riconoscimento di 15 strutture.",
+    "next": "Alla prossima richiesta: Priorità: confrontare integralmente il programma Anatomia 2026/27, i relativi obiettivi e la prova con 15 strutture su una immagine/disegno; integrare le lacune risultanti. Per gli altri otto esami le schede consultate non contengono ancora testo analitico.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
-        "label": "Verifica finale da terminare",
-        "remaining": "Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione."
+        "label": "Programma 2026/27 confrontato; verifica didattica da consolidare",
+        "remaining": "Confrontate le 27 voci correnti con lezioni ed esercizi. Colmate lacune su giunzioni, matrice, altri esosi e termogenesi. Restano dispense specifiche, conferma della discrepanza orale/scritto e verifica della preparazione separata nei due moduli."
       },
       {
         "id": "anatomia-umana",
-        "label": "Percorso pubblico sviluppato; verifica corrente da terminare",
-        "remaining": "Confrontate 75 voci 2024/25 e obiettivi. Disponibili laboratorio con 11 micrografie, viste regionali, ricostruzioni guidate e prove orali. Catalogo 2026/27: orale. Restano dettaglio analitico e materiali correnti; il campione di immagini non certifica riconoscimento su ogni preparato o preparazione individuale."
+        "label": "Programma 2026/27 recuperato; confronto da completare",
+        "remaining": "Il 5 novembre è stato recuperato il programma analitico 2026/27 di Francesco Girolamo. Il precedente confronto in 75 voci riguarda il 2024/25; non è automaticamente trasferito al nuovo programma. La prova corrente comprende orale e riconoscimento di 15 strutture su una immagine/disegno. Restano confronto analitico corrente, pratica su modelli 3D e prova visuale da 15 strutture."
       },
       {
         "id": "scienze-base",
@@ -10655,7 +10663,7 @@
       {
         "id": "scienze-psicopedagogiche",
         "label": "Materiali ampliati; esame da verificare",
-        "remaining": "47 lezioni complessive. Integrate le due presentazioni di Pedagogia, cinque di Psicologia, otto raccolte neurobiologiche e tre articoli. Il programma Fischetti è privo di anno e contiene annotazioni parzialmente illeggibili; non certifica tutti i capitoli dell’edizione assegnata. Restano monografia di Persano, dettaglio corrente e ulteriori materiali dei quattro moduli."
+        "remaining": "49 lezioni complessive; Psicologia dello sviluppo passa da quattro a sei, con osservazione delle capacità precoci, azione, comunicazione, funzioni esecutive, memoria, credenze e regolazione emotiva. Restano letture specifiche assegnate, monografia di Persano e confronto analitico corrente dei quattro moduli; le fonti storiche non certificano il programma 2026/27."
       },
       {
         "id": "scienze-giuridiche",
@@ -10685,7 +10693,7 @@
       {
         "id": "inglese",
         "label": "Percorso scritto ampliato; verifica corrente da terminare",
-        "remaining": "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
+        "remaining": "Quattordici lezioni, 156 quiz scritti e 8 audio facoltativi preesistenti. Grammatica di supporto, letture graduate, terminologia motoria e produzione scritta con modelli; approfonditi gruppi nominali, relative, quantità, negazioni e connettivi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare. Restano controllo delle produzioni libere e del livello individuale; la simulazione riprende il formato storico e non certifica la prova attuale."
       }
     ]
   },
@@ -11854,19 +11862,16 @@
     }
   ],
   "lastTechnicalVerification": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "status": "passed",
     "contentCheck": true,
-    "unitTests": 55,
-    "generalOfflineBrowser": true,
-    "materialWrongAnswers": 456,
-    "revisedWrongAnswers": 34,
-    "materialLessons": 25,
-    "diagrams": 9,
-    "zoomLightDarkMobile": true,
+    "unitTests": 61,
+    "biologyLessons": 5,
+    "biologyWrongAnswerHelpChecks": 52,
     "print": true,
     "previousProgress": true,
-    "networkRequests": 0
+    "networkRequests": 0,
+    "generalOfflineBrowser": "Pending final packaging check"
   },
   "openstaxFurtherReading": {
     "checked": "2026-10-22",
@@ -11975,5 +11980,68 @@
       "networkRequests": 0,
       "attachmentLinks": 0
     }
-  }
+  },
+  "developmentCognition": {
+    "audit": "development-cognition-audit.json",
+    "units": 2,
+    "sections": 8,
+    "questions": 32,
+    "oral": 2,
+    "diagrams": 1,
+    "currentSyllabusConfirmed": false
+  },
+  "technicalVerificationHistory": [
+    {
+      "date": "2026-11-04",
+      "status": "passed",
+      "contentCheck": true,
+      "unitTests": 55,
+      "generalOfflineBrowser": true,
+      "materialWrongAnswers": 456,
+      "revisedWrongAnswers": 38,
+      "materialLessons": 25,
+      "diagrams": 9,
+      "zoomLightDarkMobile": true,
+      "print": true,
+      "previousProgress": true,
+      "networkRequests": 0
+    },
+    {
+      "date": "2026-11-04",
+      "status": "passed",
+      "contentCheck": true,
+      "unitTests": 57,
+      "generalOfflineBrowser": true,
+      "developmentLessons": 2,
+      "developmentWrongAnswerHelpChecks": 64,
+      "developmentDiagramLightDarkMobile": true,
+      "print": true,
+      "previousProgress": true,
+      "networkRequests": 0
+    },
+    {
+      "date": "2026-11-05",
+      "status": "passed",
+      "contentCheck": true,
+      "unitTests": 59,
+      "englishLessons": 2,
+      "englishWrongAnswerHelpChecks": 80,
+      "englishMockQuestions": 15,
+      "englishMockPersistence": true,
+      "print": true,
+      "previousProgress": true,
+      "networkRequests": 0,
+      "generalOfflineBrowser": "Passed in preceding stage; focused lesson and mock checks in this stage"
+    }
+  ],
+  "englishReadingExpansion": {
+    "audit": "english-reading-audit.json",
+    "units": 2,
+    "sections": 8,
+    "questions": 40,
+    "oral": 2,
+    "originalTexts": 4,
+    "currentSyllabusConfirmed": false
+  },
+  "currentProgrammeAudit": "current-programme-audit.json"
 }

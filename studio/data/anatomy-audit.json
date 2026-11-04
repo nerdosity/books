@@ -3926,5 +3926,11 @@
     ],
     "visualReview": "Schemi delle proiezioni controllati in screenshot chiaro/scuro; nove immagini sorgente aperte e ispezionate; quaderno spaziale stampato in PDF.",
     "limitation": "Controlli tecnici e revisione editoriale; non certificano dettaglio corrente non pubblicato, materiali non disponibili o preparazione individuale."
+  },
+  "currentProgrammeUpdate": {
+    "checked": "2026-11-05",
+    "audit": "current-programme-audit.json",
+    "sourceNowAvailable": true,
+    "note": "Il confronto di questo file resta storico 2024/25. Il 5 novembre è stato recuperato il dettaglio corrente, inclusa prova orale con riconoscimento di 15 strutture. Non trasferire automaticamente le 75 voci storiche al nuovo programma."
   }
 }

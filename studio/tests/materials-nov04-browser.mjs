@@ -9,7 +9,7 @@ await build();
 const read=async n=>JSON.parse(await readFile(new URL('../data/'+n+'.json',import.meta.url),'utf8'));
 const[c,e,a]=await Promise.all(['course','exercises','materials-20261104-audit'].map(read));
 const units=a.additions.unitIds.map(id=>c.units.find(u=>u.id===id));
-const revisedRefs=['neuro-movimento/piano','neuro-movimento/riflessi','neuro-esercizio-dopamina/fatica','neuro-lateralizzazione/split','neuro-lateralizzazione/linguaggio','neuro-memoria/hebb','neuro-organizzazione/corteccia','psico-sonno-stati/sogni'];
+const revisedRefs=['neuro-movimento/piano','neuro-movimento/riflessi','neuro-esercizio-dopamina/fatica','neuro-lateralizzazione/split','neuro-lateralizzazione/linguaggio','neuro-memoria/hebb','neuro-organizzazione/corteccia','psico-sonno-stati/sogni','psico-ricerca-imagery/inferenze'];
 const qs=e.questions.filter(q=>a.additions.questionIds.includes(q.id)&&(!process.env.NOV04_REVIEW_ONLY||revisedRefs.includes(q.help)));
 const url=pathToFileURL(outputFile).href,artifacts=fileURLToPath(new URL('../.local/incoming-nov04/browser/',import.meta.url));await mkdir(artifacts,{recursive:true});
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_EXECUTABLE});

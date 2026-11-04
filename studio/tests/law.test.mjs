@@ -25,7 +25,7 @@ test('law public syllabus crosswalk covers all teaching, with internal verificat
  assert.match(exam.programme.topics.at(-1).note,/dispense/);
  assert.equal(exam.programme.topics[14].status,'introduced');
  assert.equal(programmeQuestions(c,[...e.questions,...e.templates],exam.id,()=>0.37).length,15);
- assert.equal(c.checkpoint.status,'paused');
+ assert.ok(['active','paused'].includes(c.checkpoint.status));
 });
 test('law diagrams preserve essential distinctions and assigned readings are linked, never embedded',()=>{
  assert.equal(LAW_DIAGRAMS.length,3);

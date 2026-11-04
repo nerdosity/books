@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-04",
+  "exam": "inglese",
+  "basis": {
+    "year": "2024/25",
+    "sourceId": "syllabus-english",
+    "currentSyllabusConfirmed": false,
+    "note": "Approfondimento dei prerequisiti A2/B1 e delle richieste esplicite di lettura, traduzione, connettivi, riassunti e scrittura. Nuovi brani ed esercizi originali; titoli delle sezioni e distribuzione della simulazione sono scelte editoriali. Accesso al catalogo corrente non riuscito nel ricontrollo."
+  },
+  "unitIds": [
+    "english-relazioni",
+    "english-letture-integrate"
+  ],
+  "questionIds": [
+    "en-depth-english-relazioni-gruppi-1",
+    "en-depth-english-relazioni-gruppi-2",
+    "en-depth-english-relazioni-gruppi-3",
+    "en-depth-english-relazioni-gruppi-4",
+    "en-depth-english-relazioni-gruppi-5",
+    "en-depth-english-relazioni-riferimenti-1",
+    "en-depth-english-relazioni-riferimenti-2",
+    "en-depth-english-relazioni-riferimenti-3",
+    "en-depth-english-relazioni-riferimenti-4",
+    "en-depth-english-relazioni-riferimenti-5",
+    "en-depth-english-relazioni-quantita-1",
+    "en-depth-english-relazioni-quantita-2",
+    "en-depth-english-relazioni-quantita-3",
+    "en-depth-english-relazioni-quantita-4",
+    "en-depth-english-relazioni-quantita-5",
+    "en-depth-english-relazioni-nessi-1",
+    "en-depth-english-relazioni-nessi-2",
+    "en-depth-english-relazioni-nessi-3",
+    "en-depth-english-relazioni-nessi-4",
+    "en-depth-english-relazioni-nessi-5",
+    "en-depth-english-letture-integrate-avviso-1",
+    "en-depth-english-letture-integrate-avviso-2",
+    "en-depth-english-letture-integrate-avviso-3",
+    "en-depth-english-letture-integrate-avviso-4",
+    "en-depth-english-letture-integrate-avviso-5",
+    "en-depth-english-letture-integrate-anatomia-1",
+    "en-depth-english-letture-integrate-anatomia-2",
+    "en-depth-english-letture-integrate-anatomia-3",
+    "en-depth-english-letture-integrate-anatomia-4",
+    "en-depth-english-letture-integrate-anatomia-5",
+    "en-depth-english-letture-integrate-risultati-1",
+    "en-depth-english-letture-integrate-risultati-2",
+    "en-depth-english-letture-integrate-risultati-3",
+    "en-depth-english-letture-integrate-risultati-4",
+    "en-depth-english-letture-integrate-risultati-5",
+    "en-depth-english-letture-integrate-revisione-1",
+    "en-depth-english-letture-integrate-revisione-2",
+    "en-depth-english-letture-integrate-revisione-3",
+    "en-depth-english-letture-integrate-revisione-4",
+    "en-depth-english-letture-integrate-revisione-5"
+  ],
+  "rows": [
+    {
+      "ref": "english-relazioni/gruppi",
+      "title": "Trovare il centro di un gruppo di parole",
+      "programmeIds": [
+        "inglese-1"
+      ],
+      "mockGroup": "Grammatica",
+      "questionIds": [
+        "en-depth-english-relazioni-gruppi-1",
+        "en-depth-english-relazioni-gruppi-2",
+        "en-depth-english-relazioni-gruppi-3",
+        "en-depth-english-relazioni-gruppi-4",
+        "en-depth-english-relazioni-gruppi-5"
+      ]
+    },
+    {
+      "ref": "english-relazioni/riferimenti",
+      "title": "Pronomi e relative: chi fa che cosa?",
+      "programmeIds": [
+        "inglese-1"
+      ],
+      "mockGroup": "Grammatica",
+      "questionIds": [
+        "en-depth-english-relazioni-riferimenti-1",
+        "en-depth-english-relazioni-riferimenti-2",
+        "en-depth-english-relazioni-riferimenti-3",
+        "en-depth-english-relazioni-riferimenti-4",
+        "en-depth-english-relazioni-riferimenti-5"
+      ]
+    },
+    {
+      "ref": "english-relazioni/quantita",
+      "title": "Tutti, alcuni, nessuno: la negazione cambia il gruppo",
+      "programmeIds": [
+        "inglese-1",
+        "inglese-9"
+      ],
+      "mockGroup": "Grammatica",
+      "questionIds": [
+        "en-depth-english-relazioni-quantita-1",
+        "en-depth-english-relazioni-quantita-2",
+        "en-depth-english-relazioni-quantita-3",
+        "en-depth-english-relazioni-quantita-4",
+        "en-depth-english-relazioni-quantita-5"
+      ]
+    },
+    {
+      "ref": "english-relazioni/nessi",
+      "title": "Causa, contrasto e conseguenza: scegliere anche la struttura",
+      "programmeIds": [
+        "inglese-1",
+        "inglese-10"
+      ],
+      "mockGroup": "Grammatica",
+      "questionIds": [
+        "en-depth-english-relazioni-nessi-1",
+        "en-depth-english-relazioni-nessi-2",
+        "en-depth-english-relazioni-nessi-3",
+        "en-depth-english-relazioni-nessi-4",
+        "en-depth-english-relazioni-nessi-5"
+      ]
+    },
+    {
+      "ref": "english-letture-integrate/avviso",
+      "title": "Lettura 1 — iscrizioni e istruzioni",
+      "programmeIds": [
+        "inglese-4",
+        "inglese-5",
+        "inglese-8"
+      ],
+      "mockGroup": "Comunicazione",
+      "questionIds": [
+        "en-depth-english-letture-integrate-avviso-1",
+        "en-depth-english-letture-integrate-avviso-2",
+        "en-depth-english-letture-integrate-avviso-3",
+        "en-depth-english-letture-integrate-avviso-4",
+        "en-depth-english-letture-integrate-avviso-5"
+      ]
+    },
+    {
+      "ref": "english-letture-integrate/anatomia",
+      "title": "Lettura 2 — strutture, riferimenti e funzioni",
+      "programmeIds": [
+        "inglese-6",
+        "inglese-7"
+      ],
+      "mockGroup": "Anatomia e movimento",
+      "questionIds": [
+        "en-depth-english-letture-integrate-anatomia-1",
+        "en-depth-english-letture-integrate-anatomia-2",
+        "en-depth-english-letture-integrate-anatomia-3",
+        "en-depth-english-letture-integrate-anatomia-4",
+        "en-depth-english-letture-integrate-anatomia-5"
+      ]
+    },
+    {
+      "ref": "english-letture-integrate/risultati",
+      "title": "Lettura 3 — un piccolo resoconto con dati",
+      "programmeIds": [
+        "inglese-8",
+        "inglese-9"
+      ],
+      "mockGroup": "Lettura",
+      "questionIds": [
+        "en-depth-english-letture-integrate-risultati-1",
+        "en-depth-english-letture-integrate-risultati-2",
+        "en-depth-english-letture-integrate-risultati-3",
+        "en-depth-english-letture-integrate-risultati-4",
+        "en-depth-english-letture-integrate-risultati-5"
+      ]
+    },
+    {
+      "ref": "english-letture-integrate/revisione",
+      "title": "Lettura 4 — correggere senza cambiare la notizia",
+      "programmeIds": [
+        "inglese-9",
+        "inglese-10"
+      ],
+      "mockGroup": "Scrittura",
+      "questionIds": [
+        "en-depth-english-letture-integrate-revisione-1",
+        "en-depth-english-letture-integrate-revisione-2",
+        "en-depth-english-letture-integrate-revisione-3",
+        "en-depth-english-letture-integrate-revisione-4",
+        "en-depth-english-letture-integrate-revisione-5"
+      ]
+    }
+  ],
+  "originalTexts": 4,
+  "listeningAdded": false,
+  "checks": {
+    "date": "2026-11-05",
+    "content": true,
+    "tests": 59,
+    "browser": true,
+    "lessons": 2,
+    "wrongAnswerHelpChecks": 80,
+    "print": true,
+    "previousProgress": true,
+    "englishMockQuestions": 15,
+    "englishMockPersistence": true,
+    "networkRequests": 0
+  },
+  "remaining": [
+    "Materiali didattici specifici assegnati non disponibili",
+    "Programma analitico corrente non confermato",
+    "Produzione libera e livello linguistico non certificati dai quiz"
+  ]
+}

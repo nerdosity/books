@@ -1,5 +1,5 @@
 // Original teaching diagrams. No uploaded page or attachment is embedded.
-export const STUDY_DIAGRAMS=['neuro-chiasma','neuro-on-off','neuro-riflesso','neuro-nmda','neuro-dopamina','ricerca-confronti','bio-frazioni','bio-torsione','bio-stereoisomeri'];
+export const STUDY_DIAGRAMS=['neuro-chiasma','neuro-on-off','neuro-riflesso','neuro-nmda','neuro-dopamina','ricerca-confronti','bio-frazioni','bio-torsione','bio-stereoisomeri','sviluppo-credenza'];
 const box=(x,y,w,lines)=>`<rect x="${x}" y="${y}" width="${w}" height="${lines.length*23+20}" rx="9" fill="var(--soft)" stroke="currentColor"/>${lines.map((s,i)=>`<text x="${x+w/2}" y="${y+25+i*23}" text-anchor="middle">${s}</text>`).join('')}`;
 const arrow=(x,y,x2,y2,label='')=>`<path d="M${x} ${y} L${x2} ${y2}" stroke="currentColor" stroke-width="2" fill="none"/><text x="${x2}" y="${y2-5}" text-anchor="middle">↓</text>${label?`<text x="${x+12}" y="${(y+y2)/2}">${label}</text>`:''}`;
 const wrap=(kind,title,h,body,alt,note)=>{
@@ -7,6 +7,16 @@ const wrap=(kind,title,h,body,alt,note)=>{
  return `<figure class="study-diagram" data-study-diagram="${kind}"><figcaption><strong>${title}</strong></figcaption>${svg}<details class="study-zoom"><summary>Ingrandisci schema</summary><div tabindex="0" role="region" aria-label="Schema ingrandito, scorribile orizzontalmente">${svg}</div></details><p>${note}</p></figure>`;
 };
 export function studyDiagramHTML(kind){
+ if(kind==='sviluppo-credenza')return wrap(kind,'Stessa realtà, informazioni diverse',465,
+ box(50,8,360,['Prima: Nora lascia la fascia in A'])+arrow(230,51,230,80)+
+ box(50,85,360,['Poi: Elia la sposta in B'])+
+ arrow(230,128,115,170)+arrow(230,128,345,170)+
+ box(10,175,210,['Caso 1: Nora assente','Non viene informata'])+box(240,175,210,['Caso 2: Nora presente','Vede lo spostamento'])+
+ arrow(115,241,115,280)+arrow(345,241,345,280)+
+ box(10,285,210,['Crede: fascia in A','Cerca prima in A'])+box(240,285,210,['Sa: fascia in B','Cerca prima in B'])+
+ '<text x="230" y="405" text-anchor="middle">In entrambi i casi: fascia realmente in B</text>',
+ 'Nora lascia la fascia in A ed Elia la sposta in B. In una versione Nora è assente e non viene informata: cerca in A. Nella variante vede lo spostamento: cerca in B. In entrambe la posizione reale è B.',
+ 'Due varianti della stessa storia originale: cambia l’accesso di Nora all’informazione. La previsione della ricerca è distinta dalla domanda sulla posizione reale.');
  if(kind==='neuro-chiasma')return wrap(kind,'Un emicampo, due occhi, un emisfero',390,
  box(55,10,350,['Emicampo visivo sinistro'])+arrow(230,55,230,95)+
  box(12,100,210,['Retina nasale','occhio sinistro'])+box(238,100,210,['Retina temporale','occhio destro'])+

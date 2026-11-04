@@ -267,7 +267,8 @@
           "title": "Collegare segnale, recettore e risposta",
           "text": [
             "Una molecola segnale è detta ligando quando si lega a un recettore. Soltanto le cellule con recettori e vie di risposta adatte sono bersagli di quel segnale. Nella comunicazione endocrina il messaggero raggiunge bersagli distanti attraverso il sangue; nella paracrina agisce localmente; nell’autocrina può agire sulla stessa cellula che lo produce. La trasmissione sinaptica concentra invece il segnale in un contatto specializzato.",
-            "I segnali idrofili spesso utilizzano recettori di membrana e intermedi intracellulari, come cAMP o Ca²⁺. Alcuni segnali lipofili raggiungono recettori intracellulari che regolano l’espressione genica. La risposta non dipende soltanto dal nome dell’ormone: conta il tipo di recettore, il tessuto e la situazione. Un segnale può modificare rapidamente un enzima già presente o più lentamente la quantità di una proteina."
+            "I segnali idrofili spesso utilizzano recettori di membrana e intermedi intracellulari, come cAMP o Ca²⁺. Alcuni segnali lipofili raggiungono recettori intracellulari che regolano l’espressione genica. La risposta non dipende soltanto dal nome dell’ormone: conta il tipo di recettore, il tessuto e la situazione. Un segnale può modificare rapidamente un enzima già presente o più lentamente la quantità di una proteina.",
+            "Molti fattori di crescita sono segnali proteici che regolano proliferazione, sopravvivenza o differenziamento. Diversi agiscono tramite recettori con attività tirosin-chinasica: legame del ligando, attivazione del recettore, reclutamento di proteine intracellulari e propagazione del segnale collegano l’ambiente alla risposta. Non tutti i fattori di crescita usano lo stesso recettore, e la risposta dipende dal contesto. Un segnale proliferativo non autorizza a ignorare integrità del DNA, disponibilità di risorse e altri controlli del ciclo."
           ],
           "example": "L’adrenalina nel sangue non induce una risposta identica in ogni tessuto: una cellula risponde attraverso il repertorio di recettori e proteine che possiede.",
           "takeaway": "Segnale presente non significa risposta universale."
@@ -1369,7 +1370,8 @@
           "title": "ATP: trasferire energia utile",
           "text": [
             "L'ATP partecipa all'accoppiamento tra reazioni che liberano energia e processi che ne richiedono. La sua idrolisi può essere accoppiata a trasporto attivo, biosintesi e lavoro meccanico. Dire che rompere un legame libera energia è una scorciatoia fuorviante: rompere un legame richiede energia, mentre il bilancio dell'intera reazione dipende anche dai prodotti e dalle loro interazioni.",
-            "Durante l'attività muscolare l'ATP viene consumato e rigenerato continuamente. Fosfocreatina, glicolisi e metabolismo ossidativo contribuiscono in proporzioni variabili; non sono interruttori esclusivi che si accendono uno dopo l'altro."
+            "Durante l'attività muscolare l'ATP viene consumato e rigenerato continuamente. Fosfocreatina, glicolisi e metabolismo ossidativo contribuiscono in proporzioni variabili; non sono interruttori esclusivi che si accendono uno dopo l'altro.",
+            "Un esperimento può mostrare una concentrazione di ATP quasi costante mentre il muscolo lavora. Questo non dimostra che l’ATP non venga consumato: quando velocità di consumo e rigenerazione sono simili, la quantità presente cambia poco pur essendo elevato il ricambio. Distingui quindi una riserva misurata in un istante da un flusso misurato nell’unità di tempo."
           ],
           "example": "Anche in un'attività breve c'è un contributo ossidativo; cambia il peso relativo dei diversi processi.",
           "takeaway": "L'ATP è continuamente rigenerato e le vie energetiche cooperano."
@@ -1390,7 +1392,8 @@
           "title": "Il ruolo dei mitocondri e dell'ossigeno",
           "text": [
             "Nel metabolismo aerobico il piruvato può essere convertito in acetil-CoA; il ciclo di Krebs produce coenzimi ridotti che alimentano la catena respiratoria. Sulla membrana mitocondriale interna, il trasferimento di elettroni contribuisce a costruire un gradiente protonico.",
-            "L'ATP sintasi usa quel gradiente per sintetizzare ATP. L'ossigeno è l'accettore finale di elettroni della catena respiratoria e viene ridotto ad acqua. Il numero totale di ATP per glucosio dipende dalle condizioni e dai sistemi di trasferimento degli equivalenti riducenti: evitiamo un numero universale rigido."
+            "L'ATP sintasi usa quel gradiente per sintetizzare ATP. L'ossigeno è l'accettore finale di elettroni della catena respiratoria e viene ridotto ad acqua. Il numero totale di ATP per glucosio dipende dalle condizioni e dai sistemi di trasferimento degli equivalenti riducenti: evitiamo un numero universale rigido.",
+            "Il gradiente combina differenza di concentrazione dei protoni e differenza di potenziale elettrico. Nella respirazione mitocondriale i protoni vengono trasferiti dalla matrice verso lo spazio intermembrana; durante la sintesi tornano verso la matrice attraverso l’ATP sintasi. Gli elettroni percorrono la catena fino all’ossigeno: non attraversano l’ATP sintasi al posto dei protoni."
           ],
           "example": "Dire «la glicolisi avviene nei mitocondri» confonde due tappe diverse del metabolismo energetico.",
           "takeaway": "Glicolisi: citosol. Catena respiratoria e ATP sintasi: membrana mitocondriale interna."
@@ -1399,12 +1402,25 @@
       "prerequisites": [
         "enzimi"
       ],
-      "sources": [],
+      "sources": [
+        "os-bio-atp",
+        "bc-central-oxphos"
+      ],
       "openstax": [
         "os-bio-atp",
         "bc-central-glycolysis",
         "bc-central-oxphos"
-      ]
+      ],
+      "oral": {
+        "prompt": "Durante il lavoro muscolare la concentrazione di ATP resta quasi costante. Questo dimostra che il muscolo non lo usa? Collega la risposta alla catena respiratoria e distingui i percorsi di elettroni e protoni.",
+        "answer": "No: una quantità stabile può risultare da consumo e rigenerazione bilanciati. Gli elettroni della catena arrivano all’ossigeno, ridotto ad acqua; il trasferimento contribuisce a pompare protoni dalla matrice allo spazio intermembrana. Il loro ritorno attraverso ATP sintasi permette sintesi di ATP. Glicolisi, fosfocreatina e metabolismo ossidativo possono contribuire contemporaneamente.",
+        "criteria": [
+          "Quantità distinta dal flusso",
+          "Elettroni verso O₂",
+          "Protoni e direzione del gradiente",
+          "Cooperazione delle vie"
+        ]
+      }
     },
     {
       "id": "riserve",
@@ -13374,7 +13390,8 @@
             "La catena respiratoria e l’ATP sintasi sono collegate dal gradiente elettrochimico protonico attraverso la membrana interna. I complessi I, III e IV trasferiscono protoni verso lo spazio intermembrana; il complesso II trasferisce elettroni a Q ma non pompa protoni. Q trasporta equivalenti riducenti nella membrana, mentre citocromo c trasferisce singoli elettroni fra III e IV. O₂ è ridotto ad acqua al IV. L’ATP sintasi comprende una porzione di membrana F₀ e una porzione catalitica F₁: il flusso protonico e la rotazione sono accoppiati a cambiamenti conformazionali che permettono sintesi e rilascio di ATP.",
             "Per interpretare un esperimento misura almeno tre grandezze: consumo di O₂, gradiente e sintesi di ATP. In un modello con substrati, ADP, Pi e ossigeno disponibili, bloccare la catena riduce consumo di O₂ e alimentazione del gradiente, quindi la sintesi ossidativa. Bloccare invece il passaggio attraverso l’ATP sintasi riduce la sintesi ma può inizialmente mantenere un gradiente alto, che frena la catena. La respirazione residua dipende anche dalle perdite protoniche: non è necessariamente zero.",
             "Un disaccoppiamento permette ai protoni di rientrare senza produrre proporzionalmente ATP. Il gradiente si riduce, la resa ATP per ossigeno diminuisce e il consumo di O₂ può aumentare se il sistema dispone di sufficiente combustibile e capacità respiratoria. Non si deve dedurre che ogni disaccoppiante aumenti sempre e senza limite la respirazione in qualunque condizione: qui il confronto assume che la catena sia funzionante e non limitata da altri fattori. Sono esperimenti concettuali, non indicazioni per usare sostanze.",
-            "I rapporti convenzionali 2,5 ATP per NADH e 1,5 per ingresso a Q riassumono il diverso contributo al gradiente e i costi del sistema. Non misurano ATP prodotti direttamente da NADH in una singola reazione. Se O₂ viene consumato ma ATP non aumenta, non puoi concludere che “la respirazione funziona perfettamente”: devi controllare accoppiamento, trasporti e ATP sintasi. Il bilancio di materia, il flusso elettronico e l’efficienza energetica rispondono a domande diverse."
+            "I rapporti convenzionali 2,5 ATP per NADH e 1,5 per ingresso a Q riassumono il diverso contributo al gradiente e i costi del sistema. Non misurano ATP prodotti direttamente da NADH in una singola reazione. Se O₂ viene consumato ma ATP non aumenta, non puoi concludere che “la respirazione funziona perfettamente”: devi controllare accoppiamento, trasporti e ATP sintasi. Il bilancio di materia, il flusso elettronico e l’efficienza energetica rispondono a domande diverse.",
+            "Un esempio fisiologico di disaccoppiamento è la termogenesi associata a UCP1, proteina della membrana interna dei mitocondri degli adipociti bruni. Il ritorno protonico attraverso questa via riduce la quota di energia del gradiente conservata come ATP e favorisce la produzione di calore. Non è il brivido, che coinvolge attività contrattile muscolare, e non è un arresto obbligato della catena respiratoria. La funzione termogenica va distinta da un semplice aumento della resa di ATP: consumare più combustibile non equivale sempre a produrre più ATP per unità di combustibile."
           ],
           "example": "Dati inventati, unità relative: controllo O₂=10 e ATP=25; condizione X O₂=18 e ATP=4. Il rapporto ATP/O₂ passa da 2,5 a circa 0,22: il consumo di ossigeno è aumentato, ma l’accoppiamento apparente è diminuito. Non assegnare automaticamente X a uno specifico composto: il profilo sostiene perdita di efficienza nel modello, da verificare con misure del gradiente.",
           "takeaway": "Ossigeno consumato non equivale ad ATP prodotto: confronta flusso, gradiente ed efficienza.",
@@ -13424,7 +13441,8 @@
         "bc-central-cycle",
         "bc-central-pdh",
         "bc-central-oxphos",
-        "bc-central-regulation"
+        "bc-central-regulation",
+        "bio-ucp1"
       ],
       "openstax": [
         "bc-central-cycle",
@@ -25846,20 +25864,47 @@
             "Gli autori interpretarono l’associazione fra aumento della forza e dei segnali corticali come sostegno a un migliore comando volontario. Meccanismi possibili includono reclutamento di unità motorie, frequenza di scarica e modificazioni dell’inibizione o della coordinazione. Lo studio non misurava direttamente ogni anello di questa catena.",
             "Il MRCP comprende processi di preparazione ed esecuzione e può risentire dell’allineamento temporale delle prove. Durante imagery devono operare anche processi che impediscono la contrazione manifesta. Un aumento del potenziale non localizza senza ambiguità l’adattamento in una sola area né esclude ogni contributo sottocorticale.",
             "La maggiore variazione del mignolo rispetto al gomito veniva discussa in rapporto all’uso quotidiano, alla rappresentazione corticale e alle connessioni discendenti. Sono spiegazioni plausibili da confrontare, non cause isolate sperimentalmente. Anche attività fuori laboratorio, aspettative e differenze iniziali restano limiti.",
-            "La persistenza dopo allenamento suggerisce adattamenti durevoli nelle condizioni studiate; non dimostra un guadagno permanente o “indimenticabile”. Le possibili applicazioni alla riabilitazione e a persone che non possono allenarsi normalmente erano prospettive: il campione era composto da adulti sani. Il lavoro non dimostra che l’immaginazione sostituisca ogni effetto dell’esercizio fisico."
+            "La persistenza dopo allenamento suggerisce adattamenti durevoli nelle condizioni studiate; non dimostra un guadagno permanente o “indimenticabile”. Le possibili applicazioni alla riabilitazione e a persone che non possono allenarsi normalmente erano prospettive: il campione era composto da adulti sani. Il lavoro non dimostra che l’immaginazione sostituisca ogni effetto dell’esercizio fisico.",
+            "Nella discussione gli autori collegano la pratica mentale al problema della debolezza durante immobilità prolungata o disturbi neurologici: se una persona non riesce a produrre molto lavoro muscolare, l’intenzione di agire potrebbe comunque impegnare i circuiti del comando motorio. È il motivo per proporre una ricerca su applicazioni riabilitative, non la dimostrazione che il protocollo funzioni in quelle popolazioni. Il campione sano studiato non permette di stimare direttamente recupero funzionale, autonomia o benefici clinici nei pazienti.",
+            "Il confronto con la constraint-induced movement therapy, o terapia del movimento indotto da vincolo, riguarda la partecipazione attiva al movimento. Nel trattamento richiamato dagli autori si limita l’uso dell’arto meno compromesso e si esercita quello interessato; nell’imagery si immagina invece l’azione senza eseguirla manifestamente. La somiglianza proposta è l’impegno dei processi centrali, non l’identità dei due interventi. Per confrontarne gli effetti servirebbero gruppi, misure e controlli dedicati: uno studio che misura forza del mignolo in adulti sani non prova da solo efficacia riabilitativa dopo una lesione."
           ],
           "example": "Forza e MRCP aumentano insieme: il dato è coerente con un contributo neurale, ma per dimostrare uno specifico meccanismo servirebbero misure o manipolazioni aggiuntive.",
-          "takeaway": "Una spiegazione coerente con i dati non equivale all’isolamento di tutte le cause."
+          "takeaway": "Una spiegazione coerente con i dati non equivale all’isolamento di tutte le cause.",
+          "table": {
+            "headers": [
+              "Passaggio del ragionamento",
+              "Che cosa consente di dire"
+            ],
+            "rows": [
+              [
+                "Risultato osservato",
+                "Variazioni di forza e segnali corticali nei partecipanti e nei compiti studiati."
+              ],
+              [
+                "Interpretazione",
+                "Un contributo del comando volontario è coerente con i dati; ogni meccanismo non è isolato direttamente."
+              ],
+              [
+                "Analogia con la terapia indotta da vincolo",
+                "Entrambe richiedono partecipazione centrale, ma una include azioni reali e l’altra immaginazione."
+              ],
+              [
+                "Ipotesi applicativa",
+                "Studiare benefici in persone con limitazioni motorie; non attribuire loro automaticamente le percentuali dei volontari sani."
+              ]
+            ]
+          }
         }
       ],
       "oral": {
-        "prompt": "Spiega che cosa veniva allenato e confrontato, forza, eeg, emg e volume muscolare, leggere percentuali e confronti. Collega i passaggi, costruisci un esempio e giustifica le distinzioni della lezione.",
-        "answer": "Che cosa veniva allenato e confrontato: Distingui assegnazione casuale fra due gruppi e randomizzazione di tutti i confronti. Se un controllo è reclutato in un momento diverso, differenze iniziali e selezione dei partecipanti possono contribuire al confronto anche quando i due gruppi mentali erano randomizzati.\n\nForza, EEG, EMG e volume muscolare: Ogni strumento misura un livello diverso; verifica anche chi è stato misurato. Un aumento dell’ampiezza EEG non è un aumento del volume muscolare. Un EMG ridotto durante imagery controlla contrazioni manifeste, ma non localizza da solo l’adattamento nel cervello.\n\nLeggere percentuali e confronti: Controlla denominatore, confronto statistico e significato delle barre d’errore. Un grafico con baseline 100 e valore finale 135 indica +35%. Un asterisco riferito alla baseline non dimostra automaticamente una differenza rispetto al controllo.\n\nAdattamento neurale: spiegazione e limiti: Una spiegazione coerente con i dati non equivale all’isolamento di tutte le cause. Forza e MRCP aumentano insieme: il dato è coerente con un contributo neurale, ma per dimostrare uno specifico meccanismo servirebbero misure o manipolazioni aggiuntive.",
+        "prompt": "Ricostruisci protocollo, misure e risultati dello studio sull’allenamento mentale. Distingui miglioramento entro gruppo e confronto con il controllo. Spiega poi perché il richiamo alla terapia del movimento indotto da vincolo suggerisce un’ipotesi applicativa, senza dimostrare l’equivalenza dei due interventi.",
+        "answer": "Che cosa veniva allenato e confrontato: Distingui assegnazione casuale fra due gruppi e randomizzazione di tutti i confronti. Se un controllo è reclutato in un momento diverso, differenze iniziali e selezione dei partecipanti possono contribuire al confronto anche quando i due gruppi mentali erano randomizzati.\n\nForza, EEG, EMG e volume muscolare: Ogni strumento misura un livello diverso; verifica anche chi è stato misurato. Un aumento dell’ampiezza EEG non è un aumento del volume muscolare. Un EMG ridotto durante imagery controlla contrazioni manifeste, ma non localizza da solo l’adattamento nel cervello.\n\nLeggere percentuali e confronti: Controlla denominatore, confronto statistico e significato delle barre d’errore. Un grafico con baseline 100 e valore finale 135 indica +35%. Un asterisco riferito alla baseline non dimostra automaticamente una differenza rispetto al controllo.\n\nAdattamento neurale: spiegazione e limiti: Una spiegazione coerente con i dati non equivale all’isolamento di tutte le cause. Forza e MRCP aumentano insieme: il dato è coerente con un contributo neurale, ma per dimostrare uno specifico meccanismo servirebbero misure o manipolazioni aggiuntive.\n\nApplicazioni proposte: gli autori ipotizzano che l’impegno del comando volontario possa essere utile quando il lavoro muscolare è limitato. Il richiamo alla terapia del movimento indotto da vincolo riguarda la partecipazione attiva: lì si esercita realmente l’arto interessato limitando quello meno compromesso, mentre nell’imagery l’azione è immaginata. L’analogia non dimostra lo stesso effetto; lo studio su adulti sani non misura il recupero dei pazienti. Per quest’ultimo servono verifiche nella popolazione e sugli esiti pertinenti.",
         "criteria": [
           "Definizioni e direzioni corrette",
           "Meccanismo spiegato per passaggi",
           "Esempio coerente",
-          "Limiti delle inferenze espliciti"
+          "Limiti delle inferenze espliciti",
+          "Distinzione fra dato osservato, analogia di meccanismo e ipotesi applicativa"
         ]
       }
     },
@@ -26028,6 +26073,768 @@
           "Meccanismo spiegato per passaggi",
           "Esempio coerente",
           "Limiti delle inferenze espliciti"
+        ]
+      }
+    },
+    {
+      "id": "sviluppo-esplorare",
+      "subject": "sviluppo-psicologico",
+      "title": "Prima delle parole: esplorazione, movimento e rappresentazione",
+      "description": "Come leggere lo sguardo, l’azione e i primi scambi comunicativi senza confondere una prestazione con tutta la competenza.",
+      "minutes": 35,
+      "bookIds": [],
+      "sources": [
+        "dev-motorio-primi-anni",
+        "dev-sensi-primi-anni",
+        "dev-cognizione-primi-anni",
+        "dev-linguaggio-primi-anni"
+      ],
+      "openstax": [
+        "dev-motorio-primi-anni",
+        "dev-sensi-primi-anni",
+        "dev-cognizione-primi-anni",
+        "dev-linguaggio-primi-anni"
+      ],
+      "openstaxNote": "Le letture ampliano le basi. I casi e le spiegazioni necessari agli esercizi sono interamente in questa pagina.",
+      "prerequisites": [
+        "sviluppo-cognitivo",
+        "sviluppo-pensare"
+      ],
+      "objectives": [
+        "Interpretare tempi di sguardo e controlli",
+        "Spiegare l’interazione fra corpo, compito e ambiente",
+        "Distinguere ricerca manuale e rappresentazione",
+        "Riconoscere intenzioni comunicative prima e durante il linguaggio"
+      ],
+      "sections": [
+        {
+          "id": "sguardo",
+          "title": "Studiare chi non può ancora rispondere a parole",
+          "text": [
+            "Una capacità può essere presente prima che il bambino sappia descriverla. Per studiarla occorre una risposta osservabile: direzione e durata dello sguardo, orientamento o azione. L’abituazione è la diminuzione della risposta durante presentazioni ripetute; una ripresa davanti a un cambiamento, detta disabituazione, può indicare discriminazione. Il solo calo non dimostra apprendimento: stanchezza e variazioni di vigilanza sono spiegazioni alternative. Guardare più a lungo non equivale automaticamente a preferire o comprendere meglio.",
+            "Caso originale con dati inventati: uno stimolo A viene osservato per 12, 9, 6 e 4 secondi nelle quattro prove successive. Alla presentazione di B lo sguardo dura 10 secondi. La sequenza è compatibile con abituazione ad A e discriminazione del cambiamento. Tuttavia B potrebbe essere più luminoso, più grande o accompagnato da un suono: non è ancora dimostrato quale caratteristica venga distinta. Per confrontare la forma, rendi comparabili luminosità, dimensioni e modalità di presentazione.",
+            "Una seconda serie usa A anche nella quinta prova e registra 4 secondi. Questo controllo aiuta a distinguere l’effetto del cambiamento da un recupero spontaneo dell’attenzione. In una prova con due immagini, scambiare la posizione destra/sinistra limita la confusione con una preferenza laterale. Se un osservatore codifica il video senza conoscere l’ipotesi, si riduce il rischio che le aspettative influenzino la misura. Sono controlli del nostro esempio sperimentale, non regole per assegnare etichette a un singolo bambino.",
+            "Le capacità sensoriali cambiano: un dettaglio visibile all’adulto può non essere ben distinguibile dal piccolo. Una risposta assente a due immagini quasi identiche non dimostra assenza di memoria se il loro contrasto è inadeguato. La catena da discutere è accesso allo stimolo → elaborazione → risposta misurabile. Modificare uno dei passaggi può modificare la prestazione senza dimostrare un cambiamento generale dell’intelligenza."
+          ],
+          "example": "Con A: 12 → 9 → 6 → 4 s; con B: 10 s. Prima conclusione: risposta al cambiamento. Per attribuirla alla forma occorre controllare le altre proprietà; non basta chiamare B “nuovo”.",
+          "takeaway": "Una misura indiretta sostiene un’inferenza solo insieme a confronti e controlli.",
+          "table": {
+            "headers": [
+              "Osservazione",
+              "Interpretazione da verificare",
+              "Controllo utile"
+            ],
+            "rows": [
+              [
+                "Risposta decrescente ad A",
+                "Abituazione, ma anche affaticamento",
+                "Condizioni e vigilanza comparabili"
+              ],
+              [
+                "Risposta maggiore a B",
+                "Discriminazione di qualche differenza",
+                "Controllare forma, luminosità e suono"
+              ],
+              [
+                "Scelta sempre a destra",
+                "Possibile preferenza di posizione",
+                "Scambiare le posizioni"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "movimento",
+          "title": "Il movimento nasce dall’incontro fra più sistemi",
+          "text": [
+            "Lo sviluppo motorio riguarda sia azioni globali, come mantenere la postura e spostarsi, sia azioni fini, come afferrare e manipolare. Un riflesso è una risposta relativamente automatica evocata da una stimolazione; un’azione organizzata verso uno scopo integra invece più informazioni. La presenza del riflesso di prensione non equivale già alla capacità di scegliere, afferrare e lasciare un oggetto quando richiesto.",
+            "La prospettiva dei sistemi dinamici, associata a Esther Thelen, considera l’interazione fra maturazione, caratteristiche corporee, percezione, esperienza, compito e ambiente. Non basta un unico “interruttore cerebrale” per spiegare un’abilità. Le traiettorie non sono identiche per tutti: una successione frequente non è un percorso obbligatorio in ogni dettaglio. Il cambiamento di una condizione può rendere visibile una possibilità prima non espressa.",
+            "Caso originale: un bambino riesce a spostare un cilindro leggero con due mani ma non un oggetto dello stesso diametro molto più pesante. Il diametro è costante, il carico cambia: la seconda difficoltà non autorizza a concludere che non riconosca la forma. In un altro confronto, lo stesso oggetto viene presentato vicino e poi lontano: cambiano estensione del braccio e controllo posturale. Per capire quale vincolo conta, varia una condizione alla volta e descrivi sia tentativi sia successi.",
+            "Un’attività educativa per bambini già capaci di manipolare può proporre contenitori grandi e oggetti leggeri appropriati all’età, con scopi chiari e supervisione. Nella scheda di osservazione annota posizione iniziale, distanza, materiale, aiuto e azione. Scrivere “ha fatto tre tentativi, ha cambiato presa e ha completato il trasferimento con il contenitore vicino” informa più di “è poco coordinato”. Se la distanza viene poi aumentata, il nuovo risultato va confrontato con quel cambiamento, non letto come una qualità fissa della persona."
+          ],
+          "example": "Stesso oggetto, stessa consegna, distanza diversa: il confronto indaga l’effetto della distanza nelle condizioni osservate. Cambiare contemporaneamente peso, altezza e istruzioni non permette di isolare il vincolo responsabile.",
+          "takeaway": "Le abilità emergono da vincoli che interagiscono; descrivi la situazione oltre al risultato."
+        },
+        {
+          "id": "oggetto",
+          "title": "L’oggetto nascosto: sapere, ricordare e riuscire ad agire",
+          "text": [
+            "La permanenza dell’oggetto riguarda la rappresentazione di qualcosa che continua a esistere quando non è percepito. Cercarlo richiede anche attenzione, memoria della posizione e organizzazione dell’azione. Nell’errore A-non-B il bambino cerca nel luogo A, usato ripetutamente, anche dopo aver visto nascondere l’oggetto in B. La prestazione può risentire dell’abitudine di risposta e dell’intervallo prima della ricerca; non è una misura pura di una sola capacità.",
+            "Caso originale: in quattro prove una pallina viene nascosta sotto il contenitore A e ritrovata. Nella quinta viene collocata sotto B mentre il bambino guarda. Dopo una breve attesa egli torna ad A. Prima di concludere “pensa che l’oggetto non esista”, verifica se ha seguito lo spostamento, se i contenitori sono distinguibili e se riesce a raggiungerli entrambi. La conclusione radicale non segue dall’errore osservato: egli sta comunque cercando un oggetto.",
+            "Un confronto con attesa ridotta aiuta a capire se il ritardo contribuisca; un confronto senza precedenti prove in A aiuta a valutare il ruolo della risposta ripetuta. Nei paradigmi di violazione dell’aspettativa si confronta lo sguardo davanti a eventi fisici diversi: un tempo maggiore davanti a un esito inatteso può offrire informazione su ciò che viene rappresentato. Cercare e guardare impongono richieste diverse; non trattare automaticamente i due risultati come prove equivalenti.",
+            "Nella discussione orale distingui fenomeno, ipotesi e prova. Fenomeno: ricerca in A dopo spostamento visibile in B. Ipotesi: una risposta consolidata o il ricordo della nuova posizione contribuiscono all’errore. Prova proposta: modificare una richiesta mantenendo le altre comparabili. Un successo con attesa breve non dimostra da solo una competenza illimitata, così come un insuccesso non dimostra che la capacità sia totalmente assente. Questa distinzione fra competenza e prestazione vale anche per consegne motorie complesse."
+          ],
+          "example": "Se la ricerca è corretta senza attesa e sbagliata dopo attesa, il risultato rende pertinente il carico di mantenimento dell’informazione. Non dimostra che il bambino abbia cambiato stadio fra due prove.",
+          "takeaway": "Un compito combina rappresentazione, memoria e azione: separa le richieste prima di interpretare l’errore."
+        },
+        {
+          "id": "comunicare",
+          "title": "Dai gesti alle parole: condividere attenzione e significati",
+          "text": [
+            "Comunicazione e linguaggio non coincidono. Uno sguardo alternato fra oggetto e adulto, un gesto o un turno vocale possono contribuire a uno scambio prima delle frasi. Nell’attenzione congiunta due persone coordinano l’attenzione verso uno stesso riferimento: non basta che guardino casualmente lo stesso punto. La lallazione è produzione di sequenze sonore; una sequenza che somiglia a una parola adulta non dimostra ancora uso stabile di quella parola con quel significato.",
+            "Comprensione e produzione possono procedere in modo diverso. Nell’espansione del lessico possono comparire sovraestensioni, come usare un nome per una categoria troppo ampia, e sottoestensioni, come limitarlo a un unico esemplare familiare. Sono fenomeni da osservare nell’uso e nel contesto; la forma pronunciata da sola non racconta tutto il sistema di significati. Una parola può funzionare come un messaggio più ampio, e le combinazioni successive rendono esplicite più relazioni.",
+            "Caso originale: Lea indica un pallone su uno scaffale, guarda l’adulto e tende le mani. Il contesto suggerisce una richiesta di ottenere l’oggetto. In un secondo episodio indica un pallone colorato che sta già tenendo, guarda l’adulto e sorride senza cederlo: può voler condividere interesse. Il primo scopo è detto richiestivo o protoimperativo; il secondo dichiarativo o protodichiarativo. Il medesimo dito teso non identifica da solo l’intenzione: conta la sequenza, e l’interpretazione rimane verificabile attraverso la risposta successiva.",
+            "Supponi poi che Lea chiami “palla” anche un’arancia e una lampada sferica. Puoi ipotizzare una sovraestensione legata alla forma e osservare altri oggetti, senza dedurre incapacità generale di distinguere le categorie. Se indica correttamente la palla fra più oggetti ma usa lo stesso nome per diversi oggetti quando parla, comprensione e produzione danno informazioni differenti. Per sostenere lo scambio l’adulto può nominare e ampliare il messaggio, lasciando un turno di risposta; anticipare sempre ogni richiesta elimina invece occasioni per osservare l’iniziativa."
+          ],
+          "example": "“Palla!” può significare “dammi la palla” o “guarda la palla”. Per distinguerli considera oggetto disponibile, sguardo, mani e risposta all’interlocutore, non soltanto la parola.",
+          "takeaway": "Le prime comunicazioni hanno scopi: interpreta forma, contesto e reciprocità insieme."
+        }
+      ],
+      "oral": {
+        "prompt": "Un piccolo cerca sempre nel primo nascondiglio e usa “palla” per vari oggetti rotondi. Proponi due interpretazioni distinte e un confronto osservabile per ciascuna. Spiega perché i comportamenti non bastano a descrivere tutta la sua competenza.",
+        "answer": "La ricerca nel primo luogo può coinvolgere una risposta ripetuta e il mantenimento della nuova posizione: si confrontano attesa breve e più lunga, controllando che lo spostamento sia visto. “Palla” estesa a oggetti rotondi può indicare sovraestensione lessicale: si confronta la denominazione con una richiesta di riconoscimento fra oggetti. Nel primo caso sono differenti rappresentazione, memoria e azione; nel secondo comprensione, produzione e intenzione. Si descrivono risultati nelle condizioni effettive, senza ricavare una diagnosi o uno stadio generale da due episodi.",
+        "criteria": [
+          "Distinzione fra osservazione e ipotesi",
+          "Controlli di accesso allo stimolo e consegna",
+          "Un confronto pertinente per ciascun episodio",
+          "Separazione fra comprensione e produzione",
+          "Conclusioni proporzionate ai dati"
+        ]
+      }
+    },
+    {
+      "id": "sviluppo-autoregolazione",
+      "subject": "sviluppo-psicologico",
+      "title": "Imparare a regolarsi e capire gli altri",
+      "description": "Funzioni esecutive, strategie di memoria, falsa credenza e regolazione emotiva: modelli applicati a casi educativi.",
+      "minutes": 35,
+      "bookIds": [],
+      "sources": [
+        "dev-diamond-esecutive",
+        "dev-cognizione-scolare",
+        "dev-zpd",
+        "dev-temperamento",
+        "dev-emozioni-scolare"
+      ],
+      "openstax": [
+        "dev-cognizione-scolare",
+        "dev-zpd",
+        "dev-temperamento",
+        "dev-emozioni-scolare"
+      ],
+      "prerequisites": [
+        "sviluppo-pensare",
+        "sviluppo-sociale"
+      ],
+      "objectives": [
+        "Separare memoria di lavoro, inibizione e flessibilità",
+        "Valutare uso autonomo e trasferimento di una strategia",
+        "Ricostruire informazioni e credenze dei personaggi",
+        "Progettare un sostegno alla regolazione osservabile"
+      ],
+      "sections": [
+        {
+          "id": "esecutive",
+          "title": "Tenere la regola, frenare una risposta, cambiare criterio",
+          "text": [
+            "Le funzioni esecutive sostengono il controllo orientato a un obiettivo. La memoria di lavoro mantiene e manipola informazioni; l’inibizione aiuta a resistere a risposte predominanti o distrazioni; la flessibilità permette di cambiare prospettiva o regola. Sono distinte ma collaborano. Un compito che richiede di rispondere al contrario di un segnale combina almeno il ricordo della regola e il controllo della risposta abituale.",
+            "Caso originale di gioco a carte: si raggruppano prima le carte per colore, poi per forma. Un bambino sa ripetere “ora conta la forma” ma continua a seguire il colore. L’errore rende pertinente la difficoltà di cambiare criterio; non dimostra automaticamente che non conosca le forme. Un confronto iniziale senza cambio di regola verifica che sappia raggruppare per forma. Una scheda visibile con la nuova regola riduce la richiesta di mantenerla mentalmente.",
+            "In una seconda attività, “tocca il cono quando vedi un cerchio; resta fermo quando vedi un quadrato”, un errore può essere una risposta quando bisognava fermarsi oppure una mancata risposta quando si doveva agire. Conta separatamente i due esiti. Se aumenti insieme velocità, numero di regole e distrazioni, il peggioramento non identifica una funzione unica. Nell’insegnamento scegli un obiettivo, esplicita la regola, prova la comprensione e aumenta una richiesta alla volta.",
+            "Le funzioni esecutive si sviluppano per un periodo prolungato e la prestazione dipende anche da condizioni come stress e sonno. Migliorare nel gioco praticato non dimostra automaticamente trasferimento a ogni attività. Nel nostro esempio, per valutare il trasferimento prepara un nuovo insieme di carte e una nuova occasione, registra gli aiuti e confronta con la prestazione iniziale. Dire “oggi ha seguito otto cambi su dieci con il cartellino” è più informativo di “ha acquisito autocontrollo completo”."
+          ],
+          "example": "Risposta corretta solo con regola visibile: il supporto ha aiutato nelle condizioni osservate. Per parlare di autonomia riprova senza cartellino, senza cambiare contemporaneamente velocità e difficoltà.",
+          "takeaway": "Una prova esecutiva non misura una sola funzione isolata; aiuti e condizioni fanno parte del risultato.",
+          "table": {
+            "headers": [
+              "Funzione",
+              "Nel gioco a carte",
+              "Errore di interpretazione"
+            ],
+            "rows": [
+              [
+                "Memoria di lavoro",
+                "Mantenere il criterio attuale",
+                "Confondere dimenticanza e ignoranza delle forme"
+              ],
+              [
+                "Inibizione",
+                "Non seguire la risposta prima dominante",
+                "Scambiare ogni errore per disobbedienza"
+              ],
+              [
+                "Flessibilità",
+                "Passare dal colore alla forma",
+                "Pensare che ripetere la regola garantisca applicarla"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "strategie",
+          "title": "Ricordare meglio: strategie e controllo del proprio apprendimento",
+          "text": [
+            "Durante l’età scolare diventano più efficaci strategie come ripetizione, organizzazione in categorie ed elaborazione attraverso collegamenti. La metamemoria è conoscenza del proprio ricordare; la metacognizione comprende più in generale conoscenza e regolazione dei processi cognitivi. Sapere che raggruppare aiuta non garantisce usare la strategia spontaneamente. Occorre distinguere conoscenza, impiego su suggerimento e impiego autonomo.",
+            "Caso originale con sei azioni da ricordare: tre con una palla e tre con un cerchio. La prima volta l’allieva ne ricorda due; dopo che l’educatore suggerisce due gruppi, ne ricorda cinque. Il miglioramento mostra utilità del sostegno in quella prova. Alla seduta successiva, con sei azioni nuove, costruisce da sola i gruppi e ne ricorda quattro: è un indizio di uso autonomo su nuovo materiale. Non si confrontano semplicemente 5 e 4 come se la seconda prestazione fosse per forza peggiore: nella prima era presente un aiuto.",
+            "Riconoscere e rievocare richiedono sostegni diversi. Scegliere le azioni fra immagini include indizi che non esistono nella richiesta “dimmi tutte le azioni”. Per valutare il ricordo dopo un intervallo, dichiara durata, aiuti e materiale. Una prova immediata non dimostra mantenimento dopo una settimana. Se l’allieva ripete esattamente la stessa lista molte volte, un successo successivo può dipendere dalla familiarità con gli elementi oltre che da una strategia generale.",
+            "Autovalutazione originale: prima della prova l’allieva prevede di ricordare tutte e sei le azioni; ne rievoca tre. Lo scarto è tre, ma da un episodio non ricavi una caratteristica permanente. Invitala a confrontare previsione e risultato e a scegliere cosa modificare. Dopo più prove si può osservare se le previsioni diventano più accurate e se cambia la strategia. Lo scopo didattico non è abbassare la fiducia: è collegare fiducia, evidenze e decisioni di studio."
+          ],
+          "example": "Due successi diversi: 5/6 con raggruppamento suggerito; 4/6 su materiale nuovo e senza aiuto. Il secondo documenta maggiore autonomia, pur avendo un conteggio inferiore.",
+          "takeaway": "Misura accuratezza, aiuti, intervallo e trasferimento: un solo punteggio non descrive l’apprendimento."
+        },
+        {
+          "id": "credenze",
+          "title": "Capire che gli altri possono credere qualcosa di diverso",
+          "text": [
+            "La teoria della mente riguarda l’attribuzione di stati mentali, come desideri, conoscenze e credenze, a sé e agli altri. Una credenza può essere falsa rispetto alla realtà e tuttavia guidare l’azione della persona che la possiede. Comprendere questa differenza richiede di separare ciò che sai tu dall’informazione disponibile all’altro. Non significa leggere direttamente i pensieri né essere sempre empatici.",
+            "Storia originale: Nora mette una fascia nella scatola A e lascia la stanza. Mentre è fuori, Elia sposta la fascia nella scatola B. Nora non vede lo spostamento e nessuno la informa. Alla domanda “dove Nora cercherà per prima?”, la previsione basata sulla sua credenza è A. La domanda “dove si trova adesso la fascia?” ha invece risposta B. Le due risposte non si contraddicono: una riguarda una previsione fondata sull’informazione di Nora, l’altra il luogo reale.",
+            "Controlla anche “dove l’aveva lasciata Nora?” e “Nora ha visto lo spostamento?”. Se chi risponde non ricorda la storia o non comprende la domanda, un errore su A/B non isola la difficoltà di rappresentare credenze. In una variante Nora rimane nella stanza e vede tutto: ora può cercare in B. La risposta corretta cambia perché cambia il suo accesso all’informazione, non perché B sia una risposta da imparare a memoria. Questi compiti non sono da soli strumenti per diagnosticare una persona.",
+            "Applicazione originale al gioco di squadra: un compagno segue una vecchia regola perché era assente quando è stata modificata. Prima di attribuirgli intenzione di trasgredire, ricostruisci chi ha ricevuto il messaggio. L’informazione disponibile può spiegare una scelta senza giustificare ogni comportamento. Per educare alla prospettiva altrui fai esplicitare “io so…, lui ha visto…, quindi può pensare…”. La comprensione di credenze si distingue dal giudizio morale: prevedere dove cercherà Nora non stabilisce se Elia abbia agito bene."
+          ],
+          "example": "Stessa realtà finale, B; informazioni diverse: Nora assente cerca plausibilmente in A, Nora presente in B. La variabile decisiva della storia è aver visto lo spostamento.",
+          "takeaway": "Distingui sempre realtà, informazione accessibile e credenza attribuita.",
+          "diagram": "sviluppo-credenza"
+        },
+        {
+          "id": "regolazione",
+          "title": "Temperamento, emozioni e sostegno che diventa autonomia",
+          "text": [
+            "Il temperamento descrive differenze precoci di reattività e regolazione, non il valore o il destino di una persona. Thomas e Chess studiarono dimensioni e profili, mentre Rothbart distingue fra altre componenti affettività negativa, estroversione/attivazione ed effortful control. Quest’ultimo riguarda il controllo attentivo e della risposta. Le dimensioni si combinano: essere molto attivi non significa necessariamente essere incapaci di regolarsi.",
+            "La goodness of fit è la compatibilità fra caratteristiche del bambino e richieste dell’ambiente. Non richiede che bambino e adulto siano identici: suggerisce di adattare il contesto mantenendo occasioni di apprendimento. La regolazione emotiva comprende riconoscere l’emozione e gestire la risposta, anche con aiuto. Crescendo si possono usare strategie più autonome, ma stanchezza, difficoltà e situazione continuano a contare. Regolarsi non significa non provare più paura o rabbia.",
+            "Caso originale: Amir entra volentieri nelle attività note, ma si ritira quando una nuova staffetta viene spiegata davanti a tutti e avviata immediatamente. In una seconda occasione può osservare una prova, scegliere un compagno e conoscere il proprio turno. Partecipa più a lungo. Descrivi il cambiamento del contesto e la risposta, senza trasformare “timido” in spiegazione completa. La novità e il tempo disponibile sono ipotesi da esaminare; non hai dimostrato che un unico fattore abbia causato tutto.",
+            "Caso originale di co-regolazione: dopo un errore Chiara vorrebbe abbandonare il gioco. L’educatore riconosce la frustrazione, ricorda una strategia concordata e offre una pausa breve prima della ripresa. Nella seduta successiva Chiara chiede da sola la pausa e rientra. Il passaggio verso autonomia riguarda l’uso della strategia, non l’assenza di emozione. Per verificarlo registra chi ha proposto la pausa, durata e ritorno all’attività; restare immobile e silenziosa non basta a dimostrare benessere o regolazione riuscita.",
+            "Una restituzione educativa precisa distingue il vissuto possibile dall’azione osservata: “dopo l’errore ha chiesto una pausa e poi ha ripreso” non afferma di conoscere ogni emozione interna. Collega osservazione, sostegno e nuova prova. Evita confronti umilianti fra bambini: l’obiettivo è costruire possibilità di partecipazione e strategie utilizzabili, non imporre a tutti un’identica espressione emotiva."
+          ],
+          "example": "Partecipare dopo un’anticipazione della sequenza sostiene l’utilità di quell’aiuto. Per valutarne l’autonomia, osserva gradualmente una situazione analoga con meno sostegno e registra cosa cambia.",
+          "takeaway": "Il contesto può facilitare la regolazione; sostegno efficace e autonomia sono risultati da distinguere."
+        }
+      ],
+      "oral": {
+        "prompt": "Una bambina conosce una nuova regola ma continua ad applicare la precedente; inoltre ricorda le consegne soltanto con immagini. Progetta due confronti per capire le richieste del compito. Poi usa la storia di Nora per distinguere credenza e realtà e proponi un criterio osservabile di co-regolazione.",
+        "answer": "Per il cambio di regola verifico prima che sappia applicare la nuova regola senza un cambio, poi confronto con e senza promemoria mantenendo costante il ritmo. Per il ricordo confronto riconoscimento con immagini e rievocazione senza indizi, specificando l’intervallo: prestazioni diverse non misurano la stessa richiesta. Nora assente non sa dello spostamento, dunque cerca in A benché l’oggetto sia in B; se ha visto lo spostamento, la previsione diventa B. Controllo memoria della storia e accesso all’informazione. Per la co-regolazione registro l’aiuto dell’adulto e la successiva ripresa; autonomia significa poi iniziativa e uso della strategia senza lo stesso suggerimento, non assenza di emozioni.",
+        "criteria": [
+          "Distinzione fra funzioni coinvolte",
+          "Confronti con una richiesta variata alla volta",
+          "Controllo degli indizi nel ricordo",
+          "Credenza separata dal luogo reale",
+          "Indicatore osservabile di aiuto e autonomia"
+        ]
+      }
+    },
+    {
+      "id": "english-relazioni",
+      "subject": "inglese",
+      "title": "Capire le frasi lunghe: riferimenti, quantità e collegamenti",
+      "description": "Leggere per gruppi di significato e preservare chi, quanti, quando e perché. Ripasso scritto con esempi tradotti.",
+      "minutes": 35,
+      "bookIds": [],
+      "sources": [
+        "en-noun-groups",
+        "en-none",
+        "en-relative",
+        "en-contrast"
+      ],
+      "prerequisites": [
+        "english-frase",
+        "english-tempi"
+      ],
+      "objectives": [
+        "Individuare il nome principale nei gruppi nominali",
+        "Ricostruire il referente di pronomi e relative",
+        "Conservare quantità e portata della negazione",
+        "Collegare causa, contrasto e conseguenza senza cambiarli"
+      ],
+      "sections": [
+        {
+          "id": "gruppi",
+          "title": "Trovare il centro di un gruppo di parole",
+          "text": [
+            "Un gruppo nominale ruota attorno a un nome principale: gli altri elementi lo precisano. Prima possono comparire determinante, aggettivi e nomi usati come modificatori. Dopo possono comparire una preposizione con il suo gruppo o una relativa. In “the new training room”, il centro è room: parliamo di una sala, destinata all’allenamento e nuova. Non cerchiamo un verbo soltanto perché training termina in -ing.",
+            "Leggi l’esempio originale “The results of the written test are available”. Il soggetto principale è results, plurale; of the written test precisa quali risultati. Are concorda con results, non con test, che è più vicino al verbo ma appartiene al gruppo introdotto da of. Traduzione: i risultati della prova scritta sono disponibili. Per controllare, togli temporaneamente la specificazione: “The results are available”. Poi reinseriscila per non perdere informazione.",
+            "Confronta “a muscle strength test” e “a test of muscle strength”: entrambe possono descrivere un test di forza muscolare. Nel primo gruppo, test è il nome centrale, muscle strength lo specifica. In “the room near the stairs”, room resta il centro; near the stairs dice quale o dove. L’ordine inglese può richiedere in italiano una preposizione: tradurre parola per parola “muscolo forza test” non ricostruisce il significato.",
+            "Ora analizza “The new instructions for the two machines were checked yesterday”. Instructions è soggetto plurale; for the two machines identifica i destinatari delle istruzioni; were checked è il passivo al passato; yesterday colloca il controllo. Traduzione: le nuove istruzioni per i due macchinari sono state controllate ieri. Il testo non dice chi le abbia controllate: non aggiungere un tecnico o una docente solo perché sembrerebbe plausibile.",
+            "Procedura di recupero: individua il verbo che regge la frase, cerca il suo soggetto, metti tra parentesi le specificazioni, traduci il nucleo e recupera i dettagli. Non cancellare definitivamente negazioni, quantità o relative: isolare il nucleo serve a orientarsi, non a fare una sintesi che elimini informazioni richieste dalla domanda."
+          ],
+          "example": "“The list of exercises is short”: list è singolare, exercises appartiene alla specificazione. Traduci “l’elenco degli esercizi è breve”; non “gli esercizi sono brevi”, che cambia ciò che è descritto.",
+          "takeaway": "L’accordo segue il centro del soggetto, non necessariamente il nome più vicino al verbo.",
+          "table": {
+            "headers": [
+              "Gruppo",
+              "Nome centrale",
+              "Resa italiana"
+            ],
+            "rows": [
+              [
+                "the new training room",
+                "room",
+                "la nuova sala di allenamento"
+              ],
+              [
+                "a muscle strength test",
+                "test",
+                "un test di forza muscolare"
+              ],
+              [
+                "the results of the written test",
+                "results",
+                "i risultati della prova scritta"
+              ],
+              [
+                "the list of exercises",
+                "list",
+                "l’elenco degli esercizi"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "riferimenti",
+          "title": "Pronomi e relative: chi fa che cosa?",
+          "text": [
+            "Una relativa specifica un nome: who per persone, which per cose e that in molte relative determinative per entrambi. Whose esprime una relazione di possesso, where introduce un luogo. In “the participant whose form is missing”, manca il modulo del partecipante; non è necessariamente il partecipante a essere assente. La relativa determinativa serve a identificare il referente e normalmente non viene separata da virgole.",
+            "Il pronome relativo può svolgere ruoli diversi. In “the tutor who checked the form”, who è soggetto di checked e non si elimina. In “the form that the tutor checked”, that è oggetto: la relativa ha già il soggetto the tutor, e si può dire “the form the tutor checked”. Non aggiungere un secondo oggetto: “the form that the tutor checked it” duplica il ruolo di the form.",
+            "Esempi originali a confronto: “The coach helps the athletes who are waiting” significa che gli atleti aspettano; “The coach who is waiting helps the athletes” significa che aspetta la coach. Segui il nome a cui è legata la relativa. In “The room where we meet is upstairs”, incontrarsi avviene nella sala; il verbo principale è is. Where non sostituisce un soggetto umano e non significa automaticamente quando.",
+            "Nei testi scientifici it, they, these e those evitano ripetizioni, ma occorre ricostruirne il riferimento. “The researchers checked the forms. They then stored them”: they indica i ricercatori, them i moduli, secondo le azioni descritte. Il nome più vicino non è sempre la soluzione. “The trainer spoke to the athlete because she was worried” lascia invece aperto chi fosse preoccupata: senza altro contesto non si deve inventare una certezza.",
+            "Per chiarire una tua frase ambigua, ripeti il nome pertinente: “The trainer was worried, so she spoke to the athlete”. Per leggere una frase altrui, puoi annotare due interpretazioni se il testo non decide fra loro. Nei quiz qui presenti il contesto permette la risposta richiesta; questa abitudine ti aiuta anche a riconoscere quando una domanda reale richiede informazioni che il brano non fornisce."
+          ],
+          "example": "“The forms the tutor collected are on the desk”: i moduli che il tutor ha raccolto sono sulla scrivania. The tutor è il soggetto della relativa; forms è il soggetto plurale di are.",
+          "takeaway": "Ricostruisci due strutture quando c’è una relativa: la frase principale e quella che descrive il nome."
+        },
+        {
+          "id": "quantita",
+          "title": "Tutti, alcuni, nessuno: la negazione cambia il gruppo",
+          "text": [
+            "All indica tutti; none nessuno del gruppo considerato; not all nega che la proprietà valga per tutti. “Not all participants replied” significa che almeno un partecipante non ha risposto. Da sola non dà il numero di risposte e non equivale a “none replied”: non autorizza a sostituire una quantità non specificata con zero, né a ricavare una percentuale. “Only eight replied” fornisce invece un numero.",
+            "Confronto originale su un gruppo dichiarato di dodici persone: “All twelve replied” indica dodici risposte; “None of the twelve replied” zero; “Not all twelve replied” esclude dodici, ma non stabilisce quanti abbiano risposto. Nella conversazione non tutti può suggerire alcuni sì e alcuni no; in una domanda sui dati, usa soltanto ciò che è affermato o confermato dal resto del testo.",
+            "Both riguarda entrambi quando gli elementi sono due; neither esclude entrambi. “Both sessions were cancelled” dice che le due sedute sono annullate; “Neither session was cancelled” che nessuna delle due lo è. Non confondere neither con not both: “Not both sessions were cancelled” esclude l’annullamento di entrambe, ma lascia aperto se ne sia stata annullata una o nessuna. La posizione della negazione fa parte dell’informazione.",
+            "At least significa almeno e include il limite inferiore; at most significa al massimo e include il limite superiore. “At least three sessions” permette tre o più sedute; “at most three” tre o meno. “More than three” esclude tre. Less e fewer indicano meno: fewer si usa normalmente con nomi numerabili plurali nello scritto sorvegliato, less con quantità non numerabili; “fewer sessions”, “less time”.",
+            "Only restringe l’elemento a cui si applica. “Only the morning group received the form” esclude gli altri gruppi dalla ricezione descritta; non dice quante persone compongano il gruppo mattutino. “The morning group received only the form” restringe invece ciò che ha ricevuto. Nella traduzione conserva la posizione logica di soltanto. Se il testo dice “some”, non aumentarlo a “most” o “all” per rendere la frase più convincente."
+          ],
+          "example": "Su dodici iscritti, “not all returned” non fornisce il tasso di ritorno. “Eight of the twelve returned” lo rende calcolabile: 8/12, circa due terzi.",
+          "takeaway": "Il gruppo di riferimento e la portata della negazione vengono prima del calcolo.",
+          "table": {
+            "headers": [
+              "Espressione",
+              "Informazione minima",
+              "Da non aggiungere"
+            ],
+            "rows": [
+              [
+                "not all twelve",
+                "non tutti e dodici",
+                "un numero esatto di risposte"
+              ],
+              [
+                "none of the twelve",
+                "zero fra i dodici",
+                "una conclusione su persone esterne"
+              ],
+              [
+                "at least three",
+                "tre o più",
+                "esattamente tre"
+              ],
+              [
+                "at most three",
+                "tre o meno",
+                "più di tre"
+              ],
+              [
+                "both",
+                "entrambi i due elementi",
+                "tutti i membri di qualunque gruppo"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "nessi",
+          "title": "Causa, contrasto e conseguenza: scegliere anche la struttura",
+          "text": [
+            "Un connettivo dice come mettere in relazione due informazioni. Because introduce una causa espressa con soggetto e verbo; because of è seguito da un nome o gruppo nominale. Esempi originali: “The session was moved because the room was closed”; “The session was moved because of the closure”. Entrambi spiegano lo spostamento, ma la costruzione grammaticale dopo il connettivo cambia.",
+            "Although introduce normalmente una frase con soggetto e verbo; despite e in spite of precedono un nome, pronome o forma in -ing. “Although the room was small, the group could work there”; “Despite the limited space, the group could work there”. Significano che la limitazione non ha impedito il lavoro. Non aggiungere of dopo despite; non costruire “despite the room was small”. È possibile “despite the fact that the room was small”, perché the fact introduce un gruppo seguito dalla frase.",
+            "However collega un contrasto fra enunciati: “The room was small. However, it was available”. In questa struttura non sostituisce although senza cambiare punteggiatura e organizzazione. Therefore e as a result introducono una conseguenza: “The room was closed. Therefore, the session was moved”. Un contrasto e una causa non sono sinonimi: una frase corretta grammaticalmente può comunque deformare la relazione espressa nell’originale.",
+            "Coppia originale: “Although the instructions were clear, some participants asked questions” ammette chiarezza e domande insieme; “Because the instructions were unclear, some participants asked questions” presenta la scarsa chiarezza come causa. Tradurre entrambe con “hanno chiesto perché non capivano” aggiunge un’informazione non presente nella prima. Mantieni anche il quantificatore some: non tutti hanno necessariamente chiesto.",
+            "Per scrivere, scegli prima il rapporto fra le idee, poi la costruzione. Se hai “the delay”, puoi usare because of per una causa o despite per un ostacolo superato; non sono intercambiabili solo perché entrambi accettano un nome. Se hai “the train was late”, occorre una struttura con soggetto e verbo, per esempio because oppure although, secondo ciò che vuoi dire. Infine controlla che il resto della frase renda coerente la scelta."
+          ],
+          "example": "“Despite the change, the session started on time” = nonostante il cambiamento, la seduta è iniziata puntuale. “Because of the change…” attribuisce invece al cambiamento il risultato: non è la stessa informazione.",
+          "takeaway": "Controlla due cose separate: relazione logica e forma grammaticale dopo il connettivo.",
+          "table": {
+            "headers": [
+              "Relazione",
+              "Costruzione",
+              "Esempio originale"
+            ],
+            "rows": [
+              [
+                "Causa",
+                "because + soggetto e verbo",
+                "because the room was closed"
+              ],
+              [
+                "Causa",
+                "because of + gruppo nominale",
+                "because of the closure"
+              ],
+              [
+                "Contrasto concessivo",
+                "although + soggetto e verbo",
+                "although the room was small"
+              ],
+              [
+                "Contrasto concessivo",
+                "despite + gruppo nominale",
+                "despite the limited space"
+              ],
+              [
+                "Conseguenza",
+                "therefore fra enunciati",
+                "The room was closed. Therefore, we moved."
+              ]
+            ]
+          }
+        }
+      ],
+      "oral": {
+        "prompt": "Traduci e analizza: “The forms that the tutor checked are on the desk, although not all participants have signed them.” Individua soggetto principale, relativa, referente di them e portata della negazione. Poi riscrivi la frase senza il pronome relativo dove è possibile.",
+        "answer": "“I moduli che il tutor ha controllato sono sulla scrivania, sebbene non tutti i partecipanti li abbiano firmati.” Forms è il soggetto principale e are concorda al plurale; the tutor è il soggetto della relativa, that ne è l’oggetto e può essere omesso: “The forms the tutor checked are on the desk, although not all participants have signed them.” Them indica i moduli. Not all non fornisce il numero di firme e non equivale a nessuno. Il past simple checked presenta il controllo come evento passato; il present perfect have signed collega le firme alla situazione presente. Altre traduzioni italiane equivalenti sono possibili.",
+        "criteria": [
+          "Forms riconosciuto come soggetto principale",
+          "Ruoli della relativa distinti",
+          "Them riferito ai moduli",
+          "Non tutti conservato senza un numero inventato",
+          "Omissione del solo relativo oggetto"
+        ]
+      }
+    },
+    {
+      "id": "english-letture-integrate",
+      "subject": "inglese",
+      "title": "Quattro letture graduate: dall’avviso al resoconto scientifico",
+      "description": "Testi originali, traduzioni guidate e revisioni: riconoscere informazioni esplicite, inferenze e significati da conservare.",
+      "minutes": 40,
+      "bookIds": [],
+      "sources": [
+        "syllabus-english",
+        "en-relative",
+        "en-contrast",
+        "en-bones",
+        "en-muscles",
+        "en-paragraphs"
+      ],
+      "prerequisites": [
+        "english-relazioni",
+        "english-communication",
+        "english-movement",
+        "english-evidence",
+        "english-revision"
+      ],
+      "objectives": [
+        "Ricavare regole e condizioni da un avviso",
+        "Seguire riferimenti e funzioni nel lessico anatomico",
+        "Conservare campione, tempi e limiti di un resoconto",
+        "Revisionare un riassunto senza alterare i dati"
+      ],
+      "sections": [
+        {
+          "id": "avviso",
+          "title": "Lettura 1 — iscrizioni e istruzioni",
+          "text": [
+            "Testo originale per esercizio: “The movement workshop is open to adults who have booked a place. The introductory meeting will take place in room B on Tuesday at 18:00. Participants do not have to bring a printed copy of the notes, because a digital version will be available. Those who need a paper copy should contact the tutor before Monday. The practical meeting has been moved to Friday. Not all registered participants have confirmed that they can attend on the new date.”",
+            "Traduzione guidata: il laboratorio sul movimento è aperto agli adulti che hanno prenotato un posto. L’incontro introduttivo si terrà in aula B martedì alle 18. Non è necessario portare una copia stampata degli appunti, perché sarà disponibile una versione digitale. Chi ha bisogno di carta dovrebbe contattare il tutor prima di lunedì. L’incontro pratico è stato spostato a venerdì. Non tutti gli iscritti hanno confermato di poter partecipare nella nuova data.",
+            "Leggi prima la funzione dell’avviso: accesso, appuntamento, materiali e variazione. Who have booked identifica gli adulti a cui si rivolge l’accesso descritto; il testo non annuncia un incontro aperto indiscriminatamente a chiunque. Those riprende le persone che necessitano della copia cartacea. Do not have to esprime assenza di obbligo, non divieto: portare una stampa non è proibito da questa frase.",
+            "Se la domanda chiede l’orario, trova at 18:00; se chiede il termine per la richiesta cartacea, trova before Monday. Non confondere il termine con il giorno dell’incontro. Il venerdì riguarda l’incontro pratico, mentre l’introduzione resta indicata il martedì. Has been moved è un passivo: segnala uno spostamento effettuato, senza specificare qui chi lo abbia deciso.",
+            "Un dato manca: quante persone abbiano confermato. Non tutti permette di escludere la conferma completa ma non fornisce il totale degli iscritti né dei confermati. Anche l’ora del venerdì non è indicata: trasferire automaticamente le 18 dal martedì alla pratica sarebbe un’aggiunta. Una buona risposta può essere “The time of the practical meeting is not stated”."
+          ],
+          "example": "Scheda di lettura: introduzione = martedì, aula B, ore 18; pratica = venerdì, ora non indicata; stampa personale = facoltativa; richiesta copia = prima di lunedì.",
+          "takeaway": "Associa ogni data e condizione all’evento corretto; non riempire i vuoti con dettagli plausibili."
+        },
+        {
+          "id": "anatomia",
+          "title": "Lettura 2 — strutture, riferimenti e funzioni",
+          "text": [
+            "Testo originale per esercizio: “The diagram shows two bones at a joint. A ligament links one bone to the other and helps to stabilise the joint. A tendon connects a skeletal muscle to a bone. When the muscle develops tension, it can transmit force through the tendon. This description does not mean that every active muscle becomes shorter. Depending on the task, an active muscle may shorten, remain approximately the same length or lengthen. The labels identify structures; they do not measure the force produced during a movement.”",
+            "Traduzione guidata: il disegno mostra due ossa presso un’articolazione. Un legamento collega un osso all’altro e contribuisce a stabilizzare l’articolazione. Un tendine collega un muscolo scheletrico a un osso. Quando il muscolo sviluppa tensione può trasmettere forza attraverso il tendine. Questo non significa che ogni muscolo attivo si accorci. Secondo il compito, un muscolo attivo può accorciarsi, mantenere approssimativamente la stessa lunghezza oppure allungarsi. Le etichette identificano strutture, non misurano la forza durante il movimento.",
+            "La lettura distingue ligament e tendon attraverso le relazioni descritte, non soltanto la somiglianza delle parole italiane. One bone to the other usa other per l’altro dei due elementi già introdotti. It nella frase sulla trasmissione riprende the muscle; through the tendon indica il percorso della forza. La parola can esprime una possibilità funzionale, non un numero e non l’intensità della forza.",
+            "Controlla gli avverbi: approximately modifica the same length e impedisce di trasformare una descrizione approssimata in identità assoluta. Depending on the task lega l’esito al compito. La sequenza shorten/remain/lengthen elenca possibilità diverse; non dice che avvengano tutte contemporaneamente nello stesso muscolo. La terminologia delle azioni muscolari è spiegata anche nella lezione di anatomia in inglese che precede questa.",
+            "Una domanda sul testo si risolve con ciò che è scritto. “What do the labels show?” richiede strutture; “How much force is produced?” non ha un valore disponibile. Non rispondere con un numero ricavato dalla memoria di un’altra lezione. Nella sintesi conserva la distinzione struttura/funzione/misura: il disegno orienta l’identificazione, mentre una quantità di forza richiederebbe dati o misure che qui non sono forniti."
+          ],
+          "example": "“The labels identify structures; they do not measure force”: they riprende labels. Traduci “le etichette identificano strutture; non misurano la forza”, senza attribuire la seconda azione alle ossa.",
+          "takeaway": "Riferimenti e verbi aiutano a distinguere anatomia descritta, funzione possibile e quantità non misurata."
+        },
+        {
+          "id": "risultati",
+          "title": "Lettura 3 — un piccolo resoconto con dati",
+          "text": [
+            "Testo e dati inventati per esercizio: “Forty students enrolled in a four-week vocabulary course. Thirty-two completed both the initial and final tests. Among these completers, the mean score rose from 12 to 15 points out of 20. No comparison group was included. Although the final mean was higher, the results do not show that every student improved. The researchers did not collect a test one month later, so long-term retention remains unknown. They plan to use a comparison group in a future study.”",
+            "Traduzione guidata: quaranta studenti si sono iscritti a un corso di lessico di quattro settimane; trentadue hanno completato sia la prova iniziale sia quella finale. Fra questi, il punteggio medio è salito da 12 a 15 su 20. Non è stato incluso un gruppo di confronto. Sebbene la media finale fosse maggiore, i risultati non mostrano che ogni studente sia migliorato. Non è stata raccolta una prova un mese dopo, quindi il mantenimento a lungo termine rimane ignoto. È previsto un gruppo di confronto in uno studio futuro.",
+            "Enrolled identifica gli iscritti; completers chi ha completato entrambe le prove. Among these completers limita il calcolo della media ai trentadue, non a tutti i quaranta. La differenza fra le medie è 15 − 12 = 3 punti su una scala di 20, non un guadagno di 15 punti e non la prova che ciascuno abbia guadagnato esattamente tre punti. Le variazioni individuali non sono fornite.",
+            "La quota con entrambe le prove è 32/40 = 80%. Non significa che l’80% sia migliorato: il numeratore conta partecipazioni a due test. Il punteggio medio passa dal 60% al 75% del massimo possibile: la differenza è 15 punti percentuali; rapportata al punteggio iniziale, la variazione relativa è 3/12 = 25%. La frase richiesta decide quale grandezza riportare; non mescolare percentuali di completamento e punteggio.",
+            "La forma did not collect nega la misura successiva, non dimostra perdita del ricordo. Remains unknown significa che non è noto. Plan to descrive un’intenzione futura, non corregge retroattivamente l’assenza del controllo nello studio già svolto. Nella conclusione distingui osservazione e causalità: senza un confronto adatto non si attribuisce con certezza tutta la variazione al corso. Il testo non dice neppure che il corso sia inutile."
+          ],
+          "example": "Riassunto fedele: “Among 32 completers, the mean score increased by three points. The study had no comparison group and did not assess retention one month later.” Conserva popolazione analizzata, misura e limiti.",
+          "takeaway": "Prima del numero identifica persone, momento e variabile a cui si riferisce.",
+          "table": {
+            "headers": [
+              "Dato",
+              "Calcolo o significato",
+              "Non equivale a"
+            ],
+            "rows": [
+              [
+                "32 su 40",
+                "80% ha completato due prove",
+                "80% è migliorato"
+              ],
+              [
+                "12 → 15 su 20",
+                "+3 punti sulla scala",
+                "+15 punti"
+              ],
+              [
+                "60% → 75% del massimo",
+                "+15 punti percentuali",
+                "+15% relativo"
+              ],
+              [
+                "3/12",
+                "25% relativo al punteggio iniziale",
+                "25% degli iscritti"
+              ],
+              [
+                "Nessun test a un mese",
+                "Mantenimento non misurato",
+                "Mantenimento sicuramente assente"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "revisione",
+          "title": "Lettura 4 — correggere senza cambiare la notizia",
+          "text": [
+            "Situazione originale: “Two groups attended a workshop. Group A received the instructions in advance; group B received them at the start. Staff counted clarification questions during the first ten minutes. Group A asked fewer questions, but the groups had different numbers of participants. Staff did not record whether the participants had attended similar workshops before.” Il resoconto descrive due gruppi, tempi diversi di consegna, domande nei primi dieci minuti e informazioni mancanti.",
+            "Traduzione guidata: due gruppi hanno partecipato a un laboratorio. A ha ricevuto le istruzioni in anticipo, B all’inizio. Lo staff ha contato le richieste di chiarimento nei primi dieci minuti. A ne ha fatte meno, ma i gruppi avevano numerosità diverse; non è stato registrato se i partecipanti avessero esperienze di laboratori simili. Received in advance non significa che il gruppo A abbia svolto più sedute.",
+            "Bozza volutamente errata: “Group A ask less questions because every participant understood everything. Both groups were the same size. The study proves that advance instructions always improve learning.” Correzione del significato: non sappiamo che tutti abbiano compreso tutto; i gruppi erano di dimensioni diverse; il conteggio di domande non equivale a una misura completa di apprendimento; always e proves eccedono l’evidenza descritta.",
+            "Correzione della forma: per l’evento passato usa asked; nello scritto sorvegliato fewer accompagna questions, numerabile plurale. Una versione fedele è: “Group A received the instructions in advance and asked fewer clarification questions during the first ten minutes. However, the groups differed in size, and previous experience was not recorded. The observation alone does not establish that advance instructions improved learning.” Il modello conserva osservazione e limiti senza introdurre un nesso causale certo.",
+            "Per esercitarti senza riconoscere soltanto opzioni, chiudi il modello e scrivi 40–60 parole. Devi conservare cinque elementi: anticipo per A, conteggio delle domande, periodo di osservazione, numerosità diversa, esperienza precedente non registrata. Poi controlla prima i fatti, dopo verbi, quantificatori e connettivi. Il limite di parole è una consegna interna di allenamento, non una regola ufficiale dell’esame. Un testo diverso dal modello può essere corretto se rispetta i criteri."
+          ],
+          "example": "Da “A asked fewer questions” non segue “A learned more”. Per confrontare i conteggi serve conoscere la numerosità; per parlare di apprendimento servono anche misure pertinenti, non soltanto il numero di domande.",
+          "takeaway": "Revisiona in due passaggi: fedeltà dei fatti e correttezza della lingua."
+        }
+      ],
+      "oral": {
+        "prompt": "Senza copiare i modelli, scrivi due risposte: (1) un messaggio di 35–50 parole che chiarisca giorno e materiali del laboratorio della prima lettura; (2) una sintesi di 40–60 parole dello studio sul lessico. Includi almeno un limite e non inventare dati.",
+        "answer": "Modello 1: “The introductory meeting is in room B on Tuesday at 18:00. You do not have to bring printed notes. If you need a paper copy, contact the tutor before Monday. The practical meeting has moved to Friday, but its time is not stated.” Modello 2: “Forty students enrolled in a four-week vocabulary course, and 32 completed both tests. Among completers, the mean score rose from 12 to 15 out of 20. However, there was no comparison group, and retention one month later was not assessed. These observations do not establish that every student improved.” Controlla contenuto e poi lingua; altre formulazioni equivalenti sono possibili.",
+        "criteria": [
+          "Date e obblighi riferiti all’evento corretto",
+          "Iscritti e completers distinti",
+          "Variazione espressa con scala corretta",
+          "Limite del confronto e del follow-up mantenuto",
+          "Nessuna causalità o universalità aggiunta",
+          "Frasi e riferimenti comprensibili"
+        ]
+      }
+    },
+    {
+      "id": "cellula-adesione",
+      "subject": "biologia",
+      "title": "Cellule che fanno tessuto: matrice, adesione e giunzioni",
+      "description": "Seguire i collegamenti fra ambiente esterno, membrana e citoscheletro.",
+      "minutes": 22,
+      "bookIds": [],
+      "prerequisites": [
+        "cellula",
+        "cellula-strutture"
+      ],
+      "sources": [
+        "bio-matrice-os",
+        "bio-giunzioni-vigo"
+      ],
+      "openstax": [
+        "bio-matrice-os"
+      ],
+      "objectives": [
+        "Distinguere matrice extracellulare e citoscheletro",
+        "Confrontare adesione cellula-cellula e cellula-matrice",
+        "Separare barriera, resistenza meccanica e comunicazione"
+      ],
+      "sections": [
+        {
+          "id": "matrice",
+          "title": "Che cosa si trova fra le cellule?",
+          "text": [
+            "La matrice extracellulare è materiale prodotto dalle cellule e organizzato all’esterno della loro membrana. Non è il citosol e non è soltanto uno spazio vuoto. Le fibre collagene sostengono la resistenza alla trazione; componenti elastiche permettono deformazione e ritorno; proteoglicani e glicosaminoglicani contribuiscono a una sostanza fondamentale idratata. La proporzione e la disposizione dei componenti cambiano le proprietà del tessuto.",
+            "Una lamina basale è una matrice specializzata, sottile, sulla quale possono appoggiarsi cellule epiteliali. Contiene, fra gli altri componenti, collagene IV e laminine. Non coincide con la membrana plasmatica della cellula. La fibronectina è un’altra glicoproteina della matrice, importante per collegamenti e adesione: il fatto che due proteine siano esterne alla cellula non le rende intercambiabili.",
+            "Ragiona su tre livelli: materiale esterno, recettore di membrana, struttura interna. Le integrine attraversano la membrana e partecipano a collegamenti fra matrice e citoscheletro tramite proteine associate. Possono trasmettere informazioni nei due sensi: lo stato della cellula modifica l’adesione, mentre l’adesione e le sollecitazioni influenzano la risposta cellulare. Non sono semplici chiodi inerti.",
+            "Caso originale: due campioni contengono lo stesso numero di cellule, ma in uno le fibre collagene sono ordinate secondo una direzione e nell’altro sono distribuite diversamente. La conta cellulare da sola non basta a prevedere la resistenza nella stessa prova di trazione. Per giustificare una risposta devi considerare anche composizione, orientamento e continuità della matrice; non inventare una misura di resistenza dai soli nomi dei tessuti."
+          ],
+          "example": "Disegna tre caselle: matrice → integrina → citoscheletro. La freccia indica un collegamento, non il passaggio del collagene dentro la cellula.",
+          "takeaway": "La struttura del tessuto dipende anche da ciò che le cellule costruiscono all’esterno.",
+          "flow": [
+            "Matrice extracellulare",
+            "Recettori di adesione nella membrana",
+            "Proteine di collegamento intracellulari",
+            "Citoscheletro e risposta cellulare"
+          ]
+        },
+        {
+          "id": "adesioni",
+          "title": "Chi viene collegato a chi?",
+          "text": [
+            "Per riconoscere una giunzione, chiedi prima quali elementi unisce. Nelle giunzioni aderenti, caderine di cellule vicine partecipano a un collegamento associato ai filamenti di actina. Nei desmosomi il collegamento fra cellule usa caderine desmosomiali e filamenti intermedi. Non basta riconoscere una zona di contatto: bisogna distinguere il tipo di ancoraggio.",
+            "Gli emidesmosomi collegano una cellula alla lamina basale e sono associati a filamenti intermedi tramite integrine e proteine di raccordo. Le adesioni focali collegano invece matrice e actina. Il prefisso “emi” non significa che la metà mancante sia obbligatoriamente su una cellula vicina: il partner esterno è diverso da quello del desmosoma.",
+            "Esercizio di ricostruzione: in una scheda sono presenti “cellula A”, “cellula B”, “lamina basale”, “actina” e “filamenti intermedi”. Per descrivere un desmosoma scegli A e B, poi associa filamenti intermedi sui lati cellulari. Per un emidesmosoma scegli una cellula e la lamina basale. Cambiare soltanto il nome lasciando gli stessi partner produrrebbe un disegno concettualmente errato.",
+            "Nel cuore l’adesione meccanica e la comunicazione elettrica collaborano ma non sono la stessa funzione. Un collegamento resistente allo stiramento non è automaticamente un canale per gli ioni. All’orale usa la sequenza “partner → molecole di adesione → citoscheletro → funzione” e controlla ogni passaggio, invece di elencare quattro nomi senza relazioni."
+          ],
+          "example": "Una giunzione cellula-matrice associata ad actina corrisponde al modello di adesione focale, non a quello di desmosoma.",
+          "takeaway": "Il partner esterno e il filamento interno distinguono gli ancoraggi.",
+          "table": {
+            "headers": [
+              "Collegamento",
+              "Partner",
+              "Citoscheletro associato"
+            ],
+            "rows": [
+              [
+                "Giunzione aderente",
+                "Cellula-cellula",
+                "Actina"
+              ],
+              [
+                "Desmosoma",
+                "Cellula-cellula",
+                "Filamenti intermedi"
+              ],
+              [
+                "Adesione focale",
+                "Cellula-matrice",
+                "Actina"
+              ],
+              [
+                "Emidesmosoma",
+                "Cellula-lamina basale",
+                "Filamenti intermedi"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "barriere",
+          "title": "Sigillare, ancorare e comunicare sono compiti distinti",
+          "text": [
+            "Le giunzioni occludenti regolano la via paracellulare, cioè il passaggio fra cellule vicine, e aiutano a mantenere distinti i domini apicale e basolaterale della membrana. Claudine diverse contribuiscono a proprietà diverse della barriera: “occludente” non significa impermeabilità assoluta a ogni sostanza in ogni tessuto.",
+            "Le giunzioni comunicanti, o gap junction, mettono in comunicazione i citoplasmi mediante canali formati dall’accoppiamento di connessoni; ciascun connessone comprende sei connessine. Possono passare ioni e piccole molecole compatibili con il canale, non interi organelli o una generica proteina di qualsiasi dimensione. L’apertura è regolabile: non sono buchi permanenti fra cellule fuse.",
+            "Caso originale: in un epitelio un tracciante passa dal lato apicale a quello basale soprattutto lungo gli spazi fra cellule. Questo suggerisce di studiare la barriera paracellulare. Se invece un piccolo segnale passa dal citosol di una cellula direttamente a quello della vicina, la domanda riguarda la comunicazione intercellulare. Prima di scegliere una giunzione, descrivi il percorso del tracciante.",
+            "Una membrana cellulare integra non garantisce da sola che tutto un epitelio abbia una barriera normale: il percorso fra cellule può rimanere alterato. Allo stesso modo, una riduzione del passaggio di un segnale non dimostra da sola che le cellule si siano staccate. Occorrono misure diverse per adesione, permeabilità e comunicazione; negli esercizi evita di trattarle come un unico risultato."
+          ],
+          "example": "Piccolo colorante iniettato in A che compare nel citosol di B: ipotesi gap junction. Colorante che scorre fra A e B: domanda sulla via paracellulare.",
+          "takeaway": "Segui il percorso della sostanza prima di assegnare il nome della giunzione."
+        }
+      ],
+      "oral": {
+        "prompt": "Confronta desmosoma, emidesmosoma e gap junction. Poi spiega perché un epitelio può diventare più permeabile senza che tutte le sue cellule si rompano.",
+        "answer": "Il desmosoma unisce cellule e filamenti intermedi; l’emidesmosoma collega una cellula alla lamina basale tramite integrine e filamenti intermedi; la gap junction permette comunicazione fra citoplasmi attraverso canali. La barriera di un epitelio dipende anche dalle giunzioni occludenti e dal percorso paracellulare: membrane cellulari integre non escludono una variazione del passaggio fra cellule. Verifico separatamente adesione, barriera e comunicazione.",
+        "criteria": [
+          "Partner e citoscheletro corretti",
+          "Matrice distinta dalla membrana",
+          "Percorso paracellulare distinto da citoplasma-citoplasma",
+          "Conclusione limitata alle osservazioni"
+        ]
+      }
+    },
+    {
+      "id": "esosi-metabolismo",
+      "subject": "biochimica",
+      "title": "Fruttosio e galattosio: entrare nel metabolismo centrale",
+      "description": "Ricostruire le vie di ingresso, contare i carboni e distinguere digestione e metabolismo.",
+      "minutes": 20,
+      "bookIds": [],
+      "prerequisites": [
+        "glicolisi",
+        "digestione-turnover"
+      ],
+      "sources": [
+        "bio-fruttosio-reactome",
+        "bio-galattosio-reactome"
+      ],
+      "objectives": [
+        "Seguire l’ingresso epatico del fruttosio",
+        "Ricostruire la via di Leloir",
+        "Confrontare investimento, ingresso e controllo dei tre esosi"
+      ],
+      "sections": [
+        {
+          "id": "fruttosio",
+          "title": "Dal fruttosio alle due triosi",
+          "text": [
+            "Il fruttosio assorbito non deve diventare necessariamente glucosio libero prima di essere metabolizzato. Nel percorso epatico qui studiato la fruttochinasi, o chetoesochinasi, impiega ATP per formare fruttosio-1-fosfato. L’aldolasi B lo scinde in diidrossiacetone fosfato (DHAP) e gliceraldeide. La gliceraldeide viene fosforilata, con un altro ATP, a gliceraldeide-3-fosfato (GAP) dalla trioso chinasi. DHAP e GAP sono collegati dalla trioso-fosfato isomerasi.",
+            "Non confondere gliceraldeide e gliceraldeide-3-fosfato: il gruppo fosfato cambia il punto di ingresso nella via. Il conto dei carboni è 6 → 3 + 3. Il conto dell’investimento, nel modello descritto, è due ATP per raggiungere il livello delle triosi fosfato; non sono due ATP già guadagnati.",
+            "Questo ingresso epatico si colloca a valle della PFK-1. Ciò non significa assenza di qualsiasi regolazione: disponibilità di substrati, attività enzimatiche, stato energetico e destinazione delle triosi restano rilevanti. I carboni possono alimentare percorsi diversi. Il solo schema non permette di quantificare quanto di un alimento diventerà lipide in una persona.",
+            "Caso originale: una mappa scrive “fruttosio-1-fosfato → due piruvati, senza altri passaggi”. Il bilancio dei carboni è compatibile con sei carboni totali, ma la mappa salta intermedi, reazioni e costi. Un conto corretto dei carboni è necessario e non sufficiente a dimostrare che una via sia descritta bene."
+          ],
+          "example": "Per due fruttosi nel percorso epatico fino alle triosi fosfato: quattro ATP investiti e quattro unità a tre carboni complessive. Non hai ancora contato la fase di rendimento.",
+          "takeaway": "Ingresso a valle di PFK-1 non significa metabolismo senza controllo.",
+          "flow": [
+            "Fruttosio (6 C) + ATP",
+            "Fruttosio-1-fosfato (6 C)",
+            "DHAP (3 C) + gliceraldeide (3 C)",
+            "Gliceraldeide + ATP → GAP",
+            "DHAP ↔ GAP: collegamento alle vie centrali"
+          ]
+        },
+        {
+          "id": "galattosio",
+          "title": "La via di Leloir e il riciclo dell’UDP-zucchero",
+          "text": [
+            "Il galattosio, liberato anche dalla digestione del lattosio, viene fosforilato dalla galattochinasi a galattosio-1-fosfato consumando ATP. La galattosio-1-fosfato uridiltransferasi, GALT, usa UDP-glucosio: si formano glucosio-1-fosfato e UDP-galattosio. L’UDP-galattosio 4-epimerasi, GALE, converte UDP-galattosio in UDP-glucosio, ripristinando il composto che partecipa al ciclo.",
+            "Il glucosio-1-fosfato può essere convertito in glucosio-6-fosfato dalla fosfoglucomutasi. Scrivere solo “galattosio → glucosio” nasconde l’attivazione, l’intervento dell’UDP-zucchero e la forma fosforilata che si collega al metabolismo. Glucosio-1-fosfato e glucosio libero non sono la stessa specie chimica.",
+            "L’epimerasi cambia la configurazione al carbonio 4 dello zucchero legato a UDP: non taglia lo scheletro a sei carboni in due parti. Nel bilancio della sequenza completa l’UDP-glucosio viene rigenerato; una disponibilità iniziale resta necessaria. “Rigenerato” non significa “inutile” e non significa che il sistema possa partire senza il partecipante.",
+            "Caso originale: in una ricostruzione vengono barrati tutti gli intermedi che compaiono sia come prodotti sia come reagenti. È una procedura utile per ottenere un bilancio netto, ma non permette di cancellare le reazioni dal meccanismo. Una sostanza può non comparire nel saldo finale ed essere indispensabile per il funzionamento della via."
+          ],
+          "example": "Galattosio-1-P + UDP-glucosio → glucosio-1-P + UDP-galattosio; poi UDP-galattosio → UDP-glucosio. Il riciclo spiega perché non contare una perdita netta di un UDP-glucosio per ogni giro.",
+          "takeaway": "Distingui un intermedio necessario da un reagente consumato nel bilancio netto.",
+          "flow": [
+            "Galattosio + ATP → galattosio-1-P",
+            "GALT: galattosio-1-P + UDP-glucosio → glucosio-1-P + UDP-galattosio",
+            "GALE: UDP-galattosio → UDP-glucosio",
+            "Glucosio-1-P ↔ glucosio-6-P"
+          ]
+        },
+        {
+          "id": "confronto",
+          "title": "Tre esosi, tre registri da tenere separati",
+          "text": [
+            "Digestione, assorbimento e metabolismo intracellulare rispondono a domande diverse. La lattasi scinde il lattosio nel tratto digestivo; non sostituisce GALT nella cellula. GLUT5 partecipa al trasporto del fruttosio attraverso la membrana apicale dell’enterocita; non catalizza la scissione del fruttosio-1-fosfato. La PFK-1 è un enzima della glicolisi, non un trasportatore intestinale.",
+            "Per risolvere un confronto scrivi prima il punto iniziale e quello finale. Nel modello da glucosio libero a due piruvati il saldo glicolitico è due ATP netti. Nel percorso epatico da fruttosio libero alle due triosi fosfato l’investimento è due ATP; se entrambe proseguono fino a piruvato, i successivi passaggi di rendimento ne producono quattro, per un saldo di due. Per galattosio fino a piruvato, nel modello della via di Leloir e della glicolisi, si investe ATP alla galattochinasi e alla PFK-1: ancora due netti, con riciclo dell’UDP-zucchero assunto operativo.",
+            "Bilanci uguali non rendono identici enzimi e controlli. Se la domanda termina a glucosio-6-fosfato o a triosi fosfato, non puoi aggiungere ATP di reazioni che non sono ancora avvenute. Non includere fosforilazione ossidativa quando viene richiesta soltanto la via citosolica; non sommare produzione lorda e guadagno netto.",
+            "Caso originale: due studenti ottengono il numero due. Il primo lo riferisce all’ATP netto fino a piruvato, il secondo all’investimento fino alle triosi. Il numero da solo non dimostra che siano d’accordo: devi chiedere segno, percorso e punto finale. Una risposta scientifica include la grandezza e le condizioni, non soltanto una cifra."
+          ],
+          "example": "Scrivi “2 ATP investiti fino alle triosi” oppure “2 ATP netti fino a piruvato”: lo stesso numero descrive due bilanci differenti.",
+          "takeaway": "Prima il confine del sistema, poi il calcolo.",
+          "table": {
+            "headers": [
+              "Partenza",
+              "Ingresso caratteristico",
+              "Passaggio da distinguere"
+            ],
+            "rows": [
+              [
+                "Glucosio libero",
+                "Glucosio-6-P, poi PFK-1",
+                "Investimento e rendimento"
+              ],
+              [
+                "Fruttosio, via epatica",
+                "Fruttosio-1-P, poi triosi",
+                "Ingresso a valle di PFK-1"
+              ],
+              [
+                "Galattosio",
+                "Via di Leloir → glucosio-1-P",
+                "Riciclo dell’UDP-glucosio"
+              ]
+            ]
+          }
+        }
+      ],
+      "oral": {
+        "prompt": "Uno studente dice: “Fruttosio e galattosio diventano entrambi glucosio e quindi seguono esattamente la stessa regolazione”. Correggi l’affermazione ricostruendo i due ingressi e un bilancio esplicitamente delimitato.",
+        "answer": "Nel percorso epatico fruttosio → fruttosio-1-P → DHAP e gliceraldeide; quest’ultima è fosforilata a GAP. Sono investiti due ATP e l’ingresso è a valle della PFK-1. Il galattosio passa per galattosio-1-P, GALT con UDP-glucosio e riciclo mediante GALE, producendo glucosio-1-P convertibile in glucosio-6-P. Proseguendo fino a piruvato, con le ipotesi del capitolo, il saldo è due ATP netti per esoso, ma enzimi, intermedi e controlli differiscono. Digestione e trasporto precedono queste trasformazioni e non le sostituiscono.",
+        "criteria": [
+          "Intermedi del fruttosio e costo",
+          "GALT, GALE e riciclo",
+          "Conservazione dei carboni",
+          "Confini del bilancio e distinzione dalla regolazione"
         ]
       }
     }
@@ -31473,8 +32280,8 @@
       "id": "an-catalogue-2026",
       "title": "UniBa · Anatomia umana e applicata 2026/27",
       "url": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/41617/2026/9999?schemaid=40224#1",
-      "scope": "Scheda renderizzata consultata il 22 ottobre: 5 CFU, 50 ore, primo semestre, Francesco Girolamo, tipo esame Orale. Nessun elenco analitico dei contenuti pubblicato nella pagina.",
-      "checked": "2026-10-22"
+      "scope": "Scheda corrente recuperata il 5 novembre: programma analitico generale, regionale e neuroanatomico; obiettivi, strumenti 3D e prova orale con una immagine/disegno recante 15 strutture da riconoscere. Il confronto completo con le lezioni è ancora da eseguire.",
+      "checked": "2026-11-05"
     },
     {
       "id": "an-final-source-micro-bone",
@@ -31691,6 +32498,172 @@
         "book": "Microbiology",
         "checked": "2026-10-26"
       }
+    },
+    {
+      "id": "dev-motorio-primi-anni",
+      "title": "OpenStax · 3.2 Motor Development in Infants and Toddlers",
+      "url": "https://openstax.org/books/lifespan-development/pages/3-2-motor-development-in-infants-and-toddlers",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "3.2 Motor Development in Infants and Toddlers",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-sensi-primi-anni",
+      "title": "OpenStax · 3.3 Sensory Development in Infants and Toddlers",
+      "url": "https://openstax.org/books/lifespan-development/pages/3-3-sensory-development-in-infants-and-toddlers",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "3.3 Sensory Development in Infants and Toddlers",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-cognizione-primi-anni",
+      "title": "OpenStax · 3.4 Cognition and Memory in Infants and Toddlers",
+      "url": "https://openstax.org/books/lifespan-development/pages/3-4-cognition-and-memory-in-infants-and-toddlers",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "3.4 Cognition and Memory in Infants and Toddlers",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-linguaggio-primi-anni",
+      "title": "OpenStax · 3.5 Language in Infants and Toddlers",
+      "url": "https://openstax.org/books/lifespan-development/pages/3-5-language-in-infants-and-toddlers",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "3.5 Language in Infants and Toddlers",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-cognizione-scolare",
+      "title": "OpenStax · 7.2 Cognition in Middle Childhood",
+      "url": "https://openstax.org/books/lifespan-development/pages/7-2-cognition-in-middle-childhood",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "7.2 Cognition in Middle Childhood",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-temperamento",
+      "title": "OpenStax · 4.2 Temperament and Personality in Infants and Toddlers",
+      "url": "https://openstax.org/books/lifespan-development/pages/4-2-temperament-and-personality-in-infants-and-toddlers",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "4.2 Temperament and Personality in Infants and Toddlers",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-emozioni-scolare",
+      "title": "OpenStax · 8.2 Emotional Development and Socioemotional Learning in Middle Childhood",
+      "url": "https://openstax.org/books/lifespan-development/pages/8-2-emotional-development-and-socioemotional-learning-in-middle-childhood",
+      "scope": "Approfondimento facoltativo. Consultati i concetti della sezione; spiegazioni italiane, casi numerici e schemi del manuale sono originali. Non è una riproduzione del capitolo.",
+      "checked": "2026-11-04",
+      "reading": {
+        "section": "8.2 Emotional Development and Socioemotional Learning in Middle Childhood",
+        "book": "Lifespan Development",
+        "checked": "2026-11-04"
+      }
+    },
+    {
+      "id": "dev-diamond-esecutive",
+      "title": "Diamond (2013) · Executive Functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4084861/",
+      "scope": "Rassegna dell’autrice: distinzione fra inibizione, memoria di lavoro e flessibilità; limiti delle inferenze da singoli compiti. Casi e attività didattiche qui proposti sono originali.",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "en-noun-groups",
+      "title": "Cambridge · Noun phrases: order",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/noun-phrases-order",
+      "scope": "Consultata la spiegazione indicizzata sull’ordine dei gruppi nominali; accesso diretto limitato. Esempi e analisi nell’app originali.",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "en-none",
+      "title": "Cambridge · No, none and none of",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/none/",
+      "scope": "Consultata la spiegazione indicizzata delle forme negative; accesso diretto limitato. Esercizi originali sulla portata della negazione.",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "en-relative",
+      "title": "British Council · Defining relative clauses",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-defining-relative-clauses",
+      "scope": "Consultata la spiegazione di pronomi relativi e omissione dell’oggetto. Gli esempi e i quesiti del manuale sono originali.",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "en-contrast",
+      "title": "British Council · Contrasting ideas",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/contrasting-ideas-although-despite-others",
+      "scope": "Consultato il confronto fra although, despite e in spite of. Frasi, traduzioni e correzioni sono originali.",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "bio-giunzioni-vigo",
+      "title": "Università di Vigo · Giunzioni cellulari",
+      "url": "https://mmegias.webs.uvigo.es/02-english/5-celulas/3-complejos.php?tema=w",
+      "scope": "Confronto delle famiglie di giunzioni, citoscheletro e bersagli di adesione; casi originali.",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "bio-fruttosio-reactome",
+      "title": "Reactome · Catabolismo del fruttosio umano",
+      "url": "https://reactome.org/content/detail/R-HSA-70350",
+      "scope": "Via epatica verso DHAP e gliceraldeide-3-fosfato; spiegazioni e bilanci didattici originali.",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "bio-galattosio-reactome",
+      "title": "Reactome · Catabolismo del galattosio umano",
+      "url": "https://reactome.org/content/detail/R-HSA-70370",
+      "scope": "Passaggi della via di Leloir e collegamento al glucosio-6-fosfato.",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "bio-ucp1",
+      "title": "Nedergaard e colleghi · UCP1 e termogenesi",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11239487/",
+      "scope": "Consultato l’abstract: ruolo di UCP1 nell’adiposo bruno. Non usato per escludere tutti gli altri meccanismi termogenici.",
+      "checked": "2026-11-05"
+    },
+    {
+      "id": "bio-matrice-os",
+      "title": "OpenStax · Matrice e collegamenti cellulari",
+      "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+      "scope": "Matrice, adesione e comunicazione intercellulare.",
+      "checked": "2026-11-05",
+      "reading": {
+        "section": "4.6 Connections between Cells and Cellular Activities",
+        "book": "Biology 2e",
+        "checked": "2026-11-05"
+      }
+    },
+    {
+      "id": "syllabus-bio-2026",
+      "title": "UniBa · Scienze biologiche 2026/27",
+      "url": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/62179/2026/9999?schemaid=40224#1",
+      "checked": "2026-11-05",
+      "scope": "Letti contenuti (17 voci biologiche e 10 biochimiche), obiettivi, testi e verifica nella risposta pubblica del catalogo. La verifica descrive scritto con sufficienza separata nei due moduli; il campo generale riporta ancora Orale. Confronto editoriale in current-programme-audit.json."
     }
   ],
   "curriculum": {
@@ -31709,7 +32682,7 @@
       "cfu": 10,
       "semester": 1,
       "sourceUrl": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/62179/2026/9999?schemaid=40224#1",
-      "syllabusStatus": "Piano 2026/27 verificato. Confronto analitico con 2025/26; corrispondenza con il programma 2026/27 non certificata",
+      "syllabusStatus": "Programma analitico 2026/27 reperito e confrontato in 27 voci; dispense dei docenti non interamente disponibili e discrepanza nella modalità di esame.",
       "modules": [
         {
           "id": "biologia",
@@ -31734,9 +32707,10 @@
             "divisioni-ereditarieta",
             "cellula-comparti-verifica",
             "cellule-confronto",
-            "nucleici-lettura"
+            "nucleici-lettura",
+            "cellula-adesione"
           ],
-          "coverage": "Lezioni, casi e verifiche confrontati con il blocco Biologia applicata 2016/17 e i nuclei biologici 2025/26. La corrispondenza con il programma analitico e le dispense correnti resta da confermare."
+          "coverage": "Programma corrente 2026/27 confrontato: 17 voci, incluse matrice, giunzioni e fattori di crescita. Restano materiali specifici dei docenti e conferma della modalità effettiva."
         },
         {
           "id": "biochimica",
@@ -31777,25 +32751,27 @@
             "ossidazione-controllo",
             "segnale-muscolare",
             "chimica-materia-soluzioni",
-            "molecole-confronto"
+            "molecole-confronto",
+            "esosi-metabolismo"
           ],
-          "coverage": "Confrontato il blocco Biochimica 2016/17 in 69 voci con spiegazioni, esempi e verifiche; programma analitico, dispense e livello richiesto dal docente corrente da confermare. Le vie amminoacidiche sono rappresentative. Integrati i nuovi materiali su cellule, frazionamento, gruppi funzionali e stereochimica."
+          "coverage": "Programma corrente 2026/27 confrontato: 10 voci, inclusi catabolismo di fruttosio/galattosio e termogenesi. Aggiornati esercizi sui meccanismi energetici. Restano materiali specifici dei docenti e conferma della modalità effettiva."
         }
       ],
       "programme": {
-        "referenceYear": "2025/26; dettagli integrativi da archivio 2016/17",
+        "referenceYear": "2026/27; approfondimenti storici 2016/17 e 2025/26",
         "sourceIds": [
+          "syllabus-bio-2026",
           "syllabus-bio",
           "syllabus-bio-2016"
         ],
-        "checked": "2026-10-20",
-        "currentSyllabusConfirmed": false,
+        "checked": "2026-11-05",
+        "currentSyllabusConfirmed": true,
         "limitations": [
-          "Il programma 2025/26 è descritto per nuclei ampi; il dettaglio richiesto dal docente attuale e dalle sue dispense non è confermato.",
+          "Il 5 novembre è stato recuperato il programma analitico 2026/27: 17 voci di Biologia applicata e genetica e 10 di Biochimica. Confronto con spiegazioni e verifiche registrato separatamente; non certifica tutte le dispense o il livello di preparazione.",
           "Il programma analitico SAMS 2016/17 specifica contenuti di Biochimica da 5 CFU con un altro docente; è usato per ampliare il materiale e individuare lacune, non come prova di equivalenza al 2026/27.",
           "Per Biologia applicata il dettaglio 2016/17 è usato per traffico proteico, proteoma e tecniche del DNA; anno e docente differiscono dal corso attuale.",
           "Confronto editoriale completo del blocco Biologia applicata del syllabus 2016/17: 44 voci collegate a spiegazioni e verifiche, registrate nell’audit. È un confronto storico, non conferma del livello o delle dispense 2026/27; l’audit di Biochimica resta distinto.",
-          "Confrontati anche 12 nuclei e obiettivi biologici della scheda 2025/26; il confronto biochimico resta distinto. La stessa scheda riporta Orale nel campo generale e scritto con quiz e/o domande aperte nella sezione di verifica: la modalità corrente non è accertata.",
+          "La scheda corrente 2026/27 mantiene una discrepanza: il campo generale indica Orale, mentre la sezione di verifica descrive uno scritto con quiz e/o risposte aperte, sufficienza in ciascuno dei due moduli e media ponderata. Non inventati numero di domande o durata; la modalità operativa va confermata.",
           "Completato il confronto editoriale del blocco Biochimica 2016/17 in 69 voci. Non conferma l’equivalenza con il programma analitico corrente; le domande sono rappresentative e non garantiscono il superamento dell’esame.",
           "Materiali forniti integrati per nuclei il 26 ottobre 2026; provenienza e mappa registrate separatamente, senza attribuzione automatica al docente UniBa corrente.",
           "Nuovi materiali forniti: integrazione concettuale verificata il 4 novembre 2026, con lezioni, esercizi e schemi interni. I documenti non attestano da soli il programma corrente completo."
@@ -31823,7 +32799,10 @@
               "biochimica-cellule-laboratorio/involucri",
               "biochimica-cellule-laboratorio/organelli",
               "biochimica-cellule-laboratorio/frazionamento",
-              "biochimica-cellule-laboratorio/gerarchie"
+              "biochimica-cellule-laboratorio/gerarchie",
+              "cellula-adesione/matrice",
+              "cellula-adesione/adesioni",
+              "cellula-adesione/barriere"
             ],
             "status": "introduced",
             "note": "Aggiunti nucleolo, reticolo liscio/sarcoplasmatico, tre famiglie del citoscheletro e cloroplasti con confronto dei gradienti. Si affiancano al traffico e controllo di qualità già presenti. Confronto storico 2016/17. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
@@ -31877,7 +32856,16 @@
               "nov04-detail-a-38",
               "nov04-detail-a-39",
               "nov04-detail-a-40",
-              "nov04-detail-a-41"
+              "nov04-detail-a-41",
+              "bio26-cellula-adesione-matrice-1",
+              "bio26-cellula-adesione-matrice-2",
+              "bio26-cellula-adesione-matrice-3",
+              "bio26-cellula-adesione-adesioni-1",
+              "bio26-cellula-adesione-adesioni-2",
+              "bio26-cellula-adesione-adesioni-3",
+              "bio26-cellula-adesione-barriere-1",
+              "bio26-cellula-adesione-barriere-2",
+              "bio26-cellula-adesione-barriere-3"
             ]
           },
           {
@@ -31899,7 +32887,9 @@
               "segnali-spegnimento-verifica",
               "bio-integration-genoma-rna-segnali-camp-0",
               "bio-integration-genoma-rna-segnali-camp-1",
-              "bio-integration-genoma-rna-segnali-camp-2"
+              "bio-integration-genoma-rna-segnali-camp-2",
+              "bio26-segnali-recettori-1",
+              "bio26-segnali-recettori-2"
             ]
           },
           {
@@ -32252,7 +33242,10 @@
               "glucosio-percorsi/bypass",
               "glucosio-percorsi/controllo",
               "molecole-confronto/glucidi",
-              "molecole-confronto/unita"
+              "molecole-confronto/unita",
+              "esosi-metabolismo/fruttosio",
+              "esosi-metabolismo/galattosio",
+              "esosi-metabolismo/confronto"
             ],
             "status": "introduced",
             "note": "Struttura e metabolismo glucidico, digestione e assorbimento, glicogeno e pentosi con bilanci. Il dettaglio digestivo è confrontato anche con il syllabus storico 2016/17. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
@@ -32297,7 +33290,16 @@
               "mat26-molecole-confronto-unita-1",
               "mat26-molecole-confronto-unita-2",
               "mat26-molecole-confronto-glucidi-1",
-              "mat26-molecole-confronto-glucidi-2"
+              "mat26-molecole-confronto-glucidi-2",
+              "bio26-esosi-metabolismo-fruttosio-1",
+              "bio26-esosi-metabolismo-fruttosio-2",
+              "bio26-esosi-metabolismo-fruttosio-3",
+              "bio26-esosi-metabolismo-galattosio-1",
+              "bio26-esosi-metabolismo-galattosio-2",
+              "bio26-esosi-metabolismo-galattosio-3",
+              "bio26-esosi-metabolismo-confronto-1",
+              "bio26-esosi-metabolismo-confronto-2",
+              "bio26-esosi-metabolismo-confronto-3"
             ]
           },
           {
@@ -32316,7 +33318,9 @@
               "ossidazione-controllo/krebs",
               "ossidazione-controllo/regolazione",
               "ossidazione-controllo/accoppiamento",
-              "cellula-comparti-verifica/mitocondrio"
+              "cellula-comparti-verifica/mitocondrio",
+              "energia/atp",
+              "energia/ossidativa"
             ],
             "status": "introduced",
             "note": "Trasportatori, due navette redox, bilanci convenzionali 30/32 ATP e anaplerosi sviluppati con percorsi compartimentati, esempi e verifiche. Rapporti P/O dichiarati convenzionali; confronto storico 2016/17.",
@@ -32354,7 +33358,13 @@
               "pdf-cellula-comparti-verifica-mitocondrio-0",
               "pdf-cellula-comparti-verifica-mitocondrio-1",
               "pdf-cellula-comparti-verifica-mitocondrio-2",
-              "pdf-cellula-comparti-verifica-mitocondrio-3"
+              "pdf-cellula-comparti-verifica-mitocondrio-3",
+              "bio26-energia-atp-1",
+              "bio26-energia-atp-2",
+              "bio26-energia-ossidativa-1",
+              "bio26-energia-ossidativa-2",
+              "bio26-ossidazione-controllo-accoppiamento-1",
+              "bio26-ossidazione-controllo-accoppiamento-2"
             ]
           },
           {
@@ -32383,8 +33393,8 @@
               "metabolismo-controllo/ciclo-tag",
               "molecole-confronto/lipidi"
             ],
-            "status": "partial",
-            "note": "Digestione, vitamine e coenzimi ora sviluppati. Presenti vie rappresentative di amminoacidi e ammine biogene; resta il confronto del livello di dettaglio con le dispense attuali. La tabella dei venti amminoacidi non è un catalogo di tutti gli enzimi. Il programma storico non richiede esplicitamente tutte le sequenze individuali. Integrazione editoriale del 26 ottobre dai materiali forniti; non conferma del syllabus corrente.",
+            "status": "introduced",
+            "note": "Confrontate le voci 7 e 9 del programma 2026/27: digestione, beta-ossidazione, glicerolo, chetoni, biosintesi, transaminazione, trasporto dell’azoto, urea, destini glucogenici/chetogenici e ramificati. Il catalogo non richiede esplicitamente ogni enzima del catabolismo dei venti amminoacidi; ulteriori richieste delle dispense restano da verificare.",
             "id": "scienze-biologiche-10",
             "questionIds": [
               "lipidi-azoto-beta-verifica",
@@ -32642,7 +33652,8 @@
             "note": "Reso esplicito nella mappa il contenuto già presente: frequenze, selezione, deriva, flusso e modello introduttivo Hardy-Weinberg. Riferimento al programma storico, senza certificare ogni approfondimento corrente."
           }
         ]
-      }
+      },
+      "assessmentNote": "La verifica dettagliata 2026/27 descrive uno scritto con quiz e/o domande aperte e sufficienza in ciascun modulo; il campo generale indica invece Orale. La piattaforma conserva questa discrepanza. Numero di domande e durata non sono specificati: il test guidato è esercitazione editoriale."
     },
     {
       "id": "anatomia-umana",
@@ -32651,7 +33662,7 @@
       "cfu": 5,
       "semester": 1,
       "sourceUrl": "https://uniba.coursecatalogue.cineca.it/corsi/2026/11437/insegnamenti/2026/41617/2026/9999?schemaid=40224#1",
-      "syllabusStatus": "5 CFU, 50 ore e orale verificati nel catalogo 2026/27. Contenuti confrontati con la scheda analitica pubblica 2024/25; dettaglio corrente non pubblicato nella pagina consultata",
+      "syllabusStatus": "Programma analitico 2026/27 recuperato il 5 novembre; confronto corrente in corso. Orale e riconoscimento di 15 strutture su immagine/disegno.",
       "modules": [
         {
           "id": "anatomia",
@@ -32723,14 +33734,14 @@
       "programme": {
         "referenceYear": "2024/25",
         "sourceIds": [
-          "syllabus-anatomy",
-          "an-catalogue-2026"
+          "an-catalogue-2026",
+          "syllabus-anatomy"
         ],
         "checked": "2026-10-22",
         "currentSyllabusConfirmed": false,
         "limitations": [
-          "La scheda analitica disponibile è del 2024/25 (Roberto Tamma); il catalogo 2026/27 indica Francesco Girolamo e prova orale. Non è pubblicato il dettaglio analitico corrente.",
-          "Il percorso sviluppa tutte le voci esplicite del programma pubblico confrontato. Le immagini sono un campione ragionato, non ogni possibile preparato; il riconoscimento di immagini nuove e l’esposizione richiedono esercizio.",
+          "Il 5 novembre è stato recuperato il programma analitico 2026/27 di Francesco Girolamo. Il precedente confronto in 75 voci riguarda il 2024/25; non è automaticamente trasferito al nuovo programma. La prova corrente comprende orale e riconoscimento di 15 strutture su una immagine/disegno.",
+          "Il catalogo corrente include uso di strumenti 3D, rapporti topografici, ragionamento su casi e riconoscimento visuale. Le immagini e gli schemi attuali sono un campione: resta da predisporre e verificare una prova coerente di 15 strutture e da confrontare tutte le voci nuove.",
           "Materiali e ulteriori richieste del docente corrente non acquisiti. La copertura editoriale non certifica la preparazione individuale.",
           "Materiali forniti integrati per nuclei il 26 ottobre 2026; provenienza e mappa registrate separatamente, senza attribuzione automatica al docente UniBa corrente."
         ],
@@ -33768,7 +34779,7 @@
           }
         ]
       },
-      "assessmentNote": "Il catalogo UniBa 2026/27 indica una prova orale (verificato il 22 ottobre 2026). Allenati con esposizioni, confronti e disegni. Le tracce scritte qui sotto riprendono il formato 2024/25 e restano esercitazioni di ripasso."
+      "assessmentNote": "Il programma UniBa 2026/27, recuperato il 5 novembre, prevede un orale e il riconoscimento di 15 strutture su una immagine o disegno. Il catalogo non specifica qui quali immagini verranno usate. Allenati con esposizioni, rapporti topografici e riconoscimento; la prova visuale dedicata è ancora da sviluppare. Le tre tracce scritte restano ripasso storico 2024/25."
     },
     {
       "id": "scienze-base",
@@ -34237,9 +35248,11 @@
             "sviluppo-cognitivo",
             "sviluppo-pensare",
             "sviluppo-relazioni",
-            "sviluppo-sociale"
+            "sviluppo-sociale",
+            "sviluppo-esplorare",
+            "sviluppo-autoregolazione"
           ],
-          "coverage": "Quattro lezioni: basi e approfondimenti su Piaget, Vygotskij, linguaggio, attaccamento, Erikson, Kohlberg e contesti. Casi risolti e verifica dei limiti delle inferenze; materiali correnti e ulteriori richieste specifiche da verificare."
+          "coverage": "Sei lezioni su sviluppo cognitivo e socioaffettivo, osservazione precoce, memoria, funzioni esecutive, credenze e regolazione; casi con soluzioni. Materiali assegnati e dettaglio corrente da verificare."
         },
         {
           "id": "pedagogia",
@@ -34767,7 +35780,14 @@
               "sviluppo-pensare/piaget",
               "sviluppo-pensare/mediazione",
               "sviluppo-pensare/linguaggio",
-              "sviluppo-sociale/ecologia"
+              "sviluppo-sociale/ecologia",
+              "sviluppo-esplorare/sguardo",
+              "sviluppo-esplorare/movimento",
+              "sviluppo-esplorare/oggetto",
+              "sviluppo-esplorare/comunicare",
+              "sviluppo-autoregolazione/esecutive",
+              "sviluppo-autoregolazione/strategie",
+              "sviluppo-autoregolazione/credenze"
             ],
             "status": "introduced",
             "note": "",
@@ -34796,7 +35816,35 @@
               "dev-sviluppo-sociale-ecologia-0",
               "dev-sviluppo-sociale-ecologia-1",
               "dev-sviluppo-sociale-ecologia-2",
-              "dev-sviluppo-sociale-ecologia-3"
+              "dev-sviluppo-sociale-ecologia-3",
+              "dev26-sviluppo-esplorare-sguardo-1",
+              "dev26-sviluppo-esplorare-sguardo-2",
+              "dev26-sviluppo-esplorare-sguardo-3",
+              "dev26-sviluppo-esplorare-sguardo-4",
+              "dev26-sviluppo-esplorare-movimento-1",
+              "dev26-sviluppo-esplorare-movimento-2",
+              "dev26-sviluppo-esplorare-movimento-3",
+              "dev26-sviluppo-esplorare-movimento-4",
+              "dev26-sviluppo-esplorare-oggetto-1",
+              "dev26-sviluppo-esplorare-oggetto-2",
+              "dev26-sviluppo-esplorare-oggetto-3",
+              "dev26-sviluppo-esplorare-oggetto-4",
+              "dev26-sviluppo-esplorare-comunicare-1",
+              "dev26-sviluppo-esplorare-comunicare-2",
+              "dev26-sviluppo-esplorare-comunicare-3",
+              "dev26-sviluppo-esplorare-comunicare-4",
+              "dev26-sviluppo-autoregolazione-esecutive-1",
+              "dev26-sviluppo-autoregolazione-esecutive-2",
+              "dev26-sviluppo-autoregolazione-esecutive-3",
+              "dev26-sviluppo-autoregolazione-esecutive-4",
+              "dev26-sviluppo-autoregolazione-strategie-1",
+              "dev26-sviluppo-autoregolazione-strategie-2",
+              "dev26-sviluppo-autoregolazione-strategie-3",
+              "dev26-sviluppo-autoregolazione-strategie-4",
+              "dev26-sviluppo-autoregolazione-credenze-1",
+              "dev26-sviluppo-autoregolazione-credenze-2",
+              "dev26-sviluppo-autoregolazione-credenze-3",
+              "dev26-sviluppo-autoregolazione-credenze-4"
             ]
           },
           {
@@ -34807,7 +35855,8 @@
               "sviluppo-relazioni/morale",
               "sviluppo-sociale/legami",
               "sviluppo-sociale/identita",
-              "sviluppo-sociale/morale"
+              "sviluppo-sociale/morale",
+              "sviluppo-autoregolazione/regolazione"
             ],
             "status": "introduced",
             "note": "",
@@ -34827,7 +35876,11 @@
               "dev-sviluppo-sociale-morale-0",
               "dev-sviluppo-sociale-morale-1",
               "dev-sviluppo-sociale-morale-2",
-              "dev-sviluppo-sociale-morale-3"
+              "dev-sviluppo-sociale-morale-3",
+              "dev26-sviluppo-autoregolazione-regolazione-1",
+              "dev26-sviluppo-autoregolazione-regolazione-2",
+              "dev26-sviluppo-autoregolazione-regolazione-3",
+              "dev26-sviluppo-autoregolazione-regolazione-4"
             ]
           },
           {
@@ -36714,6 +37767,7 @@
             "english-foundations",
             "english-frase",
             "english-tempi",
+            "english-relazioni",
             "english-gym",
             "english-communication",
             "english-anatomy",
@@ -36722,9 +37776,10 @@
             "english-evidence",
             "english-writing",
             "english-revision",
+            "english-letture-integrate",
             "english-listening"
           ],
-          "coverage": "Grammatica di supporto A2/B1, letture, terminologia motoria, comprensione e produzione scritta con modelli. Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare."
+          "coverage": "Quattordici lezioni, 156 quiz scritti e 8 audio facoltativi preesistenti. Grammatica di supporto, letture graduate, terminologia motoria e produzione scritta con modelli; approfonditi gruppi nominali, relative, quantità, negazioni e connettivi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare."
         }
       ],
       "programme": {
@@ -36754,10 +37809,14 @@
               "english-tempi/presente",
               "english-tempi/passato",
               "english-tempi/scelte",
-              "english-tempi/passivo"
+              "english-tempi/passivo",
+              "english-relazioni/gruppi",
+              "english-relazioni/riferimenti",
+              "english-relazioni/quantita",
+              "english-relazioni/nessi"
             ],
             "status": "partial",
-            "note": "Otto nuove sezioni grammaticali con esempi e 32 quiz. Ripasso di supporto: non equivale a un intero corso o a una certificazione A2/B1.",
+            "note": "Ripasso esteso con gruppi nominali, relative, quantità/negazioni e collegamenti logici, oltre a tempi, domande e modali. Le letture nuove esercitano trasferimento e produzione con criteri. Non è un corso completo o una certificazione A2/B1; restano verifica del livello individuale e materiali effettivamente assegnati.",
             "id": "inglese-1",
             "questionIds": [
               "y1-english-foundations-present",
@@ -36795,7 +37854,27 @@
               "en-english-tempi-passivo-0",
               "en-english-tempi-passivo-1",
               "en-english-tempi-passivo-2",
-              "en-english-tempi-passivo-3"
+              "en-english-tempi-passivo-3",
+              "en-depth-english-relazioni-gruppi-1",
+              "en-depth-english-relazioni-gruppi-2",
+              "en-depth-english-relazioni-gruppi-3",
+              "en-depth-english-relazioni-gruppi-4",
+              "en-depth-english-relazioni-gruppi-5",
+              "en-depth-english-relazioni-riferimenti-1",
+              "en-depth-english-relazioni-riferimenti-2",
+              "en-depth-english-relazioni-riferimenti-3",
+              "en-depth-english-relazioni-riferimenti-4",
+              "en-depth-english-relazioni-riferimenti-5",
+              "en-depth-english-relazioni-quantita-1",
+              "en-depth-english-relazioni-quantita-2",
+              "en-depth-english-relazioni-quantita-3",
+              "en-depth-english-relazioni-quantita-4",
+              "en-depth-english-relazioni-quantita-5",
+              "en-depth-english-relazioni-nessi-1",
+              "en-depth-english-relazioni-nessi-2",
+              "en-depth-english-relazioni-nessi-3",
+              "en-depth-english-relazioni-nessi-4",
+              "en-depth-english-relazioni-nessi-5"
             ]
           },
           {
@@ -36841,7 +37920,8 @@
             "title": "Istruzioni, consigli, riformulazione e disaccordo",
             "refs": [
               "english-gym/instructions",
-              "english-communication/istruzioni"
+              "english-communication/istruzioni",
+              "english-letture-integrate/avviso"
             ],
             "status": "introduced",
             "note": "",
@@ -36851,14 +37931,20 @@
               "en-english-communication-istruzioni-0",
               "en-english-communication-istruzioni-1",
               "en-english-communication-istruzioni-2",
-              "en-english-communication-istruzioni-3"
+              "en-english-communication-istruzioni-3",
+              "en-depth-english-letture-integrate-avviso-1",
+              "en-depth-english-letture-integrate-avviso-2",
+              "en-depth-english-letture-integrate-avviso-3",
+              "en-depth-english-letture-integrate-avviso-4",
+              "en-depth-english-letture-integrate-avviso-5"
             ]
           },
           {
             "title": "Dialoghi e domande",
             "refs": [
               "english-gym/dialogue",
-              "english-communication/dialogo"
+              "english-communication/dialogo",
+              "english-letture-integrate/avviso"
             ],
             "status": "introduced",
             "note": "",
@@ -36868,7 +37954,12 @@
               "en-english-communication-dialogo-0",
               "en-english-communication-dialogo-1",
               "en-english-communication-dialogo-2",
-              "en-english-communication-dialogo-3"
+              "en-english-communication-dialogo-3",
+              "en-depth-english-letture-integrate-avviso-1",
+              "en-depth-english-letture-integrate-avviso-2",
+              "en-depth-english-letture-integrate-avviso-3",
+              "en-depth-english-letture-integrate-avviso-4",
+              "en-depth-english-letture-integrate-avviso-5"
             ]
           },
           {
@@ -36878,7 +37969,8 @@
               "english-anatomy/positions",
               "english-anatomy/movement",
               "english-movement/livelli",
-              "english-movement/movimenti"
+              "english-movement/movimenti",
+              "english-letture-integrate/anatomia"
             ],
             "status": "introduced",
             "note": "",
@@ -36894,7 +37986,12 @@
               "en-english-movement-movimenti-0",
               "en-english-movement-movimenti-1",
               "en-english-movement-movimenti-2",
-              "en-english-movement-movimenti-3"
+              "en-english-movement-movimenti-3",
+              "en-depth-english-letture-integrate-anatomia-1",
+              "en-depth-english-letture-integrate-anatomia-2",
+              "en-depth-english-letture-integrate-anatomia-3",
+              "en-depth-english-letture-integrate-anatomia-4",
+              "en-depth-english-letture-integrate-anatomia-5"
             ]
           },
           {
@@ -36902,7 +37999,8 @@
             "refs": [
               "english-anatomy/reading",
               "english-movement/scheletro",
-              "english-movement/muscoli"
+              "english-movement/muscoli",
+              "english-letture-integrate/anatomia"
             ],
             "status": "introduced",
             "note": "",
@@ -36916,7 +38014,12 @@
               "en-english-movement-muscoli-0",
               "en-english-movement-muscoli-1",
               "en-english-movement-muscoli-2",
-              "en-english-movement-muscoli-3"
+              "en-english-movement-muscoli-3",
+              "en-depth-english-letture-integrate-anatomia-1",
+              "en-depth-english-letture-integrate-anatomia-2",
+              "en-depth-english-letture-integrate-anatomia-3",
+              "en-depth-english-letture-integrate-anatomia-4",
+              "en-depth-english-letture-integrate-anatomia-5"
             ]
           },
           {
@@ -36925,7 +38028,9 @@
               "english-reading/strategie",
               "english-reading/dizionari",
               "english-evidence/strategie",
-              "english-evidence/fonti"
+              "english-evidence/fonti",
+              "english-letture-integrate/avviso",
+              "english-letture-integrate/risultati"
             ],
             "status": "introduced",
             "note": "",
@@ -36940,7 +38045,17 @@
               "en-english-evidence-fonti-0",
               "en-english-evidence-fonti-1",
               "en-english-evidence-fonti-2",
-              "en-english-evidence-fonti-3"
+              "en-english-evidence-fonti-3",
+              "en-depth-english-letture-integrate-avviso-1",
+              "en-depth-english-letture-integrate-avviso-2",
+              "en-depth-english-letture-integrate-avviso-3",
+              "en-depth-english-letture-integrate-avviso-4",
+              "en-depth-english-letture-integrate-avviso-5",
+              "en-depth-english-letture-integrate-risultati-1",
+              "en-depth-english-letture-integrate-risultati-2",
+              "en-depth-english-letture-integrate-risultati-3",
+              "en-depth-english-letture-integrate-risultati-4",
+              "en-depth-english-letture-integrate-risultati-5"
             ]
           },
           {
@@ -36949,7 +38064,10 @@
               "english-reading/abstract",
               "english-reading/lessico",
               "english-evidence/dati",
-              "english-evidence/precisione"
+              "english-evidence/precisione",
+              "english-relazioni/quantita",
+              "english-letture-integrate/risultati",
+              "english-letture-integrate/revisione"
             ],
             "status": "introduced",
             "note": "",
@@ -36964,7 +38082,22 @@
               "en-english-evidence-precisione-0",
               "en-english-evidence-precisione-1",
               "en-english-evidence-precisione-2",
-              "en-english-evidence-precisione-3"
+              "en-english-evidence-precisione-3",
+              "en-depth-english-relazioni-quantita-1",
+              "en-depth-english-relazioni-quantita-2",
+              "en-depth-english-relazioni-quantita-3",
+              "en-depth-english-relazioni-quantita-4",
+              "en-depth-english-relazioni-quantita-5",
+              "en-depth-english-letture-integrate-risultati-1",
+              "en-depth-english-letture-integrate-risultati-2",
+              "en-depth-english-letture-integrate-risultati-3",
+              "en-depth-english-letture-integrate-risultati-4",
+              "en-depth-english-letture-integrate-risultati-5",
+              "en-depth-english-letture-integrate-revisione-1",
+              "en-depth-english-letture-integrate-revisione-2",
+              "en-depth-english-letture-integrate-revisione-3",
+              "en-depth-english-letture-integrate-revisione-4",
+              "en-depth-english-letture-integrate-revisione-5"
             ]
           },
           {
@@ -36977,7 +38110,9 @@
               "english-revision/paragrafo",
               "english-revision/riassunto",
               "english-revision/messaggio",
-              "english-revision/prova"
+              "english-revision/prova",
+              "english-relazioni/nessi",
+              "english-letture-integrate/revisione"
             ],
             "status": "introduced",
             "note": "",
@@ -37002,7 +38137,17 @@
               "en-english-revision-prova-0",
               "en-english-revision-prova-1",
               "en-english-revision-prova-2",
-              "en-english-revision-prova-3"
+              "en-english-revision-prova-3",
+              "en-depth-english-relazioni-nessi-1",
+              "en-depth-english-relazioni-nessi-2",
+              "en-depth-english-relazioni-nessi-3",
+              "en-depth-english-relazioni-nessi-4",
+              "en-depth-english-relazioni-nessi-5",
+              "en-depth-english-letture-integrate-revisione-1",
+              "en-depth-english-letture-integrate-revisione-2",
+              "en-depth-english-letture-integrate-revisione-3",
+              "en-depth-english-letture-integrate-revisione-4",
+              "en-depth-english-letture-integrate-revisione-5"
             ]
           },
           {
@@ -37069,7 +38214,27 @@
               "en-english-tempi-passivo-0",
               "en-english-tempi-passivo-1",
               "en-english-tempi-passivo-2",
-              "en-english-tempi-passivo-3"
+              "en-english-tempi-passivo-3",
+              "en-depth-english-relazioni-gruppi-1",
+              "en-depth-english-relazioni-gruppi-2",
+              "en-depth-english-relazioni-gruppi-3",
+              "en-depth-english-relazioni-gruppi-4",
+              "en-depth-english-relazioni-gruppi-5",
+              "en-depth-english-relazioni-riferimenti-1",
+              "en-depth-english-relazioni-riferimenti-2",
+              "en-depth-english-relazioni-riferimenti-3",
+              "en-depth-english-relazioni-riferimenti-4",
+              "en-depth-english-relazioni-riferimenti-5",
+              "en-depth-english-relazioni-quantita-1",
+              "en-depth-english-relazioni-quantita-2",
+              "en-depth-english-relazioni-quantita-3",
+              "en-depth-english-relazioni-quantita-4",
+              "en-depth-english-relazioni-quantita-5",
+              "en-depth-english-relazioni-nessi-1",
+              "en-depth-english-relazioni-nessi-2",
+              "en-depth-english-relazioni-nessi-3",
+              "en-depth-english-relazioni-nessi-4",
+              "en-depth-english-relazioni-nessi-5"
             ]
           },
           {
@@ -37091,7 +38256,12 @@
               "en-english-communication-dialogo-0",
               "en-english-communication-dialogo-1",
               "en-english-communication-dialogo-2",
-              "en-english-communication-dialogo-3"
+              "en-english-communication-dialogo-3",
+              "en-depth-english-letture-integrate-avviso-1",
+              "en-depth-english-letture-integrate-avviso-2",
+              "en-depth-english-letture-integrate-avviso-3",
+              "en-depth-english-letture-integrate-avviso-4",
+              "en-depth-english-letture-integrate-avviso-5"
             ]
           },
           {
@@ -37113,7 +38283,12 @@
               "en-english-movement-movimenti-0",
               "en-english-movement-movimenti-1",
               "en-english-movement-movimenti-2",
-              "en-english-movement-movimenti-3"
+              "en-english-movement-movimenti-3",
+              "en-depth-english-letture-integrate-anatomia-1",
+              "en-depth-english-letture-integrate-anatomia-2",
+              "en-depth-english-letture-integrate-anatomia-3",
+              "en-depth-english-letture-integrate-anatomia-4",
+              "en-depth-english-letture-integrate-anatomia-5"
             ]
           },
           {
@@ -37135,7 +38310,12 @@
               "en-english-evidence-fonti-0",
               "en-english-evidence-fonti-1",
               "en-english-evidence-fonti-2",
-              "en-english-evidence-fonti-3"
+              "en-english-evidence-fonti-3",
+              "en-depth-english-letture-integrate-risultati-1",
+              "en-depth-english-letture-integrate-risultati-2",
+              "en-depth-english-letture-integrate-risultati-3",
+              "en-depth-english-letture-integrate-risultati-4",
+              "en-depth-english-letture-integrate-risultati-5"
             ]
           },
           {
@@ -37153,7 +38333,12 @@
               "en-english-revision-messaggio-0",
               "en-english-revision-messaggio-1",
               "en-english-revision-messaggio-2",
-              "en-english-revision-messaggio-3"
+              "en-english-revision-messaggio-3",
+              "en-depth-english-letture-integrate-revisione-1",
+              "en-depth-english-letture-integrate-revisione-2",
+              "en-depth-english-letture-integrate-revisione-3",
+              "en-depth-english-letture-integrate-revisione-4",
+              "en-depth-english-letture-integrate-revisione-5"
             ]
           }
         ]
@@ -38663,19 +39848,19 @@
   ],
   "checkpoint": {
     "status": "paused",
-    "updated": "2026-11-04",
-    "summary": "Integrati i contenuti didattici di 19 nuovi documenti: 25 lezioni, 113 sezioni, 228 quiz, 25 prove aperte e 9 schemi. Nessun allegato originale collegato o incorporato. Primo anno ancora incompleto; lavoro fermo dopo questa integrazione.",
-    "next": "Alla prossima richiesta: verificare le parti del programma di Psicobiologia non presenti nei documenti forniti, le letture monografiche e i moduli di sviluppo/didattica speciale. Il PDF di Anatomia invariato conserva il precedente confronto per nuclei, non una nuova verifica integrale. Non avviare altri esami automaticamente.",
+    "updated": "2026-11-05",
+    "summary": "Sviluppo in pausa su richiesta del 5 novembre. Recuperati i programmi analitici 2026/27 di Scienze biologiche e Anatomia. Confrontate 27 voci di Scienze biologiche e aggiunti due capitoli, 26 quiz e tre prove aperte. Anatomia richiede ora un confronto specifico e una prova di riconoscimento di 15 strutture.",
+    "next": "Alla prossima richiesta: Priorità: confrontare integralmente il programma Anatomia 2026/27, i relativi obiettivi e la prova con 15 strutture su una immagine/disegno; integrare le lacune risultanti. Per gli altri otto esami le schede consultate non contengono ancora testo analitico.",
     "examNotes": [
       {
         "id": "scienze-biologiche",
-        "label": "Verifica finale da terminare",
-        "remaining": "Confronto storico di Biologia applicata e Biochimica svolto. Restano programma e dispense del docente attuale, modalità di esame e verifica finale della preparazione."
+        "label": "Programma 2026/27 confrontato; verifica didattica da consolidare",
+        "remaining": "Confrontate le 27 voci correnti con lezioni ed esercizi. Colmate lacune su giunzioni, matrice, altri esosi e termogenesi. Restano dispense specifiche, conferma della discrepanza orale/scritto e verifica della preparazione separata nei due moduli."
       },
       {
         "id": "anatomia-umana",
-        "label": "Percorso pubblico sviluppato; verifica corrente da terminare",
-        "remaining": "Confrontate 75 voci 2024/25 e obiettivi. Disponibili laboratorio con 11 micrografie, viste regionali, ricostruzioni guidate e prove orali. Catalogo 2026/27: orale. Restano dettaglio analitico e materiali correnti; il campione di immagini non certifica riconoscimento su ogni preparato o preparazione individuale."
+        "label": "Programma 2026/27 recuperato; confronto da completare",
+        "remaining": "Il 5 novembre è stato recuperato il programma analitico 2026/27 di Francesco Girolamo. Il precedente confronto in 75 voci riguarda il 2024/25; non è automaticamente trasferito al nuovo programma. La prova corrente comprende orale e riconoscimento di 15 strutture su una immagine/disegno. Restano confronto analitico corrente, pratica su modelli 3D e prova visuale da 15 strutture."
       },
       {
         "id": "scienze-base",
@@ -38685,7 +39870,7 @@
       {
         "id": "scienze-psicopedagogiche",
         "label": "Materiali ampliati; esame da verificare",
-        "remaining": "47 lezioni complessive. Integrate le due presentazioni di Pedagogia, cinque di Psicologia, otto raccolte neurobiologiche e tre articoli. Il programma Fischetti è privo di anno e contiene annotazioni parzialmente illeggibili; non certifica tutti i capitoli dell’edizione assegnata. Restano monografia di Persano, dettaglio corrente e ulteriori materiali dei quattro moduli."
+        "remaining": "49 lezioni complessive; Psicologia dello sviluppo passa da quattro a sei, con osservazione delle capacità precoci, azione, comunicazione, funzioni esecutive, memoria, credenze e regolazione emotiva. Restano letture specifiche assegnate, monografia di Persano e confronto analitico corrente dei quattro moduli; le fonti storiche non certificano il programma 2026/27."
       },
       {
         "id": "scienze-giuridiche",
@@ -38715,7 +39900,7 @@
       {
         "id": "inglese",
         "label": "Percorso scritto ampliato; verifica corrente da terminare",
-        "remaining": "Dodici lezioni, 116 quiz scritti e 8 audio facoltativi. Confrontata la scheda 2024/25. Restano slide assegnate, dettaglio corrente, verifica delle produzioni libere e del livello linguistico; il formato a 15 quiz non certifica la prova attuale."
+        "remaining": "Quattordici lezioni, 156 quiz scritti e 8 audio facoltativi preesistenti. Grammatica di supporto, letture graduate, terminologia motoria e produzione scritta con modelli; approfonditi gruppi nominali, relative, quantità, negazioni e connettivi. Confronto storico 2024/25; dettaglio corrente e materiali del docente da verificare. Restano controllo delle produzioni libere e del livello individuale; la simulazione riprende il formato storico e non certifica la prova attuale."
       }
     ]
   },
